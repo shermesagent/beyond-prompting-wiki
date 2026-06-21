@@ -2,7 +2,7 @@
 
 > A living guide to the **operator → orchestrator shift**. If you've ever typed a prompt and thought "there has to be more than this" — start here.
 
-_17 pages across 6 sections. Updated daily. Git-backed, human-readable, cross-linked._
+_30 pages across 6 sections. Updated daily. Git-backed, human-readable, cross-linked._
 
 ---
 
