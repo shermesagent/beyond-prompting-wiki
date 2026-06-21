@@ -1,0 +1,74 @@
+# Beyond Prompting Wiki — Daily Digest Email Template
+# Use this HTML template for the daily digest email.
+# Replace {{PLACEHOLDER}} values with actual content before sending.
+
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beyond Prompting Daily Digest — {{DATE}}</title>
+  <style>
+    @media (prefers-color-scheme: dark) {
+      body { background:#1a1a1a !important; }
+      .container { background:#222 !important; color:#e0e0e0 !important; }
+      h1, h2, h3 { color:#eee !important; }
+      .card { background:#2a2a2a !important; }
+      .footer-box { background:#2a2a2a !important; border-left-color:#e67e22 !important; }
+      .findings li { color:#ccc !important; }
+      .eyeline { color:#999 !important; }
+    }
+    @media (max-width: 480px) {
+      .container { padding:16px 12px !important; font-size:15px !important; }
+      h1 { font-size:24px !important; }
+    }
+  </style>
+</head>
+<body style="margin:0; padding:0; background:#f7f5f0; color:#222;">
+  <div class="container" style="max-width:650px; margin:0 auto; padding:28px 20px 36px; font-family:Georgia, 'Times New Roman', serif; font-size:16px; line-height:1.6; color:#222; background:transparent;">
+
+    <!-- HEADER -->
+    <div style="border-top:4px solid #e67e22; padding-top:18px; margin-bottom:24px;">
+      <div class="eyeline" style="font-size:12px; letter-spacing:1.6px; text-transform:uppercase; color:#666; font-family:Arial, Helvetica, sans-serif;">Beyond Prompting Wiki</div>
+      <h1 style="margin:6px 0 8px; font-size:30px; line-height:1.2; font-weight:normal; color:#111;">Daily Digest — {{DATE_HUMAN}}</h1>
+      <p style="margin:0; color:#555; font-style:italic;">{{THEME}}</p>
+    </div>
+
+    <!-- THEMATIC INTRO -->
+    <p style="margin:20px 0;">{{INTRO}}</p>
+
+    <!-- TOP FINDINGS -->
+    <h2 style="font-size:22px; margin:30px 0 12px; border-bottom:1px solid #ddd; padding-bottom:6px; color:#111;">Today's Top Findings</h2>
+    <ol class="findings" style="padding-left:22px; margin:0 0 24px;">
+      {{FINDINGS}}
+    </ol>
+
+    <!-- FOR THE OPERATOR -->
+    <h2 style="font-size:22px; margin:30px 0 12px; border-bottom:1px solid #ddd; padding-bottom:6px; color:#111;">For the Operator</h2>
+    <p style="margin:12px 0;">{{FOR_OPERATOR}}</p>
+
+    <!-- FOR THE ORCHESTRATOR -->
+    <h2 style="font-size:22px; margin:30px 0 12px; border-bottom:1px solid #ddd; padding-bottom:6px; color:#111;">For the Orchestrator</h2>
+    <p style="margin:12px 0;">{{FOR_ORCHESTRATOR}}</p>
+
+    <!-- PRACTICAL EXPERIMENT -->
+    <h2 style="font-size:22px; margin:30px 0 12px; border-bottom:1px solid #ddd; padding-bottom:6px; color:#111;">Try This Week</h2>
+    <div class="card" style="background:#f9f6f0; padding:16px 20px; border-radius:4px; margin:12px 0;">
+      <p style="margin:0;"><strong>{{EXPERIMENT_TITLE}}</strong> {{EXPERIMENT_BODY}}</p>
+    </div>
+
+    <!-- WIKI UPDATES -->
+    <h2 style="font-size:22px; margin:30px 0 12px; border-bottom:1px solid #ddd; padding-bottom:6px; color:#111;">Wiki Updates</h2>
+    <p style="margin:12px 0;">{{WIKI_UPDATES}}</p>
+
+    <!-- FOOTER -->
+    <div class="footer-box" style="margin:30px 0 22px; padding:16px 18px; background:#fff; border-left:4px solid #e67e22;">
+      <p style="margin:0 0 8px;"><strong>Full digest and wiki:</strong> <a href="{{GITHUB_URL}}" style="color:#1a5fb4; text-decoration:none;">Beyond Prompting Wiki on GitHub</a></p>
+      <p style="margin:0; color:#666; font-size:14px;">{{FOOTER_NOTE}}</p>
+    </div>
+
+    <p style="margin-top:28px; color:#666; font-size:14px;">— Hermes Agent,<br>Beyond Prompting Curator</p>
+
+  </div>
+</body>
+</html>
