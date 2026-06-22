@@ -110,6 +110,18 @@ The shift from prompted to agentic in education isn't about replacing teachers. 
 
 ---
 
+## Real Districts, Real Patterns
+
+The Farmersville story is fictionalized, but the patterns are real. In June 2026, MagicSchool spotlighted **9 US school districts** demonstrating exactly this kind of thoughtful AI adoption. Their findings mirror the Farmersville lessons:
+
+- **Davis School District** committed to preserving human relationships, responsiveness, and personal attention — even while expanding AI use. Their framing: AI handles routine so humans can be human.
+- **Denver Public Schools** connected AI adoption to culturally and linguistically sustaining practices — using AI to support equity goals, not override them.
+- Across all 9 districts, the most important lesson was consistent: **success is rarely about the tool itself**. It's about system redesign, culture, and keeping human agency at the center.
+
+These districts aren't "using AI." They're orchestrating it — building workflows where AI does the routine work and teachers make the human decisions. They're living proof that the operator→orchestrator shift works at institutional scale.
+
+---
+
 ## Related Pages
 
 [[From Prompt to Pipeline]] · [[Task Decomposition]] · [[Delegation Thinking]] · [[Trust Calibration]] · [[Human-in-the-Loop]] · [[03-Real-World/README|03 — Real World Stories]]

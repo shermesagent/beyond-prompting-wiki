@@ -1,3 +1,13 @@
+---
+title: Cognitive Surrender
+created: 2026-06-21
+updated: 2026-06-22
+type: concept
+tags: [concept, barrier, mindset]
+sources: [raw/articles/augmentation-trap-caosun-aral-2026.md, raw/articles/cognitive-offloading-atrophy-risk-kennesaw-2026.md, raw/articles/accurate-but-not-confident-acm-2026.md]
+confidence: high
+---
+
 # Cognitive Surrender
 
 ## What It Is
@@ -29,6 +39,20 @@ Cognitive surrender often looks like this:
 - You catch yourself forwarding an AI response to someone else without vetting it first
 
 The tell: **if you wouldn't put your name on it without reading every line, you might be surrendering.**
+
+## What the Research Says
+
+New research (April–May 2026) has sharpened our understanding of why cognitive surrender happens and how dangerous it is:
+
+- **The Augmentation Trap** (Caosun & Aral, arXiv 2026): AI tools create front-loaded productivity gains that mask long-term skill erosion. Workers and organizations can end up *less capable* than before adoption — even though every quarter looked good. The trap is worse for less experienced workers, who can deskill to zero while experienced workers maintain their judgment.
+
+- **Frictionless = Atrophy Risk** (Kennesaw State, May 2026): Interfaces that eliminate all friction maximize cognitive offloading — which feels good in the moment but accelerates skill loss. The research proposes *strategic friction* as a design principle: not making AI harder to use, but making it harder to use *without thinking*.
+
+- **Confidence Calibration Erodes** (ACM, April 2026): The first empirical evidence that AI support impairs users' ability to accurately judge their own performance. People get better results while getting *worse at knowing when they're right or wrong*.
+
+The message is clear: cognitive surrender isn't just a bad habit — it's the default outcome of frictionless AI. Preventing it requires deliberate design.
+
+See also: [[The Augmentation Trap]] · [[Friction by Design]]
 
 ## Try This
 

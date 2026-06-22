@@ -1,3 +1,13 @@
+---
+title: Trust Calibration
+created: 2026-06-21
+updated: 2026-06-22
+type: concept
+tags: [concept, barrier, orchestrator]
+sources: [raw/articles/accurate-but-not-confident-acm-2026.md]
+confidence: high
+---
+
 # Trust Calibration
 
 ## What It Is
@@ -35,6 +45,18 @@ Poor calibration looks like:
 - You distrust everything and spend as much time verifying as you would doing the work yourself
 - A single hallucination makes you abandon the tool entirely (or, the flip side: repeated hallucinations don't change your behavior)
 - You can't predict, before running a task, whether the AI will handle it well
+
+## What the Research Says
+
+An ACM study (April 2026) provides the first empirical evidence that **AI support impairs confidence calibration** — your ability to accurately judge your own performance. Here's the finding in plain language:
+
+People using AI get better results but *worse at knowing when they're right or wrong*. Specifically:
+- They become **overconfident** when the AI is wrong — trusting bad output because the AI sounds confident
+- They become **underconfident** when they're actually right — doubting their own correct judgment when the AI disagrees
+
+This means calibration doesn't just stay flat with AI use. It *degrades*. Unless you actively maintain it. The orchestrator's verification checkpoints aren't optional — they're the countermeasure.
+
+See also: [[Cognitive Surrender]] · [[Friction by Design]]
 
 ## Try This
 
