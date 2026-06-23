@@ -16,7 +16,8 @@ You don't need to read them in order. Jump to whichever title grabs you. But if 
 4. **[[Cognitive Surrender]]** — the trap to watch for.
 5. **[[Friction by Design]]** — the counterintuitive practice that keeps your judgment alive.
 6. **[[The Augmentation Trap]]** — when AI productivity gains hide skill erosion.
-7. **[[Memory as Infrastructure]]** — the system-level upgrade.
+7. **[[Co-Construction Blindness]]** — you're not ON the loop, you're IN it.
+8. **[[Memory as Infrastructure]]** — the system-level upgrade.
 
 ---
 
@@ -38,6 +39,7 @@ They came out of real research — papers on human-AI collaboration, case studie
 | [[Cognitive Surrender]] | Am I getting lazy with my own judgment? | Everyone |
 | [[Friction by Design]] | Where should my workflow slow down so I stay sharp? | Orchestrator |
 | [[The Augmentation Trap]] | Is my productivity hiding skill loss? | Everyone |
+| [[Co-Construction Blindness]] | Are my inputs shaping the outputs in ways I don't see? | Everyone |
 | [[Memory as Infrastructure]] | Why does agent memory beat copying old chats? | Architect |
 
 ---

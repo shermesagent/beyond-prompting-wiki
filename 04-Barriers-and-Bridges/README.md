@@ -18,6 +18,7 @@ Each barrier page follows the same structure. We name what's happening, explain 
 | [[Fear of Losing Control]] | "If I hand something off to an agent, I won't know what it'll do" — the psychological weight of delegation | Build confidence through boundaries, verification loops, and starting absurdly small |
 | [[Trust Calibration]] | The pendulum between blind trust and blanket skepticism | A practical sliding scale you can adjust per task, not per tool |
 | [[Prompt as Safety Blanket]] | The compulsion to write the perfect prompt before the agent can start — a delay tactic dressed as diligence | Ship the messy first version and let the agent show you what it understood |
+| [[Human Readiness Archetypes]] | Which of the five AI adoption postures fits me — and my team? | Everyone |
 
 ---
 

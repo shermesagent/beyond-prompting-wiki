@@ -3,6 +3,19 @@
 > Chronological record of all wiki actions. Append-only.
 > Format: `## YYYY-MM-DD | action | subject`
 
+## 2026-06-23 | ingest | Daily curation — 5 sources on co-construction, human readiness, and agent design
+- Theme: You're IN the Loop, Not ON It — The Hidden Human Dimension of Working with Agents
+- Sources ingested:
+  - Ximenes — "Co-Construction Blindness and Asymmetric Epistemic Vulnerability in Human-LLM Interaction" (arXiv:2606.20762)
+  - Regan, Stevens, Martin — "Measuring the Occupation-Level Impact of AbbVie Intelligence" (arXiv:2606.20635)
+  - Zhu, Wang, Xiao, Shen — "Design Principles for Human-Agent Interaction" (arXiv:2606.20630)
+  - WEF — "The 5 Faces of Human Readiness for AI Adoption" (weforum.org, June 1, 2026)
+  - Mollick — "What It Feels Like to Work with Mythos" (oneusefulthing.org, June 9, 2026)
+- Pages updated: Human in the Loop (+co-construction reframing), Delegation Thinking (+Specification Gap section, +Mollick Mythos story), Trust Calibration (+Co-Construction Problem section), The School District Shift (+AbbVie enterprise parallel)
+- Pages created: Co-Construction Blindness, Human Readiness Archetypes
+- Digest: 00-Daily-Digests/2026-06-23.md
+- Navigation: Home.md, 02-Key-Concepts/README.md, 04-Barriers-and-Bridges/README.md updated
+
 ## 2026-06-22 | ingest | Daily curation — 5 sources on cognitive offloading, atropy risk, and friction
 - Theme: The Hidden Cost of Making AI Too Easy
 - Sources ingested:

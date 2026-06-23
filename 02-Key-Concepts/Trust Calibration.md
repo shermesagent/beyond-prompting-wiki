@@ -56,7 +56,15 @@ People using AI get better results but *worse at knowing when they're right or w
 
 This means calibration doesn't just stay flat with AI use. It *degrades*. Unless you actively maintain it. The orchestrator's verification checkpoints aren't optional — they're the countermeasure.
 
-See also: [[Cognitive Surrender]] · [[Friction by Design]]
+See also: [[Cognitive Surrender]] · [[Friction by Design]] · [[Co-Construction Blindness]]
+
+## The Co-Construction Problem
+
+There's another layer to trust calibration that most discussions miss. When you're evaluating AI output, you're not checking something the AI produced independently — you're checking something *you co-constructed*. Your prompt, your history, your assumptions all shaped the output. This means calibration has to account for **your own influence on the system** (see [[Co-Construction Blindness]]).
+
+When you and the AI agree, is that because the answer is right — or because you both arrived at it through the same biased path? When the AI produces exactly what you expected, that's often the *most* dangerous moment — because your expectations shaped the output that's now confirming your expectations.
+
+The orchestrator's calibration practice: occasionally ask yourself "what would change if I had approached this differently?" — not to doubt the answer, but to check whether your own framing closed off alternatives the AI would have surfaced if you'd asked another way.
 
 ## Try This
 
@@ -72,7 +80,7 @@ Keep this map. Update it next week. You're building your own calibration data.
 
 ## Related Pages
 
-[[Cognitive Surrender]] · [[Task Decomposition]] · [[Delegation Thinking]] · [[Memory as Infrastructure]] · [[04-Barriers-and-Bridges/README|04 — Barriers & Bridges]]
+[[Cognitive Surrender]] · [[Task Decomposition]] · [[Delegation Thinking]] · [[Memory as Infrastructure]] · [[04-Barriers-and-Bridges/README|04 — Barriers & Bridges]] · [[Co-Construction Blindness]]
 
 ## Tags
 

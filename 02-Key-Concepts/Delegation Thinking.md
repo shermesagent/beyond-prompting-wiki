@@ -49,9 +49,19 @@ Now write your instruction as if you're texting a colleague. Not "help me with..
 
 Do this once. That's it. Just notice how it feels different from your usual opener.
 
+## The Specification Gap
+
+Research from a new benchmark (SpecBench, June 2026) found that today's AI agents fall into exactly two unhelpful patterns when given vague instructions: they either jump into implementation too fast (assuming they understood you) or exhaust their question budget by asking about every possible ambiguity. Neither works.
+
+The skill that bridges this gap is **specification before execution**. It's what Ethan Mollick did when he handed a frontier agent a 19-page design document *before* letting it work: "Here's what I need, here are the constraints, here are the checkpoints. Now go." The agent worked autonomously for nine and a half hours — and got it right.
+
+The orchestrator's version of this: before delegating any multi-step task, write the spec. Not the prompt — the spec. Inputs, outputs, constraints, success criteria. If you can't write the spec, you haven't decomposed the task enough. The spec *is* the delegation. Everything after that is execution.
+
+See also: [[Task Decomposition]] · [[Co-Construction Blindness]]
+
 ## Related Pages
 
-[[Task Decomposition]] · [[Trust Calibration]] · [[01-The-Shift/README|The Orchestrator Mindset]] · [[01-The-Shift/README|The Operator Mindset]] · [[Cognitive Surrender]]
+[[Task Decomposition]] · [[Trust Calibration]] · [[01-The-Shift/README|The Orchestrator Mindset]] · [[01-The-Shift/README|The Operator Mindset]] · [[Cognitive Surrender]] · [[Co-Construction Blindness]]
 
 ## Tags
 

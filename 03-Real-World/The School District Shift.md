@@ -122,9 +122,20 @@ These districts aren't "using AI." They're orchestrating it — building workflo
 
 ---
 
+## The Enterprise Parallel: Tools AND Training Matter
+
+A massive internal study from AbbVie (June 2026) provides hard evidence for something the Farmersville story implies: better tools and better training are independent levers — you need both. Analyzing 598,744 AI conversations across 192 occupations, researchers found:
+
+- A platform upgrade alone increased AI applicability by +10.0% (statistically significant, p<0.001)
+- A structured AI Learning Summit increased it by +6.68% (independently significant)
+
+Neither substituted for the other. You can't train your way out of bad tools, and you can't tool your way out of untrained people. For schools, this means investing in both the workflows (the tools) AND the teacher training (the humans) — not choosing between them. The districts that get this right, like the ones MagicSchool profiled, do both.
+
+---
+
 ## Related Pages
 
-[[From Prompt to Pipeline]] · [[Task Decomposition]] · [[Delegation Thinking]] · [[Trust Calibration]] · [[Human-in-the-Loop]] · [[03-Real-World/README|03 — Real World Stories]]
+[[From Prompt to Pipeline]] · [[Task Decomposition]] · [[Delegation Thinking]] · [[Trust Calibration]] · [[Human in the Loop]] · [[03-Real-World/README|03 — Real World Stories]]
 
 ## Tags
 
