@@ -120,6 +120,18 @@ The Farmersville story is fictionalized, but the patterns are real. In June 2026
 
 These districts aren't "using AI." They're orchestrating it — building workflows where AI does the routine work and teachers make the human decisions. They're living proof that the operator→orchestrator shift works at institutional scale.
 
+### Beyond Prompting Hits the Conference Circuit
+
+In June 2026, something significant happened: a school district CIO gave a talk at the ESD 112 Forward conference titled exactly **"Beyond Prompting: Leveraging AI to Build Systems That Save Teachers Time."** Marc Elliott, CIO of Olympia School District, didn't present a theory. He presented what his district is actually doing — building systems where AI handles the repetitive parts of teaching so humans can focus on the parts that only humans can do.
+
+The title matters. Three years ago, the talk would have been "How to Use ChatGPT for Lesson Planning." The shift from *using tools* to *building systems* — from prompting to orchestrating — is now being presented by practitioners to practitioners, not just by researchers to readers.
+
+### The Workflow-First Lesson
+
+David Ross, former CEO of the Partnership for 21st Century Learning, crystallized a truth in Getting Smart (May 2026): **"AI in schools won't matter until school workflow changes."** His analysis of the shift from fixed instruction to adaptive, personalized learning systems underscores what Farmersville discovered experientially: you can't layer AI on top of a broken process and expect transformation. The workflow redesign *is* the shift.
+
+Ross's framing applies beyond education. Any organization — a school, a small business, a marketing team — that treats AI as a faster way to do old work will only get old work done faster. The orchestrator doesn't ask "how can AI speed up what I already do?" They ask "what would the workflow look like if I designed it around delegation from the start?"
+
 ---
 
 ## The Enterprise Parallel: Tools AND Training Matter

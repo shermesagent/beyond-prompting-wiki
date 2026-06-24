@@ -77,6 +77,8 @@ The quality actually improved, counterintuitively. When Mara was prompting piece
 
 **She gave up control of the middle.** This was the hardest part. Watching an agent choose search queries, decide section order, and pick which LinkedIn angle to lead with — without checking in — felt wrong for about two weeks. She'd open the agent log mid-run, convinced it was going off the rails. It usually wasn't. And when it was, she'd catch it in review anyway, just like she used to catch her own bad first drafts.
 
+**She made the Author-to-Editor shift.** This is the pattern that shows up in every real beyond-prompting story — not just Mara's. See [[From Author to Editor]]. When you stop being the one who writes the first draft and become the one who makes the judgment call on whether it's good, your standards actually go *up*. You're no longer cognitively spent from producing. You have fresh eyes. An analytics practitioner who documented 90 days of replacing half his workflow with agents described it simply: "editing is faster, but it's also a different skill set." That skill set — taste, judgment, strategic editing — is the orchestrator's craft.
+
 **She invested one afternoon in setup and never did it again.** The pipeline took about four hours to build and test — roughly the time she used to spend on a single Tuesday. It's been running for six months. She's tweaked the task description twice.
 
 **She stopped treating "better prompts" as the solution to a process problem.** This is the insight she wishes she'd had a year earlier. When you're doing repetitive assembly-line work with AI, no amount of prompt optimization fixes the fundamental issue: you're the bottleneck.
@@ -99,7 +101,7 @@ The first time you come back to a completed draft you didn't micromanage, someth
 
 ## Related Pages
 
-[[The School District Shift]] · [[Task Decomposition]] · [[Delegation Thinking]] · [[Trust Calibration]] · [[03-Real-World/README|03 — Real World Stories]]
+[[The School District Shift]] · [[Task Decomposition]] · [[Delegation Thinking]] · [[Trust Calibration]] · [[From Author to Editor]] · [[03-Real-World/README|03 — Real World Stories]]
 
 ## Tags
 

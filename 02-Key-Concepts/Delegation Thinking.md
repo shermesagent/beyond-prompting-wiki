@@ -59,9 +59,21 @@ The orchestrator's version of this: before delegating any multi-step task, write
 
 See also: [[Task Decomposition]] · [[Co-Construction Blindness]]
 
+## Delegation Beyond Productivity: The Accessibility Lens
+
+A case study from arXiv (June 2026) reframes delegation in a powerful way. Researchers studied a low-vision technology expert using agentic web browsers — AI systems that navigate the web on behalf of a user. Instead of manually clicking through pages, the user describes what they need and the agent finds it. The navigation experience was described as "notably fluid and flexible."
+
+This isn't just about efficiency. It's about **who gets to participate**. Delegation isn't a productivity hack for power users — it's a design pattern that removes barriers. The same skill that lets a visually impaired user navigate the web through conversation is the skill that lets a teacher delegate TEKS alignment to an agent so they can focus on students. Delegation thinking isn't about working faster. It's about working in a way that doesn't exhaust the human.
+
+## The Author-to-Editor Shift
+
+The most consistent pattern in real delegation stories isn't about the AI — it's about the human. The person's job shifts from *author* to *editor*. An analytics practitioner who replaced half his workflow with agents for 90 days: "My job shifted from author to editor, and editing is faster — but it's also a different skill set."
+
+This is delegation in practice: you stop producing first drafts and start making judgment calls on complete ones. See [[From Author to Editor]] for the full concept.
+
 ## Related Pages
 
-[[Task Decomposition]] · [[Trust Calibration]] · [[01-The-Shift/README|The Orchestrator Mindset]] · [[01-The-Shift/README|The Operator Mindset]] · [[Cognitive Surrender]] · [[Co-Construction Blindness]]
+[[Task Decomposition]] · [[Trust Calibration]] · [[01-The-Shift/README|The Orchestrator Mindset]] · [[01-The-Shift/README|The Operator Mindset]] · [[Cognitive Surrender]] · [[Co-Construction Blindness]] · [[From Author to Editor]]
 
 ## Tags
 

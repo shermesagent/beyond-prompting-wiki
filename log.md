@@ -3,6 +3,21 @@
 > Chronological record of all wiki actions. Append-only.
 > Format: `## YYYY-MM-DD | action | subject`
 
+## 2026-06-24 | ingest | Daily curation — 6 sources on workflow redesign, author-to-editor shift, delegation as access, and enterprise tipping point
+- Theme: The Stories Are Real — From School Districts to Analytics Teams, the Operator→Orchestrator Shift Is Happening
+- Sources ingested:
+  - David Ross — "Changing Work Flow of Schools" (Getting Smart, May 11, 2026)
+  - Marc Elliott — "Beyond Prompting: Leveraging AI to Build Systems That Save Teachers Time" (ESD 112 Forward 2026 conference)
+  - Sandeep Saini — "Governing the Agentic Enterprise" (Berkeley CMR, Mar 20, 2026)
+  - "'Zooming In' on Agentic Web Browsers as Assistive Technologies" (arXiv:2606.24870, Jun 24, 2026)
+  - "I Replaced Half My Analytics Workflow With AI Agents for 90 Days" (Medium, Jun 10, 2026)
+  - "Agentic AI's Enterprise Tipping Point" (FifthRow, Apr 28, 2026)
+- Pages updated: The School District Shift (+ESD 112 +Getting Smart +workflow-first lesson), From Prompt to Pipeline (+author-to-editor), Delegation Thinking (+accessibility lens +author-to-editor section)
+- Pages created: From Author to Editor
+- Digest: 00-Daily-Digests/2026-06-24.md
+- Navigation: Home.md, 02-Key-Concepts/README.md updated
+- Sources: 6 entries added to sources/sources.jsonl
+
 ## 2026-06-23 | ingest | Daily curation — 5 sources on co-construction, human readiness, and agent design
 - Theme: You're IN the Loop, Not ON It — The Hidden Human Dimension of Working with Agents
 - Sources ingested:
