@@ -14,6 +14,25 @@ This is the core shift. Orchestration is where Beyond Prompting becomes a daily 
 
 The practical unlock is compounding: one orchestrated workflow replaces five to ten operator-mode sessions. You get leverage — more output per unit of your attention. You also get consistency, because orchestrated workflows follow the same decision logic every time.
 
+## The Shift Has Hard Data Now
+
+SolarWinds' 2026 IT Trends Report (1,000+ IT professionals surveyed, April 2026) confirms four dimensions of the shift — the same ones operators experience as they move toward orchestration:
+
+| Dimension | What It Looks Like for an Orchestrator |
+|-----------|---------------------------------------|
+| **More strategic (52%)** | You define goals and constraints, not steps |
+| **More automation-driven (52%)** | Recurring work runs without you; you review, not execute |
+| **More cross-functional (47%)** | Your workflows connect tools and systems, not just use one |
+| **More oversight-focused (41%)** | Your attention goes to verification and edge cases, not production |
+
+These aren't just IT trends. They're the shape of every knowledge job as AI agents become capable teammates. The orchestrator who can design workflows across these four dimensions has a skill set that compounds — each new workflow makes the next one easier to build because you reuse patterns, memory, and verification strategies.
+
+## The Coaching Stance
+
+Orchestration isn't just about delegation. It's about *how* you delegate. New research on AI coaching (arXiv, June 2026) confirms what skilled orchestrators already sense: AI that never steps back produces skill atrophy. The effective stance is **strategic scaffolding** — the AI provides support, then deliberately withdraws so the human stays sharp on judgment calls.
+
+An orchestrator with the coaching stance asks: "What does the human need to stay good at, even as the AI gets better at everything else?" The answer shapes which parts of the workflow stay automated and which parts the human practices deliberately. See [[The Coaching Stance]] for the full concept.
+
 ## How to Spot It in Your Day
 
 You are orchestrating when:

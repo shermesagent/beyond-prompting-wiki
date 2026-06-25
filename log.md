@@ -56,3 +56,18 @@
 - Git repo initialized at github.com/shermesagent/beyond-prompting-wiki
 - Daily curator cron set for 7:15 AM CT
 - Daily email cron set for 8:01 AM CT
+
+## 2026-06-25 | ingest | Daily curation — 6 sources on operator→orchestrator survey data, LLM trust rationales, AI coaching skill atrophy, and cognitive ecology
+- Theme: The Data Agrees — 80% of IT Pros Confirm the Operator→Orchestrator Shift
+- Sources ingested:
+  - SolarWinds — "2026 IT Trends Report: The Human Side of Autonomous IT" (Apr 15, 2026)
+  - Sun et al. — "When LLM Rationales Become User-Facing" (arXiv:2606.25489, Jun 24, 2026)
+  - Wang et al. — "AI Coaching for Accelerating Human Skill Development" (arXiv:2606.25337, Jun 25, 2026)
+  - Thillaivasana et al. — "The Digital Pirahã Condition" (arXiv:2606.25287, Jun 25, 2026)
+  - Raji et al. — "Bridging Predictions and Interventions" (arXiv:2606.25668, Jun 25, 2026)
+  - "Intelligent AI Delegation at Work" (Innovative Human Capital, Apr 26, 2026)
+- Pages updated: The Operator Mindset (+SolarWinds data +4 dimensions +self-check), The Orchestrator Mindset (+SolarWinds dimensions +coaching stance), Why This Matters (+survey validation +Digital Pirahã context), Trust Calibration (+LLM rationales study +auditable output design), The Augmentation Trap (+AI coaching skill atrophy evidence +productive failures), Cognitive Surrender (+Digital Pirahã Condition +analog sanctuaries)
+- Pages created: The Coaching Stance
+- Digest: 00-Daily-Digests/2026-06-25.md
+- Navigation: Home.md, 02-Key-Concepts/README.md updated
+- Sources: 6 entries added to sources/sources.jsonl

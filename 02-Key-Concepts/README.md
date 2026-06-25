@@ -18,7 +18,8 @@ You don't need to read them in order. Jump to whichever title grabs you. But if 
 6. **[[The Augmentation Trap]]** — when AI productivity gains hide skill erosion.
 7. **[[Co-Construction Blindness]]** — you're not ON the loop, you're IN it.
 8. **[[From Author to Editor]]** — the single most consistent pattern in every real beyond-prompting story.
-9. **[[Memory as Infrastructure]]** — the system-level upgrade.
+9. **[[The Coaching Stance]]** — how to use AI as a coach that builds your skills, not a crutch that erodes them.
+10. **[[Memory as Infrastructure]]** — the system-level upgrade.
 
 ---
 
@@ -42,6 +43,7 @@ They came out of real research — papers on human-AI collaboration, case studie
 | [[The Augmentation Trap]] | Is my productivity hiding skill loss? | Everyone |
 | [[Co-Construction Blindness]] | Are my inputs shaping the outputs in ways I don't see? | Everyone |
 | [[From Author to Editor]] | Why does every beyond-prompting story end with the person editing instead of writing? | Operator → Orchestrator |
+| [[The Coaching Stance]] | How do I use AI to build my skills rather than erode them? | Orchestrator |
 | [[Memory as Infrastructure]] | Why does agent memory beat copying old chats? | Architect |
 
 ---

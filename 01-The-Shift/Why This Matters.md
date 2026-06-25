@@ -16,6 +16,18 @@ This matters for three reasons: personal productivity, career trajectory, and or
 
 **Organizational leverage.** The most valuable person in an AI-augmented organization is not the one who uses AI the most. It is the one who makes AI *usable* for everyone else — building the prompts, workflows, memory systems, and guardrails that multiply the whole team's output. Moving beyond prompting moves you from consumer to force multiplier.
 
+## The Data Is In: This Shift Has Hard Numbers
+
+SolarWinds' 2026 IT Trends Report surveyed over 1,000 IT professionals in April 2026 and found that **80% agree their role is shifting from operator to orchestrator** — the exact language this wiki uses. The survey identified four specific dimensions: 52% say the role is more strategic, 52% more automation-driven, 47% more cross-functional, and 41% more oversight-focused.
+
+This matters because IT is the leading indicator for every knowledge profession. The shift that IT pros are documenting right now — roles changing, skills evolving, the operator ceiling closing in — arrives in education, management, healthcare, and small business within 12-18 months. If you're not an IT professional and you're reading this, you're seeing your future.
+
+## There's a Deeper Layer: What AI Does TO You While It Helps
+
+The shift isn't just about what you can produce with AI. New research shows AI-mediated environments change *how you think*. The Digital Pirahã Condition (arXiv, June 2026) argues that constant exposure to AI-mediated information — immediate, fragmented, externally scaffolded — can erode the recursive, integrative reasoning that professional work demands. The solution isn't to avoid AI. It's to design your cognitive environment intentionally — including time and space where AI is absent so deep thinking can flourish.
+
+This wiki matters because it's not just a productivity playbook. It's a guide to navigating the shift *without losing yourself in it*. The orchestrator who can still think deeply without AI is the one who stays relevant. See [[Cognitive Surrender]] and [[The Augmentation Trap]] for the full picture.
+
 ## How to Spot It in Your Day
 
 You know this matters to you when:

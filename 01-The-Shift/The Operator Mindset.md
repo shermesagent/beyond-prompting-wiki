@@ -8,6 +8,18 @@ This is not a failure mode. It is Phase 2 of human-AI collaboration — Phase 1 
 
 The limitation is leverage: an operator can only produce as much as they can personally direct. There are only so many hours in the day and only so many prompt-response cycles you can sustain before fatigue sets in. You are the bottleneck.
 
+## The Data Confirms It
+
+In April 2026, SolarWinds surveyed over 1,000 IT professionals across operations, leadership, engineering, and security for their annual IT Trends Report. The headline: **80% of IT pros say their role is shifting from operator to orchestrator.** They used the exact language this wiki is built around — the shift isn't theoretical.
+
+The survey identified four dimensions of the shift:
+- **52% say the role is becoming more strategic** — less "do this," more "decide what matters"
+- **52% say it's more automation-driven** — less manual execution, more system supervision
+- **47% say it's more cross-functional** — less siloed work, more connecting tools and teams
+- **41% say it's more oversight-focused** — less doing the work, more verifying it's done right
+
+IT professionals are the canary in the coal mine. What they experience today — roles changing, skills shifting, the operator ceiling closing in — reaches every knowledge profession within 12-18 months. If 80% of IT pros are already feeling this, the rest of the workforce is next.
+
 ## Why It Matters for Moving Beyond Prompting
 
 You cannot skip the Operator phase. Orchestrators who never operated don't know what good delegation looks like — they hand off unclear tasks and get unclear results. The Operator Mindset builds the judgment that makes the Orchestrator Mindset effective.
@@ -25,6 +37,17 @@ You are operating when:
 - You say "let me try that again with a better prompt" as your primary improvement strategy
 
 None of these are bad. They are accurate descriptions of Phase 2. Spotting them simply tells you where you are on the map.
+
+## The Self-Check: Where Are You on the Shift?
+
+Use the four SolarWinds dimensions to locate yourself:
+
+1. **Strategic:** Am I spending time deciding *what* to do, or just *how* to do it?
+2. **Automation-driven:** Do I have at least one recurring task that runs without me touching it?
+3. **Cross-functional:** Am I connecting work across tools and systems, or working inside one?
+4. **Oversight-focused:** When something goes wrong, do I know where to look and how to intervene?
+
+If you score low on most of these, you're in solid operator territory — and that's fine. The 80% of IT pros who said they're shifting didn't all start from the same place. They just noticed the direction.
 
 ## Try This
 

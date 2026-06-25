@@ -1,7 +1,7 @@
 ---
 title: Cognitive Surrender
 created: 2026-06-21
-updated: 2026-06-22
+updated: 2026-06-25
 type: concept
 tags: [concept, barrier, mindset]
 sources: [raw/articles/augmentation-trap-caosun-aral-2026.md, raw/articles/cognitive-offloading-atrophy-risk-kennesaw-2026.md, raw/articles/accurate-but-not-confident-acm-2026.md]
@@ -51,6 +51,16 @@ New research (April–May 2026) has sharpened our understanding of why cognitive
 - **Confidence Calibration Erodes** (ACM, April 2026): The first empirical evidence that AI support impairs users' ability to accurately judge their own performance. People get better results while getting *worse at knowing when they're right or wrong*.
 
 The message is clear: cognitive surrender isn't just a bad habit — it's the default outcome of frictionless AI. Preventing it requires deliberate design.
+
+## The Digital Pirahã Condition: AI Is Changing How You Think
+
+A provocative new framework (arXiv, June 2026) gives cognitive surrender a deeper name. The "Digital Pirahã Condition" argues that AI-mediated digital environments systematically cultivate cognitive patterns of *immediacy, fragmentation, externalization, and algorithmic filtering* — habits that are adaptive inside digital systems but create an **ecological mismatch** with the recursive, integrative reasoning that professional and academic work demands.
+
+The name comes from the Pirahã people of the Amazon, whose language lacks recursive structures (no embedded clauses, no counting). The authors aren't saying AI makes people Pirahã — they're saying AI environments reward a similar cognitive style. You get good at quick scanning, pattern-matching, and trusting external scaffolds. You get worse at holding multiple ideas in your head, working through their implications, and building deep synthesis.
+
+The key insight: **these aren't psychological deficits. They're adaptations.** If you work in an environment where AI handles synthesis, you stop practicing synthesis. It's not a character flaw — it's ecology. The solution: "intentional cognitive niche construction" — deliberately designing parts of your work and learning environment to preserve and strengthen recursive thinking. The paper recommends "analog sanctuaries" — designated times and spaces where AI is absent, not because AI is bad, but because deep thinking requires uninterrupted cognitive space.
+
+**For the orchestrator:** schedule deliberate no-AI time. Not forever. Not even all day. But regularly. The person who can still do deep synthesis *without* AI has a capability advantage over the person who can't. See [[The Coaching Stance]] for the practice of designing relationships with AI that build skills rather than erode them.
 
 See also: [[The Augmentation Trap]] · [[Friction by Design]]
 

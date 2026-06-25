@@ -1,7 +1,7 @@
 ---
 title: Trust Calibration
 created: 2026-06-21
-updated: 2026-06-22
+updated: 2026-06-25
 type: concept
 tags: [concept, barrier, orchestrator]
 sources: [raw/articles/accurate-but-not-confident-acm-2026.md]
@@ -57,6 +57,16 @@ People using AI get better results but *worse at knowing when they're right or w
 This means calibration doesn't just stay flat with AI use. It *degrades*. Unless you actively maintain it. The orchestrator's verification checkpoints aren't optional — they're the countermeasure.
 
 See also: [[Cognitive Surrender]] · [[Friction by Design]] · [[Co-Construction Blindness]]
+
+## Why More Explanation Isn't Always Better
+
+A new study (arXiv, June 2026) tested what happens when LLMs show their step-by-step reasoning alongside answers. The counterintuitive finding: **incorrect rationales lowered user trust MORE than showing no rationale at all.** When the AI produced wrong reasoning to justify a correct answer, users trusted the system *less* than if it had just given the answer silently.
+
+Eye-tracking data (N=54) confirmed this: incorrect rationales drew more visual attention and larger pupil dilation — signs of increased cognitive effort as users tried to reconcile the contradiction between correct answer and wrong explanation. Participants spent MORE mental energy on the badly-explained output, not less.
+
+The researchers' conclusion: "more reasoning is not always better." The better design is **selective, auditable output** — show the reasoning only when it's verifiable, linked to evidence, and calibrated in how certain it sounds.
+
+**Why this matters for orchestrators:** When you design agent workflows that produce human-reviewable output, don't just dump the agent's chain-of-thought. That's transparency theater. Instead, build a structured summary the reviewer can verify in 30 seconds: "Here's the decision, here are the 3 data points it's based on, here's the one assumption that could be wrong." Good calibration isn't about showing everything. It's about showing what can be checked.
 
 ## The Co-Construction Problem
 
