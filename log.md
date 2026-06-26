@@ -71,3 +71,18 @@
 - Digest: 00-Daily-Digests/2026-06-25.md
 - Navigation: Home.md, 02-Key-Concepts/README.md updated
 - Sources: 6 entries added to sources/sources.jsonl
+
+## 2026-06-26 | ingest | Daily curation — 6 sources on AI placement design, oversight spectrum, governance inversion, and the slop ceiling
+- Theme: The Placement Problem — Where AI Goes in Your Workflow Changes Everything
+- Sources ingested:
+  - Brcic and Frljic — "The Effortless Trap: Productive Struggle, AI, and the Illusion of Learning" (arXiv:2606.26181, Jun 26, 2026)
+  - Yu Wang — "Pingquanqi (Equalizer)" (arXiv:2606.26573, Jun 26, 2026)
+  - Frimpong — "The Governance Inversion Hypothesis" (arXiv:2606.26117, Jun 26, 2026)
+  - Woodbridge and O'Hare — "Dream machine -- the next creative economy" (arXiv:2606.26114, Jun 26, 2026)
+  - Ai et al. — "HiLSVA" (arXiv:2606.26614, Jun 26, 2026)
+  - Industry sources: Strata.io HITL guide, WEF ACAP protocol, MIT Sloan agentic AI explainer
+- Pages updated: The Augmentation Trap (+Effortless Trap 17 percent worse data), Friction by Design (+effortless diagnostic), The Coaching Stance (+six-move model), Human in the Loop (+oversight spectrum)
+- Pages created: The Placement Rule
+- Digest: 00-Daily-Digests/2026-06-26.md
+- Navigation: Home.md (count 32, added Placement Rule), 02-Key-Concepts/README.md (added concept 10)
+- Sources: 6 entries added to sources/sources.jsonl

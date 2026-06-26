@@ -77,13 +77,19 @@ If you lead a team or organization:
 - **Protect novices.** The research shows that less experienced workers are most vulnerable to total deskilling. Pair them with experienced mentors who model judgment, not just AI use.
 - **Design for complement, not replacement.** AI workflows should make workers *more capable without AI*, not more dependent on it. If using AI makes someone worse at their job without AI, the workflow is destructive.
 
-## New Evidence: Over-Assistance Causes Measurable Skill Atrophy
+## New Evidence: The Same AI Can Make You 17% Worse or 2x Better — Based Entirely on Placement
 
-A reinforcement learning study (arXiv, June 2026) tested AI coaching for human skill development in a drone racing task (N=33). The key finding: **AI copilots that provide too much assistance induce over-reliance and measurable skill atrophy** — the human gets worse when the AI isn't there. The fix: "strategic scaffolding and stepping back" — the AI must know *when to withdraw support* so the learner experiences "productive failures" that drive real skill growth.
+Two new papers (arXiv, June 2026) provide the strongest causal evidence yet for the augmentation trap — and reveal what the escape looks like.
 
-This confirms the augmentation trap at a neurological level. It's not just a theory about incentives — it's a measurable effect on human performance. AI that never lets go makes you weaker. The solution isn't to avoid AI. It's to design AI relationships where the tool deliberately steps back, creating space for human judgment to grow.
+**The Effortless Trap (Brcic & Frljic, June 2026):** Researchers tested the same AI model in three configurations with high school students. The results are stunning: an **unguarded AI helper** (answers any question directly) left students **17% worse** on an unaided exam than peers with no AI at all. The **same model rebuilt to withhold answers** completely erased the harm — students performed equal to the no-AI group. And an **engineered tutor** (designed to scaffold learning without giving answers) **roughly doubled** learning.
 
-The researchers formalized this as a game where the coach's objective isn't to maximize task performance *now* but to maximize the learner's *independent competence* later. That's a fundamentally different goal from how most AI assistants are built. See [[The Coaching Stance]] for how to apply this in your own workflows.
+The key diagnostic: **"If letting AI in makes the task feel effortless, it is in the wrong place."** Learning requires productive struggle. Remove the struggle and you remove the learning — even though everything *feels* smoother. This is the augmentation trap at the level of a single task: AI that feels helpful in the moment is degrading you in ways you can't detect until you're tested without it.
+
+**AI Coaching Study (Wang et al., June 2026):** N=33 drone racing study found that AI copilots providing too much assistance caused over-reliance and measurable skill atrophy — the human gets worse when the AI isn't there. The fix: "strategic scaffolding and stepping back" — the AI must know *when to withdraw support* so the learner experiences "productive failures" that drive real skill growth.
+
+These two papers together confirm the augmentation trap from both directions: the problem (effortless AI degrades you) and the solution (AI that steps back builds you). The researchers formalized the coaching problem as a game where the objective isn't to maximize task performance *now* but to maximize the learner's *independent competence* later. That's a fundamentally different goal from how most AI assistants are built.
+
+The practical takeaway: **placement is everything.** Same AI. Same task. The only variable is where in the thinking process AI appears. Before the thinking → harm. After the thinking → neutral to positive. During the thinking but withholding answers → growth. See [[The Placement Rule]] and [[The Coaching Stance]] for how to apply this in your own workflows.
 
 ## Related Pages
 

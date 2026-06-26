@@ -1,6 +1,16 @@
 # Human in the Loop
 
-**Human in the loop is a design pattern where AI performs tasks autonomously but a human reviews or approves before actions take effect — it's the safety rail that lets you delegate with confidence.**
+**"Human in the loop" isn't just one thing — it's a spectrum of oversight that ranges from reviewing every action before it happens to checking in once a week to make sure nothing's on fire.**
+
+Most people think of human-in-the-loop as a checkbox: "Yes, a human approved this." But real orchestration uses three distinct oversight modes, each with a different relationship between human judgment and agent action:
+
+| Mode | What the Human Does | Feels Like | Best For |
+|------|-------------------|------------|----------|
+| **Human-in-the-loop** | Reviews and approves every action before it executes | "I see everything before it goes out" | High-stakes tasks, novel workflows, anything client-facing |
+| **Human-on-the-loop** | Monitors a running workflow, intervenes only on anomalies | "I trust the routine but watch for surprises" | Routine tasks with known failure modes, recurring reports |
+| **Human-over-the-loop** | Sets constraints and goals, reviews outcomes periodically | "I defined the guardrails — now I check the dashboard" | Well-calibrated automations, low-risk scheduled tasks |
+
+These three modes often coexist in a single workflow. An agent might draft content (on-the-loop — you watch for tone issues), format it for publication (over-the-loop — you check the final render), and send it to a client (in-the-loop — you approve before it goes).
 
 *But here's the catch:* you're not just ON the loop, reviewing from outside. You're IN the loop — every prompt, every follow-up, every bit of context you've provided has shaped what the agent produced. This is **co-construction blindness** (see [[Co-Construction Blindness]]) — the failure to recognize that you're not a neutral auditor. You're part of the system that generated the output.
 

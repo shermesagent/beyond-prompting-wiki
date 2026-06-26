@@ -2,7 +2,7 @@
 
 > A living guide to the **operator → orchestrator shift**. If you've ever typed a prompt and thought "there has to be more than this" — start here.
 
-_31 pages across 6 sections. Updated daily. Git-backed, human-readable, cross-linked._
+_32 pages across 6 sections. Updated daily. Git-backed, human-readable, cross-linked._
 
 ---
 
@@ -40,7 +40,7 @@ The core idea. What it means, why it matters, and the three mindsets along the p
 
 ### [[02-Key-Concepts/README|02 — Key Concepts]]
 Approachable distillations of research into learning concepts you can use today.
-→ [[Task Decomposition]] · [[Delegation Thinking]] · [[Cognitive Surrender]] · [[Trust Calibration]] · [[Friction by Design]] · [[The Augmentation Trap]] · [[Co-Construction Blindness]] · [[From Author to Editor]] · [[The Coaching Stance]] · [[Memory as Infrastructure]] · [[Human in the Loop]]
+→ [[Task Decomposition]] · [[Delegation Thinking]] · [[Cognitive Surrender]] · [[Trust Calibration]] · [[Friction by Design]] · [[The Augmentation Trap]] · [[Co-Construction Blindness]] · [[From Author to Editor]] · [[The Coaching Stance]] · [[The Placement Rule]] · [[Memory as Infrastructure]] · [[Human in the Loop]]
 
 ### [[03-Real-World/README|03 — Real World Stories]]
 Case studies, transformation stories, and honest failure postmortems.
@@ -60,7 +60,7 @@ Plain-language definitions of every key term.
 
 ### 00-Daily-Digests
 Daily curated research digests — what we found, what it means, and how to use it.
-→ [[2026-06-25|Today's Digest]]
+→ [[2026-06-26|Today's Digest]]
 
 ---
 
@@ -80,7 +80,7 @@ _Last 7 days of activity._
 
 | Date | Pages Changed |
 |------|---------------|
-| 2026-06-25 | Daily digest + 1 new concept (The Coaching Stance) + 6 pages updated — SolarWinds operator→orchestrator survey data, LLM rationales trust study, AI coaching skill atrophy research, Digital Pirahã Condition |
+| 2026-06-26 | Daily digest + 1 new concept (The Placement Rule) + 6 pages updated — Effortless Trap placement research, oversight spectrum (in/on/over the loop), governance inversion hypothesis, slop ceiling |
 | 2026-06-24 | Daily digest + 1 new concept (From Author to Editor) + 3 pages updated + ESD 112 & Getting Smart sources |
 | 2026-06-23 | Daily digest + 2 new concepts + 4 pages updated + 2 new pages (Co-Construction Blindness, Human Readiness Archetypes) |
 | 2026-06-22 | Daily digest + 3 pages updated + 2 new concepts (Friction by Design, The Augmentation Trap) |

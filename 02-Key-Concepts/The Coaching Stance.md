@@ -1,10 +1,10 @@
 ---
 title: The Coaching Stance
 created: 2026-06-25
-updated: 2026-06-25
+updated: 2026-06-26
 type: concept
 tags: [concept, workflow, orchestrator, practice, research]
-sources: [raw/articles/ai-coaching-skill-development-arxiv-2026.md]
+sources: [raw/articles/ai-coaching-skill-development-arxiv-2026.md, raw/articles/the-effortless-trap-arxiv-2026.md]
 confidence: medium
 ---
 
@@ -65,13 +65,15 @@ This game builds the most important coaching-stance muscle: knowing the differen
 
 - **AI Coaching Study (arXiv, June 2026):** N=33 drone racing study found that AI copilots providing too much assistance caused over-reliance and skill atrophy. Strategic scaffolding — support followed by deliberate withdrawal — produced the best learning outcomes. The coach's objective function was *independent human competence*, not immediate task performance.
 
+- **The Effortless Trap (Brcic & Frljic, arXiv, June 2026):** The same AI model produced 17% worse exam scores when unguarded, neutral results when guarded, and ~2x learning when engineered as a tutor. The six-move model for placing AI in learning: **Prime → Probe → Point → Attach → Strengthen → Test.** The first and last moves must be human-only. AI scaffolding goes in the middle four. The diagnostic: if letting AI in makes the task feel effortless, it is in the wrong place.
+
 - **The Augmentation Trap (Caosun & Aral, arXiv, April 2026):** The structural model showing that even fully-informed, rational decision-makers will adopt AI in ways that erode skill — because the short-term productivity gains outweigh the long-term costs. The coaching stance is the counter-strategy: AI use that builds rather than replaces.
 
-See also: [[The Augmentation Trap]] · [[Cognitive Surrender]] · [[Trust Calibration]]
+See also: [[The Augmentation Trap]] · [[The Placement Rule]] · [[Cognitive Surrender]] · [[Trust Calibration]]
 
 ## Related Pages
 
-[[The Augmentation Trap]] · [[Cognitive Surrender]] · [[Trust Calibration]] · [[Delegation Thinking]] · [[Friction by Design]] · [[The Orchestrator Mindset]]
+[[The Augmentation Trap]] · [[The Placement Rule]] · [[Cognitive Surrender]] · [[Trust Calibration]] · [[Delegation Thinking]] · [[Friction by Design]] · [[The Orchestrator Mindset]]
 
 ## Tags
 

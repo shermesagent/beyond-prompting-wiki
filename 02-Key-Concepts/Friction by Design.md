@@ -1,10 +1,10 @@
 ---
 title: Friction by Design
 created: 2026-06-22
-updated: 2026-06-22
+updated: 2026-06-26
 type: concept
 tags: [concept, workflow, orchestrator, barrier]
-sources: [raw/articles/cognitive-offloading-atrophy-risk-kennesaw-2026.md, raw/articles/deliberate-friction-ai-design-flywheel-2026.md]
+sources: [raw/articles/cognitive-offloading-atrophy-risk-kennesaw-2026.md, raw/articles/deliberate-friction-ai-design-flywheel-2026.md, raw/articles/the-effortless-trap-arxiv-2026.md]
 confidence: medium
 ---
 
@@ -25,6 +25,10 @@ The operator's dream is frictionless AI: type a quick prompt, get a perfect resu
 - **The augmentation trap activates.** Short-term productivity hides long-term skill loss. (See [[The Augmentation Trap]].)
 
 The orchestrator knows this and builds *friction on purpose*. Not to make work harder — to keep their judgment alive while AI handles everything else.
+
+**A new diagnostic makes this concrete.** Research from June 2026 (Brcic & Frljic, "The Effortless Trap") tested the same AI model in three configurations with students: unguarded helper (answers directly), guarded helper (withholds answers), and engineered tutor (scaffolds without solving). Results: unguarded AI → 17% worse exam scores; guarded AI → harm erased; engineered tutor → roughly doubled learning. The diagnostic: **"If letting AI in makes the task feel effortless, it is in the wrong place."**
+
+This is friction by design in one sentence. The right place for AI is where thinking has already happened — not where thinking needs to happen. When AI makes a step effortless, it has replaced the cognitive work that step requires. Friction is how you protect the steps where thinking matters.
 
 Friction by design is what separates someone who *uses* AI from someone who *orchestrates* it. The user lets the tool dictate the pace. The orchestrator designs the pace to protect what matters.
 
@@ -71,7 +75,7 @@ That's friction by design: a small slowdown that pays back in better judgment.
 
 ## Related Pages
 
-[[Cognitive Surrender]] · [[Trust Calibration]] · [[The Augmentation Trap]] · [[Delegation Thinking]] · [[Task Decomposition]]
+[[Cognitive Surrender]] · [[Trust Calibration]] · [[The Augmentation Trap]] · [[Delegation Thinking]] · [[Task Decomposition]] · [[The Placement Rule]]
 
 ## Tags
 
