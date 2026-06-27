@@ -12,7 +12,7 @@ The trap to avoid is over-decomposition — breaking things so small that you're
 
 ## Related Pages
 
-[[Delegation]] · [[Orchestration]] · [[Agent]] · [[02-Key-Concepts/Task Decomposition|Task Decomposition]] · [[05-Practice/First Delegation|First Delegation]]
+[[Delegation]] · [[Orchestration]] · [[Agent]] · [[Task Decomposition]] · [[First Delegation]]
 
 ## Tags
 

@@ -2,7 +2,7 @@
 
 > A living guide to the **operator → orchestrator shift**. If you've ever typed a prompt and thought "there has to be more than this" — start here.
 
-_32 pages across 6 sections. Updated daily. Git-backed, human-readable, cross-linked._
+_35 pages across 6 sections. Updated daily. Git-backed, human-readable, cross-linked._
 
 ---
 
@@ -28,7 +28,7 @@ Not sure where to begin? This path takes about 15 minutes and gives you the map.
 3. **[[The Orchestrator Mindset]]** — what it looks like to delegate instead of direct (3 min)
 4. **[[The Architect Mindset]]** — where the real leverage lives (3 min)
 5. **[[Task Decomposition]]** — the single most important skill for the shift (4 min)
-6. Pick a path: [[Education]] · [[Small Business]] · [[Personal Productivity]] · see [[03-Real-World/README|Real World Stories]]
+6. Pick a path: [[The School District Shift]] · [[Small Business Automation]] · [[From Prompt to Pipeline]] · see [[03-Real-World/README|Real World Stories]]
 
 ---
 
@@ -60,14 +60,14 @@ Plain-language definitions of every key term.
 
 ### 00-Daily-Digests
 Daily curated research digests — what we found, what it means, and how to use it.
-→ [[2026-06-26|Today's Digest]]
+→ [[2026-06-27|Today's Digest]]
 
 ---
 
 ## How to Use This Wiki
 
 - **Browse by section** — each section has a README at the top
-- **Follow wikilinks** — `[[Like This]]` — to hop between related concepts
+- **Follow wikilinks** — `[[What Is Beyond Prompting]]` — to hop between related concepts
 - **Read the daily digest** — it's a self-contained snapshot of what's new
 - **Try an exercise** — the practice section is designed to take <10 minutes
 - **Open in Obsidian** — this folder works as an Obsidian vault. Graph view is illuminating
@@ -80,6 +80,7 @@ _Last 7 days of activity._
 
 | Date | Pages Changed |
 |------|---------------|
+| 2026-06-27 | Daily digest + 3 new pages (Prompt as Safety Blanket, Build a Tiny Pipeline, The Daily Standup) + 5 Glossary wikilinks fixed + cross-section lint pass — structural health Day 7 |
 | 2026-06-26 | Daily digest + 1 new concept (The Placement Rule) + 6 pages updated — Effortless Trap placement research, oversight spectrum (in/on/over the loop), governance inversion hypothesis, slop ceiling |
 | 2026-06-24 | Daily digest + 1 new concept (From Author to Editor) + 3 pages updated + ESD 112 & Getting Smart sources |
 | 2026-06-23 | Daily digest + 2 new concepts + 4 pages updated + 2 new pages (Co-Construction Blindness, Human Readiness Archetypes) |

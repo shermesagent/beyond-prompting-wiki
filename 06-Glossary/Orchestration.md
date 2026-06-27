@@ -12,7 +12,7 @@ In the operator→orchestrator journey, orchestration is the skill that separate
 
 ## Related Pages
 
-[[Delegation]] · [[Decomposition]] · [[Agent]] · [[Human in the Loop]] · [[02-Key-Concepts/Task Decomposition|Task Decomposition]]
+[[Delegation]] · [[Decomposition]] · [[Agent]] · [[Human in the Loop]] · [[Task Decomposition]]
 
 ## Tags
 

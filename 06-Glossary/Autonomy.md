@@ -12,7 +12,7 @@ For the operator→orchestrator journey, autonomy is where trust calibration mee
 
 ## Related Pages
 
-[[Human in the Loop]] · [[Agent]] · [[Memory]] · [[Tool Use]] · [[01-The-Shift/README|The Architect Mindset]] · [[02-Key-Concepts/Trust Calibration|Trust Calibration]]
+[[Human in the Loop]] · [[Agent]] · [[Memory]] · [[Tool Use]] · [[The Architect Mindset]] · [[Trust Calibration]]
 
 ## Tags
 

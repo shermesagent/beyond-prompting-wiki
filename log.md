@@ -86,3 +86,25 @@
 - Digest: 00-Daily-Digests/2026-06-26.md
 - Navigation: Home.md (count 32, added Placement Rule), 02-Key-Concepts/README.md (added concept 10)
 - Sources: 6 entries added to sources/sources.jsonl
+
+## 2026-06-27 | lint + create | Day 7 — Cross-section structural health, 3 missing pages created, 5 Glossary wikilinks fixed
+- Theme: The Map Is Complete — From Audit to Standup, the Practice Path Is Fully Built
+- Pages created:
+  - Prompt as Safety Blanket (04-Barriers-and-Bridges)
+  - Build a Tiny Pipeline (05-Practice)
+  - The Daily Standup (05-Practice)
+- Pages updated:
+  - Home.md: page count 32→35, newcomer path fixed, recent updates table, Today's Digest link, example wikilink fixed
+  - 05-Practice/README.md: added Ongoing Practice section with Daily Standup
+  - 04-Barriers-and-Bridges/README.md: updated Prompt as Safety Blanket description
+  - 06-Glossary/ (Decomposition.md, Delegation.md, Orchestration.md, Autonomy.md, Memory.md, Human in the Loop.md): fixed cross-directory wikilinks → pathless
+- Lint findings resolved:
+  - 3 planned pages now created (Prompt as Safety Blanket, Build a Tiny Pipeline, The Daily Standup)
+  - 6 cross-directory wikilinks in Glossary fixed
+  - Aspirational links in newcomer path (Education, Personal Productivity, Small Business) replaced with real pages
+  - Example wikilink [[Like This]] replaced
+  - Home.md page count corrected (32→35)
+- Digest: 00-Daily-Digests/2026-06-27.md
+- Navigation: Home.md, 05-Practice/README.md, 04-Barriers-and-Bridges/README.md updated
+- Sources: AI Agency Knowledgebase cross-pollination (Agentic Workflow Patterns, Beyond Prompting framework, Adoption Readiness Checklist)
+- Deepened from AI Agency KB: pipeline patterns (prompt chaining, routing, handoff design), governance inversion check, attestation readiness

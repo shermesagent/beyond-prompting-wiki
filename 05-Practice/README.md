@@ -14,6 +14,10 @@ This is where the operator→orchestrator shift stops being something you read a
 | 2 | [[First Delegation]] | 10 min | Pick one recurring task and design a real agent workflow for it |
 | 3 | [[Build a Tiny Pipeline]] | 10 min | Chain two tasks together and watch them run without you |
 
+## Ongoing Practice
+
+After the three-week progression, [[The Daily Standup]] is your maintenance habit — 5 minutes a day to review what ran, what worked, and what needs adjusting. It's the feedback loop that keeps your pipelines healthy and your delegation muscles sharp.
+
 ### Week 1 — Audit
 Before you change anything, you need to see what you're actually doing. Most people have no idea what patterns live in their chat history. Week 1 is about honest observation: what kinds of tasks are you using AI for, and which of those could be handed off entirely?
 

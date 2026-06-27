@@ -12,7 +12,7 @@ The skill transfers directly from managing people. If you've ever given a collea
 
 ## Related Pages
 
-[[Decomposition]] · [[Orchestration]] · [[Agent]] · [[Human in the Loop]] · [[02-Key-Concepts/Delegation Thinking|Delegation Thinking]] · [[05-Practice/First Delegation|First Delegation]]
+[[Decomposition]] · [[Orchestration]] · [[Agent]] · [[Human in the Loop]] · [[Delegation Thinking]] · [[First Delegation]]
 
 ## Tags
 

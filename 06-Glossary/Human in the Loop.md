@@ -26,7 +26,7 @@ A well-placed human-in-the-loop checkpoint doesn't slow things down — it speed
 
 ## Related Pages
 
-[[Autonomy]] · [[Delegation]] · [[Orchestration]] · [[02-Key-Concepts/Trust Calibration|Trust Calibration]] · [[04-Barriers-and-Bridges/Fear of Losing Control|Fear of Losing Control]] · [[Co-Construction Blindness]]
+[[Autonomy]] · [[Delegation]] · [[Orchestration]] · [[Trust Calibration]] · [[Fear of Losing Control]] · [[Co-Construction Blindness]]
 
 ## Tags
 

@@ -12,7 +12,7 @@ For the operator→orchestrator journey, memory is what makes delegation sustain
 
 ## Related Pages
 
-[[Agent]] · [[Autonomy]] · [[Tool Use]] · [[02-Key-Concepts/Memory as Infrastructure|Memory as Infrastructure]] · [[01-The-Shift/README|The Architect Mindset]]
+[[Agent]] · [[Autonomy]] · [[Tool Use]] · [[Memory as Infrastructure]] · [[The Architect Mindset]]
 
 ## Tags
 
