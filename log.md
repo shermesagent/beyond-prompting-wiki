@@ -108,3 +108,17 @@
 - Navigation: Home.md, 05-Practice/README.md, 04-Barriers-and-Bridges/README.md updated
 - Sources: AI Agency Knowledgebase cross-pollination (Agentic Workflow Patterns, Beyond Prompting framework, Adoption Readiness Checklist)
 - Deepened from AI Agency KB: pipeline patterns (prompt chaining, routing, handoff design), governance inversion check, attestation readiness
+
+## 2026-06-28 | ingest | Daily curation — 4 sources from AI Agency Knowledgebase cross-pollination on agency expansion, decision labels, and architecture-over-model-access
+- Theme: The Deeper Why — Moving Beyond Prompting Isn't About Doing More. It's About Being Capable of More.
+- Sources ingested:
+  - AI Agency Knowledgebase — Superagency (organizing principle for the beyond-prompting shift)
+  - AI Agency Knowledgebase — Task-Level AI Adoption (the four labels framework: automate, augment, human-only, prohibit)
+  - AI Agency Knowledgebase — June 27 digest — The Gatekeeping Layer (frontier access restricted, application democratized)
+  - AI Agency Knowledgebase — Agentic Workflow Patterns — The Shaping Layer (architecture shapes outcomes more than model capability)
+- Pages created: The Four Decision Labels
+- Pages updated: Why This Matters (+Agency Expansion section +four labels +strategic positioning), The Orchestrator Mindset (+Four Decision Labels +agency expansion +Architecture Over Model Access), Delegation Thinking (+cross-reference to The Four Decision Labels), Home.md (count 35 to 36, new concept link, recent updates), 02-Key-Concepts/README.md (new concept added)
+- Digest: 00-Daily-Digests/2026-06-28.md
+- Navigation: Home.md, 02-Key-Concepts/README.md updated
+- Sources: 4 entries added to sources/sources.jsonl
+- Note: Weekend run — web search unavailable, web_extract credit-exhausted. Pivoted to internal cross-pollination from AI Agency Knowledgebase.

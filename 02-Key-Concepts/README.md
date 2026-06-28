@@ -20,7 +20,8 @@ You don't need to read them in order. Jump to whichever title grabs you. But if 
 8. **[[From Author to Editor]]** — the single most consistent pattern in every real beyond-prompting story.
 9. **[[The Coaching Stance]]** — how to use AI as a coach that builds your skills, not a crutch that erodes them.
 10. **[[The Placement Rule]]** — the single most practical diagnostic for where AI belongs: if it feels effortless, it's in the wrong place.
-11. **[[Memory as Infrastructure]]** — the system-level upgrade.
+11. **[[The Four Decision Labels]]** — the simplest delegation framework: automate, augment, human-only, prohibit.
+12. **[[Memory as Infrastructure]]** — the system-level upgrade.
 
 ---
 
@@ -46,6 +47,7 @@ They came out of real research — papers on human-AI collaboration, case studie
 | [[From Author to Editor]] | Why does every beyond-prompting story end with the person editing instead of writing? | Operator → Orchestrator |
 | [[The Coaching Stance]] | How do I use AI to build my skills rather than erode them? | Orchestrator |
 | [[The Placement Rule]] | Where does AI belong in my thinking process? | Operator → Orchestrator |
+| [[The Four Decision Labels]] | Should this task be automated, augmented, kept human, or prohibited? | Everyone |
 | [[Memory as Infrastructure]] | Why does agent memory beat copying old chats? | Architect |
 
 ---

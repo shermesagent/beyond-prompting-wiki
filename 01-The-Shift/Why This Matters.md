@@ -6,7 +6,21 @@ The shift from operator to orchestrator to architect is not a taxonomy exercise.
 
 When you operate, you trade your time for AI output one exchange at a time. It is better than doing the work manually, but your throughput is capped by how many interactions you can sustain in a day. When you orchestrate, you batch those exchanges — one instruction produces the work of ten or twenty manual interactions. When you architect, you build systems that produce work without you in the loop at all, freeing your attention for the highest-value decisions.
 
-This matters for three reasons: personal productivity, career trajectory, and organizational impact.
+This matters for three reasons: personal productivity, career trajectory, and organizational impact. But those are the surface reasons. The deeper reason — the one that sticks when novelty fades and tool fatigue sets in — is agency.
+
+## Beyond Productivity: The Agency Expansion
+
+Productivity is about doing more in less time. Agency is about being capable of more, period. The operator→orchestrator shift isn't just a productivity upgrade — it's a capability expansion.
+
+Think about what you *can't do* right now that delegation would make possible:
+
+- A teacher with 30 students can't differentiate every lesson by hand. But a teacher who delegates differentiation to an agent can personalize learning for all 30 in the time it used to take to plan for five. That's not time saved — it's reach gained.
+- A small business owner can't afford a research department. But an owner who delegates competitive analysis to an agent can make evidence-based decisions that used to require a team of five. That's not efficiency — it's capability.
+- A manager can't read every team member's project updates in detail. But a manager who delegates synthesis to an agent can spot patterns across 50 projects and intervene before small problems become crises. That's not speed — it's foresight.
+
+Every delegable task you master doesn't just save you minutes. It gives you access to work that was previously impossible — too time-consuming, too expensive, too specialized. The orchestrator's true advantage isn't doing more. It's being capable of more.
+
+**Source:** Adapted from the Superagency concept — AI that expands human agency by giving more people access to expertise, leverage, and tools that used to be scarce.
 
 ## Why It Matters for Moving Beyond Prompting
 
@@ -15,6 +29,8 @@ This matters for three reasons: personal productivity, career trajectory, and or
 **Career.** The market is currently flooded with people who can prompt. It is not flooded with people who can design agentic systems, build memory infrastructure, and compose multi-agent workflows. The skills this wiki teaches — delegation design, system architecture, verification strategies — are the ones that will differentiate AI practitioners over the next five years. Prompting is becoming table stakes. Orchestration and architecture are the new frontier.
 
 **Organizational leverage.** The most valuable person in an AI-augmented organization is not the one who uses AI the most. It is the one who makes AI *usable* for everyone else — building the prompts, workflows, memory systems, and guardrails that multiply the whole team's output. Moving beyond prompting moves you from consumer to force multiplier.
+
+**Strategic positioning.** There's a structural tension playing out right now: frontier AI access is becoming more restricted (the White House now approves GPT-5.6 access customer-by-customer), while application-layer tools that don't require frontier access are becoming more powerful (non-programmers building software, non-designers designing, non-specialists directing creative production). The orchestrator who builds skills — decomposition, specification, verification — rather than dependencies on specific models wins either way. Your architecture is your moat. Your model access is not.
 
 ## The Data Is In: This Shift Has Hard Numbers
 
@@ -40,11 +56,15 @@ You know this matters to you when:
 
 ## Try This
 
-Calculate your "AI leverage ratio" for this week. Count how many minutes you spent directly interacting with AI versus how many minutes of work the AI actually produced. If you prompted for 90 minutes and got 90 minutes of output, your ratio is 1:1. If you prompted for 30 minutes and got 3 hours of output, your ratio is 1:6. Write that number down. Next week, try to double it — not by working harder, but by moving one task from operator mode to orchestrator mode.
+**The Leverage Ratio Check.** Calculate your "AI leverage ratio" for this week. Count how many minutes you spent directly interacting with AI versus how many minutes of work the AI actually produced. If you prompted for 90 minutes and got 90 minutes of output, your ratio is 1:1. If you prompted for 30 minutes and got 3 hours of output, your ratio is 1:6. Write that number down. Next week, try to double it — not by working harder, but by moving one task from operator mode to orchestrator mode.
+
+**The Agency Audit.** Pick one thing you currently *can't* do — too time-consuming, too specialized, too expensive. Ask: could delegation make this possible? Don't solve it today. Just name it. Write it down. Revisit in a month. The gap between what you can't do now and what delegation makes possible is the real measure of the shift.
+
+**The Label Check.** Run your three most frequent AI tasks through the Four Decision Labels (see [[The Four Decision Labels]]). Are they all in "augment"? Pick one that should be automated and make a plan.
 
 ## Related Pages
 
-[[What Is Beyond Prompting]] · [[The Operator Mindset]] · [[The Orchestrator Mindset]] · [[The Architect Mindset]]
+[[What Is Beyond Prompting]] · [[The Operator Mindset]] · [[The Orchestrator Mindset]] · [[The Architect Mindset]] · [[The Four Decision Labels]]
 
 ## Tags
 

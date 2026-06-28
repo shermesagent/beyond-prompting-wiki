@@ -27,6 +27,7 @@ You're practicing delegation thinking when:
 - You catch yourself asking "who should do this?" rather than "how should I do this?"
 - You give an agent a task, a deadline, and a deliverable format — then walk away
 - You review agent output against a checklist you defined beforehand, not a vibe
+- You can classify any task into one of the Four Decision Labels without hesitation (see [[The Four Decision Labels]])
 
 You're still in operator mode when:
 
@@ -73,7 +74,7 @@ This is delegation in practice: you stop producing first drafts and start making
 
 ## Related Pages
 
-[[Task Decomposition]] · [[Trust Calibration]] · [[01-The-Shift/README|The Orchestrator Mindset]] · [[01-The-Shift/README|The Operator Mindset]] · [[Cognitive Surrender]] · [[Co-Construction Blindness]] · [[From Author to Editor]]
+[[Task Decomposition]] · [[Trust Calibration]] · [[01-The-Shift/README|The Orchestrator Mindset]] · [[01-The-Shift/README|The Operator Mindset]] · [[Cognitive Surrender]] · [[Co-Construction Blindness]] · [[From Author to Editor]] · [[The Four Decision Labels]]
 
 ## Tags
 
