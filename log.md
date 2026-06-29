@@ -122,3 +122,16 @@
 - Navigation: Home.md, 02-Key-Concepts/README.md updated
 - Sources: 4 entries added to sources/sources.jsonl
 - Note: Weekend run — web search unavailable, web_extract credit-exhausted. Pivoted to internal cross-pollination from AI Agency Knowledgebase.
+
+## 2026-06-29 | ingest | Daily curation — 3 sources on cognitive cost of prompting, delegation frameworks, and the delegation spectrum
+- Theme: The Hidden Cost of Prompting — Your Brain Is Spending More Than You Think
+- Sources ingested:
+  - Matsui et al. — "Keystroke Dynamics Reveal Cognitive Effort During Prompting" (arXiv:2606.28090, Jun 26, 2026)
+  - Tomasev, Franklin and Osindero — "Intelligent AI Delegation" (Google DeepMind, arXiv:2602.11865, Feb 12, 2026)
+  - Vinicius Fruet — "6 Levels of AI Delegation: A Framework for AI Management" (Metal Toad, Mar 11, 2026)
+- Pages updated: Delegation Thinking (+The Delegation Spectrum section with 6 levels, +cognitive savings connection), Cognitive Surrender (+The Cognitive Cost of Prompting evidence, updated frontmatter)
+- Pages created: none (delegation spectrum enriches existing page rather than warranting standalone)
+- Digest: 00-Daily-Digests/2026-06-29.md
+- Navigation: Home.md (Today Digest link, recent updates table), 02-Key-Concepts/README.md (delegation spectrum reference)
+- Sources: 3 entries added to sources/sources.jsonl
+- Note: web_extract fully unavailable (401 errors, 4 consecutive failures). Source discovery via web_search summaries and arXiv RSS feeds. Monday run — arXiv active.

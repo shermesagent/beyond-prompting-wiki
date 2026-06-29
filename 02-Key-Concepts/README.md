@@ -38,7 +38,7 @@ They came out of real research — papers on human-AI collaboration, case studie
 | Concept | What It Answers | For |
 |---------|----------------|-----|
 | [[Task Decomposition]] | How do I break a big goal into pieces an agent can handle? | Orchestrator |
-| [[Delegation Thinking]] | How do I stop asking "what do I type" and start asking "what can I hand off"? | Operator → Orchestrator |
+| [[Delegation Thinking]] | How do I stop asking "what do I type" and start asking "what can I hand off"? Plus: the 6-level delegation spectrum. | Operator → Orchestrator |
 | [[Trust Calibration]] | When should I trust the output, and when should I dig in? | Orchestrator |
 | [[Cognitive Surrender]] | Am I getting lazy with my own judgment? | Everyone |
 | [[Friction by Design]] | Where should my workflow slow down so I stay sharp? | Orchestrator |

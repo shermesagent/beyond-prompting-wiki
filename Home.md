@@ -60,7 +60,7 @@ Plain-language definitions of every key term.
 
 ### 00-Daily-Digests
 Daily curated research digests — what we found, what it means, and how to use it.
-→ [[2026-06-28|Today's Digest]]
+→ [[2026-06-29|Today's Digest]]
 
 ---
 
@@ -80,13 +80,13 @@ _Last 7 days of activity._
 
 | Date | Pages Changed |
 |------|---------------|
+| 2026-06-29 | Daily digest + Delegation Thinking deepened (6-level delegation spectrum) + Cognitive Surrender updated (cognitive cost evidence) |
 | 2026-06-28 | Daily digest + 1 new concept (The Four Decision Labels) + 3 pages deepened (Why This Matters, Orchestrator Mindset, Delegation Thinking) — agency expansion, decision framework, architecture-over-model-access |
 | 2026-06-27 | Daily digest + 3 new pages (Prompt as Safety Blanket, Build a Tiny Pipeline, The Daily Standup) + 5 Glossary wikilinks fixed + cross-section lint pass — structural health Day 7 |
 | 2026-06-26 | Daily digest + 1 new concept (The Placement Rule) + 6 pages updated — Effortless Trap placement research, oversight spectrum (in/on/over the loop), governance inversion hypothesis, slop ceiling |
 | 2026-06-24 | Daily digest + 1 new concept (From Author to Editor) + 3 pages updated + ESD 112 & Getting Smart sources |
 | 2026-06-23 | Daily digest + 2 new concepts + 4 pages updated + 2 new pages (Co-Construction Blindness, Human Readiness Archetypes) |
 | 2026-06-22 | Daily digest + 3 pages updated + 2 new concepts (Friction by Design, The Augmentation Trap) |
-| 2026-06-21 | Wiki initialized — SCHEMA, Home, all sections, seed pages |
 
 ---
 

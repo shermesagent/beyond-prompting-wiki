@@ -1,10 +1,10 @@
 ---
 title: Cognitive Surrender
 created: 2026-06-21
-updated: 2026-06-25
+updated: 2026-06-29
 type: concept
 tags: [concept, barrier, mindset]
-sources: [raw/articles/augmentation-trap-caosun-aral-2026.md, raw/articles/cognitive-offloading-atrophy-risk-kennesaw-2026.md, raw/articles/accurate-but-not-confident-acm-2026.md]
+sources: [raw/articles/augmentation-trap-caosun-aral-2026.md, raw/articles/cognitive-offloading-atrophy-risk-kennesaw-2026.md, raw/articles/accurate-but-not-confident-acm-2026.md, raw/articles/keystroke-dynamics-cognitive-effort-prompting-2026.md]
 confidence: high
 ---
 
@@ -42,13 +42,15 @@ The tell: **if you wouldn't put your name on it without reading every line, you 
 
 ## What the Research Says
 
-New research (April–May 2026) has sharpened our understanding of why cognitive surrender happens and how dangerous it is:
+New research (April–June 2026) has sharpened our understanding of why cognitive surrender happens and how dangerous it is:
 
 - **The Augmentation Trap** (Caosun & Aral, arXiv 2026): AI tools create front-loaded productivity gains that mask long-term skill erosion. Workers and organizations can end up *less capable* than before adoption — even though every quarter looked good. The trap is worse for less experienced workers, who can deskill to zero while experienced workers maintain their judgment.
 
 - **Frictionless = Atrophy Risk** (Kennesaw State, May 2026): Interfaces that eliminate all friction maximize cognitive offloading — which feels good in the moment but accelerates skill loss. The research proposes *strategic friction* as a design principle: not making AI harder to use, but making it harder to use *without thinking*.
 
 - **Confidence Calibration Erodes** (ACM, April 2026): The first empirical evidence that AI support impairs users' ability to accurately judge their own performance. People get better results while getting *worse at knowing when they're right or wrong*.
+
+- **The Cognitive Cost of Prompting** (Matsui et al., arXiv, June 2026): A keystroke dynamics study found that harder prompting tasks cause significantly more keystrokes, slower typing, longer pauses, and higher mental workload. The crucial finding: that extra cognitive effort does NOT predict whether the AI's output is actually useful. You're working harder at prompting without getting proportionally better results. This creates a dangerous incentive — the effort feels like it should be worth it, so you don't notice when you're just pedaling harder on a stationary bike. The orchestrator's escape hatch: delegation with clear specs replaces cognitive grinding with cognitive leverage.
 
 The message is clear: cognitive surrender isn't just a bad habit — it's the default outcome of frictionless AI. Preventing it requires deliberate design.
 

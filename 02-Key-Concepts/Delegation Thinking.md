@@ -16,7 +16,7 @@ Here's what delegation thinking unlocks:
 
 - **Scalability.** You can only type so many prompts in a day. You can delegate to many agents at once.
 - **Better outcomes.** When you think in handoffs, you naturally decompose the work — which means smaller tasks, fewer mistakes, higher quality.
-- **Headspace.** Delegation thinking moves you from _doing_ the work to _directing_ the work. You think at the level of goals and checkpoints, not word choice.
+- **Cognitive savings.** The keystroke research shows that manual prompting has a real, measurable cognitive cost. Delegation shifts your mental energy from _crafting inputs_ to _designing systems_ — a more leveraged use of your brain.
 - **Resilience.** If an agent fails a delegated task, you get a clear failure at a checkpoint — not a mediocre output you have to salvage.
 
 ## How to Spot It in Your Day
@@ -65,6 +65,25 @@ See also: [[Task Decomposition]] · [[Co-Construction Blindness]]
 A case study from arXiv (June 2026) reframes delegation in a powerful way. Researchers studied a low-vision technology expert using agentic web browsers — AI systems that navigate the web on behalf of a user. Instead of manually clicking through pages, the user describes what they need and the agent finds it. The navigation experience was described as "notably fluid and flexible."
 
 This isn't just about efficiency. It's about **who gets to participate**. Delegation isn't a productivity hack for power users — it's a design pattern that removes barriers. The same skill that lets a visually impaired user navigate the web through conversation is the skill that lets a teacher delegate TEKS alignment to an agent so they can focus on students. Delegation thinking isn't about working faster. It's about working in a way that doesn't exhaust the human.
+
+## The Delegation Spectrum — Six Levels, Not a Binary
+
+Delegation isn't an on/off switch. It's a spectrum. A practical framework from the management world (Metal Toad, March 2026) maps AI delegation onto six levels — the same way good managers think about delegating to humans:
+
+| Level | Name | What Happens | Your Role |
+|-------|------|-------------|-----------|
+| **1** | Manual | You do the work. AI provides information or answers questions. | Operator |
+| **2** | Assisted | You lead, AI drafts or suggests options. You review and decide. | Reviewer |
+| **3** | Collaborative | You and AI work side by side on distinct pieces of a larger task. | Task allocator |
+| **4** | Delegated | AI owns the task end-to-end within your constraints. You verify at checkpoints. | Constraint-setter |
+| **5** | Autonomous | AI handles the full workflow. You monitor for exceptions and edge cases. | Exception handler |
+| **6** | Orchestrated | Multiple AI agents coordinate with each other. You design the system and set the rules of engagement. | Architect |
+
+Most people live at Level 2: they type a prompt, get a draft, and edit it. That's not failure — it's the default. The orchestrator target is Level 4: defining constraints and verifying results rather than editing drafts. The architect target is Level 6: designing systems where agents coordinate without you managing every handoff.
+
+The power of this framework is that it gives you a **next step**, not a judgment. If you're at Level 2, Level 3 is one skill away (breaking a task into pieces and assigning them). If you're at Level 4, Level 5 requires building verification you trust enough to step back. The spectrum turns "I should delegate more" from guilt into a map.
+
+**Try this:** Pick your three most common AI tasks. For each one, what delegation level are you currently using? Now ask: what would it take to move each task up ONE level? Not to Level 6. Just one. Write down the one thing you'd need to change. That's your next move.
 
 ## The Author-to-Editor Shift
 
