@@ -135,3 +135,18 @@
 - Navigation: Home.md (Today Digest link, recent updates table), 02-Key-Concepts/README.md (delegation spectrum reference)
 - Sources: 3 entries added to sources/sources.jsonl
 - Note: web_extract fully unavailable (401 errors, 4 consecutive failures). Source discovery via web_search summaries and arXiv RSS feeds. Monday run — arXiv active.
+
+## 2026-06-30 | ingest | Daily curation — 5 sources on review-first pattern, epistemic proactivity, automation boundaries, reliance types, and authorization gaps
+- Theme: The Data Is In — The Best AI Users Don't Let Go. They Lean In Differently.
+- Sources ingested:
+  - Abdelghani, Kaiser '&' Murayama — "From Prompting to Epistemic Proactivity" (arXiv:2606.28472, Jun 30, 2026)
+  - Hossain — "Four Types of LLM Reliance and Their Predictors Among Undergraduate Writers" (arXiv:2606.28749, Jun 30, 2026)
+  - Kris Newlin — "What AI Agents Cannot Do Yet: An Honest Take (2026)" (Viktor Blog, Apr 30, 2026)
+  - You '&' Zhou — "Designing Automation Boundaries for Trustworthy Smart Medication Support" (arXiv:2606.28777, Jun 30, 2026)
+  - Huang — "When AI Agents Fail, People Ask the Wrong Question About Why" (Tech Policy Press, Jun 26, 2026)
+- Pages updated: The School District Shift (+epistemic proactivity study +scrutable interfaces), From Prompt to Pipeline (+review-first pattern +task decision table +real failure story), Trust Calibration (+automation boundaries +overconfidence catch +review-first connection)
+- Pages created: The Review-First Pattern, Small Business Automation (stub fully completed)
+- Digest: 00-Daily-Digests/2026-06-30.md
+- Navigation: Home.md (count 36→37, new concept, recent updates), 02-Key-Concepts/README.md (new concept added), 03-Real-World/README.md (Small Business Automation complete)
+- Sources: 5 entries added to sources/sources.jsonl
+- Note: web_extract fully unavailable (401 errors, 5 consecutive failures). Source discovery via arXiv RSS feeds, direct curl extraction, and web_search summaries. Day 3 rotation — 03-Real-World. All three Real-World story pages now complete.

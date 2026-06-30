@@ -10,7 +10,7 @@ The stories aren't success porn. Some of them include wrong turns, abandoned app
 
 - **[[From Prompt to Pipeline]]** — A content marketer moves from writing 20 prompts a day to running a single pipeline that produces a week's worth of drafts while she sleeps. Concrete before/after contrast, with real numbers.
 - **[[The School District Shift]]** — A small Texas district stops treating AI as a lesson-plan generator and starts treating it as curriculum infrastructure. Teachers go from prompting to delegating — and the most interesting part is what happens to the meetings.
-- **[[Small Business Automation]]** — (Coming soon) A two-person bakery turns their entire back office into an agent workflow — inventory, ordering, customer follow-ups — without hiring or learning to code.
+- **[[Small Business Automation]]** — A two-person bakery turns their entire back office into agent workflows: inventory, ordering, customer follow-ups, scheduling, and bookkeeping prep. Three afternoons of setup. 35 hours/month returned to the work they started the business to do. Review-first pattern in action at the smallest scale.
 
 ---
 

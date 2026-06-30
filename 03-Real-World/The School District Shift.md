@@ -145,6 +145,28 @@ Neither substituted for the other. You can't train your way out of bad tools, an
 
 ---
 
+## The Student Side of the Shift: From Prompting to Strategic AI Use
+
+The teacher workflow shift is one side of the story. The student side is just as important — and new research (June 2026) provides hard data on what it looks like.
+
+Researchers tracked 112 Grade 9 students using an LLM tutor for math practice. They coded every student turn — what kind of help they sought, whether they regulated their own learning, how they engaged with the material. The key finding: **static prompting behavior doesn't predict learning.** Two students can ask the same number of questions and get completely different results.
+
+What *does* predict learning is **temporal shift** — whether students move over time from verification ("is this right?") toward conceptual and procedural help-seeking ("why does this work?" "how do I set this up?"). The students who stayed in answer-checking mode didn't learn more, no matter how many prompts they wrote. The students whose interaction patterns *changed* did.
+
+This maps directly to the operator→orchestrator spectrum. The operator asks "is my output right?" The orchestrator asks "what does this output tell me about the system?" The shift isn't about asking better questions — it's about shifting what kind of questions you ask over time.
+
+**What this means for schools:** Teaching students to "write better prompts" isn't enough. They need to learn to shift their AI use from verification to understanding. That's a different skill — and it's exactly what the review-first pattern teaches. When students know they'll need to explain the AI's reasoning (not just accept its answer), their questions naturally shift toward the conceptual.
+
+### Scrutable Interfaces: Giving Teachers the Steering Wheel
+
+A parallel study (June 2026) tested what happened when K-12 teachers were given "scrutable interfaces" — tools that let them change an AI's output by adjusting a visible knowledge model, without needing to understand how the AI works internally. Ten teachers participated in depth interviews averaging 55 minutes each.
+
+The finding: scrutable interfaces helped teachers **reflect on their teaching practices** while improving their efficacy, efficiency, and motivation when using AI. Teachers could steer the AI without becoming prompt engineers. They could say "that standard is wrong, use this one instead" and the system adapted — without a single prompt revision.
+
+This is the orchestrator interface for education: the teacher defines what matters (the standards, the student needs, the pacing), the AI handles the assembly, and the teacher reviews and adjusts. No prompt engineering required.
+
+---
+
 ## Related Pages
 
 [[From Prompt to Pipeline]] · [[Task Decomposition]] · [[Delegation Thinking]] · [[Trust Calibration]] · [[Human in the Loop]] · [[03-Real-World/README|03 — Real World Stories]]

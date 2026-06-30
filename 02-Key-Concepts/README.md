@@ -22,6 +22,7 @@ You don't need to read them in order. Jump to whichever title grabs you. But if 
 10. **[[The Placement Rule]]** — the single most practical diagnostic for where AI belongs: if it feels effortless, it's in the wrong place.
 11. **[[The Four Decision Labels]]** — the simplest delegation framework: automate, augment, human-only, prohibit.
 12. **[[Memory as Infrastructure]]** — the system-level upgrade.
+13. **[[The Review-First Pattern]]** — the practical bridge from operator to orchestrator: draft → review → execute.
 
 ---
 
@@ -49,6 +50,7 @@ They came out of real research — papers on human-AI collaboration, case studie
 | [[The Placement Rule]] | Where does AI belong in my thinking process? | Operator → Orchestrator |
 | [[The Four Decision Labels]] | Should this task be automated, augmented, kept human, or prohibited? | Everyone |
 | [[Memory as Infrastructure]] | Why does agent memory beat copying old chats? | Architect |
+| [[The Review-First Pattern]] | What's the proven workflow pattern that actually works in production? | Operator → Orchestrator |
 
 ---
 

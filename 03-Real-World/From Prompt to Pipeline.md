@@ -85,6 +85,47 @@ The quality actually improved, counterintuitively. When Mara was prompting piece
 
 ---
 
+## The Review-First Pattern: Why Mara's Pipeline Actually Works
+
+Mara's story is one example of a broader pattern that shows up across real-world AI deployments: **draft → review → execute.** AI produces. Human judges. Only then does anything go live.
+
+This isn't just a safety measure. When a vendor running an AI coworker service for a full year published an honest assessment (April 2026), they reported replacing ~18 hours/week of cross-tool work with review-first defaults. The same post included a real failure story: a customer who turned off review-first had an agent send "we apologize for the delay" to someone whose ticket was about a refund they'd *already received.* The customer wrote back angry. Review-first went back on the next week.
+
+The pattern's power comes from where the human spends their attention:
+
+| Pattern | Human Does | AI Does | Failure Mode |
+|---------|-----------|---------|-------------|
+| Prompt-iterate-hope | Crafts words, tweaks prompts, re-generates | Produces output on demand | Human is cognitively spent by the time they judge the result |
+| Review-first | Defines deliverable + constraints, judges complete draft | Produces entire draft autonomously | Human must articulate "what good looks like" upfront |
+
+The review-first human preserves their judgment energy for the moment it matters most: deciding if the work is good. The operator spends that same energy on word choice. One compounds. The other doesn't.
+
+### The Task-Type Decision Table
+
+Not every task should be delegated. Honest production experience from 2026 suggests this decision framework:
+
+| Task Type | Delegate to Agent? | Pattern |
+|-----------|-------------------|---------|
+| Repetitive cross-tool work | Yes | Review-first wrapper |
+| Drafting communication | Yes | Human approves before send |
+| Scheduled monitoring | Yes | Set thresholds, escalate exceptions |
+| Long-horizon strategy | Use as input only | Agent gathers, human decides |
+| Real-time UI decisions | No | Use a serving model, not an agent |
+| High-stakes financial actions | No, or very narrow | Always with human approval |
+| Customer relationship judgment | No | Agent assists, human owns |
+
+The orchestrator doesn't delegate everything. They delegate the right things, with the right boundaries.
+
+### A Real Failure That Teaches the Pattern
+
+The vendor's worst production failure: "A customer fired off a customer-replying agent on auto-send. It sent a 'we apologize for the delay' message to a customer whose ticket was actually about a refund the customer had already received. The customer wrote back angry."
+
+The fix wasn't a better model. It wasn't better prompting. It was a structural change: **review-first by default, non-skippable for customer-facing actions.** The architecture protected against the failure mode. The prompt couldn't have.
+
+This is the orchestrator's insight in one story: the right design prevents failures that better prompting never could.
+
+---
+
 ## You Can Do This Too
 
 You don't need to be a developer. You don't need an expensive platform. You need three things:

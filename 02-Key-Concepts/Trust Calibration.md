@@ -1,10 +1,10 @@
 ---
 title: Trust Calibration
 created: 2026-06-21
-updated: 2026-06-25
+updated: 2026-06-30
 type: concept
 tags: [concept, barrier, orchestrator]
-sources: [raw/articles/accurate-but-not-confident-acm-2026.md]
+sources: [raw/articles/accurate-but-not-confident-acm-2026.md, raw/articles/automation-boundaries-2026.md]
 confidence: high
 ---
 
@@ -76,6 +76,24 @@ When you and the AI agree, is that because the answer is right — or because yo
 
 The orchestrator's calibration practice: occasionally ask yourself "what would change if I had approached this differently?" — not to doubt the answer, but to check whether your own framing closed off alternatives the AI would have surfaced if you'd asked another way.
 
+## More Automation ≠ More Trust
+
+A controlled study (June 2026, N=53 adults + 11 older adult interviews) tested a smart medication support system at three automation levels: confirmation required, automatic logging with undo, and fully automatic. The finding challenges a core assumption of the operator→orchestrator path:
+
+**Higher automation did NOT produce higher trust or acceptance.**
+
+Participants preferred automation that reduced routine effort while preserving opportunities for correction. Full automation scored *lower* on autonomy, trust, transparency, dignity, and satisfaction. People didn't want less control — they wanted control at the right moments.
+
+This has a direct implication for trust calibration: the goal isn't to get comfortable enough to walk away. The goal is to get precise enough to know exactly *where* to stay involved. The orchestrator doesn't hand everything to the agent and cross their fingers. They identify the review points — the moments where human judgment changes the outcome — and invest their attention there, not everywhere.
+
+### The Overconfidence Catch
+
+Production experience from a vendor running AI agents for a full year (Viktor, April 2026) adds another wrinkle: **overconfidence gets worse with bigger models, not better.** More capable models don't become more humble. They become more persuasive while making the same structural errors — the errors that require taste, unwritten context, and the ability to say no.
+
+This means calibration becomes *more* important as models improve, not less. The operator who trusts a smarter model more is walking into a trap. The orchestrator who trusts a smarter model at the same review points — and verifies it at the same verification gates — gets the benefit of the better model without the overconfidence tax.
+
+The review-first pattern (see [[The Review-First Pattern]]) is calibration in practice: AI produces a draft. Human reviews and approves. The review point is where calibration lives — it's the moment you decide whether the agent's output is trustworthy for this specific task, in this specific context, at this specific moment. That's not a one-time setting. It's a practice.
+
 ## Try This
 
 **5-Minute Exercise: Build a Trust Map**
@@ -90,7 +108,7 @@ Keep this map. Update it next week. You're building your own calibration data.
 
 ## Related Pages
 
-[[Cognitive Surrender]] · [[Task Decomposition]] · [[Delegation Thinking]] · [[Memory as Infrastructure]] · [[04-Barriers-and-Bridges/README|04 — Barriers & Bridges]] · [[Co-Construction Blindness]]
+[[Cognitive Surrender]] · [[Task Decomposition]] · [[Delegation Thinking]] · [[Memory as Infrastructure]] · [[The Review-First Pattern]] · [[04-Barriers-and-Bridges/README|04 — Barriers & Bridges]] · [[Co-Construction Blindness]]
 
 ## Tags
 
