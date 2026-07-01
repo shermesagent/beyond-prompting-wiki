@@ -14,7 +14,11 @@ Human professionals are trained to be accountable. If your name is on the output
 
 There's also a deeper layer. For many people, especially knowledge workers, their judgment *is* their professional identity. Handing off a task that requires judgment can feel like handing off the thing that makes you valuable. The fear isn't just "the agent might mess up" — it's "if the agent does this well, what am I even here for?"
 
-That second fear is worth sitting with for a minute. It's real. And it's also the same fear every manager feels the first time they delegate something important to someone else. The job changes, but it doesn't disappear. It moves up a level.
+This is what researchers call **identity threat** — one of the six dimensions of [[Psychological Debt]]. Harvard Business Review found in a survey of 1,200 employees (May 2026) that identity threat, alongside diminished competence and reduced autonomy, accumulates as a hidden cost of AI adoption. The higher the psychological debt, the *lower* the actual adoption. The fear doesn't go away — it compounds.
+
+And here's what makes it worse right now: the organizational response. A 2026 survey by Writer found that 92% of C-suites are actively cultivating an "AI elite" class of employees — people who are 5X more productive and 3X more likely to get promoted. Meanwhile, 60% of those same leaders plan to lay off employees who can't or won't adopt AI. So the fear isn't just internal ("what am I here for?") — it's external ("will I still be here?"). The pressure to adopt creates the very fear that makes adoption feel unsafe.
+
+That identity threat is worth sitting with for a minute. It's real. And it's also the same fear every manager feels the first time they delegate something important to someone else. The job changes, but it doesn't disappear. It moves up a level.
 
 ## The Bridge
 
@@ -35,6 +39,8 @@ Four boundaries that make delegation feel safe:
 
 **Use verification loops.** The fear dissipates fastest when you have a reliable way to check the agent's work *after* it's done, not during. Think of it like a code review: the developer writes the code independently, then you review. Same pattern, different tool. The review step is where your judgment still lives — it just lives at a higher level than line-by-line approval.
 
+**Evidence that this works:** A July 2026 study of 315 clinical cases found that physicians trusted agentic AI *more* when it showed its reasoning transparently — 89.57% preference on treatment planning tasks. The bridge is real: when you can see how the agent arrived at its conclusion, trust increases. But the same study found that over-reliance still happens. The bridge needs a second rail: your judgment at the review point. Transparency helps you trust. Review ensures that trust is calibrated.
+
 ## Try This
 
 **5-Minute Exercise: The World's Smallest Delegation**
@@ -54,7 +60,7 @@ The point isn't the task. The point is proving to your nervous system that deleg
 
 ## Related Pages
 
-[[The Just Ask ChatGPT Trap]] · [[Trust Calibration]] · [[Prompt as Safety Blanket]] · [[Delegation Thinking]] · [[Task Decomposition]]
+[[The Just Ask ChatGPT Trap]] · [[Trust Calibration]] · [[Prompt as Safety Blanket]] · [[Delegation Thinking]] · [[Task Decomposition]] · [[Psychological Debt]]
 
 ## Tags
 

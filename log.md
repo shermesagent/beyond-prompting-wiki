@@ -150,3 +150,18 @@
 - Navigation: Home.md (count 36→37, new concept, recent updates), 02-Key-Concepts/README.md (new concept added), 03-Real-World/README.md (Small Business Automation complete)
 - Sources: 5 entries added to sources/sources.jsonl
 - Note: web_extract fully unavailable (401 errors, 5 consecutive failures). Source discovery via arXiv RSS feeds, direct curl extraction, and web_search summaries. Day 3 rotation — 03-Real-World. All three Real-World story pages now complete.
+
+## 2026-07-01 | ingest | Daily curation — 5 sources on psychological debt, AI elite divide, trust gap, transparency illusion, and agentic trust bridge
+- Theme: The Barriers Are Human. The Bridges Are Human, Too.
+- Sources ingested:
+  - Harvard Business Review — "The Psychological Costs of Adopting AI" (May 1, 2026). Six-dimension psychological debt framework. N=1,200 employees. Higher debt correlates with lower adoption.
+  - Writer — "Enterprise AI Adoption in 2026: Why 79% Face Challenges Despite High Investment" (Apr 7, 2026). 92% C-suite cultivating AI elite. 60% planning layoffs for non-adopters.
+  - Denodo / Arlington Research — "AI Trust Gap Report" (Apr 15, 2026). N=850 organizations. 66% require real-time data for AI trust. 63% say data preparation is barrier.
+  - Bano & Zowghi — "AI Transparency: Governance Compliance or Stakeholder Requirements?" (arXiv:2606.30652, Jul 1, 2026). 92 Australian government AI transparency statements analyzed. "Transparency Illusion": compliance artifacts don't serve high-risk, low-control stakeholders.
+  - Yan et al. — "Agentic AI Enhances Physician Trust in Clinical Decision Making" (arXiv:2606.30658, Jul 1, 2026). N=315 cases. Agentic AI with visible reasoning increases trust (89.57% preference), but over-reliance persists.
+- Pages updated: Fear of Losing Control (+psychological debt connection +AI elite divide context +agentic trust bridge evidence), Human Readiness Archetypes (+Psychological Debt dimension table +AI elite divide double bind +organizational context section), 04-Barriers-and-Bridges/README (+Psychological Debt in listing)
+- Pages created: Psychological Debt (new concept page — six-dimension framework, connection to operator-to-orchestrator shift, bridge strategies, Try This exercise)
+- Digest: 00-Daily-Digests/2026-07-01.md
+- Navigation: Home.md (count 37 to 38, new concept link, recent updates, Barriers section listing, Today Digest link)
+- Sources: 5 entries to add to sources/sources.jsonl
+- Note: web_extract fully unavailable (401 errors). Source discovery via arXiv RSS feeds (Wednesday — arXiv active) and web_search summaries. Day 4 rotation — 04-Barriers-and-Bridges.

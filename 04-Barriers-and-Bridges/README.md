@@ -16,9 +16,10 @@ Each barrier page follows the same structure. We name what's happening, explain 
 |------|-------------|------------|
 | [[The Just Ask ChatGPT Trap]] | Treating every AI interaction as a single-turn Q&A — the habit that keeps you stuck in operator mode | Recognize the pattern, then try delegating one tiny multi-step task |
 | [[Fear of Losing Control]] | "If I hand something off to an agent, I won't know what it'll do" — the psychological weight of delegation | Build confidence through boundaries, verification loops, and starting absurdly small |
+| [[Psychological Debt]] | The six hidden costs of AI adoption — cognitive offloading, autonomy loss, identity threat, and more — that make forward movement feel unsafe | Name the debt, make AI use visible on teams, redefine "good" work, and build psychological safety into adoption |
 | [[Trust Calibration]] | The pendulum between blind trust and blanket skepticism | A practical sliding scale you can adjust per task, not per tool |
 | [[Prompt as Safety Blanket]] | Holding onto the Q&A loop because it feels safer than delegation — the familiar pattern that keeps you slow | Template one task, add a boundary, and prove the world doesn't end when you walk away |
-| [[Human Readiness Archetypes]] | Which of the five AI adoption postures fits me — and my team? | Everyone |
+| [[Human Readiness Archetypes]] | Which of the five AI adoption postures fits me — and my team? — plus the psychological debt each archetype is most vulnerable to | Everyone |
 
 ---
 
