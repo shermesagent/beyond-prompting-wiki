@@ -122,11 +122,13 @@ Take your top delegation candidate — the task you marked Y that shows up most 
 
 If your audit showed zero delegation candidates, that's fine too. Go to [[02-Key-Concepts/README|02 — Key Concepts]] and start with Task Decomposition. The lens will sharpen.
 
+**Before you move on:** Do the [[The Line You Draw]] exercise — 5 minutes, on paper. Knowing what you *could* delegate is half the picture. Knowing what you *shouldn't* (at least not yet) is the other half. Together, your audit and your line give you a map with both destinations and boundaries marked.
+
 ---
 
 ## Related Pages
 
-[[05-Practice/README|05 — Practice]] · [[First Delegation]] · [[Build a Tiny Pipeline]] · [[Task Decomposition]] · [[Delegation Thinking]]
+[[05-Practice/README|05 — Practice]] · [[First Delegation]] · [[Build a Tiny Pipeline]] · [[The Line You Draw]] · [[Task Decomposition]] · [[Delegation Thinking]]
 
 ## Tags
 

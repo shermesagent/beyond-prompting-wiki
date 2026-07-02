@@ -2,7 +2,7 @@
 
 > A living guide to the **operator → orchestrator shift**. If you've ever typed a prompt and thought "there has to be more than this" — start here.
 
-_38 pages across 6 sections. Updated daily. Git-backed, human-readable, cross-linked._
+_39 pages across 6 sections. Updated daily. Git-backed, human-readable, cross-linked._
 
 ---
 
@@ -52,7 +52,7 @@ What holds people back — and how to cross.
 
 ### [[05-Practice/README|05 — Practice]]
 Weekly muscle builders. Concrete exercises that build the orchestrator mindset.
-→ [[Audit Your Prompts]] · [[First Delegation]] · [[Build a Tiny Pipeline]] · [[The Daily Standup]]
+→ [[Audit Your Prompts]] · [[First Delegation]] · [[Build a Tiny Pipeline]] · [[The Daily Standup]] · [[The Line You Draw]]
 
 ### [[06-Glossary/README|06 — Glossary]]
 Plain-language definitions of every key term.
@@ -60,7 +60,7 @@ Plain-language definitions of every key term.
 
 ### 00-Daily-Digests
 Daily curated research digests — what we found, what it means, and how to use it.
-→ [[2026-07-01|Today's Digest]]
+→ [[2026-07-02|Today's Digest]]
 
 ---
 
@@ -80,6 +80,7 @@ _Last 7 days of activity._
 
 | Date | Pages Changed |
 |------|---------------|
+| 2026-07-02 | Daily digest + 1 new practice page (The Line You Draw) + 3 pages updated (The Daily Standup, First Delegation, Audit Your Prompts) — the practice of drawing lines: constrained overrides, delegation boundaries, metacognitive check-ins |
 | 2026-07-01 | Daily digest + 1 new concept (Psychological Debt) + 3 pages updated (Fear of Losing Control, Human Readiness Archetypes, Barriers README) — barriers-are-human theme: psychological debt framework, AI elite divide, trust gap, transparency illusion, agentic trust bridge |
 | 2026-06-30 | Daily digest + 1 new concept (The Review-First Pattern) + 5 pages deepened (School District Shift, From Prompt to Pipeline, Trust Calibration, Small Business Automation completed) + Real-World section fully built — review-first evidence from 5 sources |
 | 2026-06-29 | Daily digest + Delegation Thinking deepened (6-level delegation spectrum) + Cognitive Surrender updated (cognitive cost evidence) |

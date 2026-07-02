@@ -165,3 +165,26 @@
 - Navigation: Home.md (count 37 to 38, new concept link, recent updates, Barriers section listing, Today Digest link)
 - Sources: 5 entries to add to sources/sources.jsonl
 - Note: web_extract fully unavailable (401 errors). Source discovery via arXiv RSS feeds (Wednesday — arXiv active) and web_search summaries. Day 4 rotation — 04-Barriers-and-Bridges.
+## [2026-07-02] ingest | arXiv source batch (Day 5 — Practice rotation)
+
+**Sources ingested (3):**
+- Zhao, Han, Chen & Zhu — "A Simple Solution to Improving Human Supervision of Algorithms: Evidence from Smart Vending" (arXiv:2607.00420): N=553 workers, constrained overrides (2 per decision episode) outperform both no overrides and free overrides. Two is the sweet spot.
+- Choudhuri, Bird, Badea, Gerosa & Sarma — "You Shall Not Pass! Where and Why Developers Draw The Line on AI Autonomy" (arXiv:2607.00533): N=448 Microsoft developers. Identity, accountability, and human-facing tasks resist delegation. AI experience and risk tolerance predict willingness.
+- Kanwal et al. — "Constructive Alignment: Governing Preference Dynamics in Human-AI Interaction" (arXiv:2607.00001): AAAI-26 Workshop on Machine Ethics. AI shapes human preferences over time; metacognitive awareness is an essential practice.
+
+**Pages created (1):**
+- 05-Practice/The Line You Draw.md — New practice exercise. Boundary-setting as a daily practice: what you won't delegate and why. Quarterly boundary audit. Based on the Microsoft study.
+
+**Pages updated (5):**
+- 05-Practice/The Daily Standup.md — Added "The One Constraint Rule" (2-override budget, N=553 evidence) and "The Fourth Question" (metacognitive check-in from Constructive Alignment). Updated frontmatter with sources.
+- 05-Practice/First Delegation.md — Added frontmatter. Added "Before You Delegate: Draw Your Line" section with boundary checklist and cross-link to The Line You Draw. Updated wikilinks.
+- 05-Practice/Audit Your Prompts.md — Added pointer to The Line You Draw exercise in "What Comes Next" section. Updated wikilinks.
+- 05-Practice/README.md — Added The Line You Draw as foundational exercise (before Week 1). New "Before You Begin" section explaining what boundaries are and why they matter.
+- Home.md — Bumped page count 38→39. Updated Today's Digest link. Added new entry to Recent Updates table. Updated Practice section listing.
+
+**Raw files created (3):**
+- raw/articles/constrained-override-policy-2607.00420.md
+- raw/articles/you-shall-not-pass-2607.00533.md
+- raw/articles/constructive-alignment-2607.00001.md
+
+**Digest published:** 00-Daily-Digests/2026-07-02.md (theme: "The Practice of Drawing Lines")

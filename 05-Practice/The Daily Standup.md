@@ -1,11 +1,13 @@
 ---
 title: The Daily Standup
 created: 2026-06-27
-updated: 2026-06-27
+updated: 2026-07-02
 type: practice
 tags: [practice, orchestrator, workflow, mindset]
 confidence: high
-sources: []
+sources:
+  - raw/articles/constrained-override-policy-2607.00420.md
+  - raw/articles/constructive-alignment-2607.00001.md
 ---
 
 # The Daily Standup
@@ -111,6 +113,51 @@ YESTERDAY'S FIX RESULT:
     now consistently include working links.
 ```
 
+## The One Constraint Rule
+
+A large field experiment (N=553 workers) tested three ways to manage human oversight of autonomous AI: no overrides, unlimited overrides, and **exactly two overrides per decision episode**. The result: unlimited overrides made things worse — workers overcorrected, introduced bias, and reduced overall performance. Constrained overrides (two per episode) produced the best outcomes, because the limit forced workers to be *selective* about when their human judgment actually added value.
+
+This applies directly to your standup practice:
+
+**Give every pipeline a two-override budget.** For each pipeline you run, you're allowed to intervene exactly twice per day — change a parameter, reject an output, adjust a step. After two interventions, the pipeline runs as designed and you accept the result.
+
+Why two? The study found it was the sweet spot between "no oversight" (which misses legitimate human knowledge) and "unlimited oversight" (which introduces noise and bias). Two is enough to catch the most important things. Not enough to second-guess everything.
+
+**Track it in your standup.** Add to the PIPELINES RAN section:
+
+```
+OVERRIDES USED:
+  - [Pipeline name]: 2/2 used — adjusted [what] and [what]
+  - [Pipeline name]: 1/2 used — only needed to fix [what]
+  - [Pipeline name]: 0/2 used — ran clean
+```
+
+After a week, the override count tells you something important. Pipelines that consistently use 0 overrides are candidates for reducing your review cadence — they've proven themselves. Pipelines that consistently use 2 overrides need template tightening — your judgment is being burned on predictable corrections. Pipelines that *exceed* their budget (you can't stop yourself from intervening more) are the ones where you need to either redesign the task or admit it's not ready for delegation yet.
+
+The constraint isn't a punishment. It's a sharpener. When you know you only get two interventions, you save them for the moments that actually matter.
+
+---
+
+## The Fourth Question — Metacognitive Check-In
+
+Every AI interaction subtly shapes what you value, what you attend to, and what you consider "your job." This isn't a problem — it's a fact of working with any tool over time. The practice is *noticing* it.
+
+Add a fourth question to your daily standup, after What Ran, What Worked, and What Didn't:
+
+**4. How did delegating today change how I feel about the work?**
+
+Not "did the output meet criteria" — you already answered that in What Worked. This is different. Ask yourself:
+
+- Did delegation make me feel more capable, or less?
+- More connected to the outcome, or more distant?
+- Did I feel relief (good — the pipeline handled something draining) or unease (worth investigating)?
+
+The answers aren't right or wrong. They're data. After two weeks, look back at your standup notes and notice the pattern. Are there types of delegation that reliably make you feel more engaged? Types that reliably make you feel disconnected? That pattern tells you where your lines should be — and where they might be ready to move.
+
+This is the metacognitive layer of the orchestration practice. The operator asks "did the AI do what I wanted?" The orchestrator asks "and how did that change me?"
+
+---
+
 ## What to Do With the Patterns
 
 After a week of standups, you'll start seeing signal:
@@ -141,7 +188,7 @@ The opposite. Finding and fixing issues quickly is the mark of an orchestrator. 
 
 ## Related Pages
 
-[[05-Practice/README|05 — Practice]] · [[Build a Tiny Pipeline]] · [[First Delegation]] · [[Audit Your Prompts]] · [[Delegation Thinking]] · [[Trust Calibration]]
+[[05-Practice/README|05 — Practice]] · [[Build a Tiny Pipeline]] · [[First Delegation]] · [[Audit Your Prompts]] · [[The Line You Draw]] · [[Delegation Thinking]] · [[Trust Calibration]]
 
 ## Tags
 

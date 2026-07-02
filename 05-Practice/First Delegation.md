@@ -1,3 +1,14 @@
+---
+title: First Delegation
+created: 2026-06-26
+updated: 2026-07-02
+type: practice
+tags: [practice, operator, orchestrator]
+confidence: high
+sources:
+  - raw/articles/you-shall-not-pass-2607.00533.md
+---
+
 # First Delegation
 
 ## What You'll Do
@@ -41,6 +52,28 @@ SUCCESS CRITERIA:
 REVIEW CADENCE:
   When do I check it? (Every time? Spot-check every 3rd run? Weekly review?)
 ```
+
+---
+
+## Before You Delegate: Draw Your Line
+
+Before you pick your task, take 2 minutes to answer a question most people skip: **what would you *not* delegate, even if the AI could do it perfectly?**
+
+Research on 448 professionals found that people draw boundaries around three kinds of work:
+- **Identity work** — tasks that feel like "who I am" professionally
+- **Human-facing work** — tasks where someone else will judge *you* for the output
+- **Design/taste work** — tasks that require judgment, not just correctness
+
+You don't need to resolve these today. You just need to know where they are. If your audit showed 7 "Could Delegate" candidates but 3 of them cross your identity line, start with one of the other 4. Build confidence on the safe side of the line first. You can always move the line later — but you can't un-burn the trust from a bad first delegation.
+
+**Quick check:** Look at your delegation candidate. Does it cross any of these lines?
+- [ ] This task feels like "who I am" — my professional identity
+- [ ] Someone else will see this output and judge me for it
+- [ ] This task requires taste and judgment, not just accuracy
+
+If you checked any box, that candidate isn't wrong — but it's not your *first* delegation. Pick one you didn't check. Start safe. Grow outward.
+
+For a deeper exercise (5 minutes, reusable), do the full [[The Line You Draw]] boundary audit. It pairs with your prompt audit: one tells you what you *could* delegate, the other tells you where to start.
 
 ---
 
@@ -141,7 +174,7 @@ Use this template at least twice before moving to Week 3. Each time you use it, 
 
 ## Related Pages
 
-[[05-Practice/README|05 — Practice]] · [[Audit Your Prompts]] · [[Build a Tiny Pipeline]] · [[Delegation Thinking]] · [[Task Decomposition]]
+[[05-Practice/README|05 — Practice]] · [[Audit Your Prompts]] · [[Build a Tiny Pipeline]] · [[The Line You Draw]] · [[Delegation Thinking]] · [[Task Decomposition]]
 
 ## Tags
 

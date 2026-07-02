@@ -10,6 +10,7 @@ This is where the operator→orchestrator shift stops being something you read a
 
 | Week | Exercise | Time | What You'll Do |
 |------|----------|------|----------------|
+| — | [[The Line You Draw]] | 5 min | **Start here.** Draw your delegation boundaries — what you won't delegate and why. Gives you the map before you start walking. |
 | 1 | [[Audit Your Prompts]] | 10 min | Look at your last 10 AI interactions and see what you're actually doing — and what you could be delegating |
 | 2 | [[First Delegation]] | 10 min | Pick one recurring task and design a real agent workflow for it |
 | 3 | [[Build a Tiny Pipeline]] | 10 min | Chain two tasks together and watch them run without you |
@@ -17,6 +18,10 @@ This is where the operator→orchestrator shift stops being something you read a
 ## Ongoing Practice
 
 After the three-week progression, [[The Daily Standup]] is your maintenance habit — 5 minutes a day to review what ran, what worked, and what needs adjusting. It's the feedback loop that keeps your pipelines healthy and your delegation muscles sharp.
+
+### Before You Begin: The Line You Draw
+
+Most people jump straight to "what should I delegate?" But research shows that people have strong, patterned boundaries around what they *won't* delegate — identity work, human-facing tasks, and design/taste work. [[The Line You Draw]] is a 5-minute exercise to make those boundaries explicit before you start the three-week progression. Do it alongside Week 1 (or even before). It gives you a map of where to focus and where to go slow.
 
 ### Week 1 — Audit
 Before you change anything, you need to see what you're actually doing. Most people have no idea what patterns live in their chat history. Week 1 is about honest observation: what kinds of tasks are you using AI for, and which of those could be handed off entirely?
