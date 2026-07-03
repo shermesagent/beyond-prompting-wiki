@@ -24,9 +24,17 @@ The operator→orchestrator journey has a natural relationship with human-in-the
 
 A well-placed human-in-the-loop checkpoint doesn't slow things down — it speeds them up. When you know there's a review gate before anything goes live, you can delegate more freely. You can let agents work faster and more ambitiously because there's a safety net. You spend your attention on the decisions that matter instead of supervising every keystroke.
 
+### Oversight as Collaboration, Not Judgment
+
+There's a hidden assumption in most human-in-the-loop setups: the human is the judge, and the AI is the defendant. The AI produces output, and you decide if it's right. But research on AI oversight methods (Jiang et al., 2026) found that this adversarial stance underperforms. When humans approached oversight as collaborative truth-seeking — "let's work through this together to find what's correct" — accuracy jumped from 49.2% to 62.1%, a 13-point improvement.
+
+The difference is practical. Adversarial oversight asks: "Is this output right or wrong?" Collaborative oversight asks: "What are you uncertain about? Let's examine that together." The adversarial question puts the AI in persuasion mode — optimize for looking correct. The collaborative question puts it in honesty mode — surface uncertainty so we can resolve it. Same human, same loop, different stance. Much better results.
+
+Before reviewing any agent output, try asking: "What parts of this are you least confident about, and why?" That single question transforms the checkpoint from a gate into a collaboration — and the evidence says it makes you more accurate.
+
 ## Related Pages
 
-[[Autonomy]] · [[Delegation]] · [[Orchestration]] · [[Trust Calibration]] · [[Fear of Losing Control]] · [[Co-Construction Blindness]]
+[[Autonomy]] · [[Delegation]] · [[Orchestration]] · [[Oversight]] · [[Trust Calibration]] · [[Fear of Losing Control]] · [[Co-Construction Blindness]]
 
 ## Tags
 

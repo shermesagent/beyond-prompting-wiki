@@ -188,3 +188,30 @@
 - raw/articles/constructive-alignment-2607.00001.md
 
 **Digest published:** 00-Daily-Digests/2026-07-02.md (theme: "The Practice of Drawing Lines")
+---
+## [2026-07-03] ingest | 4 arXiv papers + 1 new glossary entry (Oversight) + 4 glossary pages updated
+
+**Digest:** 00-Daily-Digests/2026-07-03.md — "Naming What We're Actually Doing"
+
+**Sources ingested (all arXiv, 2026-07-03):**
+- Hughes & Habli (2607.02198) — Five types of human-AI teams taxonomy
+- Jiang et al. (2607.01251) — Collaborative disagreement resolution for oversight
+- Zhao, Li & Zhang (2607.01248) — Practice auditing framework, pseudo-rational cognition
+- Nagashima et al. (2607.01506) — Trust gap between teachers and students
+
+**Pages created: 1**
+- 06-Glossary/Oversight.md — New glossary entry. Three modes of oversight (adversarial, passive, collaborative). 62.1% vs 49.2% accuracy finding. Three practical oversight questions.
+
+**Pages updated: 6**
+- 06-Glossary/Agent.md — Added "The Five Types of Human-AI Teams" section with taxonomy table
+- 06-Glossary/Human in the Loop.md — Added "Oversight as Collaboration, Not Judgment" section
+- 06-Glossary/Autonomy.md — Added "The Pseudo-Rational Cognition Trap" and "Trust Isn't Personal — It's Relational" sections
+- 06-Glossary/Orchestration.md — Added "What Kind of Team Are You Orchestrating?" section with team types mapped to orchestration modes
+- 06-Glossary/README.md — Added Oversight to listing, updated count 8→9, added section context
+- Home.md — Page count 39→40, added Oversight to glossary listing, updated digest link to 2026-07-03, added recent updates row
+
+**sources.jsonl:** 4 entries appended
+
+**Rotations:** Day 6 — Glossary. All existing glossary terms reviewed. Primary focus: Agent, Human in the Loop, Autonomy, Orchestration pages.
+
+**Method:** arXiv RSS feeds (cs.CY + cs.HC) via curl for source discovery. web_extract was exhausted (401 errors) — pivoted to direct arXiv abstract pages per skill pitfall guidance.

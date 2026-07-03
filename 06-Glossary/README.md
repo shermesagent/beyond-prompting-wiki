@@ -16,6 +16,8 @@ The eight terms here are the ones that come up most often when someone starts mo
 
 If you're new here, start with **[[Agent]]** — it's the foundation everything else sits on. After that, jump to whichever term you're wrestling with today. There's no wrong order.
 
+This section grows as new concepts crystallize. The newest entry — **[[Oversight]]** — was added in July 2026 after research demonstrated that collaborative truth-seeking beats adversarial review by 13 percentage points. The glossary evolves with the practice.
+
 ---
 
 ## Glossary Entries
@@ -29,6 +31,7 @@ If you're new here, start with **[[Agent]]** — it's the foundation everything 
 | [[Memory]] | How do agents remember things across conversations? | Architect |
 | [[Tool Use]] | How do agents interact with the outside world? | Architect |
 | [[Human in the Loop]] | Where does the human fit in when agents run autonomously? | Orchestrator |
+| [[Oversight]] | How do I verify agent outputs — not as a judge, but as a collaborative partner? | Orchestrator |
 | [[Autonomy]] | How much can an agent do on its own — and where do I draw the line? | Architect |
 
 ---

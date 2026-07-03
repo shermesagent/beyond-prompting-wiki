@@ -10,9 +10,23 @@ For the operator→orchestrator journey, understanding agents is step one. When 
 
 A real-world example: instead of spending an afternoon manually compiling a weekly status report from Slack, email, and your project tracker, you delegate it to an agent that gathers the inputs, synthesizes them, and delivers a draft to your inbox. You review and send. That's the orchestrator pattern — and it starts with knowing what an agent can do.
 
+### The Five Types of Human-AI Teams
+
+"Working with an AI agent" sounds like one thing, but research analyzing 53 papers on human-AI teams (Hughes & Habli, 2026) found it actually describes five very different relationships:
+
+| Team Type | What It Looks Like | You're the... | Beyond Prompting Phase |
+|-----------|-------------------|---------------|------------------------|
+| **AI Assistant** | You ask, it responds. One human, one AI. Every move is yours. | Operator | Phase 1-2 |
+| **Ad-hoc Dependency** | The AI handles a step in your workflow when you remember to use it. You're still driving. | Operator → Orchestrator | Phase 2 |
+| **Ad-hoc Forced Dependency** | The AI is the bottleneck — you have to work through it, but control is awkward. | Frustrated Operator | Phase 2 |
+| **Paired Equanimity** | You and the agent work as equal partners. Mutual back-and-forth. Shared task ownership. | Orchestrator | Phase 3 |
+| **Group Equanimity** | Multiple humans and multiple agents work together as one team. Defined roles, handoffs, memory. | Architect | Phase 3+ |
+
+Most people using ChatGPT are in AI Assistant mode. The beyond-prompting shift is specifically about moving toward Paired Equanimity — where the agent isn't a tool you pick up, but a collaborator you work alongside. That's a different relationship, and it requires different skills: delegation, oversight, trust calibration, and the ability to name what kind of team you're building.
+
 ## Related Pages
 
-[[Orchestration]] · [[Delegation]] · [[Tool Use]] · [[Autonomy]] · [[01-The-Shift/README|The Orchestrator Mindset]]
+[[Orchestration]] · [[Delegation]] · [[Tool Use]] · [[Autonomy]] · [[Oversight]] · [[01-The-Shift/README|The Orchestrator Mindset]]
 
 ## Tags
 

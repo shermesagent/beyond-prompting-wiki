@@ -2,7 +2,7 @@
 
 > A living guide to the **operator → orchestrator shift**. If you've ever typed a prompt and thought "there has to be more than this" — start here.
 
-_39 pages across 6 sections. Updated daily. Git-backed, human-readable, cross-linked._
+_40 pages across 6 sections. Updated daily. Git-backed, human-readable, cross-linked._
 
 ---
 
@@ -56,11 +56,11 @@ Weekly muscle builders. Concrete exercises that build the orchestrator mindset.
 
 ### [[06-Glossary/README|06 — Glossary]]
 Plain-language definitions of every key term.
-→ [[Agent]] · [[Orchestration]] · [[Delegation]] · [[Decomposition]] · [[Memory]] · [[Tool Use]] · [[Human in the Loop]]
+→ [[Agent]] · [[Orchestration]] · [[Delegation]] · [[Decomposition]] · [[Memory]] · [[Tool Use]] · [[Human in the Loop]] · [[Oversight]]
 
 ### 00-Daily-Digests
 Daily curated research digests — what we found, what it means, and how to use it.
-→ [[2026-07-02|Today's Digest]]
+→ [[2026-07-03|Today's Digest]]
 
 ---
 
@@ -80,6 +80,7 @@ _Last 7 days of activity._
 
 | Date | Pages Changed |
 |------|---------------|
+| 2026-07-03 | Daily digest + 1 new glossary entry (Oversight) + 4 glossary pages updated (Agent, Human in the Loop, Autonomy, Orchestration) — naming what we're actually doing: team types, collaborative oversight, pseudo-rational cognition, the trust gap |
 | 2026-07-02 | Daily digest + 1 new practice page (The Line You Draw) + 3 pages updated (The Daily Standup, First Delegation, Audit Your Prompts) — the practice of drawing lines: constrained overrides, delegation boundaries, metacognitive check-ins |
 | 2026-07-01 | Daily digest + 1 new concept (Psychological Debt) + 3 pages updated (Fear of Losing Control, Human Readiness Archetypes, Barriers README) — barriers-are-human theme: psychological debt framework, AI elite divide, trust gap, transparency illusion, agentic trust bridge |
 | 2026-06-30 | Daily digest + 1 new concept (The Review-First Pattern) + 5 pages deepened (School District Shift, From Prompt to Pipeline, Trust Calibration, Small Business Automation completed) + Real-World section fully built — review-first evidence from 5 sources |
