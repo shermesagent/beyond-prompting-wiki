@@ -102,7 +102,7 @@
   - 3 planned pages now created (Prompt as Safety Blanket, Build a Tiny Pipeline, The Daily Standup)
   - 6 cross-directory wikilinks in Glossary fixed
   - Aspirational links in newcomer path (Education, Personal Productivity, Small Business) replaced with real pages
-  - Example wikilink [[Like This]] replaced
+  - Example placeholder wikilink text replaced
   - Home.md page count corrected (32→35)
 - Digest: 00-Daily-Digests/2026-06-27.md
 - Navigation: Home.md, 05-Practice/README.md, 04-Barriers-and-Bridges/README.md updated
