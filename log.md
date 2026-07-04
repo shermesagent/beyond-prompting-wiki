@@ -215,3 +215,33 @@
 **Rotations:** Day 6 — Glossary. All existing glossary terms reviewed. Primary focus: Agent, Human in the Loop, Autonomy, Orchestration pages.
 
 **Method:** arXiv RSS feeds (cs.CY + cs.HC) via curl for source discovery. web_extract was exhausted (401 errors) — pivoted to direct arXiv abstract pages per skill pitfall guidance.
+
+## [2026-07-04] daily digest + cross-pollination | Pluralism, Engagement, and Reverse-Centaur
+
+**Digest:** 00-Daily-Digests/2026-07-04.md — The Hidden Dimensions: Pluralism, Engagement, and Who Your Pipeline Works For
+
+**Sources: 7 total**
+- Microsoft Work Trend Index 2026 — Transformation Paradox: employees ready, systems reinforce old ways
+- World Economic Forum — 5 faces of human readiness (June 2026): top-down vs employee reality collision
+- Wharton Executive Education — AI Adoption Is a Challenge (April 2026): workflow redesign over tool deployment
+- USAII — Beyond Prompting: Why AI Agent Management is the Career Skill of 2026
+- Cross-pollination from AI Agency Knowledgebase:
+  - Superagency — Pluralism Layer (Agentic Garden of Forking Paths, Pluralistic Alignment at ICML 2026)
+  - Human Agency — Reverse-Centaur Test (Doctorow, 2026)
+  - Task-Level AI Adoption — Engagement Barrier (Stanford SCALE, 2-5 min/week)
+
+**Pages created: 1**
+- 04-Barriers-and-Bridges/The Engagement Gap.md — New concept page. The gap between AI availability and actual use. Three drivers (habit inertia, trust threshold, incentive misalignment). Three closing moves. Cross-linked from The Four Decision Labels.
+
+**Pages updated: 5**
+- 01-The-Shift/The Architect Mindset.md — Added Pluralism Dimension (July 2026). Architects must design for multiple defensible perspectives, not single correctness. ICML 2026 Pluralistic Alignment reference.
+- 02-Key-Concepts/The Four Decision Labels.md — Added The Hidden Assumption: Engagement Barrier section. Stanford/Microsoft/WEF data. Wharton workflow-redesign answer. Cross-link to The Engagement Gap.
+- 05-Practice/Build a Tiny Pipeline.md — Added Reverse-Centaur Check (July 2026). Doctorow framing. Centaur vs Reverse-Centaur diagnostic. Three fixes for agency-reducing pipelines.
+- 04-Barriers-and-Bridges/README.md — Added The Engagement Gap to barriers table
+- Home.md — Page count 40 to 41. Barriers section expanded. Today's Digest link updated. Recent updates row added.
+
+**sources.jsonl:** 7 entries appended
+
+**Rotations:** Day 7 (Weekend) — Cross-section theme. Combined lint review + knowledgebase cross-pollination + practice deepening. Previous lint confirmed clean (no broken wikilinks, no cross-directory links, no orphans beyond expected). Weekend — no arXiv. web_extract credit-exhausted; source intake via web_search and knowledgebase cross-pollination.
+
+**Key insight:** AI availability is not AI adoption. The beyond-prompting shift's biggest barrier isn't skill gaps — it's the Engagement Gap: nobody opens the AI. Design for engagement first, capability second.

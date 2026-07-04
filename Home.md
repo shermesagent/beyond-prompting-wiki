@@ -2,7 +2,7 @@
 
 > A living guide to the **operator → orchestrator shift**. If you've ever typed a prompt and thought "there has to be more than this" — start here.
 
-_40 pages across 6 sections. Updated daily. Git-backed, human-readable, cross-linked._
+_41 pages across 6 sections. Updated daily. Git-backed, human-readable, cross-linked._
 
 ---
 
@@ -48,7 +48,7 @@ Case studies, transformation stories, and honest failure postmortems.
 
 ### [[04-Barriers-and-Bridges/README|04 — Barriers & Bridges]]
 What holds people back — and how to cross.
-→ [[Fear of Losing Control]] · [[The Just Ask ChatGPT Trap]] · [[Psychological Debt]] · [[Trust Calibration]] · [[Prompt as Safety Blanket]] · [[Human Readiness Archetypes]]
+→ [[Fear of Losing Control]] · [[The Just Ask ChatGPT Trap]] · [[Psychological Debt]] · [[Trust Calibration]] · [[Prompt as Safety Blanket]] · [[Human Readiness Archetypes]] · [[The Engagement Gap]]
 
 ### [[05-Practice/README|05 — Practice]]
 Weekly muscle builders. Concrete exercises that build the orchestrator mindset.
@@ -60,7 +60,7 @@ Plain-language definitions of every key term.
 
 ### 00-Daily-Digests
 Daily curated research digests — what we found, what it means, and how to use it.
-→ [[2026-07-03|Today's Digest]]
+→ [[2026-07-04|Today's Digest]]
 
 ---
 
@@ -80,6 +80,7 @@ _Last 7 days of activity._
 
 | Date | Pages Changed |
 |------|---------------|
+| 2026-07-04 | Daily digest + 1 new concept (The Engagement Gap) + 3 pages deepened (The Architect Mindset — Pluralism Layer, The Four Decision Labels — Engagement Barrier, Build a Tiny Pipeline — Reverse-Centaur Check) — cross-pollination from AI Agency Knowledgebase: pluralism, engagement, and agency-preserving pipelines |
 | 2026-07-03 | Daily digest + 1 new glossary entry (Oversight) + 4 glossary pages updated (Agent, Human in the Loop, Autonomy, Orchestration) — naming what we're actually doing: team types, collaborative oversight, pseudo-rational cognition, the trust gap |
 | 2026-07-02 | Daily digest + 1 new practice page (The Line You Draw) + 3 pages updated (The Daily Standup, First Delegation, Audit Your Prompts) — the practice of drawing lines: constrained overrides, delegation boundaries, metacognitive check-ins |
 | 2026-07-01 | Daily digest + 1 new concept (Psychological Debt) + 3 pages updated (Fear of Losing Control, Human Readiness Archetypes, Barriers README) — barriers-are-human theme: psychological debt framework, AI elite divide, trust gap, transparency illusion, agentic trust bridge |

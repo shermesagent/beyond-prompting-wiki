@@ -14,6 +14,8 @@ Architecture is where Beyond Prompting becomes a durable organizational capabili
 
 Architecture also addresses the trust problem head-on. Good system design includes verification, logging, and rollback — the infrastructure that makes delegation safe at scale. Without architecture, orchestration has a ceiling. With architecture, orchestration scales horizontally.
 
+**The Pluralism Dimension (July 2026).** There's a hidden challenge that architects discover when they build systems at scale: AI doesn't produce *the* right answer — it produces a distribution of defensible answers. Different prompts, different model configurations, different starting assumptions all produce different conclusions from the same data (this is what researchers call the "Agentic Garden of Forking Paths" — arXiv, July 2026). For the architect, this means the job isn't just "design a system that produces output." It's "design a system that surfaces the range of plausible outputs, identifies where they disagree, and makes the choice-points visible." An architect who builds for a single "correct" output is building a fragile system. An architect who builds for pluralism — multiple perspectives, explicit disagreement, human choice at the crux — is building a resilient one. This is also the technical foundation for the ICML 2026 Pluralistic Alignment workshop: the research community is converging on the idea that AI systems must serve multiple stakeholders with different values, not optimize for a single objective. You're an architect when you stop asking "is this right?" and start asking "whose perspective does this reflect, and what did we leave out?"
+
 ## How to Spot It in Your Day
 
 You are thinking like an architect when:

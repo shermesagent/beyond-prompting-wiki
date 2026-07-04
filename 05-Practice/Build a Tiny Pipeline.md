@@ -150,6 +150,13 @@ First time? Yes. Third time? No. A pipeline that costs 15 minutes to design and 
 **"My tasks don't chain naturally."**
 Not all tasks do. That's fine. Start with the ones that do: research → format, draft → polish, find → summarize. These patterns are everywhere once you look for them. If you truly can't find a pair, chain one task with a formatting step — even that teaches the pipeline muscle.
 
+**The Reverse-Centaur Check (July 2026).** Before you commit to any pipeline, ask one question: *who does this pipeline work for?* Cory Doctorow's "Reverse-Centaur" framing (from his 2026 book *The Reverse-Centaur's Guide to Life After AI*) gives us a clean test:
+
+- **Centaur pipeline:** AI handles the repetitive work. You handle the judgment. The pipeline amplifies your agency — you make more decisions, you have more context, you're more effective.
+- **Reverse-Centaur pipeline:** You handle the repetitive work (feeding inputs, fixing formats, copy-pasting between steps). AI makes the judgments. The pipeline reduces your agency — you become a human connector between AI steps.
+
+A good pipeline makes you *more* of a decision-maker. If you find yourself spending more time managing the pipeline than directing it, you've built a Reverse-Centaur. Fix it by moving the repetitive work from your side to the AI's side, or by collapsing steps so fewer handoffs are needed. The goal isn't more pipelines — it's pipelines where the AI works for you, not the other way around.
+
 ## What Comes Next
 
 Use this pipeline three times. Note where the handoff needs tightening. Then you're ready for [[The Daily Standup]], where you'll build the habit of reviewing and improving your pipelines as a regular practice — the orchestrator's version of a standup meeting.

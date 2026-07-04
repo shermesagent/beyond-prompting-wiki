@@ -31,6 +31,10 @@ The four labels are a delegation decision tool, not a productivity hack. Here's 
 
 **They catch the tasks AI shouldn't touch.** Prohibiting AI for sensitive tasks — student records, personnel decisions, mental health support — isn't a failure of the framework. It's the framework doing its job. Good delegation includes knowing what not to delegate.
 
+**The Hidden Assumption: People Actually Use the AI.** (July 2026) Here's the thing the four labels don't address on their own: labeling a task "augment" only works if someone actually opens the AI and does it. Stanford's SCALE research found that students given access to AI tutors used them for just 2-5 minutes per week. Microsoft's 2026 Work Trend Index identified what they call the "Transformation Paradox" — employees are ready to reinvent how they work, but the systems around them (metrics, incentives, norms) reinforce the old way. And the World Economic Forum's June 2026 research on the "5 faces of human readiness" found that top-down messaging on AI is on a "collision course with employee reality" across organizations, producing inconsistent or outright resistant AI use.
+
+The practical implication: the four labels need a fifth question. Not just "which bucket does this task belong in?" but "will anyone actually use the AI for it?" Wharton's research (April 2026) provides the answer: end-to-end workflow redesign fosters engagement more effectively than tool deployment alone. You can't just hand people an AI tool and a label. You have to redesign the work so AI becomes the path of least resistance — the natural way the task gets done, not an extra step someone has to remember to take.
+
 ## The Labels in Practice
 
 ### Automate
@@ -106,7 +110,7 @@ You're still in default mode when:
 
 ## Related Pages
 
-[[Delegation Thinking]] · [[Task Decomposition]] · [[The Placement Rule]] · [[The Orchestrator Mindset]] · [[Why This Matters]]
+[[Delegation Thinking]] · [[Task Decomposition]] · [[The Placement Rule]] · [[The Orchestrator Mindset]] · [[Why This Matters]] · [[The Engagement Gap]]
 
 ## Tags
 
