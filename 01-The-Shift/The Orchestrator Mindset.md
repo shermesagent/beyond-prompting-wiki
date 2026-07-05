@@ -35,6 +35,24 @@ Here's something experienced orchestrators know and newcomers miss: **architectu
 
 The practical implication: your pipeline design, your verification strategy, your memory architecture — these are levers you control regardless of which model you have access to. The orchestrator who chases the latest model is playing a game where the rules change monthly. The orchestrator who builds better architecture is playing a game where every improvement compounds. See the Gatekeeping Paradox in [[Why This Matters]] for why this distinction is becoming urgent right now.
 
+## The Cognitive Stack: The Architecture of Beyond Prompting (July 2026)
+
+Brian Madden at Citrix has named the structural architecture of what moving beyond prompting looks like in practice. His Cognitive Stack has five layers:
+
+| Layer | What It Does | What This Looks Like |
+|-------|-------------|---------------------|
+| **Worker** | Sets intent, exercises judgment | You decide what matters, what's urgent, what the goal is |
+| **Cognitive Extension ("the brain")** | Holds context, memory, preferences, plans | The thing you actually talk to — it knows your history, your format, your constraints |
+| **AI Agents ("the claws")** | Execute tasks | Purpose-built digital workers — one researches, one writes, one checks |
+| **Tools** | APIs, databases, files | The infrastructure agents reach into |
+| **Execution** | The actual work | Outputs, artifacts, decisions |
+
+The key insight: **the "brain" layer is what prompts currently do manually.** When you type "I'm a teacher writing lesson plans for 8th grade, here's my format, here's the standard..." — you're building your cognitive extension from scratch every time. An orchestrator builds this layer *once* and reuses it. That's the difference between doing the work and directing it.
+
+Madden also reframes the 7-stage adoption roadmap as "not a ladder, it's a palace" — the second brain isn't a stage you pass through on your way to something better. It's permanent infrastructure. The operator moves up through the stages. The orchestrator builds rooms they'll live in forever.
+
+This also explains why **worker-led adoption works and corporate AI programs don't.** Workers have access to their "invisible 80%" — the tacit knowledge, judgment, patterns, and context that no top-down program can see or document. When you build your brain, you're encoding that 80%. An enterprise AI deployment can't do it for you. The orchestrator's advantage is built, not deployed.
+
 ## The Shift Has Hard Data Now
 
 SolarWinds' 2026 IT Trends Report (1,000+ IT professionals surveyed, April 2026) confirms four dimensions of the shift — the same ones operators experience as they move toward orchestration:

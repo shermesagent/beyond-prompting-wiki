@@ -30,6 +30,8 @@ Every delegable task you master doesn't just save you minutes. It gives you acce
 
 **Organizational leverage.** The most valuable person in an AI-augmented organization is not the one who uses AI the most. It is the one who makes AI *usable* for everyone else — building the prompts, workflows, memory systems, and guardrails that multiply the whole team's output. Moving beyond prompting moves you from consumer to force multiplier.
 
+**Pattern-seeing is the new human advantage.** IBM's 2026 CEO Study puts it directly: "When AI handles specialized tasks with speed and precision, the human advantage shifts to those who can see patterns across functions, ask questions AI can't, and connect dots others miss." The orchestrator's edge isn't being faster at specific tasks — it's seeing what connects them. Pattern-seeing, synthesis, and judgment across domains are skills that compound as AI handles more specialized execution.
+
 **Strategic positioning.** There's a structural tension playing out right now: frontier AI access is becoming more restricted (the White House now approves GPT-5.6 access customer-by-customer), while application-layer tools that don't require frontier access are becoming more powerful (non-programmers building software, non-designers designing, non-specialists directing creative production). The orchestrator who builds skills — decomposition, specification, verification — rather than dependencies on specific models wins either way. Your architecture is your moat. Your model access is not.
 
 ## The Data Is In: This Shift Has Hard Numbers

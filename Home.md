@@ -60,7 +60,7 @@ Plain-language definitions of every key term.
 
 ### 00-Daily-Digests
 Daily curated research digests — what we found, what it means, and how to use it.
-→ [[2026-07-04|Today's Digest]]
+→ [[2026-07-05|Today's Digest]]
 
 ---
 
@@ -80,6 +80,7 @@ _Last 7 days of activity._
 
 | Date | Pages Changed |
 |------|---------------|
+| 2026-07-05 | Daily digest + 3 Shift pages deepened (What Is Beyond Prompting — Deloitte validation, Why This Matters — IBM pattern-seeing, The Orchestrator Mindset — Cognitive Stack & worker-led adoption) — enterprise leadership converges on the operator-to-orchestrator framing |
 | 2026-07-04 | Daily digest + 1 new concept (The Engagement Gap) + 3 pages deepened (The Architect Mindset — Pluralism Layer, The Four Decision Labels — Engagement Barrier, Build a Tiny Pipeline — Reverse-Centaur Check) — cross-pollination from AI Agency Knowledgebase: pluralism, engagement, and agency-preserving pipelines |
 | 2026-07-03 | Daily digest + 1 new glossary entry (Oversight) + 4 glossary pages updated (Agent, Human in the Loop, Autonomy, Orchestration) — naming what we're actually doing: team types, collaborative oversight, pseudo-rational cognition, the trust gap |
 | 2026-07-02 | Daily digest + 1 new practice page (The Line You Draw) + 3 pages updated (The Daily Standup, First Delegation, Audit Your Prompts) — the practice of drawing lines: constrained overrides, delegation boundaries, metacognitive check-ins |

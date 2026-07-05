@@ -245,3 +245,16 @@
 **Rotations:** Day 7 (Weekend) — Cross-section theme. Combined lint review + knowledgebase cross-pollination + practice deepening. Previous lint confirmed clean (no broken wikilinks, no cross-directory links, no orphans beyond expected). Weekend — no arXiv. web_extract credit-exhausted; source intake via web_search and knowledgebase cross-pollination.
 
 **Key insight:** AI availability is not AI adoption. The beyond-prompting shift's biggest barrier isn't skill gaps — it's the Engagement Gap: nobody opens the AI. Design for engagement first, capability second.
+## 2026-07-05 | ingest | Daily curation — 3 sources from web research: Deloitte validates the operator-to-orchestrator framing at enterprise scale
+- Theme: The World Is Catching Up — "From Operators to Orchestrators" Is Now the Language of Enterprise Leadership
+- Sources ingested:
+  - Deloitte — "From Operators to Orchestrators: 2026 Global Technology Leadership Study" (April 30, 2026). 660+ senior tech execs surveyed. Three shifts: Value Mandate (79% priority/42% low ROI), Capability Gap, Resource Squeeze. "The era of the operational technologist is over."
+  - IBM — 2026 CEO Study "5 Plays for AI-first Transformation." Human advantage shifts to pattern-seeing across functions, asking questions AI can't, connecting dots.
+  - Brian Madden / Citrix — "The 7-stage roadmap for human-AI collaboration (2026 Edition)" (June 10, 2026). Cognitive Stack: worker -> brain -> agents -> tools -> execution. "Not a ladder, a palace." Worker-led adoption thesis.
+- Pages updated: What Is Beyond Prompting (+Deloitte validation section), Why This Matters (+IBM pattern-seeing +Deloitte 42% ROI gap), The Orchestrator Mindset (+Cognitive Stack section with 5-layer architecture, 7-stage roadmap framing, worker-led adoption insight)
+- Digest: 00-Daily-Digests/2026-07-05.md
+- Navigation: Home.md (digest link + recent updates entry added)
+- Sources: 3 entries added to sources/sources.jsonl
+- Raw files: 3 new raw articles in raw/articles/
+- Note: Weekend run (Sunday, July 5). No arXiv publications. web_extract credit-exhausted — all source discovery via web_search summaries + curl on PRNewswire (Deloitte release extracted). Citrix/Madden article body not extractable from JS-rendered page; summaries from bmad.com/thinking personal site + web_search descriptions.
+- Day 1 rotation: 01-The-Shift. Deloitte study is strongest external validation yet of wiki's core thesis.

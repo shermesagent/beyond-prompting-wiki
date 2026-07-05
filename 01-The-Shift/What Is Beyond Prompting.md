@@ -8,6 +8,16 @@ Most people stop at "prompting" — they type a question, get an answer, and rep
 
 It is not about better prompts. It is about different patterns entirely — delegation over instruction, architecture over ad-hoc, systems over sessions.
 
+## The World Is Catching Up (July 2026)
+
+In April 2026, Deloitte — the world's largest consulting firm — published its Global Technology Leadership Study. The title? **"From Operators to Orchestrators."** Surveying 660+ senior technology executives, they found this shift is reshaping what leadership means. The study's three findings mirror this wiki's core thesis:
+
+- **The Value Mandate:** Leaders are no longer measured by uptime — they're measured by outcomes. 79% say delivering measurable value is their top priority.
+- **The Capability Gap:** Ambition has outrun reality. The bottleneck isn't technology — it's data, talent, and operating models.
+- **The Resource Squeeze:** Leaders are asked to run, change, protect, and grow — within the same budgets.
+
+This isn't niche AI-futurist language. When Deloitte talks, enterprise leadership listens. The operator-to-orchestrator shift is becoming the organizing idea for how organizations retool around AI — and it will cascade through every knowledge profession within 12-18 months. You are on the right path.
+
 ## Why It Matters for Moving Beyond Prompting
 
 This page is your entry point. Understanding what Beyond Prompting is — and is not — frames everything that follows. The operator→orchestrator shift starts when you realize that the unit of work is no longer a single prompt-response pair. It is a task. The AI becomes a collaborator that you direct, not a tool you wield one keystroke at a time.
