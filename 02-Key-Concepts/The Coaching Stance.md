@@ -73,7 +73,7 @@ See also: [[The Augmentation Trap]] · [[The Placement Rule]] · [[Cognitive Sur
 
 ## Related Pages
 
-[[The Augmentation Trap]] · [[The Placement Rule]] · [[Cognitive Surrender]] · [[Trust Calibration]] · [[Delegation Thinking]] · [[Friction by Design]] · [[The Orchestrator Mindset]]
+[[The Augmentation Trap]] · [[The Placement Rule]] · [[Cognitive Surrender]] · [[Trust Calibration]] · [[Delegation Thinking]] · [[Friction by Design]] · [[The Orchestrator Mindset]] · [[The Sequencing Principle]]
 
 ## Tags
 

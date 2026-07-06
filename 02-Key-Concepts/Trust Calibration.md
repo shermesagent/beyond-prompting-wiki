@@ -108,7 +108,7 @@ Keep this map. Update it next week. You're building your own calibration data.
 
 ## Related Pages
 
-[[Cognitive Surrender]] · [[Task Decomposition]] · [[Delegation Thinking]] · [[Memory as Infrastructure]] · [[The Review-First Pattern]] · [[04-Barriers-and-Bridges/README|04 — Barriers & Bridges]] · [[Co-Construction Blindness]]
+[[Cognitive Surrender]] · [[Task Decomposition]] · [[Delegation Thinking]] · [[Memory as Infrastructure]] · [[The Review-First Pattern]] · [[04-Barriers-and-Bridges/README|04 — Barriers & Bridges]] · [[Co-Construction Blindness]] · [[The Sequencing Principle]]
 
 ## Tags
 

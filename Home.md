@@ -40,7 +40,7 @@ The core idea. What it means, why it matters, and the three mindsets along the p
 
 ### [[02-Key-Concepts/README|02 — Key Concepts]]
 Approachable distillations of research into learning concepts you can use today.
-→ [[Task Decomposition]] · [[Delegation Thinking]] · [[Cognitive Surrender]] · [[Trust Calibration]] · [[Friction by Design]] · [[The Augmentation Trap]] · [[Co-Construction Blindness]] · [[From Author to Editor]] · [[The Coaching Stance]] · [[The Placement Rule]] · [[The Four Decision Labels]] · [[Memory as Infrastructure]] · [[Human in the Loop]] · [[The Review-First Pattern]]
+→ [[Task Decomposition]] · [[Delegation Thinking]] · [[Cognitive Surrender]] · [[Trust Calibration]] · [[Friction by Design]] · [[The Augmentation Trap]] · [[Co-Construction Blindness]] · [[From Author to Editor]] · [[The Coaching Stance]] · [[The Placement Rule]] · [[The Four Decision Labels]] · [[Memory as Infrastructure]] · [[Human in the Loop]] · [[The Review-First Pattern]] · [[The Sequencing Principle]]
 
 ### [[03-Real-World/README|03 — Real World Stories]]
 Case studies, transformation stories, and honest failure postmortems.

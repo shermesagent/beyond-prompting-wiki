@@ -1,10 +1,10 @@
 ---
 title: From Author to Editor
 created: 2026-06-24
-updated: 2026-06-24
+updated: 2026-07-06
 type: concept
 tags: [concept, orchestrator, mindset, workflow]
-sources: [raw/articles/90-days-ai-agents-analytics-2026.md, raw/articles/getting-smart-workflow-schools-2026.md, raw/articles/agentic-browsers-accessibility-2026.md]
+sources: [raw/articles/90-days-ai-agents-analytics-2026.md, raw/articles/getting-smart-workflow-schools-2026.md, raw/articles/agentic-browsers-accessibility-2026.md, raw/articles/mollick-against-brain-damage-2026.md]
 confidence: high
 ---
 
@@ -65,7 +65,15 @@ You've shifted to editor mode when:
 
 ## Related Pages
 
-[[Delegation Thinking]] · [[Task Decomposition]] · [[From Prompt to Pipeline]] · [[The School District Shift]] · [[Cognitive Surrender]]
+[[Delegation Thinking]] · [[Task Decomposition]] · [[From Prompt to Pipeline]] · [[The School District Shift]] · [[Cognitive Surrender]] · [[The Sequencing Principle]]
+
+## Writing Is Thinking — The Mollick Method
+
+Ethan Mollick, in "Against Brain Damage" (June 2026), describes his personal practice: every post he writes gets a **full draft done entirely without AI**. Not a rough outline — a complete draft, rewritten multiple times. The process of writing and rewriting IS the thinking. Only when the draft is done does he turn to AI — not as author, but as reader ("was this unclear for a non-technical audience?") and editor ("give me 20 alternative endings for this section").
+
+This is the author-to-editor shift in its purest form: you produce the first draft. AI helps you refine it. The thinking — the part where ideas get sharpened through the friction of putting words on a page — stays yours. The polishing, where more versions and different angles help you see what you couldn't see alone, gets delegated.
+
+The trap is the reverse: let AI write the first draft, then spend your energy editing something you didn't really think about. The output might look fine. But the thinking never happened. See [[The Sequencing Principle]] for why the order matters across all domains, not just writing.
 
 ## Tags
 

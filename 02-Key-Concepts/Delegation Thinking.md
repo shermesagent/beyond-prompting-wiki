@@ -58,7 +58,21 @@ The skill that bridges this gap is **specification before execution**. It's what
 
 The orchestrator's version of this: before delegating any multi-step task, write the spec. Not the prompt — the spec. Inputs, outputs, constraints, success criteria. If you can't write the spec, you haven't decomposed the task enough. The spec *is* the delegation. Everything after that is execution.
 
-See also: [[Task Decomposition]] · [[Co-Construction Blindness]]
+## The Delegation Continuum: Evidence from the Frontier
+
+Mollick's June 2026 post "The twilight of the chatbots" provides concrete numbers for what the delegation spectrum actually looks like at the frontier. AI isn't just improving — it's extending the *duration* of autonomous work:
+
+| Task Type | Duration | Example |
+|-----------|----------|---------|
+| Ask (Levels 1-2) | Seconds to minutes | A prompt, a response. You're in the loop throughout. |
+| Task (Levels 3-4) | Minutes to hours | Delegate with spec. AI works, you verify at checkpoints. |
+| Autonomous Work (Levels 5-6) | Hours to days | AI works independently. You review the result. |
+
+The evidence: **Opus 4.7, working alone for 14 hours, built a software package that would take 2-17 weeks of human engineering work — for $251 in tokens.** GPT-5.5 works autonomously for 2+ hours on complex tasks. Fable (Anthropic's flagship agent) can execute complex software projects over 9 hours without human intervention.
+
+This isn't theoretical. The delegation spectrum on this page isn't a nice-to-have framework — it's the architecture of how work is already changing. The people building Level 6 orchestrated systems today are working with AI that can go for hours without them. The skills gap isn't about better prompting. It's about building the spec, setting the constraints, and knowing when to step back.
+
+See also: [[Task Decomposition]] · [[Co-Construction Blindness]] · [[The Sequencing Principle]]
 
 ## Delegation Beyond Productivity: The Accessibility Lens
 

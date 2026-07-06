@@ -258,3 +258,22 @@
 - Raw files: 3 new raw articles in raw/articles/
 - Note: Weekend run (Sunday, July 5). No arXiv publications. web_extract credit-exhausted — all source discovery via web_search summaries + curl on PRNewswire (Deloitte release extracted). Citrix/Madden article body not extractable from JS-rendered page; summaries from bmad.com/thinking personal site + web_search descriptions.
 - Day 1 rotation: 01-The-Shift. Deloitte study is strongest external validation yet of wiki's core thesis.
+
+## [2026-07-06] digest | The Sequencing Principle: Think First, Then Delegate
+- Digest: 00-Daily-Digests/2026-07-06.md
+- Sources ingested: 3
+  - raw/articles/mollick-twilight-of-chatbots-2026.md (Mollick, June 30)
+  - raw/articles/mit-tr-operational-excellence-ai-2026.md (MIT TR, July 2)
+  - raw/articles/mollick-against-brain-damage-2026.md (Mollick, June 2026)
+- Pages created: 1
+  - 02-Key-Concepts/The Sequencing Principle.md
+- Pages updated: 6
+  - 02-Key-Concepts/Delegation Thinking.md (+Delegation Continuum section with frontier evidence)
+  - 02-Key-Concepts/From Author to Editor.md (+Mollick writing practice, frontmatter)
+  - 02-Key-Concepts/Cognitive Surrender.md (+Anchoring Effect section, frontmatter)
+  - 02-Key-Concepts/The Coaching Stance.md (+backlink)
+  - 02-Key-Concepts/Friction by Design.md (+backlink)
+  - 02-Key-Concepts/Trust Calibration.md (+backlink)
+- Pages updated (navigation): Home.md (added The Sequencing Principle)
+- Top insight: AI that works autonomously for hours is already here (Opus 4.7: 14h build = 2-17 human weeks for $251). The skill that unlocks it is not prompting but structure.
+- Rotation: Day 2 (02-Key-Concepts)

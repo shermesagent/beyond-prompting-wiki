@@ -75,7 +75,7 @@ That's friction by design: a small slowdown that pays back in better judgment.
 
 ## Related Pages
 
-[[Cognitive Surrender]] · [[Trust Calibration]] · [[The Augmentation Trap]] · [[Delegation Thinking]] · [[Task Decomposition]] · [[The Placement Rule]]
+[[Cognitive Surrender]] · [[Trust Calibration]] · [[The Augmentation Trap]] · [[Delegation Thinking]] · [[Task Decomposition]] · [[The Placement Rule]] · [[The Sequencing Principle]]
 
 ## Tags
 

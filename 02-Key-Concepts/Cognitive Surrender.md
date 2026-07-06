@@ -1,10 +1,10 @@
 ---
 title: Cognitive Surrender
 created: 2026-06-21
-updated: 2026-06-29
+updated: 2026-07-06
 type: concept
 tags: [concept, barrier, mindset]
-sources: [raw/articles/augmentation-trap-caosun-aral-2026.md, raw/articles/cognitive-offloading-atrophy-risk-kennesaw-2026.md, raw/articles/accurate-but-not-confident-acm-2026.md, raw/articles/keystroke-dynamics-cognitive-effort-prompting-2026.md]
+sources: [raw/articles/augmentation-trap-caosun-aral-2026.md, raw/articles/cognitive-offloading-atrophy-risk-kennesaw-2026.md, raw/articles/accurate-but-not-confident-acm-2026.md, raw/articles/keystroke-dynamics-cognitive-effort-prompting-2026.md, raw/articles/mollick-against-brain-damage-2026.md]
 confidence: high
 ---
 
@@ -64,7 +64,15 @@ The key insight: **these aren't psychological deficits. They're adaptations.** I
 
 **For the orchestrator:** schedule deliberate no-AI time. Not forever. Not even all day. But regularly. The person who can still do deep synthesis *without* AI has a capability advantage over the person who can't. See [[The Coaching Stance]] for the practice of designing relationships with AI that build skills rather than erode them.
 
-See also: [[The Augmentation Trap]] · [[Friction by Design]]
+See also: [[The Augmentation Trap]] · [[Friction by Design]] · [[The Sequencing Principle]]
+
+## The Anchoring Effect: AI Goes First, You Follow
+
+A subtler form of cognitive surrender happens before you even accept an output: **the anchoring effect.** Once you see the AI's suggestions, it becomes much harder to think outside those boundaries. Your brain gets stuck on what the AI said first — even if those suggestions are mediocre.
+
+Mollick's "Against Brain Damage" (June 2026) documents this in the creativity domain: AI beats 91% of humans on creativity tests, but its ideas converge on predictable patterns (VR, blockchain, environment, AI itself). When people see those suggestions before generating their own, their thinking anchors to them. The AI's output — even if narrow — becomes the ceiling. You don't notice what you didn't think of because the AI already filled the space.
+
+This is cognitive surrender through order, not through passivity. You didn't stop thinking — you just never started. The AI went first. See [[The Sequencing Principle]] for the fix.
 
 ## Try This
 
@@ -83,7 +91,7 @@ The goal isn't to trash the AI's work. It's to wake up your critical eye. Do thi
 
 ## Related Pages
 
-[[Trust Calibration]] · [[Delegation Thinking]] · [[04-Barriers-and-Bridges/README|04 — Barriers & Bridges]] · [[01-The-Shift/README|The Architect Mindset]]
+[[Trust Calibration]] · [[Delegation Thinking]] · [[04-Barriers-and-Bridges/README|04 — Barriers & Bridges]] · [[01-The-Shift/README|The Architect Mindset]] · [[The Sequencing Principle]]
 
 ## Tags
 
