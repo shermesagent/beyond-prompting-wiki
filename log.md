@@ -277,3 +277,20 @@
 - Pages updated (navigation): Home.md (added The Sequencing Principle)
 - Top insight: AI that works autonomously for hours is already here (Opus 4.7: 14h build = 2-17 human weeks for $251). The skill that unlocks it is not prompting but structure.
 - Rotation: Day 2 (02-Key-Concepts)
+## [2026-07-07] ingest | Four new sources: Doom Researching, New Shape of Search, Government AI Use, Double-edged AI Bans
+- Sources ingested from arXiv (cs.HC + cs.CY RSS feeds) — web_search unavailable
+- Created: raw/articles/adhikari-doom-researching-2026.md (arXiv 2607.02723)
+- Created: raw/articles/iannelli-ai-new-shape-of-search-2026.md (arXiv 2607.04282)
+- Created: raw/articles/atkinson-obryan-gov-ai-monitoring-2026.md (arXiv 2607.04543)
+- Created: raw/articles/ma-double-edged-ai-bans-2026.md (arXiv 2607.04601)
+- Created: 00-Daily-Digests/2026-07-07.md (Day 3 — Real-World rotation)
+- Created: 02-Key-Concepts/Doom Researching.md (new concept page)
+- Updated: 03-Real-World/From Prompt to Pipeline.md (The Consumption Trap section)
+- Updated: 03-Real-World/The School District Shift.md (AI Is Already in the Building section)
+- Updated: 03-Real-World/Small Business Automation.md (The Verification Edge section)
+- Updated: 02-Key-Concepts/README.md (added Doom Researching entry)
+- Theme: The Consumption Gap — real-world data reveals most AI use is consumption, not production
+- Key concept: Doom Researching — repetitive AI querying without synthesis, illusion of knowing
+- Key concept: Collapse vs. Scaffold — most AI episodes terminate in place, only ~1/3 scaffold further
+- Key concept: Verification Gap — only 1% of AI users verify output
+- Key insight: Government AI adoption is measurable by 2026 — 4 of 10 document streams show AI traces

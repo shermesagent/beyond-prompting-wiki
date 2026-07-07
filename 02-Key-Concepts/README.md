@@ -23,6 +23,7 @@ You don't need to read them in order. Jump to whichever title grabs you. But if 
 11. **[[The Four Decision Labels]]** — the simplest delegation framework: automate, augment, human-only, prohibit.
 12. **[[Memory as Infrastructure]]** — the system-level upgrade.
 13. **[[The Review-First Pattern]]** — the practical bridge from operator to orchestrator: draft → review → execute.
+14. **[[Doom Researching]]** — the operator trap: repetitive AI querying without synthesis, and how to escape it.
 
 ---
 
@@ -51,6 +52,7 @@ They came out of real research — papers on human-AI collaboration, case studie
 | [[The Four Decision Labels]] | Should this task be automated, augmented, kept human, or prohibited? | Everyone |
 | [[Memory as Infrastructure]] | Why does agent memory beat copying old chats? | Architect |
 | [[The Review-First Pattern]] | What's the proven workflow pattern that actually works in production? | Operator → Orchestrator |
+| [[Doom Researching]] | Am I consuming AI answers without producing anything? | Everyone |
 
 ---
 

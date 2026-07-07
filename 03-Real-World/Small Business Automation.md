@@ -110,6 +110,20 @@ The 2-person bakery isn't an edge case. It's the sweet spot. Small teams have le
 
 ---
 
+## The Verification Edge
+
+New research gives Em and Jules's review-first approach a quantifiable advantage. A July 2026 study of real-world conversational AI use found that **only ~1% of AI-assisted information seeking episodes include any verification.** People almost never check the AI's work.
+
+This isn't a small finding. It means the review-first pattern — AI produces a draft, human reviews and approves, *nothing goes out without human eyes* — is essentially an unused competitive advantage. While competitors are sending unverified AI drafts to customers, Em and Jules are spending ten minutes checking every purchase order, personalizing every customer email, and reviewing every schedule. That ten minutes isn't overhead. It's what separates their AI use from everyone else's.
+
+The verification gap also explains why the small business AI horror stories happen. When a vendor reported their worst production failure — an agent auto-sending "we apologize for the delay" to a customer who'd already received their refund — the fix wasn't a better model or a better prompt. It was **review-first by default, non-skippable for customer-facing actions.** The structure prevented the failure mode that no amount of prompting could have caught.
+
+For the 2-person business, the verification edge is the difference between "we use AI" (like everyone else) and "we use AI in a way that actually protects our relationships" (like almost no one). The orchestrator's signature move — review before execution — is rare enough that doing it consistently *is* the competitive advantage.
+
+**Source:** Iannelli & Ai, "The New Shape of Search," arXiv 2607.04282 (July 2026)
+
+---
+
 ## You Can Do This Too
 
 If you run a small business or team of 1-10 people:
@@ -126,7 +140,7 @@ The shift from operator to orchestrator doesn't require an engineering team. It 
 
 ## Related Pages
 
-[[The School District Shift]] · [[From Prompt to Pipeline]] · [[The Review-First Pattern]] · [[Delegation Thinking]] · [[Task Decomposition]] · [[03-Real-World/README|03 — Real World Stories]]
+[[The School District Shift]] · [[From Prompt to Pipeline]] · [[The Review-First Pattern]] · [[Delegation Thinking]] · [[Task Decomposition]] · [[Doom Researching]] · [[03-Real-World/README|03 — Real World Stories]]
 
 ## Tags
 

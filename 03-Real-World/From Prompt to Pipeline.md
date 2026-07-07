@@ -71,6 +71,30 @@ The quality actually improved, counterintuitively. When Mara was prompting piece
 
 ---
 
+## The Consumption Trap: What Mara Escaped
+
+New research gives Mara's "before" pattern a name: **doom researching**. It's the AI-mediated pattern of asking follow-up after follow-up without converting any of it into durable output. Each prompt feels productive. The cumulative effect is zero synthesis.
+
+Mara's eighteen-hour weeks weren't just inefficient — they were a textbook case of the doom researching loop:
+
+```
+Fluent AI response ("here's your blog outline")
+    ↓
+Reduced cognitive effort (AI already wrote it, now I just tweak)
+    ↓
+Inflated perceived knowledge (I understand this topic now)
+    ↓
+More querying (now let me ask for the email version, the social version, the...)
+```
+
+She was producing output, technically — blog posts did get published. But the *way* she was producing kept her trapped at the operator level: every piece required four to six prompt rounds, every round consumed judgment energy, and by the end of the week she was cognitively spent.
+
+The pipeline didn't just save her eighteen hours. It broke the doom researching loop entirely. Instead of an open-ended conversation that could (and did) spiral into endless refinement, she designed a structure: **one input (the topic), one run (the pipeline), one review session (her editing pass).** The structure itself prevented the loop from forming.
+
+This is why [[Doom Researching]] matters for the beyond-prompting shift. The operator isn't just "someone who writes prompts." The operator is someone whose AI interactions follow the consumption pattern: ask → get → ask follow-up → get → ask another — with production as an afterthought. The orchestrator's structural fix: design the interaction so it *must* produce something concrete before it ends.
+
+---
+
 ## What Made It Work
 
 **She stopped writing instructions for the AI and started writing instructions for the *process*.** The difference is subtle but enormous. A prompt says "do this." A task description says "here's the outcome, here are the tools, figure out the path."
@@ -142,7 +166,7 @@ The first time you come back to a completed draft you didn't micromanage, someth
 
 ## Related Pages
 
-[[The School District Shift]] · [[Task Decomposition]] · [[Delegation Thinking]] · [[Trust Calibration]] · [[From Author to Editor]] · [[03-Real-World/README|03 — Real World Stories]]
+[[The School District Shift]] · [[Task Decomposition]] · [[Delegation Thinking]] · [[Trust Calibration]] · [[From Author to Editor]] · [[Doom Researching]] · [[03-Real-World/README|03 — Real World Stories]]
 
 ## Tags
 

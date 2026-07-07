@@ -85,6 +85,22 @@ The curriculum coordinator described it this way: "We didn't replace teachers wi
 
 ---
 
+## AI Is Already in the Building
+
+Farmersville's story is about a district that *chose* to shift. But new research suggests the shift is happening whether districts plan for it or not — it's just happening unevenly and invisibly.
+
+A July 2026 pilot study measured AI writing traces across ten public government document streams. By 2026, **four of ten sources showed statistically significant signs of AI-assisted writing** — up from near-zero baselines in 2021. The AI traces don't appear in policy decisions themselves, but in the documents downstream of policy: reports, summaries, communications. 
+
+Schools are government entities. The same pattern is almost certainly unfolding in curriculum documents, board reports, and district communications — teachers and administrators using AI to draft, with varying levels of disclosure and quality control. The Farmersville approach (build intentional, review-first workflows) is the alternative to what's already happening by default: individual, unverified, invisible AI use with no quality gates and no shared standards.
+
+The government AI study's most important lesson: **you can measure this.** The researchers didn't ask anyone "do you use AI?" They looked for the traces. Any organization — a school district, a small business, a nonprofit — could do the same: audit document streams for AI traces, measure the gap between stated policy and revealed behavior, and use that gap to drive intentional adoption rather than accidental drift.
+
+This connects directly to the Verification Gap identified in the same day's research: only ~1% of AI users verify the output. When government workers (and, by extension, district employees) are using AI to write documents that go to real audiences, and almost no one is checking the work, the risk isn't AI itself — it's **unverified AI in the hands of people who don't know they're supposed to check.**
+
+**Source:** Atkinson & O'Bryan, "Government AI Use as a Monitoring Primitive," arXiv 2607.04543 (July 2026)
+
+---
+
 ## What Made It Work
 
 **They solved for the district, not for individual teachers.** The assistant superintendent said no to "every teacher should learn prompt engineering." Instead, they built the prompt engineering into the workflows and gave teachers a review role. This mattered because expecting sixty teachers to independently master [[Delegation Thinking]] was unrealistic. Expecting three people to build workflows that sixty people could use? That was doable.
@@ -169,7 +185,7 @@ This is the orchestrator interface for education: the teacher defines what matte
 
 ## Related Pages
 
-[[From Prompt to Pipeline]] · [[Task Decomposition]] · [[Delegation Thinking]] · [[Trust Calibration]] · [[Human in the Loop]] · [[03-Real-World/README|03 — Real World Stories]]
+[[From Prompt to Pipeline]] · [[Task Decomposition]] · [[Delegation Thinking]] · [[Trust Calibration]] · [[Human in the Loop]] · [[Doom Researching]] · [[03-Real-World/README|03 — Real World Stories]]
 
 ## Tags
 
