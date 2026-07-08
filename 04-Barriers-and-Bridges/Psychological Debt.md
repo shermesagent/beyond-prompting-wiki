@@ -81,7 +81,7 @@ The point isn't to eliminate psychological debt — some amount of it is probabl
 
 ## Related Pages
 
-[[Fear of Losing Control]] · [[Trust Calibration]] · [[Human Readiness Archetypes]] · [[The Augmentation Trap]] · [[Cognitive Surrender]] · [[The Review-First Pattern]]
+[[Fear of Losing Control]] · [[Trust Calibration]] · [[Human Readiness Archetypes]] · [[The Augmentation Trap]] · [[Knowledge Debt]] · [[Cognitive Surrender]] · [[The Review-First Pattern]]
 
 ## Tags
 

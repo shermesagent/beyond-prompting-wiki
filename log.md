@@ -294,3 +294,23 @@
 - Key concept: Collapse vs. Scaffold — most AI episodes terminate in place, only ~1/3 scaffold further
 - Key concept: Verification Gap — only 1% of AI users verify output
 - Key insight: Government AI adoption is measurable by 2026 — 4 of 10 document streams show AI traces
+## [2026-07-08] ingest | Four new sources: Knowledge Debt, Effortless Bypass, Skill Bypass, Perceived System Predictability
+- Sources ingested from arXiv (cs.AI + cs.CY + cs.HC RSS feeds) — web_search unavailable, Wednesday = arXiv-only curation
+- Created: raw/articles/agents-that-teach-knowledge-debt-2607.06101.md
+- Created: raw/articles/effortless-bypass-dilemma-2607.05557.md
+- Created: raw/articles/genai-skill-bypass-2607.05411.md
+- Created: raw/articles/perceived-system-predictability-2607.05674.md
+- Created: 00-Daily-Digests/2026-07-08.md (Day 4 — Barriers & Bridges rotation)
+- Created: 04-Barriers-and-Bridges/Knowledge Debt.md (new concept page — silent accumulation of AI deliverables you can't explain, with six principles for agents that teach)
+- Updated: 02-Key-Concepts/Trust Calibration.md (+Perceived System Predictability section — explanations shift perception without improving accuracy)
+- Updated: 04-Barriers-and-Bridges/The Just Ask ChatGPT Trap.md (+Fragile Fluency / GenAI Skill Bypass section)
+- Updated: 04-Barriers-and-Bridges/README.md (added Knowledge Debt to barrier table)
+- Updated: 04-Barriers-and-Bridges/Psychological Debt.md (+Knowledge Debt wikilink in related pages)
+- Updated: Home.md (added Knowledge Debt to 04 barriers navigation)
+- Theme: The Learning Paradox — delegation makes you faster now and weaker later unless you design learning back in
+- Key concept: Knowledge Debt — developer-level analogue of Technical Debt; incidental learning short-circuited by AI delegation; silent skill atrophy
+- Key concept: Effortless Bypass Dilemma — learners choose AI shortcuts over effortful engagement; five design directions for motivation-preserving AI
+- Key concept: Fragile Fluency / GenAI Skill Bypass — high prompting self-efficacy masks low AI literacy; r=0.188 correlation between student and academic skill profiles
+- Key concept: Perceived System Predictability (PSP) — feeling of predictability diverges from actual prediction accuracy; explanations are not calibrations
+- Key insight: The tool that makes you most productive is also making you least capable — unless you build learning checkpoints back in by design
+- Rotation: Day 4 (04-Barriers-and-Bridges)

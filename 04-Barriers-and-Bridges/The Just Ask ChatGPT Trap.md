@@ -17,6 +17,12 @@ The single-turn Q&A loop works fine for Phase 2 work — drafting an email, expl
 
 The trap is seductive because it *works*. You get answers. You feel productive. The friction only becomes visible when you stack up everything you're still doing manually and ask: wait, why am I the one orchestrating every single turn?
 
+There's a new name for this: **Fragile Fluency.** A July 2026 study found that students and professionals who develop strong prompting skills often *skip* building any foundational understanding of how AI works. They master the high-level creation before learning the low-level mechanics. The result is high self-efficacy paired with low actual literacy — they feel competent because their prompts work, but they have no mental model for what the AI is doing, what its limits are, or when it's likely to fail. The researchers call this the **GenAI Skill Bypass**. It's the cognitive equivalent of being a good driver who can't check the oil or change a tire. Everything's fine until it's not.
+
+The Skill Bypass is why the Q&A trap is self-reinforcing. You stay in the loop because prompting is the only thing you're fluent in. Delegation — letting the AI drive — requires understanding what the AI can and can't do. But that understanding is exactly what fragile fluency hides. The better you get at prompting, the less you feel you need to understand the AI itself. And the less you understand the AI, the less likely you are to trust it with anything beyond a single turn.
+
+This isn't a character flaw. It's a structural gap in how people learn to work with AI: the interface teaches prompt fluency first, and nothing in the experience forces you to go deeper.
+
 ## How It Feels
 
 You open a new chat. You stare at the cursor. You think: "I need to figure out the right way to ask this." And you spend five minutes composing a prompt. That *is* the trap.

@@ -48,7 +48,7 @@ Case studies, transformation stories, and honest failure postmortems.
 
 ### [[04-Barriers-and-Bridges/README|04 — Barriers & Bridges]]
 What holds people back — and how to cross.
-→ [[Fear of Losing Control]] · [[The Just Ask ChatGPT Trap]] · [[Psychological Debt]] · [[Trust Calibration]] · [[Prompt as Safety Blanket]] · [[Human Readiness Archetypes]] · [[The Engagement Gap]]
+→ [[Fear of Losing Control]] · [[The Just Ask ChatGPT Trap]] · [[Psychological Debt]] · [[Trust Calibration]] · [[Knowledge Debt]] · [[Prompt as Safety Blanket]] · [[Human Readiness Archetypes]] · [[The Engagement Gap]]
 
 ### [[05-Practice/README|05 — Practice]]
 Weekly muscle builders. Concrete exercises that build the orchestrator mindset.

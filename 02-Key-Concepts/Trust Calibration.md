@@ -1,10 +1,10 @@
 ---
 title: Trust Calibration
 created: 2026-06-21
-updated: 2026-06-30
+updated: 2026-07-08
 type: concept
 tags: [concept, barrier, orchestrator]
-sources: [raw/articles/accurate-but-not-confident-acm-2026.md, raw/articles/automation-boundaries-2026.md]
+sources: [raw/articles/accurate-but-not-confident-acm-2026.md, raw/articles/automation-boundaries-2026.md, raw/articles/perceived-system-predictability-2607.05674.md]
 confidence: high
 ---
 
@@ -93,6 +93,20 @@ Production experience from a vendor running AI agents for a full year (Viktor, A
 This means calibration becomes *more* important as models improve, not less. The operator who trusts a smarter model more is walking into a trap. The orchestrator who trusts a smarter model at the same review points — and verifies it at the same verification gates — gets the benefit of the better model without the overconfidence tax.
 
 The review-first pattern (see [[The Review-First Pattern]]) is calibration in practice: AI produces a draft. Human reviews and approves. The review point is where calibration lives — it's the moment you decide whether the agent's output is trustworthy for this specific task, in this specific context, at this specific moment. That's not a one-time setting. It's a practice.
+
+### The Perceived Predictability Problem
+
+New research (arXiv, July 2026) introduces **Perceived System Predictability (PSP)** — a validated 6-item scale that measures how predictable users *feel* a system is, regardless of whether they're actually right about it. The study's key finding for orchestrators: **perceived predictability and actual prediction correctness can diverge dramatically.**
+
+Three specific findings worth knowing:
+
+1. **Explanations shift perception without shifting accuracy.** When an AI system provided explanations, users felt it was more predictable — but their actual ability to predict system behavior didn't improve. The explanation made them *feel* calibrated without *being* calibrated.
+
+2. **More randomness doesn't make people feel less in control.** When the system's behavior became more stochastic (less predictable), users' prediction accuracy dropped — but their *perceived* predictability scores didn't change. They kept trusting the system at the same level even as it became objectively less predictable.
+
+3. **PSP predicts correctness — but the relationship is complex.** Users who scored higher on PSP *were* better at predicting system behavior, suggesting that the perception and the ability are connected. But explanations disrupted this connection by inflating perception without improving ability.
+
+**The takeaway for trust calibration:** Don't trust explanations as calibration shortcuts. A system that *explains itself well* is not necessarily a system you can predict well. The orchestrator's calibration tool isn't the quality of the explanation — it's the track record over time. Explanations are marketing. Outcomes are data.
 
 ## Try This
 

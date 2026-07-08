@@ -20,7 +20,8 @@ Each barrier page follows the same structure. We name what's happening, explain 
 | [[Trust Calibration]] | The pendulum between blind trust and blanket skepticism | A practical sliding scale you can adjust per task, not per tool |
 | [[Prompt as Safety Blanket]] | Holding onto the Q&A loop because it feels safer than delegation — the familiar pattern that keeps you slow | Template one task, add a boundary, and prove the world doesn't end when you walk away |
 | [[Human Readiness Archetypes]] | Which of the five AI adoption postures fits me — and my team? — plus the psychological debt each archetype is most vulnerable to | Everyone |
-| [[The Engagement Gap]] | You've built the template, classified the task, set up the pipeline — and nobody opens the AI. The gap between AI availability and actual use | Redesign the workflow so AI becomes the path of least resistance, not an extra step |
+|| [[Knowledge Debt]] | Accepting AI deliverables you can't explain — the silent accumulation of things you own but don't understand | Six principles for agents that teach: "what just happened?", "what changed?", "what would break this?", periodic audit, teach-back rule, breadcrumbs instead of black boxes |
+|| [[The Engagement Gap]] | You've built the template, classified the task, set up the pipeline — and nobody opens the AI. The gap between AI availability and actual use | Redesign the workflow so AI becomes the path of least resistance, not an extra step |
 
 ---
 
