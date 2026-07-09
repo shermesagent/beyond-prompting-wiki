@@ -158,6 +158,28 @@ This is the metacognitive layer of the orchestration practice. The operator asks
 
 ---
 
+## The Fifth Question — Trajectory Review
+
+The operator asks "did the output pass?" The orchestrator asks "what path did the agent take to get there?"
+
+New research on agent evaluation (AgentLens, arXiv:2607.06624) shows why this matters: an agent can produce a correct output via a terrible path. It can get the right answer for the wrong reasons, waste resources along the way, or take a route that's fragile and will break on the next run. Pass/fail evaluation misses all of this.
+
+Add a fifth question to your daily standup, after What Ran, What Worked, What Didn't, and How Did It Change Me:
+
+**5. What was the agent's most important decision today — and would I have made the same one?**
+
+This takes 30 seconds. Pick one pipeline from today. Think about one specific decision the agent made — a source it chose, a step it skipped, an assumption it made. Ask yourself whether you would have made the same call. If yes, the agent's judgment is aligned with yours. If no, dig: was the agent right and you're learning something? Or was the agent wrong, and your instructions need tightening?
+
+After a week, look back at your five trajectory notes. The pattern will tell you:
+- **Agent calls consistently match yours:** Good — the pipeline is well-designed and aligned
+- **Agent calls are better than yours:** Interesting — the agent is teaching you something. Worth studying
+- **Agent calls are different and worse:** Your instructions are ambiguous. The agent is guessing. Tighten the template
+- **You never disagree:** You're not paying enough attention. Even the best pipelines have moments of genuine ambiguity
+
+This is the trajectory-review muscle. Like the rest of the standup, the value isn't in any single check — it's in the thread. After two weeks, you'll have identified exactly which templates produce the best paths, not just the best outputs.
+
+---
+
 ## What to Do With the Patterns
 
 After a week of standups, you'll start seeing signal:

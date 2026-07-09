@@ -32,6 +32,18 @@ Delegation thinking isn't a theory — it's a practice. Week 2 has you pick one 
 ### Week 3 — Tiny Pipeline
 The orchestration leap. You take two tasks that normally happen in sequence and wire them together so the second one starts automatically when the first one finishes. This is the moment you stop being the person who passes the baton — the system does it. And it takes less than 10 minutes to build your first one.
 
+## Beyond the Three-Week Progression
+
+### The Fragmentation-to-Focus Arc
+
+New research on 103 million application events from over 1,000 knowledge workers (arXiv:2607.06681) shows that GenAI use happens on your most fragmented days — but the period AFTER AI use is measurably more focused, with narrower, longer, more predictable application patterns. Your AI sessions aren't just task-completion events. They're *structure-creating events*.
+
+After completing Week 1's [[Audit Your Prompts]], add a rhythm check: for your next three AI sessions, note what your attention looked like before and after. If AI use reliably precedes focused work, design your hardest creative tasks to follow an AI session. If it adds to the noise, change when you use it — make it a deliberate transition ritual rather than another app in the scatter.
+
+### The Reverse-Centaur Check
+
+Any pipeline, template, or delegation can be a [[Reverse-Centaur]] — the AI makes the decisions while you do the machine work. The fix is knowing what [[Friction by Design|friction]] to keep: eliminate repetitive friction (copy-pasting, reformatting) but preserve reflective friction (judging direction, questioning assumptions).
+
 ---
 
 ## How to Use This Section

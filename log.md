@@ -314,3 +314,29 @@
 - Key concept: Perceived System Predictability (PSP) — feeling of predictability diverges from actual prediction accuracy; explanations are not calibrations
 - Key insight: The tool that makes you most productive is also making you least capable — unless you build learning checkpoints back in by design
 - Rotation: Day 4 (04-Barriers-and-Bridges)
+## [2026-07-09] digest | The Fragmentation-to-Focus Arc: Let AI Restructure Your Work
+
+**Digest:** 00-Daily-Digests/2026-07-09.md — Don't Just Use AI — Let It Restructure Your Work
+
+**Sources: 4 total**
+- arXiv 2607.06681 — Digital Fragmentation and GenAI Use (Vaid & Whillans, July 7, 2026). 103M app events, 1,017 knowledge workers, 8 orgs. GenAI use on fragmented days but post-AI period shows narrower, longer, more predictable app use.
+- arXiv 2607.06624 — AgentLens: Trajectory Review Benchmarks. Trajectory-based evaluation; pass/fail alone misses process quality.
+- arXiv 2607.07521 — Creativity from Friction. Structural design research: remove repetitive friction, preserve reflective friction.
+- arXiv 2607.07522 — Two-player AUT Co-Creation Testbed. GPT-4 matches human originality; cognitive outsourcing predicts lower originality.
+
+**Pages created: 1**
+- 02-Key-Concepts/Reverse-Centaur.md — New concept page. Centaur vs Reverse-Centaur diagnostic (Doctorow). Friction-design integration. Cognitive outsourcing connection. Three tests: who decides, who does repetitive work, how do you feel after.
+
+**Pages updated: 6**
+- 05-Practice/Audit Your Prompts.md — Added Beyond Categories: Audit Your Work Rhythm section. Rhythm Check exercise. Fragmentation-to-Focus Arc design principle.
+- 05-Practice/The Daily Standup.md — Added The Fifth Question: Trajectory Review. Four pattern outcomes from a week of trajectory notes.
+- 05-Practice/Build a Tiny Pipeline.md — Added The Friction You Keep section. Repetitive vs reflective friction distinction. Thinking checkpoint fix.
+- 05-Practice/First Delegation.md — Added Cognitive Outsourcing Trap pitfall. Pre-delegation guess exercise.
+- 05-Practice/README.md — Added Beyond the Three-Week Progression section with Fragmentation-to-Focus Arc and Reverse-Centaur Check.
+- 02-Key-Concepts/README.md — Added Reverse-Centaur to concept list and At a Glance table.
+
+**sources.jsonl:** 4 entries appended
+
+**Rotations:** Day 5 (05-Practice)
+
+**Top insight:** AI doesn't just add to fragmentation. Used deliberately, it can restructure your work toward focus — but it requires noticing the pattern and designing for the arc. The key isn't more AI use; it's use that creates structure rather than noise.

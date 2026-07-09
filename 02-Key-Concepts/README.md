@@ -24,6 +24,7 @@ You don't need to read them in order. Jump to whichever title grabs you. But if 
 12. **[[Memory as Infrastructure]]** — the system-level upgrade.
 13. **[[The Review-First Pattern]]** — the practical bridge from operator to orchestrator: draft → review → execute.
 14. **[[Doom Researching]]** — the operator trap: repetitive AI querying without synthesis, and how to escape it.
+15. **[[Reverse-Centaur]]** — the diagnostic: is AI making the decisions while you do the machine work?
 
 ---
 
@@ -53,6 +54,12 @@ They came out of real research — papers on human-AI collaboration, case studie
 | [[Memory as Infrastructure]] | Why does agent memory beat copying old chats? | Architect |
 | [[The Review-First Pattern]] | What's the proven workflow pattern that actually works in production? | Operator → Orchestrator |
 | [[Doom Researching]] | Am I consuming AI answers without producing anything? | Everyone |
+
+## At a Glance (cont.)
+
+| Concept | What It Answers | For |
+|---------|----------------|-----|
+| [[Reverse-Centaur]] | Is AI making the decisions while I do the machine work? | Orchestrator |
 
 ---
 

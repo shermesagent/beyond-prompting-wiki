@@ -164,6 +164,13 @@ It is — the first time. But a template that takes 10 minutes to create saves y
 **"I don't have a recurring task."**
 Look again at your audit. Content generation and research tasks almost always repeat in different clothes. If you truly have nothing recurring, pick the single task that annoys you most and template it anyway. The practice is the point.
 
+**"I let the agent do the thinking and just wait for the output."**
+This is the Cognitive Outsourcing Trap — and it's backed by new research (arXiv:2607.07522). In a controlled study of human-AI co-creativity, people who self-reported higher cognitive outsourcing ("I let the other person do the thinking") produced LESS original ideas, even when working with another human. Delegation is task handoff, not thinking handoff.
+
+The fix is simple: before you run your delegation template, write down one sentence about what *you* think the right answer might be. Your guess. It doesn't have to be correct — it just has to be yours. Then compare it to the agent's output. This 10-second check keeps your judgment in the loop and prevents the slide from "I'm delegating tasks" to "I'm outsourcing my thinking."
+
+If you consistently find that the agent's output is better than your guess, that's not a problem — that's the point of delegation. If you find you've stopped making guesses at all, that's the trap. Start again.
+
 ---
 
 ## What Comes Next

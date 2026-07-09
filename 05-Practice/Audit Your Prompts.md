@@ -126,6 +126,27 @@ If your audit showed zero delegation candidates, that's fine too. Go to [[02-Key
 
 ---
 
+## Beyond Categories: Audit Your Work Rhythm
+
+Your audit so far has been about *what* you're doing — the tasks, the categories, the delegation candidates. But new research on 103 million application events from over 1,000 knowledge workers (arXiv:2607.06681) reveals something your category audit can't: **GenAI use happens on your most fragmented days, but the period after AI use is measurably more focused.**
+
+This means your AI sessions aren't just task-completion events. They're *structure-creating events*. The question isn't only "what did the AI do?" — it's "how did my work pattern change around it?"
+
+### The Rhythm Check (2 min)
+
+After your next three AI sessions, jot down:
+
+- **Before:** What were you doing in the 20 minutes before you opened the AI? Scattered? Focused? Switching apps? One deep task?
+- **After:** What did you do in the 20 minutes after? Did your attention narrow? Did you stay on a single thing longer?
+
+Do this for three sessions. The pattern will tell you whether AI is restructuring your attention toward focus — or just adding one more app to the pile.
+
+If you find that AI sessions reliably precede focused work, that's leverage. Design your day so the hardest creative work comes *after* an AI session, when your attention has narrowed. If you find that AI sessions add to the noise, change when you use them — not during your most fragmented hours, but as a deliberate transition ritual from scattered to focused.
+
+This is the Fragmentation-to-Focus Arc. It doesn't happen automatically. But if you notice the pattern, you can design for it.
+
+---
+
 ## Related Pages
 
 [[05-Practice/README|05 — Practice]] · [[First Delegation]] · [[Build a Tiny Pipeline]] · [[The Line You Draw]] · [[Task Decomposition]] · [[Delegation Thinking]]

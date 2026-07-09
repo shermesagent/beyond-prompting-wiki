@@ -157,6 +157,21 @@ Not all tasks do. That's fine. Start with the ones that do: research → format,
 
 A good pipeline makes you *more* of a decision-maker. If you find yourself spending more time managing the pipeline than directing it, you've built a Reverse-Centaur. Fix it by moving the repetitive work from your side to the AI's side, or by collapsing steps so fewer handoffs are needed. The goal isn't more pipelines — it's pipelines where the AI works for you, not the other way around.
 
+### The Friction You Keep
+
+New research on AI-assisted creative work (arXiv:2607.07521) validates the Reverse-Centaur check with a useful distinction: **not all friction is bad.** The researchers found that AI tools in structural design work best when they reduce *repetitive modelling friction* (the boring stuff — redrawing, reformatting, recalculating) while preserving *reflective design friction* (the productive struggle of iterating through constraints).
+
+This is the design principle behind every good pipeline decision:
+
+- **Repetitive friction** = copy-pasting between steps, formatting outputs, looking up the same thing twice. Eliminate it. That's what pipelines are for.
+- **Reflective friction** = judging whether the output is good, deciding which direction to take next, questioning an assumption the AI made. Keep it. This is where your judgment lives.
+
+When you're reviewing your pipeline, ask: "Which friction did I remove, and which did I keep?" If you removed reflective friction — the parts where you used to think, judge, or decide — you've built a Reverse-Centaur. The AI is doing the thinking and you're doing the typing.
+
+The fix: add a thinking checkpoint. After each pipeline step, insert 30 seconds where you ask "is this going in the right direction?" The pipeline handles the repetitive work. You handle the reflective work. That's the centaur.
+
+See [[Reverse-Centaur]] for the full concept behind the metaphor.
+
 ## What Comes Next
 
 Use this pipeline three times. Note where the handoff needs tightening. Then you're ready for [[The Daily Standup]], where you'll build the habit of reviewing and improving your pipelines as a regular practice — the orchestrator's version of a standup meeting.
