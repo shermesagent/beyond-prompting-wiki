@@ -24,6 +24,12 @@ A real-world example: instead of spending an afternoon manually compiling a week
 
 Most people using ChatGPT are in AI Assistant mode. The beyond-prompting shift is specifically about moving toward Paired Equanimity — where the agent isn't a tool you pick up, but a collaborator you work alongside. That's a different relationship, and it requires different skills: delegation, oversight, trust calibration, and the ability to name what kind of team you're building.
 
+### What Your Teaching Style Reveals — The Three Framings
+
+How you *teach* AI to someone else reflects how you *think* about AI yourself. A study of YouTube educators (arXiv, July 2026) identified three dominant framings used to teach ChatGPT: **Conceptual Scaffold** (AI as a thinking partner that explores ideas with you), **Retrieval Practice** (AI as a quiz-generator and self-testing tool), and **Output Generation** (AI as a drafting machine that produces finished content). Output Generation — the "just ask it to write it for you" framing — reached the most learners but taught the least. Conceptual Scaffold reached fewer but produced deeper engagement.
+
+Here's why this matters for the beyond-prompting journey: the most popular way to teach AI is also the shallowest. If you learn AI through output-generation framing, you learn to be an operator. If you learn through conceptual-scaffold framing, you learn to be an orchestrator. The framing you're exposed to shapes the mental model you build — and the mental model determines the ceiling of what you'll try. When you catch yourself reaching for AI, ask: "Am I using this as a thinking partner, a retrieval tool, or an output machine?" Noticing the framing is the first step toward choosing it deliberately.
+
 ## Related Pages
 
 [[Orchestration]] · [[Delegation]] · [[Tool Use]] · [[Autonomy]] · [[Oversight]] · [[01-The-Shift/README|The Orchestrator Mindset]]

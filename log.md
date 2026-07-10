@@ -339,4 +339,25 @@
 
 **Rotations:** Day 5 (05-Practice)
 
-**Top insight:** AI doesn't just add to fragmentation. Used deliberately, it can restructure your work toward focus — but it requires noticing the pattern and designing for the arc. The key isn't more AI use; it's use that creates structure rather than noise.
+**Top insight:** AI doesn't just add to fragmentation. Used deliberately, it can restructure your work toward focus — but it requires noticing the pattern and designing for the arc. The key isn't more AI use; it's use that creates structure rather than noise.## [2026-07-10] ingest | Day 6 Rotation (Glossary) — 4 arXiv sources
+
+Sources ingested:
+- The Harness Effect: How Orchestration Design Sets the Token Economics (arXiv:2607.06906)
+- Framing ChatGPT in Education YouTube Content (arXiv:2607.08698)
+- EvoSOP: From Atomic Actions to Standard Operating Procedures (arXiv:2607.07321)
+- Modeling Social Norms Improves Human-AI Coordination (arXiv:2607.07021)
+
+Files created:
+- 00-Daily-Digests/2026-07-10.md
+- 06-Glossary/SOP.md
+
+Files updated:
+- 06-Glossary/Orchestration.md — Added The Harness Effect section (41% cost reduction, 44% faster, 38% fewer tokens via orchestration layer alone)
+- 06-Glossary/Delegation.md — Added From Briefs to SOPs section (delegation maturity into reusable libraries)
+- 06-Glossary/Agent.md — Added The Three Framings section (conceptual scaffold vs output generation — and what your teaching reveals)
+- 06-Glossary/README.md — Added SOP to glossary table
+- 02-Key-Concepts/Delegation Thinking.md — Added Building the SOP Library section
+- Home.md — Updated page count (41→42), added SOP to glossary listing, added recent updates entry
+- sources/sources.jsonl — Appended 4 entries
+
+Rotation completed: Day 6 (Glossary). Next: Day 7 (Cross-section linking and lint, Saturday).

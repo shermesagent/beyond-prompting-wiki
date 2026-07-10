@@ -10,6 +10,12 @@ Here's what good delegation looks like in practice. Instead of "Write a blog pos
 
 The skill transfers directly from managing people. If you've ever given a colleague a task with clear expectations and a deadline, you already know how to delegate. The difference is that AI agents don't get defensive, don't need motivation, and work at 3 a.m. without complaint.
 
+### From Briefs to SOPs — Delegation That Compounds
+
+Early delegation is one-off: you craft a spec, the agent executes, you move on. But delegation matures when it becomes *cumulative*. Research on self-evolving agents (EvoSOP, arXiv July 2026) demonstrates the pattern: agents can capture atomic actions, merge similar ones into candidate procedures, test them for reliability, and build a library of reusable SOPs over time. Each well-structured delegation leaves behind a reusable asset rather than evaporating when the task is done.
+
+The practical shift: every time you delegate a recurring task, add one sentence that makes the brief reusable — "Save this approach as the weekly report SOP." The first time feels artificial. By the fifth time, you've built the beginning of a workflow library that delegates itself. The operator reinvents the prompt every time. The orchestrator writes the brief every time. The architect names the SOP and references it. See [[SOP]] for the full concept.
+
 ## Related Pages
 
 [[Decomposition]] · [[Orchestration]] · [[Agent]] · [[Human in the Loop]] · [[Delegation Thinking]] · [[First Delegation]]

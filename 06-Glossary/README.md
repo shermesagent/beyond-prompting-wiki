@@ -32,6 +32,7 @@ This section grows as new concepts crystallize. The newest entry — **[[Oversig
 | [[Tool Use]] | How do agents interact with the outside world? | Architect |
 | [[Human in the Loop]] | Where does the human fit in when agents run autonomously? | Orchestrator |
 | [[Oversight]] | How do I verify agent outputs — not as a judge, but as a collaborative partner? | Orchestrator |
+| [[SOP]] | How do I stop reinventing the same delegation every time? | Orchestrator → Architect |
 | [[Autonomy]] | How much can an agent do on its own — and where do I draw the line? | Architect |
 
 ---

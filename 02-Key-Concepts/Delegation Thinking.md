@@ -72,7 +72,13 @@ The evidence: **Opus 4.7, working alone for 14 hours, built a software package t
 
 This isn't theoretical. The delegation spectrum on this page isn't a nice-to-have framework — it's the architecture of how work is already changing. The people building Level 6 orchestrated systems today are working with AI that can go for hours without them. The skills gap isn't about better prompting. It's about building the spec, setting the constraints, and knowing when to step back.
 
-See also: [[Task Decomposition]] · [[Co-Construction Blindness]] · [[The Sequencing Principle]]
+See also: [[Task Decomposition]] · [[Co-Construction Blindness]] · [[The Sequencing Principle]] · [[SOP]]
+
+## Building the SOP Library — Delegation That Compounds
+
+The EvoSOP research (arXiv, July 2026) confirms what experienced orchestrators discover through practice: delegation matures from one-off briefs into a reusable library. The agents in the study followed a lifecycle: atomic actions were captured, similar actions merged into candidate procedures, the procedures tested for reliability, and underperforming ones pruned. Each cycle made the library stronger. Each new task that got captured added to the foundation.
+
+The practical implication for your delegation practice: every recurring delegation is an opportunity to build a [[SOP]]. The first time you delegate the weekly report, you write a full brief. The second time, you reference last week's brief. By the fifth time, you've got a named SOP — inputs, outputs, constraints, checkpoints — that you simply invoke. The operator invents the prompt fresh each time. The orchestrator writes a brief each time. The architect names the SOP, refines it when it drifts, and reuses it with confidence. The delegation spectrum doesn't just go from manual to orchestrated. It goes from disposable to durable. Your SOP library is the durable form of your delegation practice.
 
 ## Delegation Beyond Productivity: The Accessibility Lens
 
