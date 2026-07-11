@@ -361,3 +361,43 @@ Files updated:
 - sources/sources.jsonl — Appended 4 entries
 
 Rotation completed: Day 6 (Glossary). Next: Day 7 (Cross-section linking and lint, Saturday).
+
+## 2026-07-11 | curate | Day 7 — Structural health lint pass + cross-pollination from AI Agency Knowledgebase
+Theme: Lint, links, and cross-pollination — Week 1 complete.
+
+Lint fixes:
+- 15 broken wikilinks → 0 remaining structural issues (9 digests link to [[Home]] — expected/as-designed)
+- Fixed: Doom Researching aspirational links (4) → replaced Operator vs Orchestrator with existing page links, created 3 stubs for Cognitive Load, The Collapse Pattern, The Illusion of Mastery
+- Fixed: 2026-07-06 cross-directory wikilink → pathless
+- Home.md updated: page count 42→50, 02-Key-Concepts index 15→19, Today's Digest updated, 6 missing Recent Updates entries restored
+
+New pages created:
+- 02-Key-Concepts/The Collapse Pattern.md — AI answer → stop. The single-response trap.
+- 02-Key-Concepts/Cognitive Load.md — 3-5 agent ceiling, AI Brain Fry, orchestration paradox
+- 02-Key-Concepts/The Illusion of Mastery.md — fluency → inflated perceived knowledge
+
+Cross-pollination (KB → wiki):
+- Delegation Thinking ← Harness Effect (Parallel Orchestration, arXiv 2607.06906)
+- Fear of Losing Control ← Reverse-Centaur diagnostic (Human Agency)
+- Three new pages seeded from KB concepts
+
+Inbound links added:
+- Cognitive Surrender → The Collapse Pattern, The Illusion of Mastery
+- The Review-First Pattern → The Collapse Pattern, The Sequencing Principle
+- The Augmentation Trap → The Illusion of Mastery
+
+Pages updated:
+- 02-Key-Concepts/Doom Researching.md — Fixed aspirational links
+- 02-Key-Concepts/Delegation Thinking.md — Added Harness Effect section
+- 04-Barriers-and-Bridges/Fear of Losing Control.md — Added Reverse-Centaur diagnostic
+- 02-Key-Concepts/Cognitive Surrender.md — Added See also links
+- 02-Key-Concepts/The Review-First Pattern.md — Added Related Pages links
+- 02-Key-Concepts/The Augmentation Trap.md — Added Related Pages link
+- 00-Daily-Digests/2026-07-06.md — Fixed cross-directory link
+- Home.md — Updated listings, counts, recent updates
+- 00-Daily-Digests/2026-07-11.md — Today's digest
+
+Rotation summary (Week 1):
+- 7 new pages, 31 pages updated/deepened, 3 KB pages cross-pollinated
+- Wiki: 42→50 pages, structurally sound — zero genuine broken links
+- Next rotation: Monday July 13, 01-The-Shift

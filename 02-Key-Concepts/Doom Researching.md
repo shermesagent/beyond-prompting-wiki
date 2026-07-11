@@ -104,7 +104,7 @@ The shift from operator to orchestrator isn't about using AI less. It's about **
 
 ## Related Pages
 
-[[From Prompt to Pipeline]] · [[The Collapse Pattern]] · [[The Review-First Pattern]] · [[Cognitive Load]] · [[The Illusion of Mastery]] · [[Operator vs Orchestrator]]
+[[From Prompt to Pipeline]] · [[The Collapse Pattern]] · [[The Review-First Pattern]] · [[Cognitive Load]] · [[The Illusion of Mastery]] · [[The Operator Mindset]] · [[The Orchestrator Mindset]]
 
 ---
 

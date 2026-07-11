@@ -14,6 +14,14 @@ Human professionals are trained to be accountable. If your name is on the output
 
 There's also a deeper layer. For many people, especially knowledge workers, their judgment *is* their professional identity. Handing off a task that requires judgment can feel like handing off the thing that makes you valuable. The fear isn't just "the agent might mess up" — it's "if the agent does this well, what am I even here for?"
 
+This isn't abstract. It has a name: the **Reverse-Centaur problem.** Cory Doctorow's 2026 book *The Reverse-Centaur's Guide to Life After AI* provides the simplest diagnostic for whether your AI use is amplifying or shrinking your agency. A Centaur is a human amplified by AI: the human makes the decisions, AI handles the repetitive work. A Reverse-Centaur is the opposite: the AI makes the judgments and the human does the machine work — copy-pasting between steps, formatting output, feeding inputs. The three-question test:
+
+1. **Who makes the decisions?** — You, or the AI?
+2. **Who does the repetitive work?** — You, or the AI?
+3. **After this workflow runs, do you feel more capable or less?**
+
+If you're making decisions and AI is doing the busywork: Centaur. If AI is making decisions and you're doing the busywork: Reverse-Centaur. The fear of losing control isn't irrational — it's your brain recognizing a Reverse-Centaur before you've named it. The fix isn't to stop using AI. It's to redesign the workflow so the human does the judgment and the machine does the repetition. That's the boundary between healthy delegation and identity threat.
+
 This is what researchers call **identity threat** — one of the six dimensions of [[Psychological Debt]]. Harvard Business Review found in a survey of 1,200 employees (May 2026) that identity threat, alongside diminished competence and reduced autonomy, accumulates as a hidden cost of AI adoption. The higher the psychological debt, the *lower* the actual adoption. The fear doesn't go away — it compounds.
 
 And here's what makes it worse right now: the organizational response. A 2026 survey by Writer found that 92% of C-suites are actively cultivating an "AI elite" class of employees — people who are 5X more productive and 3X more likely to get promoted. Meanwhile, 60% of those same leaders plan to lay off employees who can't or won't adopt AI. So the fear isn't just internal ("what am I here for?") — it's external ("will I still be here?"). The pressure to adopt creates the very fear that makes adoption feel unsafe.

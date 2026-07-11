@@ -93,7 +93,7 @@ The practical takeaway: **placement is everything.** Same AI. Same task. The onl
 
 ## Related Pages
 
-[[Cognitive Surrender]] · [[Friction by Design]] · [[Trust Calibration]] · [[Delegation Thinking]] · [[The Coaching Stance]] · [[04-Barriers-and-Bridges/README|04 — Barriers & Bridges]]
+[[Cognitive Surrender]] · [[Friction by Design]] · [[Trust Calibration]] · [[Delegation Thinking]] · [[The Coaching Stance]] · [[The Illusion of Mastery]] · [[04-Barriers-and-Bridges/README|04 — Barriers & Bridges]]
 
 ## Tags
 

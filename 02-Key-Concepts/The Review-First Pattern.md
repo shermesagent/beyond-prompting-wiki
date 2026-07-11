@@ -89,7 +89,7 @@ The review-first pattern isn't just a productivity technique. It's an accountabi
 
 ## Related Pages
 
-[[From Prompt to Pipeline]] · [[From Author to Editor]] · [[Trust Calibration]] · [[Delegation Thinking]] · [[Human in the Loop]] · [[Friction by Design]] · [[02-Key-Concepts/README|02 — Key Concepts]]
+[[From Prompt to Pipeline]] · [[From Author to Editor]] · [[Trust Calibration]] · [[Delegation Thinking]] · [[Human in the Loop]] · [[Friction by Design]] · [[The Collapse Pattern]] · [[The Sequencing Principle]] · [[02-Key-Concepts/README|02 — Key Concepts]]
 
 ## Tags
 

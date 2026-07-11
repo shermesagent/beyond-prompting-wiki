@@ -64,7 +64,7 @@ The key insight: **these aren't psychological deficits. They're adaptations.** I
 
 **For the orchestrator:** schedule deliberate no-AI time. Not forever. Not even all day. But regularly. The person who can still do deep synthesis *without* AI has a capability advantage over the person who can't. See [[The Coaching Stance]] for the practice of designing relationships with AI that build skills rather than erode them.
 
-See also: [[The Augmentation Trap]] · [[Friction by Design]] · [[The Sequencing Principle]]
+See also: [[The Augmentation Trap]] · [[Friction by Design]] · [[The Sequencing Principle]] · [[The Collapse Pattern]] · [[The Illusion of Mastery]]
 
 ## The Anchoring Effect: AI Goes First, You Follow
 

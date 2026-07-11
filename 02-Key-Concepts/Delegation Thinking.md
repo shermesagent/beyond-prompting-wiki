@@ -72,7 +72,20 @@ The evidence: **Opus 4.7, working alone for 14 hours, built a software package t
 
 This isn't theoretical. The delegation spectrum on this page isn't a nice-to-have framework — it's the architecture of how work is already changing. The people building Level 6 orchestrated systems today are working with AI that can go for hours without them. The skills gap isn't about better prompting. It's about building the spec, setting the constraints, and knowing when to step back.
 
-See also: [[Task Decomposition]] · [[Co-Construction Blindness]] · [[The Sequencing Principle]] · [[SOP]]
+## The Harness Effect: Design Before Model
+
+A July 2026 experiment (arXiv 2607.06906) confirmed what experienced orchestrators already sense: **the orchestration layer matters more than the model.** Across 22 locked tasks and six foundation models (Claude Sonnet 4.6, Gemini 3.1, Gemini Flash, Qwen 3.6, GLM 5.1, Palmyra X6), changing only the orchestration layer produced:
+
+- **Cost cut 41%** (blended $0.21→$0.12/task)
+- **Wall-clock reduced 44%** (48s→27s median)
+- **Tokens per task cut 38%** (14.2k→8.8k)
+- **Quality at parity** (0.78→0.81, statistically equivalent)
+
+The finding that should change how you think about delegation: **the orchestration layer moved cost per task more than the full spread of the model menu did.** A person who could afford one task with the cheapest model in a conventional loop can afford nearly two tasks with ANY model in an improved harness. Efficiency is model-invariant — every model gets cheaper (33-61% range). But quality gains are capability-dependent, correlating almost perfectly with baseline model strength (r=0.99). Better orchestration amplifies strong models more than weak ones.
+
+**What this means for you:** Chasing the newest model is a low-leverage activity compared to improving how you delegate. The person running 5 AI streams with a well-designed orchestration layer gets the output of ~9 streams with a sloppy one. The spec, the constraints, the checkpoints — the things you control *before* the AI ever runs — are a bigger leverage point than which model you're delegating to.
+
+See also: [[Task Decomposition]] · [[Co-Construction Blindness]] · [[The Sequencing Principle]] · [[SOP]] · [[Cognitive Load]]
 
 ## Building the SOP Library — Delegation That Compounds
 
