@@ -38,6 +38,20 @@ You are operating when:
 
 None of these are bad. They are accurate descriptions of Phase 2. Spotting them simply tells you where you are on the map.
 
+## The Default Trap (July 2026)
+
+A new study published today (arXiv:2607.09018) reveals something uncomfortable about how humans interact with AI output. When AI presents multiple options — design variations, text alternatives, code suggestions — people consistently gravitate toward the center-proximal option: the safest, most average choice. The more diverse the options, the *stronger* this bias becomes. More variety doesn't encourage boldness. It triggers retreat to the middle.
+
+This is the operator trap in one finding. The AI gives you six options and you pick #3 or #4 — not because they're best, but because they're safest. The operator browses options and selects. The orchestrator specifies what the options should look like before they're generated.
+
+Another paper out today (arXiv:2607.09215) shows the tooling side of this trap: 72.6% of professional developers say they want more control over how their AI tools behave — confidence thresholds, suggestion quality, response length. But only about one-third actually have that control in their current tools. The ecosystem treats you like an operator by default. Recognizing that is the first step to pushing back.
+
+## Automation's Hidden Cost
+
+A randomized controlled trial published today (arXiv:2607.08849) adds experimental weight to something operators sense intuitively: using AI to *generate output* (automation) produces short-term gains that vanish when the AI is removed. Using AI to *explain concepts* (augmentation) produces gains that persist. Students who automated their essay writing saw their quality improvements disappear a week later. Students who used AI as a tutor — asking it to explain ideas, not write text — retained what they learned and wrote better essays unaided.
+
+The operator's daily workflow often defaults to automation: "Write the memo." "Summarize the document." "Generate the report." Each one saves time but builds no lasting capability. The shift begins when you catch yourself automating and ask: "Could I use this interaction to understand the domain better instead of just producing the artifact?" One augmentation interaction per day, in place of one automation interaction, compounds over weeks into an unbridgeable gap — not in output, but in *understanding*.
+
 ## The Self-Check: Where Are You on the Shift?
 
 Use the four SolarWinds dimensions to locate yourself:

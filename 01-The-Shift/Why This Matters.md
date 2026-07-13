@@ -40,6 +40,8 @@ SolarWinds' 2026 IT Trends Report surveyed over 1,000 IT professionals in April 
 
 This matters because IT is the leading indicator for every knowledge profession. The shift that IT pros are documenting right now — roles changing, skills evolving, the operator ceiling closing in — arrives in education, management, healthcare, and small business within 12-18 months. If you're not an IT professional and you're reading this, you're seeing your future.
 
+**The Augmentation-Automation Gap (July 2026).** A randomized controlled trial published today (arXiv:2607.08849) adds experimental evidence to the shift. Students who used AI to explain concepts (augmentation) retained learning gains a week after the AI was removed. Students who used AI to generate text (automation) saw their gains vanish. The difference between operating (producing output) and orchestrating (building understanding) is now a measured, replicable finding — not just a practitioner observation. HOW you use AI doesn't just change your workflow. It changes what you become capable of.
+
 ## There's a Deeper Layer: What AI Does TO You While It Helps
 
 The shift isn't just about what you can produce with AI. New research shows AI-mediated environments change *how you think*. The Digital Pirahã Condition (arXiv, June 2026) argues that constant exposure to AI-mediated information — immediate, fragmented, externally scaffolded — can erode the recursive, integrative reasoning that professional work demands. The solution isn't to avoid AI. It's to design your cognitive environment intentionally — including time and space where AI is absent so deep thinking can flourish.

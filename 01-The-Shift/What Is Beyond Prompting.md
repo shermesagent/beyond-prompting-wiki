@@ -24,6 +24,18 @@ This page is your entry point. Understanding what Beyond Prompting is — and is
 
 If prompting is driving a car manually, Beyond Prompting is setting the destination, engaging autopilot, and monitoring from the navigator's seat. This section of the wiki teaches you how to make that shift.
 
+## The Experimental Evidence (July 2026)
+
+Five years into the AI era, we finally have the experiment the wiki has been waiting for. In a randomized controlled trial published today (arXiv:2607.08849), undergraduates learned an unfamiliar topic and wrote an analytical essay — with or without access to AI. Then they were tested unaided, immediately and one week later.
+
+**The finding that changes everything:** AI access raised test scores by 0.27 standard deviations — and the gains persisted. But the *kind* of use determined whether gains lasted. Students who used AI to *explain concepts* (augmentation) carried their gains forward. Students who used AI to *generate text* (automation) saw their short-run quality gains vanish once AI was removed. Same tool, different approach, radically different outcome.
+
+Two mechanisms explain why: students shifted time away from drafting and toward reading and searching for information, and they reported greater learning enjoyment.
+
+This is the operator→orchestrator shift, validated by a controlled experiment. The operator uses AI to produce output — short-term gain, no lasting capability. The orchestrator uses AI to understand better — and that understanding compounds. Beyond Prompting isn't a productivity hack. It's the difference between using AI in a way that builds you up and using AI in a way that runs you in place.
+
+A second paper published today (arXiv:2607.08774, CogniConsole) reinforces this from the system side: structural scaffolding — clear specifications, verification checkpoints, explicit constraints — reduces failure rates more than model capability differences. Many AI failures aren't because the model isn't smart enough. They're because the *control layer* between you and the model is under-specified. The orchestrator invests in scaffolding. The operator invests in better prompts. Same model, different reliability.
+
 ## How to Spot It in Your Day
 
 You are still in prompting mode when you catch yourself doing any of these things repeatedly:

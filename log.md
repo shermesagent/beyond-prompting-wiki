@@ -401,3 +401,26 @@ Rotation summary (Week 1):
 - 7 new pages, 31 pages updated/deepened, 3 KB pages cross-pollinated
 - Wiki: 42→50 pages, structurally sound — zero genuine broken links
 - Next rotation: Monday July 13, 01-The-Shift
+
+## 2026-07-13 — Week 2, Day 1: 01-The-Shift rotation
+
+### Digest
+- 00-Daily-Digests/2026-07-13.md — The Evidence Is In: How You Use AI Matters More Than Whether You Use It
+
+### Sources discovered (5)
+- arXiv:2607.08849 — Experimental Evidence on the Learning Impact of GenAI (augmentation-automation gap, RCT)
+- arXiv:2607.09215 — Configurable AI Coding Assistants (72.6% want control, only ~1/3 have it)
+- arXiv:2607.09018 — Central Tendency Bias in Human Selection of AI Variations (default trap)
+- arXiv:2607.08952 — Micro-level AI Feedback Features (concrete beats empathetic)
+- arXiv:2607.08774 — CogniConsole: Externalizing Inference-Time Control (scaffolding = reliability)
+
+### Pages updated (4)
+- 01-The-Shift/What Is Beyond Prompting.md — Added "The Experimental Evidence (July 2026)" section
+- 01-The-Shift/The Operator Mindset.md — Added "The Default Trap" and "Automation's Hidden Cost" sections
+- 01-The-Shift/The Orchestrator Mindset.md — Added "Scaffolding Is Reliability" and "The Evidence for Augmentation" sections
+- 01-The-Shift/Why This Matters.md — Added "The Augmentation-Automation Gap" subsection
+
+### Key insight
+RCT (arXiv:2607.08849) provides first direct experimental evidence for the operator→orchestrator distinction. Augmentation users retain learning; automation users' gains vanish. Same tool, different approach, measurable difference in lasting human capability.
+
+### Sources added: 5

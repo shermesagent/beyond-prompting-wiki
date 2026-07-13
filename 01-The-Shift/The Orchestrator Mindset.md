@@ -35,6 +35,14 @@ Here's something experienced orchestrators know and newcomers miss: **architectu
 
 The practical implication: your pipeline design, your verification strategy, your memory architecture — these are levers you control regardless of which model you have access to. The orchestrator who chases the latest model is playing a game where the rules change monthly. The orchestrator who builds better architecture is playing a game where every improvement compounds. See the Gatekeeping Paradox in [[Why This Matters]] for why this distinction is becoming urgent right now.
 
+**Scaffolding Is Reliability (July 2026).** A new paper out today (arXiv:2607.08774, CogniConsole) sharpens this finding. In 489 controlled probes of a multi-step AI system, increasing structural scaffolding — clear specifications, explicit constraints, verification checkpoints — systematically reduced output variance and failure rates under a fixed model architecture. Many failures that look like "the model wasn't smart enough" were actually failures of under-specified control. The orchestrator's edge isn't a smarter model. It's a clearer specification. Same model, better scaffolding, dramatic reliability improvement.
+
+## The Evidence for Augmentation (July 2026)
+
+A randomized controlled trial published today (arXiv:2607.08849) provides direct experimental evidence for the orchestrator's core intuition: *how* you delegate matters more than *what* you delegate. Students who used AI as a tutor — asking it to explain concepts, not generate text — retained learning gains a week after the AI was removed. Students who used AI to generate their essays saw their quality gains vanish. The augmentation approach built lasting capability. The automation approach built output.
+
+For the orchestrator, this changes how you think about delegation design. When you build a workflow that delivers a finished report, you've saved time. When you build a workflow that explains its reasoning, surfaces its evidence, and makes its choices visible, you've built capability — in yourself, in your team, in anyone who uses the workflow. The deliverable is the artifact. The understanding is the asset. Design for both.
+
 ## The Cognitive Stack: The Architecture of Beyond Prompting (July 2026)
 
 Brian Madden at Citrix has named the structural architecture of what moving beyond prompting looks like in practice. His Cognitive Stack has five layers:
