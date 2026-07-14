@@ -124,9 +124,40 @@ The most consistent pattern in real delegation stories isn't about the AI — it
 
 This is delegation in practice: you stop producing first drafts and start making judgment calls on complete ones. See [[From Author to Editor]] for the full concept.
 
+## Multi-Hop Delegation: The Weakest Relay Principle
+
+New research (arXiv 2607.09678, July 2026) tested what happens when AI agents pass information through chains — Agent A hands off to Agent B, who hands off to Agent C, through six hops. The findings reshape how you should think about multi-step delegation:
+
+- **Strong relays are nearly lossless.** Under faithful-relay instructions, powerful models passed information through six hops with no meaningful degradation. The "telephone game" collapse that everyone expects simply didn't occur.
+- **Weak relays amplify format differences by 8.7x.** When a small (1.5B) model served as a relay, the spread between best and worst formats exploded — from a tight 2.3-point range to a canyon of 20.5 points. The weakest link didn't just degrade the chain; it magnified every other variable.
+- **Errors are sticky — they don't self-correct.** Once a wrong value was injected into a relay fork, it persisted to the final hop in 83-100% of chains across all formats. Structure buys a faithful channel, not error correction. Bad information that enters a chain stays in the chain.
+- **Format choice should follow the weakest relay.** If you're using a small or fast model anywhere in your chain, structure your message formats for that model — not for the strongest one. JSON schemas provide drift resistance. Free text amplifies drift.
+
+**What this means for delegation practice:** Every time you chain agents — "take this output, feed it to the next agent, then hand that result to a third" — you're building a relay. Finding the weakest link in that chain and matching the message format to what it can handle reliably is not optional. It's the difference between a delegation architecture that compounds and one that collapses at the first weak handoff.
+
+The practical rule: **before you chain, find the bottleneck.** If Agent 3 is a small, fast model that handles classification, and Agent 1 is a frontier reasoning model, the classification format that Agent 3 receives must be the one that governs the handoff from Agent 2. Don't pass Agent 2's free-form text if Agent 3 needs structured input. Design the handoff backward from the bottleneck.
+
+See also: [[The Scaffold Match]] (for why scaffolding must match the tool, not just the task) and [[Task Decomposition]] (for building reliable handoff points).
+
+## Intervenability: Build for Intervention, Not Just Delegation
+
+A new design concept from HCI research (arXiv 2607.10322, July 2026) gives a name to something experienced orchestrators already practice: **intervenability** — the structured capacity for humans to intervene in AI systems at multiple levels, not just in emergencies but as an ongoing design feature.
+
+Intervenability extends beyond the "off switch." It's a taxonomy of intervention points:
+- **Real-time course correction:** adjusting a single step mid-execution
+- **Checkpoint-based reassignment:** verifying output at handoff points and redirecting if needed
+- **After-the-fact reconfiguration:** changing how the system behaves based on what you learned
+- **Feedback-driven system improvement:** using intervention data to make the system smarter over time
+
+The key insight: different intervention types require different levels of mental effort. A well-designed intervention point minimizes the cognitive load of the intervention itself — you shouldn't need to re-read the entire chain to make a course correction.
+
+**The orchestrator's version:** Every delegated task needs a clear answer to "if this starts going wrong, where do I step in and what do I do?" If your answer is "I'd have to restart from scratch," your delegation architecture is missing intervenability. If your answer is "I can catch it at the handoff and redirect," you've designed a recoverable delegation. The best intervention is the one you'll actually make — not the one that requires heroic effort.
+
+Build this into your [[SOP]] library: for every recurring delegation, document one intervention point — where you check, what you look for, and what you do if it's wrong. An SOP without intervenability is a script that expects everything to go right. An SOP with intervenability is a system that handles when it doesn't.
+
 ## Related Pages
 
-[[Task Decomposition]] · [[Trust Calibration]] · [[01-The-Shift/README|The Orchestrator Mindset]] · [[01-The-Shift/README|The Operator Mindset]] · [[Cognitive Surrender]] · [[Co-Construction Blindness]] · [[From Author to Editor]] · [[The Four Decision Labels]]
+[[Task Decomposition]] · [[Trust Calibration]] · [[01-The-Shift/README|The Orchestrator Mindset]] · [[01-The-Shift/README|The Operator Mindset]] · [[Cognitive Surrender]] · [[Co-Construction Blindness]] · [[From Author to Editor]] · [[The Four Decision Labels]] · [[The Scaffold Match]]
 
 ## Tags
 

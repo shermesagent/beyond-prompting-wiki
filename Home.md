@@ -2,7 +2,7 @@
 
 > A living guide to the **operator → orchestrator shift**. If you've ever typed a prompt and thought "there has to be more than this" — start here.
 
-_50 pages across 6 sections. Updated daily. Git-backed, human-readable, cross-linked._
+_51 pages across 6 sections. Updated daily. Git-backed, human-readable, cross-linked._
 
 ---
 
@@ -40,7 +40,7 @@ The core idea. What it means, why it matters, and the three mindsets along the p
 
 ### [[02-Key-Concepts/README|02 — Key Concepts]]
 Approachable distillations of research into learning concepts you can use today.
-→ [[Task Decomposition]] · [[Delegation Thinking]] · [[Cognitive Surrender]] · [[Trust Calibration]] · [[Friction by Design]] · [[The Augmentation Trap]] · [[Co-Construction Blindness]] · [[From Author to Editor]] · [[The Coaching Stance]] · [[The Placement Rule]] · [[The Four Decision Labels]] · [[Memory as Infrastructure]] · [[The Review-First Pattern]] · [[The Sequencing Principle]] · [[Doom Researching]] · [[Reverse-Centaur]] · [[The Collapse Pattern]] · [[Cognitive Load]] · [[The Illusion of Mastery]]
+→ [[Task Decomposition]] · [[Delegation Thinking]] · [[Cognitive Surrender]] · [[Trust Calibration]] · [[Friction by Design]] · [[The Augmentation Trap]] · [[Co-Construction Blindness]] · [[From Author to Editor]] · [[The Coaching Stance]] · [[The Placement Rule]] · [[The Four Decision Labels]] · [[Memory as Infrastructure]] · [[The Review-First Pattern]] · [[The Sequencing Principle]] · [[Doom Researching]] · [[Reverse-Centaur]] · [[The Collapse Pattern]] · [[Cognitive Load]] · [[The Illusion of Mastery]] · [[The Scaffold Match]]
 
 ### [[03-Real-World/README|03 — Real World Stories]]
 Case studies, transformation stories, and honest failure postmortems.
@@ -60,7 +60,7 @@ Plain-language definitions of every key term.
 
 ### 00-Daily-Digests
 Daily curated research digests — what we found, what it means, and how to use it.
-→ [[2026-07-10|Today's Digest]]
+→ [[2026-07-14|Today's Digest]]
 
 ---
 
@@ -80,6 +80,8 @@ _Last 7 days of activity._
 
 | Date | Pages Changed |
 |------|---------------|
+| 2026-07-14 | Day 2 Key Concepts rotation: Daily digest + 1 new concept page (The Scaffold Match) + 3 concept pages deepened (Delegation Thinking — Multi-Hop Relay & Intervenability, Friction by Design — Scaffold Match Problem, Cognitive Surrender — Homogenization Trap) — the architecture of delegation: structure determines whether workflows compound or collapse |
+| 2026-07-13 | Day 1 The Shift rotation (Week 2): Daily digest + 4 Shift pages updated with experimental evidence from 5 new papers — first RCT evidence for operator→orchestrator distinction: augmentation users retain learning, automation users' gains vanish |
 | 2026-07-11 | Day 7 lint pass + 3 new concept pages (The Collapse Pattern, Cognitive Load, The Illusion of Mastery) + 2 pages deepened (Delegation Thinking — Harness Effect, Fear of Losing Control — Reverse-Centaur) + cross-pollination from AI Agency Knowledgebase + Home.md updated (50 pages, missing entries restored) — structural health: aspirational links filled, cross-directory links fixed, new pages cross-linked |
 | 2026-07-10 | Daily digest + 1 new glossary entry (SOP) + 4 glossary pages updated (Orchestration — Harness Effect, Delegation — From Briefs to SOPs, Agent — Three Framings, Delegation Thinking — SOP Library) — the harness matters more than the horse: orchestration layer research, reusable delegation, and how we teach AI shapes how we use it |
 | 2026-07-09 | 5 practice pages updated + Reverse-Centaur deepened (friction research) — fragmentation-to-focus arc, trajectory review, friction design principle, Reverse-Centaur Check |

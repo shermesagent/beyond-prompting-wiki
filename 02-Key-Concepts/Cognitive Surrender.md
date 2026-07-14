@@ -74,6 +74,18 @@ Mollick's "Against Brain Damage" (June 2026) documents this in the creativity do
 
 This is cognitive surrender through order, not through passivity. You didn't stop thinking — you just never started. The AI went first. See [[The Sequencing Principle]] for the fix.
 
+## The Homogenization Trap: More Polish, Less Diversity
+
+New evidence from the classroom (arXiv 2607.09938, July 2026) reveals what happens when AI assistance goes unmanaged: **output gets better — and more alike.** Instructors in an upper-level university visualization course tracked student AI use and documented a pattern that should worry anyone who depends on creative or analytical diversity:
+
+- **Refinement dominated:** about half of all student prompting was refinement — asking the AI to tweak, adjust, or redo. Explanation and understanding were almost entirely absent from prompting logs.
+- **Students gravitated toward scaffolds:** 56.4% preferred pre-built instructional scaffolding over designing their own prompts.
+- **Projects became visually polished — and visually homogeneous.** Final work looked better than in previous semesters, but it also looked like it all came from the same design team.
+
+This is cognitive surrender at the system level. Individually, each student made rational choices — the AI's suggestions looked good, and refinement made them better. Collectively, those individually rational choices produced convergence. The AI's "good" became everyone's "good enough." The range of outcomes narrowed.
+
+**The orchestrator's defense:** Use AI output as a starting point, not a destination. Ask: "What's different about this from what everyone else would get with the same prompt?" If the answer is "nothing," you haven't added your judgment yet. The goal isn't to reject AI suggestions — it's to push past them. The AI gives you the average. Your judgment makes it specific.
+
 ## Try This
 
 **5-Minute Exercise: The Red Teaming Pause**

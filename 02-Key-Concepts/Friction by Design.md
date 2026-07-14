@@ -73,9 +73,32 @@ You're not practicing it when:
 
 That's friction by design: a small slowdown that pays back in better judgment.
 
+## The Scaffold Match Problem: No Universal Harness
+
+One of the most counterintuitive findings in recent scaffolding research: **the same structured intervention that helps one model can actively degrade another.** There is no universal harness.
+
+Researchers tested four reasoning scaffolds on two model types — a standard instruction-following model and a reasoning-optimized model — across 720 individually judged responses (arXiv 2607.09743, July 2026). The patterns were consistent:
+
+| Scaffold Type | Standard Model | Reasoning Model | Result |
+|---|---|---|---|
+| Commitment (force early strategy) | **+0.21** 📈 | **-0.63** 📉 | Helps standard, hurts reasoning |
+| Separation (isolate reasoning from recommendation) | **-0.40** 📉 | **+0.31** 📈 | Hurts standard, helps reasoning |
+| Adversarial stress-testing | **-0.57** 📉 | **-1.47** 📉📉 | Hurts both, hurts reasoning 2.6× more |
+
+The takeaway for friction by design: **your checkpoints, your review steps, your structured prompts — the friction you add — need to match the tool you're applying them to.** A "best practice" scaffolding pattern copied from someone using a different model may be degrading your output, not improving it.
+
+**The declarative-procedural gap makes this worse.** Both models in the study could accurately *identify* correct strategies at high rates — but their ability to *execute* those strategies was much lower. The models "knew" what to do but couldn't do it without the right structural support. And the wrong structural support made the gap wider, not narrower.
+
+**What this means for your workflows:**
+- **Test your scaffolding, don't assume it works.** Run the same task with and without your preferred scaffold. If the scaffold doesn't help, it may be hurting.
+- **Different models, different scaffolds.** The harness that keeps a standard model honest may choke a reasoning model's native capabilities. Match friction to the tool.
+- **Adversarial review (asking AI to critique its own output) may hurt more with stronger models.** The better the model's reasoning, the more damage adversarial pressure can do.
+
+This doesn't mean you should abandon friction. It means you should be deliberate and experimental about *which* friction you apply and *where*. See [[The Scaffold Match]] for the full concept and practical guidance on matching scaffolding to your tools.
+
 ## Related Pages
 
-[[Cognitive Surrender]] · [[Trust Calibration]] · [[The Augmentation Trap]] · [[Delegation Thinking]] · [[Task Decomposition]] · [[The Placement Rule]] · [[The Sequencing Principle]]
+[[Cognitive Surrender]] · [[Trust Calibration]] · [[The Augmentation Trap]] · [[Delegation Thinking]] · [[Task Decomposition]] · [[The Placement Rule]] · [[The Sequencing Principle]] · [[The Scaffold Match]]
 
 ## Tags
 

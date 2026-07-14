@@ -424,3 +424,45 @@ Rotation summary (Week 1):
 RCT (arXiv:2607.08849) provides first direct experimental evidence for the operator→orchestrator distinction. Augmentation users retain learning; automation users' gains vanish. Same tool, different approach, measurable difference in lasting human capability.
 
 ### Sources added: 5
+
+## 2026-07-14 — Week 2 Day 2: 02-Key-Concepts Rotation
+
+### Theme
+"The Architecture of Delegation: Structure Wins Every Time"
+
+### Source discovery method
+- arXiv RSS feeds: cs.HC, cs.AI, cs.CY (2026-07-14 batch)
+- Web search supplementary (no usable results)
+
+### Sources selected (5 of ~40+ papers scanned)
+1. arXiv:2607.09678 — "Faithful, Not Corrective: Message-Format Effects in Multi-Hop Agent Relays Are Tier-Dependent" (cs.AI)
+2. arXiv:2607.09743 — "Scaffolding the Strategist: Architecture-Dependent Reasoning Interventions" (cs.AI)
+3. arXiv:2607.10322 — "Intervenability as a Design Requirement for Autonomy and Oversight within Human-Centered AI" (cs.HC)
+4. arXiv:2607.09938 — "\"Code Is Cheap. Show Me the Talk.\"" (cs.HC)
+5. arXiv:2607.10101 — "Learning behavior accounts for background-related advantage in AI-assisted education" (cs.HC)
+
+### Convergence finding
+All five papers converge on structural choices (message format, scaffolding design, intervention architecture, learning behaviors) as the primary determinant of whether AI workflows compound or collapse. The model matters less than the structure around it.
+
+### Pages created
+- 02-Key-Concepts/The Scaffold Match.md — New concept page on architecture-dependent scaffolding effects
+
+### Pages updated
+- 02-Key-Concepts/Delegation Thinking.md — Added "Multi-Hop Delegation: The Weakest Relay Principle" and "Intervenability: Build for Intervention, Not Just Delegation"
+- 02-Key-Concepts/Friction by Design.md — Added "The Scaffold Match Problem: No Universal Harness"
+- 02-Key-Concepts/Cognitive Surrender.md — Added "The Homogenization Trap: More Polish, Less Diversity"
+
+### Key insight
+Scaffolding crossover (arXiv:2607.09743): Commitment scaffolding helps standard models (+0.21) but hurts reasoning models (-0.63). Separation shows the opposite. There is no universal harness — the scaffold must match the model. The orchestrator tests before trusting.
+
+### Sources added: 5
+- sources/sources.jsonl updated with 5 new entries
+
+### Digest
+- 00-Daily-Digests/2026-07-14.md — "The Architecture of Delegation: Structure Wins Every Time"
+
+### Next rotation
+Wednesday July 15, Day 3 — 03-For-Orgs (Organizational implementation, change management, leadership)
+
+### Wiki stats
+Pages: 51 (was 50) — 1 new, 3 updated. Zero broken links expected.
