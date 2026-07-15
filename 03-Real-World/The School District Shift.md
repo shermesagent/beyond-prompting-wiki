@@ -181,6 +181,39 @@ The finding: scrutable interfaces helped teachers **reflect on their teaching pr
 
 This is the orchestrator interface for education: the teacher defines what matters (the standards, the student needs, the pacing), the AI handles the assembly, and the teacher reviews and adjusts. No prompt engineering required.
 
+### Designing Your AI Teammate: Why Personality Isn't Cosmetic
+
+New research from the TRAIL platform (July 2026) tested something simple but profound: what happens when you change only the AI teammate's personality in a real classroom?
+
+The study ran a six-session deployment with 51 students. One group worked with a **cognitive-scaffolding agent** — it asked questions, pushed thinking, challenged assumptions. Another group worked with a **socially-supportive agent** — warm, encouraging, affirming. Everything else was identical.
+
+The results:
+
+| Agent Type | What Changed |
+|-----------|-------------|
+| Cognitive-scaffolding | Stronger contribution ratings from students, closer linguistic alignment with student language, higher perceived competence of the AI |
+| Socially-supportive | Warmer team climate, **lower over-reliance on the AI**, higher trust in the process rather than the output |
+
+The socially-supportive agent produced *less* blind trust in the AI's answers. Students questioned it more. They relied on their own judgment more. The warm, encouraging teammate made students *more* independent — not less.
+
+**Why this matters for schools:** Most AI tools deployed in classrooms use a default, neutral persona. The research says this is a missed opportunity. An AI tutor designed to be warm and supportive might produce less over-reliance than an authoritative one. An AI designed to scaffold thinking rather than deliver answers might produce deeper engagement. The "personality" isn't a cosmetic feature — it's a design property that shapes how humans interact with the system.
+
+The Farmersville lesson: when you build workflows for teachers, design the AI's interaction style intentionally. A warm, supportive agent that teachers can question is better than an authoritative agent they resist. The goal isn't the most "capable" AI — it's the AI that produces the best human-AI team outcome.
+
+**Source:** "TRAIL: A Platform for Configurable Human--AI Teaming Experiments," arXiv 2607.12180 (July 2026)
+
+### From Scattered Rules to Coherent Strategy: The PLAI-LOs Framework
+
+Higher education has the same AI fragmentation problem Farmersville faced — but at scale. Some professors ban AI. Some require it. Students get mixed messages across courses. No one can see the big picture.
+
+A new paper (July 2026) proposes **Program-Level AI Learning Outcomes (PLAI-LOs)** — defining what students should know and do *with, without, and about* GenAI at the program level. The framework cascades: institutional priorities → program-level outcomes → course-level objectives → assignment-level tasks. With worked examples from computing *and* music (not just STEM).
+
+**Why this matters for K-12:** The college fragmentation is a preview of what K-12 faces. If a high school student gets one teacher who requires AI, another who bans it, and a third who's never mentioned it — the student receives no coherent learning about AI. They receive mixed signals. The solution isn't "every teacher should require AI" or "every teacher should ban it." It's program-level coherence: what should a *graduate* of this school or program know about working with AI?
+
+Farmersville's approach prefigured this: build the workflow at the district level, not the classroom level. Define what happens in system design, not in individual teacher decisions. The PLAI-LOs framework gives a name and structure to what Farmersville did implicitly.
+
+**Source:** "From Chaos to Clarity: A Framework for Program-Level AI Learning Outcomes," arXiv 2607.12221 (July 2026)
+
 ---
 
 ## Related Pages

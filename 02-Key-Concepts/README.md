@@ -54,6 +54,7 @@ They came out of real research — papers on human-AI collaboration, case studie
 | [[Memory as Infrastructure]] | Why does agent memory beat copying old chats? | Architect |
 | [[The Review-First Pattern]] | What's the proven workflow pattern that actually works in production? | Operator → Orchestrator |
 | [[Doom Researching]] | Am I consuming AI answers without producing anything? | Everyone |
+| [[The Jagged Frontier]] | Which tasks has AI already crossed and which is it still behind on — and what does that mean for your role? | Orchestrator |
 
 ## At a Glance (cont.)
 

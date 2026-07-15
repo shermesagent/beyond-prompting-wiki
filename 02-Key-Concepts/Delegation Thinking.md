@@ -155,9 +155,23 @@ The key insight: different intervention types require different levels of mental
 
 Build this into your [[SOP]] library: for every recurring delegation, document one intervention point — where you check, what you look for, and what you do if it's wrong. An SOP without intervenability is a script that expects everything to go right. An SOP with intervenability is a system that handles when it doesn't.
 
+## The Architect Pattern: Retain High-Level Agency, Delegate the Rest
+
+The AgentSociety 2 platform (July 2026) demonstrates what the highest level of delegation looks like in practice. The system runs two types of AI agents simultaneously: **AI scientists** who design experiments, generate hypotheses, and interpret results, and **silicon participants** who behave as subjects in simulated social environments.
+
+The key design principle: **human researchers retain high-level agency while delegating procedural orchestration to agentic systems.** The humans don't run the experiments. They don't even generate the hypotheses from scratch. They set the research direction, define the constraints, and let the agents handle everything else. Then — and this is where the human judgment gets repositioned — they interpret what matters.
+
+Across seven studies, the system reproduced major qualitative patterns from prior research and — more importantly — identified informative deviations that launched new research questions.
+
+**The orchestration lesson:** This is what the "architect" phase of [[The Delegation Spectrum — Six Levels, Not a Binary]] looks like in practice. You don't design the individual tasks. You design the system that designs and executes the tasks. Your contribution shifts from "what should happen next" to "what are the rules of the game, what constitutes success, and what do the results mean?"
+
+The gap between where most people are (Level 2: AI drafts, you edit) and where this research is (Level 6: AI designs and runs the experiments, you interpret) is massive. But the pattern is the same at every level: identify what humans are uniquely good at (direction-setting, constraint-definition, meaning-making), keep that, and delegate everything else.
+
+**Source:** "AgentSociety 2," arXiv 2607.11895 (July 2026)
+
 ## Related Pages
 
-[[Task Decomposition]] · [[Trust Calibration]] · [[01-The-Shift/README|The Orchestrator Mindset]] · [[01-The-Shift/README|The Operator Mindset]] · [[Cognitive Surrender]] · [[Co-Construction Blindness]] · [[From Author to Editor]] · [[The Four Decision Labels]] · [[The Scaffold Match]]
+[[Task Decomposition]] · [[Trust Calibration]] · [[01-The-Shift/README|The Orchestrator Mindset]] · [[01-The-Shift/README|The Operator Mindset]] · [[Cognitive Surrender]] · [[Co-Construction Blindness]] · [[From Author to Editor]] · [[The Four Decision Labels]] · [[The Scaffold Match]] · [[The Jagged Frontier]]
 
 ## Tags
 

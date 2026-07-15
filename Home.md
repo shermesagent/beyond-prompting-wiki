@@ -2,7 +2,7 @@
 
 > A living guide to the **operator → orchestrator shift**. If you've ever typed a prompt and thought "there has to be more than this" — start here.
 
-_51 pages across 6 sections. Updated daily. Git-backed, human-readable, cross-linked._
+_52 pages across 6 sections. Updated daily. Git-backed, human-readable, cross-linked._
 
 ---
 
@@ -40,7 +40,7 @@ The core idea. What it means, why it matters, and the three mindsets along the p
 
 ### [[02-Key-Concepts/README|02 — Key Concepts]]
 Approachable distillations of research into learning concepts you can use today.
-→ [[Task Decomposition]] · [[Delegation Thinking]] · [[Cognitive Surrender]] · [[Trust Calibration]] · [[Friction by Design]] · [[The Augmentation Trap]] · [[Co-Construction Blindness]] · [[From Author to Editor]] · [[The Coaching Stance]] · [[The Placement Rule]] · [[The Four Decision Labels]] · [[Memory as Infrastructure]] · [[The Review-First Pattern]] · [[The Sequencing Principle]] · [[Doom Researching]] · [[Reverse-Centaur]] · [[The Collapse Pattern]] · [[Cognitive Load]] · [[The Illusion of Mastery]] · [[The Scaffold Match]]
+→ [[Task Decomposition]] · [[Delegation Thinking]] · [[Cognitive Surrender]] · [[Trust Calibration]] · [[Friction by Design]] · [[The Augmentation Trap]] · [[Co-Construction Blindness]] · [[From Author to Editor]] · [[The Coaching Stance]] · [[The Placement Rule]] · [[The Four Decision Labels]] · [[Memory as Infrastructure]] · [[The Review-First Pattern]] · [[The Sequencing Principle]] · [[Doom Researching]] · [[Reverse-Centaur]] · [[The Collapse Pattern]] · [[Cognitive Load]] · [[The Illusion of Mastery]] · [[The Scaffold Match]] · [[The Jagged Frontier]]
 
 ### [[03-Real-World/README|03 — Real World Stories]]
 Case studies, transformation stories, and honest failure postmortems.

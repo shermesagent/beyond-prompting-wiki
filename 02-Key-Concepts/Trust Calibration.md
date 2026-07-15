@@ -1,10 +1,10 @@
 ---
 title: Trust Calibration
 created: 2026-06-21
-updated: 2026-07-08
+updated: 2026-07-15
 type: concept
 tags: [concept, barrier, orchestrator]
-sources: [raw/articles/accurate-but-not-confident-acm-2026.md, raw/articles/automation-boundaries-2026.md, raw/articles/perceived-system-predictability-2607.05674.md]
+sources: [raw/articles/accurate-but-not-confident-acm-2026.md, raw/articles/automation-boundaries-2026.md, raw/articles/perceived-system-predictability-2607.05674.md, raw/articles/faster-ai-uneven-frontier-2607.12125.md, raw/articles/how-agentic-is-agentic-commerce-2607.12575.md]
 confidence: high
 ---
 
@@ -108,6 +108,28 @@ Three specific findings worth knowing:
 
 **The takeaway for trust calibration:** Don't trust explanations as calibration shortcuts. A system that *explains itself well* is not necessarily a system you can predict well. The orchestrator's calibration tool isn't the quality of the explanation — it's the track record over time. Explanations are marketing. Outcomes are data.
 
+### Naive Combination Usually Fails
+
+A major new paper updating the [[The Jagged Frontier]] concept through mid-2026 found something that should reshape how you think about trust: **"naive combination often underperforms the stronger partner."** When you just throw a human and an AI at a task together — the default pattern for most people — you get *worse* results than if the AI did it alone.
+
+Not because the human is bad at the task. Because the interaction isn't designed. The human second-guesses the AI's correct output. The AI doesn't know when the human is right. Both partners assume the other is handling things neither is handling. The result: combined output that's worse than either partner working solo.
+
+This is a trust calibration problem at its core. The fix isn't "trust the AI more" or "trust the AI less." The fix is **structural**: reposition the human contribution toward specification (defining what good looks like), verification (checking at designated points), and oversight (catching the failures that matter). Let the AI handle everything else.
+
+The paper's authors are blunt: this shift is "visible in experiments but, so far, barely visible in field labor-market data." The research tells us what works. Almost no one in the real world is doing it yet. That means trust calibration — knowing *where* to trust and *how* to verify — is still an early-adopter skill, not a default behavior.
+
+**Source:** "Faster AI, Uneven Frontier," arXiv 2607.12125 (July 2026)
+
+### Don't Trust the Headlines About the Agent Economy
+
+You may have heard that AI agents are forming their own economy, with hundreds of millions of autonomous payments on-chain. A new population-scale measurement checked those numbers — and the picture is almost entirely manufactured.
+
+Over 280 days of the x402 protocol on Base: 136.7 million settlements, $44.1 million in value. Sounds impressive. The breakdown: **21.2% are fictitious, 63.8% are internal settlements within linked clusters** (same operators moving money in circles), and only **$187,861** (0.43%) demonstrably reaches a nameable service. The paper's conclusion: "Settlement count measures manufacturability, not adoption."
+
+**Why this matters for trust calibration:** The same dynamic plays out at the individual level. How many of the "AI workflows" people claim to have are actually working in production vs. looking impressive in a demo? How many "agent deployments" are real vs. internal experiments that never shipped? Calibrating your trust in the industry's claims is as important as calibrating your trust in the tool's output. The orchestrator doesn't believe the hype — and doesn't dismiss the real results. They check.
+
+**Source:** "How Agentic Is Agentic Commerce?" arXiv 2607.12575 (July 2026)
+
 ## Try This
 
 **5-Minute Exercise: Build a Trust Map**
@@ -122,7 +144,7 @@ Keep this map. Update it next week. You're building your own calibration data.
 
 ## Related Pages
 
-[[Cognitive Surrender]] · [[Task Decomposition]] · [[Delegation Thinking]] · [[Memory as Infrastructure]] · [[The Review-First Pattern]] · [[04-Barriers-and-Bridges/README|04 — Barriers & Bridges]] · [[Co-Construction Blindness]] · [[The Sequencing Principle]]
+[[Cognitive Surrender]] · [[Task Decomposition]] · [[Delegation Thinking]] · [[Memory as Infrastructure]] · [[The Review-First Pattern]] · [[04-Barriers-and-Bridges/README|04 — Barriers & Bridges]] · [[Co-Construction Blindness]] · [[The Sequencing Principle]] · [[The Jagged Frontier]]
 
 ## Tags
 

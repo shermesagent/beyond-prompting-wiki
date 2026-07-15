@@ -465,4 +465,18 @@ Scaffolding crossover (arXiv:2607.09743): Commitment scaffolding helps standard 
 Wednesday July 15, Day 3 — 03-For-Orgs (Organizational implementation, change management, leadership)
 
 ### Wiki stats
-Pages: 51 (was 50) — 1 new, 3 updated. Zero broken links expected.
+Pages: 52 (was 51) — 1 new, 3 updated. Zero broken links expected.
+
+## 2026-07-15 | ingest | Daily curation — 5 sources on the reality-ready gap, jagged frontier update, agent economy reality check, AI teammate design, and education strategy
+- Theme: The Reality-Ready Gap — What the Lab Shows vs. What's Actually Changing
+- Sources ingested:
+  - "Faster AI, Uneven Frontier: Rapid Crossings, a Jagged Frontier, and the Repositioning of Human Judgment" (arXiv:2607.12125, Jul 2026)
+  - "TRAIL: A Platform for Configurable Human--AI Teaming Experiments" (arXiv:2607.12180, Jul 2026)
+  - "From Chaos to Clarity: A Framework for Program-Level AI Learning Outcomes" (arXiv:2607.12221, Jul 2026)
+  - "How Agentic Is Agentic Commerce? A Population-Scale Measurement of x402 Adoption and Authenticity" (arXiv:2607.12575, Jul 2026)
+  - "AgentSociety 2: An Integrated Research Environment for Executable Social Science" (arXiv:2607.11895, Jul 2026)
+- Pages updated: Trust Calibration (+naive-combination evidence +agent-economy reality check), The School District Shift (+TRAIL classroom deployment +PLAI-LOs framework), Delegation Thinking (+AgentSociety 2 architect pattern)
+- Pages created: The Jagged Frontier (foundational concept — what it is, 2026 update, why the shift is necessary)
+- Digest: 00-Daily-Digests/2026-07-15.md
+- Navigation: Home.md, 02-Key-Concepts/README.md updated
+- Sources: 5 entries added to sources/sources.jsonl
