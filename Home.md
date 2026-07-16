@@ -60,7 +60,7 @@ Plain-language definitions of every key term.
 
 ### 00-Daily-Digests
 Daily curated research digests — what we found, what it means, and how to use it.
-→ [[2026-07-14|Today's Digest]]
+→ [[2026-07-16|Today's Digest]]
 
 ---
 
@@ -80,7 +80,8 @@ _Last 7 days of activity._
 
 | Date | Pages Changed |
 |------|---------------|
-| 2026-07-14 | Day 2 Key Concepts rotation: Daily digest + 1 new concept page (The Scaffold Match) + 3 concept pages deepened (Delegation Thinking — Multi-Hop Relay & Intervenability, Friction by Design — Scaffold Match Problem, Cognitive Surrender — Homogenization Trap) — the architecture of delegation: structure determines whether workflows compound or collapse |
+| 2026-07-16 | Day 4 Barriers & Bridges rotation: Daily digest + 1 new barrier page (Trust Calibration — finally created, anchored by "I Don't Know" suppression research) + 4 barrier pages deepened (The Just Ask ChatGPT Trap — metacognitive threshold, Human Readiness Archetypes — DOT persona migration empirical validation, Fear of Losing Control — bots as social infrastructure bridge, Knowledge Debt — tragedy of the cognitive commons at scale) — the metacognitive crisis: AI fluency erases the willingness to say "I don't know" |
+| 2026-07-15 | Day 3 Real World rotation: Daily digest + 3 concept pages deepened (The Jagged Frontier — jagged frontier crossing, The School District Shift — TRAIL/PLAI-LOs frameworks, Trust Calibration — x402 agentic metrics reality check) — the frontier is moving faster than our measurement tools: 6 new papers revealing that AI progress outpaces our ability to assess it reliably |
 | 2026-07-13 | Day 1 The Shift rotation (Week 2): Daily digest + 4 Shift pages updated with experimental evidence from 5 new papers — first RCT evidence for operator→orchestrator distinction: augmentation users retain learning, automation users' gains vanish |
 | 2026-07-11 | Day 7 lint pass + 3 new concept pages (The Collapse Pattern, Cognitive Load, The Illusion of Mastery) + 2 pages deepened (Delegation Thinking — Harness Effect, Fear of Losing Control — Reverse-Centaur) + cross-pollination from AI Agency Knowledgebase + Home.md updated (50 pages, missing entries restored) — structural health: aspirational links filled, cross-directory links fixed, new pages cross-linked |
 | 2026-07-10 | Daily digest + 1 new glossary entry (SOP) + 4 glossary pages updated (Orchestration — Harness Effect, Delegation — From Briefs to SOPs, Agent — Three Framings, Delegation Thinking — SOP Library) — the harness matters more than the horse: orchestration layer research, reusable delegation, and how we teach AI shapes how we use it |

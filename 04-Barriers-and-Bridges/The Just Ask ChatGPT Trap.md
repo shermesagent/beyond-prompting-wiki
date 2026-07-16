@@ -23,6 +23,10 @@ The Skill Bypass is why the Q&A trap is self-reinforcing. You stay in the loop b
 
 This isn't a character flaw. It's a structural gap in how people learn to work with AI: the interface teaches prompt fluency first, and nothing in the experience forces you to go deeper.
 
+**A deeper layer: the metacognitive threshold.** The single-turn habit doesn't just keep you in the loop — it may be actively eroding your judgment. A July 2026 study (arXiv:2607.13562, five experiments, N=3,132) found that merely having AI available nearly eliminated people's willingness to say "I don't know" — even when the AI was wrong, even when accuracy was incentivized with real money. Participants answered more questions but were correct only a third as often, yet their confidence nearly doubled. The researchers call this a shift in the **metacognitive threshold**: the point at which you decide you know enough to answer. AI fluency moves that threshold without you noticing. You don't just get wrong answers. You lose the reflex that would have caught them.
+
+This means the Q&A trap has two layers now. The first is practical: you're the bottleneck, doing single-turn work that could be delegated. The second is cognitive: the very act of asking-and-accepting is making you worse at knowing what you don't know. Every accepted AI answer recalibrates your internal "I'm sure" meter a little further from reality. See [[Trust Calibration]] for how to recalibrate.
+
 ## How It Feels
 
 You open a new chat. You stare at the cursor. You think: "I need to figure out the right way to ask this." And you spend five minutes composing a prompt. That *is* the trap.

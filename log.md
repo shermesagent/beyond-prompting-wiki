@@ -480,3 +480,22 @@ Pages: 52 (was 51) — 1 new, 3 updated. Zero broken links expected.
 - Digest: 00-Daily-Digests/2026-07-15.md
 - Navigation: Home.md, 02-Key-Concepts/README.md updated
 - Sources: 5 entries added to sources/sources.jsonl
+
+## 2026-07-16 | ingest | Daily curation — 5 sources on the "I Don't Know" suppression, cognitive commons, persona migration, bots as social infrastructure, and monoculture
+- Theme: The "I Don't Know" Crisis — How AI Fluency Erases Healthy Skepticism
+- Sources ingested:
+  - "AI advice suppresses people's willingness to say 'I don't know'" (arXiv:2607.13562, Jul 2026) — 5 experiments, N=3,132. AI access nearly eliminates "I don't know" responses. Confidence doubles while accuracy drops to 1/3.
+  - "The tragedy of the cognitive commons: collective intelligence beyond AI-induced knowledge collapse" (arXiv:2607.13272, Jul 2026) — Acemoglu model appraisal. Stack Overflow 25% decline evidence. Credible negative externality.
+  - "Persona Migration and Expectation Recalibration in Generative AI Adoption" (arXiv:2607.13798, Jul 2026) — 124 DOT employees, 8-week pilot. 68% of Champions moved down; 40% of Skeptics moved up. Expectation recalibration is the real adoption story.
+  - "When Bots Join the Team: Bot Adoption and the Institutional Fabric of Open-Source Software Projects" (arXiv:2607.13679, Jul 2026) — 2,991 GitHub projects. More collaboration, fewer conflict cascades, more distinctive outputs. Bots as social infrastructure.
+  - "The Hitchhiker's Guide to Monoculture" (arXiv:2607.13077, Jul 2026) — Syntax homogenization but not semantic. Standardization of scaffolding, not architecture.
+- Pages created: Trust Calibration (finally filled the aspirational link — anchor finding is the "I Don't Know" suppression with pre-commitment check, uncertainty audit, and saying I don't know norm patterns)
+- Pages updated:
+  - The Just Ask ChatGPT Trap — Added metacognitive threshold section. Two layers: practical bottleneck + cognitive erosion.
+  - Human Readiness Archetypes — Added DOT Persona Migration empirical validation (124 employees, 3-persona emergence, dynamic movement, decline after hands-on use)
+  - Fear of Losing Control — Added "Bots as Social Infrastructure" bridge (~3,000 projects, before/after analysis)
+  - Knowledge Debt — Added "Tragedy of the Cognitive Commons" at collective scale
+- Digest: 00-Daily-Digests/2026-07-16.md
+- Navigation: Home.md (recent updates + today's digest link), Trust Calibration already linked in Home.md as aspirational
+- Sources: 5 entries added to sources/sources.jsonl (now 104 total)
+- Key insight: AI fluency doesn't just make wrong answers sound right — it makes you stop asking whether you know enough to answer at all. The most important three words for anyone working with AI in 2026 are "I don't know." Practice saying them.

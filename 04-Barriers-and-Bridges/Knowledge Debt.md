@@ -1,10 +1,10 @@
 ---
 title: Knowledge Debt
 created: 2026-07-08
-updated: 2026-07-08
+updated: 2026-07-16
 type: concept
 tags: [barrier, mindset, skill, delegation]
-sources: [raw/articles/agents-that-teach-knowledge-debt-2607.06101.md]
+sources: [raw/articles/agents-that-teach-knowledge-debt-2607.06101.md, raw/articles/tragedy-cognitive-commons-2607.13272.md]
 confidence: medium
 ---
 
@@ -55,6 +55,20 @@ When you instruct an agent, ask it to leave breadcrumbs — comments, notes, or 
 Knowledge Debt is the mechanism behind [[The Augmentation Trap]]. The trap says AI productivity gains hide skill erosion. Knowledge Debt names exactly *how* that erosion happens — one silently-accepted deliverable at a time.
 
 It also connects to [[Psychological Debt]]: the emotional weight of knowing you don't fully understand work you're accountable for. And it's the mirror image of [[Friction by Design]] — instead of *adding* friction to keep you sharp, Knowledge Debt says: *remove* friction *for getting things done*, but *add* friction *for staying unaware*. The agent handles the work; you handle the understanding check.
+
+## Knowledge Debt at Scale: The Tragedy of the Cognitive Commons
+
+Knowledge Debt isn't just personal. It's collective. A July 2026 paper appraising the "knowledge collapse" model by Acemoglu et al. identifies what they call **the tragedy of the cognitive commons**: a credible negative externality where individually rational behavior produces a collectively worse outcome.
+
+Here's how it works at scale. Every time someone uses AI to answer a question without contributing their own insight back to the shared knowledge pool, the commons gets a little thinner. The AI substitutes for the private knowledge generation that humans would otherwise do, but it can't rebuild the public knowledge signal that everyone draws from. It's the same dynamic as overfishing: each boat's individual decision to catch more fish is rational; the collective result is an empty ocean.
+
+The evidence is already visible. Stack Overflow — the world's largest public knowledge base for programming — has seen a **25% decline in knowledge sharing** since AI coding assistants became widespread. Each developer who gets their answer from an AI instead of posting (or answering) a question is behaving rationally. The collective result is a measurably shrinking commons.
+
+This connects directly to the personal Knowledge Debt you accrue. Every time you accept an AI answer without adding your own understanding back — to yourself, to your team, to your field — you're making two withdrawals. One from your personal competence account. One from the collective knowledge account. The personal withdrawal you can catch up on (the six bridge principles above). The collective withdrawal is harder to notice because you never see the balance.
+
+**What you can do:** When an AI helps you understand something new, pay it forward. Write a note. Share a finding. Post an answer. Teach a colleague. The antidote to the tragedy of the cognitive commons is the same as the antidote to personal Knowledge Debt: deliberate contribution back to the pool you're drawing from.
+
+**Source:** arXiv:2607.13272 — appraisal of the Acemoglu-Kong-Ozdaglar knowledge collapse model, including Stack Overflow evidence and five structural criticisms.
 
 ## The Core Insight
 

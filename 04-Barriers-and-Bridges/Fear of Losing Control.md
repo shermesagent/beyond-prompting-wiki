@@ -64,6 +64,20 @@ Four boundaries that make delegation feel safe:
 
 The point isn't the task. The point is proving to your nervous system that delegation with boundaries is safe. Do this five times and your brain will start to believe what you already know intellectually.
 
+## The Bridge, Validated: Bots as Social Infrastructure
+
+Here's a finding that directly addresses the fear: when AI agents join human teams as *participants* rather than tools, organizations don't weaken — they strengthen.
+
+A July 2026 study analyzed 2,991 GitHub projects for two years before and after each adopted its first bot. The researchers treated bots as team members rather than automation, measuring three organizational capabilities (repeated engagement, social memory, role differentiation) and two outcomes (conflict cascades, output distinctiveness).
+
+After bot adoption, projects showed: **more repeated collaboration**, **fewer conflict cascades** (people fought less), and **more distinctive outputs** (work became more unique, not more homogenized). The key insight: "The bot is the occasion; social organization is the mechanism." It's not the AI itself that strengthens the team — it's how the team reorganizes around the AI's predictable, rule-based presence.
+
+What does this mean for your fear? The condition matters. The bots in this study had **clear roles, predictable behavior, and visible work**. That's the opposite of an opaque agent running unseen in the background. When you define the boundaries (scope, verification, stop conditions — the four from the table above), you're not just protecting yourself. You're doing what the successful GitHub projects did: creating the conditions for AI to become social infrastructure rather than a threat.
+
+The bots didn't replace human judgment. They became part of the team's coordination fabric. The humans still made the distinctive contributions. The bots made the distinctiveness possible by handling the predictable stuff.
+
+**Source:** arXiv:2607.13679 — 2,991 GitHub projects, two-year before/after analysis.
+
 ---
 
 ## Related Pages

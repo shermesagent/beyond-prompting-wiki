@@ -1,10 +1,10 @@
 ---
 title: Human Readiness Archetypes
 created: 2026-06-23
-updated: 2026-07-01
+updated: 2026-07-16
 type: concept
 tags: [barrier, mindset, workflow]
-sources: [raw/articles/wef-human-readiness-2026.md]
+sources: [raw/articles/wef-human-readiness-2026.md, raw/articles/persona-migration-dot-adoption-2607.13798.md]
 confidence: medium
 ---
 
@@ -63,6 +63,20 @@ The organizational context makes this harder. A 2026 survey by Writer found that
 - **Opposed:** Listen. Take their specific concerns seriously. Some of them will name problems you need to solve before anyone else hits them.
 
 **One thing not to do:** Don't spend all your energy on the Opposed. They're not your adoption problem. Your adoption problem is the Cautious and Curious — the people who could move but haven't yet. Focus there.
+
+## Empirical Validation: The DOT Persona Migration Study
+
+A July 2026 study tracked 124 employees at a state Department of Transportation through an eight-week Microsoft 365 Copilot pilot. The findings validate and extend the archetype framework:
+
+- **Three baseline personas emerged from the data** (not theory): Skeptics, Cautiously Positive, and Champions — mapping cleanly onto the five-archetype framework's opposite ends and middle.
+- **Personas are dynamic, not fixed.** Although overall persona *counts* changed modestly, individual movement was substantial: 40% of Skeptics moved to Cautiously Positive after hands-on experience, while **68% of Champions moved to less enthusiastic personas** after reality hit. Enthusiasm before hands-on use isn't adoption — it's expectation. Real adoption is what happens after the expectation meets the tool.
+- **Perceived usefulness declined significantly** after actual use. The shiny-object phase ends, and recalibration begins. This is normal and healthy — but only if organizations support people through the dip rather than abandoning the rollout when enthusiasm fades.
+- **Different tasks, different trajectories.** Communication and summarization stayed stable; data, chart, and presentation tasks declined. AI isn't equally useful across all work types — and people figure this out through experience, not training.
+- **What moved people upward:** gains in perceived usefulness, behavioral intention, and trust. **What moved people downward:** declines in usefulness and trust — not privacy concerns (those decreased) but *job and skills concerns* (those increased).
+
+**The practical takeaway:** Don't survey once and lock people into archetypes. Re-survey after 4-8 weeks of hands-on use. The migration patterns will tell you more about your organization's readiness than any initial snapshot. And invest in the downward movers — the Champions who fell to Cautiously Positive aren't lost. They're calibrating. Support them through the dip and they become your most grounded advocates.
+
+**Source:** arXiv:2607.13798 — matched two-wave survey, 124 employees, k-means clustering with fixed-centroid assignment for persona tracking.
 
 ## Related Pages
 
