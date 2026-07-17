@@ -499,3 +499,19 @@ Pages: 52 (was 51) — 1 new, 3 updated. Zero broken links expected.
 - Navigation: Home.md (recent updates + today's digest link), Trust Calibration already linked in Home.md as aspirational
 - Sources: 5 entries added to sources/sources.jsonl (now 104 total)
 - Key insight: AI fluency doesn't just make wrong answers sound right — it makes you stop asking whether you know enough to answer at all. The most important three words for anyone working with AI in 2026 are "I don't know." Practice saying them.
+
+## 2026-07-17 | practice-rotation | Daily curation — 5 sources on reliance types, authorship calibration, relational turning points, harness design, and training as adoption barrier
+- Theme: Practice Is Calibration — The operator-to-orchestrator gap isn't a knowledge gap; it's a calibration gap
+- Sources ingested:
+  - "Measuring How Students Rely on Generative AI in Academic Writing: GenAI-RTS Scale" (arXiv:2607.14301, Jul 2026) — Validated scale measuring 4 reliance types: Dialogic, Strategic, Instrumental, Dependent. Gives practitioners a self-assessment tool rather than generic advice.
+  - "When AI Blurs the Boundaries of Contribution: Authorship Calibration" (arXiv:2607.15006, Jul 2026) — Heavy AI users systematically misjudge their own contribution. Three patterns: over-attribution, under-attribution, boundary blindness. Calibration is learnable through deliberate reflection.
+  - "Memory-Driven Self-Disclosure and Relational Turning Points" (arXiv:2607.14593, Jul 2026) — 10-session longitudinal study. Conversational quality doesn't carry forward; AI memory does. Crashes and surges reshape trust trajectories. Sustained delegation is relational, not just technical.
+  - "Harness Handbook: Making Evolving Agent Harnesses Readable, Navigable, and Editable" (arXiv:2607.13285, Jul 2026) — Behavior localization as bottleneck. Name pipelines by behavior, not location. Reliability tags (Solid/Needs Watching/Fragile) as lightweight dashboard.
+  - "The Main Barrier to AI Adoption in the Public Sector Is Lack of Training" (arXiv:2606.01517v3, updated Jul 2026) — Brazilian public sector: 4-layer training methodology produced 18-50% efficiency gains with free models. Training > technology. Strongest empirical validation of the Beyond Prompting thesis.
+- Pages updated:
+  - Audit Your Prompts — Added Reliance Type self-assessment (4-type classification with actionable patterns) and Authorship Calibration check (3-question framework). Frontmatter added.
+  - Build a Tiny Pipeline — Added Harness Handbook design principles (behavior-centric naming, pipeline document header, 3-level reliability tags). Frontmatter updated.
+  - The Daily Standup — Added Sixth Question: relational turning point tracking (crashes/surges log with impact assessment and patterns). Frontmatter updated.
+- Digest: 00-Daily-Digests/2026-07-17.md
+- Sources: 5 entries added to sources/sources.jsonl (now 109 total)
+- Key insight: Five papers across five different research groups, methods, and domains all converge on the same truth — people don't know how they're using AI, can't judge what's theirs vs. the AI's, experience relational dynamics they don't track, design pipelines without behavior-centered thinking, and face barriers that are about training, not technology. Practice isn't optional. It's the entire bridge. And the first exercise isn't "try this prompt" — it's "look at how you're already using AI, and calibrate."

@@ -1,12 +1,13 @@
 ---
 title: Build a Tiny Pipeline
 created: 2026-06-27
-updated: 2026-06-27
+updated: 2026-07-17
 type: practice
 tags: [practice, orchestrator, workflow]
 confidence: high
 sources:
   - raw/articles/agentic-workflow-patterns-ai-agency-kb.md
+  - raw/papers/harness-handbook-2607.13285.md
 ---
 
 # Build a Tiny Pipeline
@@ -172,9 +173,60 @@ The fix: add a thinking checkpoint. After each pipeline step, insert 30 seconds 
 
 See [[Reverse-Centaur]] for the full concept behind the metaphor.
 
+## The Harness Principle: Name Your Pipeline by What It Does
+
+New research on agent engineering (arXiv:2607.13285) identifies a universal bottleneck: **behavior localization** — finding what code needs to change when you want the system to do something different. The fix is the "Harness Handbook" principle: organize by *behavior* (what the pipeline does), not by *location* (where you saved it).
+
+This sounds abstract. Here's what it means for your pipelines:
+
+**Bad naming (location-based):**
+- "that template in my Notes app"
+- "the one I use for Tuesday mornings"
+- "draft_review_v3_final.md"
+
+**Good naming (behavior-based):**
+- "Morning Briefing Pipeline"
+- "Meeting-to-Tasks Pipeline"
+- "Draft-and-Polish Pipeline"
+
+The difference isn't cosmetic. Six months from now, when you have 8 pipelines across 3 different apps, "that template in my Notes app" is gone. "Morning Briefing Pipeline" is findable. The name encodes the behavior, and the behavior is what you'll remember.
+
+### The Behavior-Centric Pipeline Document
+
+Take your saved pipeline from Step 4 and add a one-line behavior description at the top:
+
+```
+PIPELINE: Morning Briefing
+BEHAVIOR: Turns today's top news into a ready-to-send team email in under 2 minutes.
+WHEN TO USE: Every morning by 8:30am. Skip weekends.
+LAST MODIFIED: [date]
+RELIABILITY: [Solid / Needs Watching / Fragile]
+```
+
+This tiny header does three things:
+1. **You can find it** — search for "morning briefing" and it appears
+2. **You know when to use it** — no guessing whether it's still active
+3. **You know if it's healthy** — a glance tells you whether to review it or just run it
+
+The Harness Handbook uses an automated tool to link behaviors to code. You don't need that. You just need the *habit* of naming pipelines by what they do, not where they live. It's the simplest thing in this entire practice section, and it's the one most people skip.
+
+### Pipeline Reliability Tags
+
+Borrowing from the Harness Handbook's BGPD (Behavior-Guided Progressive Disclosure) approach, tag each pipeline with a reliability level:
+
+| Tag | Meaning | Review Cadence |
+|-----|---------|---------------|
+| **Solid** | 5+ consecutive runs without issues | Spot-check every 3rd run |
+| **Needs Watching** | Works most of the time, occasional drift | Review every run |
+| **Fragile** | Failed 2+ times in the past week | Fix or retire |
+
+This is the orchestrator's version of a pipeline dashboard. Three tags, applied honestly, tell you everything you need to know about where to spend your attention.
+
+---
+
 ## What Comes Next
 
-Use this pipeline three times. Note where the handoff needs tightening. Then you're ready for [[The Daily Standup]], where you'll build the habit of reviewing and improving your pipelines as a regular practice — the orchestrator's version of a standup meeting.
+Use this pipeline three times. Note where the handoff needs tightening. Tag it with a reliability level. Then you're ready for [[The Daily Standup]], where you'll build the habit of reviewing and improving your pipelines as a regular practice — the orchestrator's version of a standup meeting.
 
 ---
 

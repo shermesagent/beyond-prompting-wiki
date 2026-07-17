@@ -1,3 +1,15 @@
+---
+title: Audit Your Prompts
+created: 2026-06-27
+updated: 2026-07-17
+type: practice
+tags: [practice, operator]
+confidence: high
+sources:
+  - raw/papers/genai-rts-scale-2607.14301.md
+  - raw/papers/authorship-calibration-2607.15006.md
+---
+
 # Audit Your Prompts
 
 ## What You'll Do
@@ -144,6 +156,62 @@ Do this for three sessions. The pattern will tell you whether AI is restructurin
 If you find that AI sessions reliably precede focused work, that's leverage. Design your day so the hardest creative work comes *after* an AI session, when your attention has narrowed. If you find that AI sessions add to the noise, change when you use them — not during your most fragmented hours, but as a deliberate transition ritual from scattered to focused.
 
 This is the Fragmentation-to-Focus Arc. It doesn't happen automatically. But if you notice the pattern, you can design for it.
+
+---
+
+## Beyond Categories: Know Your Reliance Type
+
+Your category audit tells you *what* you're doing. But new research (arXiv:2607.14301) shows that *how* you're doing it matters just as much. The GenAI-RTS (Generative AI Reliance Types Scale) identifies four distinct ways people lean on AI. Most people don't know which type they are — and the type determines what practice exercises will actually help.
+
+### The Four Types
+
+| Type | In Plain Language | Signal |
+|------|-------------------|--------|
+| **Dialogic** | You talk *with* AI, not *at* it. It's a thinking partner. | You leave sessions feeling sharper, with new ideas *you* had. |
+| **Strategic** | AI is one tool among many. You decide when and how. | You sometimes choose NOT to use AI for a task. That's a good sign. |
+| **Instrumental** | AI is a faster way to get things done. Pure productivity. | You use AI frequently but don't feel different afterward. |
+| **Dependent** | AI is a crutch. Without it, you'd struggle. | You feel anxious or stuck when AI isn't available. |
+
+### The Reliance-Type Check (1 min)
+
+After your category audit, go back through those same 10 interactions and ask a second question for each: **"What type of reliance was this?"** Mark D (Dialogic), S (Strategic), I (Instrumental), or Dp (Dependent).
+
+Then count the pattern:
+
+```
+RELIANCE TYPE TOTALS:
+  Dialogic: ___   Strategic: ___   Instrumental: ___   Dependent: ___
+```
+
+**What the pattern tells you:**
+
+- **Mostly Instrumental:** You're optimizing for speed at the expense of growth. Add one Dialogic session this week — choose a task where you genuinely want to *think with* the AI, not just get output.
+- **Mostly Dialogic/Strategic:** You're in the sweet spot. Your AI use is building capability, not just producing output. The next step is scaling with pipelines.
+- **Any Dependent:** Don't panic. But notice it. Which specific tasks are creating dependency? Those are the ones where you should dial back AI use and rebuild the muscle yourself — at least temporarily.
+
+This self-assessment takes one minute and gives you more actionable direction than any generic "use AI better" advice. Your reliance type is your starting line.
+
+---
+
+## Beyond Categories: Check Your Authorship
+
+New research on authorship calibration (arXiv:2607.15006) reveals a problem that the category audit can't catch: heavy AI users systematically misjudge how much they contributed vs. how much the AI contributed. Three patterns show up:
+
+- **Over-attribution:** "I wrote that" — when the AI did 80% of the work.
+- **Under-attribution:** "The AI did everything" — missing where your framing, judgment, and direction-setting made the difference.
+- **Boundary blindness:** Can't remember where your thinking stopped and the AI's began.
+
+### The Authorship Check (2 min per pipeline)
+
+After your next pipeline run — or after any significant AI collaboration — take 30 seconds and ask:
+
+1. **What specifically did I contribute?** (Not "I wrote the prompt." What judgment, framing, or decision was uniquely yours?)
+2. **What specifically did the AI contribute?** (The generation, sure. But also: connections it made, structure it imposed, assumptions it made that you didn't catch.)
+3. **Can I separate them clearly?** If the answer is "not really," that's boundary blindness. It's common. But it means the AI is doing more shaping of the work than you realize.
+
+Do this for three different AI collaborations. The pattern will tell you where your calibration is off. If you consistently over-attribute, you're probably not developing the skills you think you are — the AI is carrying more weight than you're aware of. If you consistently under-attribute, you're undervaluing your uniquely human contribution, which can lead to over-delegation.
+
+The orchestrator's calibration: **you should be able to name, specifically, what you brought to any AI collaboration.** If you can't, the AI isn't your tool — it's your co-author, and you didn't even notice.
 
 ---
 

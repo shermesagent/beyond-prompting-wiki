@@ -1,13 +1,14 @@
 ---
 title: The Daily Standup
 created: 2026-06-27
-updated: 2026-07-02
+updated: 2026-07-17
 type: practice
 tags: [practice, orchestrator, workflow, mindset]
 confidence: high
 sources:
   - raw/articles/constrained-override-policy-2607.00420.md
   - raw/articles/constructive-alignment-2607.00001.md
+  - raw/papers/memory-self-disclosure-2607.14593.md
 ---
 
 # The Daily Standup
@@ -177,6 +178,40 @@ After a week, look back at your five trajectory notes. The pattern will tell you
 - **You never disagree:** You're not paying enough attention. Even the best pipelines have moments of genuine ambiguity
 
 This is the trajectory-review muscle. Like the rest of the standup, the value isn't in any single check — it's in the thread. After two weeks, you'll have identified exactly which templates produce the best paths, not just the best outputs.
+
+---
+
+## The Sixth Question — Relational Turning Points
+
+New research on human-AI relationships over time (arXiv:2607.14593) tracked people through 10 sessions with the same AI. The finding: you don't just accumulate output over repeated use. You develop a *relationship*. And relationships have turning points.
+
+**Crashes** are moments where the AI breaks the frame — it forgets something from a previous session, gives a tone-deaf response, or produces output that feels "off." Trust drops sharply.
+
+**Surges** are moments where the AI surprises you — it remembers a detail from session 3, makes a connection you didn't see, or produces something that genuinely shifts your thinking. Trust jumps.
+
+The study found that crashes and surges don't just affect that one session — they reshape the *trajectory* of the relationship. A single crash can make you abandon a pipeline that was working fine. A single surge can make you over-trust a pipeline that's actually fragile.
+
+Add a sixth question to your daily standup, after What Ran, What Worked, What Didn't, How Did It Change Me, and Trajectory:
+
+**6. Did I experience a crash or surge with any pipeline today?**
+
+```
+CRASHES:
+  - [Pipeline]: [what happened — the AI forgot something, gave tone-deaf output, etc.]
+  - Impact: [did trust drop? did you stop using the pipeline?]
+
+SURGES:
+  - [Pipeline]: [what happened — unexpected insight, remembered detail, etc.]
+  - Impact: [did trust increase? are you considering expanding this pipeline?]
+```
+
+This takes 20 seconds. After a week, look at your crash/surge log:
+
+- **Same pipeline crashes repeatedly:** The pipeline has a fragility you haven't fixed. Don't abandon it — tighten the template at the crash point.
+- **Surge led to over-trust:** The pipeline felt magical once, so you stopped reviewing it. That's where drift breeds. Surges are data, not permission to stop paying attention.
+- **No crashes or surges recorded:** You're either not paying enough attention, or you're not using the AI in ways that create real engagement. Crashes and surges happen when the interaction *matters.*
+
+The orchestrator doesn't avoid relational dynamics — they track them. The standup is where you track them.
 
 ---
 
