@@ -515,3 +515,17 @@ Pages: 52 (was 51) — 1 new, 3 updated. Zero broken links expected.
 - Digest: 00-Daily-Digests/2026-07-17.md
 - Sources: 5 entries added to sources/sources.jsonl (now 109 total)
 - Key insight: Five papers across five different research groups, methods, and domains all converge on the same truth — people don't know how they're using AI, can't judge what's theirs vs. the AI's, experience relational dynamics they don't track, design pipelines without behavior-centered thinking, and face barriers that are about training, not technology. Practice isn't optional. It's the entire bridge. And the first exercise isn't "try this prompt" — it's "look at how you're already using AI, and calibrate."
+
+## 2026-07-18 | glossary-rotation | Weekend deepening — cross-pollination from AI Agency Knowledgebase. No live sources (Saturday, arXiv off, web search down)
+- Theme: When Your AI Should Say No — Agents achieve only 59.5% accuracy at knowing when NOT to act
+- Source: Cross-pollination from AI Agency Knowledgebase (Agentic Workflow Patterns, Parallel Orchestration)
+- References cited via KB: AgentAbstain (arXiv:2607.10059), Faithful Not Corrective (arXiv:2607.09678), Attention Bottleneck Theorem (Stolfo et al., ICML 2026)
+- Pages created: Abstention (new glossary entry — the ability to recognize when NOT to act, 4-question abstention gate, practical audit)
+- Pages updated:
+  - Tool Use — Added "The Abstention Layer" (why tools need a stop button) and "The Deterministic Horizon" (Attention Bottleneck Theorem, tool-augmented vs. pure reasoning accuracy)
+  - Memory — Added "Memory in Multi-Agent Chains" (Weakest Relay Principle, format choice, 83-100% error persistence) and "Memory as Infrastructure" (SOPs as stored procedural memory)
+  - Autonomy — Added Abstention to related pages
+  - 06-Glossary/README — Added Abstention to table, updated count to 10 terms
+- Digest: 00-Daily-Digests/2026-07-18.md
+- Navigation: Home.md (Recent Updates table updated)
+- Key insight: The hardest thing to teach an AI isn't what to do — it's when to stop. Abstention ability doesn't scale with task ability, so the orchestrator must build gates the agent can't skip. The first piece of delegation infrastructure is the abstention gate.

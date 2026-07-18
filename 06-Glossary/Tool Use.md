@@ -10,9 +10,23 @@ For the operator→orchestrator journey, tool use is what makes orchestration re
 
 A concrete example: an agent with tool use can monitor a shared inbox, flag urgent emails based on content, draft responses for you to review, and log follow-up tasks in your project tracker. That's not a chatbot — that's an assistant that reaches into your actual tools and does work.
 
+### The Abstention Layer — Tools Need a "Stop" Button
+
+Here's the detail that matters for anyone delegating real work to agents: tools are only as safe as the agent's ability to know when *not* to use them. Research from July 2026 (AgentAbstain benchmark) found that even frontier AI models achieve only 59.5% accuracy at recognizing when they should abstain from action — meaning on 4 of every 10 decisions, the agent either uses a tool when it shouldn't or fails to use one when it should. Worse, agents display **post-hoc abstention** — executing an action *before* realizing it was a mistake.
+
+The practical takeaway: any agentic workflow that uses tools to touch real systems (email, databases, calendars, code repositories) needs an **abstention gate** — a pre-execution check that runs BEFORE the tool fires. The gate asks: Is the instruction clear? Are there conflicts? Did all prerequisite tools return cleanly? Is this action reversible? If the answer to any of these is "no," the agent escalates to a human instead of acting. This isn't a nice-to-have. The research says agents cannot reliably self-police — you must build the gate.
+
+For more on this, see [[Abstention]].
+
+### The Deterministic Horizon — Why Tools Aren't Optional
+
+There's an architectural reason tool use matters that has nothing to do with convenience. Research published at ICML 2026 (Stolfo, Piantadosi, McCoy et al.) proved the **Attention Bottleneck Theorem**: chain-of-thought reasoning — the kind where the AI thinks step by step inside its own head — has a hard ceiling. State-tracking fails beyond about 19-31 reasoning steps. When the AI *delegates* those steps to tools instead of thinking through them internally, accuracy jumps from 24-42% to 86-94%. Same model. Different architecture.
+
+This means tool use isn't just "nice to have" for AI that does real work. It's architecturally necessary. Beyond a certain complexity, thinking alone isn't enough — the AI must be able to act, check results, and course-correct. The orchestrator who designs workflows with tool-augmented reasoning at complex decision points gets reliability; the one who relies on pure chain-of-thought at those same points gets failure. The architecture determines the ceiling.
+
 ## Related Pages
 
-[[Agent]] · [[Memory]] · [[Autonomy]] · [[Orchestration]] · [[01-The-Shift/README|The Architect Mindset]]
+[[Agent]] · [[Memory]] · [[Autonomy]] · [[Orchestration]] · [[Abstention]] · [[01-The-Shift/README|The Architect Mindset]]
 
 ## Tags
 

@@ -12,11 +12,11 @@ This glossary isn't an encyclopedia. It's a **companion** — a place to look up
 2. **Elaboration with concrete examples** — what this actually looks like when you're using it.
 3. **Related Pages** — wikilinks that connect this term to the bigger concepts in the wiki.
 
-The eight terms here are the ones that come up most often when someone starts moving from typing prompts to orchestrating agents. You'll hear words like *agent*, *delegation*, and *autonomy* thrown around in blog posts and product pages. Those words mean something specific in this world — and understanding them clearly is the difference between feeling lost and feeling in control.
+The ten terms here are the ones that come up most often when someone starts moving from typing prompts to orchestrating agents. You'll hear words like *agent*, *delegation*, and *autonomy* thrown around in blog posts and product pages. Those words mean something specific in this world — and understanding them clearly is the difference between feeling lost and feeling in control.
 
 If you're new here, start with **[[Agent]]** — it's the foundation everything else sits on. After that, jump to whichever term you're wrestling with today. There's no wrong order.
 
-This section grows as new concepts crystallize. The newest entry — **[[Oversight]]** — was added in July 2026 after research demonstrated that collaborative truth-seeking beats adversarial review by 13 percentage points. The glossary evolves with the practice.
+This section grows as new concepts crystallize. The newest entry — **[[Abstention]]** — was added in July 2026 after research demonstrated that even frontier AI agents achieve only 59.5% accuracy at knowing when NOT to act. The glossary evolves with the practice.
 
 ---
 
@@ -34,6 +34,7 @@ This section grows as new concepts crystallize. The newest entry — **[[Oversig
 | [[Oversight]] | How do I verify agent outputs — not as a judge, but as a collaborative partner? | Orchestrator |
 | [[SOP]] | How do I stop reinventing the same delegation every time? | Orchestrator → Architect |
 | [[Autonomy]] | How much can an agent do on its own — and where do I draw the line? | Architect |
+| [[Abstention]] | When should my AI say "I can't do this" instead of acting anyway? | Architect |
 
 ---
 

@@ -20,7 +20,7 @@ A classroom study (Nagashima et al., 2026) found that teachers and students had 
 
 ## Related Pages
 
-[[Human in the Loop]] · [[Agent]] · [[Memory]] · [[Tool Use]] · [[Oversight]] · [[The Architect Mindset]] · [[Trust Calibration]]
+[[Human in the Loop]] · [[Agent]] · [[Memory]] · [[Tool Use]] · [[Oversight]] · [[Abstention]] · [[The Architect Mindset]] · [[Trust Calibration]]
 
 ## Tags
 
