@@ -24,6 +24,16 @@ This page is your entry point. Understanding what Beyond Prompting is — and is
 
 If prompting is driving a car manually, Beyond Prompting is setting the destination, engaging autopilot, and monitoring from the navigator's seat. This section of the wiki teaches you how to make that shift.
 
+But there is a deeper question beneath the *how*: **why should AI expand human agency at all?** The Deloitte study gives the business case — organizations that don't shift from operators to orchestrators will fall behind. But the *moral* case is larger. In July 2026, Gabriel & Kasirzadeh published five moral arguments for why AI must be directed toward universal human benefit rather than concentrated advantage:
+
+1. **The Capability Argument:** AI capabilities are general-purpose and potent. Restricting them to a narrow set of actors creates power asymmetries that are morally intolerable.
+2. **The Interdependence Argument:** AI systems are trained on collective human output and deployed in interconnected systems. No one can opt out of AI's effects. Mutual exposure creates a moral obligation for mutual benefit.
+3. **The Legacy Argument:** AI is built on humanity's accumulated knowledge, infrastructure, and data. The benefits should return to all of us, not just the organizations that commercialized that inheritance.
+4. **The Precautionary Argument:** AI's downstream effects — labor displacement, cultural transformation, power concentration — are uncertain and potentially harmful. Deploying it without broad benefit mechanisms is reckless.
+5. **The Democratic Argument:** Decisions about AI's direction affect everyone. Everyone deserves a voice in those decisions, not just the builders and deployers.
+
+These arguments are not abstract philosophy. They are the foundation beneath every page in this wiki. When we teach Task Decomposition, we are teaching a skill that makes AI agency accessible to more people. When we document The School District Shift, we are documenting what the Democratic Argument looks like in practice — educators shaping how AI enters their classrooms rather than waiting for vendors to decide. Beyond Prompting isn't just a productivity methodology. It's a claim about who gets to direct AI — and that claim has deep philosophical roots.
+
 ## The Experimental Evidence (July 2026)
 
 Five years into the AI era, we finally have the experiment the wiki has been waiting for. In a randomized controlled trial published today (arXiv:2607.08849), undergraduates learned an unfamiliar topic and wrote an analytical essay — with or without access to AI. Then they were tested unaided, immediately and one week later.

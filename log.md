@@ -529,3 +529,20 @@ Pages: 52 (was 51) — 1 new, 3 updated. Zero broken links expected.
 - Digest: 00-Daily-Digests/2026-07-18.md
 - Navigation: Home.md (Recent Updates table updated)
 - Key insight: The hardest thing to teach an AI isn't what to do — it's when to stop. Abstention ability doesn't scale with task ability, so the orchestrator must build gates the agent can't skip. The first piece of delegation infrastructure is the abstention gate.
+
+---
+
+### 2026-07-19 (Sunday) — Day 7: Cross-Section Linking & Lint
+
+- Rotation: Cross-Section (structural health check + cross-pollination)
+- Theme: "Calibration — The Skill That Makes Everything Else Work"
+- Sources: Cross-pollination from AI Agency Knowledgebase (Superagency — the globally beneficial case, Co-Intelligence — Co-Existence frame, Human Agency — capacity to act independently)
+- Pages created: Authorship Calibration (new concept — metacognitive skill: knowing what you contributed vs. what AI contributed, 3 failure patterns, Contribution Audit, Seam Exercise, Offline Check, phase-specific guidance)
+- Pages updated:
+  - What Is Beyond Prompting — Added "The Globally Beneficial Case" section (Gabriel & Kasirzadeh's 5 moral arguments for universal AI benefit)
+  - Delegation Thinking — Fixed broken wikilink to "The Delegation Spectrum" (self-referential; converted to plain reference)
+  - Home.md — Updated page count (52→55), added Abstention/Autonomy/Authorship Calibration to Key Concepts listing, added 07-17/07-18/07-19 to Recent Updates table, updated digest link
+  - 02-Key-Concepts/README — Rewritten: merged 2 tables into 1, added Abstention/Authorship Calibration/Autonomy (now 19 concepts)
+- Lint: Full pass completed. 80 pages, 26 orphans (digests + README + .hermes cron file — all expected), 18 broken wikilinks (mostly [[Home]] from old digests — known script pitfall), 0 cross-directory links. 1 genuine fix made.
+- Digest: 00-Daily-Digests/2026-07-19.md
+- Key insight: Authorship calibration is the metacognitive prerequisite for everything else. You can't delegate effectively if you can't separate your contribution from the AI's. The Globally Beneficial Case grounds the entire wiki in moral philosophy — Beyond Prompting isn't a productivity methodology, it's a claim about who gets to direct AI.

@@ -6,7 +6,7 @@
 
 ## What's In This Section
 
-The five concept pages below are the **core vocabulary** of moving beyond prompting. Each one takes a single idea — something you might have felt but couldn't name — and gives it a clear name, a plain-language explanation, and a 5-minute exercise you can try right now.
+The concept pages below are the **core vocabulary** of moving beyond prompting. Each one takes a single idea — something you might have felt but couldn't name — and gives it a clear name, a plain-language explanation, and a 5-minute exercise you can try right now.
 
 You don't need to read them in order. Jump to whichever title grabs you. But if you want a recommended path:
 
@@ -25,6 +25,10 @@ You don't need to read them in order. Jump to whichever title grabs you. But if 
 13. **[[The Review-First Pattern]]** — the practical bridge from operator to orchestrator: draft → review → execute.
 14. **[[Doom Researching]]** — the operator trap: repetitive AI querying without synthesis, and how to escape it.
 15. **[[Reverse-Centaur]]** — the diagnostic: is AI making the decisions while you do the machine work?
+16. **[[The Jagged Frontier]]** — which tasks has AI already crossed and which is it still behind on — and what does that mean for your role?
+17. **[[Abstention]]** — the builder's judgment: when should your AI say no, not yet, or not this way?
+18. **[[Authorship Calibration]]** — the metacognitive prerequisite: knowing what you contributed vs. what the AI contributed.
+19. **[[Autonomy]]** — how much independence does an AI agent have — and how much should it have?
 
 ---
 
@@ -54,13 +58,11 @@ They came out of real research — papers on human-AI collaboration, case studie
 | [[Memory as Infrastructure]] | Why does agent memory beat copying old chats? | Architect |
 | [[The Review-First Pattern]] | What's the proven workflow pattern that actually works in production? | Operator → Orchestrator |
 | [[Doom Researching]] | Am I consuming AI answers without producing anything? | Everyone |
-| [[The Jagged Frontier]] | Which tasks has AI already crossed and which is it still behind on — and what does that mean for your role? | Orchestrator |
-
-## At a Glance (cont.)
-
-| Concept | What It Answers | For |
-|---------|----------------|-----|
 | [[Reverse-Centaur]] | Is AI making the decisions while I do the machine work? | Orchestrator |
+| [[The Jagged Frontier]] | Which tasks has AI already crossed and which is it still behind on — and what does that mean for your role? | Orchestrator |
+| [[Abstention]] | When should your AI say no, not yet, or not this way? | Architect |
+| [[Authorship Calibration]] | What did *I* contribute vs. what did the AI contribute? | Orchestrator |
+| [[Autonomy]] | How much independence should an AI agent have? | Orchestrator |
 
 ---
 

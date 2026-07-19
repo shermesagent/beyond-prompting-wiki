@@ -163,7 +163,7 @@ The key design principle: **human researchers retain high-level agency while del
 
 Across seven studies, the system reproduced major qualitative patterns from prior research and — more importantly — identified informative deviations that launched new research questions.
 
-**The orchestration lesson:** This is what the "architect" phase of [[The Delegation Spectrum — Six Levels, Not a Binary]] looks like in practice. You don't design the individual tasks. You design the system that designs and executes the tasks. Your contribution shifts from "what should happen next" to "what are the rules of the game, what constitutes success, and what do the results mean?"
+**The orchestration lesson:** This is what the "architect" phase of the Delegation Spectrum (Level 6) looks like in practice. You don't design the individual tasks. You design the system that designs and executes the tasks. Your contribution shifts from "what should happen next" to "what are the rules of the game, what constitutes success, and what do the results mean?"
 
 The gap between where most people are (Level 2: AI drafts, you edit) and where this research is (Level 6: AI designs and runs the experiments, you interpret) is massive. But the pattern is the same at every level: identify what humans are uniquely good at (direction-setting, constraint-definition, meaning-making), keep that, and delegate everything else.
 

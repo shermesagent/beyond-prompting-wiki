@@ -2,7 +2,7 @@
 
 > A living guide to the **operator → orchestrator shift**. If you've ever typed a prompt and thought "there has to be more than this" — start here.
 
-_52 pages across 6 sections. Updated daily. Git-backed, human-readable, cross-linked._
+_55 pages across 6 sections. Updated daily. Git-backed, human-readable, cross-linked._
 
 ---
 
@@ -40,7 +40,7 @@ The core idea. What it means, why it matters, and the three mindsets along the p
 
 ### [[02-Key-Concepts/README|02 — Key Concepts]]
 Approachable distillations of research into learning concepts you can use today.
-→ [[Task Decomposition]] · [[Delegation Thinking]] · [[Cognitive Surrender]] · [[Trust Calibration]] · [[Friction by Design]] · [[The Augmentation Trap]] · [[Co-Construction Blindness]] · [[From Author to Editor]] · [[The Coaching Stance]] · [[The Placement Rule]] · [[The Four Decision Labels]] · [[Memory as Infrastructure]] · [[The Review-First Pattern]] · [[The Sequencing Principle]] · [[Doom Researching]] · [[Reverse-Centaur]] · [[The Collapse Pattern]] · [[Cognitive Load]] · [[The Illusion of Mastery]] · [[The Scaffold Match]] · [[The Jagged Frontier]]
+→ [[Task Decomposition]] · [[Delegation Thinking]] · [[Cognitive Surrender]] · [[Trust Calibration]] · [[Friction by Design]] · [[The Augmentation Trap]] · [[Co-Construction Blindness]] · [[From Author to Editor]] · [[The Coaching Stance]] · [[The Placement Rule]] · [[The Four Decision Labels]] · [[Memory as Infrastructure]] · [[The Review-First Pattern]] · [[The Sequencing Principle]] · [[Doom Researching]] · [[Reverse-Centaur]] · [[The Collapse Pattern]] · [[Cognitive Load]] · [[The Illusion of Mastery]] · [[The Scaffold Match]] · [[The Jagged Frontier]] · [[Abstention]] · [[Authorship Calibration]] · [[Autonomy]]
 
 ### [[03-Real-World/README|03 — Real World Stories]]
 Case studies, transformation stories, and honest failure postmortems.
@@ -60,7 +60,7 @@ Plain-language definitions of every key term.
 
 ### 00-Daily-Digests
 Daily curated research digests — what we found, what it means, and how to use it.
-→ [[2026-07-16|Today's Digest]]
+→ [[2026-07-19|Today's Digest]]
 
 ---
 
@@ -78,9 +78,12 @@ Daily curated research digests — what we found, what it means, and how to use 
 
 _Last 7 days of activity._
 
-| Date | Pages Changed |
-|------|---------------|
-| 2026-07-18 | Day 6 Glossary rotation (Weekend Deepening): Daily digest + 1 new glossary entry (Abstention) + 2 glossary pages deepened (Tool Use — Abstention Layer + Deterministic Horizon, Memory — Weakest Relay Principle + Memory as Infrastructure) + README + cross-links — when your AI should say no: agents achieve only 59.5% accuracy at knowing when NOT to act, tools are architecturally necessary beyond ~20 reasoning steps, and memory chains degrade at the weakest relay |
+| Date | What Changed |
+|------|-------------|
+| 2026-07-19 | Concept page created (Authorship Calibration) + 2 concepts added to listings (Abstention, Autonomy) + Shift section page deepened (What Is Beyond Prompting — Globally Beneficial Case) + structural lint pass + cross-pollination from AI Agency Knowledgebase |
+| 2026-07-18 | Daily digest (Day 6 — Abstention) + Abstention concept page created + Agentic Infrastructure theme: AI knowing when to say no |
+| 2026-07-17 | Daily digest (Day 5 — Practice Is Calibration) + from-practice theme: Audit Your Prompts, Build a Tiny Pipeline, The Daily Standup deepened |
+| 2026-07-06 | 1 new concept (The Sequencing Principle) + 3 concepts deepened (Delegation Continuum, Author-to-Editor Mollick Method, Anchoring Effect) — think first, AI second |
 | 2026-07-16 | Day 4 Barriers & Bridges rotation: Daily digest + 1 new barrier page (Trust Calibration — finally created, anchored by "I Don't Know" suppression research) + 4 barrier pages deepened (The Just Ask ChatGPT Trap — metacognitive threshold, Human Readiness Archetypes — DOT persona migration empirical validation, Fear of Losing Control — bots as social infrastructure bridge, Knowledge Debt — tragedy of the cognitive commons at scale) — the metacognitive crisis: AI fluency erases the willingness to say "I don't know" |
 | 2026-07-15 | Day 3 Real World rotation: Daily digest + 3 concept pages deepened (The Jagged Frontier — jagged frontier crossing, The School District Shift — TRAIL/PLAI-LOs frameworks, Trust Calibration — x402 agentic metrics reality check) — the frontier is moving faster than our measurement tools: 6 new papers revealing that AI progress outpaces our ability to assess it reliably |
 | 2026-07-13 | Day 1 The Shift rotation (Week 2): Daily digest + 4 Shift pages updated with experimental evidence from 5 new papers — first RCT evidence for operator→orchestrator distinction: augmentation users retain learning, automation users' gains vanish |
