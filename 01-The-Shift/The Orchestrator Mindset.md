@@ -61,6 +61,25 @@ Madden also reframes the 7-stage adoption roadmap as "not a ladder, it's a palac
 
 This also explains why **worker-led adoption works and corporate AI programs don't.** Workers have access to their "invisible 80%" — the tacit knowledge, judgment, patterns, and context that no top-down program can see or document. When you build your brain, you're encoding that 80%. An enterprise AI deployment can't do it for you. The orchestrator's advantage is built, not deployed.
 
+## The Hidden Costs of Automation (July 2026)
+
+The Four Decision Labels tell you *what* to label. New research published today tells you *why* those labels matter — and gives you a formal protocol for the hardest calls.
+
+The PHP-AIO protocol (de la Chica Rodriguez et al., arXiv:2607.15944) identifies four categories of systemic risk that standard automation ROI misses entirely:
+
+| Hidden Cost | What It Is | Orchestrator's Signal |
+|---|---|---|
+| **Tacit Knowledge Erosion** | The person who knows *why* something works disappears — and the automation doesn't carry that forward | "Who knows what to do when this breaks?" |
+| **Resilience Reduction** | The pipeline handles the happy path perfectly — and crashes on anything unusual | "What happens when the exception is the rule?" |
+| **Regulatory Exposure** | Automated decisions create liability because no human signed off | "Who explains this to the auditor?" |
+| **Socio-Institutional Capital Loss** | Relationships and trust networks collapse when the people who maintained them are gone | "Who do people call when the system can't help?" |
+
+The protocol produces four outcomes — automate, augment, hybrid, and preserve — for roles that standard cost-benefit analysis would uniformly automate. In testing, those decisions held up to sensitivity perturbations of at least 14%. The orchestrator who applies this framework before automating isn't just being cautious. They're protecting organizational health in dimensions that ROI can't see.
+
+The practical connection: every time you label a task "human-only" or "prohibit AI" in the Four Decision Labels, ask yourself which hidden cost is driving that call. If you can't name one — tacit knowledge, resilience, regulatory exposure, or relational capital — you might be avoiding automation for the wrong reasons. If you *can* name one, you're making a defensible decision, not a gut reaction.
+
+See [[The Preservation Principle]] for the full protocol.
+
 ## The Shift Has Hard Data Now
 
 SolarWinds' 2026 IT Trends Report (1,000+ IT professionals surveyed, April 2026) confirms four dimensions of the shift — the same ones operators experience as they move toward orchestration:

@@ -16,6 +16,22 @@ Architecture also addresses the trust problem head-on. Good system design includ
 
 **The Pluralism Dimension (July 2026).** There's a hidden challenge that architects discover when they build systems at scale: AI doesn't produce *the* right answer — it produces a distribution of defensible answers. Different prompts, different model configurations, different starting assumptions all produce different conclusions from the same data (this is what researchers call the "Agentic Garden of Forking Paths" — arXiv, July 2026). For the architect, this means the job isn't just "design a system that produces output." It's "design a system that surfaces the range of plausible outputs, identifies where they disagree, and makes the choice-points visible." An architect who builds for a single "correct" output is building a fragile system. An architect who builds for pluralism — multiple perspectives, explicit disagreement, human choice at the crux — is building a resilient one. This is also the technical foundation for the ICML 2026 Pluralistic Alignment workshop: the research community is converging on the idea that AI systems must serve multiple stakeholders with different values, not optimize for a single objective. You're an architect when you stop asking "is this right?" and start asking "whose perspective does this reflect, and what did we leave out?"
 
+## The CRAFT Governance Framework (July 2026)
+
+Building AI systems that make decisions is one thing. Building AI systems that can be *explained, audited, and held accountable* is another — and it's the architect's job to design for both from the start.
+
+New research published today (Fourie et al., arXiv:2607.15704) proposes five governance principles for responsible AI use at the organizational level. They apply directly to the architect's system design:
+
+| Principle | What It Means | Architect's Design Question |
+|---|---|---|
+| **Control** | Humans retain decision authority | Where is the override? Can a human reverse the system's output — and is that actually possible in practice? |
+| **Rigour** | Evidence-based processes, not plausible-sounding output | How does the system verify its work? What's the difference between "looks right" and "is right"? |
+| **Accountability** | Someone can explain and own every AI-assisted decision | If something goes wrong, can you trace it to a specific decision and a specific person? |
+| **Fairness** | Outcomes don't systematically disadvantage anyone | Who does this system work for? Who does it not work for? How do you know? |
+| **Transparency** | What the AI did, what it didn't, and what it's uncertain about are visible | Can someone outside your team understand what happened and why — without reading the code? |
+
+The framework applies beyond policymaking. Any architect who builds systems that affect real people — hiring pipelines, student assessments, customer decisions — should be able to answer "yes" to all five questions. And here's what the authors warn: skipping these principles doesn't just create risk. It creates **deskilling and dependency** — the same pattern the Augmentation Trap describes. People who use AI systems without Control, Rigour, and Transparency don't just get worse outputs. They get worse at their own judgment over time. The architect who designs for CRAFT isn't just being responsible. They're designing against the skill erosion that undermines the organization itself.
+
 ## How to Spot It in Your Day
 
 You are thinking like an architect when:

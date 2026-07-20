@@ -46,6 +46,18 @@ This is the operator→orchestrator shift, validated by a controlled experiment.
 
 A second paper published today (arXiv:2607.08774, CogniConsole) reinforces this from the system side: structural scaffolding — clear specifications, verification checkpoints, explicit constraints — reduces failure rates more than model capability differences. Many AI failures aren't because the model isn't smart enough. They're because the *control layer* between you and the model is under-specified. The orchestrator invests in scaffolding. The operator invests in better prompts. Same model, different reliability.
 
+## The Discrimination Skill: Knowing Where AI Stops (July 2026)
+
+Four separate papers published today point to the same finding: the people who get the best results from AI aren't the ones who use it the most. They're the ones who use it at the right moments — and refuse it at others.
+
+A semester-long study of 283 students (Karjus et al., arXiv:2607.16115) found that AI feedback was helpful overall — but the students who benefited most were those who learned to use it *selectively and critically*. The students who treated AI as a default saw diminishing returns. The students who treated it as a tool — deployed at specific moments, evaluated against their own judgment — sustained the benefit. Same access, same tool, different relationship.
+
+Meanwhile, a formal protocol (de la Chica Rodriguez et al., arXiv:2607.15944) demonstrates that standard ROI analysis systematically misses four categories of risk when organizations automate: tacit knowledge erosion, resilience reduction, regulatory exposure, and socio-institutional capital loss. Roles that look like perfect automation candidates under standard analysis are flagged for preservation or hybridization under the protocol. The finding held up to sensitivity testing across multiple roles.
+
+What these papers share is a recognition that the operator→orchestrator shift isn't just a productivity curve. It's a discrimination curve. The operator asks "can AI do this?" The orchestrator asks "should AI do this — and what do I lose if it does?" The shift from one question to the other is the shift itself.
+
+See [[The Preservation Principle]] for the full protocol and [[The Orchestrator Mindset]] for how to apply it daily.
+
 ## How to Spot It in Your Day
 
 You are still in prompting mode when you catch yourself doing any of these things repeatedly:

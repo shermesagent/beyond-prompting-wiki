@@ -546,3 +546,27 @@ Pages: 52 (was 51) — 1 new, 3 updated. Zero broken links expected.
 - Lint: Full pass completed. 80 pages, 26 orphans (digests + README + .hermes cron file — all expected), 18 broken wikilinks (mostly [[Home]] from old digests — known script pitfall), 0 cross-directory links. 1 genuine fix made.
 - Digest: 00-Daily-Digests/2026-07-19.md
 - Key insight: Authorship calibration is the metacognitive prerequisite for everything else. You can't delegate effectively if you can't separate your contribution from the AI's. The Globally Beneficial Case grounds the entire wiki in moral philosophy — Beyond Prompting isn't a productivity methodology, it's a claim about who gets to direct AI.
+
+---
+
+### 2026-07-20 (Monday) — Day 1: The Shift (Week 3)
+
+- Rotation: Day 1 — The Shift
+- Theme: "The Discrimination Skill — Knowing Where AI Stops and You Begin"
+- Sources: 4 papers from arXiv (cs.CY, cs.HC)
+  - PHP-AIO — When Not to Automate (2607.15944): Formal protocol with 4 hidden costs, 5 gates, automation-debt measure ρ(P)
+  - CRAFT principles (2607.15704): Control, Rigour, Accountability, Fairness, Transparency governance framework
+  - Insurance RAG cognitive equalizer (2607.15963): 154-participant study finding autonomy valued more than knowledge, strongest in low-literacy users
+  - Student AI feedback semester study (2607.16115): 2988 instances, 283 students — benefits depend on selective/critical use, not frequency
+- Raw files: 4 papers recorded — PHP-AIO (preservation-principle), CRAFT (craft-governance), Insurance RAG (cognitive-equalizer), Student Feedback (selection-over-dependence)
+- Pages created: The Preservation Principle (new concept — formal protocol for when NOT to automate, four hidden costs of automation, PHP-AIO five-gate protocol, Preservation Audit exercise)
+- Pages updated (5):
+  - The Orchestrator Mindset — Added Hidden Costs of Automation section with PHP-AIO's 4 systemic risks + formal protocol linkage to Four Decision Labels
+  - The Architect Mindset — Added CRAFT Governance Framework section with 5-principle design questions table
+  - What Is Beyond Prompting — Added Discrimination Skill section converging 4 papers on selective/critical AI use
+  - Why This Matters — Added Cognitive Equalizer data point: autonomy over knowledge, strongest in low-literacy users, clear boundary at high-stakes decisions
+  - Abstention — Added organizational angle connecting agent-level abstention to PHP-AIO's role-level preservation protocol
+- Sources: 4 new entries added to sources.jsonl (total now ~117 entries)
+- Home.md: Page count 55→56, The Preservation Principle added to Key Concepts, Recent Updates updated
+- Digest: 00-Daily-Digests/2026-07-20.md
+- Key insight: Four papers independently converge on the same finding — the orchestrator's edge isn't delegation volume, it's discrimination. The PHP-AIO protocol formalizes what skilled orchestrators already sense: not everything that CAN be automated SHOULD be automated. And the Cognitive Equalizer study flips the deskilling narrative: AI designed to explain rather than replace makes people feel MORE capable, not less — but they still want humans for high-stakes decisions. The line between empowerment and dependency isn't about the tool. It's about the design.

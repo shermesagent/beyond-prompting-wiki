@@ -2,7 +2,7 @@
 
 > A living guide to the **operator → orchestrator shift**. If you've ever typed a prompt and thought "there has to be more than this" — start here.
 
-_55 pages across 6 sections. Updated daily. Git-backed, human-readable, cross-linked._
+_56 pages across 6 sections. Updated daily. Git-backed, human-readable, cross-linked._
 
 ---
 
@@ -40,7 +40,7 @@ The core idea. What it means, why it matters, and the three mindsets along the p
 
 ### [[02-Key-Concepts/README|02 — Key Concepts]]
 Approachable distillations of research into learning concepts you can use today.
-→ [[Task Decomposition]] · [[Delegation Thinking]] · [[Cognitive Surrender]] · [[Trust Calibration]] · [[Friction by Design]] · [[The Augmentation Trap]] · [[Co-Construction Blindness]] · [[From Author to Editor]] · [[The Coaching Stance]] · [[The Placement Rule]] · [[The Four Decision Labels]] · [[Memory as Infrastructure]] · [[The Review-First Pattern]] · [[The Sequencing Principle]] · [[Doom Researching]] · [[Reverse-Centaur]] · [[The Collapse Pattern]] · [[Cognitive Load]] · [[The Illusion of Mastery]] · [[The Scaffold Match]] · [[The Jagged Frontier]] · [[Abstention]] · [[Authorship Calibration]] · [[Autonomy]]
+→ [[Task Decomposition]] · [[Delegation Thinking]] · [[Cognitive Surrender]] · [[Trust Calibration]] · [[Friction by Design]] · [[The Augmentation Trap]] · [[Co-Construction Blindness]] · [[From Author to Editor]] · [[The Coaching Stance]] · [[The Placement Rule]] · [[The Four Decision Labels]] · [[Memory as Infrastructure]] · [[The Review-First Pattern]] · [[The Sequencing Principle]] · [[Doom Researching]] · [[Reverse-Centaur]] · [[The Collapse Pattern]] · [[Cognitive Load]] · [[The Illusion of Mastery]] · [[The Scaffold Match]] · [[The Jagged Frontier]] · [[Abstention]] · [[Authorship Calibration]] · [[Autonomy]] · [[The Preservation Principle]]
 
 ### [[03-Real-World/README|03 — Real World Stories]]
 Case studies, transformation stories, and honest failure postmortems.
@@ -60,7 +60,7 @@ Plain-language definitions of every key term.
 
 ### 00-Daily-Digests
 Daily curated research digests — what we found, what it means, and how to use it.
-→ [[2026-07-19|Today's Digest]]
+→ [[2026-07-20|Today's Digest]]
 
 ---
 
@@ -80,7 +80,7 @@ _Last 7 days of activity._
 
 | Date | What Changed |
 |------|-------------|
-| 2026-07-19 | Concept page created (Authorship Calibration) + 2 concepts added to listings (Abstention, Autonomy) + Shift section page deepened (What Is Beyond Prompting — Globally Beneficial Case) + structural lint pass + cross-pollination from AI Agency Knowledgebase |
+| 2026-07-20 | Day 1 The Shift rotation (Week 3): Daily digest + 1 new concept (The Preservation Principle) + 5 pages deepened (The Orchestrator Mindset — hidden costs of automation, The Architect Mindset — CRAFT governance, What Is Beyond Prompting — discrimination skill, Why This Matters — cognitive equalizer, Abstention — organizational angle) — the discrimination skill: knowing where AI stops and you begin, backed by 4 new papers |\n| 2026-07-19 | Concept page created (Authorship Calibration) + 2 concepts added to listings (Abstention, Autonomy) + Shift section page deepened (What Is Beyond Prompting — Globally Beneficial Case) + structural lint pass + cross-pollination from AI Agency Knowledgebase |
 | 2026-07-18 | Daily digest (Day 6 — Abstention) + Abstention concept page created + Agentic Infrastructure theme: AI knowing when to say no |
 | 2026-07-17 | Daily digest (Day 5 — Practice Is Calibration) + from-practice theme: Audit Your Prompts, Build a Tiny Pipeline, The Daily Standup deepened |
 | 2026-07-06 | 1 new concept (The Sequencing Principle) + 3 concepts deepened (Delegation Continuum, Author-to-Editor Mollick Method, Anchoring Effect) — think first, AI second |

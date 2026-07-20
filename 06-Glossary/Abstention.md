@@ -27,6 +27,8 @@ You don't want a colleague who never says "I don't know" and always tries to hel
 
 A simple test: next time you delegate something to an AI agent, before you approve the output, ask yourself: "Was there a point where this agent should have stopped and asked me? Did it?" If the answer is "yes, and it didn't," you've found an abstention gap in your pipeline.
 
+**The organizational angle (July 2026):** Abstention isn't just an agent-level concern — it's an organizational one. The PHP-AIO protocol (de la Chica Rodriguez et al., arXiv:2607.15944) formalizes this at the role level: when should an organization *preserve* a human role entirely, rather than augmenting or automating it? The same four hidden costs that apply at the agent level — tacit knowledge, resilience, regulatory exposure, relational capital — apply at the organization level. An agent that can't abstain causes a mistake. An organization that can't abstain from automating causes systemic damage. See [[The Preservation Principle]] for the full framework.
+
 ## Related Pages
 
 [[Agent]] · [[Autonomy]] · [[Human in the Loop]] · [[Oversight]] · [[Tool Use]] · [[Delegation]]
