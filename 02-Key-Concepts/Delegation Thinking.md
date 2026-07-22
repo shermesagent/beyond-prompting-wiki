@@ -124,6 +124,18 @@ The most consistent pattern in real delegation stories isn't about the AI — it
 
 This is delegation in practice: you stop producing first drafts and start making judgment calls on complete ones. See [[From Author to Editor]] for the full concept.
 
+## The Agency Gap: Your Agents Are Not Self-Directed
+
+The Autonomous Agency Scale (Presgraves, arXiv July 2026) measures AI systems across seven dimensions of autonomous behavior on a 0-5 scale. The finding that should reshape how you design delegations: **task agents like Claude Code, Manus, and Hermes score 2.3-2.4 Active (decent at executing a given task) but only 0.6-1.9 Ambient (near-zero self-directed behavior).** Every idle-period behavior traces back to user-configured schedules. Remove the triggers and nothing happens.
+
+The Idle-Gap Test confirms this: strip out all scheduled triggers, watchers, and timers, then observe. Only one assessed system (a companion architecture, not a task agent) survived trigger removal.
+
+This means your delegation designs must account for a hard constraint: **your agents stop when you stop.** They don't self-direct. They don't continue processing in the background. They don't come back with unsolicited findings. Agency is something you construct — not something the tools possess.
+
+The practical implication: any delegation that depends on the agent continuing work after you close the tab, walking away, or moving to another task requires you to build the ambient layer. Cron triggers, watchers, scheduled loops, monitoring callbacks — these aren't optional extras. They're the scaffolding that transforms reactive tools into persistent systems. A delegation without ambient infrastructure is a delegation that stops the moment you stop paying attention.
+
+This connects directly to the Delegation Spectrum: Level 4 (Delegated) and above requires ambient infrastructure that Level 3 (Collaborative) doesn't. You can't move up the spectrum without building the layer your agents lack.
+
 ## Multi-Hop Delegation: The Weakest Relay Principle
 
 New research (arXiv 2607.09678, July 2026) tested what happens when AI agents pass information through chains — Agent A hands off to Agent B, who hands off to Agent C, through six hops. The findings reshape how you should think about multi-step delegation:
@@ -138,6 +150,26 @@ New research (arXiv 2607.09678, July 2026) tested what happens when AI agents pa
 The practical rule: **before you chain, find the bottleneck.** If Agent 3 is a small, fast model that handles classification, and Agent 1 is a frontier reasoning model, the classification format that Agent 3 receives must be the one that governs the handoff from Agent 2. Don't pass Agent 2's free-form text if Agent 3 needs structured input. Design the handoff backward from the bottleneck.
 
 See also: [[The Scaffold Match]] (for why scaffolding must match the tool, not just the task) and [[Task Decomposition]] (for building reliable handoff points).
+
+## Delegation Regret: The Failure Mode You Haven't Named
+
+A controlled study of AI agent use (arXiv, July 2026) gives a name to a specific delegation failure: **delegation regret** — the dissatisfaction users feel when an agent acts beyond what they would have authorized, even when the action itself isn't incorrect. It's not "the AI got it wrong." It's "the AI did something I didn't ask it to do."
+
+The study's key finding for delegation design: users calibrate trust per *task*, not per *agent*. They grant wide autonomy for advisory and low-stakes work but demand confirmation for irreversible, externally visible actions. The combination of irreversibility + external visibility (someone else sees what the agent did) drove the sharpest trust withdrawal — sharper than either factor alone.
+
+**What this means for your delegation practice:** Every delegation needs a boundary statement — not just what the agent should produce, but what it is NOT allowed to do. "You may draft the email but do not send it. You may research the options but do not choose. You may pull the data but do not interpret it." The boundary statement is the smallest piece of delegation design that prevents delegation regret. If your delegation doesn't include one, you're designing for the happy path — and the unhappy path is the one that erodes trust.
+
+See [[Delegation Regret]] for the full concept, including the boundary statement pattern and the Authorization Boundary Exercise.
+
+## The Control Loop: What It Means to Keep Control While Delegating
+
+A theoretical framework from arXiv (June 2026) addresses a question that shadows every delegation decision: **"If I hand this off, am I losing control?"** The researchers anchor control to a concrete definition: the setting and getting of goals. To maintain control, you need: the ability to set goals, a functional control loop, requisite variety, and sufficient goal alignment.
+
+The framework's most practical implication: **humans can maintain control even while delegating extensively — as long as the goal-setting and verification layers stay human.** You can delegate everything between them: research, drafting, analysis, synthesis, execution. But if you delegate goal-setting ("the system decides what's worth doing") or verification ("the system checks its own work"), you've surrendered the control loop.
+
+**The orchestrator's version of this:** Every delegation is safe as long as you maintain two checkpoints — you set the goal at the start, and you verify the output at the end. If you're doing both, you haven't lost control — regardless of how much you delegated in between. If you're skipping either, you've broken the loop — regardless of how carefully you prompted.
+
+This connects directly to the Delegation Spectrum. At Level 4 (Delegated), you set the constraints and verify at checkpoints — the control loop is intact. At Level 6 (Orchestrated), you design the rules of engagement and interpret the results — the loop operates at a higher level of abstraction, but it's still a loop. The moment verification becomes automated without human judgment, control has been lost — not to the AI, but to the absence of the human in the loop. See also [[Trust Calibration]] and [[The Scaffold Match]].
 
 ## Intervenability: Build for Intervention, Not Just Delegation
 

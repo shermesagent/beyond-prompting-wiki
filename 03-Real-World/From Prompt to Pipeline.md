@@ -140,6 +140,23 @@ Not every task should be delegated. Honest production experience from 2026 sugge
 
 The orchestrator doesn't delegate everything. They delegate the right things, with the right boundaries.
 
+## The Healthcare Parallel: An AI Agent That Actually Works in Production
+
+Mara's pipeline isn't the only real-world example of the review-first pattern producing measurable results. A Clinical and Translational Science Award (CTSA) hub deployed a human-in-the-loop AI agent in their actual impact-reporting workflow — not a simulation, not a proof of concept. The agent assembled dossiers of sourced evidence for scholars and drafted one-sentence impact summaries for staff review.
+
+The results, published July 2026:
+
+| Metric | Before | After |
+|--------|--------|-------|
+| Staff time per scholar | ~15 hours (manual assembly) | 14 minutes (median) |
+| Usable agent output | — | 81.7% (accepted or edited) |
+| Review design | — | Two independent evaluators, 507 findings coded |
+| Inter-rater agreement | — | Cohen's kappa 0.43 (moderate) |
+
+The design is identical to Mara's: **agent produces, human reviews.** The agent never publishes — it drafts. Two humans independently check. Only then does anything become official. The architecture prevents delegation regret (see [[Delegation Regret]]) by design: the agent cannot act beyond its authorization because its authorization doesn't include acting. It includes generating. The difference is small on paper and enormous in practice.
+
+The 81.7% usable rate is worth sitting with. It means that roughly 1 in 5 findings required human rework. But because the human's job shifted from *assembling* to *reviewing*, the total labor went from 15 hours to 14 minutes. The orchestrator's math: even with an imperfect agent, structured delegation with a human review checkpoint produces order-of-magnitude efficiency gains. You don't need the AI to be perfect. You need the review architecture to be designed.
+
 ### A Real Failure That Teaches the Pattern
 
 The vendor's worst production failure: "A customer fired off a customer-replying agent on auto-send. It sent a 'we apologize for the delay' message to a customer whose ticket was actually about a refund the customer had already received. The customer wrote back angry."

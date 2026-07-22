@@ -63,13 +63,17 @@ This game builds the most important coaching-stance muscle: knowing the differen
 
 ## The Research Behind This
 
+- **Informal Learning in Everyday LLM Interaction (Honeycutt, Nourani & Ragan, arXiv, July 2026):** The largest study of its kind — 128,569 naturalistic conversations, 491,685 user turns. Two critical findings for the coaching stance: cognitive engagement appeared in 31.9% of turns, but the deeper "constructive engagement" (the observable signature of genuine learning) appeared in only 4.9%. The key mechanism: **scaffolded assistant support consistently marked richer constructive participation.** When the AI scaffolds rather than answers, users engage more deeply — associations varied by user framing, task ecology, support form, timing, and prior user state. This provides large-scale evidence that the coaching stance isn't just a good idea — it's what actually produces deeper engagement in real-world interaction. The default (answer delivery) produces offloading. The coaching stance (scaffolding) produces learning.
+
 - **AI Coaching Study (arXiv, June 2026):** N=33 drone racing study found that AI copilots providing too much assistance caused over-reliance and skill atrophy. Strategic scaffolding — support followed by deliberate withdrawal — produced the best learning outcomes. The coach's objective function was *independent human competence*, not immediate task performance.
 
 - **The Effortless Trap (Brcic & Frljic, arXiv, June 2026):** The same AI model produced 17% worse exam scores when unguarded, neutral results when guarded, and ~2x learning when engineered as a tutor. The six-move model for placing AI in learning: **Prime → Probe → Point → Attach → Strengthen → Test.** The first and last moves must be human-only. AI scaffolding goes in the middle four. The diagnostic: if letting AI in makes the task feel effortless, it is in the wrong place.
 
 - **The Augmentation Trap (Caosun & Aral, arXiv, April 2026):** The structural model showing that even fully-informed, rational decision-makers will adopt AI in ways that erode skill — because the short-term productivity gains outweigh the long-term costs. The coaching stance is the counter-strategy: AI use that builds rather than replaces.
 
-See also: [[The Augmentation Trap]] · [[The Placement Rule]] · [[Cognitive Surrender]] · [[Trust Calibration]]
+- **The Absorption Pattern (Zhang, Zhang & Sun, arXiv, July 2026):** The mechanism connecting the coaching stance to workforce development: GenAI absorbs the developmental pathway through which juniors become seniors. The coaching stance preserves those pathways by ensuring AI scaffolds rather than absorbs.
+
+See also: [[The Augmentation Trap]] · [[The Placement Rule]] · [[Cognitive Surrender]] · [[Trust Calibration]] · [[The Absorption Pattern]]
 
 ## Related Pages
 

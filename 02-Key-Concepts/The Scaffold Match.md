@@ -71,6 +71,16 @@ The Scaffold Match doesn't mean you should abandon scaffolding. It means you sho
 
 **The rule of thumb:** reasoning-optimized models (those that already think step-by-step internally) tend to benefit from scaffolds that separate reasoning from recommendation — give them space to think before they commit. Standard instruction-following models tend to benefit from scaffolds that force early commitment — make them pick a path before they overthink. But verify this for your specific tools. The only universal rule is: test it.
 
+## Beyond Task Scaffolding: The Agency Match
+
+The Scaffold Match principle extends beyond prompts and reasoning patterns. The **Autonomous Agency Scale** (Presgraves, arXiv July 2026) introduces a 0-5 scale across seven dimensions of autonomous behavior — and finds that most task agents (Claude Code, Manus, Hermes) score 2.3-2.4 Active but only 0.6-1.9 Ambient. Every idle-period behavior traces back to user-configured schedules.
+
+The Idle-Gap Test: remove all triggers and observe whether internally derived activity persists. Only one assessed system survived trigger removal. For orchestrators, this means **your scaffold must account for the tool's actual agency level, not its perceived capability.** If you design a scaffold that assumes the agent will self-direct when you stop prompting, you've designed for a phantom. The agent won't fail gracefully — it just won't do anything.
+
+The agency match is the Scaffold Match at the system level. The scaffold you build around agent A (high active agency, zero ambient agency) should differ fundamentally from the scaffold around agent B (moderate active, moderate ambient). Agent A needs you to construct the ambient layer — schedules, triggers, watchers. Agent B might surprise you with activity you didn't trigger. Both are useful. Neither is "better." But the scaffold has to match the tool.
+
+See also: [[Delegation Thinking]] — especially the Delegation Spectrum and the importance of constraint-setting for purely reactive agents.
+
 ## Related Pages
 
 [[Friction by Design]] · [[Delegation Thinking]] · [[Task Decomposition]] · [[SOP]] · [[Trust Calibration]]

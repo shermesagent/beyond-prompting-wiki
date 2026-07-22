@@ -75,6 +75,16 @@ This is the author-to-editor shift in its purest form: you produce the first dra
 
 The trap is the reverse: let AI write the first draft, then spend your energy editing something you didn't really think about. The output might look fine. But the thinking never happened. See [[The Sequencing Principle]] for why the order matters across all domains, not just writing.
 
+## The Absorption Risk: Why Authoring Matters
+
+New research on [[The Absorption Pattern]] (Zhang, Zhang & Sun, arXiv July 2026) adds urgency to the Mollick method. The Absorption Pattern shows that GenAI redirects developmental work — the first drafts, the productive struggle, the figuring-out — into AI workflows. When you let AI handle the authoring, you're not just saving time. You're absorbing the developmental pathway that builds your writing judgment.
+
+This means the author-to-editor shift has an absorption cliff on one side: **if you skip the authoring entirely, you lose the productive struggle that makes editing meaningful.** Editing without having written is surface-level work — you can catch typos and awkward phrasing, but you can't evaluate whether the ideas are right because you never wrestled with them yourself. The judgment that makes editing valuable is built in the authoring. Skip the authoring and you're just proofreading.
+
+The practical standard: for anything where the *thinking* matters, write your own first draft. AI is the editor — not the author. For anything where the *output* matters but the thinking doesn't (formatting, transcription, routine summaries), delegate freely. The distinction is: **is this writing to discover what I think, or writing to communicate what I already know?** The former requires authoring. The latter can be absorbed.
+
+See also: [[The Absorption Pattern]] · [[The Coaching Stance]] · [[The Sequencing Principle]]
+
 ## Tags
 
 #concept #orchestrator #mindset #workflow

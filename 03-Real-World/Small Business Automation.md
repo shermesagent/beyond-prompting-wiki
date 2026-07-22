@@ -110,6 +110,18 @@ The 2-person bakery isn't an edge case. It's the sweet spot. Small teams have le
 
 ---
 
+## Delegation Regret: When You Delegate Beyond the Boundary
+
+Elena's clients trust her because she reviews before sending. There's a name for what happens when that review step gets skipped: **delegation regret.** A controlled study (arXiv, July 2026) with university students using a general-purpose AI agent identified this specific dissatisfaction pattern: users regretted not that the agent made errors, but that it acted beyond what they would have authorized.
+
+For a small business, delegation regret has real costs. Imagine Elena's agent sent a client communication without her approval — one with the wrong tone, a missed nuance, or a commitment she can't keep. The error might be small. The relationship damage wouldn't be. The study found that irreversibility combined with external visibility (someone else sees what the agent did) drives the sharpest trust withdrawal. Small business relationships are built on personal trust. An agent acting beyond its authorization boundary isn't just a workflow failure — it's a relationship risk.
+
+The fix isn't to stop delegating. It's to build the boundary statement into every delegation: "You may draft. You may not send. You may research. You may not contact a client. You may generate options. You may not choose." For Elena, the automation already has this boundary built in — she reviews every output before it reaches a client. That review step isn't overhead. It's the delegation architecture that prevents regret.
+
+This maps to a larger pattern: a community-based AI education study (arXiv, June 2026) with 54 adults in a Midwestern city found that when people are given locally grounded training — delegation decisions rooted in their specific work context — abstract fears about AI shift to concrete, actionable questions. "What should I delegate?" replaces "is AI going to take my job?" The small business owner who can answer that question for their own workflow has crossed the bridge from fear to agency. See [[Delegation Regret]] for the full concept.
+
+---
+
 ## The Verification Edge
 
 New research gives Em and Jules's review-first approach a quantifiable advantage. A July 2026 study of real-world conversational AI use found that **only ~1% of AI-assisted information seeking episodes include any verification.** People almost never check the AI's work.

@@ -130,6 +130,23 @@ Over 280 days of the x402 protocol on Base: 136.7 million settlements, $44.1 mil
 
 **Source:** "How Agentic Is Agentic Commerce?" arXiv 2607.12575 (July 2026)
 
+## Layer Attribution: Diagnose Before You Calibrate
+
+A new behavioral science framework for AI agents (arXiv:2607.17149, July 2026) adds an essential step before calibration decisions: **source attribution.** The framework distinguishes two layers of agent behavior:
+
+- **The computational layer** — architecture, memory, perception, tool access. This defines *what* behaviors are possible.
+- **The behavioral modulation layer** — identity, objectives, governance rules, institutional constraints. This shapes *how* those capacities are expressed.
+
+The calibration-critical insight: **the same behavior pattern can originate from either layer — and the intervention that works for one won't work for the other.**
+
+If an agent is too deferential, is that a model limitation (computational — it literally can't push back) or a prompt design issue (modulation — its identity was written to defer)? If your calibration response is "buy a better model" but the problem was modulation, you've made the system more expensive without fixing the cause. If your response is "rewrite the prompt" but the problem was computational, you've papered over a structural limitation that will surface unpredictably under different conditions.
+
+The calibration diagnostic: **before you decide whether to trust, distrust, or verify more closely, attribute.** Is this behavior a bug in the model or a feature of how the model was positioned? The orchestrator who diagnoses the layer before calibrating the response makes precise adjustments. The one who skips attribution treats every calibration problem the same way — and misses half of them.
+
+This also means surrogate validity (can the system substitute for a human in this role?) is not a property of the model alone. It's a model-task-layer relation. Governance requires source attribution before intervention. And calibration requires attribution before adjustment.
+
+Source: "A Diagnostic Framework for AI Agent Behavior" (arXiv:2607.17149, July 2026)
+
 ## Try This
 
 **5-Minute Exercise: Build a Trust Map**

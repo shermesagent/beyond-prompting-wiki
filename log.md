@@ -570,3 +570,52 @@ Pages: 52 (was 51) — 1 new, 3 updated. Zero broken links expected.
 - Home.md: Page count 55→56, The Preservation Principle added to Key Concepts, Recent Updates updated
 - Digest: 00-Daily-Digests/2026-07-20.md
 - Key insight: Four papers independently converge on the same finding — the orchestrator's edge isn't delegation volume, it's discrimination. The PHP-AIO protocol formalizes what skilled orchestrators already sense: not everything that CAN be automated SHOULD be automated. And the Cognitive Equalizer study flips the deskilling narrative: AI designed to explain rather than replace makes people feel MORE capable, not less — but they still want humans for high-stakes decisions. The line between empowerment and dependency isn't about the tool. It's about the design.
+
+---
+
+### 2026-07-21 (Tuesday) — Day 2: Key Concepts (Week 3)
+
+- Rotation: Day 2 — Key Concepts
+- Theme: "The Absorption Pattern — What AI Takes When It Gives"
+- Sources: 5 papers from arXiv (cs.CY, cs.HC, cs.AI)
+  - Absorption/Development Pathway (2607.17067): Zhang, Zhang & Sun — GenAI erodes the junior-to-senior pipeline through absorption of developmental work
+  - Informal Learning in LLM Interaction (2607.17643): Honeycutt, Nourani & Ragan — 128K conversations, 491K turns, only 4.9% constructive engagement; scaffolding enriches participation
+  - Novelty to Normalisation (2607.16223): Ulster University — N=1,665 longitudinal study, student-staff perception gap widening, policy lagging practice
+  - Autonomous Agency Scale (2607.17947): Presgraves — 0-5 scale, task agents score 2.3-2.4 Active but 0.6-1.9 Ambient; agents stop when you stop
+  - Diagnostic Framework for Agent Behavior (2607.17149): Computational vs. behavioral modulation layers; same behavior can originate from either; governance requires source attribution
+- Raw files: 5 paper stubs created in raw/articles/ — absorption-development-pathway, informal-learning-everyday-llm, novelty-to-normalisation-ai-perceptions, autonomous-agency-scale, diagnostic-framework-agent-behavior
+- Pages created: The Absorption Pattern (new concept — the process by which GenAI redirects developmental work into AI workflows, eroding expertise-building pathways; includes Absorption Check diagnostic for task decomposition, structural consequences, and deliberate counter-designs)
+- Pages updated (9):
+  - Task Decomposition — Added The Absorption Check: developmental vs. non-developmental subtask discrimination
+  - The Augmentation Trap — Added Absorption: The Mechanism Behind the Trap (Zhang et al. + Ulster longitudinal data connection to Caosun & Aral model)
+  - The Coaching Stance — Added Informal Learning research (128K conversations, 4.9% constructive engagement, scaffolding enriches participation) and Absorption Pattern reference
+  - Cognitive Surrender — Added 4.9% constructive engagement finding: answer delivery produces surrender, scaffolding produces engagement
+  - From Author to Editor — Added The Absorption Risk section: if you skip authoring entirely, you lose the productive struggle that makes editing meaningful
+  - The Scaffold Match — Added Beyond Task Scaffolding: The Agency Match section with Autonomous Agency Scale data and Idle-Gap Test
+  - Trust Calibration — Added Layer Attribution section: diagnose computational vs. modulation layer before calibrating trust, surrogate validity as model-task-layer relation
+  - Delegation Thinking — Added The Agency Gap section: task agents are purely reactive, ambient infrastructure is required for Level 4+ delegation
+  - The Preservation Principle — Linked to The Absorption Pattern (same logic at task vs. role level)
+- Sources: 5 new entries added to sources.jsonl (total now ~122 entries)
+- Home.md: Page count 56→57, The Absorption Pattern added to Key Concepts
+- Digest: 00-Daily-Digests/2026-07-21.md
+- Key insight: The Absorption Pattern is the mechanism behind the Augmentation Trap. Your agents are more dependent on you than you are on them — zero ambient agency in task agents — and only 4.9% of your interactions with those agents build your own capability. The orchestrator who understands this stops asking "what can the AI do?" and starts asking "what is this interaction doing to me?" The Absorption Pattern is the mechanism. The Agency Gap is the constraint. The 4.9% is the scorecard.
+
+## 2026-07-22 | ingest | Day 3 Real World rotation — 5 sources, "The Human Side of the Shift"
+- Theme: From Training to Trust to Control — The Real Bottleneck Isn't Technology
+- Sources ingested:
+  - Vinicius Santana Gomes — "The Main Barrier to AI Adoption in the Public Sector Is Lack of Training" (arXiv:2606.01517, Jun 20, 2026)
+  - Pochampally, An & Chen — "Assistant or Actor? Student Trust, Control, and Delegation Regret When Using a General-Purpose AI Agent" (arXiv:2607.18257, Jul 21, 2026)
+  - Arvan, Osterholt & Rue — "Real-World Evaluation of an AI Agent Drafting Translational Impact Summaries" (arXiv:2607.16989, Jul 20, 2026)
+  - Lyu, Aumentado & Winton — "Co-Designing Community-Centered AI Education for Adults: A Midwestern Case Study" (arXiv:2606.26565, Jun 28, 2026)
+  - Chin, Chiodo & Müller — "Reframing AI Loss of Control: What Control Is, How to Have It, How to Lose It" (arXiv:2606.12442, Jun 16, 2026)
+- Pages created: Delegation Regret (new concept page — the failure mode you haven't named)
+- Pages updated:
+  - The School District Shift — Added The Training-First Lesson: Brazil government cases showing training, not technology, drove 18-50% productivity gains
+  - Small Business Automation — Added Delegation Regret: When You Delegate Beyond the Boundary + community adoption parallel from the Midwest case study
+  - From Prompt to Pipeline — Added The Healthcare Parallel: CTSA production agent with 81.7% usable rate, 15 hours → 14 minutes
+  - Delegation Thinking — Added Delegation Regret: The Failure Mode You Haven't Named + The Control Loop: What It Means to Keep Control While Delegating
+- Sources: 5 new entries added to sources.jsonl
+- Home.md: Page count 57→58, Delegation Regret added to Key Concepts, digest link updated, Recent Updates table rotated
+- 02-Key-Concepts/README.md: Delegation Regret added as #22, table updated
+- Digest: 00-Daily-Digests/2026-07-22.md
+- Key insight: The real barrier to moving beyond prompting isn't better AI. It's clearer delegation boundaries, structured training, and an honest control loop. Delegation regret names the specific failure mode (not error, but unauthorized action). The control framework says: maintain goal-setting and verification as human layers, and delegation is safe. The Brazil study proves training > tech at institutional scale. The CTSA agent proves the review-first pattern works in production healthcare (81.7% usable). The community study shows that locally grounded questions replace abstract fears. All five papers converge: the humans need the work, not the machines.

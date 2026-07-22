@@ -33,6 +33,18 @@ You're **not** decomposing when:
 - You find yourself re-prompting the same thing over and over hoping for a better result
 - You feel like you're just a "better prompt engineer" rather than a designer of workflows
 
+## The Absorption Check
+
+New research on the Absorption Pattern (Zhang, Zhang & Sun, arXiv July 2026) adds a critical question to task decomposition: **is this subtask developmental?**
+
+When you break a task into subtasks, some pieces build your expertise. Others are pure execution. The diagnostic question:
+
+- **Developmental subtasks** — the ones that start with "figure out," "understand," "decide" — build the judgment you need to orchestrate effectively. These should be scaffolded by AI, not solved by AI. Let the AI guide, but keep the productive struggle.
+- **Non-developmental subtasks** — formatting, transcription, rote assembly — are safe to delegate entirely. You don't build judgment by formatting tables.
+- **Unclear? Assume developmental.** The cost of absorbing a developmental task is permanent (you never build the capability). The cost of doing a non-developmental task yourself is temporary (time you could have saved). Err toward preservation.
+
+The orchestrator's decomposition isn't just about what the task *is*. It's about what the task *does to you*. A well-decomposed workflow preserves the subtasks that build you while delegating the ones that don't. See [[The Absorption Pattern]] for the full framework and the research behind it.
+
 ## Try This
 
 **5-Minute Exercise: Decompose One Real Task**

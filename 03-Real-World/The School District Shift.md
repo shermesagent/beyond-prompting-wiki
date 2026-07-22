@@ -150,6 +150,20 @@ Ross's framing applies beyond education. Any organization — a school, a small 
 
 ---
 
+## The Training-First Lesson: Brazil Shows What Actually Matters
+
+Mark's story is one data point. But a study of two auditable cases in the Brazilian Public Service (arXiv, June 2026) confirms the pattern at institutional scale: **training, not technology, is the determining barrier to AI adoption.**
+
+Two government units received the same models and the same tools. The difference was a four-layer structured pedagogical training methodology. In Case 1 (Health Department, 2024), processing time fell 18.2%. In Case 2 (Economic Development Department, 2025), processing time fell 50% — with an 85% increase in technical-report production and 286 formal recommendations issued. Both cases were verified through official government indicators, auditable by third parties.
+
+The finding that should change how school districts think about AI adoption: the technology was available in both units before the training. It sat unused. People had access but didn't know what to do with it. Training bridged the gap — not better models, not better prompts, not more tools. A structured pedagogical method.
+
+Mark's success at Farmersville followed the same pattern. He didn't deploy a better AI. He built the training — the coaching sessions, the checkpoint frameworks, the ramp from skepticism to ownership. The Brazilian study gives this approach a name and a measurement: the training-first model, with verified productivity gains of 18-50%.
+
+The implication for any district leader: if your AI initiative is stalled, don't buy a better model. Build a better training method. The barrier isn't the technology.
+
+---
+
 ## The Enterprise Parallel: Tools AND Training Matter
 
 A massive internal study from AbbVie (June 2026) provides hard evidence for something the Farmersville story implies: better tools and better training are independent levers — you need both. Analyzing 598,744 AI conversations across 192 occupations, researchers found:

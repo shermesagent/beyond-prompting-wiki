@@ -69,6 +69,22 @@ The tell: **if AI disappeared tomorrow, would you be *more* or *less* capable at
 
 This isn't about going offline. It's about knowing which muscles are atrophying so you can exercise them deliberately.
 
+## Absorption: The Mechanism Behind the Trap
+
+New research (Zhang, Zhang & Sun, arXiv July 2026) reveals **how** the augmentation trap operates at the mechanism level. Through interviews with juniors and seniors in software engineering, they identify a foundational pattern of **Absorption** — GenAI redirects entry-level work into senior-AI workflows. The tasks that used to build junior expertise (the debugging, the first-draft writing, the productive struggle) get absorbed into automated pipelines.
+
+Three consequences drive the trap:
+
+1. **Productive struggle is lost.** Juniors never experience the friction that forces them to develop judgment. The tasks look like efficiency gains. They're actually capability transfers from human to machine.
+2. **Structural reproduction.** Universities normalize GenAI use in classrooms, so the absorption becomes institutional. Every cohort that graduates having used AI as a shortcut enters the workforce with less to build on.
+3. **Perceptual asymmetry.** Seniors (who already have the expertise) don't see the loss. Juniors (who never knew what they were missing) can't see the loss. The trap is invisible from both ends.
+
+This connects directly to the Caosun & Aral model. Absorption is how the "Skill Divergence" regime works: experienced workers maintain their judgment because the absorbed tasks are ones they already mastered. Novices get nothing to build from. Over time, the gap widens into a cliff — and by the time anyone notices, there's no pipeline to fill it.
+
+Meanwhile, a longitudinal study (Ulster University, N=1,665 across three survey waves, 2024-2026) confirms the institutional dimension: students rapidly normalised AI use, moving from tentative experimentation to routine engagement, while staff held persistent concerns about academic integrity and critical thinking. **The student-staff gap widened.** Policy lagged practice. The structural reproduction the Absorption paper describes is already happening — not as a prediction, but as a measured trend.
+
+See [[The Absorption Pattern]] for the full framework and the deliberate design strategies that resist it.
+
 ## What This Means for Organizations
 
 If you lead a team or organization:

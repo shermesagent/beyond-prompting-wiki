@@ -84,7 +84,7 @@ If you score "yes" on any of these, you don't necessarily stop the automation. B
 
 ## Related Pages
 
-[[The Four Decision Labels]] · [[The Orchestrator Mindset]] · [[The Architect Mindset]] · [[Abstention]] · [[Delegation Thinking]] · [[Cognitive Surrender]] · [[The Augmentation Trap]]
+[[The Four Decision Labels]] · [[The Orchestrator Mindset]] · [[The Architect Mindset]] · [[Abstention]] · [[Delegation Thinking]] · [[Cognitive Surrender]] · [[The Augmentation Trap]] · [[The Absorption Pattern]]
 
 ## Tags
 

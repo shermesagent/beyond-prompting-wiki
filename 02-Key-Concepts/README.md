@@ -29,6 +29,9 @@ You don't need to read them in order. Jump to whichever title grabs you. But if 
 17. **[[Abstention]]** — the builder's judgment: when should your AI say no, not yet, or not this way?
 18. **[[Authorship Calibration]]** — the metacognitive prerequisite: knowing what you contributed vs. what the AI contributed.
 19. **[[Autonomy]]** — how much independence does an AI agent have — and how much should it have?
+20. **[[The Preservation Principle]]** — the formal protocol for when NOT to automate: not everything that can be automated should be.
+21. **[[The Absorption Pattern]]** — the mechanism behind the Augmentation Trap: what AI takes from you when it gives you speed.
+22. **[[Delegation Regret]]** — the specific dissatisfaction when an AI agent acts beyond what you would have authorized — and how to prevent it with boundary statements.
 
 ---
 
@@ -62,7 +65,10 @@ They came out of real research — papers on human-AI collaboration, case studie
 | [[The Jagged Frontier]] | Which tasks has AI already crossed and which is it still behind on — and what does that mean for your role? | Orchestrator |
 | [[Abstention]] | When should your AI say no, not yet, or not this way? | Architect |
 | [[Authorship Calibration]] | What did *I* contribute vs. what did the AI contribute? | Orchestrator |
-| [[Autonomy]] | How much independence should an AI agent have? | Orchestrator |
+|| [[Autonomy]] | How much independence should an AI agent have? | Orchestrator |
+|| [[The Preservation Principle]] | When should I NOT automate? | Everyone |
+|| [[The Absorption Pattern]] | What is this AI interaction doing to *me*? | Everyone |
+|| [[Delegation Regret]] | What happens when an AI agent crosses my authorization boundary — and how do I prevent it? | Operator → Orchestrator |
 
 ---
 
