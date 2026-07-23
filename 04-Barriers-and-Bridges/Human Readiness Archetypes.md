@@ -1,7 +1,7 @@
 ---
 title: Human Readiness Archetypes
 created: 2026-06-23
-updated: 2026-07-16
+updated: 2026-07-23
 type: concept
 tags: [barrier, mindset, workflow]
 sources: [raw/articles/wef-human-readiness-2026.md, raw/articles/persona-migration-dot-adoption-2607.13798.md]
@@ -78,9 +78,29 @@ A July 2026 study tracked 124 employees at a state Department of Transportation 
 
 **Source:** arXiv:2607.13798 — matched two-wave survey, 124 employees, k-means clustering with fixed-centroid assignment for persona tracking.
 
+## The Experiential Bridge: How You Train Matters More Than What You Tell
+
+A July 2026 study (arXiv:2607.20047) tested two approaches to building metacognitive awareness about AI: experiential (hands-on use) and instructional (traditional lectures). The design was rigorous: 126 first-year engineering students, randomly assigned, measured before, immediately after, and at five weeks.
+
+The result: experiential methods outperformed instructional approaches in both engagement and knowledge of cognition. But the real finding came at the five-week follow-up. By then, knowledge scores had converged across groups — but the experiential group showed a **delayed, continuous increase in regulation of cognition** that was completely absent in the instructional group. Hands-on learners didn't just know more about AI. They got better at *managing* their learning over time. The regulation gains kept growing even after the intervention ended.
+
+This has immediate implications for readiness mapping. If you're leading adoption, the question isn't just "what should we tell people?" It's "how do we get them using it?" Lectures and policy briefings build awareness. Hands-on use builds the metacognitive muscle that sustains adoption after the training ends. The Cautious and Curious — your biggest adoption opportunity — won't be moved by a presentation. They'll be moved by three weeks of using AI for something real, with someone to talk to about what they notice.
+
+For individuals: if you're stuck at a readiness level, the bridge isn't reading more about AI. It's using AI for something stakes-free, then reflecting on what happened. Regulation of cognition — the "what did I learn, what surprised me, what would I do differently" loop — grows through experience, not instruction.
+
+## The Culture Blind Spot: Readiness Isn't Universal
+
+A July 2026 study (arXiv:2607.19699) compared how Canadian and South Korean university students judged the ethicality of identical AI-assisted coding scenarios — with functionally identical institutional policies. The finding: Canadian students were consistently more likely to perceive GenAI use as both unethical and against institutional rules, despite the policies being the same. Cultural dimensions — power distance, individualism, uncertainty avoidance — significantly shaped ethical reasoning about AI.
+
+This means readiness has a cultural axis that the archetype framework doesn't capture. A "Curious" student in Seoul and a "Curious" student in Toronto may describe the same posture toward AI, but their internal calibration of what's acceptable, what's risky, and what's ethical will differ based on cultural context. One-size-fits-all AI policies — in universities, in school districts, in global organizations — fail because they assume universal thresholds for ethical reasoning that don't exist.
+
+The practical takeaway: if you're leading adoption across cultural contexts, your readiness mapping needs a second dimension. Archetype (individual posture) × Culture (normative framework). A Skeptic from a high power-distance culture is navigating different pressures than a Skeptic from a low power-distance culture. Treat them as different cases, even if they share the same archetype label.
+
+For individuals: if you feel like your readiness level doesn't match the people around you — they're all jumping in while you're hanging back, or vice versa — consider that some of that gap may be cultural, not personal. You're not behind. You're standing in a different normative landscape. Recognizing that makes the gap feel less like a deficit.
+
 ## Related Pages
 
-[[Fear of Losing Control]] · [[The Just Ask ChatGPT Trap]] · [[Trust Calibration]] · [[Prompt as Safety Blanket]] · [[The School District Shift]] · [[Psychological Debt]]
+[[Fear of Losing Control]] · [[The Just Ask ChatGPT Trap]] · [[Trust Calibration]] · [[Prompt as Safety Blanket]] · [[The School District Shift]] · [[Psychological Debt]] · [[The Certification Boundary]]
 
 ## Tags
 

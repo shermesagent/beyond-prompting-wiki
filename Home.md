@@ -2,7 +2,7 @@
 
 > A living guide to the **operator → orchestrator shift**. If you've ever typed a prompt and thought "there has to be more than this" — start here.
 
-_58 pages across 6 sections. Updated daily. Git-backed, human-readable, cross-linked._
+_59 pages across 6 sections. Updated daily. Git-backed, human-readable, cross-linked._
 
 ---
 
@@ -48,7 +48,7 @@ Case studies, transformation stories, and honest failure postmortems.
 
 ### [[04-Barriers-and-Bridges/README|04 — Barriers & Bridges]]
 What holds people back — and how to cross.
-→ [[Fear of Losing Control]] · [[The Just Ask ChatGPT Trap]] · [[Psychological Debt]] · [[Trust Calibration]] · [[Knowledge Debt]] · [[Prompt as Safety Blanket]] · [[Human Readiness Archetypes]] · [[The Engagement Gap]]
+→ [[Fear of Losing Control]] · [[The Just Ask ChatGPT Trap]] · [[Psychological Debt]] · [[Trust Calibration]] · [[Knowledge Debt]] · [[Prompt as Safety Blanket]] · [[Human Readiness Archetypes]] · [[The Engagement Gap]] · [[The Certification Boundary]]
 
 ### [[05-Practice/README|05 — Practice]]
 Weekly muscle builders. Concrete exercises that build the orchestrator mindset.
@@ -60,7 +60,7 @@ Plain-language definitions of every key term.
 
 ### 00-Daily-Digests
 Daily curated research digests — what we found, what it means, and how to use it.
-→ [[2026-07-22|Today's Digest]]
+→ [[2026-07-23|Today's Digest]]
 
 ---
 
@@ -80,7 +80,7 @@ _Last 7 days of activity._
 
 | Date | What Changed |
 |------|-------------|
-| 2026-07-22 | Day 3 Real World rotation (Week 3): Daily digest + 1 new concept (Delegation Regret) + 4 pages deepened (School District Shift — Brazil training-first lesson, Small Business Automation — delegation regret + community adoption, From Prompt to Pipeline — healthcare pipeline parallel, Delegation Thinking — delegation regret + control loop framework) — the human side of the shift: training, trust boundaries, and control backed by 5 new papers |
+| 2026-07-23 | Day 4 Barriers & Bridges rotation (Week 4): Daily digest + 1 new barrier page (The Certification Boundary) + 4 barrier pages deepened (Trust Calibration — Discernment Gap, Knowledge Debt — Certification Crisis, The Just Ask ChatGPT Trap — Popularity Over Reliability, Human Readiness Archetypes — Experiential Bridge + Culture Blind Spot) — the Trust Stack: three layers of the delegation barrier (tool-level discernment failure, training-level metacognitive approach, institutional-level certification crisis) backed by 5 new ARXIV papers |
 | 2026-07-21 | Day 2 Key Concepts rotation (Week 3): Daily digest + 1 new concept (The Absorption Pattern) + 9 pages deepened (Task Decomposition — Absorption Check, The Augmentation Trap — absorption mechanism, The Coaching Stance — 128K conversation evidence, Cognitive Surrender — 4.9% constructive engagement, From Author to Editor — absorption risk, The Scaffold Match — agency match, Trust Calibration — layer attribution, Delegation Thinking — agency gap, The Preservation Principle — absorption link) — the Absorption Pattern: what AI takes when it gives, backed by 5 new papers |
 | 2026-07-20 | Day 1 The Shift rotation (Week 3): Daily digest + 1 new concept (The Preservation Principle) + 5 pages deepened (The Orchestrator Mindset — hidden costs of automation, The Architect Mindset — CRAFT governance, What Is Beyond Prompting — discrimination skill, Why This Matters — cognitive equalizer, Abstention — organizational angle) — the discrimination skill: knowing where AI stops and you begin, backed by 4 new papers |
 | 2026-07-19 | Concept page created (Authorship Calibration) + 2 concepts added to listings (Abstention, Autonomy) + Shift section page deepened (What Is Beyond Prompting — Globally Beneficial Case) + structural lint pass + cross-pollination from AI Agency Knowledgebase |

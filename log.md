@@ -619,3 +619,20 @@ Pages: 52 (was 51) — 1 new, 3 updated. Zero broken links expected.
 - 02-Key-Concepts/README.md: Delegation Regret added as #22, table updated
 - Digest: 00-Daily-Digests/2026-07-22.md
 - Key insight: The real barrier to moving beyond prompting isn't better AI. It's clearer delegation boundaries, structured training, and an honest control loop. Delegation regret names the specific failure mode (not error, but unauthorized action). The control framework says: maintain goal-setting and verification as human layers, and delegation is safe. The Brazil study proves training > tech at institutional scale. The CTSA agent proves the review-first pattern works in production healthcare (81.7% usable). The community study shows that locally grounded questions replace abstract fears. All five papers converge: the humans need the work, not the machines.
+
+## 2026-07-23 08:30 — Day 4 Barriers & Bridges rotation (Week 4)
+
+**Theme:** The Trust Stack — three layers of the delegation barrier that are not about your skill.
+
+**Sources ingested (5):**
+- information-discernment-llms-2607.19355.md — Information Discernment in LLMs
+- cognitive-stewardship-credentials-2607.19988.md — Cognitive Stewardship for AI-Mediated Education
+- experiential-metacognitive-ai-awareness-2607.20047.md — Experiential vs. Instructional
+- cross-cultural-genai-perceptions-2607.19699.md — Cross-Cultural GenAI Perceptions
+- ux-principles-human-ai-agent-workplace-2607.19941.md — 8 UX Principles for Human-AI Agent Interaction
+
+**New pages:** The Certification Boundary
+
+**Pages deepened (4):** Trust Calibration (Discernment Gap), Knowledge Debt (Certification Crisis), The Just Ask ChatGPT Trap (Popularity Over Reliability), Human Readiness Archetypes (Experiential Bridge + Culture Blind Spot)
+
+**Structural:** Home.md (59 pages, updated listing, digest link), README.md (04-Barriers restored + new), sources.jsonl (5 entries)

@@ -1,7 +1,7 @@
 ---
 title: Knowledge Debt
 created: 2026-07-08
-updated: 2026-07-16
+updated: 2026-07-23
 type: concept
 tags: [barrier, mindset, skill, delegation]
 sources: [raw/articles/agents-that-teach-knowledge-debt-2607.06101.md, raw/articles/tragedy-cognitive-commons-2607.13272.md]
@@ -69,6 +69,18 @@ This connects directly to the personal Knowledge Debt you accrue. Every time you
 **What you can do:** When an AI helps you understand something new, pay it forward. Write a note. Share a finding. Post an answer. Teach a colleague. The antidote to the tragedy of the cognitive commons is the same as the antidote to personal Knowledge Debt: deliberate contribution back to the pool you're drawing from.
 
 **Source:** arXiv:2607.13272 — appraisal of the Acemoglu-Kong-Ozdaglar knowledge collapse model, including Stack Overflow evidence and five structural criticisms.
+
+## Knowledge Debt at Institutional Scale: The Certification Crisis
+
+So far, Knowledge Debt has been about what *you* lose when you delegate without understanding. But there's a bigger version: what happens when the entire certification system runs on debt.
+
+A July 2026 paper (arXiv:2607.19988) calls this the **credential crisis**. Educational assessment was built on a simple premise: submitted work reliably evidences the human capacities a credential claims to certify. Generative AI breaks that premise. When a student delegates cognitive work to AI — drafting, analysis, coding, synthesis — the submitted work no longer reveals what the student can do. It reveals what the student *and the AI* can do together. And the credential can't tell the difference.
+
+The researchers audited generative AI assessment guidance from 30 universities. The finding: public policies are getting better at *classifying* AI use (levels 1-5, permitted/prohibited) than at explaining what evidence and protections still preserve credential validity. The boundaries are visible. The evidence standards are not.
+
+This is Knowledge Debt at institutional scale. Every credentialed graduate who can't fully explain their own work weakens the signal of the credential for everyone else. Each one is a small withdrawal from the collective account that employers, licensing boards, and the public use to judge what a degree means. The withdrawals compound. Unlike personal Knowledge Debt — where you can catch up with the six bridge principles — institutional debt has no teach-back rule. The system can't ask 50,000 graduates "can you explain your own work?" and get honest answers.
+
+The framework for navigating this is detailed on [[The Certification Boundary]] page. For now, the key connection: every time you accept an AI deliverable you couldn't reproduce, you're not just borrowing against your own competence. You're borrowing against the credibility of everyone who holds the same credential. That's a different kind of withdrawal — and a bigger one.
 
 ## The Core Insight
 

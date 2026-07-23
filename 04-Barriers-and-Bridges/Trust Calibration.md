@@ -1,7 +1,7 @@
 ---
 title: Trust Calibration
 created: 2026-07-16
-updated: 2026-07-16
+updated: 2026-07-23
 type: concept
 tags: [barrier, mindset, skill]
 sources:
@@ -50,6 +50,23 @@ You can't think your way into calibrated trust. The "I Don't Know" suppression s
 | **The Pre-Commitment Check** | Forces you to state your own answer *before* seeing the AI's | Before asking the AI, write down what you think. Then compare. The gap you notice is the calibration signal. |
 | **The Uncertainty Audit** | After accepting an AI output, identify what you're *least* sure about | "I'm accepting this analysis, but here are the three claims I'm least confident in." Flag them for later verification. |
 | **The Saying I Don't Know Norm** | Team/peer culture that celebrates suspended judgment | When someone says "I asked the AI but I'm not confident about this part" — that's modeled as good judgment, not weakness. |
+
+## The Deeper Issue: The Discernment Gap
+
+There's a trust calibration problem that isn't about you at all. It's about the AI itself.
+
+A July 2026 study (arXiv:2607.19355) tested 13 language models across nearly 670,000 trials on a capability called **information discernment** — the ability to weigh sources appropriately. The researchers formalized two dimensions:
+
+- **Source discernment:** Does the model update more when information comes from a reliable source vs. an unreliable one?
+- **Truth discernment:** Does the model update more when a claim brings it closer to the truth?
+
+The findings are sobering. Across all 13 models, performance was near chance on both dimensions. Models relied on source *popularity* twice as much as source *reliability*. They updated roughly the same amount whether a claim improved or worsened their position relative to the ground truth. And here's the kicker: newer and larger models improved truth discernment but *not* source discernment. Scale doesn't fix the blind spot.
+
+A pre-registered user study (n=299) confirmed that real LLM users find this troubling: they endorse all three normative axioms of information discernment, and learning about these failures reduces their trust and intent to use the tool.
+
+This is the Discernment Gap: the AI you're calibrating your trust toward is itself bad at telling reliable from unreliable information. Your trust calibration isn't just about "how much do I trust this output?" It has to also account for "can this tool even tell what's trustworthy in the first place?"
+
+The practical implication is straightforward: source quality checking is a human responsibility that can't be delegated. When the AI cites sources, you can't trust that it weighted the reliable ones more heavily. When it integrates information from the web, you can't trust that it preferred truth to popularity. The calibrator needs a calibration — and in this case, it's you.
 
 ## The Deeper Issue: Collective Calibration
 
