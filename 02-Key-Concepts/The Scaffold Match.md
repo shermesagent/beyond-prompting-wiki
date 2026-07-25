@@ -81,6 +81,20 @@ The agency match is the Scaffold Match at the system level. The scaffold you bui
 
 See also: [[Delegation Thinking]] — especially the Delegation Spectrum and the importance of constraint-setting for purely reactive agents.
 
+### The Overassistance Factor: Default Intervention Level
+
+The Scaffold Match principle now has a critical new dimension: **the AI's default overassistance level.** New research (arXiv:2607.21306, July 2026) introduced Int-Bench, which showed that LLMs consistently intervene more frequently, earlier, and with complete solutions rather than targeted hints. This is the AI's factory setting — and it's a factory setting that works against learning.
+
+For scaffold design, this means:
+
+- **The higher the tool's default overassistance, the more you must constrain it.** A tool that defaults to giving you complete answers needs stronger constraint scaffolds (force it to give hints, force it to wait, force it to ask questions first).
+- **The same scaffold that controls a helpful model may choke a restrained one.** If your tool already provides targeted hints (rare), adding a constraint scaffold designed for an over-assisting tool will over-constrain and degrade output.
+- **Test the default before you design the scaffold.** Run your task with minimal instruction and observe: does the tool volunteer extra analysis? Complete solutions when you asked for a starting point? The answers tell you what scaffold you need — not what scaffold worked for someone else.
+
+The orchestrator's expanded rule: **test the tool's default intervention level first, then design the scaffold to pull it back. The right scaffold is the one that compensates for the tool's overassistance, not the one that works in theory.**
+
+See also: [[The Overassistance Pattern]] · [[Delegation Thinking]]
+
 ## Related Pages
 
 [[Friction by Design]] · [[Delegation Thinking]] · [[Task Decomposition]] · [[SOP]] · [[Trust Calibration]]

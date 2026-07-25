@@ -20,9 +20,15 @@ For the operator→orchestrator journey, oversight is where you spend your most 
 
 A practical pattern: after every significant agent output, ask three questions. (1) "What are you confident about, and why?" (2) "What are you uncertain about, and what evidence would resolve that uncertainty?" (3) "If this is wrong, where would the error most likely be?" These questions don't just catch mistakes — they train you to think like an orchestrator, engaging with the reasoning rather than just the surface.
 
+### Oversight in the Age of Overassistance
+
+Traditional oversight assumes the AI did the right amount of work — the question is whether it did it correctly. But a new failure mode demands a different kind of attention: **the AI did too much.** Overassistance — AI's default tendency to intervene early and provide complete solutions rather than scaffolds — means that oversight must now ask not just "is this correct?" but also "did this do too much for me?"
+
+When you review an agent's output and it looks complete, polished, and finished, the first question should be: *would I have learned more if this were less complete?* A report that does all the thinking for you is correct but costly — it cost you the opportunity to develop the mental models that produce the next report yourself. The PEA framework (Preserve, Empower, Augment) gives oversight a second dimension: correctness is the first check; appropriateness of assistance level is the second. See [[Overassistance]] for the full concept.
+
 ## Related Pages
 
-[[Human in the Loop]] · [[Autonomy]] · [[Orchestration]] · [[Delegation]] · [[Trust Calibration]] · [[Agent]]
+[[Human in the Loop]] · [[Autonomy]] · [[Orchestration]] · [[Delegation]] · [[Trust Calibration]] · [[Agent]] · [[Overassistance]]
 
 ## Tags
 

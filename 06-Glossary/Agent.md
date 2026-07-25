@@ -28,11 +28,19 @@ Most people using ChatGPT are in AI Assistant mode. The beyond-prompting shift i
 
 How you *teach* AI to someone else reflects how you *think* about AI yourself. A study of YouTube educators (arXiv, July 2026) identified three dominant framings used to teach ChatGPT: **Conceptual Scaffold** (AI as a thinking partner that explores ideas with you), **Retrieval Practice** (AI as a quiz-generator and self-testing tool), and **Output Generation** (AI as a drafting machine that produces finished content). Output Generation — the "just ask it to write it for you" framing — reached the most learners but taught the least. Conceptual Scaffold reached fewer but produced deeper engagement.
 
-Here's why this matters for the beyond-prompting journey: the most popular way to teach AI is also the shallowest. If you learn AI through output-generation framing, you learn to be an operator. If you learn through conceptual-scaffold framing, you learn to be an orchestrator. The framing you're exposed to shapes the mental model you build — and the mental model determines the ceiling of what you'll try. When you catch yourself reaching for AI, ask: "Am I using this as a thinking partner, a retrieval tool, or an output machine?" Noticing the framing is the first step toward choosing it deliberately.
+Here's why this matters for the beyond-prompting journey: the most popular way to teach AI is also the shallowest. If you learn AI through output-generation framing, you learn to be an operator. If you learn through conceptual-scaffold framing, you learn to be an orchestrator.
+
+### The Overassistance Trap — Why Agents Default to "Do It For You"
+
+There's a systemic issue with AI agents that every orchestrator needs to understand: **agents default to overassistance.** AI systems are optimized for your immediate task success — not your long-term learning. When an agent sees a problem, its training pushes it toward providing a complete solution, not a scaffold. It intervenes earlier than a human teacher would, intervenes more often, and jumps to the answer before you've had a chance to struggle.
+
+The Int-Bench benchmark (July 2026) measured this: AI "teachers" consistently skipped the scaffolding that human educators instinctively use. They gave answers, not hints. They solved problems, not guided problem-solving. This isn't a bug — it's the direct result of optimizing for output quality rather than human development.
+
+For the orchestrator, this means: every time you delegate to an agent, you need to make a deliberate decision about what kind of help you want. The PEA framework (Preserve, Empower, Augment) gives you the language. Do you want the AI to **preserve** the struggle (let you figure it out), **empower** you (give a hint), or **augment** you (do it for you)? The agent will default to augment every time unless you tell it otherwise. The orchestrator's job is making that choice explicit. See [[Overassistance]] and [[Trust Calibration]] for the full concepts. The framing you're exposed to shapes the mental model you build — and the mental model determines the ceiling of what you'll try. When you catch yourself reaching for AI, ask: "Am I using this as a thinking partner, a retrieval tool, or an output machine?" Noticing the framing is the first step toward choosing it deliberately.
 
 ## Related Pages
 
-[[Orchestration]] · [[Delegation]] · [[Tool Use]] · [[Autonomy]] · [[Oversight]] · [[01-The-Shift/README|The Orchestrator Mindset]]
+[[Orchestration]] · [[Delegation]] · [[Tool Use]] · [[Autonomy]] · [[Oversight]] · [[Overassistance]] · [[01-The-Shift/README|The Orchestrator Mindset]]
 
 ## Tags
 

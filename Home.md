@@ -2,7 +2,7 @@
 
 > A living guide to the **operator → orchestrator shift**. If you've ever typed a prompt and thought "there has to be more than this" — start here.
 
-_59 pages across 6 sections. Updated daily. Git-backed, human-readable, cross-linked._
+_60 pages across 6 sections. Updated daily. Git-backed, human-readable, cross-linked._
 
 ---
 
@@ -40,7 +40,7 @@ The core idea. What it means, why it matters, and the three mindsets along the p
 
 ### [[02-Key-Concepts/README|02 — Key Concepts]]
 Approachable distillations of research into learning concepts you can use today.
-→ [[Task Decomposition]] · [[Delegation Thinking]] · [[Cognitive Surrender]] · [[Trust Calibration]] · [[Friction by Design]] · [[The Augmentation Trap]] · [[Co-Construction Blindness]] · [[From Author to Editor]] · [[The Coaching Stance]] · [[The Placement Rule]] · [[The Four Decision Labels]] · [[Memory as Infrastructure]] · [[The Review-First Pattern]] · [[The Sequencing Principle]] · [[Doom Researching]] · [[Reverse-Centaur]] · [[The Collapse Pattern]] · [[Cognitive Load]] · [[The Illusion of Mastery]] · [[The Scaffold Match]] · [[The Jagged Frontier]] · [[Abstention]] · [[Authorship Calibration]] · [[Autonomy]] · [[The Preservation Principle]] · [[The Absorption Pattern]] · [[Delegation Regret]]
+→ [[Task Decomposition]] · [[Delegation Thinking]] · [[Cognitive Surrender]] · [[Trust Calibration]] · [[Friction by Design]] · [[The Augmentation Trap]] · [[Co-Construction Blindness]] · [[From Author to Editor]] · [[The Coaching Stance]] · [[The Placement Rule]] · [[The Four Decision Labels]] · [[Memory as Infrastructure]] · [[The Review-First Pattern]] · [[The Sequencing Principle]] · [[Doom Researching]] · [[Reverse-Centaur]] · [[The Collapse Pattern]] · [[Cognitive Load]] · [[The Illusion of Mastery]] · [[The Scaffold Match]] · [[The Jagged Frontier]] · [[Abstention]] · [[Authorship Calibration]] · [[Autonomy]] · [[The Preservation Principle]] · [[The Absorption Pattern]] · [[The Overassistance Pattern]] · [[Delegation Regret]]
 
 ### [[03-Real-World/README|03 — Real World Stories]]
 Case studies, transformation stories, and honest failure postmortems.
@@ -60,7 +60,7 @@ Plain-language definitions of every key term.
 
 ### 00-Daily-Digests
 Daily curated research digests — what we found, what it means, and how to use it.
-→ [[2026-07-23|Today's Digest]]
+→ [[2026-07-24|Today's Digest]]
 
 ---
 
@@ -80,6 +80,7 @@ _Last 7 days of activity._
 
 | Date | What Changed |
 |------|-------------|
+| 2026-07-24 | Day 5 Practice rotation (Week 4): Daily digest + 1 new concept (The Overassistance Pattern) + 6 pages deepened (The Coaching Stance — Int-Bench overassistance data, First Delegation — PEA Governance Layer, Audit Your Prompts — CT-AI Three-Factor Check, The Scaffold Match — Overassistance Factor, The Absorption Pattern — 775K scientist population evidence, Trust Calibration — Cognitive Distortion Amplification) — The Practice of Pulling Back: AI's factory default is to overassist, and the practice of beyond prompting is the practice of constraining it, backed by 5 new papers |
 | 2026-07-23 | Day 4 Barriers & Bridges rotation (Week 4): Daily digest + 1 new barrier page (The Certification Boundary) + 4 barrier pages deepened (Trust Calibration — Discernment Gap, Knowledge Debt — Certification Crisis, The Just Ask ChatGPT Trap — Popularity Over Reliability, Human Readiness Archetypes — Experiential Bridge + Culture Blind Spot) — the Trust Stack: three layers of the delegation barrier (tool-level discernment failure, training-level metacognitive approach, institutional-level certification crisis) backed by 5 new ARXIV papers |
 | 2026-07-21 | Day 2 Key Concepts rotation (Week 3): Daily digest + 1 new concept (The Absorption Pattern) + 9 pages deepened (Task Decomposition — Absorption Check, The Augmentation Trap — absorption mechanism, The Coaching Stance — 128K conversation evidence, Cognitive Surrender — 4.9% constructive engagement, From Author to Editor — absorption risk, The Scaffold Match — agency match, Trust Calibration — layer attribution, Delegation Thinking — agency gap, The Preservation Principle — absorption link) — the Absorption Pattern: what AI takes when it gives, backed by 5 new papers |
 | 2026-07-20 | Day 1 The Shift rotation (Week 3): Daily digest + 1 new concept (The Preservation Principle) + 5 pages deepened (The Orchestrator Mindset — hidden costs of automation, The Architect Mindset — CRAFT governance, What Is Beyond Prompting — discrimination skill, Why This Matters — cognitive equalizer, Abstention — organizational angle) — the discrimination skill: knowing where AI stops and you begin, backed by 4 new papers |

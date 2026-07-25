@@ -150,6 +150,43 @@ REVIEW CADENCE:
 
 ---
 
+## The PEA Governance Layer
+
+Every delegation is a governance decision — whether you know it or not. New research analyzing 90 AI-assisted learning systems (arXiv:2607.21257, July 2026) identified three dimensions of assistance governance that directly apply to your delegation templates:
+
+### Policy — What Help Is Allowed
+
+Before you hand off a delegation, decide explicitly what kind of assistance you're authorizing. Are you asking the AI to:
+
+- **Generate a complete draft?** (Full assistance — most delegation, works for low-stakes, non-developmental tasks)
+- **Suggest improvements to your draft?** (Moderate assistance — good for tasks where you need to maintain voice and judgment)
+- **Ask you questions that guide your thinking?** (Scaffolded assistance — best for developmental tasks where the struggle builds capability)
+
+The delegation template's Prompt section is your Policy statement. Make it explicit. "Draft this report" is full assistance. "Review my draft for consistency and suggest three improvements" is moderate. "Ask me three questions that would make my draft stronger before you suggest anything" is scaffolded.
+
+### Enforcement — How You'll Catch Oversteps
+
+Policy without enforcement is wishful thinking. For each delegation, name how you'll verify:
+
+- **The three-claim check:** Identify the three most consequential claims in the AI's output. Verify each against an original source.
+- **The overassistance scan:** After receiving the output, ask: "Did the AI do more than I asked for? Did it add analysis I didn't request?" If yes, the enforcement boundary was crossed.
+- **The voice check:** Did the output sound like you or like the AI? If you can't tell, the enforcement boundary needs tightening.
+
+The Enforcement layer is where most delegation templates fail. People write good Policy (the prompt) and skip Enforcement (the review). Good enforcement doesn't mean reviewing everything — it means reviewing the right things.
+
+### Authority — Who Can Override
+
+The scoping review found that in 90 AI systems, authority to configure assistance levels almost never belonged to the user. It was centralized in system logic. Your delegation is different: **you are the authority.** But authority without practice is performance.
+
+For every delegation template, name who decides:
+- **You decide** — on outputs that represent your professional judgment, accountability, or identity
+- **You approve** — on outputs where AI does the heavy lifting but you're the final gate
+- **AI executes** — on outputs where you've verified the pattern enough times to trust it
+
+The PEA framework isn't extra overhead. It's a vocabulary for what you're already doing — just more intentionally. The orchestrator who designs Policy, Enforcement, and Authority for every delegation is the one who moves beyond prompting. The one who doesn't is hoping the AI behaves well.
+
+See also: [[The Overassistance Pattern]] · [[The Coaching Stance]] · [[The Scaffold Match]]
+
 ## Common Pitfalls
 
 **"My first template was too vague."**

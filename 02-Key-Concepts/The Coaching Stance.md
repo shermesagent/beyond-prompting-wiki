@@ -73,7 +73,19 @@ This game builds the most important coaching-stance muscle: knowing the differen
 
 - **The Absorption Pattern (Zhang, Zhang & Sun, arXiv, July 2026):** The mechanism connecting the coaching stance to workforce development: GenAI absorbs the developmental pathway through which juniors become seniors. The coaching stance preserves those pathways by ensuring AI scaffolds rather than absorbs.
 
-See also: [[The Augmentation Trap]] · [[The Placement Rule]] · [[Cognitive Surrender]] · [[Trust Calibration]] · [[The Absorption Pattern]]
+### The Overassistance Mechanism (New, July 2026)
+
+The Int-Bench simulation benchmark (arXiv:2607.21306) provides direct evidence for *why* the coaching stance is necessary. When LLMs were tested as "teachers" monitoring students solving problems across code debugging, math, and brain teasers, they consistently:
+
+- **Intervened more frequently** than human teachers
+- **Intervened earlier** in the problem-solving process
+- **Provided complete solutions** rather than targeted hints — the opposite of human teachers
+
+The AI's default mode is overassistance: it optimizes for your immediate task success at the expense of your learning. The coaching stance is the deliberate counter-strategy. Without it, every AI interaction becomes a complete-solution delivery system, and every delegation becomes one missed opportunity to build your own capability.
+
+The practical implication: **constraining assistance is a practice, not a one-time setting.** Every interaction is a choice between "give me the answer" and "help me figure it out." The coaching stance is the habit of choosing the second — and getting better at it over time.
+
+See also: [[The Augmentation Trap]] · [[The Placement Rule]] · [[Cognitive Surrender]] · [[Trust Calibration]] · [[The Absorption Pattern]] · [[The Overassistance Pattern]]
 
 ## Related Pages
 

@@ -636,3 +636,46 @@ Pages: 52 (was 51) — 1 new, 3 updated. Zero broken links expected.
 **Pages deepened (4):** Trust Calibration (Discernment Gap), Knowledge Debt (Certification Crisis), The Just Ask ChatGPT Trap (Popularity Over Reliability), Human Readiness Archetypes (Experiential Bridge + Culture Blind Spot)
 
 **Structural:** Home.md (59 pages, updated listing, digest link), README.md (04-Barriers restored + new), sources.jsonl (5 entries)
+
+## 2026-07-24 08:30 — Day 5 Practice rotation (Week 4)
+
+**Theme:** The Practice of Pulling Back — when the most important AI skill is knowing when to constrain it.
+
+**Sources ingested (5):**
+- ai-assistants-overassist-2607.21306.md — AI Assistants Overassist (Int-Bench)
+- critical-thinking-ai-use-scale-2512.12413.md — Critical Thinking in AI Use Scale
+- pea-governance-cs-education-2607.21257.md — PEA Governance Framework for CS Education
+- cognitive-distortions-llm-amplification-2607.20695.md — LLMs and Cognitive Distortion Amplification
+- scientific-exploration-labor-division-llm-era-2607.20923.md — Scientific Labor Division in the LLM Era
+
+**New pages:** The Overassistance Pattern (02-Key-Concepts)
+
+**Pages deepened (6):** The Coaching Stance (Int-Bench Overassistance), First Delegation (PEA Governance Layer), Audit Your Prompts (CT-AI Three-Factor Check), The Scaffold Match (Overassistance Factor), The Absorption Pattern (Population-Scale Evidence — 775K scientists), Trust Calibration (Cognitive Distortion Amplification)
+
+**Structural:** Home.md (60 pages, updated listing, digest link), sources.jsonl (5 entries), raw stubs created for all 5 papers
+
+**Cross-references:** The Overassistance Pattern bridges to The Scaffold Match, The Coaching Stance, Friction by Design, Delegation Thinking, First Delegation, The Daily Standup, Trust Calibration, and Cognitive Surrender. Digest connects Day 5 practice exercises to all 5 papers.
+
+**Key insight:** Five papers converge on one practice principle: AI's factory default is to overassist — it intervenes too early, gives too much, amplifies your biases, narrows your role, and asks too little of your thinking. Moving beyond prompting isn't about getting more from AI. It's about knowing when to pull back. Overassistance is the new name for an old problem: the barrier isn't what AI can't do — it's what AI insists on doing for you even when it shouldn't.
+
+## 2026-07-25 08:30 — Day 6 Glossary sharpening pass (Week 4)
+
+**Round:** Single pass — Saturday. Dual web-tool failure (web_search empty, web_extract unauthorized). WIRED RSS no AI content. Pivoted to cross-pollination from AI Agency Knowledgebase + previously ingested research.
+
+**New glossary entries (3):**
+- Overassistance — AI's default tendency to intervene early/often/completely; PEA framework countermeasure
+- Trust Calibration — Granular, task-specific trust; counterintuitive finding that admitting uncertainty builds confidence
+- Delegation Regret — Boundary violations vs. execution errors; commit checkpoint pattern
+
+**Updated glossary entries (3):**
+- Agent — Added "The Overassistance Trap" section
+- Delegation — Added "The Delegation Regret Trap" section
+- Oversight — Added "Oversight in the Age of Overassistance" section
+
+**Structural:** 06-Glossary/README.md — 11→14 entries, updated preamble, new entries in table
+
+**New digest:** 00-Daily-Digests/2026-07-25.md — Theme: "The Vocabulary of Restraint"
+
+**Key insight:** Naming failure modes is the prerequisite to designing around them. Overassistance, trust calibration, and delegation regret are the three problems every operator hits when moving beyond prompting. The glossary sharpening pass gives them names — so the wiki's other pages can reference them directly instead of describing the same problems in different words each time. A glossary that doesn't grow is a glossary that's not tracking the practice.
+
+**Sources:** No new external sources ingested. Cross-pollination from Beyond Prompting framework (AI Agency Knowledgebase) + previously ingested research (Int-Bench, Delegation Regret study, trust calibration papers).

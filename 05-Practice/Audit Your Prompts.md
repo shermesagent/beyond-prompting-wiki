@@ -215,6 +215,57 @@ The orchestrator's calibration: **you should be able to name, specifically, what
 
 ---
 
+## Beyond Categories: The CT-AI Three-Factor Check
+
+The audit you just completed puts your AI use into categories. But a validated research instrument — the Critical Thinking in AI Use Scale (arXiv:2512.12413v2, six studies, N=1,341) — adds another layer: it measures your *disposition* toward critical engagement with AI, not just your behavior patterns.
+
+The scale identifies three factors:
+
+### Verification — Do You Check?
+
+The Verification factor asks: when you use AI, do you habitually verify what it produces? High-Verification users do things like:
+- Check the accuracy of AI information against original sources
+- Evaluate AI-generated information critically
+- Assess the quality of AI output rather than accepting it
+
+After completing your audit, ask: **for each category I identified, did I mention verification as part of my workflow?** If you're categorizing AI use but never verifying output, your categories describe *comfort*, not *competence*.
+
+### Motivation — Do You Understand?
+
+The Motivation factor measures your drive to understand how AI works and where it fails. High-Motivation users:
+- Want to learn about the inner workings of large language models
+- Want to learn about how models can fail or produce biased information
+- Stay curious about how the underlying technology works
+
+After your audit, ask: **do I understand why the AI succeeded or failed in each category?** If a category is "AI great at this" but you can't explain why, that's surface-level categorization. The Motivation factor pushes deeper — toward understanding the mechanism, not just the outcome.
+
+### Reflection — Do You Step Back?
+
+The Reflection factor captures your tendency to consider broader implications. High-Reflection users:
+- Reflect on the social, ethical, and societal implications of AI use
+- Reflect on the societal impact of increasing reliance on AI
+- Evaluate the contribution of AI to society on multiple levels
+
+After your audit, ask: **did any category make me think about what I'm giving up by using AI for this?** If the answer is "no" across all categories, you're auditing for efficiency, not for wisdom. Add one Reflection question to each category: "If I use AI for this for the next year, what changes — in my skill, my judgment, my role?"
+
+### The Two-Minute CT-AI Self-Check
+
+Take your completed audit and score yourself on each factor (1-5):
+
+| Factor | Score (1=never, 5=always) |
+|--------|-------|
+| **Verification** — I verify AI output against sources |
+| **Motivation** — I understand why AI succeeds or fails on each task |
+| **Reflection** — I consider what I'm trading off by using AI |
+
+If any score is 2 or below, that factor is your development target for the next month. The research shows these factors predict real outcomes: higher CT-AI scores correlate with more verification strategies, better fact-checking accuracy, and deeper reflection about responsible AI use.
+
+The audit tells you WHAT you do. The CT-AI check tells you HOW you do it. Both matter. Most people only do the first.
+
+See also: [[The Overassistance Pattern]] · [[Trust Calibration]] · [[Cognitive Surrender]]
+
+---
+
 ## Related Pages
 
 [[05-Practice/README|05 — Practice]] · [[First Delegation]] · [[Build a Tiny Pipeline]] · [[The Line You Draw]] · [[Task Decomposition]] · [[Delegation Thinking]]

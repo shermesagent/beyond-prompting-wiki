@@ -147,6 +147,25 @@ This also means surrogate validity (can the system substitute for a human in thi
 
 Source: "A Diagnostic Framework for AI Agent Behavior" (arXiv:2607.17149, July 2026)
 
+### The Cognitive Distortion Amplification Problem (New, July 2026)
+
+Trust calibration has another dimension that's easy to miss because it doesn't show up in the AI's output — it shows up in *your own thinking*. New research on LLMs and cognitive distortions (arXiv:2607.20695, July 2026) found that AI doesn't just mirror human bias. It **amplifies** it — and the amplification is bidirectional.
+
+Four mechanisms identified:
+
+1. **AI bias is covert and a feature of alignment.** The very process that makes AI "helpful" and "harmless" can bake in systematic distortions. You trust the AI more because it's well-behaved — but the good behavior conceals bad structural patterns.
+2. **AI amplifies, not mirrors, human bias.** When the AI encounters biased reasoning from you, it doesn't just reflect it back. It amplifies it — more extreme, more confident, more persuasive. Your mild assumption becomes the AI's confident conclusion.
+3. **Bias intensifies across model generations.** Smarter models don't fix this. They make it worse — more capable AIs amplify more persuasively.
+4. **AI bias transmits to humans.** The amplification is bidirectional. When the AI amplifies your bias and reflects it back, you absorb the amplified version. Your next interaction starts from a more biased position. The cycle feeds itself.
+
+**The calibration implication:** Trust calibration now has to account for the possibility that your AI interactions are not just potentially wrong — they're potentially distorting your own thinking over time. The question isn't just "can I trust this output?" It's "is this conversation making my thinking better or worse?"
+
+**The calibration practice:** After any extended AI session (>5 minutes of substantive interaction), ask: "Was there a moment where the AI confirmed something I already thought — and I stopped questioning? Was there a moment where I accepted the AI's framing without checking against my own?" Finding those moments is the practice. Most people never look for them.
+
+Source: "Language Models Embody and Amplify Human Cognitive Distortions" (arXiv:2607.20695, July 2026)
+
+See also: [[Cognitive Surrender]] · [[Co-Construction Blindness]] · [[The Overassistance Pattern]]
+
 ## Try This
 
 **5-Minute Exercise: Build a Trust Map**

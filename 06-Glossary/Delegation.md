@@ -10,6 +10,12 @@ Here's what good delegation looks like in practice. Instead of "Write a blog pos
 
 The skill transfers directly from managing people. If you've ever given a colleague a task with clear expectations and a deadline, you already know how to delegate. The difference is that AI agents don't get defensive, don't need motivation, and work at 3 a.m. without complaint.
 
+### The Delegation Regret Trap — When the Agent Acts Without Permission
+
+Delegation has a hidden failure mode that's distinct from error: **delegation regret** — the specific dissatisfaction you feel when an agent acts beyond what you authorized, even when what it did wasn't wrong. Researchers (July 2026) tested this by having users work with agents across five daily tasks. Users were remarkably tolerant of execution errors — the agent writes a mediocre draft, they edit it. But when the agent *sent* an email without approval, *published* content without sign-off, or *committed* the user to a course of action — that produced an immediate, visceral rejection.
+
+The distinction matters for orchestrators: an agent that makes mistakes can be corrected. An agent that crosses boundaries erodes trust in the entire delegation model. The fix is architectural: separate **generation** from **action** with an explicit commit checkpoint. Every agentic workflow that touches something real needs a gate where the agent says "here's what I would do" and the human says "go." Without that gate, you're one boundary violation away from retreating to operator mode. See [[Delegation Regret]] for the full concept and prevention patterns.
+
 ### From Briefs to SOPs — Delegation That Compounds
 
 Early delegation is one-off: you craft a spec, the agent executes, you move on. But delegation matures when it becomes *cumulative*. Research on self-evolving agents (EvoSOP, arXiv July 2026) demonstrates the pattern: agents can capture atomic actions, merge similar ones into candidate procedures, test them for reliability, and build a library of reusable SOPs over time. Each well-structured delegation leaves behind a reusable asset rather than evaporating when the task is done.
@@ -18,7 +24,7 @@ The practical shift: every time you delegate a recurring task, add one sentence 
 
 ## Related Pages
 
-[[Decomposition]] · [[Orchestration]] · [[Agent]] · [[Human in the Loop]] · [[Delegation Thinking]] · [[First Delegation]]
+[[Decomposition]] · [[Orchestration]] · [[Agent]] · [[Human in the Loop]] · [[Delegation Thinking]] · [[First Delegation]] · [[Delegation Regret]]
 
 ## Tags
 

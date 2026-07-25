@@ -32,7 +32,20 @@ This matters for the orchestrator at three levels:
 
 **At the team level:** The Absorption Pattern is structural — it doesn't just happen to individuals. When an organization normalizes AI use without preserving developmental pathways, it's engineering its own expertise shortage. The seniors get faster. The pipeline that would have produced the next seniors gets absorbed. Five years later, you have a capability cliff and no one who can climb it.
 
-**At the ecosystem level:** The Informal Learning study (Honeycutt et al., 128K conversations) found that only 4.9% of LLM interactions involve constructive engagement — the deep sense-making that builds capability. The other 95%+ is answer delivery. If the dominant mode of human-AI interaction doesn't build human capability, the Absorption Pattern isn't a bug in a few workflows — it's a property of the ecosystem.
+- **The Informal Learning study (Honeycutt et al., 128K conversations) found that only 4.9% of LLM interactions involve constructive engagement — the deep sense-making that builds capability. The other 95%+ is answer delivery. If the dominant mode of human-AI interaction doesn't build human capability, the Absorption Pattern isn't a bug in a few workflows — it's a property of the ecosystem.
+
+### Population-Scale Evidence: Scientific Labor Division (New, July 2026)
+
+The Absorption Pattern isn't just a case-study observation — it's now visible at population scale. A massive study of 775,323 scientists and 137,120 multi-author papers (arXiv:2607.20923) found that after 2022:
+
+- **Role sets narrowed.** Contributors on papers reported narrower role sets on average. Scientists became more specialized, not more versatile.
+- **Conceptual work decreased.** Software and validation roles increased, while conceptual and management roles decreased. The AI absorbed the thinking roles and left the execution roles.
+- **AI users' breadth separated from their collaborators' breadth.** Scientists who used AI more heavily became more interdisciplinary — but their interdisciplinarity was less tied to the diversity of their human collaborators. AI replaced human collaborators as the source of breadth.
+- **Roles became more fluid but more fragmented.** Coauthors shared fewer roles in common, and role profiles became less rigid and more flexible. But this fluidity masked a deeper shift: individuals did fewer things, and teams needed more individuals to cover the same breadth.
+
+For the orchestrator, this is the Absorption Pattern at ecosystem scale. If 775,000 scientists — among the world's most skilled knowledge workers — experience role narrowing and conceptual work decline with AI adoption, the pattern isn't about your individual skill level. It's structural. You don't avoid it by being smart or careful. You avoid it by actively designing against it.
+
+The Absorption Check (above) is your counter-measure at the task level. The population-scale data is your warning at the career level.
 
 ## How to Spot It in Your Day
 
