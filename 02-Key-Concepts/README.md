@@ -32,6 +32,8 @@ You don't need to read them in order. Jump to whichever title grabs you. But if 
 20. **[[The Preservation Principle]]** — the formal protocol for when NOT to automate: not everything that can be automated should be.
 21. **[[The Absorption Pattern]]** — the mechanism behind the Augmentation Trap: what AI takes from you when it gives you speed.
 22. **[[Delegation Regret]]** — the specific dissatisfaction when an AI agent acts beyond what you would have authorized — and how to prevent it with boundary statements.
+23. **[[The Overassistance Pattern]]** — AI's factory default is to over-help. Naming the pattern is the first step to designing around it.
+24. **[[Instruction Bleed]]** — when editing one prompt module silently changes another's behavior — the orchestrator's invisible failure mode.
 
 ---
 
@@ -41,7 +43,7 @@ Most people stuck in Phase 2 (operator mode) aren't stuck because they lack tech
 
 They came out of real research — papers on human-AI collaboration, case studies from practitioners, honest failure postmortems. But they're written so you don't need a background in any of that. If you've ever used ChatGPT and thought "there has to be more than this," you already have everything you need to start.
 
----
+> **Full listing:** See [[Home]] for the complete concept index. Some pages were added after this README was written; the Home page is always up to date.
 
 ## Concepts At a Glance
 
@@ -65,10 +67,12 @@ They came out of real research — papers on human-AI collaboration, case studie
 | [[The Jagged Frontier]] | Which tasks has AI already crossed and which is it still behind on — and what does that mean for your role? | Orchestrator |
 | [[Abstention]] | When should your AI say no, not yet, or not this way? | Architect |
 | [[Authorship Calibration]] | What did *I* contribute vs. what did the AI contribute? | Orchestrator |
-|| [[Autonomy]] | How much independence should an AI agent have? | Orchestrator |
-|| [[The Preservation Principle]] | When should I NOT automate? | Everyone |
-|| [[The Absorption Pattern]] | What is this AI interaction doing to *me*? | Everyone |
-|| [[Delegation Regret]] | What happens when an AI agent crosses my authorization boundary — and how do I prevent it? | Operator → Orchestrator |
+| [[Autonomy]] | How much independence should an AI agent have? | Orchestrator |
+| [[The Preservation Principle]] | When should I NOT automate? | Everyone |
+| [[The Absorption Pattern]] | What is this AI interaction doing to *me*? | Everyone |
+| [[Delegation Regret]] | What happens when an AI agent crosses my authorization boundary — and how do I prevent it? | Operator → Orchestrator |
+| [[The Overassistance Pattern]] | Why does AI default to over-helping — and how do I constrain it? | Orchestrator |
+| [[Instruction Bleed]] | When editing one prompt silently changes another's behavior — how do I catch it? | Orchestrator |
 
 ---
 

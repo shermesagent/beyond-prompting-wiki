@@ -60,9 +60,25 @@ The orchestrator's decomposition isn't just about what the task *is*. It's about
 
 Time yourself. If you're still writing subtasks at the 5-minute mark, pick a smaller original goal next time.
 
+## The Instruction Bleed Warning
+
+There's a hidden cost to how you decompose: **adjacent subtask prompts sharing a context window can silently interfere with each other.** Lin & Liu (arXiv:2606.26356) formalized this as Compositional Behavioral Leakage (CBL), and we call it [[Instruction Bleed]].
+
+Here's the problem. You decompose a big task into three subtasks. Each gets its own prompt template. Everything works. Then you improve subtask #1 — better wording, clearer expectations — and suddenly subtask #2's output drifts. No shared variables. No explicit dependency. Just two prompts occupying the same context window, and one's change subtly warping the other's behavior.
+
+This matters for decomposition because **the closer your subtasks sit to each other in a shared context, the more vulnerable they are to bleed.** The fix isn't to stop decomposing — it's to be intentional about isolation:
+
+- **Same-chat decomposition** (all subtasks in one chat window) is convenient but bleed-prone. Use it for rough drafts, not production pipelines.
+- **Separate-window decomposition** (each subtask in its own context) eliminates bleed at the cost of manual handoffs. Use it when output quality matters more than speed.
+- **Reset-gated decomposition** (add explicit "ignore all previous instructions" between subtasks) is a middle ground. It helps but doesn't fully eliminate bleed — residual context can still leak.
+
+The orchestrator's decomposition isn't just about what the pieces are. It's about how close they sit to each other, and which ones can leak.
+
+See [[Instruction Bleed]] for the full concept, the isolation test pattern, and the connection to [[Friction by Design]].
+
 ## Related Pages
 
-[[Delegation Thinking]] · [[Trust Calibration]] · [[01-The-Shift/README|The Orchestrator Mindset]] · [[05-Practice/README|Practice Section]]
+[[Delegation Thinking]] · [[Trust Calibration]] · [[01-The-Shift/README|The Orchestrator Mindset]] · [[05-Practice/README|Practice Section]] · [[Instruction Bleed]] · [[Friction by Design]]
 
 ## Tags
 

@@ -679,3 +679,35 @@ Pages: 52 (was 51) — 1 new, 3 updated. Zero broken links expected.
 **Key insight:** Naming failure modes is the prerequisite to designing around them. Overassistance, trust calibration, and delegation regret are the three problems every operator hits when moving beyond prompting. The glossary sharpening pass gives them names — so the wiki's other pages can reference them directly instead of describing the same problems in different words each time. A glossary that doesn't grow is a glossary that's not tracking the practice.
 
 **Sources:** No new external sources ingested. Cross-pollination from Beyond Prompting framework (AI Agency Knowledgebase) + previously ingested research (Int-Bench, Delegation Regret study, trust calibration papers).
+
+## 2026-07-26 08:30 — Day 7 Cross-section lint pass (Week 4)
+
+**Round:** Single pass. Web tools unavailable. Pivoted to cross-pollination from AI Agency Knowledgebase (Task-Level AI Adoption, Adoption Readiness Checklist, Agency Expansion Framework).
+
+**Theme:** The Invisible Plumbing — What Changes When Your Prompts Become Pipelines
+
+**New concept page (1):**
+- Instruction Bleed — Compositional Behavioral Leakage (CBL): when editing one prompt module silently shifts another's behavior. Lin & Liu (arXiv:2606.26356) formalization. Connected to Task Decomposition, Friction by Design, Trust Calibration, and Build a Tiny Pipeline.
+
+**Pages deepened (3):**
+- Task Decomposition — Added "The Instruction Bleed Warning" section: same-chat vs separate-window vs reset-gated decomposition strategies
+- Build a Tiny Pipeline — Added "The Infrastructure Readiness Check": agent-readiness diagnostic (89.3% vs 49.3% success gap on agent-ready vs human-only infrastructure), plus Instruction Bleed double-check
+- Friction by Design — Added "Friction You Didn't Design: Instruction Bleed" section: deliberate vs. emergent friction distinction
+
+**Cross-links added (8):**
+- Instruction Bleed → Task Decomposition, Friction by Design, Trust Calibration, Build a Tiny Pipeline, Delegation Thinking
+- Build a Tiny Pipeline → From Prompt to Pipeline, Instruction Bleed
+- Friction by Design → Instruction Bleed
+
+**Structural (Day 7 lint pass):**
+- Home.md: page count 60→63, digest link updated, 02-Key-Concepts listing → 29 (added Instruction Bleed), 06-Glossary listing → 14 (added Overassistance, Trust Calibration, Delegation Regret, Autonomy, Abstention)
+- 02-Key-Concepts/README.md: numbered list 22→24 (added Overassistance Pattern, Instruction Bleed), fixed table formatting (4 double-pipe entries), added Home.md cross-reference note
+- Verified no broken wikilinks across all 6 sections
+- No orphan pages identified — every concept page has both inbound and outbound links
+- Two pages flagged for future attention: Build a Tiny Pipeline (240 lines), Audit Your Prompts (265 lines)
+
+**New digest:** 00-Daily-Digests/2026-07-26.md — Theme: "The Invisible Plumbing — What Changes When Your Prompts Become Pipelines"
+
+**Key insight:** The orchestrator's failure modes are different from the operator's — and most of them are invisible. An operator's failure is visible: the output is wrong. An orchestrator's failure can be silent for days. Instruction Bleed gives a name to one class of invisible failure: your pipelines have plumbing, and the plumbing can leak without your noticing. The Day 7 lint pass confirms the wiki is structurally healthy: 63 pages, no broken links, no orphans, and all cross-section connections verified.
+
+**Sources:** Cross-pollination from AI Agency Knowledgebase frameworks: Task-Level AI Adoption (infrastructure readiness dimension), Adoption Readiness Checklist (Instruction Bleed / CBL), Agency Expansion Framework (discretionary work scaffolding). No new external sources ingested.

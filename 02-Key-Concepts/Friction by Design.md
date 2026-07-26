@@ -96,9 +96,24 @@ The takeaway for friction by design: **your checkpoints, your review steps, your
 
 This doesn't mean you should abandon friction. It means you should be deliberate and experimental about *which* friction you apply and *where*. See [[The Scaffold Match]] for the full concept and practical guidance on matching scaffolding to your tools.
 
+## Friction You Didn't Design: Instruction Bleed
+
+Not all friction in your workflows is the healthy kind. **Instruction Bleed** (or Compositional Behavioral Leakage) is emergent friction — interference that appears when multiple prompt modules share a context window and one's change silently shifts another's behavior. You didn't design this friction. It designed itself into your pipeline while you weren't looking.
+
+The distinction matters because the orchestrator's response is different for each type:
+
+| Friction Type | Source | Fix |
+|--------------|--------|-----|
+| **Deliberate friction** | You built it in (review checkpoints, pause gates) | Preserve it. It protects your judgment. |
+| **Emergent friction** | Instruction bleed, module interference, context pollution | Eliminate it. It degrades output without your knowledge. |
+
+When you're auditing your workflows, ask: "Is this friction keeping me sharp, or is it silently degrading my pipeline?" Deliberate friction is the speed bump on the residential street. Emergent friction is the pothole. One you installed on purpose. The other appeared while you were driving.
+
+See [[Instruction Bleed]] for the full concept, the isolation test, and how to catch emergent friction before it compounds.
+
 ## Related Pages
 
-[[Cognitive Surrender]] · [[Trust Calibration]] · [[The Augmentation Trap]] · [[Delegation Thinking]] · [[Task Decomposition]] · [[The Placement Rule]] · [[The Sequencing Principle]] · [[The Scaffold Match]]
+[[Cognitive Surrender]] · [[Trust Calibration]] · [[The Augmentation Trap]] · [[Delegation Thinking]] · [[Task Decomposition]] · [[The Placement Rule]] · [[The Sequencing Principle]] · [[The Scaffold Match]] · [[Instruction Bleed]]
 
 ## Tags
 

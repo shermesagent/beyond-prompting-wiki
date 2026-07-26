@@ -224,15 +224,38 @@ This is the orchestrator's version of a pipeline dashboard. Three tags, applied 
 
 ---
 
+## The Infrastructure Readiness Check
+
+Your pipeline is only as good as the tools it talks to. Research from task-level AI adoption studies (AI Agency Knowledgebase, Task-Level AI Adoption framework) found a startling gap: agent success rates nearly double on agent-ready websites (89.3%) compared to human-only websites (49.3%). Same agent. Same task. Different infrastructure.
+
+Before you trust any pipeline, run this diagnostic on every tool in the chain:
+
+| Check | Question | Red Flag |
+|-------|----------|----------|
+| **Machine readability** | Are the buttons, forms, and data the agent needs to interact with structured for machines? | Agent has to "read" a human-designed webpage with visual layout cues |
+| **API availability** | Can the agent interact programmatically, or only through a GUI? | The only path is clicking and scrolling — no structured data endpoint |
+| **Error handling** | Does the tool return clean error messages the agent can parse? | Errors return as styled HTML pages with no machine-readable codes |
+| **State persistence** | Can the agent pick up where it left off without losing context? | Tool times out sessions or requires re-authentication mid-workflow |
+
+Each red flag is a failure point. Not a "maybe" — a "when, not if" failure point. You can fix some of these (add an API wrapper, pre-process the data into a structured format before feeding it to the agent). Others are the infrastructure ceiling for your pipeline: you can't delegate past what the tool can handle.
+
+**The orchestrator's infrastructure check:** Before you blame your delegation template, verify that every tool your pipeline touches was built with machine readability in mind. If the last link in the chain is human-only, that's your reliability ceiling — not your delegation skill.
+
+See [[From Prompt to Pipeline]] for a real-world example of an infrastructure-gated pipeline (Mara's HR workflow, where every step had an agent-accessible interface by design).
+
+### The Instruction Bleed Double-Check
+
+If your pipeline runs multiple prompts in the same context window, add one more check: [[Instruction Bleed]]. When you edit step 1's template, does step 2's output drift? Multi-step pipelines sharing context are vulnerable to compositional behavioral leakage — changes in one module silently shifting another's behavior. The isolation test takes 10 minutes and catches a problem that would otherwise silently degrade your pipeline for weeks.
+
 ## What Comes Next
 
-Use this pipeline three times. Note where the handoff needs tightening. Tag it with a reliability level. Then you're ready for [[The Daily Standup]], where you'll build the habit of reviewing and improving your pipelines as a regular practice — the orchestrator's version of a standup meeting.
+Use this pipeline three times. Note where the handoff needs tightening. Run the infrastructure readiness check on every tool in the chain. Tag it with a reliability level. Then you're ready for [[The Daily Standup]], where you'll build the habit of reviewing and improving your pipelines as a regular practice — the orchestrator's version of a standup meeting.
 
 ---
 
 ## Related Pages
 
-[[05-Practice/README|05 — Practice]] · [[First Delegation]] · [[Audit Your Prompts]] · [[The Daily Standup]] · [[Task Decomposition]] · [[Delegation Thinking]]
+[[05-Practice/README|05 — Practice]] · [[First Delegation]] · [[Audit Your Prompts]] · [[The Daily Standup]] · [[Task Decomposition]] · [[Delegation Thinking]] · [[From Prompt to Pipeline]] · [[Instruction Bleed]]
 
 ## Tags
 
