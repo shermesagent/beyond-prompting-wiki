@@ -69,13 +69,31 @@ You are still in prompting mode when you catch yourself doing any of these thing
 
 The first signal you are moving beyond prompting: you describe *what outcome you want*, not *how to produce it*.
 
+## The Interface Shapes the Mindset (July 2026)
+
+The shift from operator to orchestrator isn't just about what you know or what you're willing to try. It's about what the *interface lets you do.*
+
+Shneiderman (arXiv:2607.21598) names the core problem: the default AI interface is a blank prompt box. It demands recall — you must remember what you want, what format you need, what constraints matter, and how to ask for it effectively, every time. The alternative is a control panel: visual sliders, structured fields, and pre-built templates that clarify your intent by showing you what's possible. "Recognition over recall" is the UX principle. When you don't have to remember the format — the interface shows you the format as an option — you free up attention for the higher-order decision: what outcome matters.
+
+Mollick's July 2026 guide confirms that the world has already shifted around this insight. "Until recently, using AI meant talking to a model through a chatbot in a constant back-and-forth conversation. Now, it means using an agentic system, where the AI is capable of doing the equivalent of many hours of real human work in one go." ChatGPT Work and Claude Cowork give AI its own computer. You describe the outcome, the agent plans the steps, and you check the result. That's the blank box dissolving into a delegation interface — the orchestrator's native environment.
+
+The blank box is an operator's home. Building structure around it — templates, saved instructions, delegation specs — is the orchestrator's first move. See [[The Blank Box Problem]] for how to start.
+
+## The Economic Logic of the Shift (July 2026)
+
+Why is the operator→orchestrator shift urgent rather than optional? Banerjee & Singh (arXiv:2607.20781) provide the formal answer. Their Human-AI Substitution Principle models a fundamental asymmetry: human skill acquisition is slow, bounded, and costly. AI capability scaling is fast, cheap, and nearly unbounded. The model identifies a precise threshold where substitution becomes rational for organizations — and shows that transitions can be abrupt, not gradual.
+
+The structural implications are stark. Middle-management roles are the most vulnerable — they sit at the intersection of routine coordination and scalable AI capability. Highly skilled workers are protected only above a threshold shaped by organizational depth, costs, and risk differentials. The framing the model provides is simple: operators do what AI will soon do cheaper. Orchestrators do what AI cannot yet define — set goals, allocate risk, exercise judgment at the boundaries.
+
+This isn't fearmongering. It's a map. The shift isn't a lifestyle choice. It's positioning yourself where the economic asymmetry works for you, not against you.
+
 ## Try This
 
 Open your most-used AI tool right now. Instead of asking it to do something, give it a goal and a constraint. Say: "I need a report on X. Figure out what information you need, collect it, and produce a one-page summary. Ask me clarifying questions only if you absolutely must." Notice how different that feels — and how much more you get back.
 
 ## Related Pages
 
-[[The Operator Mindset]] · [[The Orchestrator Mindset]] · [[Why This Matters]]
+[[The Operator Mindset]] · [[The Orchestrator Mindset]] · [[Why This Matters]] · [[The Blank Box Problem]]
 
 ## Tags
 

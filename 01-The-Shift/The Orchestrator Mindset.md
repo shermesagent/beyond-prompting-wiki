@@ -80,6 +80,24 @@ The practical connection: every time you label a task "human-only" or "prohibit 
 
 See [[The Preservation Principle]] for the full protocol.
 
+## The Overtrust Engine: Trust What You Test, Not What You Built (July 2026)
+
+Here's a warning specifically for orchestrators. You built a pipeline. You debugged it over three afternoons. You know every module, every handoff, every edge case you handled. You *feel* good about it.
+
+Fell (arXiv:2607.21757) studied what happens when people co-design AI agents with the very people those agents are supposed to represent. Twelve participants co-designed preference agents in household energy. They engaged readily, came to see their agents as representing them well — and felt deep trust in the result. Independent validation told a different story. The agents were significantly more homogeneous, more decisive, and more abstract than the humans they were built to represent. The co-design process had built trust *without* building accuracy.
+
+Fell calls this the **overtrust engine**: participation and process transparency produce trust, but that trust can conceal systematic misalignment. The more effort you invest in building a system, the more trust you feel — independent of how well it actually works.
+
+The orchestrator's countermeasure is simple: **trust what you test, not what you built.** Every pipeline needs a held-out validation set — data it wasn't built with — and a benchmark it must pass before you deploy. Your ownership feelings are real. They are not evidence. Test anyway.
+
+## Control Panels, Not Prompts (July 2026)
+
+Shneiderman (arXiv:2607.21598) proposes replacing blank prompt windows with visual control panels — sliders, dropdowns, structured fields that clarify intent by showing you what's possible. The UX principle is "recognition over recall": it's easier to choose from a menu than to generate options from memory.
+
+For the orchestrator, this isn't about waiting for a UI redesign. It's about applying the principle to your own delegation. Every time you save a template with labeled sections (Context, Goal, Format, Constraints), you're building a control panel. Every time you create a reusable prompt structure that team members can fill out instead of inventing from scratch, you're replacing recall with recognition. The orchestrator's job is to build interfaces — for yourself, for your team, for anyone who picks up your pipeline later. Not blank boxes with a cursor. Structured delegation tools that show people what's possible.
+
+See [[The Blank Box Problem]] for how to start.
+
 ## The Shift Has Hard Data Now
 
 SolarWinds' 2026 IT Trends Report (1,000+ IT professionals surveyed, April 2026) confirms four dimensions of the shift — the same ones operators experience as they move toward orchestration:
@@ -116,7 +134,7 @@ Take the mechanical sequences you circled in [[The Operator Mindset]] exercise. 
 
 ## Related Pages
 
-[[What Is Beyond Prompting]] · [[The Operator Mindset]] · [[The Architect Mindset]] · [[Why This Matters]] · [[The Four Decision Labels]] · [[Delegation Thinking]]
+[[What Is Beyond Prompting]] · [[The Operator Mindset]] · [[The Architect Mindset]] · [[Why This Matters]] · [[The Four Decision Labels]] · [[Delegation Thinking]] · [[The Blank Box Problem]]
 
 ## Tags
 

@@ -711,3 +711,16 @@ Pages: 52 (was 51) — 1 new, 3 updated. Zero broken links expected.
 **Key insight:** The orchestrator's failure modes are different from the operator's — and most of them are invisible. An operator's failure is visible: the output is wrong. An orchestrator's failure can be silent for days. Instruction Bleed gives a name to one class of invisible failure: your pipelines have plumbing, and the plumbing can leak without your noticing. The Day 7 lint pass confirms the wiki is structurally healthy: 63 pages, no broken links, no orphans, and all cross-section connections verified.
 
 **Sources:** Cross-pollination from AI Agency Knowledgebase frameworks: Task-Level AI Adoption (infrastructure readiness dimension), Adoption Readiness Checklist (Instruction Bleed / CBL), Agency Expansion Framework (discretionary work scaffolding). No new external sources ingested.
+
+## 2026-07-27 | ingest | Daily curation — Day 1 The Shift rotation (Week 5) — 4 sources on interfaces, overtrust, substitution, and agentic shift
+- Theme: The Interface Is the Operating System — How the Box You Type Into Shapes Which Mindset You Inhabit
+- Sources ingested:
+  - Shneiderman — "Control panels to clarify user intent with Large Language Models" (arXiv:2607.21598)
+  - Fell — "Co-design of LLM-based preference agents: participation may drive overtrust" (arXiv:2607.21757)
+  - Banerjee & Singh — "The Human-AI Substitution Principle" (arXiv:2607.20781)
+  - Mollick — "An opinionated guide to which AI to use to do stuff" (One Useful Thing, July 23, 2026)
+- Pages created: The Blank Box Problem (new concept — why the blank prompt box keeps you in operator mode and how to build your own structure)
+- Pages updated: What Is Beyond Prompting (+Interface Shapes the Mindset section, +Economic Logic of the Shift section), The Operator Mindset (+The World Changed section, +The Blank Box Keeps You Here section), The Orchestrator Mindset (+The Overtrust Engine section, +Control Panels Not Prompts section)
+- Digest: 00-Daily-Digests/2026-07-27.md
+- Sources: 4 entries added to sources/sources.jsonl
+- Key insight: The blank prompt box is not neutral — it's an operator's interface. Shneiderman's control panels, Fell's overtrust engine, Banerjee & Singh's substitution principle, and Mollick's agentic landscape update all converge on one finding: the interface shapes the mindset. Changing what you type into changes how you think about delegation.

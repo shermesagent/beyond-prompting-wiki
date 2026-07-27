@@ -46,6 +46,22 @@ This is the operator trap in one finding. The AI gives you six options and you p
 
 Another paper out today (arXiv:2607.09215) shows the tooling side of this trap: 72.6% of professional developers say they want more control over how their AI tools behave — confidence thresholds, suggestion quality, response length. But only about one-third actually have that control in their current tools. The ecosystem treats you like an operator by default. Recognizing that is the first step to pushing back.
 
+## The World Changed (July 2026)
+
+Ethan Mollick's latest guide (July 23, 2026) captures what shifted while you weren't looking:
+
+> "Until recently, using AI meant talking to a model through a chatbot in a constant back-and-forth conversation. Now, it means using an agentic system, where the AI is capable of doing the equivalent of many hours of real human work in one go by combining the brains of an AI model with a set of tools that let it plan and act for you."
+
+This is the operator's wake-up call in a paragraph. If you're still treating AI as a chat partner — one prompt, one response, repeat — you're using a 2025 workflow on a 2026 system. ChatGPT Work and Claude Cowork now give AI its own computer. You describe the outcome, the agent works for 10-30 minutes (or hours), and you check the result. The blank box you type into hasn't changed — but what happens after you hit enter has transformed completely.
+
+The operator who doesn't know this is like a driver who hasn't heard about cruise control. You can still get where you're going. But you're doing a lot more work than the car requires.
+
+## The Blank Box Keeps You Here (July 2026)
+
+Shneiderman (arXiv:2607.21598) identifies why operating feels like the only option: the default AI interface is a blank text box that demands recall for every interaction. You must remember what you want, what format, what constraints, and how to phrase it — all at once, every time. UX research has known for decades that recognition (being shown options) is dramatically easier than recall (generating options from memory). The blank box flips that. It's designed for recall, and recall is genuinely hard.
+
+This is not a personal failing. The interface defaults you into operator mode. The first act of orchestration is recognizing that and building structure around the box — templates, saved instructions, delegation specs. See [[The Blank Box Problem]].
+
 ## Automation's Hidden Cost
 
 A randomized controlled trial published today (arXiv:2607.08849) adds experimental weight to something operators sense intuitively: using AI to *generate output* (automation) produces short-term gains that vanish when the AI is removed. Using AI to *explain concepts* (augmentation) produces gains that persist. Students who automated their essay writing saw their quality improvements disappear a week later. Students who used AI as a tutor — asking it to explain ideas, not write text — retained what they learned and wrote better essays unaided.
@@ -69,7 +85,7 @@ Pick one task you do with AI at least twice a week. Write down every step you ta
 
 ## Related Pages
 
-[[What Is Beyond Prompting]] · [[The Orchestrator Mindset]] · [[The Architect Mindset]]
+[[What Is Beyond Prompting]] · [[The Orchestrator Mindset]] · [[The Architect Mindset]] · [[The Blank Box Problem]]
 
 ## Tags
 
