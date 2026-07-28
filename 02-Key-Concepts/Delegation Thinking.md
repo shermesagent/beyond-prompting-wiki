@@ -50,6 +50,21 @@ Now write your instruction as if you're texting a colleague. Not "help me with..
 
 Do this once. That's it. Just notice how it feels different from your usual opener.
 
+## Plan Mode: Evidence That Planning Before Execution Pays Off
+
+New research on spreadsheet agents (arXiv:2607.23670, July 2026) puts empirical weight behind the pattern described in [[The Sequencing Principle]] and [[The Review-First Pattern]]. Researchers gave 24 users a spreadsheet agent with an optional "plan mode" — before the agent executed anything, human and agent co-developed a plan together.
+
+The findings challenge the assumption that planning feels like bureaucracy:
+
+- **Quality was equivalent** — plan mode didn't produce better output, but it didn't hurt either
+- **Refinement decreased** — less back-and-forth fixing and re-prompting. Users spent less time correcting the agent's work.
+- **Perceived creativity support increased** — users rated the tool higher on creativity support when they planned first
+- **Human-machine collaboration scores went up** — planning together felt more collaborative than jumping straight to execution
+
+The mechanism isn't surprising in retrospect: a plan makes delegation boundaries explicit. The agent knows what success looks like. The human knows what to expect. Neither wastes time on corrections that a shared plan would have prevented.
+
+**The practical takeaway:** Building a plan step into your delegation flow is an efficiency play, not just a quality play. It reduces the rework that comes from misaligned expectations. The smallest version: before delegating anything that takes more than one exchange, spend 30 seconds describing what success looks like and what the agent should NOT do. That 30 seconds is the cheapest rework prevention you can buy.
+
 ## The Specification Gap
 
 Research from a new benchmark (SpecBench, June 2026) found that today's AI agents fall into exactly two unhelpful patterns when given vague instructions: they either jump into implementation too fast (assuming they understood you) or exhaust their question budget by asking about every possible ambiguity. Neither works.
@@ -85,7 +100,7 @@ The finding that should change how you think about delegation: **the orchestrati
 
 **What this means for you:** Chasing the newest model is a low-leverage activity compared to improving how you delegate. The person running 5 AI streams with a well-designed orchestration layer gets the output of ~9 streams with a sloppy one. The spec, the constraints, the checkpoints — the things you control *before* the AI ever runs — are a bigger leverage point than which model you're delegating to.
 
-See also: [[Task Decomposition]] · [[Co-Construction Blindness]] · [[The Sequencing Principle]] · [[SOP]] · [[Cognitive Load]]
+See also: [[Task Decomposition]] · [[Co-Construction Blindness]] · [[The Sequencing Principle]] · [[SOP]] · [[Cognitive Load]] · [[AI Context Anxiety]]
 
 ## Building the SOP Library — Delegation That Compounds
 

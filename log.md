@@ -724,3 +724,17 @@ Pages: 52 (was 51) — 1 new, 3 updated. Zero broken links expected.
 - Digest: 00-Daily-Digests/2026-07-27.md
 - Sources: 4 entries added to sources/sources.jsonl
 - Key insight: The blank prompt box is not neutral — it's an operator's interface. Shneiderman's control panels, Fell's overtrust engine, Banerjee & Singh's substitution principle, and Mollick's agentic landscape update all converge on one finding: the interface shapes the mindset. Changing what you type into changes how you think about delegation.
+
+### 2026-07-28 — Day 2: Key Concepts
+- Rotation: Day 2 (Key Concepts) — arXiv RSS feed discovery (cs.AI, cs.HC)
+- Sources ingested (5):
+  - "Lost in Context: Addressing Context Anxiety in Large Language Models" (arXiv:2607.21616)
+  - "From Vibe to Code — and Back: Lexical Oscillation in the Formation of Design Intent with Generative AI" (arXiv:2607.23126)
+  - "Plans Work in Mysterious Ways: Evaluating a Plan Mode for Spreadsheet Agents" (arXiv:2607.23670)
+  - "Reflections and Recommendations on AI Adoption Practice from a Mixed-Ability Research Group" (arXiv:2607.22886)
+  - "LoRA Fails to Match Full Fine-Tuning for Procedural Knowledge at Commonly Used Ranks" (arXiv:2607.21612)
+- Pages created (2): AI Context Anxiety (new concept — agents give up prematurely due to token misestimation, a silent delegation failure), Lexical Oscillation (new concept — AI output reshapes human intent through iterative interaction, challenging the linear delegation model)
+- Pages updated (3): Co-Construction Blindness (+The Vibe Trap section connecting to Lexical Oscillation, +cross-reference), Delegation Thinking (+Plan Mode evidence section, +AI Context Anxiety cross-reference), Task Decomposition (+Context Anxiety decomposition principle, +Procedural Knowledge LoRA limitation, +cross-references)
+- Digest: 00-Daily-Digests/2026-07-28.md
+- Sources: 5 entries added to sources/sources.jsonl
+- Key insight: The agent's silent failures are more dangerous than its loud ones. Context anxiety (premature stops that look like complete output) and lexical oscillation (AI reshapes intent without you noticing) are two invisible delegation failure modes that standard verification checkpoints won't catch. The orchestrator's edge isn't better prompts — it's knowing what the agent doesn't tell you.

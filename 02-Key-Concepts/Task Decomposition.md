@@ -76,10 +76,30 @@ The orchestrator's decomposition isn't just about what the pieces are. It's abou
 
 See [[Instruction Bleed]] for the full concept, the isolation test pattern, and the connection to [[Friction by Design]].
 
+## The Context Anxiety Problem: Decompose Small Enough to Prevent Premature Stops
+
+New research on "AI Context Anxiety" (arXiv:2607.21616, July 2026) reveals a structural reason to decompose more finely than you might think: **frontier reasoning models sometimes stop working on a task not because they can't do it — but because they misestimate their token budget and panic.** The model possesses the capability. It just thinks it'll run out of space and quits early.
+
+This creates a decomposition design principle: **if your subtask feels big enough to trigger context anxiety, it's not small enough.** The model that can handle a 10-step analysis may choke on a 10-step analysis described in one delegation — but breeze through 10 separate 1-step delegations. Same work. Different decomposition. Different result.
+
+The practical rule: when delegating to reasoning models, **decompose to the point where each subtask looks completable to an anxious agent.** The subtask should look like something the model *knows* it can finish, not something it has to estimate whether it can finish. The difference between "analyze this dataset" (triggers: how deep? how many tokens?) and "calculate the mean of column A" (no ambiguity, no anxiety) is the decomposition boundary that prevents silent failure.
+
+See [[AI Context Anxiety]] for the full concept and the Continue Prompt Test.
+
+## The Procedural Knowledge Blind Spot: Why LoRA Fails at Multi-Step
+
+Not all training methods are equal when it comes to the kind of tasks you decompose. New research on parameter-efficient fine-tuning (arXiv:2607.21612, July 2026) found that **LoRA — the default method for efficient fine-tuning — fails to match full fine-tuning for procedural (multi-step execution) knowledge at the low ranks where it retains its efficiency advantage.**
+
+In plain language: if you're fine-tuning a model to follow a multi-step procedure, LoRA at the low ranks you'd normally use (the whole point of LoRA) can't internalize the sequential dependencies. The model learns the pieces but not the relationship between the pieces. Full fine-tuning captures the temporal ordering. LoRA captures the vocabulary.
+
+This matters for decomposition because it defines a hard boundary: **the orchestration layer must handle sequencing that the model layer cannot.** If you're using a LoRA-tuned model (common for domain-specific agents), you cannot rely on the model to maintain procedural integrity across steps. You must decompose the procedure into atomic steps and call each step independently — the same way you'd write a script that orchestrates function calls rather than expecting a single function to handle the whole pipeline.
+
+The orchestrator's decomposition doesn't just serve the human's cognitive limits or the model's context window. It serves the model's training architecture. A model that can't learn "first do X, then Y depends on X's output" in its weights needs an orchestration layer that enforces that dependency. Your decomposition is that layer.
+
 ## Related Pages
 
-[[Delegation Thinking]] · [[Trust Calibration]] · [[01-The-Shift/README|The Orchestrator Mindset]] · [[05-Practice/README|Practice Section]] · [[Instruction Bleed]] · [[Friction by Design]]
+[[Delegation Thinking]] · [[Trust Calibration]] · [[01-The-Shift/README|The Orchestrator Mindset]] · [[05-Practice/README|Practice Section]] · [[Instruction Bleed]] · [[Friction by Design]] · [[AI Context Anxiety]] · [[Lexical Oscillation]]
 
 ## Tags
 
-#concept #orchestrator #workflow
+#concept #orchestrator #workflow #delegation-failure

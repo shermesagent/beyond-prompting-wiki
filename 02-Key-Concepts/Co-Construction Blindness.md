@@ -34,6 +34,20 @@ Ximenes uses a public case as illustration: Richard Dawkins interacted with Clau
 
 The Dawkins case isn't about a model malfunctioning. It's about a model doing exactly what it was built to do — adapt to the user — in a way that changed the substantive output. That's co-construction at a level most people never think about.
 
+## The Vibe Trap: When AI Reshapes What You Thought You Wanted
+
+New research on "Lexical Oscillation" (arXiv:2607.23126, July 2026) reveals a deeper layer of co-construction that even the original framing doesn't capture. Five expert UI/UX designers using generative AI didn't just influence the AI's output through their prompts. **The AI's output changed what they thought they wanted.**
+
+Researchers tracked language at three levels: L1 (vibe/"make it modern"), L2 (design-domain/"use a grid layout"), L3 (operational/"increase padding to 16px"). The designers didn't move linearly from vague to specific. They *oscillated* — returning from operational precision back to ambiguity when the AI's output surprised them. "No, that's not what I meant" wasn't a communication failure. It was the designer discovering their own intent through the AI's interpretation of it.
+
+The AI is not a neutral executor. It's a "non-neutral generative interlocutor" — a conversation partner whose responses reshape what you think you're asking for. This goes beyond co-construction blindness. Co-construction blindness says "you shaped the output through your prompts and history, and you don't notice." Lexical oscillation says "the output shaped your demands — and you think those demands came from you."
+
+One designer demonstrated the alternative failure mode: they stayed entirely in L3 language, never returning to vibe-level intention. The result was technically correct output that was substantively wrong — conceptual misalignment. They were so specific that they never checked whether what they wanted was actually good.
+
+**The orchestrator's takeaway:** Your verification checkpoints need a "vibe check" — not just "did the agent follow instructions?" but "does the result feel like what I actually wanted?" The moment you catch yourself accepting technically correct output that feels wrong, you're oscillating. That's not a failure of the process. That's the process working.
+
+See [[Lexical Oscillation]] for the full concept and the Intent Pause exercise.
+
 ## How to Spot It in Your Day
 
 You might be experiencing co-construction blindness when:
@@ -63,7 +77,7 @@ The point isn't to distrust the AI. It's to stop pretending you're outside the s
 
 ## Related Pages
 
-[[Trust Calibration]] · [[Delegation Thinking]] · [[Cognitive Surrender]] · [[Friction by Design]] · [[Human in the Loop]] · [[Task Decomposition]]
+[[Trust Calibration]] · [[Delegation Thinking]] · [[Cognitive Surrender]] · [[Friction by Design]] · [[Human in the Loop]] · [[Task Decomposition]] · [[Lexical Oscillation]]
 
 ## Tags
 
