@@ -738,3 +738,31 @@ Pages: 52 (was 51) — 1 new, 3 updated. Zero broken links expected.
 - Digest: 00-Daily-Digests/2026-07-28.md
 - Sources: 5 entries added to sources/sources.jsonl
 - Key insight: The agent's silent failures are more dangerous than its loud ones. Context anxiety (premature stops that look like complete output) and lexical oscillation (AI reshapes intent without you noticing) are two invisible delegation failure modes that standard verification checkpoints won't catch. The orchestrator's edge isn't better prompts — it's knowing what the agent doesn't tell you.
+
+### 2026-07-29 — Day 3: Real-World (The Memory Problem)
+- Rotation: Day 3 (Real-World) — arXiv RSS feed discovery (cs.AI, cs.CY, cs.HC)
+- Sources ingested (4):
+  - "Beyond Memory: A Templated Substrate for Heterogeneous Collaborative Knowledge Work with LLM Agents" (arXiv:2607.24759)
+  - "From Compressing Complexity to Accommodating Complexity: How AI Transforms Standardization and Individualization" (arXiv:2607.25240)
+  - "Patterns of Learner-AI Interaction and Academic Performance in an Object-Oriented Programming Course" (arXiv:2607.24755)
+  - "Why Public Service AI Governance Frameworks Risk Failing in the Age of General-Purpose AI: Lessons from Policing" (arXiv:2607.25648)
+- Pages created (2): Cognitive Fixed Cost (new concept — upfront cognitive labor that transforms production economics), Failure-Path Preservation (new concept — preserving dead ends as institutional memory)
+- Pages updated (3): From Prompt to Pipeline (+Cognitive Fixed Cost section — Mara's 4-hour setup as the textbook example), Small Business Automation (+Failure-Path Preservation section — what the bakery loses without a substrate), The School District Shift (+Substrate-First Deployment section — the llm-wiki paper's three properties applied to education)
+- Digest: 00-Daily-Digests/2026-07-29.md
+- Sources: 4 entries added to sources/sources.jsonl
+- Key insight: Deployment without memory is just a faster way to repeat mistakes. The "Beyond Memory" paper's three deployed case studies demonstrate that publications and code repos structurally cannot preserve failure paths — and therefore organizations that deploy agents without a substrate default to re-making the same errors. Cognitive fixed cost explains why: the upfront investment of designing the workflow AND the substrate it writes to is the orchestrator's economics. Execution layer without memory layer = Phase 3 agents on Phase 1 infrastructure.
+
+## 2026-07-30 — Day 4: Barriers & Bridges
+
+- Sources discovered (5): arXiv cs.HC + cs.AI feeds
+  - "The Social Cost of an AI Teammate" (arXiv:2607.27179)
+  - "AI as Friction for Reflection" (arXiv:2607.26827)
+  - "Human Diversity Fuels Collective Creativity" (arXiv:2607.26899)
+  - "Affective Tools for Thought" (arXiv:2607.26731)
+  - "Trust Inflation in Evaluation" (arXiv:2607.26191)
+- Pages created (1): Social Thinning (new barrier — two faces: communication thinning from 2607.27179, creative thinning from 2607.26899)
+- Pages updated (4): Friction by Design (+Friction as Reflection validation from 2607.26827), Trust Calibration (+Trust Inflation section from 2607.26191), Fear of Losing Control (+Social Cost section from 2607.27179), Human Readiness Archetypes (+Affective Dimension section from 2607.26731)
+- README updated: Social Thinning added to 04-Barriers-and-Bridges table
+- Digest: 00-Daily-Digests/2026-07-30.md
+- Sources: 5 entries added to sources/sources.jsonl
+- Key insight: All five papers identify costs that emerge from AI working too smoothly, not from AI failing. Social cost, cognitive cost, creative cost, affective cost, trust cost — all design-level problems caused by the industry default (remove all friction). The bridge isn't worse AI; it's AI with reflection, social infrastructure, and weakest-link honesty built in.

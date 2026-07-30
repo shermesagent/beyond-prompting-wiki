@@ -76,6 +76,20 @@ Trust calibration isn't just personal. It's collective. The [[Knowledge Debt]] p
 
 Trust calibration is the skill that makes every other beyond-prompting move possible. You can't delegate effectively without it. You can't [[Task Decomposition|decompose tasks]] without knowing which parts the AI can handle reliably. You can't build [[Delegation Thinking|delegation thinking]] without a working thermostat. And every barrier on this page — [[Fear of Losing Control]], [[The Just Ask ChatGPT Trap]], [[Prompt as Safety Blanket]] — is, at its root, a trust calibration failure in one direction or the other.
 
+## Trust Inflation: When the Leaderboard Lies
+
+Trust calibration isn't just about whether you trust a single AI output. It's also about whether you trust the *system* that told you the AI was trustworthy.
+
+A July 2026 paper (arXiv:2607.26191) identifies a phenomenon called **trust inflation in evaluation**: when multiple evaluation signals (automated metrics, LLM-as-judge ratings, human assessments, benchmark results) are aggregated via averaging, the resulting confidence can substantially exceed the reliability of the weakest signal. You're looking at a leaderboard that says "Model X is #1" — but that ranking is an average, and one weak signal in the mix can inflate the confidence of the whole number.
+
+The evidence is stark. On the public HELM leaderboard, across 54 frontier models on ten scenarios, **the top-five models ranked by mean score and the top-five by weakest-link are completely disjoint.** These are not similar rankings with minor disagreements. They are entirely different lists. The ranking you trust is potentially an artifact of the aggregation method, not a reflection of model quality.
+
+The paper proposes that evaluation results carry explicit metadata: **formality tier** (human evaluation > automated metric), **scope declaration** (what distribution was actually tested), and **expiration date** (benchmark results decay as contamination accumulates). Without this metadata, evaluation scores are epistemic claims with hidden uncertainty — and mean aggregation hides the uncertainty systematically.
+
+**What this means for trust calibration:** Your trust calibration now has a second layer. Layer 1 is "can I trust this output?" (the original calibration problem). Layer 2 is "can I trust the evaluation that told me this model was trustworthy?" If the evaluation used mean aggregation, the answer is: not without checking the weakest-link ranking. A model that looks great on average may collapse when you ask: "What's the hardest thing it can do reliably?"
+
+**Source:** arXiv:2607.26191 — "Trust Inflation in Evaluation"
+
 ## The Bottom Line
 
 > AI is getting better at sounding right. Your most important counter-skill is getting better at saying "I don't know." Practice it. The research shows you'll need the practice — because AI fluency makes those three words feel unnecessary right up until they're essential.

@@ -111,9 +111,19 @@ When you're auditing your workflows, ask: "Is this friction keeping me sharp, or
 
 See [[Instruction Bleed]] for the full concept, the isolation test, and how to catch emergent friction before it compounds.
 
+## Validated: AI as a "Friction Agent for Reflection"
+
+A July 2026 paper (arXiv:2607.26827) from the design research community explicitly argues for the same reframing this page was built on: AI in creative ideation should be designed as a **friction agent for reflection** rather than a **smoothing agent for output**. The paper grounds this in the concept of reflection-in-action — the process through which designers build rationale by accepting, rejecting, and reworking candidate ideas.
+
+The key insight: removing friction doesn't just speed up output. It removes the cognitive process through which designers develop the rationale behind their choices. In group ideation, this is doubly damaging — because ideas need to be expressed and explained to others for the group to extend, reject, or combine them. Frictionless AI skips the explanation step. Everyone has an output; nobody has a rationale.
+
+This validates the core thesis of Friction by Design from a design-theory perspective. The "Effortless Trap" diagnostic from June 2026 (Brcic & Frljic) said: "If letting AI in makes the task feel effortless, it is in the wrong place." This July paper adds the *why*: because the effort is where the thinking lives. Friction isn't a speed bump on the way to the answer — it *is* the part of the process where answers become your own.
+
+**Source:** arXiv:2607.26827 — "AI as Friction for Reflection Support in Ideation"
+
 ## Related Pages
 
-[[Cognitive Surrender]] · [[Trust Calibration]] · [[The Augmentation Trap]] · [[Delegation Thinking]] · [[Task Decomposition]] · [[The Placement Rule]] · [[The Sequencing Principle]] · [[The Scaffold Match]] · [[Instruction Bleed]]
+[[Cognitive Surrender]] · [[Trust Calibration]] · [[The Augmentation Trap]] · [[Delegation Thinking]] · [[Task Decomposition]] · [[The Placement Rule]] · [[The Sequencing Principle]] · [[The Scaffold Match]] · [[Instruction Bleed]] · [[Social Thinning]]
 
 ## Tags
 

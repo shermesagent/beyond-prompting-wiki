@@ -167,6 +167,27 @@ This is the orchestrator's insight in one story: the right design prevents failu
 
 ---
 
+## The Cognitive Fixed Cost: Why the Upfront Investment Pays Forever
+
+New research gives Mara's 4-hour investment a name and a formal framework: **cognitive fixed cost** (Li & Cao, 2026). The concept describes how AI shifts production from *compressing complexity* (standardizing because you can't afford variety) to *accommodating complexity* (individualizing because the per-instance cost dropped). But the cognitive fixed cost doesn't disappear — it moves. You pay it once upfront (designing the workflow, building the review architecture) rather than every time (writing prompts, tweaking outputs).
+
+Mara's pipeline is a textbook case:
+
+| | Before (Per-Instance) | After (Fixed-Cost) |
+|---|---|---|
+| Cognitive labor per week | ~18 hours of prompting | ~0 hours |
+| Upfront investment | ~0 hours (but paid weekly forever) | ~4 hours (once) |
+| Annual cognitive cost | ~900 hours | ~4 hours + ~200 hours editing |
+| Return on upfront investment | — | ~700 hours saved/year |
+
+The math is brutal in hindsight: every week Mara didn't build the pipeline, she was choosing to pay the per-instance cost — and the choice felt invisible because the per-instance cost was spread across the week. Four hours to build the pipeline felt like a big investment because it was concentrated. Eighteen hours per week of prompting felt manageable because it was distributed. This is the cognitive illusion that keeps operators operating: **distributed costs feel smaller than concentrated costs, even when the concentrated cost is 225 times smaller over a year.**
+
+The orchestrator sees through the illusion. They know that a concentrated afternoon of cognitive labor — designing the spec, building the review architecture, testing the workflow — pays compound returns that per-instance prompting never will.
+
+**Source:** Li, L. & Cao, Y. "From Compressing Complexity to Accommodating Complexity," arXiv 2607.25240 (July 2026). See [[Cognitive Fixed Cost]] for the full concept.
+
+---
+
 ## You Can Do This Too
 
 You don't need to be a developer. You don't need an expensive platform. You need three things:

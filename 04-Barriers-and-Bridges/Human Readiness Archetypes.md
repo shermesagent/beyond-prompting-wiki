@@ -98,9 +98,36 @@ The practical takeaway: if you're leading adoption across cultural contexts, you
 
 For individuals: if you feel like your readiness level doesn't match the people around you — they're all jumping in while you're hanging back, or vice versa — consider that some of that gap may be cultural, not personal. You're not behind. You're standing in a different normative landscape. Recognizing that makes the gap feel less like a deficit.
 
+## The Affective Dimension: What Readiness Mapping Misses
+
+A July 2026 paper (arXiv:2607.26731) argues that current AI tools treat affect — the emotional dimension of thinking — as either friction to remove or a signal to optimize. Both approaches miss the point. Drawing on enactive cognitive science, the paper argues that affect is **constitutive of cognition**: it reshapes the trajectory of thinking, not just the speed.
+
+This has direct implications for readiness mapping. The five archetypes (Enthusiast, Curious, Cautious, Skeptic, Opposed) map cognitive and behavioral postures. But they don't capture the **affective posture** — whether someone feels that the AI is paying attention to *them*, not just to their output.
+
+The paper identifies two barriers that existing tools can't address:
+
+- **Lack of Shared Attention:** AI doesn't care about or direct attention to the user's *mode of engagement*. It responds to the prompt, not to the person behind it.
+- **Lack of Affective Reorienting:** AI can't use emotional moments to open new thinking trajectories. It can only reinforce predetermined ones.
+
+This means readiness isn't just about "where are my people on the enthusiasm spectrum?" It's also about "do my people feel *seen* by the tools they're being asked to use?" An Enthusiast who feels unseen may burn out faster than a Cautious person who feels the tool is paying attention. An Opposed person who feels dismissed by the AI will harden their opposition — not because the AI is wrong, but because the AI doesn't register that they're angry.
+
+**Practical takeaway for readiness mapping:** Add a second dimension. Archetype (cognitive posture) × Affective Experience (does the AI feel like it's paying attention to you?). Survey your people on both. The gap between "I'm enthusiastic about AI" and "the AI understands what I'm trying to do" is where psychological debt accrues fastest.
+
+Three design provocations from the paper that map to readiness:
+
+| Provocation | What It Means for Readiness | Try This |
+|------------|---------------------------|----------|
+| **Chain of Emotion × Chain of Thought** | Ask the AI to articulate the emotional stakes of a decision alongside the reasoning | Before an AI-assisted decision, prompt: "First, identify the emotional dimension of this choice. Then, give the reasoning." |
+| **Affective Mirror** | Have the AI reflect back the user's emotional state before proceeding | "Before you answer, tell me what emotional stance you think I'm bringing to this." |
+| **Prompted Reorienting** | Use emotional moments to pivot, not just to proceed | When frustrated with an AI output, instead of regenerating, ask: "What would change if I approached this from a different emotional place?" |
+
+These aren't production-ready features. They're provocations. But they point to a readiness dimension that the original framework missed: people are ready for AI adoption when they feel the AI is ready for *them* — their emotions, their frustrations, their mode of engagement. Not just their prompts.
+
+**Source:** arXiv:2607.26731 — "Affective Tools for Thought: Towards Shared Attention and Affective Reorienting"
+
 ## Related Pages
 
-[[Fear of Losing Control]] · [[The Just Ask ChatGPT Trap]] · [[Trust Calibration]] · [[Prompt as Safety Blanket]] · [[The School District Shift]] · [[Psychological Debt]] · [[The Certification Boundary]]
+[[Fear of Losing Control]] · [[The Just Ask ChatGPT Trap]] · [[Trust Calibration]] · [[Prompt as Safety Blanket]] · [[The School District Shift]] · [[Psychological Debt]] · [[The Certification Boundary]] · [[Social Thinning]]
 
 ## Tags
 

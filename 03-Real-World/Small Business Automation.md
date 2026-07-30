@@ -136,6 +136,29 @@ For the 2-person business, the verification edge is the difference between "we u
 
 ---
 
+## Failure-Path Preservation: What the Bakery Would Lose Without a Substrate
+
+New research from three deployed case studies (Saboia Moreira & Sweet, 2026) formalizes something Em and Jules do implicitly: **publications and code repositories structurally cannot preserve what didn't work.** When Jules tries a purchase order format that fails — quantities miscalculated, supplier links broken, a seasonal item ordered out of season — and then fixes it, the failed version vanishes. Only the working version survives in the Google Doc. The failure path — what went wrong and why — evaporates.
+
+This matters because the next person who builds a bakery workflow (or Jules herself, six months later when she's forgotten the details) has no way to know that the broken approach was already tried and abandoned. She'll repeat the failure. The orchestrator's fix is a **substrate** — a persistent, append-only record that preserves failures alongside successes. For the bakery, this could be as simple as a running document called "What We Tried and Why It Didn't Work." The important property isn't the tool — it's the *preservation of the negative result.*
+
+The paper's most striking finding: in a two-author project using the llm-wiki pattern, a retroactive audit exposed claims that didn't hold up — two experiments originally reported as 20-of-20 evidence-based answers were revised down to 14 and 12. Without the wiki substrate, the overclaim would have stood forever. With it, the audit was possible. The fix brought both experiments to 18-of-20. The failure path — from overclaim → audit → correction — is preserved for anyone who comes after.
+
+For a small business, failure-path preservation has concrete value:
+
+| Without Substrate | With Substrate |
+|---|---|
+| Failed ordering approaches disappear | Failed approaches are documented with date and reason |
+| Process improvements are invisible | Process evolution is tracked and auditable |
+| New employees (or your future self) repeat known mistakes | Institutional memory prevents re-learning |
+| "We used to do it differently" is a vague memory | "We tried X on 2026-02-14, it failed because Y, we switched to Z" is a searchable entry |
+
+Em and Jules don't need a fancy system. A single markdown file — "Bakery Process Log" — that records every workflow change with date, what was tried, what happened, and why the change was made — would give them failure-path preservation. The orchestrator builds the substrate alongside the workflow. The operator builds the workflow and hopes they'll remember what went wrong.
+
+**Source:** Saboia Moreira, P. & Sweet, C.R. "Beyond Memory: A Templated Substrate for Heterogeneous Collaborative Knowledge Work with LLM Agents." arXiv 2607.24759 (July 2026). Three deployed case studies demonstrating failure-path preservation, agent honesty, and collaborative appropriation as sociotechnical properties of the llm-wiki pattern.
+
+---
+
 ## You Can Do This Too
 
 If you run a small business or team of 1-10 people:

@@ -230,6 +230,32 @@ Farmersville's approach prefigured this: build the workflow at the district leve
 
 ---
 
+## The Substrate-First Lesson: Why Infrastructure Outlasts Every Initiative
+
+Farmersville built workflows. But did they build a substrate — a persistent, append-only record of what the workflows learned, what failed, and what changed? The "Beyond Memory" paper (Saboia Moreira & Sweet, 2026) suggests this is the difference between a district that deploys agents and a district whose agent deployments *compound.*
+
+The paper presents three deployed case studies of the llm-wiki pattern — an interlinked knowledge base maintained by both humans and LLM agents, in which every revision is preserved and every failure path is traceable. Two findings are directly relevant to any school district building delegation workflows:
+
+**1. Publications cannot preserve failure paths.** When a curriculum team tries a lesson workflow that doesn't work — the pacing is off, the TEKS alignment misses a cross-content standard, the differentiation suggestions are too generic — and then fixes it, the failure path vanishes from the final result. Only the working version survives. The next curriculum coordinator inherits a product, not a process. This is the institutional equivalent of the [[Doom Researching]] trap: each cycle starts fresh, with no memory of prior cycles.
+
+**2. The substrate enables retroactive audits.** In the paper's two-author case study, a knowledge base audit exposed claims that didn't hold up under scrutiny — two experiments reported as 20-of-20 were actually 14 and 12 evidence-based answers. Without the substrate, the overclaim would have stood forever. With it, the fix brought both to 18-of-20. For a school district, this maps directly to curriculum quality assurance: if a workflow claims alignment with TEKS 8.5(F), can anyone verify that claim six months later? Without a substrate, no. With one, the trace is preserved.
+
+### The Infrastructure Gap in Education
+
+The "Beyond Memory" paper identifies three properties that emerge from a well-built substrate:
+
+| Property | What It Means | District Example |
+|---|---|---|
+| **Failure-path preservation** | Dead ends are recorded, not discarded | "We tried auto-generating IEP goals from present levels in March 2026. The output passed legal review but teachers found it too generic. We switched to template-based generation with teacher annotations in April." |
+| **Agent honesty** | The substrate serves as an impartial record, not promotional output | A benchmark data narrative claims "students are on track for STAAR." The substrate preserves: (1) the claim, (2) the data the agent used, (3) any human overrides or adjustments, (4) the timestamp. |
+| **Appropriation** | Humans and agents jointly shape the knowledge base | A teacher annotates a generated lesson: "This hands-on activity worked better than the worksheet version." The annotation persists and informs future generations — not just for that teacher, but for every teacher who accesses that lesson page. |
+
+Farmersville's workflows addressed the *execution* layer. The substrate — if they built one — addresses the *memory* layer. Both are necessary. Without the substrate, every workflow improvement is a one-off. With it, every workflow improvement makes every future workflow smarter. The orchestrator builds both layers. The operator builds only the execution layer — and wonders why the same problems come back every year.
+
+**Source:** Saboia Moreira, P. & Sweet, C.R. "Beyond Memory: A Templated Substrate for Heterogeneous Collaborative Knowledge Work with LLM Agents." arXiv 2607.24759 (July 2026).
+
+---
+
 ## Related Pages
 
 [[From Prompt to Pipeline]] · [[Task Decomposition]] · [[Delegation Thinking]] · [[Trust Calibration]] · [[Human in the Loop]] · [[Doom Researching]] · [[03-Real-World/README|03 — Real World Stories]]

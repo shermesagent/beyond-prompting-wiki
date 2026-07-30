@@ -23,8 +23,7 @@ Each barrier page follows the same structure. We name what's happening, explain 
 | [[Knowledge Debt]] | Accepting AI deliverables you can't explain — the silent accumulation of things you own but don't understand | Six principles for agents that teach: "what just happened?", "what changed?", "what would break this?", periodic audit, teach-back rule, breadcrumbs instead of black boxes |
 | [[The Engagement Gap]] | You've built the template, classified the task, set up the pipeline — and nobody opens the AI. The gap between AI availability and actual use | Redesign the workflow so AI becomes the path of least resistance, not an extra step |
 | [[The Certification Boundary]] | The institutional debt: when AI-mediated work breaks the inference between submitted work and human capability — what remains certifiable? | Four cognitive stewardship questions + a Delegation Audit exercise |
-
----
+| [[Social Thinning]] | The collective cost: when AI joining teams degrades human-human communication and compresses creative diversity | Explicit social infrastructure — human-first rounds, AI-free debriefs, voice rotation, and using AI for refinement not ideation |
 
 ## How to Use This Section
 

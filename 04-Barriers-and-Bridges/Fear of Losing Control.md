@@ -78,6 +78,18 @@ The bots didn't replace human judgment. They became part of the team's coordinat
 
 **Source:** arXiv:2607.13679 — 2,991 GitHub projects, two-year before/after analysis.
 
+## The Social Cost: It's Not Just Your Fear — It's What Actually Happens
+
+A July 2026 study (arXiv:2607.27179) provides direct empirical evidence that the fear is grounded in reality — but the cost isn't where you think it is. It's not about AI making bad decisions. It's about AI making your team *less of a team*.
+
+In a randomized controlled study of small-team decision-making, the AI teammate was the most talkative and self-cohesive member of **every** team — but its contributions carried the least new information and lowest density. The human teammates, meanwhile, showed lower responsivity and social impact toward each other. They reported lower belonging and lower status. Greater AI conversational dominance was associated with students feeling less valued as team members. And the social cost was **immediate at baseline** — it didn't emerge over time, it was present from the first interaction.
+
+This validates the fear of losing control at a level the original page didn't fully capture. The fear isn't just "the agent might mess up" or "what am I here for?" It's also: **"If AI takes over the conversation, will my teammates still talk to me?"** The answer, from this study, is: less. Immediately.
+
+This connects directly to [[Social Thinning]] — the broader phenomenon of AI-induced degradation of human-to-human communication and collective creative diversity. The bridge remains the same: boundaries (scope, verification, stop conditions, iteration size) that explicitly preserve human-to-human interaction. But the evidence makes clearer what's at stake. Without those boundaries, AI doesn't just take over your task. It takes over your team.
+
+**Source:** arXiv:2607.27179 — "The Social Cost of an AI Teammate"
+
 ---
 
 ## Related Pages
