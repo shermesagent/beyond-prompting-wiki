@@ -22,9 +22,15 @@ The practical rule: **design your memory architecture for the weakest model in y
 
 At the architect level, memory stops being a feature and starts being infrastructure. The same way a company doesn't "try out having a database" — they design one — an orchestrator builds memory systems. Persistent facts about preferences and decisions. Structured knowledge bases the agent can query. Procedural memory in the form of SOPs (see [[SOP]] — every SOP is stored procedural memory). The shift from "I hope the agent remembers" to "I've designed a system that makes remembering automatic" is the shift from operator to architect.
 
+### Memory Is Where Cognitive Fixed Costs Compound
+
+[[Cognitive Fixed Cost]] explains why the operator pays per instance and the orchestrator invests once. But the investment only pays off if it's *stored*. Memory is the storage layer. When you build a workflow and save it as an SOP, you've paid a cognitive fixed cost — and the SOP, sitting in your memory system, is the asset that pays the return. Without memory, every cognitive fixed cost evaporates. Without cognitive fixed costs, memory has nothing to compound. The two concepts work together: cognitive fixed cost is the investment; memory is the compounding account.
+
+This also connects to [[The Blank Box Problem]]. The blank box forces recall — every interaction starts from zero. Memory solves that. When your preferences, your templates, your SOPs carry forward, you never face a truly blank box. The cursor is still there, but the system remembers what you need before you type. Building memory is building your way out of the blank box.
+
 ## Related Pages
 
-[[Agent]] · [[Autonomy]] · [[Tool Use]] · [[Memory as Infrastructure]] · [[The Architect Mindset]]
+[[Agent]] · [[Autonomy]] · [[Tool Use]] · [[Memory as Infrastructure]] · [[The Architect Mindset]] · [[Cognitive Fixed Cost]] · [[The Blank Box Problem]] · [[SOP]]
 
 ## Tags
 

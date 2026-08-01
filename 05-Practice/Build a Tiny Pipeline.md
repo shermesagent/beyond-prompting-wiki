@@ -151,6 +151,32 @@ First time? Yes. Third time? No. A pipeline that costs 15 minutes to design and 
 **"My tasks don't chain naturally."**
 Not all tasks do. That's fine. Start with the ones that do: research → format, draft → polish, find → summarize. These patterns are everywhere once you look for them. If you truly can't find a pair, chain one task with a formatting step — even that teaches the pipeline muscle.
 
+## Structured Reflection for Pipeline Overload
+
+Pipelines multiply cognitive load. More steps, more handoffs, more output to review. New research on structured reflection in cognitively loaded work (Ford, Li & Van Koningsbruggen, arXiv:2607.27863, July 2026) tested creative task cards with 29 CS1 programming students and found three techniques that directly apply to pipeline practice:
+
+### Technique 1: The Drawing Checkpoint
+
+When you feel overloaded mid-pipeline — too many steps, can't tell if the output is right, losing track of what's happening — stop. Take 2 minutes. Draw what you think is happening. Boxes and arrows on scratch paper. The study found that **drawing externalized cognitive overload better than writing about it.** Students who drew their mental state could see the shape of the problem in a way that verbal description didn't capture.
+
+**For your pipeline:** After running a new or complex pipeline for the first time, draw a quick sketch of what happened. Not a polished diagram — just: what went in, what came out, where you got confused. The confusion points on your sketch are where the pipeline needs tightening.
+
+### Technique 2: The Break + Peer Reflection
+
+Students valued taking breaks — but not isolated breaks. The ones where they could **physically leave the space and talk to a peer** about what they were stuck on were most effective. The reflection with another person helped them process what they couldn't process alone.
+
+**For your pipeline:** When a pipeline output feels off but you can't articulate why, don't just stare at it. Walk away for 2 minutes. Tell someone (even a note to yourself, even a voice memo) what you think is wrong. The act of externalizing — even to no one — often surfaces the issue.
+
+### Technique 3: Small-Step Decomposition as Self-Efficacy
+
+The most consistent finding: students who **broke their work into smaller steps felt more capable of completing it.** The decomposition itself — not completing the steps, just naming them — increased self-efficacy.
+
+**For your pipeline:** When designing a new pipeline, write the steps at the smallest granularity you can. Not "Step 1: Research. Step 2: Summarize." But: "Step 1a: Search. 1b: Filter to 5 most relevant. 1c: Extract key claim from each. 1d: Check claims against original source." The detailed version takes 90 seconds longer to write and days off the debugging time when something breaks. The bonus: naming the small steps makes the pipeline feel more manageable — which, per this research, increases the likelihood you'll actually build and run it.
+
+These three techniques are the metacognitive layer of pipeline practice. The pipeline handles the work. The reflection handles your relationship to the work. Both need attention. Most people only build the pipeline.
+
+See also: [[Reverse-Centaur]] · [[Friction by Design]]
+
 **The Reverse-Centaur Check (July 2026).** Before you commit to any pipeline, ask one question: *who does this pipeline work for?* Cory Doctorow's "Reverse-Centaur" framing (from his 2026 book *The Reverse-Centaur's Guide to Life After AI*) gives us a clean test:
 
 - **Centaur pipeline:** AI handles the repetitive work. You handle the judgment. The pipeline amplifies your agency — you make more decisions, you have more context, you're more effective.

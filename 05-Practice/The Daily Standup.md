@@ -215,6 +215,38 @@ The orchestrator doesn't avoid relational dynamics — they track them. The stan
 
 ---
 
+## The Seventh Question — Asymmetric Responsibility Check
+
+The six questions above all track what the AI did and how you responded. But new philosophical analysis of human-LLM interaction (Fenoglio, arXiv:2607.28137, July 2026) identifies a question that none of them ask — and it may be the most important one:
+
+**7. What did I take responsibility for today that the AI couldn't have?**
+
+Fenoglio argues that human-LLM interaction has three structural asymmetries — conditions that hold no matter how good the models get:
+
+- **Correctness is enforced by you alone.** The AI doesn't check its own work. There's no internal "does this make sense?" happening on the machine side.
+- **Accountability is borne by you alone.** If the output is wrong, misleading, or harmful, the consequences land on you. The AI won't know and can't be held responsible.
+- **Practical standing depends entirely on you.** The AI's words have no force in the world until you grant it — when you forward the email, publish the report, act on the recommendation.
+
+The six existing standup questions track pipeline performance. This seventh question tracks **your performance as the accountable human in the loop.** After running your pipelines today:
+
+- Did you make a judgment call the AI couldn't have made? (The AI can't know your team's politics, your boss's preferences, your organization's unwritten rules.)
+- Did you catch something the AI missed — not a formatting error, but a substantive gap? (The AI doesn't know what isn't in its training data.)
+- Did you refuse or redirect output — not because it was wrong, but because it wasn't right *for this situation*? (The AI doesn't understand context at the level you do.)
+
+Write one sentence per pipeline:
+
+```
+ASYMMETRIC RESPONSIBILITY:
+  - [Pipeline name]: [one thing you owned that the AI couldn't have]
+```
+
+After a week, look at the pattern:
+- **Every entry has a specific answer:** You're bearing the accountability. The pipelines are tools and you're the orchestrator.
+- **Entries are vague or repetitive ("I reviewed the output"):** You're treating accountability as a formality. The pipelines are running you.
+- **You can't answer for some pipelines:** Those pipelines have dissolved your participation. See [[Capacity Dissolution]].
+
+The standup tracks what happened. The asymmetric check tracks whether you were actually there when it happened.
+
 ## What to Do With the Patterns
 
 After a week of standups, you'll start seeing signal:

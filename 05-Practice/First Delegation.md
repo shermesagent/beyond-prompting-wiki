@@ -216,9 +216,39 @@ Use this template at least twice before moving to Week 3. Each time you use it, 
 
 ---
 
+## The Evaluation Trap: Why Checking Isn't Enough
+
+A randomized N=220 crossover study (Dickey, Mertzanidis & Psomas, arXiv:2607.27586, July 2026) found something that should change how you design every delegation template: **evaluating AI output and solving problems yourself are different muscles.** Students who spent a semester evaluating often-flawed GenAI solutions earned significantly higher homework scores — but showed zero transfer to exams, final grades, or structurally similar problems without AI available. They got better at spotting errors. They didn't get better at solving problems.
+
+This is the evaluation trap: your delegation template asks you to review output against success criteria. That builds evaluation skill — can you spot when something is wrong? But it doesn't automatically build solving skill — can you produce correct output yourself? The two are related but distinct, and confusing them is the most common delegation mistake.
+
+### The Fix: One Unaided Step
+
+After your delegation template runs and you review the output, add 60 seconds:
+
+1. **Pick the most consequential claim or decision in the AI's output.**
+2. **Produce your own version — just that one piece.** A sentence, a judgment, a conclusion. Without looking at what the AI wrote.
+3. **Compare.** Where do you agree? Where do you disagree? The disagreement points — even small ones — are where your judgment is actually contributing something the AI didn't.
+
+This takes 60 seconds. It's not about double-checking (that's verification). It's about maintaining the solving muscle alongside the evaluation muscle. The N=220 study suggests that without this deliberate transfer step, the evaluation-only approach produces correct homework and fragile understanding. The orchestrator who only checks AI output is building one capacity (contestability) while letting another decay (reason-giving). See [[Capacity Dissolution]] for the full framework.
+
+### The Capacity Check for Your Template
+
+Before you finalize any delegation template, run it through Yao's five capacities (arXiv:2607.28041). Score each 0-2:
+
+| Capacity | 0 (not exercised) | 1 (partially) | 2 (fully exercised) |
+|----------|-------------------|---------------|---------------------|
+| **End-setting** | AI decides what to produce | You pick the task but AI sets the approach | You define both task and approach |
+| **Reason-giving** | You accept output without understanding why | You can explain some decisions | You can explain all key decisions |
+| **Contestability** | You never question output | You spot-check occasionally | You challenge every consequential claim |
+| **Refusal/revision** | You ship whatever the AI produces | You make minor edits | You reject and redirect when standards aren't met |
+| **Participation** | You spectate while AI works | You monitor with occasional input | You're actively engaged throughout |
+
+If your template scores 4 or below (out of 10), it's building dependency, not capability. That doesn't mean don't use it — some tasks genuinely don't need capacity preservation. But know what you're trading. A template that scores 8+ twice a week preserves capacity. A template that scores 2 every day dissolves it.
+
 ## Related Pages
 
-[[05-Practice/README|05 — Practice]] · [[Audit Your Prompts]] · [[Build a Tiny Pipeline]] · [[The Line You Draw]] · [[Delegation Thinking]] · [[Task Decomposition]]
+[[05-Practice/README|05 — Practice]] · [[Audit Your Prompts]] · [[Build a Tiny Pipeline]] · [[The Line You Draw]] · [[Delegation Thinking]] · [[Task Decomposition]] · [[Capacity Dissolution]]
 
 ## Tags
 

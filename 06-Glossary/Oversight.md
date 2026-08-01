@@ -26,9 +26,15 @@ Traditional oversight assumes the AI did the right amount of work — the questi
 
 When you review an agent's output and it looks complete, polished, and finished, the first question should be: *would I have learned more if this were less complete?* A report that does all the thinking for you is correct but costly — it cost you the opportunity to develop the mental models that produce the next report yourself. The PEA framework (Preserve, Empower, Augment) gives oversight a second dimension: correctness is the first check; appropriateness of assistance level is the second. See [[Overassistance]] for the full concept.
 
+### Oversight and Capacity Preservation
+
+Oversight has a third dimension beyond correctness and overassistance: **capacity preservation.** Every time you review AI output, you're not just checking the artifact — you're checking whether the interaction preserved or dissolved your capacities. [[Capacity Dissolution]] identifies five capacities that erode when delegation is unchecked: end-setting, reason-giving, contestability, refusal/revision, and participation.
+
+Good oversight checks correctness (is the output right?), overassistance (did the AI do too much?), AND capacity (did this interaction make me better at anything?). A review that catches every error but leaves you unable to explain the reasoning isn't complete oversight — it's a correctness audit with blind spots. Add one question to your review routine: *"Did I exercise at least two of the five capacities during this delegation?"* If the answer is no, the output may be correct, but the capacity delta is negative. That's not oversight — that's watching.
+
 ## Related Pages
 
-[[Human in the Loop]] · [[Autonomy]] · [[Orchestration]] · [[Delegation]] · [[Trust Calibration]] · [[Agent]] · [[Overassistance]]
+[[Human in the Loop]] · [[Autonomy]] · [[Orchestration]] · [[Delegation]] · [[Trust Calibration]] · [[Agent]] · [[Overassistance]] · [[Capacity Dissolution]]
 
 ## Tags
 

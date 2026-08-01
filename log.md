@@ -766,3 +766,35 @@ Pages: 52 (was 51) — 1 new, 3 updated. Zero broken links expected.
 - Digest: 00-Daily-Digests/2026-07-30.md
 - Sources: 5 entries added to sources/sources.jsonl
 - Key insight: All five papers identify costs that emerge from AI working too smoothly, not from AI failing. Social cost, cognitive cost, creative cost, affective cost, trust cost — all design-level problems caused by the industry default (remove all friction). The bridge isn't worse AI; it's AI with reflection, social infrastructure, and weakest-link honesty built in.
+
+## 2026-07-31 | Rotation Day 5 | arXiv:2607.27586, 2607.28041, 2607.28137, 2607.27863
+
+- Sources: 4 new arXiv papers ingested, all submitted 30 Jul 2026
+  - "Is Solving Better Than Evaluating GenAI Solutions?" (arXiv:2607.27586)
+  - "When AI Does the Work, What Is Learning For? Post-Instrumental Learning and the Risk of Capacity Dissolution" (arXiv:2607.28041)
+  - "Asymmetric Communication: Large Language Models and Language Games" (arXiv:2607.28137)
+  - "Creative Task Cards for Reflection, Self-Efficiency and Self-Regulation in CS1 Introductory Programming" (arXiv:2607.27863)
+- Pages created (1): Capacity Dissolution (new concept — five capacities: end-setting, reason-giving, contestability, refusal/revision, participation; cross-referenced into practice exercises)
+- Pages updated (5): The Coaching Stance (+Evaluation Transfer Gap from 27586 + Five Capacities from 28041), Audit Your Prompts (+Beyond Categories: The Asymmetric Check from 28137), First Delegation (+The Evaluation Trap from 27586 + Capacity Check from 28041), Build a Tiny Pipeline (+Structured Reflection from 27863), The Daily Standup (+The Seventh Question — Asymmetric Responsibility Check from 28137)
+- README updated: Capacity Dissolution added to 02-Key-Concepts README; 05-Practice README updated with Standing Apart Layer
+- Digest: 00-Daily-Digests/2026-07-31.md
+- Sources: 4 entries added to sources/sources.jsonl (total: 19)
+- Key insight: Evaluating AI output and producing your own output are different muscles — a randomized N=220 study proved this empirically (better homework scores, zero exam transfer). The practice section isn't about learning to use AI better; it's about learning to stand apart from AI output. Yao's five capacities (end-setting, reason-giving, contestability, refusal, participation) give a diagnostic for every delegation. Fenoglio's asymmetry framework (the AI bears no commitments, no accountability, no standing) gives the mental model. Together they define the Standing Apart layer: the metacognitive practice without which delegation becomes abdication.
+
+## 2026-08-01 | Rotation Day 6 — Glossary Deepening (Deep Synthesis Saturday)
+
+- Type: Source collapse (Saturday — no arXiv publications, web_search down). Pivot: deep synthesis on glossary.
+- **Purpose:** Turn the week's most-referenced research concepts into durable glossary entries. Four new terms that appear across 6+ pages each were missing quick-reference definitions, forcing readers to hunt through concept pages for orientation.
+- **Glossary entries created (4):**
+  - **[[Capacity Dissolution]]** — Yao's five-capacity erosion framework (end-setting, reason-giving, contestability, refusal/revision, participation). Rooted in arXiv:2607.28041. Referenced in Overassistance, The Coaching Stance, Audit Your Prompts, First Delegation, The Daily Standup, Build a Tiny Pipeline, Practice README.
+  - **[[Cognitive Fixed Cost]]** — Li & Cao's economics of upfront cognitive investment (arXiv:2607.25240). Referenced in SOP, Memory, From Prompt to Pipeline, The School District Shift, Small Business Automation, Economics overview.
+  - **[[The Blank Box Problem]]** — Shneiderman's interface critique: the empty chat window forces recall and keeps users at execute level (arXiv:2607.21598). Referenced in What Is Beyond Prompting, Operator/Orchestrator Mindset, From Prompt to Pipeline, Build a Tiny Pipeline.
+  - **[[Failure-Path Preservation]]** — Saboia Moreira & Sweet's substrate property: recording what didn't work alongside what did (arXiv:2607.24759). Referenced in Cognitive Fixed Cost, Memory, Delegation Thinking, Small Business Automation, The School District Shift.
+- **Glossary entries deepened (3):**
+  - **Memory** — Added Cognitive Fixed Cost connection: memory is where cognitive fixed costs compound. Added Blank Box countermeasure: memory solves the blank box by carrying context forward.
+  - **SOP** — Added Cognitive Fixed Cost frame: SOPs are the stored payoff of the upfront investment. Added Blank Box countermeasure: SOP library replaces recall with recognition.
+  - **Oversight** — Added Capacity Dissolution as third dimension: oversight must check correctness AND overassistance AND capacity preservation. Added one-question check: "Did I exercise at least two of the five capacities during this delegation?"
+- **Glossary README updated:** Count bumped from 14 to 18. Table expanded with 4 new entries. Newest-entries paragraph rewritten.
+- **Digest:** 00-Daily-Digests/2026-08-01.md — frames the day as "The Glossary Deepens: turning this week's research into durable reference." Includes operator/teacher take (3 actionable items) and orchestrator work (audit glossary against pipelines, add capacity check to SOPs, build failure log).
+- **Top insight:** A glossary entry never read by someone who needs it is a missed on-ramp. Today's work won't produce a new finding, but it ensures the next person who encounters "capacity dissolution" in a practice page can land on a 30-second definition and take action. This is the compounding layer: without it, the wiki is a research feed; with it, the wiki is a curriculum.
+- **Glossary now at 18 terms** (14 → 18). Operator→Orchestrator: 6 terms. Orchestrator: 7 terms. Architect: 5 terms.

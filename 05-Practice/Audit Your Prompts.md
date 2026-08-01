@@ -266,6 +266,31 @@ See also: [[The Overassistance Pattern]] · [[Trust Calibration]] · [[Cognitive
 
 ---
 
+## Beyond Categories: The Asymmetric Check
+
+Everything above — your categories, your reliance type, your authorship — treats AI as a conversation partner. But new philosophical analysis of human-LLM interaction (Fenoglio, arXiv:2607.28137, July 2026) argues that this framing is itself a category mistake. The AI doesn't converse — it produces output through a system that bears **no commitments, no accountability, and no standing.** The entire normative weight of the interaction is on you.
+
+Three structural conditions are always true, regardless of how good the AI gets:
+
+1. **Correctness is enforced by you alone.** The AI doesn't check its own work. When it produces output, there's no internal "does this make sense?" happening on the machine side. The evaluation is 100% yours.
+2. **Accountability is borne by you alone.** If the AI's output is wrong, misleading, or harmful, the AI won't know, won't care, and can't be held responsible. The consequences land on you.
+3. **Practical standing depends entirely on you.** The AI's words have force in the world only when you grant it — when you forward the email, publish the report, act on the recommendation. Without your uptake, the output is inert text.
+
+### The Asymmetric Check (1 min)
+
+Go back through your 10 interactions and ask: **was I treating the AI as a conversation partner or as a tool?**
+
+| If you were... | The AI was... | Fix |
+|----------------|---------------|-----|
+| Asking "what do you think?" | Framed as having opinions (it doesn't) | Ask "what would a well-informed analysis look like?" |
+| Letting AI set the direction | Setting your agenda without your intent | Decide what you need before you open the chat |
+| Accepting output without checking | Producing unchecked text | Add one verification step: pick the most consequential claim and verify it |
+| Feeling like you collaborated | Producing text you now own all accountability for | Do the authorship check above — separate your contribution from the AI's |
+
+The operator treats AI as a conversation. The orchestrator treats AI as a tool that produces output — and knows that all the correctness, accountability, and standing happens on the human side. This asymmetry isn't a bug. It's the architecture. The practice isn't to fix it — it's to stop pretending it isn't there.
+
+See also: [[Capacity Dissolution]] · [[The Coaching Stance]] · [[Asymmetric Communication]]
+
 ## Related Pages
 
 [[05-Practice/README|05 — Practice]] · [[First Delegation]] · [[Build a Tiny Pipeline]] · [[The Line You Draw]] · [[Task Decomposition]] · [[Delegation Thinking]]

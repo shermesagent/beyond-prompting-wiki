@@ -44,6 +44,17 @@ After completing Week 1's [[Audit Your Prompts]], add a rhythm check: for your n
 
 Any pipeline, template, or delegation can be a [[Reverse-Centaur]] — the AI makes the decisions while you do the machine work. The fix is knowing what [[Friction by Design|friction]] to keep: eliminate repetitive friction (copy-pasting, reformatting) but preserve reflective friction (judging direction, questioning assumptions).
 
+### The Standing Apart Layer (New, July 2026)
+
+The three-week progression teaches you *how* to delegate. But new research shows that skill alone isn't enough — you also need the **metacognitive layer**: the ability to evaluate AI output as a separate activity from producing it, to track what capacities you're preserving vs. dissolving, and to recognize the structural asymmetry that puts all accountability on you. Three additions to the practice section:
+
+- **The Asymmetric Check** in [[Audit Your Prompts]] — the AI bears no commitments, no accountability, no standing. Your practice is to stop pretending it does.
+- **The Evaluation Trap** in [[First Delegation]] — a randomized N=220 study shows evaluating AI output and solving problems yourself are *different muscles*. Your delegation template needs an unaided step to build both.
+- **The Seventh Question** in [[The Daily Standup]] — "What did I take responsibility for today that the AI couldn't have?" The question that tracks whether you're actually there.
+- **Structured Reflection** techniques in [[Build a Tiny Pipeline]] — drawing checkpoints, break+peer reflection, small-step decomposition. The metacognitive techniques that prevent pipeline overload from becoming cognitive surrender.
+
+Together, these form the **Standing Apart layer** — the practice of maintaining distance from AI output so you can evaluate it, challenge it, and own it. See [[Capacity Dissolution]] for the full framework of what erodes when you skip this layer.
+
 ---
 
 ## How to Use This Section

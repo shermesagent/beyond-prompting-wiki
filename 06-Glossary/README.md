@@ -12,11 +12,11 @@ This glossary isn't an encyclopedia. It's a **companion** — a place to look up
 2. **Elaboration with concrete examples** — what this actually looks like when you're using it.
 3. **Related Pages** — wikilinks that connect this term to the bigger concepts in the wiki.
 
-The fourteen terms here are the ones that come up most often when someone starts moving from typing prompts to orchestrating agents. You'll hear words like *agent*, *delegation*, and *autonomy* thrown around in blog posts and product pages. Those words mean something specific in this world — and understanding them clearly is the difference between feeling lost and feeling in control.
+The eighteen terms here are the ones that come up most often when someone starts moving from typing prompts to orchestrating agents. You'll hear words like *agent*, *delegation*, and *autonomy* thrown around in blog posts and product pages. Those words mean something specific in this world — and understanding them clearly is the difference between feeling lost and feeling in control.
 
 If you're new here, start with **[[Agent]]** — it's the foundation everything else sits on. After that, jump to whichever term you're wrestling with today. There's no wrong order.
 
-This section grows as new concepts crystallize. The newest entries — **[[Overassistance]]**, **[[Trust Calibration]]**, and **[[Delegation Regret]]** — were added in July 2026 after research demonstrated that over-helping (not error) is AI's primary failure mode, and that boundary violations (not mistakes) are what most erode human trust. The glossary evolves with the practice.
+This section grows as new concepts crystallize. The newest entries — **[[Capacity Dissolution]]**, **[[Cognitive Fixed Cost]]**, **[[The Blank Box Problem]]**, and **[[Failure-Path Preservation]]** — were added in August 2026, synthesizing a wave of July 2026 research (Yao, Li & Cao, Shneiderman, Saboia Moreira & Sweet) into plain-language glossary references. Earlier entries — **[[Overassistance]]**, **[[Trust Calibration]]**, and **[[Delegation Regret]]** — were added in July 2026 after research demonstrated that over-helping (not error) is AI's primary failure mode, and that boundary violations (not mistakes) are what most erode human trust. The glossary evolves with the practice.
 
 ---
 
@@ -38,6 +38,10 @@ This section grows as new concepts crystallize. The newest entries — **[[Overa
 | [[Overassistance]] | Why does AI default to doing everything for me — and how do I stop it? | Operator → Orchestrator |
 | [[Trust Calibration]] | When should I trust the AI and when should I verify? | Orchestrator |
 | [[Delegation Regret]] | What happens when the agent acts without my permission — and how do I prevent it? | Orchestrator |
+| [[Capacity Dissolution]] | How does delegating my thinking to AI silently erode my own skills? | Orchestrator |
+| [[Cognitive Fixed Cost]] | How do I invest cognitive effort once and collect the return forever? | Orchestrator → Architect |
+| [[The Blank Box Problem]] | Why does the empty chat window make me worse at using AI? | Operator → Orchestrator |
+| [[Failure-Path Preservation]] | How do I make sure mistakes get remembered instead of repeated? | Orchestrator |
 
 ---
 

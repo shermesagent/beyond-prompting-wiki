@@ -35,6 +35,7 @@ You don't need to read them in order. Jump to whichever title grabs you. But if 
 23. **[[The Overassistance Pattern]]** — AI's factory default is to over-help. Naming the pattern is the first step to designing around it.
 24. [[Instruction Bleed]] — when editing one prompt module silently changes another's behavior — the orchestrator's invisible failure mode.
 25. [[The Blank Box Problem]] — the interface itself shapes your mindset: why the blank prompt box keeps you in operator mode.
+26. [[Capacity Dissolution]] — the five specific human capacities that erode when AI handles output without your accountability: end-setting, reason-giving, contestability, refusal/revision, participation.
 
 ---
 
@@ -75,6 +76,7 @@ They came out of real research — papers on human-AI collaboration, case studie
 | [[The Overassistance Pattern]] | Why does AI default to over-helping — and how do I constrain it? | Orchestrator |
 | [[Instruction Bleed]] | When editing one prompt silently changes another's behavior — how do I catch it? | Orchestrator |
 | [[The Blank Box Problem]] | Why does the blank prompt box keep me stuck in operator mode? | Operator → Orchestrator |
+| [[Capacity Dissolution]] | What five capacities am I losing when AI handles all my output? | Everyone |
 
 ---
 

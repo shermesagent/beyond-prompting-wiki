@@ -29,6 +29,12 @@ The difference between an SOP and a prompt is the **checkpoints**. A prompt is f
 
 Every concept in this wiki connects to SOPs. [[Delegation]] is about handing off a task — SOPs are what delegation looks like when it sticks around. [[Orchestration]] is about coordinating multiple AI interactions — SOPs are the reusable building blocks of an orchestrated workflow. [[Memory]] is about what agents remember — SOPs are stored procedural memory. [[The Architect Mindset]] is about building systems that run without you — SOPs are the operational layer of that system.
 
+### SOPs Are Paid Cognitive Fixed Costs
+
+An SOP is what a [[Cognitive Fixed Cost]] investment looks like once it's paid and stored. The upfront cognitive labor — designing the workflow, defining the format, building the review checkpoints — is the investment. The SOP is the asset. Every time you run it, you collect the return. The operator writes a new brief every time (pays per instance). The orchestrator runs the SOP (paid once, returns forever). Building your SOP library is the primary mechanism by which orchestration investments compound.
+
+This also solves [[The Blank Box Problem]] for recurring tasks. When every delegation starts from a blank prompt, you're paying recall tax on every instance. When you have a library of SOPs, delegation becomes recognition — scan the library, pick the SOP, run it. No blank box. No recall. Just execution.
+
 ## Try This
 
 Pick one task you delegated successfully this week. Open a blank document and write the four-part SOP: Inputs, Outputs, Constraints, Checkpoints. It doesn't need to be long — a paragraph per section is fine. Name it something you'll remember. Next time that task comes up, reference the SOP instead of writing a new brief. Notice: did it save time? Did it produce a more consistent result? That's the compounding effect of reusable delegation.

@@ -73,6 +73,22 @@ This game builds the most important coaching-stance muscle: knowing the differen
 
 - **The Absorption Pattern (Zhang, Zhang & Sun, arXiv, July 2026):** The mechanism connecting the coaching stance to workforce development: GenAI absorbs the developmental pathway through which juniors become seniors. The coaching stance preserves those pathways by ensuring AI scaffolds rather than absorbs.
 
+- **The Evaluation Transfer Gap (Dickey, Mertzanidis & Psomas, arXiv, July 2026):** A randomized N=220 crossover study found that students who evaluated GenAI solutions scored higher on homework but showed **no transfer to exams.** Evaluating output and solving problems yourself are different muscles. The coaching stance isn't just about scaffolding — it's about ensuring the practice you're doing builds the skill you think it's building. Evaluating AI output builds evaluation skill. Solving problems builds solving skill. Confusing the two is the coaching stance's sharpest diagnostic.
+
+### The Five Capacities the Coaching Stance Preserves
+
+New research on post-instrumental learning (Yao, AAAI/ACM AIES 2026, arXiv:2607.28041) identifies five human capacities that erode when AI handles output without human accountability. The coaching stance is, at its core, a way of designing AI use to preserve all five:
+
+| Capacity | What It Is | How the Coaching Stance Preserves It |
+|----------|------------|--------------------------------------|
+| **End-setting** | Defining what purposes are worth pursuing | You decide what gets delegated; the AI doesn't set the agenda |
+| **Reason-giving** | Explaining and justifying choices | You can articulate why output is right — not just that it passed a checklist |
+| **Contestability** | Challenging, disputing, interrogating outputs | You question AI output even when it looks correct — especially when it looks correct |
+| **Refusal/revision** | Saying "no" or "not good enough" | Your standards, not the AI's, determine what ships |
+| **Participation** | Engaging meaningfully in AI-mediated practices | You stay inside the work; the AI is a tool, not a replacement |
+
+When you catch yourself accepting AI output without being able to articulate *why* it's right, you've lost reason-giving. When you stop questioning output because it's "usually fine," you've lost contestability. These aren't abstract concerns — they're the specific capacities the coaching stance was designed to prevent eroding. See [[Capacity Dissolution]] for the full concept.
+
 ### The Overassistance Mechanism (New, July 2026)
 
 The Int-Bench simulation benchmark (arXiv:2607.21306) provides direct evidence for *why* the coaching stance is necessary. When LLMs were tested as "teachers" monitoring students solving problems across code debugging, math, and brain teasers, they consistently:
