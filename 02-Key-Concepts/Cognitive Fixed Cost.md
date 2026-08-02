@@ -59,7 +59,7 @@ For a school district, this means: the question isn't whether to standardize les
 
 ## Related Pages
 
-[[Delegation Thinking]] · [[Task Decomposition]] · [[The Review-First Pattern]] · [[From Prompt to Pipeline]] · [[The School District Shift]] · [[Small Business Automation]]
+[[06-Glossary/Cognitive Fixed Cost|Quick reference]] · [[Delegation Thinking]] · [[Task Decomposition]] · [[The Review-First Pattern]] · [[From Prompt to Pipeline]] · [[The School District Shift]] · [[Small Business Automation]]
 
 ## Tags
 

@@ -289,7 +289,7 @@ Go back through your 10 interactions and ask: **was I treating the AI as a conve
 
 The operator treats AI as a conversation. The orchestrator treats AI as a tool that produces output — and knows that all the correctness, accountability, and standing happens on the human side. This asymmetry isn't a bug. It's the architecture. The practice isn't to fix it — it's to stop pretending it isn't there.
 
-See also: [[Capacity Dissolution]] · [[The Coaching Stance]] · [[Asymmetric Communication]]
+See also: [[02-Key-Concepts/Capacity Dissolution|Capacity Dissolution]] · [[The Coaching Stance]] · [[Oversight]] · [[Delegation Thinking]]
 
 ## Related Pages
 

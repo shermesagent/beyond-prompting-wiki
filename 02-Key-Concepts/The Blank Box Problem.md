@@ -71,7 +71,7 @@ You are not bad at prompting because you struggle with the blank box. The blank 
 
 ## Related Pages
 
-[[What Is Beyond Prompting]] · [[The Operator Mindset]] · [[The Orchestrator Mindset]] · [[From Prompt to Pipeline]] · [[Build a Tiny Pipeline]]
+[[06-Glossary/The Blank Box Problem|Quick reference]] · [[What Is Beyond Prompting]] · [[The Operator Mindset]] · [[The Orchestrator Mindset]] · [[From Prompt to Pipeline]] · [[Build a Tiny Pipeline]]
 
 ## Tags
 

@@ -49,6 +49,20 @@ You're still in stateless mode when:
 
 That sentence is your North Star for building agent memory.
 
+## The Skill Bank Layer (Phase 3.5)
+
+Memory as infrastructure is the substrate. **Skill banks are what grows on it.** July 2026 research (Ren et al., arXiv:2607.21596 — "FlowEvo: Self-Evolving Agents through the Co-Evolution of Workflows and Executable Skills") describes a training-free framework where agents compile successful execution traces into reusable skill records that persist across sessions, with three coupled mechanisms:
+
+1. **Workflow-to-skill compilation** — successful traces become callable skill records with admission checks (interface, replay, safety). The agent doesn't just complete tasks; it captures *how* it completed them.
+2. **Skill-to-workflow feedback** — accumulated skills get retrieved for new problems via direct execution or context injection. Capability grows with every task.
+3. **Skill curation** — a monitoring mechanism tracks downstream utility and suppresses skills that cause negative transfer. The agent learns what *not* to reuse.
+
+The efficiency signature of real learning: **82.8% success on interactive ALFWorld environments — 23.6 points above the strongest baseline — at less than half the tokens per episode** of the most efficient competitor.
+
+The orchestrator translation: Phase 3 agents set goals. Phase 3.5 agents remember how they achieved them and build on those memories. This is the difference between an agent that executes recipes and an agent that builds a cookbook.
+
+**And this wiki is the human version of a skill bank.** Every SOP page is a compiled workflow. Every glossary entry is distilled skill knowledge. `log.md` is the curation layer — recording what worked and what didn't (see [[02-Key-Concepts/Failure-Path Preservation|Failure-Path Preservation]]) so the wiki compounds instead of leaking. The practice of moving beyond prompting and the practice of maintaining this wiki are the same practice.
+
 ## Related Pages
 
 [[Task Decomposition]] · [[Trust Calibration]] · [[Delegation Thinking]] · [[01-The-Shift/README|The Architect Mindset]] · [[05-Practice/README|Practice Section]]

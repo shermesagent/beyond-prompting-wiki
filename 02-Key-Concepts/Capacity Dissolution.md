@@ -31,7 +31,7 @@ The central case is assessment: when a polished artifact no longer reliably evid
 
 The operator→orchestrator shift promises leverage — more output with less effort. But Yao's framework names the hidden cost: **every delegation that skips capacity preservation is a withdrawal from a limited account.** The orchestrator who delegates output without preserving end-setting becomes reactive. Without reason-giving, they become opaque to colleagues. Without contestability, they become credulous. Without refusal, their standards drift downward. Without participation, they become replaceable.
 
-This concept bridges the [[04-Barriers-and-Bridges]] section and the [[05-Practice]] section. Capacity dissolution is the barrier. The three-week practice progression is the bridge. Every exercise in the practice section targets at least two of the five capacities:
+This concept bridges the [[04-Barriers-and-Bridges/README|Barriers & Bridges]] section and the [[05-Practice/README|Practice]] section. Capacity dissolution is the barrier. The three-week practice progression is the bridge. Every exercise in the practice section targets at least two of the five capacities:
 
 | Exercise | Capacities Preserved |
 |----------|---------------------|
@@ -69,7 +69,7 @@ If you answered "no" to three or more, that interaction produced output but diss
 
 ## Related Pages
 
-[[The Coaching Stance]] · [[Cognitive Surrender]] · [[The Absorption Pattern]] · [[The Augmentation Trap]] · [[Friction by Design]] · [[From Author to Editor]] · [[Trust Calibration]]
+[[06-Glossary/Capacity Dissolution|Quick reference]] · [[The Coaching Stance]] · [[Cognitive Surrender]] · [[The Absorption Pattern]] · [[The Augmentation Trap]] · [[Friction by Design]] · [[From Author to Editor]] · [[Trust Calibration]]
 
 ## Tags
 

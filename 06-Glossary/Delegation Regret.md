@@ -26,7 +26,7 @@ These patterns feel like overhead at first. But they're the difference between a
 
 ## Related Pages
 
-[[Delegation]] · [[Agent]] · [[Autonomy]] · [[Abstention]] · [[Oversight]] · [[Trust Calibration]] · [[Human in the Loop]]
+[[02-Key-Concepts/Delegation Regret|Full concept page]] · [[Delegation]] · [[Agent]] · [[Autonomy]] · [[Abstention]] · [[Oversight]] · [[06-Glossary/Trust Calibration|Trust Calibration]] · [[Human in the Loop]]
 
 ## Tags
 

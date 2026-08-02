@@ -16,7 +16,7 @@ The eighteen terms here are the ones that come up most often when someone starts
 
 If you're new here, start with **[[Agent]]** — it's the foundation everything else sits on. After that, jump to whichever term you're wrestling with today. There's no wrong order.
 
-This section grows as new concepts crystallize. The newest entries — **[[Capacity Dissolution]]**, **[[Cognitive Fixed Cost]]**, **[[The Blank Box Problem]]**, and **[[Failure-Path Preservation]]** — were added in August 2026, synthesizing a wave of July 2026 research (Yao, Li & Cao, Shneiderman, Saboia Moreira & Sweet) into plain-language glossary references. Earlier entries — **[[Overassistance]]**, **[[Trust Calibration]]**, and **[[Delegation Regret]]** — were added in July 2026 after research demonstrated that over-helping (not error) is AI's primary failure mode, and that boundary violations (not mistakes) are what most erode human trust. The glossary evolves with the practice.
+This section grows as new concepts crystallize. The newest entries — **[[06-Glossary/Capacity Dissolution|Capacity Dissolution]]**, **[[06-Glossary/Cognitive Fixed Cost|Cognitive Fixed Cost]]**, **[[06-Glossary/The Blank Box Problem|The Blank Box Problem]]**, and **[[06-Glossary/Failure-Path Preservation|Failure-Path Preservation]]** — were added in August 2026, synthesizing a wave of July 2026 research (Yao, Li & Cao, Shneiderman, Saboia Moreira & Sweet). Each is a 30-second quick reference: the full treatment lives on the linked concept page, and every entry's Related Pages leads with it. Earlier entries — **[[Overassistance]]**, **[[06-Glossary/Trust Calibration|Trust Calibration]]**, and **[[06-Glossary/Delegation Regret|Delegation Regret]]** — were added in July 2026 after research demonstrated that over-helping (not error) is AI's primary failure mode, and that boundary violations (not mistakes) are what most erode human trust. The glossary evolves with the practice.
 
 ---
 
@@ -36,12 +36,12 @@ This section grows as new concepts crystallize. The newest entries — **[[Capac
 | [[Autonomy]] | How much can an agent do on its own — and where do I draw the line? | Architect |
 | [[Abstention]] | When should my AI say "I can't do this" instead of acting anyway? | Architect |
 | [[Overassistance]] | Why does AI default to doing everything for me — and how do I stop it? | Operator → Orchestrator |
-| [[Trust Calibration]] | When should I trust the AI and when should I verify? | Orchestrator |
-| [[Delegation Regret]] | What happens when the agent acts without my permission — and how do I prevent it? | Orchestrator |
-| [[Capacity Dissolution]] | How does delegating my thinking to AI silently erode my own skills? | Orchestrator |
-| [[Cognitive Fixed Cost]] | How do I invest cognitive effort once and collect the return forever? | Orchestrator → Architect |
-| [[The Blank Box Problem]] | Why does the empty chat window make me worse at using AI? | Operator → Orchestrator |
-| [[Failure-Path Preservation]] | How do I make sure mistakes get remembered instead of repeated? | Orchestrator |
+| [[06-Glossary/Trust Calibration|Trust Calibration]] | When should I trust the AI and when should I verify? | Orchestrator |
+| [[06-Glossary/Delegation Regret|Delegation Regret]] | What happens when the agent acts without my permission — and how do I prevent it? | Orchestrator |
+| [[06-Glossary/Capacity Dissolution|Capacity Dissolution]] | How does delegating my thinking to AI silently erode my own skills? | Orchestrator |
+| [[06-Glossary/Cognitive Fixed Cost|Cognitive Fixed Cost]] | How do I invest cognitive effort once and collect the return forever? | Orchestrator → Architect |
+| [[06-Glossary/The Blank Box Problem|The Blank Box Problem]] | Why does the empty chat window make me worse at using AI? | Operator → Orchestrator |
+| [[06-Glossary/Failure-Path Preservation|Failure-Path Preservation]] | How do I make sure mistakes get remembered instead of repeated? | Orchestrator |
 
 ---
 

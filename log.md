@@ -798,3 +798,13 @@ Pages: 52 (was 51) — 1 new, 3 updated. Zero broken links expected.
 - **Digest:** 00-Daily-Digests/2026-08-01.md — frames the day as "The Glossary Deepens: turning this week's research into durable reference." Includes operator/teacher take (3 actionable items) and orchestrator work (audit glossary against pipelines, add capacity check to SOPs, build failure log).
 - **Top insight:** A glossary entry never read by someone who needs it is a missed on-ramp. Today's work won't produce a new finding, but it ensures the next person who encounters "capacity dissolution" in a practice page can land on a 30-second definition and take action. This is the compounding layer: without it, the wiki is a research feed; with it, the wiki is a curriculum.
 - **Glossary now at 18 terms** (14 → 18). Operator→Orchestrator: 6 terms. Orchestrator: 7 terms. Architect: 5 terms.
+
+## 2026-08-02 | rotation | Week 5 Day 7 — Cross-Section Lint + Weekend Deep-Synthesis (Sunday source collapse)
+- Theme: The Wiki Turns Its Lens on Itself — Day 7 lint pass + FlowEvo skill-bank synthesis
+- Sources ingested: none new (web search down) — cross-pollinated FlowEvo (Ren et al., arXiv:2607.21596) from AI Agency Knowledgebase 2026-07-27 digest
+- Pages created: 0 new; deepened 1 (Memory as Infrastructure — The Skill Bank Layer / Phase 3.5)
+- Pages updated (cross-links + broken-link fixes): 02-Key-Concepts Capacity Dissolution, Cognitive Fixed Cost, Failure-Path Preservation, The Blank Box Problem, Trust Calibration, Delegation Regret; 04-Barriers-and-Bridges Trust Calibration; 06-Glossary Trust Calibration, Delegation Regret; 05-Practice Audit Your Prompts
+- Glossary trimmed to quick-reference depth (4): Capacity Dissolution, Cognitive Fixed Cost, The Blank Box Problem, Failure-Path Preservation — all same-name pairs now bidirectionally cross-linked (incl. Trust Calibration 02↔04↔06)
+- Digest: 00-Daily-Digests/2026-08-02.md
+- Navigation updates: Home.md (74 pages, Today's Digest → 08-02, 5 concepts + 4 glossary terms + Social Thinning added to listings, 6 Recent Updates rows 07-28→08-02), 06-Glossary/README.md (quick-reference paragraph + pathful table links for collided names)
+- sources.jsonl: added flowevo-self-evolving-agents-2607.21596

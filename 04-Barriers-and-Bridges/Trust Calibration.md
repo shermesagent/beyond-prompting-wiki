@@ -96,7 +96,7 @@ The paper proposes that evaluation results carry explicit metadata: **formality 
 
 ## Related Pages
 
-[[The Just Ask ChatGPT Trap]] · [[Fear of Losing Control]] · [[Knowledge Debt]] · [[The Augmentation Trap]] · [[Delegation Thinking]] · [[Task Decomposition]] · [[Prompt as Safety Blanket]]
+[[02-Key-Concepts/Trust Calibration|Concept page]] · [[06-Glossary/Trust Calibration|Quick reference]] · [[The Just Ask ChatGPT Trap]] · [[Fear of Losing Control]] · [[Knowledge Debt]] · [[The Augmentation Trap]] · [[Delegation Thinking]] · [[Task Decomposition]] · [[Prompt as Safety Blanket]]
 
 ## Tags
 

@@ -68,7 +68,7 @@ The orchestrator who never feels delegation regret may be over-delegating — ha
 
 ## Related Pages
 
-[[Delegation Thinking]] · [[From Author to Editor]] · [[Trust Calibration]] · [[Cognitive Surrender]] · [[Small Business Automation]] · [[From Prompt to Pipeline]]
+[[06-Glossary/Delegation Regret|Quick reference]] · [[Delegation Thinking]] · [[From Author to Editor]] · [[Trust Calibration]] · [[Cognitive Surrender]] · [[Small Business Automation]] · [[From Prompt to Pipeline]]
 
 ## Tags
 

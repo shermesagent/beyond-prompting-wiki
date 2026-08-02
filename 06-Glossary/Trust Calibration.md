@@ -26,7 +26,7 @@ A practical pattern: keep a running "trust journal" for a week. Every time you u
 
 ## Related Pages
 
-[[Agent]] · [[Delegation]] · [[Oversight]] · [[Autonomy]] · [[Cognitive Surrender]] · [[Co-Construction Blindness]] · [[Delegation Regret]]
+[[02-Key-Concepts/Trust Calibration|Full concept page]] · [[04-Barriers-and-Bridges/Trust Calibration|Barriers & Bridges version]] · [[Agent]] · [[Delegation]] · [[Oversight]] · [[Autonomy]] · [[Cognitive Surrender]] · [[Co-Construction Blindness]] · [[Delegation Regret]]
 
 ## Tags
 

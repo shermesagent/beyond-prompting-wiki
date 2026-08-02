@@ -2,7 +2,7 @@
 
 > A living guide to the **operator → orchestrator shift**. If you've ever typed a prompt and thought "there has to be more than this" — start here.
 
-_64 pages across 6 sections. Updated daily. Git-backed, human-readable, cross-linked._
+_74 pages across 6 sections. Updated daily. Git-backed, human-readable, cross-linked._
 
 ---
 
@@ -40,7 +40,7 @@ The core idea. What it means, why it matters, and the three mindsets along the p
 
 ### [[02-Key-Concepts/README|02 — Key Concepts]]
 Approachable distillations of research into learning concepts you can use today.
-→ [[Task Decomposition]] · [[Delegation Thinking]] · [[Cognitive Surrender]] · [[Trust Calibration]] · [[Friction by Design]] · [[The Augmentation Trap]] · [[Co-Construction Blindness]] · [[From Author to Editor]] · [[The Coaching Stance]] · [[The Placement Rule]] · [[The Four Decision Labels]] · [[Memory as Infrastructure]] · [[The Review-First Pattern]] · [[The Sequencing Principle]] · [[Doom Researching]] · [[Reverse-Centaur]] · [[The Collapse Pattern]] · [[Cognitive Load]] · [[The Illusion of Mastery]] · [[The Scaffold Match]] · [[The Jagged Frontier]] · [[Abstention]] · [[Authorship Calibration]] · [[Autonomy]] · [[The Preservation Principle]] · [[The Absorption Pattern]] · [[The Overassistance Pattern]] · [[Delegation Regret]] · [[Instruction Bleed]] · [[The Blank Box Problem]]
+→ [[Task Decomposition]] · [[Delegation Thinking]] · [[Cognitive Surrender]] · [[02-Key-Concepts/Trust Calibration|Trust Calibration]] · [[Friction by Design]] · [[The Augmentation Trap]] · [[Co-Construction Blindness]] · [[From Author to Editor]] · [[The Coaching Stance]] · [[The Placement Rule]] · [[The Four Decision Labels]] · [[Memory as Infrastructure]] · [[The Review-First Pattern]] · [[The Sequencing Principle]] · [[Doom Researching]] · [[Reverse-Centaur]] · [[The Collapse Pattern]] · [[Cognitive Load]] · [[The Illusion of Mastery]] · [[The Scaffold Match]] · [[The Jagged Frontier]] · [[Abstention]] · [[Authorship Calibration]] · [[Autonomy]] · [[The Preservation Principle]] · [[The Absorption Pattern]] · [[The Overassistance Pattern]] · [[02-Key-Concepts/Delegation Regret|Delegation Regret]] · [[Instruction Bleed]] · [[02-Key-Concepts/The Blank Box Problem|The Blank Box Problem]] · [[AI Context Anxiety]] · [[Lexical Oscillation]] · [[02-Key-Concepts/Capacity Dissolution|Capacity Dissolution]] · [[02-Key-Concepts/Cognitive Fixed Cost|Cognitive Fixed Cost]] · [[02-Key-Concepts/Failure-Path Preservation|Failure-Path Preservation]]
 
 ### [[03-Real-World/README|03 — Real World Stories]]
 Case studies, transformation stories, and honest failure postmortems.
@@ -48,7 +48,7 @@ Case studies, transformation stories, and honest failure postmortems.
 
 ### [[04-Barriers-and-Bridges/README|04 — Barriers & Bridges]]
 What holds people back — and how to cross.
-→ [[Fear of Losing Control]] · [[The Just Ask ChatGPT Trap]] · [[Psychological Debt]] · [[Trust Calibration]] · [[Knowledge Debt]] · [[Prompt as Safety Blanket]] · [[Human Readiness Archetypes]] · [[The Engagement Gap]] · [[The Certification Boundary]]
+→ [[Fear of Losing Control]] · [[The Just Ask ChatGPT Trap]] · [[Psychological Debt]] · [[04-Barriers-and-Bridges/Trust Calibration|Trust Calibration]] · [[Knowledge Debt]] · [[Prompt as Safety Blanket]] · [[Human Readiness Archetypes]] · [[The Engagement Gap]] · [[The Certification Boundary]] · [[Social Thinning]]
 
 ### [[05-Practice/README|05 — Practice]]
 Weekly muscle builders. Concrete exercises that build the orchestrator mindset.
@@ -56,11 +56,11 @@ Weekly muscle builders. Concrete exercises that build the orchestrator mindset.
 
 ### [[06-Glossary/README|06 — Glossary]]
 Plain-language definitions of every key term.
-→ [[Agent]] · [[Orchestration]] · [[Delegation]] · [[Decomposition]] · [[Memory]] · [[Tool Use]] · [[Human in the Loop]] · [[Oversight]] · [[SOP]] · [[Overassistance]] · [[Trust Calibration]] · [[Delegation Regret]] · [[Autonomy]] · [[Abstention]]
+→ [[Agent]] · [[Orchestration]] · [[Delegation]] · [[Decomposition]] · [[Memory]] · [[Tool Use]] · [[Human in the Loop]] · [[Oversight]] · [[SOP]] · [[Overassistance]] · [[06-Glossary/Trust Calibration|Trust Calibration]] · [[06-Glossary/Delegation Regret|Delegation Regret]] · [[Autonomy]] · [[Abstention]] · [[06-Glossary/Capacity Dissolution|Capacity Dissolution]] · [[06-Glossary/Cognitive Fixed Cost|Cognitive Fixed Cost]] · [[06-Glossary/The Blank Box Problem|The Blank Box Problem]] · [[06-Glossary/Failure-Path Preservation|Failure-Path Preservation]]
 
 ### 00-Daily-Digests
 Daily curated research digests — what we found, what it means, and how to use it.
-→ [[2026-07-27|Today's Digest]]
+→ [[00-Daily-Digests/2026-08-02|Today's Digest]]
 
 ---
 
@@ -80,6 +80,12 @@ _Last 7 days of activity._
 
 | Date | What Changed |
 |------|-------------|
+| 2026-08-02 | Day 7 cross-section lint + weekend deep-synthesis: 4 glossary entries trimmed to quick-reference depth + all same-name concept/glossary pairs now bidirectionally cross-linked (incl. the triple Trust Calibration), broken links fixed, Memory as Infrastructure deepened with the Skill Bank layer (FlowEvo, arXiv:2607.21596) — the wiki itself is the practice: its rotation is a human skill bank |
+| 2026-08-01 | Day 6 Glossary Deepening: 4 new glossary entries (Capacity Dissolution, Cognitive Fixed Cost, The Blank Box Problem, Failure-Path Preservation) + 3 deepened (Memory, SOP, Oversight) — the compounding layer: a glossary turns a research feed into a curriculum |
+| 2026-07-31 | Day 5 Practice rotation (Week 5): Daily digest + 1 new concept (Capacity Dissolution) + 5 practice pages deepened (The Coaching Stance — Evaluation Transfer Gap + Five Capacities, Audit Your Prompts — Asymmetric Check, First Delegation — Evaluation Trap + Capacity Check, Build a Tiny Pipeline — Structured Reflection, The Daily Standup — Seventh Question) — evaluating AI output and producing it are different muscles, backed by 4 new papers |
+| 2026-07-30 | Day 4 Barriers & Bridges rotation (Week 5): Daily digest + 1 new barrier (Social Thinning) + 4 pages deepened (Friction by Design — Friction as Reflection, Trust Calibration — Trust Inflation, Fear of Losing Control — Social Cost, Human Readiness Archetypes — Affective Dimension) — the cost of AI that works too smoothly, backed by 5 new papers |
+| 2026-07-29 | Day 3 Real-World rotation (Week 5): Daily digest + 2 new concepts (Cognitive Fixed Cost, Failure-Path Preservation) + 3 pages deepened (From Prompt to Pipeline, Small Business Automation, The School District Shift — Substrate-First Deployment) — deployment without memory is just a faster way to repeat mistakes, backed by 4 new papers |
+| 2026-07-28 | Day 2 Key Concepts rotation (Week 5): Daily digest + 2 new concepts (AI Context Anxiety, Lexical Oscillation) + 3 pages deepened (Co-Construction Blindness — The Vibe Trap, Delegation Thinking — Plan Mode evidence, Task Decomposition — Context Anxiety principle) — the agent's silent failures are more dangerous than its loud ones, backed by 5 new papers |
 | 2026-07-27 | Day 1 The Shift rotation (Week 5): Daily digest + 1 new concept (The Blank Box Problem) + 3 Shift pages deepened (What Is Beyond Prompting — Interface Shapes the Mindset + Economic Logic, The Operator Mindset — World Changed + Blank Box Keeps You Here, The Orchestrator Mindset — Overtrust Engine + Control Panels Not Prompts) — the interface is the operating system: the blank prompt box defaults you into operator mode, and the shift begins when you notice the box, backed by 4 new sources (Shneiderman control panels, Fell overtrust engine, Banerjee & Singh substitution principle, Mollick agentic landscape) |
 | 2026-07-24 | Day 5 Practice rotation (Week 4): Daily digest + 1 new concept (The Overassistance Pattern) + 6 pages deepened (The Coaching Stance — Int-Bench overassistance data, First Delegation — PEA Governance Layer, Audit Your Prompts — CT-AI Three-Factor Check, The Scaffold Match — Overassistance Factor, The Absorption Pattern — 775K scientist population evidence, Trust Calibration — Cognitive Distortion Amplification) — The Practice of Pulling Back: AI's factory default is to overassist, and the practice of beyond prompting is the practice of constraining it, backed by 5 new papers |
 | 2026-07-23 | Day 4 Barriers & Bridges rotation (Week 4): Daily digest + 1 new barrier page (The Certification Boundary) + 4 barrier pages deepened (Trust Calibration — Discernment Gap, Knowledge Debt — Certification Crisis, The Just Ask ChatGPT Trap — Popularity Over Reliability, Human Readiness Archetypes — Experiential Bridge + Culture Blind Spot) — the Trust Stack: three layers of the delegation barrier (tool-level discernment failure, training-level metacognitive approach, institutional-level certification crisis) backed by 5 new ARXIV papers |
