@@ -808,3 +808,16 @@ Pages: 52 (was 51) — 1 new, 3 updated. Zero broken links expected.
 - Digest: 00-Daily-Digests/2026-08-02.md
 - Navigation updates: Home.md (74 pages, Today's Digest → 08-02, 5 concepts + 4 glossary terms + Social Thinning added to listings, 6 Recent Updates rows 07-28→08-02), 06-Glossary/README.md (quick-reference paragraph + pathful table links for collided names)
 - sources.jsonl: added flowevo-self-evolving-agents-2607.21596
+
+## 2026-08-03 — Week 6, Day 1 (01-The-Shift rotation)
+
+Theme: **The shift is an expertise change, not a workflow change** — where mastery lives, and the Validation Tether that keeps you honest.
+
+- Sources (5 new, all arXiv, all active): Cognitive Commons framework 2607.29380 (Internalized vs Distributed Mastery + Validation Tether), sysadmin expertise pathways 2607.28650 (ladder-shortening, performance perception shift), Deployment Wall 2607.29089 (95% pilot failure, Seam Index, Deployment Debt), LLM productivity artifact check 2607.28968 (stopping-time selection rebutted), LM agreement vs readers 2607.29274 (model homogenization +0.093 vs human +0.040)
+- New concept page (1): 02-Key-Concepts/Distributed Mastery.md — the orchestration destination: distribute execution, protect the internalized loops that feed the Validation Tether
+- Pages deepened (5): The Operator Mindset — Ladder-Shortening Trap; The Orchestrator Mindset — Deployment Wall (seam removal as the core orchestrator skill); The Architect Mindset — Homogenization Corollary (adding models ≠ adding perspectives; pluralism needs a human anchor); Why This Matters — productivity association survives scrutiny; Knowledge Debt — extended Cognitive Commons section with the framework paper (no duplicate page; section now cites both 2607.13272 appraisal and 2607.29380 framework)
+- Anti-duplication honored: Cognitive Commons extended in place per house rule; Distributed Mastery is the only new page (no glossary twin — keeps the two-layer graph clean)
+- Navigation: Home.md (75 pages, Today's Digest → 08-03, Distributed Mastery added to 02 listing, Recent Updates row), 02-Key-Concepts/README (new table row)
+- Digest: 00-Daily-Digests/2026-08-03.md
+- sources.jsonl: +5 records (158 → 163)
+- Raw files: raw/articles/ ×5 with full abstracts

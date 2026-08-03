@@ -70,6 +70,19 @@ This connects directly to the personal Knowledge Debt you accrue. Every time you
 
 **Source:** arXiv:2607.13272 — appraisal of the Acemoglu-Kong-Ozdaglar knowledge collapse model, including Stack Overflow evidence and five structural criticisms.
 
+### The Framework Behind the Tragedy: Internalized vs Distributed Mastery (August 2026)
+
+A new conceptual paper (arXiv:2607.29380) builds the missing theory under that intuition — the **Cognitive Commons framework** — and it names the two forces at work. Professional expertise regenerates through two mastery modes:
+
+- **Internalized Mastery** — deep domain knowledge built from sustained practice: the cycles of building, failing, debugging, and teaching that turn a novice into an expert.
+- **Distributed Mastery** — orchestrating human-AI systems so that expert-level work gets done without one person holding all the expertise internally.
+
+The shift Beyond Prompting moves people from the first mode toward the second — and that's where the commons problem bites. The framework's core mechanism is the **Validation Tether**: *effective AI oversight depends on exactly the expertise AI adoption may undermine.* The less internalized mastery you hold, the weaker your ability to validate what the distributed system produces — and the more your delegation withdraws from the collective pool without anyone noticing.
+
+Five factors determine how vulnerable a profession is: how central judgment is to the work, how much practice-based (non-documented) expertise the work requires, how fast AI substitutes for that practice, how visible the erosion is, and how strong the profession's institutions are at regenerating expertise. The early evidence is concentrated in leading sectors — the same sectors that adopted AI first.
+
+This reframes the antidote. Paying it forward (the "What you can do" above) isn't just generosity — it's the collective half of the same tether. And at the personal level, the framework explains why [[Distributed Mastery]] is the orchestration goal: distribute execution, but protect enough internalized mastery to stay tethered. The wiki's two-layer pattern is the same idea — glossary for the on-ramp, concept page for the depth, cross-links keeping both alive.
+
 ## Knowledge Debt at Institutional Scale: The Certification Crisis
 
 So far, Knowledge Debt has been about what *you* lose when you delegate without understanding. But there's a bigger version: what happens when the entire certification system runs on debt.
@@ -88,4 +101,4 @@ The framework for navigating this is detailed on [[The Certification Boundary]] 
 
 ## Related Pages
 
-[[The Augmentation Trap]] · [[Psychological Debt]] · [[Friction by Design]] · [[Trust Calibration]] · [[Fear of Losing Control]] · [[Cognitive Surrender]] · [[The Coaching Stance]]
+[[The Augmentation Trap]] · [[Psychological Debt]] · [[Friction by Design]] · [[Trust Calibration]] · [[Fear of Losing Control]] · [[Cognitive Surrender]] · [[The Coaching Stance]] · [[Distributed Mastery]]

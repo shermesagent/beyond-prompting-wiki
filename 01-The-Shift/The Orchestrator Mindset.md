@@ -111,6 +111,18 @@ SolarWinds' 2026 IT Trends Report (1,000+ IT professionals surveyed, April 2026)
 
 These aren't just IT trends. They're the shape of every knowledge job as AI agents become capable teammates. The orchestrator who can design workflows across these four dimensions has a skill set that compounds — each new workflow makes the next one easier to build because you reuse patterns, memory, and verification strategies.
 
+## The Deployment Wall (August 2026)
+
+New enterprise research (arXiv:2607.29089) delivers a sobering number: **about 95% of enterprise generative-AI pilots deliver no measurable profit-and-loss impact** — even as enterprise AI investment tripled in a single year to roughly US$37 billion. The paper's argument matters for orchestrators: the dominant explanation — "the models aren't capable enough" — is wrong. Enterprise AI has entered a **Deployment Era** where advantage comes not from model intelligence but from **removing the organizational and architectural friction** that keeps a capable model from reaching production.
+
+Three constructs you can use this week:
+
+1. **The Deployment Wall** — a six-stage value-leak model showing where pilots die between proof-of-concept and production. Most value leaks in handoffs: security reviews, integration, ownership gaps, unclear success metrics.
+2. **The Seam Index** — a 0–12 diagnostic scoring how many of six recurring friction "seams" a platform removes natively instead of leaving to you. Six seams, each a place where a pilot silently dies: data access, permissions, integration, evaluation, deployment, monitoring.
+3. **Deployment Debt** — unresolved friction as a *compounding, quantifiable liability*, the same way technical debt compounds in software. Every seam you patch manually is a debt you'll pay interest on every time the system changes.
+
+The orchestrator translation: **your most valuable skill is seam removal.** The model is no longer the constraint — the pipeline is. When a delegation fails, the orchestrator's first question isn't "is the AI smart enough?" but "where is the friction between intent and production?" Removing one seam — a saved permission, a standard evaluation step, a monitoring check — moves a whole class of workflows past the wall. This is orchestration as architecture-in-miniature, and it's the direct route to [[The Architect Mindset]]: the orchestrator who systematically removes seams is already designing systems.
+
 ## The Coaching Stance
 
 Orchestration isn't just about delegation. It's about *how* you delegate. New research on AI coaching (arXiv, June 2026) confirms what skilled orchestrators already sense: AI that never steps back produces skill atrophy. The effective stance is **strategic scaffolding** — the AI provides support, then deliberately withdraws so the human stays sharp on judgment calls.

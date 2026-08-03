@@ -77,6 +77,7 @@ They came out of real research — papers on human-AI collaboration, case studie
 | [[Instruction Bleed]] | When editing one prompt silently changes another's behavior — how do I catch it? | Orchestrator |
 | [[The Blank Box Problem]] | Why does the blank prompt box keep me stuck in operator mode? | Operator → Orchestrator |
 | [[Capacity Dissolution]] | What five capacities am I losing when AI handles all my output? | Everyone |
+| [[Distributed Mastery]] | How do I get expert-level results from a human-AI system without holding all the expertise myself? | Orchestrator → Architect |
 
 ---
 
