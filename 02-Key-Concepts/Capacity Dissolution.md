@@ -1,11 +1,13 @@
 ---
 title: Capacity Dissolution
 created: 2026-07-31
+updated: 2026-08-05
 type: concept
 tags: [concept, barriers, practice, orchestrator, skill-erosion]
 sources:
   - arXiv:2607.28041
   - arXiv:2607.27586
+  - raw/articles/longitudinal-human-ai-measurements-2608.02491.md
 confidence: medium
 ---
 
@@ -44,6 +46,14 @@ This concept bridges the [[04-Barriers-and-Bridges/README|Barriers & Bridges]] s
 ## Evidence
 
 The N=220 randomized study by Dickey et al. (arXiv:2607.27586) provides direct evidence for a related phenomenon: **evaluating AI output and solving problems yourself are different muscles.** Students who only evaluated GenAI solutions earned higher homework scores but showed no transfer to exams — their evaluation skill didn't build their solving capacity. This is capacity dissolution in microcosm: the student who can spot an error in AI output but can't solve the problem themselves has preserved contestability while losing reason-giving and end-setting.
+
+### The Longitudinal Blindspot (August 2026)
+
+There's a measurement problem hiding inside the dissolution story, and a new position paper names it directly (arXiv:2608.02491, August 2026). Language models integrate into daily life in ways that are *human-like* and *continuous* — which means their risks are **longitudinal**: cognitive, developmental, and socio-affective changes that "might not surface in short-term interactions, but can have lasting long-term effects on users."
+
+The paper's core argument: NLP evaluation has been static and short-term (does this response look good?), but the risks that matter are diachronic (is this *relationship* changing the user?). It calls for long-term measurements of behavioral change, online rather than post-hoc detection of problematic patterns, and modeling "human behavioral shifts as a function of model interactions."
+
+**Why this matters for the five capacities:** every dissolution mechanism on this page is a *longitudinal* phenomenon — erosion that compounds across repeated interactions, invisible in any single one. A student who checks their work for a week sees no change. The problem is the pattern across months. That's exactly why the Capacity Check (below) is phrased as a *recurring* practice: a single check catches nothing; a weekly check over a year catches the drift curve. You can't detect dissolution in the moment any more than a static NLP benchmark can — you can only detect it in the series. Run the check. Log the answers. Compare across weeks. The measurement is the antidote.
 
 ## How to Spot It in Your Work
 

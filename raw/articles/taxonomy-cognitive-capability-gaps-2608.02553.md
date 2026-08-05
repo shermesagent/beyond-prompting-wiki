@@ -1,0 +1,15 @@
+---
+source_url: https://arxiv.org/abs/2608.02553
+ingested: 2026-08-05
+sha256: TBD
+---
+
+# A Taxonomy of Cognitive Capability Gaps in Generative and Agentic AI
+
+arXiv:2608.02553, August 2026 (taxonomy-driven survey)
+
+**Full abstract:**
+
+Cognitive AI seeks to move beyond language generation and autonomous task execution toward systems capable of sustained reasoning, adaptive behavior, persistent memory, and self-regulation. While generative and agentic AI have demonstrated impressive capabilities across a wide range of tasks, many fundamental cognitive functions remain fragmented or weakly developed, limiting reliable operation over extended time horizons. This paper presents a taxonomy-driven survey of the major cognitive capability gaps that continue to constrain the development of Cognitive AI. The literature is organized around five dimensions: persistent state modeling, goal-directed autonomy, self-monitoring and control, environment interaction, and learning and adaptation. For each dimension, we review recent advances, identify recurring limitations, and discuss open research challenges. Building on these insights, we outline a conceptual Adaptive Cognitive Intelligence Architecture (ACIA) and examine emerging directions in cognition-centric evaluation. The proposed taxonomy provides a unified framework for organizing existing research, identifying unresolved challenges, and guiding the design of future cognitively capable systems. Together, the taxonomy, architectural perspective, and evaluation framework offer a roadmap for advancing AI systems that exhibit more reliable long-term reasoning, adaptive decision-making, and continual learning. The survey highlights key research opportunities toward more adaptive, reliable, and cognitively capable AI systems, providing a foundation for future progress toward Cognitive AI and, ultimately, Artificial General Intelligence (AGI).
+
+**Key terms:** cognitive capability gaps · persistent state modeling · goal-directed autonomy · self-monitoring & control · environment interaction · learning & adaptation · ACIA · cognition-centric evaluation

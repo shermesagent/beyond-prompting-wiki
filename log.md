@@ -821,3 +821,16 @@ Theme: **The shift is an expertise change, not a workflow change** — where mas
 - Digest: 00-Daily-Digests/2026-08-03.md
 - sources.jsonl: +5 records (158 → 163)
 - Raw files: raw/articles/ ×5 with full abstracts
+
+## 2026-08-05 — Week 6, Day 2 (02-Key-Concepts rotation)
+
+Theme: **Delegation is a redistribution of consequences — and reliability fails in five nameable dimensions.** (Wednesday arXiv active day; also covered the skipped 08-04 window.)
+
+- Sources (6 new, all arXiv, all active): Accountability Asymmetry 2608.03670 (engineered heterogeneity — proposer ≠ approver ≠ auditor), Cognitive Capability Gaps taxonomy 2608.02553 (five dimensions: persistent state, goal-directed autonomy, self-monitoring & control, environment interaction, learning & adaptation), agentic coding simulation 2608.03585 (1,084 devs; human-human 32.4%→11.6%, knowledge coverage 22.3% vs 81.1%, productivity-public knowledge tension), When AI Joins the Team 2608.03462 (TMS-grounded, N=152, community smells are contingent on work type), Calibrating Trustworthiness 2608.04006 (5 metrics / 20 measures, inter-rater reliability up), Long-term Measurements 2608.02491 (longitudinal blindspot position paper)
+- New concept pages (2): 02-Key-Concepts/Accountability Asymmetry.md — consequences land on people, not components; the three-role workflow audit; 02-Key-Concepts/Cognitive Capability Gaps.md — the five-dimension taxonomy as a pre-delegation checklist + gap audit exercise
+- Pages deepened (4): Knowledge Debt — agentic coding's private loops measured at GitHub scale (self-loops, commons withdrawal); Social Thinning — the contingency finding (specialization → more sharing → fewer smells; coordination → AI complements); Trust Calibration — the explicit scorecard that makes trustworthiness operational (education metrics); Capacity Dissolution — the longitudinal blindspot (static checks can't see drift; the Capacity Check works as a series)
+- Anti-duplication honored: Transactive memory material extended Social Thinning in place (no new page); Autoreflection (2608.03800) surfaced but not used; 6 of 7 verified candidates ingested
+- Navigation: Home.md (77 pages, Today's Digest → 08-05, 2 concepts added to 02 listing, Recent Updates row), 02-Key-Concepts/README (entries 27–28 + 2 table rows)
+- Digest: 00-Daily-Digests/2026-08-05.md
+- sources.jsonl: +6 records (163 → 169)
+- Raw files: raw/articles/ ×6 with full abstracts

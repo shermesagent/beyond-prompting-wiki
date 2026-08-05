@@ -1,10 +1,10 @@
 ---
 title: Trust Calibration
 created: 2026-06-21
-updated: 2026-07-15
+updated: 2026-08-05
 type: concept
 tags: [concept, barrier, orchestrator]
-sources: [raw/articles/accurate-but-not-confident-acm-2026.md, raw/articles/automation-boundaries-2026.md, raw/articles/perceived-system-predictability-2607.05674.md, raw/articles/faster-ai-uneven-frontier-2607.12125.md, raw/articles/how-agentic-is-agentic-commerce-2607.12575.md]
+sources: [raw/articles/accurate-but-not-confident-acm-2026.md, raw/articles/automation-boundaries-2026.md, raw/articles/perceived-system-predictability-2607.05674.md, raw/articles/faster-ai-uneven-frontier-2607.12125.md, raw/articles/how-agentic-is-agentic-commerce-2607.12575.md, raw/articles/calibrating-trustworthiness-education-2608.04006.md]
 confidence: high
 ---
 
@@ -163,6 +163,20 @@ Four mechanisms identified:
 **The calibration practice:** After any extended AI session (>5 minutes of substantive interaction), ask: "Was there a moment where the AI confirmed something I already thought — and I stopped questioning? Was there a moment where I accepted the AI's framing without checking against my own?" Finding those moments is the practice. Most people never look for them.
 
 Source: "Language Models Embody and Amplify Human Cognitive Distortions" (arXiv:2607.20695, July 2026)
+
+### The Explicit Scorecard: Trustworthiness Made Operational (August 2026)
+
+Calibration is usually treated as a private skill — your mental map, your review points. A longitudinal co-design study in education (arXiv:2608.04006, August 2026) shows what happens when a team makes it *public and operational*. Working with learning engineers building an LLM-powered digital textbook, the researchers co-constructed **five trustworthiness metrics spanning 20 concrete measures** tailored to pedagogical use, then designed visualizations that map trustworthiness violations directly onto LLM responses.
+
+Three findings that transfer directly to orchestrator practice:
+
+1. **Making trustworthiness explicit increased inter-rater reliability.** When the team had a shared scorecard, different evaluators produced more consistent judgments about the same LLM response. Vagueness wasn't the problem — *shared vocabulary* was the fix. "This feels off" became "this fails measure 14: unsupported pedagogical claim."
+
+2. **The scorecard resolved conflicting objectives.** Learning engineers frequently had to choose between responses that were, say, more engaging but less accurate. With the metrics in hand, the trade-offs became nameable and deliberate instead of vibes-based — they could see *which* trustworthiness dimension each option sacrificed.
+
+3. **Visualization beat discussion.** Mapping violations onto the response text itself changed how the team argued about quality. Instead of abstract debate, they pointed at the same mapped artifact.
+
+**Why this matters for your calibration practice:** your personal Trust Map (below) is the individual version of this. The upgrade path is to share it. If you work with a team that reviews AI outputs, a two-page scorecard — five dimensions, twenty checks, mapped onto the actual output — converts "trust your gut" into a team process with an inter-rater reliability of its own. In education contexts especially (the study's setting), this is the difference between "the AI looked good to me" and "the AI passed our rubric" — and rubrics are exactly what teachers already trust.
 
 See also: [[Cognitive Surrender]] · [[Co-Construction Blindness]] · [[The Overassistance Pattern]]
 

@@ -36,6 +36,8 @@ You don't need to read them in order. Jump to whichever title grabs you. But if 
 24. [[Instruction Bleed]] — when editing one prompt module silently changes another's behavior — the orchestrator's invisible failure mode.
 25. [[The Blank Box Problem]] — the interface itself shapes your mindset: why the blank prompt box keeps you in operator mode.
 26. [[Capacity Dissolution]] — the five specific human capacities that erode when AI handles output without your accountability: end-setting, reason-giving, contestability, refusal/revision, participation.
+27. [[Accountability Asymmetry]] — the mismatch between who *decides* and who bears the consequences — and the structural fix: the proposer of an action should never be its sole approver and auditor.
+28. [[Cognitive Capability Gaps]] — the five dimensions where agentic AI stays unreliable over time, and the pre-delegation checklist they give you.
 
 ---
 
@@ -78,6 +80,8 @@ They came out of real research — papers on human-AI collaboration, case studie
 | [[The Blank Box Problem]] | Why does the blank prompt box keep me stuck in operator mode? | Operator → Orchestrator |
 | [[Capacity Dissolution]] | What five capacities am I losing when AI handles all my output? | Everyone |
 | [[Distributed Mastery]] | How do I get expert-level results from a human-AI system without holding all the expertise myself? | Orchestrator → Architect |
+| [[Accountability Asymmetry]] | Who bears the consequences when an agent decides — and who should? | Architect |
+| [[Cognitive Capability Gaps]] | Why does reliability still fail within tasks AI has already crossed? | Orchestrator |
 
 ---
 

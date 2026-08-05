@@ -1,10 +1,10 @@
 ---
 title: Knowledge Debt
 created: 2026-07-08
-updated: 2026-07-23
+updated: 2026-08-05
 type: concept
 tags: [barrier, mindset, skill, delegation]
-sources: [raw/articles/agents-that-teach-knowledge-debt-2607.06101.md, raw/articles/tragedy-cognitive-commons-2607.13272.md]
+sources: [raw/articles/agents-that-teach-knowledge-debt-2607.06101.md, raw/articles/tragedy-cognitive-commons-2607.13272.md, raw/articles/social-coding-to-agentic-coding-2608.03585.md]
 confidence: medium
 ---
 
@@ -82,6 +82,19 @@ The shift Beyond Prompting moves people from the first mode toward the second �
 Five factors determine how vulnerable a profession is: how central judgment is to the work, how much practice-based (non-documented) expertise the work requires, how fast AI substitutes for that practice, how visible the erosion is, and how strong the profession's institutions are at regenerating expertise. The early evidence is concentrated in leading sectors — the same sectors that adopted AI first.
 
 This reframes the antidote. Paying it forward (the "What you can do" above) isn't just generosity — it's the collective half of the same tether. And at the personal level, the framework explains why [[Distributed Mastery]] is the orchestration goal: distribute execution, but protect enough internalized mastery to stay tethered. The wiki's two-layer pattern is the same idea — glossary for the on-ramp, concept page for the depth, cross-links keeping both alive.
+
+### The Commons, Measured: Agentic Coding's Private Loops (August 2026)
+
+The framework now has population-scale evidence. An LLM-based multi-agent simulation initialized with real GitHub data from 1,084 active developers (arXiv:2608.03585, August 2026) branched the same community into parallel No-CA and coding-agent (CA) conditions for four simulated weeks. The results quantify the trade — and the numbers are stark:
+
+- **Productivity goes up.** CA introduction increases planned tasks by 34.0% and completed tasks by 39.0%; median completion time drops from 45 to 20 minutes.
+- **But the gains concentrate.** Adoption reaches only 26.0%, and it's concentrated among developers who were *already* the most active and best-connected — the ones who least needed the boost.
+- **Human-human interaction collapses.** Direct human-human task pathways fall from 32.4% to 11.6%. CA-involved modes rise to 57.3% — including 40.3% of tasks completed through CA-assisted *self-loops*: one developer, one agent, no visible collaboration.
+- **The public record degrades.** On a standardized retrieval benchmark, the knowledge generated under the CA condition achieves **22.3% coverage vs. 81.1% for the real-human corpus** — and requires more retrieval steps at lower success rates.
+
+The authors call it a **productivity-public knowledge tension**: agents increase technical production while more work shifts into private human-agent loops, leaving the public record less useful to future contributors. This is the tragedy of the cognitive commons measured at the source — the Validation Tether, running at community scale. Every developer's private loop is a withdrawal from the collective account (fewer visible discussions, fewer teachable traces), and the account doesn't send statements.
+
+**The implication for you:** the commons math isn't abstract — it's the sum of individual "this is faster, I'll just do it with the agent" decisions. The bridge principles below are the countermeasure, and they're more valuable now that the data shows the cost is real. When you route work through an agent, keep one artifact public: the explanation, the pattern, the breadcrumb. That's the deposit.
 
 ## Knowledge Debt at Institutional Scale: The Certification Crisis
 
