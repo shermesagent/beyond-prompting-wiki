@@ -256,6 +256,30 @@ Farmersville's workflows addressed the *execution* layer. The substrate — if t
 
 ---
 
+## The Classroom Evidence: What Actually Happens When AI Teaches Fractions
+
+Farmersville's story is about workflow. But what does the evidence say about adaptive AI in an actual classroom? A 2026 dissertation (Holman, arXiv 2608.04892) did exactly this: a systematic review of AI in mathematics education (2020–2024), plus a quasi-experimental study of **Mathbot** — a chatbot-based personalized learning platform — during elementary fraction instruction, compared against business-as-usual teaching.
+
+The results are the most useful kind: honest.
+
+- **Modest improvements in fraction comprehension** for students using Mathbot relative to traditional instruction (repeated-measures ANOVA across time points).
+- **Situational interest did NOT move** — the change wasn't statistically significant. Kids didn't get more excited just because the tutor was an AI.
+- **Automated personalization did not displace the teacher's instructional role.** Teacher decision-making remained central to student outcomes.
+- The dissertation explicitly takes up **accessibility and equity considerations** for using such systems with students with disabilities.
+
+Why this matters for districts:
+
+1. **Expect modest, not miraculous.** The honest finding is modest comprehension gains. When a vendor promises transformation, ask for the classroom evidence — then read the actual confidence intervals. The pattern in the research literature is consistent: adaptive tools help, and they help less than the marketing says.
+2. **Don't sell AI as a motivation fix.** Interest didn't move. If the goal is engagement, the intervention is a relationship and a well-designed lesson — the tool is a support, not a substitute.
+3. **Teacher centrality is a feature, not a limitation.** The finding that teacher decision-making remained central matches Farmersville's review-first design — and the research says that's where the outcomes come from. Districts that keep the teacher as the decision point get the gains; districts that try to replace the decision point get the hype. This is [[The Preservation Principle]] applied at classroom scale: the instructional role is precisely the thing that should not be automated away.
+4. **Equity is part of the spec, not an afterthought.** The dissertation's accessibility discussion is a reminder that adaptive systems used with students with disabilities need design review, not assumption. Farmersville's IEP-adjacent workflows are exactly the kind of review point this calls for.
+
+The thread connects back to the student-side research already on this page: what predicts learning is the shift in *how* students ask (verification → conceptual), and teachers are the ones who coach that shift. The AI can adapt the path; only the teacher adapts the person.
+
+**Source:** Holman, K. "Exploring Fraction Comprehension and Interest in Elementary Education Through AI-Powered Personalized Learning." Dissertation, arXiv 2608.04892 (August 2026).
+
+---
+
 ## Related Pages
 
 [[From Prompt to Pipeline]] · [[Task Decomposition]] · [[Delegation Thinking]] · [[Trust Calibration]] · [[Human in the Loop]] · [[Doom Researching]] · [[03-Real-World/README|03 — Real World Stories]]

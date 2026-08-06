@@ -159,6 +159,33 @@ Em and Jules don't need a fancy system. A single markdown file — "Bakery Proce
 
 ---
 
+## The Industrial Playbook: Organize Experience Like a $1B Recommendation System
+
+Em and Jules keep their workflow descriptions in a Google Doc. A 2026 industrial system (Jiang et al., arXiv 2608.04625) shows why that simple habit is secretly a competitive advantage — and how to make it sharper.
+
+**A/B Agent** is a closed-loop system for optimizing recommendation strategies at industrial scale. Strategy iteration in these systems has always meant experts designing strategies, configuring experiments, analyzing results, and adjusting parameters by hand — and the valuable knowledge from historical experiments stays fragmented, "making systematic reuse difficult through manual expert effort alone."
+
+The design has three parts:
+
+- **Hierarchical experience tree** — historical strategies organized by business scenario → recommendation stage → optimization objective → experimental context. Not a flat pile of old experiments.
+- **Multi-path Tree-RAG retrieval** — pulls transferable evidence from the right branch of the tree, avoiding the mismatched retrieval of flat storage.
+- **Experiment-guided self-evolution** — online A/B feedback tunes the strategy *and* updates the experience tree, so the system gets better at iterating, not just at executing.
+
+The real-world result: **+4.829% GMV in a live short-video e-commerce recommendation system** while maintaining positive gains across **all guardrail metrics**.
+
+The small-business translation is direct:
+
+1. **Flat experience is the silent killer.** The paper's diagnosis of existing agents — experience stored flat produces mismatched retrieval and no cross-scenario transfer — is exactly what happens when a business keeps one undifferentiated doc of "stuff we tried." The fix is the same at any scale: organize lessons by scenario. Ordering lessons under *ordering*, customer emails under *emails*, schedule failures under *scheduling*. When you reach for a lesson, you want the one from the same situation, not a vague memory of a similar one.
+2. **Every experiment is knowledge — recorded or not.** Each price test, promo, and email campaign is an A/B test whether you planned it or not. Write down what worked and what didn't, with the context. That's the bakery's private experience tree.
+3. **Self-evolution beats re-prompting.** The agent improves by closing the loop: run → feedback → update. When Jules tweaks a workflow description after a bad week, she's doing experiment-guided self-evolution by hand — the only missing piece is making the update explicit and dated so the tree keeps growing.
+4. **Guardrails are measurable.** The industrial system maintained positive guardrail metrics alongside the GMV gain. For a bakery that translates to: no workflow change should make the customer experience worse while it makes the books better. Pick your guardrail metric (response time, complaint count, rework rate) and check it alongside the win.
+
+The substrate section above says *preserve* failures. This says *organize* successes by scenario so the next iteration starts from evidence instead of scratch — the same habit, one level up.
+
+**Source:** Jiang, Z. et al. "A/B Agent: A Self-Evolving Agent for Strategy Iteration in Industrial A/B Testing." arXiv 2608.04625 (August 2026).
+
+---
+
 ## You Can Do This Too
 
 If you run a small business or team of 1-10 people:

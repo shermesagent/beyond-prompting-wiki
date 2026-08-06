@@ -188,6 +188,46 @@ The orchestrator sees through the illusion. They know that a concentrated aftern
 
 ---
 
+## The Memory Layer: What Real Office Workflows Measure
+
+Mara's pipeline works — but new research shows *why* it works better when it remembers. **ContextWeave** (Wang et al., 2026) is a longitudinal benchmark built from the real thing: privacy-preserved, multi-month workflows of 14 actual office workers, reconstructed into 1,005 executable tasks (568 core) with real environments and task-specific rubrics. It measures two things that matter for any pipeline: **workspace quality** (does the output match what the person would have produced?) and **preference alignment** (does it match *their* preferences, not a generic standard?).
+
+The headline results, all measured with a fixed model:
+
+- The strongest memory configuration raises **Workspace Score from 68.08 to 78.20** and **Preference Score from 41.50 to 70.60** — same model, same tasks, only the memory changed.
+- With a fixed memory component, recall improves both outcomes for **all five tested base models** — though gains vary substantially.
+- **Experience-rich memory beats compact summaries.** Actionable detail (the original drafts, the corrections, the context) supports continuing the workflow and reduces redundant exploration far better than a tidy summary of what happened.
+- The honest caveat: experience-rich memory is **more susceptible to misleading recall** — it can point the workflow in the wrong direction if it remembers wrong.
+
+What this means for your pipeline — whatever it is, wherever you work:
+
+1. **The memory is a feature, not a footnote.** The same pipeline with a memory of prior runs outperforms the same pipeline without one. If you're delegating the same kind of work weekly, keep the history.
+2. **Keep the artifacts, not just the summaries.** The research says the messy originals carry more value for the next run than the cleaned-up version. Your "What I Changed" notes are pipeline memory.
+3. **Memory can lie.** Misleading recall is a real failure mode — which is why the review step ([[The Review-First Pattern]]) isn't optional. Remember: the workflow that remembers is better; the workflow that remembers *wrong* is worse. Review is what tells them apart.
+
+This is the same lesson the wiki itself runs on: see [[Memory as Infrastructure]] for the system-level view.
+
+**Source:** Wang, B. et al. "ContextWeave: A Real-World Workflow Benchmark." arXiv 2608.04830 (August 2026).
+
+---
+
+## Intent Scaffolding: Making the Rules of the Job Checkable
+
+There's a second upgrade the research suggests for Mara-style pipelines: write down the *rules of the job* in a form the agent checks your prompts against — not just your requests. **IntentLint** (Feng, Zhao & Crisan, 2026) is a system for human-AI collaborative data analysis built on exactly this idea. As analyses evolve, the stuff that should capture shared understanding gets messy: assumptions go undocumented, collaborators' intents silently disagree, prompts arrive with no context, and the agent does things nobody asked for.
+
+IntentLint's fix has two mechanisms:
+
+- **Intent scaffolding** — infer intent from the shared work itself and represent it as structured, *editable* rules anyone can read and change.
+- **Prompt-time linting** — check every new prompt against the shared rules *before it runs*, flagging conflicts while they're cheap.
+
+In a study with 16 data analysts, it improved awareness of collaborators' intent and nudged people to reflect on their own strategies.
+
+For Mara — or a team sharing one pipeline — the practical translation is simple: when you delegate a recurring task, write three checkable rules ("never include prices," "every section ends with a question," "say 'unknown' instead of guessing") and keep them at the top of the task description. When the agent breaks a rule, edit the rule, not the prompt. That's intent scaffolding without any special tool — and it's the same discipline [[Accountability Asymmetry]] describes at the structural level: the proposer of an action should never be its sole approver and auditor. Rules you can check are rules you can audit.
+
+**Source:** Feng, F.L., Zhao, J. & Crisan, A. "IntentLint: Supporting Intent Scaffolding and Prompt-time Linting in Human-AI Collaborative Data Analysis." arXiv 2608.04331 (August 2026). See [[Intent Scaffolding]] for the full concept and a 5-minute exercise.
+
+---
+
 ## You Can Do This Too
 
 You don't need to be a developer. You don't need an expensive platform. You need three things:
@@ -204,7 +244,7 @@ The first time you come back to a completed draft you didn't micromanage, someth
 
 ## Related Pages
 
-[[The School District Shift]] · [[Task Decomposition]] · [[Delegation Thinking]] · [[Trust Calibration]] · [[From Author to Editor]] · [[Doom Researching]] · [[03-Real-World/README|03 — Real World Stories]]
+[[The School District Shift]] · [[Task Decomposition]] · [[Delegation Thinking]] · [[Trust Calibration]] · [[From Author to Editor]] · [[Doom Researching]] · [[Memory as Infrastructure]] · [[Intent Scaffolding]] · [[03-Real-World/README|03 — Real World Stories]]
 
 ## Tags
 

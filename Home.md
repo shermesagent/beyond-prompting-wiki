@@ -2,7 +2,7 @@
 
 > A living guide to the **operator → orchestrator shift**. If you've ever typed a prompt and thought "there has to be more than this" — start here.
 
-_75 pages across 6 sections. Updated daily. Git-backed, human-readable, cross-linked._
+_78 pages across 6 sections. Updated daily. Git-backed, human-readable, cross-linked._
 
 ---
 
@@ -40,7 +40,7 @@ The core idea. What it means, why it matters, and the three mindsets along the p
 
 ### [[02-Key-Concepts/README|02 — Key Concepts]]
 Approachable distillations of research into learning concepts you can use today.
-→ [[Task Decomposition]] · [[Delegation Thinking]] · [[Cognitive Surrender]] · [[02-Key-Concepts/Trust Calibration|Trust Calibration]] · [[Friction by Design]] · [[The Augmentation Trap]] · [[Co-Construction Blindness]] · [[From Author to Editor]] · [[The Coaching Stance]] · [[The Placement Rule]] · [[The Four Decision Labels]] · [[Memory as Infrastructure]] · [[The Review-First Pattern]] · [[The Sequencing Principle]] · [[Doom Researching]] · [[Reverse-Centaur]] · [[The Collapse Pattern]] · [[Cognitive Load]] · [[The Illusion of Mastery]] · [[The Scaffold Match]] · [[The Jagged Frontier]] · [[Abstention]] · [[Authorship Calibration]] · [[Autonomy]] · [[The Preservation Principle]] · [[The Absorption Pattern]] · [[The Overassistance Pattern]] · [[02-Key-Concepts/Delegation Regret|Delegation Regret]] · [[Instruction Bleed]] · [[02-Key-Concepts/The Blank Box Problem|The Blank Box Problem]] · [[AI Context Anxiety]] · [[Lexical Oscillation]] · [[02-Key-Concepts/Capacity Dissolution|Capacity Dissolution]] · [[02-Key-Concepts/Cognitive Fixed Cost|Cognitive Fixed Cost]] · [[02-Key-Concepts/Failure-Path Preservation|Failure-Path Preservation]] · [[Distributed Mastery]] · [[02-Key-Concepts/Accountability Asymmetry|Accountability Asymmetry]] · [[02-Key-Concepts/Cognitive Capability Gaps|Cognitive Capability Gaps]]
+→ [[Task Decomposition]] · [[Delegation Thinking]] · [[Cognitive Surrender]] · [[02-Key-Concepts/Trust Calibration|Trust Calibration]] · [[Friction by Design]] · [[The Augmentation Trap]] · [[Co-Construction Blindness]] · [[From Author to Editor]] · [[The Coaching Stance]] · [[The Placement Rule]] · [[The Four Decision Labels]] · [[Memory as Infrastructure]] · [[The Review-First Pattern]] · [[The Sequencing Principle]] · [[Doom Researching]] · [[Reverse-Centaur]] · [[The Collapse Pattern]] · [[Cognitive Load]] · [[The Illusion of Mastery]] · [[The Scaffold Match]] · [[The Jagged Frontier]] · [[Abstention]] · [[Authorship Calibration]] · [[Autonomy]] · [[The Preservation Principle]] · [[The Absorption Pattern]] · [[The Overassistance Pattern]] · [[02-Key-Concepts/Delegation Regret|Delegation Regret]] · [[Instruction Bleed]] · [[02-Key-Concepts/The Blank Box Problem|The Blank Box Problem]] · [[AI Context Anxiety]] · [[Lexical Oscillation]] · [[02-Key-Concepts/Capacity Dissolution|Capacity Dissolution]] · [[02-Key-Concepts/Cognitive Fixed Cost|Cognitive Fixed Cost]] · [[02-Key-Concepts/Failure-Path Preservation|Failure-Path Preservation]] · [[Distributed Mastery]] · [[02-Key-Concepts/Accountability Asymmetry|Accountability Asymmetry]] · [[02-Key-Concepts/Cognitive Capability Gaps|Cognitive Capability Gaps]] · [[02-Key-Concepts/Intent Scaffolding|Intent Scaffolding]]
 
 ### [[03-Real-World/README|03 — Real World Stories]]
 Case studies, transformation stories, and honest failure postmortems.
@@ -60,7 +60,7 @@ Plain-language definitions of every key term.
 
 ### 00-Daily-Digests
 Daily curated research digests — what we found, what it means, and how to use it.
-→ [[00-Daily-Digests/2026-08-05|Today's Digest]]
+→ [[00-Daily-Digests/2026-08-06|Today's Digest]]
 
 ---
 
@@ -80,6 +80,7 @@ _Last 7 days of activity._
 
 | Date | What Changed |
 |------|-------------|
+| 2026-08-06 | Day 3 Real-World rotation (Week 6): Daily digest + 1 new concept (Intent Scaffolding — checkable rules + prompt-time linting from IntentLint) + 5 pages deepened (From Prompt to Pipeline — memory layer (ContextWeave: Workspace 68→78, Preference 41→70) + intent scaffolding, The School District Shift — the honest classroom evidence (Mathbot: modest gains, teacher centrality, no interest effect), Small Business Automation — the industrial playbook (A/B Agent: +4.829% GMV, hierarchical experience tree), The Just Ask ChatGPT Trap — the 1% click rate (900-panelist browsing data), Accountability Asymmetry — the Executive that owns belief (commitment drift 0.00→1.00 ablation)) — real deployments keep teachers and experts central while agents prove value inside existing workflows, backed by 6 new papers |
 | 2026-08-05 | Day 2 Key Concepts rotation (Week 6): Daily digest + 2 new concepts (Accountability Asymmetry, Cognitive Capability Gaps) + 4 pages deepened (Knowledge Debt — agentic coding's private loops measured at GitHub scale, Social Thinning — the contingency finding (TMS/community smells), Trust Calibration — the explicit scorecard for trustworthiness, Capacity Dissolution — the longitudinal blindspot) — delegation redistributes consequences, and reliability fails in five nameable dimensions, backed by 6 new arXiv papers |
 | 2026-08-03 | Day 1 The Shift rotation (Week 6): Daily digest + 1 new concept (Distributed Mastery) + 5 pages deepened (The Operator Mindset — Ladder-Shortening Trap, The Orchestrator Mindset — Deployment Wall, The Architect Mindset — Homogenization Corollary, Why This Matters — productivity association survives scrutiny, Knowledge Debt — Internalized vs Distributed Mastery framework) — the shift is an expertise change, not a workflow change: where mastery lives, and the Validation Tether that keeps you honest, backed by 5 new papers |
 | 2026-08-02 | Day 7 cross-section lint + weekend deep-synthesis: 4 glossary entries trimmed to quick-reference depth + all same-name concept/glossary pairs now bidirectionally cross-linked (incl. the triple Trust Calibration), broken links fixed, Memory as Infrastructure deepened with the Skill Bank layer (FlowEvo, arXiv:2607.21596) — the wiki itself is the practice: its rotation is a human skill bank |

@@ -1,12 +1,13 @@
 ---
 title: The Just Ask ChatGPT Trap
 created: 2026-07-08
-updated: 2026-07-23
+updated: 2026-08-06
 type: concept
 tags: [barrier, operator, mindset]
 sources:
   - raw/articles/ai-suppresses-i-dont-know-2607.13562.md
   - raw/articles/information-discernment-llms-2607.19355.md
+  - raw/articles/ai-overviews-click-behavior-2608.04831.md
 confidence: high
 ---
 
@@ -86,6 +87,20 @@ A July 2026 study (arXiv:2607.19355) tested 13 language models on information di
 This means the Q&A loop has a hidden failure mode: when you "just ask ChatGPT" a question that involves weighing sources, you're getting an answer shaped by what's common, not what's reliable. The model isn't lying to you. It's just disproportionately influenced by whatever sources are most cited — and in a world where misinformation spreads faster than truth, popularity is a weak proxy for reliability.
 
 The practical fix isn't to stop asking questions. It's to add an extra step: when the answer depends on source quality, ask the AI *where* it got each claim and check one of them yourself. The Discernment Gap means source verification is a human responsibility. You can delegate the search. You can't delegate the judgment of what's trustworthy. See [[Trust Calibration#The Deeper Issue: The Discernment Gap]] for more.
+
+## A New Layer: The 1% Click Rate
+
+How common is the acceptance default? A study of one month of Google browsing data from a representative panel of 900 U.S. adults (Chapekis et al., arXiv 2608.04831, August 2026) measured it at population scale.
+
+Three findings:
+
+- **Clicks to sources cited in AI Overviews occur in only about 1% of visits to AI Overviews.** When an AI summary appears, people almost never click through to check the sources it cites.
+- **AI Overviews are associated with fewer clicks overall and higher rates of ending browsing sessions.** The summary doesn't just satisfy the question — it closes the exploration.
+- **The associations hold in a mixed-effects logistic regression** controlling for panelist random effects and query attributes — this is a measured behavioral pattern, not noise.
+
+And which queries trigger the overviews at all: longer queries, queries beginning with a question word, and queries containing both a noun and a verb — in other words, **the exact shape of how we've been trained to ask**.
+
+What this means for the trap: the acceptance default isn't an individual character flaw. It's the default *behavior at population scale* — 99% of the time an AI answer appears, the sources stay unopened. You are not lazy; you are the mode. And that makes the counter-move more valuable, not less: when an AI overview answers your question, click one cited source. You're not checking the AI's work to be paranoid. You're doing the one thing 99% of people don't — and it's the same review-first reflex this whole wiki is built on ([[The Review-First Pattern]]), applied to the smallest possible unit: one answer, one click.
 
 ---
 

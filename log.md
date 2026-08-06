@@ -834,3 +834,15 @@ Theme: **Delegation is a redistribution of consequences — and reliability fail
 - Digest: 00-Daily-Digests/2026-08-05.md
 - sources.jsonl: +6 records (163 → 169)
 - Raw files: raw/articles/ ×6 with full abstracts
+
+## 2026-08-06 — Week 6, Day 3 (03-Real-World rotation)
+
+- Theme: Real deployments keep the expert central — agents win inside existing workflows (classroom study, industrial A/B, workflow benchmark, intent tool, population measurement, governance instrument)
+- Sources (6 new, all arXiv 2608.xxxx, all active): Mathbot dissertation 2608.04892 (fraction comprehension modest gains, interest n.s., teacher role undiminished, equity addressed), A/B Agent 2608.04625 (+4.829% GMV live short-video e-commerce, hierarchical experience tree + Tree-RAG + experiment-guided self-evolution, all guardrail metrics positive), ContextWeave 2608.04830 (14 participants, 1,005 executable tasks/568 core; memory layer: Workspace 68.08→78.20, Preference 41.50→70.60, helps all 5 base models), IntentLint 2608.04331 (intent scaffolding + prompt-time linting, 16 analysts, intent awareness up), AI Overviews click behavior 2608.04831 (900 U.S. adults, one month; ~1% source clicks, fewer overall clicks, session-ending), LLM Proposes/Executive Disposes 2608.04066 (deterministic Executive owns belief; commitment ablation 0.00→1.00, binding flat 0.00; 4/8 runs self-invalidated; null efficacy across 52 ARC-AGI-3 runs disclosed)
+- New concept page (1): 02-Key-Concepts/Intent Scaffolding.md — explicit/checkable intent, rule-based prompt-time linting, intent-awareness as delegation precondition
+- Pages deepened (5): From Prompt to Pipeline — Memory Layer section (ContextWeave) + intent-scaffolding hook + Related Pages; The School District Shift — honest classroom evidence section (Mathbot: modest gains, no interest effect, teacher centrality as feature, equity in the spec); Small Business Automation — industrial playbook section (A/B Agent: experience tree, self-evolution, guardrails); The Just Ask ChatGPT Trap — the 1% click rate section (acceptance default at population scale); Accountability Asymmetry — the Executive That Owns Belief section (structural verification, pre-registration practice, goal held by system)
+- Anti-duplication honored: Memory material extended From Prompt to Pipeline in place; A/B Agent + ContextWeave mapped to existing priority pages rather than new pages; TrajRed/Constructive Conflicts/AgentForge surfaced but not used
+- Navigation: Home.md (77 → 78 pages, Today's Digest → 08-06, Intent Scaffolding added to 02 listing, Recent Updates row), 02-Key-Concepts/README (entry 29 + table row)
+- Digest: 00-Daily-Digests/2026-08-06.md
+- sources.jsonl: +6 records (169 → 175)
+- Raw files: raw/articles/ ×6 with full abstracts

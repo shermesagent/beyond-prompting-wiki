@@ -3,7 +3,9 @@ title: Accountability Asymmetry
 created: 2026-08-05
 type: concept
 tags: [concept, trust, governance, orchestrator, architect]
-sources: [raw/articles/accountability-asymmetry-structural-trust-2608.03670.md]
+sources:
+  - raw/articles/accountability-asymmetry-structural-trust-2608.03670.md
+  - raw/articles/llm-proposes-executive-disposes-2608.04066.md
 confidence: medium
 ---
 
@@ -46,6 +48,23 @@ Pick one delegated workflow you run weekly. Draw three roles:
 3. **Auditor** — who/what checks, after the fact, whether the approval was right
 
 Now check: are roles 1 and 2 the same entity? Are 2 and 3? Most workflows collapse all three into "the AI plus a quick glance." The fix isn't bureaucracy — it's separation: an explicit approval step by a person who didn't generate the output, and a periodic audit that reviews decisions after the fact. One proposed-and-approved-and-audited workflow a week is enough to feel the difference.
+
+## Made Concrete: The Executive That Owns Belief
+
+The three-role separation sounds like theory. A 2026 agent instrument (Arjmandi, arXiv 2608.04066) shows what it looks like when it's built into the architecture:
+
+- A **deterministic Executive owns all belief**. The language model cannot hold belief at all — it may only *file typed proposals*.
+- A claim is admitted only when **a prediction pre-registered before acting is matched against observation by code** — verification is structural, not post-hoc.
+- Every run **invalidates itself** when pre-set floors are breached (per-organ write-error, render-size, salted-canary-echo) — four of the first eight architecture runs self-invalidated, each localizing a real defect.
+- The instrument's headline result decomposes agent failure into two channels: **commitment drift** (goal-abandonment) and **binding drift** (execution error). Ablating the commitment mechanism flipped goal-abandonment from 0.00 to 1.00 while binding error stayed flat at 0.00 — the failure class moved, it didn't split. Binding failure is structurally absorbed because binding is code-owned.
+- Full disclosure: task efficacy was null (zero level completions across 52 gated runs on ARC-AGI-3) — pre-registered as a structural defeater. The contribution is the verification methodology, not the task results.
+
+Why this matters: "the LLM proposes, the executive disposes" is engineered heterogeneity made literal — proposer (LLM), approver (the executive admitting claims), auditor (code matching prediction to observation). Two practices transfer directly to your own delegated workflows:
+
+1. **Pre-register before you act.** Before an agent runs, write down what you expect to see. Compare afterward. This is the cheapest structural check available — and it's the same discipline as the weekly audit in [[The Daily Standup]], applied at the smallest unit.
+2. **The goal is held by the system, not the model.** The ablation says: when the mechanism that *holds the goal* is removed, goal-abandonment goes from 0.00 to 1.00. In your work: the goal lives in the task description and the review checkpoint, not in the model. When a long-running task quietly drifts off-goal, check the goal-holding mechanism — your spec, your checkpoint — before blaming execution.
+
+The lesson lands where this page started: you can't make an agent *feel* accountable, so you build accountability into the *arrangement*. The Executive instrument is what that looks like when it's taken seriously.
 
 ## Related Pages
 
