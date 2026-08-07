@@ -1,0 +1,57 @@
+---
+title: The Vibe Compiler
+created: 2026-08-07
+updated: 2026-08-07
+type: concept
+tags: [concept, bridge, tool, metacognition, orchestrator]
+sources:
+  - raw/articles/vibe-compiler-2608.05545.md
+confidence: medium
+---
+
+# The Vibe Compiler
+
+## What It Is
+
+The Vibe Compiler (arXiv:2608.05545) is a pattern for AI-assisted intellectual work that **refuses to fill the gaps**. Instead of taking a vague idea ("vibe") and generating a polished artifact, the compiler turns the vibe into a structured skeleton and — when pieces are missing — asks the human reflective questions rather than inventing answers.
+
+It's built on the **Synthesis–Analysis Reciprocity Model**: intellectual construction is a loop between *Synthesis* (combining components into an artifact) and *Analysis* (critically evaluating the artifact against objective indicators, which constrains the next synthesis). The AI does synthesis; the AI *also* does analysis of its own output — but the analysis's job is to stimulate **human metacognition**, not to self-correct quietly.
+
+The concrete implementation: a research-logic compiler with an ontology of sixteen academic parameters. You feed it your vibe; it compiles it into research logic. **Compilation failures are features.** A missing parameter means missing reasoning — and rather than auto-filling it, the system prompts you with reflective questions until *you* develop the missing piece.
+
+## Why It's Normal
+
+AI as a "capable servant" accelerates work but erodes epistemic agency: the faster and more polished the output, the easier it is to accept AI-generated reasoning uncritically (the co-construction trap, [[Co-Construction Blindness]]). Standard tools optimize for removing friction — and friction is exactly where metacognition lives. The result is what [[Knowledge Debt]] describes: fluency without understanding, agency outsourced by default.
+
+The Vibe Compiler is a normal, healthy response to that: an agency-preserving mechanism that works **without prompt engineering** — which matters because prompt engineering is itself a skill that erodes ([[The Just Ask ChatGPT Trap]] documents how even motivated users stop verifying). The prototype (NotebookLM + Gemini) found that *effective AI-assisted reasoning depends less on sophisticated prompting than on the knowledge structure provided to the AI.*
+
+## The Bridge: Compilation Failure as a Feature
+
+Four moves make this a bridge rather than another tool:
+
+1. **Structure over prompting.** Instead of teaching people to write better prompts, give the AI a fixed ontology (the sixteen parameters) and let it probe. The knowledge structure does the work.
+2. **Fail visibly.** When a parameter can't be filled, the system doesn't guess — it asks. Missing components are surfaced as questions, not silently completed.
+3. **AI probes its own output.** The system analyzes its own synthesis to generate the reflective questions. The metacognition is elicited, not assumed: the human stays the manager who directs and validates AI reasoning.
+4. **Four origin types.** Gaps are classified by cognitive function (Synthesis vs. Analysis) × executing agent (human vs. AI). Knowing *where* the breakdown arose tells you who should fix it — and prevents the default move of handing everything back to the AI.
+
+## Try This
+
+**5-Minute Exercise: The Missing-Parameter Audit**
+
+1. Take a vague idea you've been meaning to develop — a project, a lesson, an argument.
+2. List the five most important "parameters" for that kind of artifact (e.g., for a lesson: objective, prerequisite knowledge, assessment, time budget, differentiation).
+3. Ask an AI to draft the artifact *only for the parameters you can fill*, and to list which parameters are missing.
+4. For each missing parameter, write one reflective question the AI should ask you next — instead of letting it invent an answer.
+5. Notice where your urge is to say "just fill it in" — that urge is the erosion point the Vibe Compiler is designed to catch.
+
+## The Core Insight
+
+> The tool that preserves your agency is not the one that answers better — it's the one that refuses to answer for you. Structure the knowledge, let the AI probe, and treat every compilation failure as a question you get to answer.
+
+## Related Pages
+
+[[Co-Construction Blindness]] · [[Knowledge Debt]] · [[Intent Scaffolding]] · [[Friction by Design]] · [[The Review-First Pattern]] · [[Risk Cascades]] · [[Trust Calibration]]
+
+## Tags
+
+#concept #bridge #tool #metacognition #orchestrator

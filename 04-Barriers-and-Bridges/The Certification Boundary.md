@@ -1,11 +1,12 @@
 ---
 title: The Certification Boundary
 created: 2026-07-23
-updated: 2026-07-23
+updated: 2026-08-07
 type: concept
 tags: [barrier, delegation, institution]
 sources:
   - raw/articles/cognitive-stewardship-credentials-2607.19988.md
+  - raw/articles/student-bill-ai-rights-2608.05175.md
 confidence: medium
 ---
 
@@ -55,6 +56,18 @@ Pick one credential you hold — a degree, a certification, a job title that imp
 3. Ask: what specific capability did you *actually* demonstrate that an AI couldn't have produced on your behalf at the time?
 
 The point isn't to devalue your credential. It's to see the boundary. The answers will tell you where your credential is still a strong signal — and where the signal is weakening. That awareness will matter more as the boundaries keep shifting.
+
+## The Bridge: Assessment That Resists Unattributed Automation
+
+The August 2026 experience report from CSS 382 at the University of Washington Bothell (arXiv:2608.05175) is the most complete worked example yet of how an institution can rebuild the inference chain instead of just policing it. The course faced the exact problem this page describes — LLMs can complete most of the assignments in an introductory AI course — and redesigned around three moves:
+
+1. **Build the tool you're required to use.** The redesign kept the classical core (search, MDPs, RL) and added a strand where students build a large language model *from scratch* — so the tool they're required to use is also a tool they're required to understand. This is the answer to the cognitive stewardship question "what's the learning claim?": the claim became understanding, not usage, and the assessment was rebuilt around it.
+2. **Assess what resists automation.** Examinations were removed entirely. Assessment shifted to in-class exercises, reflective writing, and a **defended team project** — work where the student must be present and able to explain it. Note the pattern: the evidence standard isn't "prove you didn't use AI," it's "demonstrate capability in a form AI can't stand in for."
+3. **Invert the policy — from unmentioned to required.** AI policy went from unmentioned in 2023 to *required* in 2026. The turn is significant: when the tool is mandatory, the certification question stops being "did you use it?" and becomes "what can you do that it can't?"
+
+The centerpiece is the **Student Bill of AI Rights** — a participatory ethics sequence where students deliberated on and endorsed rules governing their *instructor's* use of AI, including the requirement that **the instructor personally complete any AI-generated assignment before issuing it**. That clause is a certification-boundary insight hiding in plain sight: the person who assigns work must be able to do it themselves. The boundary applies to the teacher before it applies to the student — and the students understood that intuitively. The account also reports the tensions honestly: students objected to AI-generated course materials, and the authors flag the limits of a single-cohort design narrative.
+
+**What this means for your context:** you don't need to be a university to use the pattern. The three moves scale down to any team or credential: (1) make the learning claim about understanding, not tool fluency; (2) assess in forms the tool can't stand in for — defense, explanation, in-person performance; (3) hold the person who delegates accountable for doing the work themselves before assigning it. That third move is the missing piece in most AI policies: they regulate the student's use of AI, but the Certification Boundary cuts both ways.
 
 ## The Bottom Line
 

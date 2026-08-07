@@ -39,6 +39,7 @@ You don't need to read them in order. Jump to whichever title grabs you. But if 
 27. [[Accountability Asymmetry]] — the mismatch between who *decides* and who bears the consequences — and the structural fix: the proposer of an action should never be its sole approver and auditor.
 28. [[Cognitive Capability Gaps]] — the five dimensions where agentic AI stays unreliable over time, and the pre-delegation checklist they give you.
 29. [[Intent Scaffolding]] — making intent explicit and *checkable*: structured, editable rules the agent checks your prompts against before they run.
+30. [[The Vibe Compiler]] — the agency-preserving tool pattern: compile vague ideas against a fixed structure, treat compilation failures as reflective questions instead of letting the AI fill gaps.
 
 ---
 
@@ -84,6 +85,7 @@ They came out of real research — papers on human-AI collaboration, case studie
 | [[Accountability Asymmetry]] | Who bears the consequences when an agent decides — and who should? | Architect |
 | [[Cognitive Capability Gaps]] | Why does reliability still fail within tasks AI has already crossed? | Orchestrator |
 | [[Intent Scaffolding]] | How do I make my intent checkable so the agent stops guessing? | Orchestrator |
+| [[The Vibe Compiler]] | How do I keep my agency when the AI fills every gap? | Orchestrator |
 
 ---
 

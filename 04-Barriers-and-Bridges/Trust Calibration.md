@@ -1,12 +1,13 @@
 ---
 title: Trust Calibration
 created: 2026-07-16
-updated: 2026-07-23
+updated: 2026-08-07
 type: concept
 tags: [barrier, mindset, skill]
 sources:
   - raw/articles/ai-suppresses-i-dont-know-2607.13562.md
   - raw/articles/llm-rationales-user-facing-trust-2026.md
+  - raw/articles/epistemic-trustworthiness-2608.05602.md
 confidence: high
 ---
 
@@ -90,9 +91,30 @@ The paper proposes that evaluation results carry explicit metadata: **formality 
 
 **Source:** arXiv:2607.26191 — "Trust Inflation in Evaluation"
 
+## The Normative Layer: Warranted vs. Behaviorally Induced Reliance
+
+There's a third layer beneath the calibration problem, and it's the one that decides whether your trust thermostat is even measuring the right thing. An August 2026 paper (arXiv:2608.05602) makes a philosophical distinction that sharpens everything above:
+
+- **Behaviorally induced reliance** — you trust the output because the system is fluent, confident, and convenient. This is what most of us have, and it's what the "I Don't Know" suppression and the 1% click rate are built on.
+- **Warranted reliance** — you are *justified* in treating the AI's output as an input to your own reasoning, because the system actually meets the conditions that make trust epistemically earned.
+
+The paper argues that trustworthiness is not a feeling you calibrate but a property the system must constitutively possess, in three jointly necessary and non-fungible conditions:
+
+| Condition | What It Requires | What Its Failure Looks Like |
+|---|---|---|
+| **Epistemic humility** | The system represents and communicates the limits of its competence | A legal-research tool presenting confidently as if it had considered all relevant precedent |
+| **Epistemic access** | Users can inspect, question, and contest outputs in context | A hiring tool whose scoring rationale can't be opened up or challenged by the candidate |
+| **Resistance to epistemic injustice** | The system treats users as legitimate epistemic agents and doesn't marginalize their knowledge | A medical system dismissing patient-reported experience as noise |
+
+The sharp implication: **trust calibration is not symmetric.** You can be a perfect calibrator and still be trusting a system that is not *worthy* of reliance — because competence is only one of the three conditions. The paper's case analyses (legal reasoning, medical reasoning, hiring) show consequential harms arising from failures of access and epistemic justice that standard accuracy, fairness, and usability metrics never surface.
+
+**What this means for your thermostat:** the calibration exercise on this page measures your confidence against outcomes — that's the personal layer. The normative layer asks a prior question: *is this system the kind of thing that can be trusted at all, in this context?* Three practical checks: (1) does the tool tell you what it can't do, unasked? (2) can you actually inspect and contest the output in context, or just accept/reject it? (3) does it treat your own knowledge and experience as evidence, or as noise? If the answer to any is no, no amount of personal calibration fixes the system — your only calibrated move is to refuse reliance where it isn't warranted.
+
+**Source:** arXiv:2608.05602 — "Epistemic Trustworthiness in Generative AI"
+
 ## The Bottom Line
 
-> AI is getting better at sounding right. Your most important counter-skill is getting better at saying "I don't know." Practice it. The research shows you'll need the practice — because AI fluency makes those three words feel unnecessary right up until they're essential.
+> AI is getting better at sounding right. Your most important counter-skill is getting better at saying "I don't know." Practice it. The research shows you'll need the practice — because AI fluency makes those three words feel unnecessary right up until they're essential. And remember the third layer: calibration is personal, but *worthiness* is structural. A flawless thermostat attached to a system that hides its limits, blocks inspection, or dismisses your knowledge is still measuring a broken room.
 
 ## Related Pages
 

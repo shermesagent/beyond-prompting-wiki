@@ -1,10 +1,12 @@
 ---
 title: Co-Construction Blindness
 created: 2026-06-23
-updated: 2026-06-23
+updated: 2026-08-07
 type: concept
 tags: [concept, barrier, mindset, orchestrator]
-sources: [raw/articles/co-construction-blindness-ximenes-2026.md]
+sources:
+  - raw/articles/co-construction-blindness-ximenes-2026.md
+  - raw/articles/conditional-cognitive-biases-2608.05166.md
 confidence: medium
 ---
 
@@ -47,6 +49,19 @@ One designer demonstrated the alternative failure mode: they stayed entirely in 
 **The orchestrator's takeaway:** Your verification checkpoints need a "vibe check" — not just "did the agent follow instructions?" but "does the result feel like what I actually wanted?" The moment you catch yourself accepting technically correct output that feels wrong, you're oscillating. That's not a failure of the process. That's the process working.
 
 See [[Lexical Oscillation]] for the full concept and the Intent Pause exercise.
+
+## The Experimental Proof: Biased Turns Modulate In-Context Reasoning
+
+Co-construction blindness has always had a theoretical case: of course your inputs shape the output. An August 2026 benchmark (arXiv:2608.05166) turns that into an experimental finding with numbers. The study tested eight frontier LLMs on 24,300 jury-validated user prompts spanning all 81 cells of a 9×9 target-human bias interaction matrix, under a three-condition framework that separates the *fact* of exposure to a biased user turn from the *content* of that turn.
+
+Two findings matter here:
+
+- **Biased conversational context systematically increases bias expression in 6 of 8 models**, relative to zero-shot baselines. Your biased framing isn't a neutral prompt — it measurably shifts the model's reasoning downstream.
+- **Two competing dynamics are at work.** Conversational exposure to biased reasoning amplifies the model's bias tendencies, while *explicitly stated* bias cues often trigger alignment-related suppression that *reduces* overt bias expression. Same user, same topic, different mechanism depending on how the bias enters the conversation.
+
+The second finding is the subtle one. When you state a bias explicitly ("I think this group is bad at X — agree?"), the model often suppresses it — which feels like a win and confirms your sense that you're a neutral auditor. But when your bias is implicit — embedded in how you frame the question, what you include, what you leave out — the model absorbs and amplifies it. The AI doesn't argue back. It follows your lead. That is co-construction measured: **the less overt your input bias, the more the model amplifies it** — and the less likely you are to notice, because nothing in the response looks wrong.
+
+**The orchestrator's takeaway:** this is the Mirror Check (below) with an empirical warrant. The check isn't about catching the AI being biased — it's about catching *your* framing being biased, because the model will faithfully amplify whatever implicit direction your turns provide. The bias you don't state is the bias that gets multiplied. Run it on any conversation where you arrived with strong prior views.
 
 ## How to Spot It in Your Day
 

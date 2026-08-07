@@ -24,6 +24,7 @@ Each barrier page follows the same structure. We name what's happening, explain 
 | [[The Engagement Gap]] | You've built the template, classified the task, set up the pipeline — and nobody opens the AI. The gap between AI availability and actual use | Redesign the workflow so AI becomes the path of least resistance, not an extra step |
 | [[The Certification Boundary]] | The institutional debt: when AI-mediated work breaks the inference between submitted work and human capability — what remains certifiable? | Four cognitive stewardship questions + a Delegation Audit exercise |
 | [[Social Thinning]] | The collective cost: when AI joining teams degrades human-human communication and compresses creative diversity | Explicit social infrastructure — human-first rounds, AI-free debriefs, voice rotation, and using AI for refinement not ideation |
+| [[Risk Cascades]] | Barriers aren't isolated bugs — trust miscalibration, cognitive burden, accountability gaps, capability erosion, goal misalignment, and technostress fire in chains across the adoption lifecycle | Name the stage, trace the cascade, intervene at the shared driver instead of the symptom |
 
 ## How to Use This Section
 
