@@ -1,0 +1,15 @@
+---
+source_url: https://arxiv.org/abs/2608.05172
+ingested: 2026-08-08
+sha256: TBD
+---
+
+# Estimating Time Spent on Work Tasks
+
+arXiv:2608.05172, August 2026 (labor economics / AI exposure measurement; ~18,000 tasks, nearly all U.S. jobs)
+
+**Full abstract:**
+
+The task-based framework in economics models occupations as bundles of tasks. It is the standard lens for understanding how technology affects work: a new technology changes the cost or time each task requires and these task-level effects aggregate to occupation-level effects. We study how tasks should be weighted in this aggregation. Prior work has relied on idiosyncratic or ill-justified choices for task weights. While recent work suggests weighting tasks by time spent, existing time shares are either based on coarse ONET data not intended for this purpose or estimated via black-box language models. We address this gap by proposing a principled method for estimating time shares for nearly 18,000 tasks that constitute nearly all U.S. jobs. Our estimates factor a task's time into (i) the expected frequency of the task, derived from ONET, and (ii) the time to complete a single instance of it. To estimate the latter, we solve a constraint satisfaction problem based on pairwise comparisons elicited from language models about which tasks are longer per instance. We validate our estimates by characterizing the solution space of the constraint satisfaction problem and collecting data from workers for multiple occupations. We apply our time shares to analyze how AI exposes U.S. occupations and find that some prior results are sensitive to time weights. Accounting for the share of working time exposed to AI, rather than the share of tasks like prior work, widens the gap between the least and most exposed jobs: it lowers measured exposure for most occupations but raises it for the most exposed. Re-weighting by time also reshuffles 11 of the 25 occupations widely reported as most exposed to AI, shifting the top of the list away from clerical work and toward analytical roles. Time shares can serve as a general primitive for research and policy on the labor economy and the economics of technology.
+
+**Key terms:** time-weighted exposure · task weighting · ONET-derived frequency × instance time · reshuffles 11 of 25 most-exposed occupations · clerical → analytical shift

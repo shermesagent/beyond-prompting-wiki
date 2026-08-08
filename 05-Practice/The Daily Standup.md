@@ -1,7 +1,7 @@
 ---
 title: The Daily Standup
 created: 2026-06-27
-updated: 2026-07-17
+updated: 2026-08-08
 type: practice
 tags: [practice, orchestrator, workflow, mindset]
 confidence: high
@@ -259,6 +259,19 @@ After a week of standups, you'll start seeing signal:
 
 **Everything is working perfectly:** Great. Now look for the next task that *isn't* templated yet. The standup freed your attention — use it to expand.
 
+## The Eighth Question — Review Depth Calibration
+
+The quality check asks *whether* something failed. This question asks *how hard to look* when it did.
+
+Research on auditing autonomous analysis agents (arXiv:2608.05490) found two humbling limits:
+
+- **Error localization has a floor.** Below a certain error magnitude, you cannot tell which operation caused a failure — the mistake is indistinguishable from ordinary variation. No amount of review tooling fixes that; the error is too small to attribute.
+- **More review data barely helps.** A hundredfold increase in "known-good" examples improves the audit floor by under 2% at current representation sizes. The binding constraint is the *representation*, not the volume.
+
+**The practice version:** match review depth to *consequence*, not to *curiosity*. For a routine standup line ("pipeline ran, output formatted"), the floor applies — a light check is correct, and a deeper one is wasted attention. For a high-stakes output (something sent to a person, a number quoted in public, a decision acted on), the floor *doesn't apply to you* — you're not localizing an error inside an analysis, you're checking an output against the world. That check is cheap and worth doing every time. Put it on the standup template as a one-word column: **consequence** (routine / sent / public). Review depth follows the word.
+
+This is the same principle as the Human Review Checkpoints framework from the AI Agency Knowledgebase: checkpoints are placed by risk, and the deepest checkpoint belongs *before* an output leaves your control — which is exactly where this question sits.
+
 ## Common Pitfalls
 
 **"I skipped a day and now I feel behind."**
@@ -277,7 +290,7 @@ The opposite. Finding and fixing issues quickly is the mark of an orchestrator. 
 
 ## Related Pages
 
-[[05-Practice/README|05 — Practice]] · [[Build a Tiny Pipeline]] · [[First Delegation]] · [[Audit Your Prompts]] · [[The Line You Draw]] · [[Delegation Thinking]] · [[Trust Calibration]]
+[[05-Practice/README|05 — Practice]] · [[Build a Tiny Pipeline]] · [[First Delegation]] · [[Audit Your Prompts]] · [[The Line You Draw]] · [[Delegation Thinking]] · [[Trust Calibration]] · [[The Reliance Audit]]
 
 ## Tags
 

@@ -1,7 +1,7 @@
 ---
 title: The Line You Draw
 created: 2026-07-02
-updated: 2026-07-02
+updated: 2026-08-08
 type: practice
 tags: [practice, operator, orchestrator, mindset]
 confidence: high
@@ -151,6 +151,18 @@ The quarterly audit isn't a test. It's a compass check. You're not trying to eli
 
 ---
 
+## The Random-Guy Test
+
+In July 2026, a San Francisco billboard offered free life advice from "a random guy" chatbot — ChatTJB. 30,000+ queries in its first weeks, ~5,000 prompts an hour at peak. People asked it real questions: whether to have a birthday party they dreaded, what to cook with what was in the pantry. **There was no AI.** A human answered every prompt by hand, and called it "the worst LLM of all time." The artist's point was cognitive surrender: people will outsource decisions to whatever presents itself as an AI, without checking the warrant.
+
+**The test for your line:** before you let an AI answer cross your line unexamined, ask — *would I act on this if a random guy on a billboard said it?* If you'd sanity-check the random guy's advice, sanity-check the AI's at least that much. The test isn't anti-AI; it's pro-warrant: it calibrates scrutiny to the object, not the interface. (Full story in raw/articles/chat-tjb-random-guy-wired-2026.md; the practice version is [[The Reliance Audit]].)
+
+## Audit by Time, Not by Count
+
+The line-drawing exercise counts *tasks*. The labor research (arXiv:2608.05172) suggests counting *hours* instead. Re-weighting AI exposure by time spent — not task count — reshuffles 11 of the 25 occupations usually reported as most exposed, shifting the top of the list away from clerical work and toward analytical roles.
+
+Same logic applies to your boundary: a task you do five times a week for five minutes is not where your line matters. A task you do twice a week for three hours is. When you set your check-in date (Step 4), note the *hours* each task takes, not just its count — and draw your line where the hours are. The Quarterly Boundary Audit is the place to re-weight.
+
 ## Common Pitfalls
 
 **"All of my boundaries are identity-based. I feel like I *am* my work."**
@@ -169,7 +181,7 @@ That's valid. The beyond-prompting shift isn't about delegating everything. It's
 
 ## Related Pages
 
-[[05-Practice/README|05 — Practice]] · [[Audit Your Prompts]] · [[First Delegation]] · [[The Daily Standup]] · [[Delegation Thinking]] · [[Trust Calibration]] · [[Fear of Losing Control]]
+[[05-Practice/README|05 — Practice]] · [[Audit Your Prompts]] · [[First Delegation]] · [[The Daily Standup]] · [[Delegation Thinking]] · [[Trust Calibration]] · [[Fear of Losing Control]] · [[The Reliance Audit]]
 
 ## Tags
 

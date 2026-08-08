@@ -1,7 +1,7 @@
 ---
 title: First Delegation
 created: 2026-06-26
-updated: 2026-07-02
+updated: 2026-08-08
 type: practice
 tags: [practice, operator, orchestrator]
 confidence: high
@@ -246,9 +246,21 @@ Before you finalize any delegation template, run it through Yao's five capacitie
 
 If your template scores 4 or below (out of 10), it's building dependency, not capability. That doesn't mean don't use it — some tasks genuinely don't need capacity preservation. But know what you're trading. A template that scores 8+ twice a week preserves capacity. A template that scores 2 every day dissolves it.
 
+## The Reliance Gate: Three Questions Before You Delegate
+
+Before a task enters your pipeline, it has to earn its place. The gate is three questions — the same three that define warranted reliance (arXiv:2608.05602):
+
+1. **Humility** — Has this tool shown me where it's weak? (Does it say "I don't know," or does it always know?)
+2. **Access** — Can I inspect what it did? (Steps, sources, reasoning — or a black box that hands me an answer?)
+3. **Justice** — Does it take my disagreement seriously? (Or does it reverse its stance when I state a preference? See [[Audit Your Prompts]]' Stance-Reversal Probe.)
+
+**Pass two of three on a routine task, and it's a candidate for delegation — with review.** Pass fewer, and it's not ready: keep the task human-side until the tool earns the warrant.
+
+**The replacement rule (from [[The Reliance Audit]]):** if a tool fails all three on the same task twice, it's not a tool you're using — it's a habit you're carrying. Rebuild the workflow with checkpoints, or replace the tool. The AI Agency Knowledgebase's Human Review Checkpoints framework puts it plainly: gates belong *inside* the workflow, not at the end of it — that's why this page's template has a REVIEW CADENCE, not a "check at the end" line.
+
 ## Related Pages
 
-[[05-Practice/README|05 — Practice]] · [[Audit Your Prompts]] · [[Build a Tiny Pipeline]] · [[The Line You Draw]] · [[Delegation Thinking]] · [[Task Decomposition]] · [[Capacity Dissolution]]
+[[05-Practice/README|05 — Practice]] · [[Audit Your Prompts]] · [[Build a Tiny Pipeline]] · [[The Line You Draw]] · [[Delegation Thinking]] · [[Task Decomposition]] · [[Capacity Dissolution]] · [[The Reliance Audit]]
 
 ## Tags
 

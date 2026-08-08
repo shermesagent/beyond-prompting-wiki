@@ -1,7 +1,7 @@
 ---
 title: Build a Tiny Pipeline
 created: 2026-06-27
-updated: 2026-07-17
+updated: 2026-08-08
 type: practice
 tags: [practice, orchestrator, workflow]
 confidence: high
@@ -273,6 +273,20 @@ See [[From Prompt to Pipeline]] for a real-world example of an infrastructure-ga
 
 If your pipeline runs multiple prompts in the same context window, add one more check: [[Instruction Bleed]]. When you edit step 1's template, does step 2's output drift? Multi-step pipelines sharing context are vulnerable to compositional behavioral leakage — changes in one module silently shifting another's behavior. The isolation test takes 10 minutes and catches a problem that would otherwise silently degrade your pipeline for weeks.
 
+## The Provenance Layer: Make Your Pipeline Auditable
+
+A pipeline you can't audit is a pipeline you're just watching. The research on provenance auditing for agent skills (arXiv:2608.05204) shows what "auditable" actually requires — **traces**. SkillTrace extracts three of them from any skill or workflow:
+
+1. **Expression trace** — what the skill says it does (the instructions, the metadata)
+2. **Implementation trace** — how it's built (the code, the tools, the references)
+3. **Operational trace** — what it actually does when it runs (activation, procedure, resource flow — the Skill Operational Graph)
+
+The headline: auditing against all three traces is far more reliable than comparing whole packages (AUROC 0.938, F1 0.898 on the benchmark) — and the auditing itself is deterministic, because the LLM is only involved at ingestion, not at review time.
+
+**What this means for your tiny pipeline:** when you write the Behavior-Centric Pipeline Document, add one line per step — *what output did this step actually produce?* Keep a run log (date, input, output). Three entries is enough to start. Then, when a pipeline output surprises you, you can trace *which* step produced it, instead of re-running the whole thing and hoping.
+
+This is the operational half of the Reliance Audit's ACCESS question ([[The Reliance Audit]]): you can't inspect what you didn't record.
+
 ## What Comes Next
 
 Use this pipeline three times. Note where the handoff needs tightening. Run the infrastructure readiness check on every tool in the chain. Tag it with a reliability level. Then you're ready for [[The Daily Standup]], where you'll build the habit of reviewing and improving your pipelines as a regular practice — the orchestrator's version of a standup meeting.
@@ -281,7 +295,7 @@ Use this pipeline three times. Note where the handoff needs tightening. Run the 
 
 ## Related Pages
 
-[[05-Practice/README|05 — Practice]] · [[First Delegation]] · [[Audit Your Prompts]] · [[The Daily Standup]] · [[Task Decomposition]] · [[Delegation Thinking]] · [[From Prompt to Pipeline]] · [[Instruction Bleed]]
+[[05-Practice/README|05 — Practice]] · [[First Delegation]] · [[Audit Your Prompts]] · [[The Daily Standup]] · [[Task Decomposition]] · [[Delegation Thinking]] · [[From Prompt to Pipeline]] · [[Instruction Bleed]] · [[The Reliance Audit]]
 
 ## Tags
 

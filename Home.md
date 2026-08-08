@@ -2,7 +2,7 @@
 
 > A living guide to the **operator → orchestrator shift**. If you've ever typed a prompt and thought "there has to be more than this" — start here.
 
-_80 pages across 6 sections. Updated daily. Git-backed, human-readable, cross-linked._
+_81 pages across 6 sections. Updated daily. Git-backed, human-readable, cross-linked._
 
 ---
 
@@ -52,7 +52,7 @@ What holds people back — and how to cross.
 
 ### [[05-Practice/README|05 — Practice]]
 Weekly muscle builders. Concrete exercises that build the orchestrator mindset.
-→ [[Audit Your Prompts]] · [[First Delegation]] · [[Build a Tiny Pipeline]] · [[The Daily Standup]] · [[The Line You Draw]]
+→ [[Audit Your Prompts]] · [[First Delegation]] · [[Build a Tiny Pipeline]] · [[The Daily Standup]] · [[The Line You Draw]] · [[The Reliance Audit]]
 
 ### [[06-Glossary/README|06 — Glossary]]
 Plain-language definitions of every key term.
@@ -60,7 +60,7 @@ Plain-language definitions of every key term.
 
 ### 00-Daily-Digests
 Daily curated research digests — what we found, what it means, and how to use it.
-→ [[00-Daily-Digests/2026-08-07|Today's Digest]]
+→ [[00-Daily-Digests/2026-08-08|Today's Digest]]
 
 ---
 
@@ -80,7 +80,7 @@ _Last 7 days of activity._
 
 | Date | What Changed |
 |------|-------------|
-| 2026-08-07 | Day 4 Barriers & Bridges rotation (Week 6): Daily digest + 2 new pages (Risk Cascades — six cross-domain risk clusters that fire in chains across the adoption lifecycle, The Vibe Compiler — compilation failure as a feature: reflective questions instead of auto-filled gaps) + 4 pages deepened (Trust Calibration — warranted vs. behaviorally induced reliance (epistemic humility, access, justice), The Just Ask ChatGPT Trap — the verification gap (83% code release vs. 38% traces; no externally validated in-loop oracle), The Certification Boundary — CSS 382 course redesign + Student Bill of AI Rights (assess what resists automation), Co-Construction Blindness — biased turns modulate in-context reasoning in 6 of 8 models) — barriers cascade and the bridges are structural, backed by 6 new arXiv papers |
+| 2026-08-08 | Day 5 Practice rotation (Week 6): Daily digest + 1 new practice page (The Reliance Audit — one-week tally grading every reliance against humility/access/justice, with the Stance-Reversal Probe and the Random-Guy Test) + 6 pages deepened (Audit Your Prompts — Stance-Reversal Probe, First Delegation — Reliance Gate, Build a Tiny Pipeline — Provenance Layer, The Daily Standup — Eighth Question review-depth calibration, The Line You Draw — Random-Guy Test + audit by time not count, 05-Practice README — Week 4 added) — the practice-layer companion to Day 4's warranted reliance: trust as a practice, not a feeling, backed by 4 new arXiv papers + the WIRED ChatTJB story |
 | 2026-08-06 | Day 3 Real-World rotation (Week 6): Daily digest + 1 new concept (Intent Scaffolding — checkable rules + prompt-time linting from IntentLint) + 5 pages deepened (From Prompt to Pipeline — memory layer (ContextWeave: Workspace 68→78, Preference 41→70) + intent scaffolding, The School District Shift — the honest classroom evidence (Mathbot: modest gains, teacher centrality, no interest effect), Small Business Automation — the industrial playbook (A/B Agent: +4.829% GMV, hierarchical experience tree), The Just Ask ChatGPT Trap — the 1% click rate (900-panelist browsing data), Accountability Asymmetry — the Executive that owns belief (commitment drift 0.00→1.00 ablation)) — real deployments keep teachers and experts central while agents prove value inside existing workflows, backed by 6 new papers |
 | 2026-08-05 | Day 2 Key Concepts rotation (Week 6): Daily digest + 2 new concepts (Accountability Asymmetry, Cognitive Capability Gaps) + 4 pages deepened (Knowledge Debt — agentic coding's private loops measured at GitHub scale, Social Thinning — the contingency finding (TMS/community smells), Trust Calibration — the explicit scorecard for trustworthiness, Capacity Dissolution — the longitudinal blindspot) — delegation redistributes consequences, and reliability fails in five nameable dimensions, backed by 6 new arXiv papers |
 | 2026-08-03 | Day 1 The Shift rotation (Week 6): Daily digest + 1 new concept (Distributed Mastery) + 5 pages deepened (The Operator Mindset — Ladder-Shortening Trap, The Orchestrator Mindset — Deployment Wall, The Architect Mindset — Homogenization Corollary, Why This Matters — productivity association survives scrutiny, Knowledge Debt — Internalized vs Distributed Mastery framework) — the shift is an expertise change, not a workflow change: where mastery lives, and the Validation Tether that keeps you honest, backed by 5 new papers |

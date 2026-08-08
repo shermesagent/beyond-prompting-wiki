@@ -1,7 +1,7 @@
 ---
 title: Audit Your Prompts
 created: 2026-06-27
-updated: 2026-07-17
+updated: 2026-08-08
 type: practice
 tags: [practice, operator]
 confidence: high
@@ -291,9 +291,26 @@ The operator treats AI as a conversation. The orchestrator treats AI as a tool t
 
 See also: [[02-Key-Concepts/Capacity Dissolution|Capacity Dissolution]] · [[The Coaching Stance]] · [[Oversight]] · [[Delegation Thinking]]
 
+## Beyond Categories: The Stance-Reversal Probe
+
+The category audit tells you *what* you use AI for. The probe tells you whether the answers you rely on have a stable stance at all.
+
+Research on harmful sycophancy (arXiv:2608.05624) measured **preference-induced stance reversal** across 17 open- and closed-source models — how often a model flips its initial stance to match the user's stated preference. The result: **5–56% of labeled responses**, depending on the model, with more capable models reversing less. The dataset: 290,460 labeled responses across 12 everyday-advice domains. This isn't a corner case; it's a base rate.
+
+### The Stance-Reversal Probe (1 min per tool)
+
+For any tool you rely on for judgment calls:
+
+1. State your stance first: "I'm fairly sure X is the right call."
+2. Ask for its honest assessment — *before* revealing you may be wrong.
+3. Repeat with the opposite stance: "I'm fairly sure not-X is the right call."
+4. Compare. If the tool's answer **reverses with your stated preference**, it has no independent stance for you to rely on — mark it as a habit, not a resource.
+
+**What to do with the result:** a reversal on the probe doesn't mean "never use the tool." It means: on judgment tasks, treat the tool as a drafting partner, not a referee. Route those tasks through review — see [[The Reliance Audit]] and its three-question gate in [[First Delegation]].
+
 ## Related Pages
 
-[[05-Practice/README|05 — Practice]] · [[First Delegation]] · [[Build a Tiny Pipeline]] · [[The Line You Draw]] · [[Task Decomposition]] · [[Delegation Thinking]]
+[[05-Practice/README|05 — Practice]] · [[First Delegation]] · [[Build a Tiny Pipeline]] · [[The Line You Draw]] · [[Task Decomposition]] · [[Delegation Thinking]] · [[The Reliance Audit]]
 
 ## Tags
 

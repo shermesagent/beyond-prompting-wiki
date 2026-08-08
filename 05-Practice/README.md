@@ -14,6 +14,7 @@ This is where the operator→orchestrator shift stops being something you read a
 | 1 | [[Audit Your Prompts]] | 10 min | Look at your last 10 AI interactions and see what you're actually doing — and what you could be delegating |
 | 2 | [[First Delegation]] | 10 min | Pick one recurring task and design a real agent workflow for it |
 | 3 | [[Build a Tiny Pipeline]] | 10 min | Chain two tasks together and watch them run without you |
+| 4 | [[The Reliance Audit]] | 10 sec/day + 10 min | Tally every reliance for a week, grade it against three questions, and get a number you can defend |
 
 ## Ongoing Practice
 
@@ -31,6 +32,9 @@ Delegation thinking isn't a theory — it's a practice. Week 2 has you pick one 
 
 ### Week 3 — Tiny Pipeline
 The orchestration leap. You take two tasks that normally happen in sequence and wire them together so the second one starts automatically when the first one finishes. This is the moment you stop being the person who passes the baton — the system does it. And it takes less than 10 minutes to build your first one.
+
+### Week 4 — The Reliance Audit
+You've built pipelines — now check what you actually rely on. Week 4 is a week-long tally: every time you act on an AI answer, grade it against three questions (humility, access, justice). The output is a defensible number — how much of your reliance is warranted versus habit. It's the practice-layer companion to [[02-Key-Concepts/Trust Calibration|Trust Calibration]], and it includes the Stance-Reversal Probe (sycophancy base rates run 5–56% across models, arXiv:2608.05624) and the Random-Guy Test (30,000+ people asked "a random guy" chatbot for real advice in 2026 — with no AI behind it at all). Re-run it for one week each quarter.
 
 ## Beyond the Three-Week Progression
 

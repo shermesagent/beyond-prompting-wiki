@@ -858,3 +858,14 @@ Theme: **Delegation is a redistribution of consequences — and reliability fail
 - Digest: 00-Daily-Digests/2026-08-07.md
 - sources.jsonl: +6 records (175 → 181)
 - Raw files: raw/articles/ ×6 with full abstracts
+
+## 2026-08-08 — Week 6, Day 5 (05-Practice rotation)
+
+- Theme: **The Reliance Audit — trust as a practice, not a feeling** (one-week tally grading every reliance against humility/access/justice; stance-reversal probe; Random-Guy Test; provenance layer; review-depth calibration)
+- Sources (6 new, all active): Harmful AI Sycophancy 2608.05624 (preference-induced stance reversal 5–56% across 17 models, 290,460 labeled responses, 12 everyday-advice domains; CAP framework; more capable = less sycophantic; detectable from single response), ChatTJB/WIRED 2026-08-07 (Caroline Haskins: "The Hottest New AI Chatbot Is Just a Guy Answering Your Questions"; $6,000 billboard; 30,000+ queries by Aug 6, ~5,000 prompts/hr peak; Tucker Bryant answers by hand — no AI; cognitive surrender as art; "the worst LLM of all time"), Time Spent on Work Tasks 2608.05172 (principled time shares for ~18,000 tasks; time-weighted exposure reshuffles 11 of 25 most-exposed occupations; clerical → analytical shift), SkillTrace 2608.05204 (three provenance traces — Expression/Implementation/Operational; Skill Operational Graph; AUROC 0.938, F1 0.898 on 820 positives/751 negatives; deterministic audit-time), Innovation-Residual Auditing 2608.05490 (error localization floors; false-flag control; 100× data < 2% improvement — representation dimension is binding), Human Review Checkpoints (AI Agency KB internal reference; checkpoints inside workflows, placed by risk, deepest before output leaves control)
+- New page (1): 05-Practice/The Reliance Audit.md — week-long exercise: three-question tally (humility/access/justice), weekly grading, Stance-Reversal Probe, Random-Guy Test, replacement rule (fails all three twice on same task = replacement candidate); practice-layer companion to Trust Calibration
+- Pages deepened (6): Audit Your Prompts — Beyond Categories: The Stance-Reversal Probe (4-step probe, 5–56% base rate); First Delegation — The Reliance Gate (three questions before delegating; pass 2/3 with review; replacement rule); Build a Tiny Pipeline — The Provenance Layer (three traces; run-log practice; access question's operational half); The Daily Standup — The Eighth Question: Review Depth Calibration (audit floors; consequence column: routine/sent/public); The Line You Draw — The Random-Guy Test + Audit by Time, Not by Count (11 of 25 reshuffled); 05-Practice/README — Week 4 (The Reliance Audit) added to progression
+- Navigation: Home.md (80 → 81 pages, Today's Digest → 08-08, Recent Updates row)
+- Digest: 00-Daily-Digests/2026-08-08.md
+- sources.jsonl: +6 records (181 → 187)
+- Raw files: raw/articles/ ×5 with full abstracts (ChatTJB full-text summary + 4 arXiv full abstracts fetched directly via curl; web search still down day 12)
