@@ -24,6 +24,12 @@ When the AI does something better than you expected: your trust was too low. Whe
 
 A practical pattern: keep a running "trust journal" for a week. Every time you use AI for something consequential, note what surprised you. After a week, you'll have a map of where your calibration is sharp and where it's off. Most people discover that they over-trust AI on factual recall (names, dates, statistics) and under-trust it on creative synthesis and structure — the exact opposite of where AI is actually strongest. That single correction transforms how they delegate.
 
+### Calibrate by Independent Review
+
+The trust journal corrects your *expectations* — but there's a second calibration target that no amount of self-reflection reaches: the agent's own self-assessment. An agent's confidence isn't a signal you can calibrate against by watching it; you need an independent channel. The **multi-model independent review** pattern (Lawson, 2026) is the practical version: route the same output to a *different* model for an independent critique, then weigh the disagreement. Lawson's implementation on his own code found the second model's flags were almost always real issues — near-zero false positives — because the two models fail differently. When both models agree, you've got converging evidence. When they disagree, you've found a genuine uncertainty worth your attention.
+
+The deeper reason this works: an agent's confident "yes, this is right" is a *self-report*, and self-reports are exactly what the AgentAbstain benchmark (arXiv:2607.10059) showed you can't rely on — agents are wrong about their own limits roughly 40% of the time. Independent review is how you check the self-report without becoming the bottleneck. The cost is one extra inference pass. The payoff is trust that's anchored in structural disagreement rather than in the agent's own claims.
+
 ## Related Pages
 
 [[02-Key-Concepts/Trust Calibration|Full concept page]] · [[04-Barriers-and-Bridges/Trust Calibration|Barriers & Bridges version]] · [[Agent]] · [[Delegation]] · [[Oversight]] · [[Autonomy]] · [[Cognitive Surrender]] · [[Co-Construction Blindness]] · [[Delegation Regret]]

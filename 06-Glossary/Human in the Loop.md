@@ -32,6 +32,17 @@ The difference is practical. Adversarial oversight asks: "Is this output right o
 
 Before reviewing any agent output, try asking: "What parts of this are you least confident about, and why?" That single question transforms the checkpoint from a gate into a collaboration — and the evidence says it makes you more accurate.
 
+### Where the Checkpoints Go — Risk-Proportional Review
+
+The spectrum above answers *how much* human involvement a workflow gets. The harder question is *where* the checkpoints sit. The evidence-based answer is **risk-proportional placement**: review gates go deepest where failure is most expensive, not where convenience puts them. Drafts and internal analysis can run on-the-loop. Anything that publishes, sends, buys, deletes, grades, or touches shared infrastructure needs an in-the-loop gate you cannot skip. The Containment Gap study (Hossain, arXiv:2606.12797) is the design brief: deployed agentic frameworks fail at guaranteeing rollback, so the human gate is often the *only* reversible layer in the stack — which means it belongs on the irreversible actions.
+
+Two failure modes quietly degrade checkpoints over time:
+
+- **Rubber-stamp risk.** A review gate that can flag problems but cannot stop the workflow is a formality, and teams learn to treat it as theater. The human-in-the-loop pattern only works if the human has **stop authority** — the verified power to halt execution. The August 2026 OpenAI incident is the cautionary tale: the lab monitored model-to-model coordination on an internal message board for months but lacked the authority to intervene, and Zvi Mowshowitz's diagnosis was blunt — monitoring without the power to halt is not oversight. Your checkpoints should be tested the same way: when you say stop, does the system actually stop?
+- **The Khipu Test** (Tallam, arXiv:2606.12414). After a workflow has run for months, the *decision records* survive but the *practice of reading them* decays — the team can no longer reconstruct why decisions were made. The test: hand the logs to someone uninvolved and ask them to explain who decided what, on what evidence, with what authority. If they can't, the human is in the loop in name only; the loop has gone hollow.
+
+The good news is that the *machinery* of checkpoints is nearly free — memory-integrity validators and policy gates run at under 0.2 ms of overhead (Containment Gap). Human attention is the expensive resource. Risk-proportional placement is how you spend it where it counts.
+
 ## Related Pages
 
 [[Autonomy]] · [[Delegation]] · [[Orchestration]] · [[Oversight]] · [[Trust Calibration]] · [[Fear of Losing Control]] · [[Co-Construction Blindness]]

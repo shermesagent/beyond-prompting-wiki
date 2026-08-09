@@ -18,6 +18,18 @@ There's a specific risk that grows as autonomy increases: **pseudo-rational cogn
 
 A classroom study (Nagashima et al., 2026) found that teachers and students had radically different ideas about how much AI should control — and those differences were shaped by their existing relationship, not by the technology itself. The teacher-student relationship *outside* of AI use shaped how each viewed AI *inside* the classroom. The lesson for autonomy: when you're adjusting the autonomy dial on a team, you're not just calibrating your own comfort. You're navigating relationships between everyone who touches the system. Autonomy settings that feel right to you may feel threatening to a colleague — not because the AI is dangerous, but because your relationship with that colleague shapes how they interpret the AI's role.
 
+### Autonomy Is Earned, Not Assumed — The Digital Apprentice Pillars
+
+The orchestrator's version of "trust but verify" has a name: **earned autonomy** (Weber & Taneja, 2026 — "The Digital Apprentice," arXiv:2606.04321). Autonomy isn't granted by a settings dial; it's earned through three pillars:
+
+1. **Methodology capture** — the agent's working process is recorded and reviewable, so you can inspect *how* it reached a result, not just that it reached one.
+2. **Authorization gates** — the agent acts only with explicit human approval at defined points; autonomy expands one approved action at a time.
+3. **Continuous alignment** — the system is recalibrated against your standards as it works, instead of assuming alignment once and letting it drift.
+
+The most complete operationalization of earned autonomy is the **five-gate protocol** (PHP-AIO, arXiv:2607.15944): before any task is automated, it passes Gate 1 Criticality, Gate 2 Reversibility, Gate 3 Stakeholder Impact, Gate 4 Systemic Coupling, and Gate 5 Competence Verification. Failure of any gate means no automation — the human executes with AI augmentation instead. What makes the five gates different from a checklist is that Gate 4 (Systemic Coupling) is the one that most frequently fails: the task looks safe in isolation but is entangled with systems you don't see. The protocol's authors call the unpriced accumulation of such risks **Automation Debt** — risk that grows quietly with every un-gated automation, the way technical debt grows with every un-reviewed code change.
+
+The practical loop: use the three pillars as your daily practice (capture the process, gate the approvals, re-align continuously) and the five gates as your occasional audit (does this automation deserve to exist at all?). Earned autonomy is why orchestrators can turn the dial up without becoming reckless: the dial isn't a trust leap — it's a reward for demonstrated reliability.
+
 ## Related Pages
 
 [[Human in the Loop]] · [[Agent]] · [[Memory]] · [[Tool Use]] · [[Oversight]] · [[Abstention]] · [[The Architect Mindset]] · [[Trust Calibration]]

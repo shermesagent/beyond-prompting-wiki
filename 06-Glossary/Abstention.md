@@ -21,6 +21,22 @@ This has a direct practical implication: **don't count on the agent to know its 
 
 If any answer is "no" or "I'm not sure," the agent stops and escalates to you. It doesn't proceed. The gate isn't optional — it's architectural.
 
+### The Self-Evaluation Gate Is Not Enough — The Preservation Gate
+
+Here's the uncomfortable part of the AgentAbstain result: the gate above asks the *agent* to evaluate itself — and the benchmark says that self-evaluation is wrong roughly 40% of the time. An abstention gate the agent can talk itself out of is a gate in name only. The structural fix comes from the PHP-AIO protocol (arXiv:2607.15944): a **five-gate protocol** imposed by workflow architecture, *before* the agent is ever allowed to run:
+
+| Gate | Question the Architecture Asks |
+|------|-------------------------------|
+| **1. Criticality** | If this task fails silently, what breaks? |
+| **2. Reversibility** | Can every AI action be undone? |
+| **3. Stakeholder Impact** | Who is affected? Do they know? Can they appeal? |
+| **4. Systemic Coupling** | What other processes depend on this? |
+| **5. Competence Verification** | Can we verify correct output for all edge cases? |
+
+Failure of any gate means **no automation** — the task stays human-executed with AI augmentation. Un-gated automation accumulates what the protocol calls **Automation Debt ρ(P)**: unpriced systemic risk that compounds as more actions run without passing the gates. Gate 4 (systemic coupling) is the most-frequently-failed gate — the workflow looks fine in isolation and is dangerous in context.
+
+The distinction matters for orchestrators: the **Abstention Gate** asks "should the agent stop?" and trusts the agent's judgment. The **Preservation Gate** asks "should this be automated at all?" and is answered by the workflow itself — it cannot be skipped, forgotten, or rationalized away by the agent. The five-gate protocol is the most complete operationalization of the earned-autonomy principle (see [[Autonomy]]): agents earn the right to act by passing structural gates, not by claiming they're confident.
+
 ## In Plain Language
 
 You don't want a colleague who never says "I don't know" and always tries to help — because sometimes "helping" makes things worse. You want a colleague who says "I'm not confident about this — let me flag it." That's abstention: the skill of knowing when NOT to act. It turns out to be one of the hardest things to teach an AI — and one of the most important to design for.

@@ -22,6 +22,17 @@ Early delegation is one-off: you craft a spec, the agent executes, you move on. 
 
 The practical shift: every time you delegate a recurring task, add one sentence that makes the brief reusable — "Save this approach as the weekly report SOP." The first time feels artificial. By the fifth time, you've built the beginning of a workflow library that delegates itself. The operator reinvents the prompt every time. The orchestrator writes the brief every time. The architect names the SOP and references it. See [[SOP]] for the full concept.
 
+### Route the Work to the Right Agent — Model Selection as Delegation
+
+Delegation has a question the brief doesn't answer: *which agent should carry it?* Field evidence from May 2026 (Zvi Mowshowitz on GPT-5.5; SemiAnalysis's reported workflow) converges on a two-way split that's worth stealing:
+
+- **Intent-heavy work** — planning, scaffolding, ambiguous first implementations — belongs to models with strong intent inference (Claude Code in their tests). A SemiAnalysis engineer's summary of the failure mode: "Codex is still worse at inferring your true intent than Claude Code. Humans naturally give terse and not particularly well thought out instructions when prompting coding agents, and Codex often listens too literally."
+- **Spec-heavy work** — well-defined problems, bug-fixing, literal execution — belongs to execution-oriented models (Codex). SemiAnalysis's hybrid: Claude Code for planning/scaffolding and first implementation, Codex for solving problems and fixing bugs.
+
+The routing heuristic: if your brief reads like a specification, an execution model wins on cost and speed. If it reads like a half-formed intention, an intent model wins on correctness. Delegating to the wrong class of agent isn't a prompt problem — it's a *delegation* problem, and it fails the same way every time: the agent executes literally what you said instead of what you meant.
+
+At team scale, routing becomes an organizational pattern. The **manager-of-managers** model (Fosslien & Duffy, HBR, May 2026) describes teams where members manage AI agents directly and the human manager's job shifts to direction, priorities, and coordination — managing the managers rather than doing the work. Delegation compounds twice: the agent executes the task, and the team's structure executes delegation itself.
+
 ## Related Pages
 
 [[Decomposition]] · [[Orchestration]] · [[Agent]] · [[Human in the Loop]] · [[Delegation Thinking]] · [[First Delegation]] · [[Delegation Regret]]
