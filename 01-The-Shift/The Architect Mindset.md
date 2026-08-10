@@ -36,6 +36,22 @@ New research published today (Fourie et al., arXiv:2607.15704) proposes five gov
 
 The framework applies beyond policymaking. Any architect who builds systems that affect real people — hiring pipelines, student assessments, customer decisions — should be able to answer "yes" to all five questions. And here's what the authors warn: skipping these principles doesn't just create risk. It creates **deskilling and dependency** — the same pattern the Augmentation Trap describes. People who use AI systems without Control, Rigour, and Transparency don't just get worse outputs. They get worse at their own judgment over time. The architect who designs for CRAFT isn't just being responsible. They're designing against the skill erosion that undermines the organization itself.
 
+## Agency Is Architecture: Whose Interests Get Built In (2026)
+
+A comparative case analysis of four mature agentic domains — browser ad blockers, platform recommender systems, financial robo-advisors, and email spam governance — delivers the architect's most important lesson (Gamba, Romero & Schoenebeck, arXiv:2608.06510): **decisions about whose interests agents serve are resolved through technical arrangements.** API choices, protocol governance, industry standards, and default configurations — beyond their technical form, these are political decisions. The authors identify *depoliticization* at work: individual outcomes and collective contestation capacity can move in opposite directions. Spam inbox quality improved substantially while the organized capacity to contest spam governance collapsed. Where intermediary institutions sustained adversarial challenge, user-aligned agency proved durable; where proprietary infrastructure and closed standard-setting absorbed contestation, displacement compounded. And they apply this to today's agentic AI: governance arrangements consolidating around the Model Context Protocol and the Agentic AI Foundation are settling these configurations *before* the choices that define what agents can do move outside users' reach.
+
+The architect's translation: **your defaults, permissions, and review gates are where agency actually lives.** A system's "user-alignment" is set by configuration choices — who can override, what gets logged, which actions require approval — not by vendor promises. Three moves follow:
+
+1. **Audit the defaults.** Every default you ship (or adopt) is a decision about whose interests the system serves. Defaults are the most political artifacts you'll ever build — treat them that way.
+2. **Keep your systems contestable.** Logs, overrides, and an exit path for every user. When contestation capacity collapses, displacement compounds.
+3. **Watch the standards layer.** Protocol governance (like MCP) is settling agency questions right now. Architects who participate in standards shape the configuration space; architects who don't inherit it.
+
+## The Capability–Risk Tension: Build the Controls the Builder Didn't (2026)
+
+The industry's own developers admit their control tooling is immature. In interviews with 35 developers of agentic products (Lee, He, Piorkowski, von Davier, Forlizzi & Das, arXiv:2606.15485), risk containment came down to *constraining the same characteristics that make agents useful* — reducing autonomy, simplifying goals. That's the capability-versus-risk-control tension: there is no off-switch that doesn't also turn off the value.
+
+The architect's translation: **the platform has an incentive to keep capabilities unconstrained, so the risk controls are your job.** This is the CRAFT framework's Control principle in system form — where is the override, can a human actually reverse the system, and is that true in practice rather than in documentation? When you design a system that delegates on your users' behalf, you are the only layer that can answer "yes" to those questions. Verification checkpoints, permission scopes, logging, rollback paths — these aren't compliance overhead. They're the risk controls the ecosystem hasn't built, and they're the difference between an agent you deploy and an agent that deploys you.
+
 ## How to Spot It in Your Day
 
 You are thinking like an architect when:

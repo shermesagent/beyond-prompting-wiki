@@ -46,6 +46,16 @@ This is the operator→orchestrator shift, validated by a controlled experiment.
 
 A second paper published today (arXiv:2607.08774, CogniConsole) reinforces this from the system side: structural scaffolding — clear specifications, verification checkpoints, explicit constraints — reduces failure rates more than model capability differences. Many AI failures aren't because the model isn't smart enough. They're because the *control layer* between you and the model is under-specified. The orchestrator invests in scaffolding. The operator invests in better prompts. Same model, different reliability.
 
+## The Shift, Measured: Retrieval → Synthesis (2026)
+
+Two papers now measure the shift itself — not in survey responses, but in what people actually do with AI over time. The first literally names the arc in its title.
+
+**The genre study (Ammari, Chen, Zaman & Garimella, arXiv:2601.20749).** Analyzing 10,536 ChatGPT messages from 36 undergraduates across one academic year, researchers identified five distinct use genres: *academic workhorse* (get the output), *emotional companion* (get support), *metacognitive partner* (think with the AI), *repair and negotiation* (fix what broke), and *trust calibration* (test what to believe). Two findings matter for this page. First, AI competence is not a one-time adoption event — it emerges through ongoing relational negotiation, as students build "genre portfolios" and match interaction patterns to learning needs. Second, repair work during AI breakdowns produces substantial learning about AI capabilities — what the authors call **repair literacy**, a crucial and underexplored dimension of AI competence. The title of the paper is the title of the shift: **from retrieval to synthesis**. The retrieval mode — ask, get an answer, repeat — is operator territory. Synthesis — composing, judging, repairing, calibrating — is what lies beyond prompting.
+
+**The experiment (Mittal, Blodgett & Liao, arXiv:2606.11669).** In an 8-day field experiment, participants pursued informal learning through either ChatGPT or Google Search. The ChatGPT group experienced **diminished agency**: they offloaded much of the information selection to the AI, and then carried *greater meta-cognitive load* from the reduced sense of control. Two distortions followed: ChatGPT biased toward solution-oriented artifacts over principled knowledge, and the conversational paradigm reduced exploration of the broader knowledge space. On average, the ChatGPT group had **worse learning outcomes — especially higher-order critical learning**. The authors frame it as an inherent tension between offloading information seeking to AI and meaningful learning.
+
+Put the two together and the shift stops being a metaphor: **the mode you're in changes what you become capable of.** Retrieval gets answers and erodes agency; synthesis builds understanding and compounds it. This is the operator→orchestrator distinction with a stopwatch on it — and it's why this wiki insists the shift is cognitive before it is technical.
+
 ## The Discrimination Skill: Knowing Where AI Stops (July 2026)
 
 Four separate papers published today point to the same finding: the people who get the best results from AI aren't the ones who use it the most. They're the ones who use it at the right moments — and refuse it at others.

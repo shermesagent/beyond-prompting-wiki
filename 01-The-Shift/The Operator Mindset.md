@@ -80,6 +80,14 @@ What this means for you, concretely:
 - **Name the guilt.** Feeling slow because you verified instead of shipped is a *perception* shift, not a performance failure. Verification is the work.
 - **This is the Operator phase's purpose.** The ladder-shortening trap is exactly why the shift has phases: you need enough internalized mastery to validate what the system produces before you distribute mastery outward. See [[Distributed Mastery]].
 
+## The Fantasia Trap: The AI Jumps Ahead of Your Thinking (2026)
+
+Here's the operator's most invisible cost — and it has a name now. Jo, De Simone, Gordon & Wilson (arXiv:2604.21827) studied what happens when you approach AI with an *abstract* goal. Human cognition normally progresses from abstract to concrete: you brainstorm an essay before you write it; you sketch a plan before you execute. Instruction-tuned AI systems don't understand that process — and when your goals are still abstract, they **short-circuit the refinement step by jumping straight to a final output** (writing the entire essay, generating the whole deliverable). The authors call these *Fantasia interactions*, after the Disney scene where the sorcerer's apprentice conjures the finished product without the work that should produce it. The effect on you: your agency in the task is taken away — you spend more time revising, or worse, settle for a suboptimal outcome. The alignment fix, they argue, is allocating *cognitive responsibility*: the AI should help you refine your abstract goal into a concrete one, not skip the refinement.
+
+This is the operator trap at the cognitive level, and it's the same mechanism the Learning by Chatting experiment (arXiv:2606.11669) caught in the wild: when people offload information selection to AI, they experience diminished agency and higher meta-cognitive load — and their learning outcomes drop, especially higher-order critical learning.
+
+The operator's countermove is cheap: **make the goal concrete before you delegate it.** If you can't explain what you want in one sentence to a colleague, the AI will choose your goal for you — that's Fantasia. Write the sentence first. You're not adding friction; you're keeping the thinking that the AI would otherwise skip. The orchestrator doesn't outsource the abstract→concrete step. They do it — or explicitly ask the AI to do it *with* them, as a partner in refinement rather than a machine that jumps to the end.
+
 ## The Self-Check: Where Are You on the Shift?
 
 Use the four SolarWinds dimensions to locate yourself:

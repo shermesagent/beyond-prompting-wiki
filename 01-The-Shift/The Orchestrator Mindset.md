@@ -123,6 +123,22 @@ Three constructs you can use this week:
 
 The orchestrator translation: **your most valuable skill is seam removal.** The model is no longer the constraint — the pipeline is. When a delegation fails, the orchestrator's first question isn't "is the AI smart enough?" but "where is the friction between intent and production?" Removing one seam — a saved permission, a standard evaluation step, a monitoring check — moves a whole class of workflows past the wall. This is orchestration as architecture-in-miniature, and it's the direct route to [[The Architect Mindset]]: the orchestrator who systematically removes seams is already designing systems.
 
+## Repair Literacy: Breakdowns Are the Curriculum (2026)
+
+A year-long study of 36 undergraduates and 10,536 ChatGPT messages (Ammari, Chen, Zaman & Garimella, arXiv:2601.20749) found that students develop AI competence through *ongoing relational negotiation* — not one-time adoption. They build portfolios of five use genres (academic workhorse, emotional companion, metacognitive partner, repair and negotiation, trust calibration) and match interaction patterns to learning needs. And the study's most striking result: **repair work during AI breakdowns produces substantial learning about AI capabilities** — what the authors term **repair literacy**. The breakdown, not the success, is where the deepest understanding gets built.
+
+This reframes the orchestrator's daily experience. The operator experiences an AI failure as an interruption — restart, re-prompt, try again. The orchestrator recognizes a failure as the highest-information event of the day: the moment the system's actual limits surface. Every debugged pipeline, every rewritten verification checkpoint, every "why did it do that?" investigation is a repair-literacy deposit. Note the symmetry with the overtrust engine (Fell, arXiv:2607.21757): effort spent *building* a system produces trust without accuracy — but effort spent *repairing* a system produces understanding. Trust what you test; repair what you learn from. See [[Repair Literacy]] for the full concept and a practice for turning breakdowns into curriculum.
+
+## The Risk Perception Gap: The Builder's Risk Ranking Isn't Yours (2026)
+
+A study of 35 industry developers building agentic AI products (Lee, He, Piorkowski, von Davier, Forlizzi & Das, arXiv:2606.15485) found three things every orchestrator should know about the tools they delegate to:
+
+1. **Developers perceive risk through the agentic qualities themselves** — autonomy, tool use, and real-world context are where they see danger, because those are what they built.
+2. **They prioritize product and business risks first** — downstream societal risks like end-user privacy and job displacement come after the product ships.
+3. **They lack mature controls** — when they need to contain risk, they fall back on *constraining the same characteristics that make agents useful*: autonomy and goal complexity. That's the capability-versus-risk-control tension: the industry has no off-switch that doesn't also turn off the value.
+
+The orchestrator translation is blunt: **the people who built your agent ranked risks in a different order than you would — and their control options are crude.** Your delegation brief is the risk filter the builder didn't build. Name the failure modes you actually care about — privacy, scope, spend, authority — explicitly, in writing, in every brief. Add verification steps for each one. Don't assume "the product is safe because it shipped." It shipped because the product and business risks cleared the bar. Your risks are your department.
+
 ## The Coaching Stance
 
 Orchestration isn't just about delegation. It's about *how* you delegate. New research on AI coaching (arXiv, June 2026) confirms what skilled orchestrators already sense: AI that never steps back produces skill atrophy. The effective stance is **strategic scaffolding** — the AI provides support, then deliberately withdraws so the human stays sharp on judgment calls.
