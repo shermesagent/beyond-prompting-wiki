@@ -1,10 +1,13 @@
 ---
 title: Intent Scaffolding
 created: 2026-08-06
+updated: 2026-08-11
 type: concept
 tags: [concept, delegation, orchestration, transparency, shared-understanding]
-sources: [raw/articles/intentlint-intent-scaffolding-2608.04331.md]
-confidence: medium
+sources:
+  - raw/articles/intentlint-intent-scaffolding-2608.04331.md
+  - raw/articles/business-truth-queryproof-2608.09254.md
+confidence: high
 ---
 
 # Intent Scaffolding
@@ -52,7 +55,23 @@ Three reasons this concept matters:
 
 ## Related Pages
 
-[[From Prompt to Pipeline]] · [[Task Decomposition]] · [[Trust Calibration]] · [[The Just Ask ChatGPT Trap]] · [[Accountability Asymmetry]] · [[Memory as Infrastructure]] · [[The Review-First Pattern]]
+[[From Prompt to Pipeline]] · [[Task Decomposition]] · [[Trust Calibration]] · [[The Just Ask ChatGPT Trap]] · [[Accountability Asymmetry]] · [[Memory as Infrastructure]] · [[The Review-First Pattern]] · [[The Observability Gap]]
+
+## The Production Proof: Rules Beat Size (August 2026)
+
+Intent scaffolding isn't just a collaboration nicety — a new analytics-agent benchmark shows it's a *performance* advantage (Lee, arXiv 2608.09254, August 2026). **WarehouseReliabilityBench** freezes 400 tasks over two synthetic warehouses where roughly half the *correct* responses are a clarification, an abstention, or a refusal — questions with two valid business definitions, questions the warehouse can't answer, deprecated columns after a schema change.
+
+The comparison is the story: **QueryProof, a 7B agent scaffolded with rules, beats a direct-prompted 32B baseline** on Business Truth Rate (+0.237 [+0.112, +0.375]) at **71% lower cost per correct answer**. The 32B model is bigger and gets none of the scaffolding — and loses on the metric that matters (whether the returned business number is right), because production failures aren't SQL errors, they're definitional and semantic.
+
+Three details make this a scaffold paper, not just a benchmark paper:
+
+1. **The rules come from the semantic layer, not the model.** QueryProof's rules derive from the schema's semantic layer and physical catalog — the job's contract written down, exactly like the checkable rules in Try This above.
+2. **Every answer is gated on deterministic post-execution checks.** The scaffold checks the output *before it ships* — the prompt-time linting of IntentLint, applied to answers.
+3. **False success fell from 0.754 to 0.351 of returned answers**, and the agent returned **zero wrong numbers on answerable tasks (0 of 24)** — though 13 answers correctly went to questions needing clarification or abstention. Refusing to answer is a *correct* behavior when the scaffold says the answer would be ungrounded.
+
+The honest caveats matter too: the result compares *systems* (the 32B baseline gets no scaffolding, so it's not "small beats big" pure and simple), the gain tracks the deterministic layer rather than routing, and resampling template families widens the intervals to include zero — the direction is better supported than the magnitude. Scaffolding wins, but it's not magic; it's structure.
+
+**The orchestrator's takeaway:** this is the strongest evidence yet that the move beyond prompting is structural, not model-sized. You can buy a bigger model, or you can write the rules the agent checks before it runs. In this head-to-head, the rules won — cheaper, and with the wrong-number rate driven to zero.
 
 ## Tags
 

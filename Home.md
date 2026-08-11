@@ -2,7 +2,7 @@
 
 > A living guide to the **operator → orchestrator shift**. If you've ever typed a prompt and thought "there has to be more than this" — start here.
 
-_82 pages across 6 sections. Updated daily. Git-backed, human-readable, cross-linked._
+_83 pages across 6 sections. Updated daily. Git-backed, human-readable, cross-linked._
 
 ---
 
@@ -60,7 +60,7 @@ Plain-language definitions of every key term.
 
 ### 00-Daily-Digests
 Daily curated research digests — what we found, what it means, and how to use it.
-→ [[00-Daily-Digests/2026-08-10|Today's Digest]]
+→ [[00-Daily-Digests/2026-08-11|Today's Digest]]
 
 ---
 
@@ -80,7 +80,7 @@ _Last 7 days of activity._
 
 | Date | What Changed |
 |------|-------------|
-| 2026-08-10 | Day 1 The Shift rotation (Week 7): Daily digest + 1 new concept (Repair Literacy — breakdowns as the curriculum, with the Breakdown Log practice) + 5 pages deepened (What Is Beyond Prompting — the shift measured: retrieval → synthesis, The Operator Mindset — the Fantasia Trap, The Orchestrator Mindset — Repair Literacy + the Risk Perception Gap, The Architect Mindset — Agency Is Architecture + the Capability–Risk Tension, Why This Matters — the mode determines what you learn) — the shift is cognitive before it is technical: what you learn, what you perceive as risk, and whose interests get built into the systems you use |
+| 2026-08-11 | Day 2 Key Concepts rotation (Week 7): Daily digest + 1 new concept (The Observability Gap — the mismatch between visible cues and reliance-relevant properties, with the 5-minute Observability Audit) + 5 pages deepened (Trust Calibration — the Transparency Trap: disclaimers create overconfidence + calibrating without observability from the wearable study, Accountability Asymmetry — the O*NET risk map: 8,356 scenarios, augmentation risks land on workers, Capacity Dissolution — the O*NET finding that augmentation erodes skills *and* oversight, Co-Construction Blindness — the Illusion of Alignment: 2.89 unvoiced disagreements per meeting + divergence probe, Intent Scaffolding — the production proof: rule-gated 7B beats direct-prompted 32B, false success 0.754 → 0.351) — what you can't see when you delegate is the default condition, and the fix is checkability, not capability, backed by 5 new arXiv papers |
 | 2026-08-09 | Day 6 Glossary Deepening (Week 6): Daily digest + 8 glossary entries sharpened (Abstention — the Preservation Gate as pre-execution complement to self-evaluation, Oversight — the capacity check (correctness + overassistance + did it build me?), Human in the Loop — the "least confident" checkpoint question, Delegation — reusable briefs + route-by-intent model selection, Trust Calibration — calibrate by independent review, Agent — managing not chatting (Mollick four-dimension selection space), Orchestration — the coercion risk in agent hierarchies (Coercion and Deception benchmark + Interlocutor Effect audit), Autonomy — earned autonomy (Digital Apprentice pillars + the PHP-AIO five-gate protocol + Automation Debt)) — the glossary becomes the safety layer: every term now carries its own guardrail, backed by 7 new arXiv papers + 4 articles (11 source appends) via AI Agency Knowledgebase cross-pollination + direct arXiv |
 | 2026-08-08 | Day 5 Practice rotation (Week 6): Daily digest + 1 new practice page (The Reliance Audit — one-week tally grading every reliance against humility/access/justice, with the Stance-Reversal Probe and the Random-Guy Test) + 6 pages deepened (Audit Your Prompts — Stance-Reversal Probe, First Delegation — Reliance Gate, Build a Tiny Pipeline — Provenance Layer, The Daily Standup — Eighth Question review-depth calibration, The Line You Draw — Random-Guy Test + audit by time not count, 05-Practice README — Week 4 added) — the practice-layer companion to Day 4's warranted reliance: trust as a practice, not a feeling, backed by 4 new arXiv papers + the WIRED ChatTJB story |
 | 2026-08-06 | Day 3 Real-World rotation (Week 6): Daily digest + 1 new concept (Intent Scaffolding — checkable rules + prompt-time linting from IntentLint) + 5 pages deepened (From Prompt to Pipeline — memory layer (ContextWeave: Workspace 68→78, Preference 41→70) + intent scaffolding, The School District Shift — the honest classroom evidence (Mathbot: modest gains, teacher centrality, no interest effect), Small Business Automation — the industrial playbook (A/B Agent: +4.829% GMV, hierarchical experience tree), The Just Ask ChatGPT Trap — the 1% click rate (900-panelist browsing data), Accountability Asymmetry — the Executive that owns belief (commitment drift 0.00→1.00 ablation)) — real deployments keep teachers and experts central while agents prove value inside existing workflows, backed by 6 new papers |

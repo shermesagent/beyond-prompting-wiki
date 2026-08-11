@@ -1,12 +1,13 @@
 ---
 title: Co-Construction Blindness
 created: 2026-06-23
-updated: 2026-08-07
+updated: 2026-08-11
 type: concept
 tags: [concept, barrier, mindset, orchestrator]
 sources:
   - raw/articles/co-construction-blindness-ximenes-2026.md
   - raw/articles/conditional-cognitive-biases-2608.05166.md
+  - raw/articles/illusion-of-alignment-2608.08210.md
 confidence: medium
 ---
 
@@ -62,6 +63,19 @@ Two findings matter here:
 The second finding is the subtle one. When you state a bias explicitly ("I think this group is bad at X — agree?"), the model often suppresses it — which feels like a win and confirms your sense that you're a neutral auditor. But when your bias is implicit — embedded in how you frame the question, what you include, what you leave out — the model absorbs and amplifies it. The AI doesn't argue back. It follows your lead. That is co-construction measured: **the less overt your input bias, the more the model amplifies it** — and the less likely you are to notice, because nothing in the response looks wrong.
 
 **The orchestrator's takeaway:** this is the Mirror Check (below) with an empirical warrant. The check isn't about catching the AI being biased — it's about catching *your* framing being biased, because the model will faithfully amplify whatever implicit direction your turns provide. The bias you don't state is the bias that gets multiplied. Run it on any conversation where you arrived with strong prior views.
+
+## The Illusion of Alignment: Hidden Disagreement You Can't See (August 2026)
+
+A new study makes co-construction blindness measurable in a different place: **not in your prompts, but in your agreements** (Liu et al., arXiv 2608.08210, August 2026). Collaborative dialogue can end in apparent agreement while participants still differ on goals, assumptions, or execution plans — the researchers call this the **illusion of alignment (IoA)**.
+
+The finding that matters most for this page: across **18 real user meetings, the study surfaced 2.89 hidden disagreements per meeting** that participants confirmed they had *not voiced*. The disagreement was real, it shaped the collaboration, and nobody said anything — even when directly asked, participants couldn't articulate disagreements they weren't aware of. That is co-construction blindness operating *between people*, not just between a person and an AI.
+
+Two more findings matter:
+
+1. **Detecting IoA is hard.** The best model reached only 49.5% F1 on IoA-Suite, with the bottleneck traced to **private context that the dialogue does not surface** — the disagreement lives outside the transcript. You cannot detect what the conversation never carried.
+2. **The fix works by making the hidden explicit.** Their IoA-Prober-8B generates diagnostic multiple-choice questions whose divergent answers expose hidden disagreement, and it improved multi-agent collaboration results on BigCodeBench-Hard and HiddenBench. Surfacing unvoiced disagreement isn't just honesty — it's a performance gain.
+
+**The orchestrator's takeaway:** when you end a session with an agent (or a teammate) and feel aligned, you have *not* verified alignment — you've observed the absence of voiced disagreement, which is a different thing. The fix is a **divergence probe**: before accepting "yes, understood," ask a question with at least two defensible answers (what does success look like? what would you do if X happens? which definition are you using?) and check whether the answers actually agree. Silence and agreement are not the same signal. See [[The Observability Gap]] for the structural version of this blind spot.
 
 ## How to Spot It in Your Day
 

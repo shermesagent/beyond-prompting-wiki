@@ -1,11 +1,13 @@
 ---
 title: Accountability Asymmetry
 created: 2026-08-05
+updated: 2026-08-11
 type: concept
 tags: [concept, trust, governance, orchestrator, architect]
 sources:
   - raw/articles/accountability-asymmetry-structural-trust-2608.03670.md
   - raw/articles/llm-proposes-executive-disposes-2608.04066.md
+  - raw/articles/unaccountable-delegation-fading-skills-2608.08601.md
 confidence: medium
 ---
 
@@ -65,6 +67,19 @@ Why this matters: "the LLM proposes, the executive disposes" is engineered heter
 2. **The goal is held by the system, not the model.** The ablation says: when the mechanism that *holds the goal* is removed, goal-abandonment goes from 0.00 to 1.00. In your work: the goal lives in the task description and the review checkpoint, not in the model. When a long-running task quietly drifts off-goal, check the goal-holding mechanism — your spec, your checkpoint — before blaming execution.
 
 The lesson lands where this page started: you can't make an agent *feel* accountable, so you build accountability into the *arrangement*. The Executive instrument is what that looks like when it's taken seriously.
+
+## The Map of Unaccountable Delegation (August 2026)
+
+A large-scale risk-mapping study gives the asymmetry its empirical coordinates (La Malfa et al., arXiv 2608.08601, August 2026). The team applied an agent/goals/environment framework to descriptions of **2,078 job tasks from the O*NET database**, producing **8,356 risk scenarios**, labeled by severity and deployment mode (automation vs. augmentation), validated by 45 workers across 10 job roles. Four findings matter here:
+
+1. **Augmentation is not inherently safe.** Overreliance on agents can *gradually erode workers' skills and oversight* — the exact mechanism that turns delegation into diffusion. The risk isn't only what the agent does wrong; it's what the human stops doing because the agent is there.
+2. **Erroneous Agent Actions is the largest risk category and the most severe** — and many of these scenarios arise **at the human-agent boundary**, the handoff point where accountability is least clear. This is the empirical fingerprint of the asymmetry: the failure happens in the transaction between proposer and approver.
+3. **Automation risks land mostly on the organization; augmentation risks land mostly on the worker.** When the human stays in the loop but the agent does the work, the person carries the risk — without the person's control being correspondingly clear. The asymmetry is not evenly distributed; it's concentrated where you're "assisted."
+4. Workers preferred this taxonomy for classifying risks 64% of the time over a recent generative-AI risk taxonomy — the job-level view matched how people actually experience agent risk.
+
+**Why this sharpens the concept:** the asymmetry isn't just a philosophical mismatch about who "bears consequences" — it has a shape. It's largest in *augmentation* modes (assist-me), concentrated at the *human-agent boundary* (the handoff), and dominated by *erroneous agent actions* (things the agent does wrong that you're still on the hook for). The practical consequence for your workflows: if you can't name the auditor for a delegated task, you've placed yourself inside the study's largest risk cell.
+
+**Source:** "Unaccountable Delegation, Fading Skills: Mapping the Risks of Workplace AI Agents," arXiv 2608.08601 (August 2026)
 
 ## Related Pages
 

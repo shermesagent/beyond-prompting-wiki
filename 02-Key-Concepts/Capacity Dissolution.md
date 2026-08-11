@@ -1,13 +1,14 @@
 ---
 title: Capacity Dissolution
 created: 2026-07-31
-updated: 2026-08-05
+updated: 2026-08-11
 type: concept
 tags: [concept, barriers, practice, orchestrator, skill-erosion]
 sources:
   - arXiv:2607.28041
   - arXiv:2607.27586
   - raw/articles/longitudinal-human-ai-measurements-2608.02491.md
+  - raw/articles/unaccountable-delegation-fading-skills-2608.08601.md
 confidence: medium
 ---
 
@@ -76,6 +77,21 @@ After any AI delegation, ask:
 5. Was I engaged, or was I spectating? (Participation)
 
 If you answered "no" to three or more, that interaction produced output but dissolved capacity. That's not always wrong — some tasks genuinely don't require capacity preservation. But if the pattern holds across a week of work, the capacity cost is compounding.
+
+### The O*NET Risk Map: Fading Skills Is a Measured Risk, Not a Fear (August 2026)
+
+The dissolution story now has an empirical map. La Malfa et al. (arXiv 2608.08601, August 2026) generated **8,356 risk scenarios from 2,078 O*NET job tasks**, validated by 45 workers across 10 job roles, and the study's headline finding is exactly the mechanism on this page:
+
+> **Augmentation is not inherently safe because overreliance on agents can gradually erode workers' skills and oversight.**
+
+Two findings deserve emphasis:
+
+1. **The erosion is slow-onset and sits in the augmentation mode.** Automation (agent replaces task) was associated mainly with *organizational* risks. Augmentation (agent assists task, human stays nominally in the loop) was associated mainly with *risks to workers* — including skill and oversight erosion. The "helpful assistant" mode is the one that dissolves capacity.
+2. **Erroneous Agent Actions is the largest risk category and the most severe** — and many cases arise at the human-agent boundary. When the human-agent boundary degrades through overreliance, the failure mode that dominates is the agent doing the wrong thing and the human not catching it: exactly the "accept or reject but can't explain why" state from the Capacity Check above.
+
+The study's own conclusion is the point of this page: *"Workplace AI agent risks do not arise from agents alone; they also depend on how people work with agents."* Capacity dissolution is a risk of the *relationship*, not of the tool — which is why the fix is a recurring capacity check, not a better model.
+
+**Source:** "Unaccountable Delegation, Fading Skills: Mapping the Risks of Workplace AI Agents," arXiv 2608.08601 (August 2026)
 
 ## Related Pages
 

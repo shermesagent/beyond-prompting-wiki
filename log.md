@@ -894,3 +894,20 @@ Theme: **Delegation is a redistribution of consequences — and reliability fail
 - Digest: 00-Daily-Digests/2026-08-10.md
 - sources.jsonl: +5 records (198 → 203)
 - Raw files: raw/articles/ ×5 with full verified abstracts + sha256 (all 12 pending/placeholder hashes now filled, incl. 7 from 08-09)
+
+## 2026-08-11 | ingest | Day 2 Key Concepts rotation (Week 7) — The Observability Gap
+- Theme: What you can't see when you delegate — the mismatch between visible cues and reliance-relevant properties is the default condition; the fix is checkability, not capability.
+- Sources ingested (arXiv RSS + HTTPS export API; web search down day 15):
+  - La Malfa et al. — "Unaccountable Delegation, Fading Skills: Mapping the Risks of Workplace AI Agents" (arXiv:2608.08601) — 2,078 O*NET job tasks → 8,356 risk scenarios, validated by 45 workers; 15-category taxonomy; Erroneous Agent Actions largest + most severe; augmentation erodes skills AND oversight; automation risks land on orgs, augmentation risks on workers
+  - Todkar — "The Transparency Trap: How AI Disclaimers Create Overconfidence in High-Stakes Decisions" (arXiv:2608.07493) — 52 participants, 3 domains; disclaimers don't reduce trust; medical content most trusted; transparency paradox (disclaimers read as honesty); banner blindness
+  - Liu et al. — "Illusion of Alignment: Detecting Hidden Disagreement in Collaborative Dialogue" (arXiv:2608.08210) — IoA-Suite + IoA-Prober-8B; 2.89 unvoiced hidden disagreements/meeting across 18 real meetings; 51.8% F1; improves BigCodeBench-Hard + HiddenBench multi-agent results
+  - Meng, Liu, Liu, Chen — "Wearing Trust: How Older Adults Calibrate Reliance on Health Wearables" (arXiv:2608.08856) — 31 interviews; conditional trust on surface cues (brand, visible activity, bodily comparison); observability gap: sensor validity / data continuity / failure conditions invisible
+  - Lee — "Business Truth, not SQL Accuracy: A Rule-Gated 7B Analytics Agent Outperforms a Direct-Prompted 32B Baseline" (arXiv:2608.09254) — WarehouseReliabilityBench 400 frozen tasks; +0.237 Business Truth Rate at 71% lower cost; false success 0.754 → 0.351; zero wrong numbers on answerable tasks (0/24)
+- Pages created: The Observability Gap (+README entry #32 + table row)
+- Pages updated: Trust Calibration (+The Transparency Trap +Calibrating Without Observability), Accountability Asymmetry (+The Map of Unaccountable Delegation), Capacity Dissolution (+The O*NET Risk Map), Co-Construction Blindness (+The Illusion of Alignment), Intent Scaffolding (+The Production Proof: Rules Beat Size)
+- Digest: 00-Daily-Digests/2026-08-11.md
+- Navigation: Home.md (83 pages, Today's Digest pointer, Recent Updates row)
+- Sources: 5 entries added to sources/sources.jsonl (203 → 208)
+- Raw files: 5 new abstract files in raw/articles/, all sha256-verified
+- Hash convention fix: today's 5 files re-hashed over content EXCLUDING the sha256 metadata line (previous convention — hash of file incl. placeholder line — could never verify; 0 of 16 stored hashes across the wiki verify today). Flagged: ~100+ raw files carry TBD/placeholder/truncated/fake hashes (e.g. vibe-compiler-2608.05545 TBD, 2601.20749 truncated to 16 chars, human-ai-team-types fake hex) — bulk debt-clear needs a dedicated run.
+

@@ -1,10 +1,10 @@
 ---
 title: Trust Calibration
 created: 2026-06-21
-updated: 2026-08-05
+updated: 2026-08-11
 type: concept
 tags: [concept, barrier, orchestrator]
-sources: [raw/articles/accurate-but-not-confident-acm-2026.md, raw/articles/automation-boundaries-2026.md, raw/articles/perceived-system-predictability-2607.05674.md, raw/articles/faster-ai-uneven-frontier-2607.12125.md, raw/articles/how-agentic-is-agentic-commerce-2607.12575.md, raw/articles/calibrating-trustworthiness-education-2608.04006.md]
+sources: [raw/articles/accurate-but-not-confident-acm-2026.md, raw/articles/automation-boundaries-2026.md, raw/articles/perceived-system-predictability-2607.05674.md, raw/articles/faster-ai-uneven-frontier-2607.12125.md, raw/articles/how-agentic-is-agentic-commerce-2607.12575.md, raw/articles/calibrating-trustworthiness-education-2608.04006.md, raw/articles/transparency-trap-disclaimers-2608.07493.md, raw/articles/wearing-trust-wearables-2608.08856.md]
 confidence: high
 ---
 
@@ -179,6 +179,27 @@ Three findings that transfer directly to orchestrator practice:
 **Why this matters for your calibration practice:** your personal Trust Map (below) is the individual version of this. The upgrade path is to share it. If you work with a team that reviews AI outputs, a two-page scorecard — five dimensions, twenty checks, mapped onto the actual output — converts "trust your gut" into a team process with an inter-rater reliability of its own. In education contexts especially (the study's setting), this is the difference between "the AI looked good to me" and "the AI passed our rubric" — and rubrics are exactly what teachers already trust.
 
 See also: [[Cognitive Surrender]] · [[Co-Construction Blindness]] · [[The Overassistance Pattern]]
+
+### The Transparency Trap: Disclaimers Can Make Trust Worse (August 2026)
+
+A common assumption in responsible-AI design is that disclaimers ("AI may make mistakes — verify important information") reduce over-reliance. A new experimental study (arXiv:2608.07493, 378 stimulus-level responses, 52 participants, finance / medicine / AI-generated content) finds the assumption fails in practice — sometimes in the opposite direction:
+
+1. **Advisory content was trusted across all conditions, disclaimers or not.** The warning didn't move trust.
+2. **Medicine got the HIGHEST trust ratings** — the domain where a wrong answer is most costly was the one where participants were most willing to trust. Perceived stakes didn't trigger skepticism; they triggered reliance.
+3. **The transparency paradox:** in the AI domain, some participants read disclaimers as *signs of system self-awareness and honesty* — the warning made the system look *more* trustworthy.
+4. **Banner blindness:** standardized disclaimers were simply not engaged with.
+
+**The calibration implication:** disclaimers are observability theater. They put a warning *at the interface* without giving you anything *to check*. If a system tells you it might be wrong, that's not calibration information — it's a label. Real calibration requires the properties that matter (see [[The Observability Gap]]): signal quality, reliability by context, failure conditions, provenance. A disclaimer names the risk; observability lets you *price* it.
+
+**Source:** "The Transparency Trap: How AI Disclaimers Create Overconfidence in High-Stakes Decisions," arXiv 2608.07493 (June 2026)
+
+### Calibrating Without Observability: What People Actually Trust (August 2026)
+
+An interview study of older adults using health wearables (arXiv:2608.08856, 31 semi-structured interviews) shows what trust calibration looks like when the properties that matter are invisible. Participants couldn't inspect sensor validity, data continuity, or failure conditions — so they calibrated on what *was* visible: brand and price, visible interface activity, lived interaction experience, and comparison with their own bodily sensation. Those cues supported conditional trust but tracked the wrong things.
+
+This is the everyday version of what every AI user does: when you can't see the ground truth, you calibrate on surface cues — the model's reputation, how confident it sounds, how smoothly the interface runs, whether the output "feels right" against your own sense of the task. The researchers' design directions are a calibration checklist: show **signal quality, reliability by context, human-system fit, and alert provenance**. Those are the four things that turn surface-cue calibration into real calibration — and they're exactly what your review checkpoints should ask for from any agent you delegate to.
+
+**Source:** "Wearing Trust: How Older Adults Calibrate Reliance on Health Wearables," arXiv 2608.08856 (August 2026)
 
 ## Try This
 
