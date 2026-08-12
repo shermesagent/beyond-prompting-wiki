@@ -911,3 +911,20 @@ Theme: **Delegation is a redistribution of consequences — and reliability fail
 - Raw files: 5 new abstract files in raw/articles/, all sha256-verified
 - Hash convention fix: today's 5 files re-hashed over content EXCLUDING the sha256 metadata line (previous convention — hash of file incl. placeholder line — could never verify; 0 of 16 stored hashes across the wiki verify today). Flagged: ~100+ raw files carry TBD/placeholder/truncated/fake hashes (e.g. vibe-compiler-2608.05545 TBD, 2601.20749 truncated to 16 chars, human-ai-team-types fake hex) — bulk debt-clear needs a dedicated run.
 
+
+## 2026-08-12 | ingest | Day 3 Real-World rotation (Week 7) — The Deployment Gap
+- Theme: The gap between a working demo and a governed daily workflow is a supervision gap, not a capability gap.
+- Sources ingested (arXiv RSS + HTTPS export API; web search down day 16):
+  - Dhar, Singh, Manikonda — "From Single Chatbots to Governed Agent Ecosystems" (arXiv:2608.07627) — hospital compliance-first framework: agentic-role taxonomy, risk stratification with HITL checkpoints + governance hooks, unified orchestration runtime across Epic/Cerner/MEDITECH; HIPAA/GDPR/EU AI Act/ISO 27001/27002/14971/IEC 62304
+  - Reisjå, Løvlie — "The GenAI Catch-22: Use of Generative AI in Norwegian Newsrooms During the 2025 Parliamentary Election" (arXiv:2608.10773) — 10-month case study; audience-facing ambitions collapsed, mundane internal use survived; internal threat (expertise erosion) beats external (disinformation); monitoring requires the expertise that use erodes
+  - Deng et al. — "What We Know about Responsible AI Practices in Industry" (arXiv:2608.10431) — synthesis of 161 empirical studies over 6 years; guidelines ≠ practice; day-to-day embedded interventions (point-of-use checklists, review steps, verification roles) are what moves the needle
+  - Zhang, Chukwuma, Kim, Carroll — "When the Interviewer Is a Bot" (arXiv:2608.10412) — MLLM interviewer; N=15, N_turns=428; deepening probes only 4.9% of turns; 28.7% of question-bearing turns pack multiple questions; 4 breakdown types; 3 dynamics (disclosure calibration, institutional legitimacy, conversational grounding)
+  - Memari, Rudolph — "The Capability Ladder: A Curriculum-Modernization Framework for Workforce Readiness in the AI Era" (arXiv:2608.07779) — 5 rungs of operational autonomy (trigger → automation → workflow → AI agent → agent team); task reallocation not replacement; capability assurance
+- Pages created: The Capability Ladder (02-Key-Concepts; +README entry #33 + table row)
+- Pages updated: From Prompt to Pipeline (+The Hospital Lesson: governed agent ecosystems), The School District Shift (+The Capability Ladder curriculum question +The Newsroom Lesson: GenAI Catch-22), Small Business Automation (+The Industry Reality Check: 161 studies — guidelines aren't practice), Trust Calibration (+What a Bot Interviewer Teaches About Trust), Capacity Dissolution (+The GenAI Catch-22: The Erosion Loop, Measured in a Newsroom), The Coaching Stance (+The Probe-Light Problem)
+- Digest: 00-Daily-Digests/2026-08-12.md
+- Navigation: Home.md (83 → 84 pages, Today's Digest pointer → 08-12, Recent Updates row)
+- Sources: 5 entries added to sources/sources.jsonl (208 → 213)
+- Raw files: 5 new abstract files in raw/articles/ (2608.07627, 2608.10773, 2608.10431, 2608.10412, 2608.07779), sha256 over verbatim API abstract text
+- Rotation discrepancy noted: 08-11 digest said next = 03-Practice; runbook assigns Day 3 = 03-Real-World. Oriented to the runbook.
+- Spare: 2608.09946 HoosierHelp (3,971 Indiana resources; fallback-required conversation drops) kept for future rotation.

@@ -186,6 +186,24 @@ The substrate section above says *preserve* failures. This says *organize* succe
 
 ---
 
+## The Industry Reality Check: Responsible AI Is Still Being Figured Out
+
+Before the bakery's workflow feels like an edge case, here's the honest industry-wide picture: after a half decade of empirical research on responsible AI practices in real companies (Deng et al., arXiv:2608.10431, August 2026 — a synthesis of 161 empirical studies), the field knows far more about *what practitioners do* than about *whether it works*, and the dominant finding is that responsible AI is **still being figured out inside companies of every size**.
+
+The patterns that keep showing up:
+
+- **Guidelines are not practice.** Documents exist; adoption doesn't follow. Principles don't change behavior by existing.
+- **Training is thin and often cosmetic.** Practitioners report limited training and uneven organizational support — most people are expected to pick it up on the job.
+- **Day-to-day interventions are the missing layer.** The research repeatedly lands on the same conclusion: what moves the needle is not another principle statement but **embedded, day-to-day interventions** in how work actually happens — checklists at the point of use, review steps inside the workflow, explicit roles for who verifies what.
+
+Now re-read the bakery story with this in mind. Em and Jules didn't install a responsible-AI program. They did the three things the literature says actually matter: **day-to-day interventions** (the review-first pattern — every automated output gets a human look before it ships), **explicit verification roles** (Em checks, Jules checks, the workflow says who), and **failure-path preservation** (the substrate doc keeps the manual method alive as the reference standard). The research suggests the bakery is accidentally ahead of most enterprises — not because they have better values, but because they built the review into the workflow instead of the mission statement.
+
+The uncomfortable corollary for the rest of us: responsible AI in a small business is not a policy. It's the review step you refuse to automate away.
+
+**Source:** Deng, W.H., Balayn, A., Selbst, A., Hong, J.I., Eslami, M., Holstein, K., Wallach, H., Wortman Vaughan, J. & Barocas, S. "What We Know about Responsible AI Practices in Industry: A Half Decade of Empirical Research." arXiv 2608.10431 (August 2026).
+
+---
+
 ## You Can Do This Too
 
 If you run a small business or team of 1-10 people:

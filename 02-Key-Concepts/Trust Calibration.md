@@ -201,6 +201,20 @@ This is the everyday version of what every AI user does: when you can't see the 
 
 **Source:** "Wearing Trust: How Older Adults Calibrate Reliance on Health Wearables," arXiv 2608.08856 (August 2026)
 
+### What a Bot Interviewer Teaches About Trust (August 2026)
+
+The strongest live test of trust calibration this month comes from an unusual setting: an MLLM-led interview bot used in a real research study (Zhang et al., arXiv 2608.10412, August 2026). A machine-learning model conducted 15 semi-structured interviews (428 total turns) with human participants. It wasn't a toy — the researchers analyzed what actually happened, and the bot's trust problems were not competence problems.
+
+Three findings map directly onto this page:
+
+1. **Institutional legitimacy carried the trust.** Participants trusted the bot because of *who was running it and why* — the study, the institution, the purpose — not because of what the bot itself did. Delegation to an AI is often really delegation to the *system behind it*. This is the "perceived stakes" half of calibration: when the institution is trustworthy, people extend trust to the tool without inspecting the tool.
+2. **Disclosure calibrated with social pressure, not competence.** Participants disclosed less in sensitive domains — not because the bot was untrustworthy, but because they tracked what the conversation *signaled*. Trust wasn't earned turn-by-turn; it was negotiated against the stakes of what they said.
+3. **The bot was acknowledgment-heavy and probe-light.** Deepening probes occurred in only **4.9% of turns**, and **28.7% of question-bearing turns packed multiple questions** — the bot's politeness actively flattened the conversation it was supposed to mine. Breakdowns clustered into four types, all at the *conversational grounding* layer: the bot's paraphrases sounded like listening but weren't evidence of understanding.
+
+The lesson for calibration: **fluency is a surface cue.** The bot sounded attentive, and participants behaved as if they'd been heard — but the transcript shows the bot rarely probed and often stacked questions. Calibrate on what the agent *does with your answers*, not how smoothly it acknowledges them. A follow-up question is evidence of understanding; a paraphrase is not.
+
+**Source:** Zhang, H., Chukwuma, K., Kim, C. & Carroll, J.M. "When the Interviewer Is a Bot: Behavior, Breakdowns, and Trust in MLLM-Led Interviews." arXiv 2608.10412 (August 2026). See also [[The Coaching Stance]] for the probe-light pattern's flip side.
+
 ## Try This
 
 **5-Minute Exercise: Build a Trust Map**

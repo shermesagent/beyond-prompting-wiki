@@ -2,7 +2,7 @@
 
 > A living guide to the **operator → orchestrator shift**. If you've ever typed a prompt and thought "there has to be more than this" — start here.
 
-_83 pages across 6 sections. Updated daily. Git-backed, human-readable, cross-linked._
+_84 pages across 6 sections. Updated daily. Git-backed, human-readable, cross-linked._
 
 ---
 
@@ -60,7 +60,7 @@ Plain-language definitions of every key term.
 
 ### 00-Daily-Digests
 Daily curated research digests — what we found, what it means, and how to use it.
-→ [[00-Daily-Digests/2026-08-11|Today's Digest]]
+→ [[00-Daily-Digests/2026-08-12|Today's Digest]]
 
 ---
 
@@ -80,6 +80,7 @@ _Last 7 days of activity._
 
 | Date | What Changed |
 |------|-------------|
+| 2026-08-12 | Day 3 Real-World rotation (Week 7): Daily digest + 1 new concept (The Capability Ladder — five rungs of AI operational autonomy from trigger to agent team, with the 5-minute Rung Audit) + 6 pages deepened (From Prompt to Pipeline — The Hospital Lesson: governed agent ecosystems, risk-tiered HITL checkpoints, one orchestration runtime across Epic/Cerner/MEDITECH, From Single Chatbots to Governed Agent Ecosystems; The School District Shift — The Capability Ladder curriculum question + The Newsroom Lesson: GenAI Catch-22 — mundane internal use survives, audience-facing collapse, internal threat beats external; Small Business Automation — The Industry Reality Check: 161-study RAI synthesis says guidelines aren't practice, day-to-day interventions are; Trust Calibration — What a Bot Interviewer Teaches: institutional legitimacy carried trust, 4.9% deepening probes; Capacity Dissolution — The GenAI Catch-22: the erosion loop measured in a newsroom; The Coaching Stance — The Probe-Light Problem: the bot that acknowledges but never digs) — the deployment gap: moving AI from demo to daily work changes what you supervise, not just what the AI does, backed by 5 new arXiv papers |
 | 2026-08-11 | Day 2 Key Concepts rotation (Week 7): Daily digest + 1 new concept (The Observability Gap — the mismatch between visible cues and reliance-relevant properties, with the 5-minute Observability Audit) + 5 pages deepened (Trust Calibration — the Transparency Trap: disclaimers create overconfidence + calibrating without observability from the wearable study, Accountability Asymmetry — the O*NET risk map: 8,356 scenarios, augmentation risks land on workers, Capacity Dissolution — the O*NET finding that augmentation erodes skills *and* oversight, Co-Construction Blindness — the Illusion of Alignment: 2.89 unvoiced disagreements per meeting + divergence probe, Intent Scaffolding — the production proof: rule-gated 7B beats direct-prompted 32B, false success 0.754 → 0.351) — what you can't see when you delegate is the default condition, and the fix is checkability, not capability, backed by 5 new arXiv papers |
 | 2026-08-09 | Day 6 Glossary Deepening (Week 6): Daily digest + 8 glossary entries sharpened (Abstention — the Preservation Gate as pre-execution complement to self-evaluation, Oversight — the capacity check (correctness + overassistance + did it build me?), Human in the Loop — the "least confident" checkpoint question, Delegation — reusable briefs + route-by-intent model selection, Trust Calibration — calibrate by independent review, Agent — managing not chatting (Mollick four-dimension selection space), Orchestration — the coercion risk in agent hierarchies (Coercion and Deception benchmark + Interlocutor Effect audit), Autonomy — earned autonomy (Digital Apprentice pillars + the PHP-AIO five-gate protocol + Automation Debt)) — the glossary becomes the safety layer: every term now carries its own guardrail, backed by 7 new arXiv papers + 4 articles (11 source appends) via AI Agency Knowledgebase cross-pollination + direct arXiv |
 | 2026-08-08 | Day 5 Practice rotation (Week 6): Daily digest + 1 new practice page (The Reliance Audit — one-week tally grading every reliance against humility/access/justice, with the Stance-Reversal Probe and the Random-Guy Test) + 6 pages deepened (Audit Your Prompts — Stance-Reversal Probe, First Delegation — Reliance Gate, Build a Tiny Pipeline — Provenance Layer, The Daily Standup — Eighth Question review-depth calibration, The Line You Draw — Random-Guy Test + audit by time not count, 05-Practice README — Week 4 added) — the practice-layer companion to Day 4's warranted reliance: trust as a practice, not a feeling, backed by 4 new arXiv papers + the WIRED ChatTJB story |

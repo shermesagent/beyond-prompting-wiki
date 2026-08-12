@@ -103,6 +103,18 @@ The practical implication: **constraining assistance is a practice, not a one-ti
 
 See also: [[The Augmentation Trap]] · [[The Placement Rule]] · [[Cognitive Surrender]] · [[Trust Calibration]] · [[The Absorption Pattern]] · [[The Overassistance Pattern]]
 
+### The Probe-Light Problem (New, August 2026)
+
+There's a second, sneakier failure mode hiding inside the overassistance story: the AI that *doesn't* over-help — it just never digs. A study of an MLLM-led interview bot (Zhang et al., arXiv 2608.10412, August 2026) analyzed 428 turns of real human conversation with the bot. The bot wasn't pushy; it was **acknowledgment-heavy and probe-light**:
+
+- Deepening probes occurred in only **4.9% of turns** — the bot rarely asked the follow-up that pulls out the real answer.
+- **28.7% of question-bearing turns packed multiple questions** — stacking questions instead of asking one and waiting.
+- Breakdowns clustered at the *conversational grounding* layer: paraphrases that sounded like listening but weren't evidence of understanding.
+
+Why this matters for the coaching stance: **a coach who never probes is a coach who never coaches.** The overassistance mechanism over-helps; the probe-light pattern under-asks. Both flatten the conversation — one by giving you the answer, the other by never asking what you actually mean. The coaching stance is not just "constrain the AI's answers"; it's "require the AI's questions." When you delegate a task, specify the probe: *ask me what I mean before you draft, and ask me what I'd change before you finalize.* A follow-up question is the cheapest evidence of understanding, and the probe-light bot shows it doesn't happen by default.
+
+**Source:** Zhang, H., Chukwuma, K., Kim, C. & Carroll, J.M. "When the Interviewer Is a Bot." arXiv 2608.10412 (August 2026). See also [[Trust Calibration]] for the trust-side reading of the same study.
+
 ## Related Pages
 
 [[The Augmentation Trap]] · [[The Placement Rule]] · [[Cognitive Surrender]] · [[Trust Calibration]] · [[Delegation Thinking]] · [[Friction by Design]] · [[The Orchestrator Mindset]] · [[The Sequencing Principle]]

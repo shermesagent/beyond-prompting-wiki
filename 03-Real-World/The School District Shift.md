@@ -280,9 +280,45 @@ The thread connects back to the student-side research already on this page: what
 
 ---
 
+## The Capability Ladder: The Curriculum Question
+
+If Farmersville's shift is about the adults' workflow, the next question is the students': **what are we teaching them to be able to do with AI?** A new curriculum-modernization framework (Memari & Rudolph, arXiv:2608.07779, August 2026) argues the near-term change in work is **task reallocation, not replacement** — routine implementation is increasingly automated, while verification, systems thinking, security, and the ability to supervise and orchestrate AI gain value. That's the operator → orchestrator shift, stated as a labor-market claim.
+
+The framework's answer is the **Capability Ladder**, a five-level progression that classifies the operational autonomy of AI-augmented work and the human supervision it requires:
+
+| Rung | Autonomy | Supervision required |
+|------|----------|---------------------|
+| **Trigger** | AI acts only when you fire it | You do everything; AI is a tool |
+| **Automation** | AI executes one defined step | You decide when, verify the result |
+| **Workflow** | AI runs a defined sequence | You design the sequence, check endpoints |
+| **AI Agent** | AI makes choices within a scope | You set the scope, define boundaries, supervise |
+| **Agent Team** | Agents coordinate with each other | You orchestrate, own the outcomes |
+
+For districts, this is a gift: it turns "teach AI literacy" from a slogan into a curriculum map. Instead of one generic "AI course," schools can place students — and staff — on the ladder and teach deliberately toward the next rung: verification before creation, workflow design before full autonomy, supervision before agent teams. The authors also argue for **targeted modernization around durable capabilities** rather than wholesale curriculum replacement — the curriculum version of Farmersville's substrate-first instinct: don't burn down what works; build the ladder onto it.
+
+**Source:** Memari, M. & Rudolph, G. "The Capability Ladder: A Curriculum-Modernization Framework for Workforce Readiness in the AI Era." arXiv 2608.07779 (August 2026). See [[The Capability Ladder]] for the full concept and a 5-minute Rung Audit.
+
+---
+
+## The Newsroom Lesson: What Happens When the Vision Meets Reality
+
+One more real-world case worth a district's attention — because it's a ten-month, election-cycle case study of *institutional* AI adoption, the closest published analogue to what districts are attempting (Reisjå & Løvlie, arXiv:2608.10773, August 2026).
+
+Norwegian newsrooms during the 2025 parliamentary election tried to build audience-facing GenAI products. The researchers watched the ambitions collapse over ten months — and what replaced them was **mundane internal use**: GenAI quietly working inside existing workflows. Three findings transfer directly:
+
+1. **Overoptimistic imaginaries are an organizational risk.** Managers shared unrealistically optimistic beliefs about the technology's capabilities and pace of development — the institutional version of the operator's "it's so smart!" The bigger the gap between the imagined product and the real tool, the more expensive the collapse.
+2. **The internal threat is bigger than the external one.** The newsrooms worried about disinformation from outside; the actual risk was **journalists' own AI use** eroding their expertise.
+3. **The GenAI Catch-22:** monitoring GenAI requires human expertise — but extensive GenAI use deteriorates exactly that expertise. The more the newsroom leaned on the tool, the less able it was to supervise the tool.
+
+Farmersville's translation: the districts that will be fine are the ones whose leaders expect the mundane version — AI inside the workflows teachers already run, reviewed by teachers whose judgment is preserved — and treat "AI will transform our classrooms" the way the newsrooms learned to treat audience-facing bots: as a hypothesis to test small, not a promise to spend against.
+
+**Source:** Reisjå, M. & Løvlie, A.S. "The GenAI Catch-22: Use of Generative Artificial Intelligence in Norwegian Newsrooms During the 2025 Parliamentary Election." arXiv 2608.10773 (August 2026).
+
+---
+
 ## Related Pages
 
-[[From Prompt to Pipeline]] · [[Task Decomposition]] · [[Delegation Thinking]] · [[Trust Calibration]] · [[Human in the Loop]] · [[Doom Researching]] · [[03-Real-World/README|03 — Real World Stories]]
+[[From Prompt to Pipeline]] · [[Task Decomposition]] · [[Delegation Thinking]] · [[Trust Calibration]] · [[Human in the Loop]] · [[Doom Researching]] · [[The Capability Ladder]] · [[03-Real-World/README|03 — Real World Stories]]
 
 ## Tags
 

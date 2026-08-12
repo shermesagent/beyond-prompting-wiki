@@ -93,6 +93,20 @@ The study's own conclusion is the point of this page: *"Workplace AI agent risks
 
 **Source:** "Unaccountable Delegation, Fading Skills: Mapping the Risks of Workplace AI Agents," arXiv 2608.08601 (August 2026)
 
+### The GenAI Catch-22: The Erosion Loop, Measured in a Newsroom (August 2026)
+
+The dissolution mechanism now has a field observation with an official name: the **GenAI Catch-22**. In a ten-month case study of Norwegian newsrooms during the 2025 parliamentary election (Reisjå & Løvlie, arXiv 2608.10773, August 2026), researchers watched institutions try to build audience-facing GenAI products — and watched the ambitions collapse as the real pattern emerged: **mundane internal GenAI use quietly eroding the expertise that monitoring requires.**
+
+The Catch-22, stated by the researchers: **monitoring GenAI requires human expertise — but extensive GenAI use deteriorates exactly that expertise.** The more the newsroom leaned on the tool, the less able it was to supervise the tool. It's the Capacity Check from this page, run at institutional scale:
+
+- The *internal* threat (journalists' own AI use eroding their skills) outweighed the *external* threat (disinformation) they had prepared for.
+- Overoptimistic managerial beliefs about AI's capabilities widened the gap between the imagined product and the real tool — making the collapse more expensive.
+- What survived the collapse was mundane internal use: GenAI inside existing workflows, where the erosion risk was managed by the routine, reviewable shape of the work.
+
+The transfer to your day: **the erosion loop runs wherever GenAI output is consumed without a capacity-preserving practice attached.** The newsrooms are the district office, the bakery, the hospital admin floor — the Catch-22 is the dissolution mechanism named after a decade of observation, and the counter-measure is the same one this page has always recommended: keep the check, keep the manual path alive, and treat "the AI will catch its own errors" as the specific belief that dissolves the fastest.
+
+**Source:** Reisjå, M. & Løvlie, A.S. "The GenAI Catch-22: Use of Generative Artificial Intelligence in Norwegian Newsrooms During the 2025 Parliamentary Election." arXiv 2608.10773 (August 2026)
+
 ## Related Pages
 
 [[06-Glossary/Capacity Dissolution|Quick reference]] · [[The Coaching Stance]] · [[Cognitive Surrender]] · [[The Absorption Pattern]] · [[The Augmentation Trap]] · [[Friction by Design]] · [[From Author to Editor]] · [[Trust Calibration]]

@@ -228,6 +228,26 @@ For Mara — or a team sharing one pipeline — the practical translation is sim
 
 ---
 
+## The Hospital Lesson: When One Pipeline Isn't Enough
+
+Mara's story is one pipeline. What happens when an organization needs *dozens* — with different risk levels, different compliance rules, different owners? That's the question behind a new agentic-AI framework for mission-critical hospital information systems (Dhar, Singh & Manikonda, arXiv:2608.07627, August 2026), and its answer is the natural next chapter of this page.
+
+The paper starts from a blunt observation: **most hospital AI deployments remain fragmented pilots that stall at the edge of production** — exposing patients and institutions to operational fragility, ungoverned risk, and mounting technical debt. Sound familiar? It's the organizational version of the operator trap: lots of separate chatbots, no orchestration, no governance.
+
+The framework's answer has three parts, and each maps onto the operator → orchestrator shift:
+
+1. **An agentic-role taxonomy.** Not "one AI" but named roles — the paper catalogs agent types the way a hospital catalogs roles on a floor. You can't govern what you can't name.
+2. **A risk-stratification model.** Every agent pattern is mapped to a risk tier, with **human-in-the-loop checkpoints** and governance hooks attached. High-stakes work doesn't get "trust the agent" — it gets designated review points where a human must act. That's [[Trust Calibration]] and [[The Review-First Pattern]] written into the architecture instead of left to individual judgment.
+3. **A unified orchestration runtime.** One layer coordinates multi-agent workflows across Epic, Cerner, and MEDITECH — the same principle as Mara's pipeline (one task description driving a coherent run), scaled to an entire organization.
+
+The compliance detail matters too: the framework is built against HIPAA, GDPR, the EU AI Act, ISO 27001/27002, ISO 14971, and IEC 62304. Governance isn't bolted on afterward — it's the design constraint from the start.
+
+**What this means for you:** you don't need a hospital or a compliance stack to use the pattern. When you grow from one pipeline to several, the same three moves apply: *name* your agent roles (what does each one do?), *tier* them by risk (which outputs need a human checkpoint before they ship?), and *run them under one roof* (one place where the workflows and their rules live). The leap from single chatbot to governed ecosystem isn't an enterprise problem — it's the same shift as [[From Prompt to Pipeline]], one tier of ambition higher.
+
+**Source:** Dhar, M., Singh, R. & Manikonda, S.C.K. "From Single Chatbots to Governed Agent Ecosystems." arXiv 2608.07627 (August 2026).
+
+---
+
 ## You Can Do This Too
 
 You don't need to be a developer. You don't need an expensive platform. You need three things:
