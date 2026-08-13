@@ -112,6 +112,25 @@ The sharp implication: **trust calibration is not symmetric.** You can be a perf
 
 **Source:** arXiv:2608.05602 — "Epistemic Trustworthiness in Generative AI"
 
+## The Intent Layer: Knowing It's AI Isn't Protection
+
+There's a fourth layer beneath the calibration problem, and it's the one that matters most for chatbots: **what the system is trying to do to you.** A preregistered experiment with 1,500 UK adults (arXiv:2608.11794, August 2026) tested what happens when AI chatbots disclose what they are — and when they disclose what they're *up to*:
+
+- **Identity disclosure had essentially no protective effect.** Telling participants they were interacting with an AI chatbot produced an attitude shift (13.1 scale points) statistically indistinguishable from telling them nothing (12.6 points). Knowing it's a bot changed almost nothing about how much the bot persuaded them.
+- **Intent disclosure halved persuasion.** Telling participants the chatbot was designed to change their opinion — that it had a persuasive agenda — dropped the attitude shift to 6.3 points. More than half the persuasion vanished.
+
+This is a calibration result, not a policy essay. Your trust thermostat measures *whether the output is right*; the intent layer asks *what the output is for*. The two are independent — a chatbot can be factually accurate and still steering you, and knowing it's a bot does not make you immune to the steering.
+
+**What this means for your thermostat:** add one question to your calibration routine that isn't about accuracy at all — *"what is this tool trying to accomplish with me?"* Three practical applications:
+
+1. **Read the intent before you read the output.** If a tool has an incentive to shift your opinion (sales, influence, engagement-optimized answers), discount accordingly — before checking whether the answer is true.
+2. **Name the agenda out loud.** The study's mechanism is that disclosure works by making the agenda salient. You can do that yourself: "this tool wants me to buy / agree / stay engaged" — stated before you evaluate the content.
+3. **Prefer tools that disclose intent.** The paper's policy suggestion — requiring intent disclosure for persuasive AI, not just identity labels — is also a selection heuristic: a provider that tells you what its system is for is giving you calibration data for free.
+
+The bottom line sharpens: AI fluency makes "it's just a bot" feel like protection. The experiment says otherwise. The protection isn't knowing it's AI — it's knowing what the AI is trying to do, and accounting for it before you calibrate trust.
+
+**Source:** arXiv:2608.11794 — "Toward Meaningful Transparency for AI Chatbots: Disclosing Persuasive Intent Reduces Persuasion"
+
 ## The Bottom Line
 
 > AI is getting better at sounding right. Your most important counter-skill is getting better at saying "I don't know." Practice it. The research shows you'll need the practice — because AI fluency makes those three words feel unnecessary right up until they're essential. And remember the third layer: calibration is personal, but *worthiness* is structural. A flawless thermostat attached to a system that hides its limits, blocks inspection, or dismisses your knowledge is still measuring a broken room.

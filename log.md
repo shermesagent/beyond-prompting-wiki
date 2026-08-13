@@ -928,3 +928,20 @@ Theme: **Delegation is a redistribution of consequences — and reliability fail
 - Raw files: 5 new abstract files in raw/articles/ (2608.07627, 2608.10773, 2608.10431, 2608.10412, 2608.07779), sha256 over verbatim API abstract text
 - Rotation discrepancy noted: 08-11 digest said next = 03-Practice; runbook assigns Day 3 = 03-Real-World. Oriented to the runbook.
 - Spare: 2608.09946 HoosierHelp (3,971 Indiana resources; fallback-required conversation drops) kept for future rotation.
+
+## 2026-08-13 | ingest | Day 4 Barriers & Bridges rotation (Week 7) — the trust barrier is structural, not personal
+- Theme: The Structural Barrier — trust/adoption walls are built into the arrangement, not the person
+- Sources ingested:
+  - Abraham, Bucknall — "Silent Updates: Measuring and Closing the Post-Deployment Disclosure Gap" (arXiv:2608.11803) — deployed models change silently (fine-tuning, classifiers, prompt revisions, routing); no provider in sample (9 first-party + 7 third-party hosts) publishes info to verify served artifact = documented one; Silent Updates Scorecard; Three-Part Behavioral Trigger System
+  - Rauchfleisch, Jungherr — "Toward Meaningful Transparency for AI Chatbots: Disclosing Persuasive Intent Reduces Persuasion" (arXiv:2608.11794) — preregistered, 1,500 UK adults, 60 policy issues; control shift 12.6 pts, identity disclosure 13.1 (≈ none), intent disclosure 6.3 (halved) + lower acceptability + support for penalties
+  - Nguyen, Späthe, Lins, Sunyaev — "No One to Blame: A Framework of Constitutive AI Unaccountability" (arXiv:2608.12104) — 27 expert interviews; 9 categories, 20 themes across structural/technological/normative clusters, 8 directed interdependencies; 20-question diagnostic hit 17/20 on OpenClaw incl. inverted anthropomorphism (agent = only identifiable actor)
+  - Schubert — "Organizational Technology Ladders: Remote Work and Generative AI Adoption" (arXiv:2608.11626) — job postings + IV: +10pp remote hiring (2021-22) → +0.4pp AI postings (2023-24), +0.7pp within firms across occupations; RTO-mandate firms show larger response (organizational frictions channel)
+  - Chatterji, Holtz, Rakholia, Tambe, Weeratunga — "How Organizations Use AI: Evidence from ChatGPT" (arXiv:2608.12236) — ChatGPT Enterprise records through Mar 2026; 1,500+ orgs, 17M+ messages at 6-month horizon; adoption concentrated in larger/more valuable/more R&D- and SG&A-intensive firms; usage spans functions + seniority (early-career intense); firms still learning to integrate
+- Pages created: Silent Updates (02-Key-Concepts; +README entry #34 + table row), No One to Blame (04-Barriers-and-Bridges; +README table row)
+- Pages updated: Fear of Losing Control (+The Moving Target: silent updates make the fear rational — ask the change question), Trust Calibration (+The Intent Layer: identity disclosure ≈ silence, intent disclosure halves persuasion), Knowledge Debt (+The Ladder Effect at organizational scale — the ladder is the debt in reverse), The Engagement Gap (+The Enterprise View: engagement follows infrastructure, not enthusiasm), Accountability Asymmetry (+The Void: when no one CAN be accountable — name the person, propose ≠ approve ≠ audit)
+- Digest: 00-Daily-Digests/2026-08-13.md
+- Navigation: Home.md (84 → 86 pages, Today's Digest pointer → 08-13, section lists, Recent Updates row)
+- Sources: 5 entries added to sources/sources.jsonl (213 → 218)
+- Raw files: 5 new abstract files in raw/articles/ (2608.11803, 2608.11794, 2608.12104, 2608.11626, 2608.12236), sha256 over verbatim API abstract text
+- Rotation confirmed against runbook (Day 4 = 04-Barriers-and-Bridges); 08-12 digest's note matched — no discrepancy
+- Spares added to file: 2608.11344, 2608.11491, 2608.11512, 2608.12166, 2608.11540, 2608.12278, 2608.11256, 2508.09219, 2608.12292, 2608.11806, 2608.11259, 2608.11251, 2608.11830, 2608.11955

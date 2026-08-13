@@ -92,9 +92,27 @@ This connects directly to [[Social Thinning]] — the broader phenomenon of AI-i
 
 ---
 
+## The Moving Target: Your Fear Is Rational
+
+There's a version of this fear that isn't about the agent at all — it's about the ground under your feet. An August 2026 paper (arXiv:2608.11803) documents what it calls **silent updates**: deployed foundation models change behavior through fine-tuning, classifier updates, prompt revisions, and routing changes — often without version increments, disclosure, or re-evaluation. In the paper's survey of providers and inference hosts, **no provider published information allowing an external party to verify that the served artifact is the one referenced in its documentation.**
+
+Why this matters for the fear of losing control: your control strategy is built on calibration. You learn how the tool behaves — where it's reliable, where it drifts, what it needs from you — and you set boundaries accordingly. Silent updates invalidate that work *without any error on your part*. The tool you calibrated against last month isn't the tool answering today. You didn't misjudge the AI; the AI changed, and you were never told.
+
+The fear of a moving target is not paranoia — it's the correct read of an industry that ships changes without a version you can check. The bridge (detailed on the [[Silent Updates]] concept page) is the same as everywhere else on this page, one step more specific:
+
+- **Ask the change question before you run consequential work:** "What version of this system am I using, and when did it last change?" If you can't get an answer, you've found the disclosure gap — and the right boundary is provisional trust.
+- **Pin what you can.** Versioned APIs, dated behavior notes, changelogs — prefer tools that let you verify the artifact matches the documentation.
+- **Treat unexplained behavior shifts as a change event, not a you problem.** When a workflow degrades out of nowhere, the first hypothesis is a silent update, not a broken prompt.
+
+The fear that the tool "changes under you" is the most rational fear on this page. It's also the most fixable — because the fix isn't more vigilance, it's asking one question before you trust: *when did this last change?*
+
+**Source:** arXiv:2608.11803 — "Silent Updates: Measuring and Closing the Post-Deployment Disclosure Gap"
+
+---
+
 ## Related Pages
 
-[[The Just Ask ChatGPT Trap]] · [[Trust Calibration]] · [[Prompt as Safety Blanket]] · [[Delegation Thinking]] · [[Task Decomposition]] · [[Psychological Debt]]
+[[The Just Ask ChatGPT Trap]] · [[Trust Calibration]] · [[Prompt as Safety Blanket]] · [[Delegation Thinking]] · [[Task Decomposition]] · [[Psychological Debt]] · [[Silent Updates]] · [[No One to Blame]]
 
 ## Tags
 

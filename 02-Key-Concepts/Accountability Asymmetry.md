@@ -81,9 +81,25 @@ A large-scale risk-mapping study gives the asymmetry its empirical coordinates (
 
 **Source:** "Unaccountable Delegation, Fading Skills: Mapping the Risks of Workplace AI Agents," arXiv 2608.08601 (August 2026)
 
+## The Void: When No One CAN Be Accountable
+
+The asymmetry has a limit case, and an August 2026 framework paper maps it (arXiv:2608.12104). Through a literature analysis, secondary analysis of **27 expert interviews** with AI professionals, and an application to the open-source agentic system OpenClaw, the researchers identify **constitutive AI unaccountability** — configurations where unaccountability is not a gap to be closed but a *property of the arrangement*. Their framework: **nine categories and twenty themes** of unaccountability across three interdependent clusters (structural — no one positioned to answer; technological — opacity that blocks attribution, including unversioned change; normative — rules that don't reach the case).
+
+The case that lands hardest: applying their 20-question diagnostic to OpenClaw detected **17 of 20 conditions**, including **inverted anthropomorphism** — the AI agent was the *only identifiable actor*. Not "the human is blamed for the agent": the arrangement left no human to name at all. You can't hold a model accountable, and there was no one else.
+
+**Why this sharpens the asymmetry:** the map on this page says accountability is skewed toward you — the human carries the risk. The void is the skew's vanishing point: a configuration where the risk still lands somewhere, but no one can be *named*. Both are asymmetries; the void just removes the pretense that anyone will be held to account.
+
+**The practical transfer** (detailed on the [[No One to Blame]] barrier page):
+
+- **Name the person before you delegate.** "If this fails, who answers — by name?" If the answer is a shrug or a team, you've found a void. Fix the arrangement before running it.
+- **Never be the only identifiable actor** for a system you don't control. If you're the only human name attached to an autonomous system, that's not accountability — that's inverted anthropomorphism pointing at you.
+- **Propose ≠ approve ≠ audit.** The void closes the same way the asymmetry does: separate the roles, keep your name attached at the decision point, and refuse to be the silent human end of an unaccountable chain.
+
+**Source:** arXiv:2608.12104 — "No One to Blame: A Framework of Constitutive AI Unaccountability"
+
 ## Related Pages
 
-[[Trust Calibration]] · [[Delegation Regret]] · [[Autonomy]] · [[The Four Decision Labels]] · [[Abstention]] · [[The Daily Standup]] · [[Capacity Dissolution]] · [[Failure-Path Preservation]] · [[The Review-First Pattern]]
+[[Trust Calibration]] · [[Delegation Regret]] · [[Autonomy]] · [[The Four Decision Labels]] · [[Abstention]] · [[The Daily Standup]] · [[Capacity Dissolution]] · [[Failure-Path Preservation]] · [[The Review-First Pattern]] · [[No One to Blame]] · [[Silent Updates]]
 
 ## Tags
 

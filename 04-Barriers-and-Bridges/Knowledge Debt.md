@@ -108,6 +108,24 @@ This is Knowledge Debt at institutional scale. Every credentialed graduate who c
 
 The framework for navigating this is detailed on [[The Certification Boundary]] page. For now, the key connection: every time you accept an AI deliverable you couldn't reproduce, you're not just borrowing against your own competence. You're borrowing against the credibility of everyone who holds the same credential. That's a different kind of withdrawal — and a bigger one.
 
+## Knowledge Debt at Organizational Scale: The Ladder Effect
+
+There's an organizational version of the debt, and a fresh paper gives it a mechanism (arXiv:2608.11626, August 2026). Studying whether firms that adopted **remote work** (measured through job-postings data) were more likely to adopt **generative AI**, the researcher found a strong complementarity: a 10-percentage-point higher share of remote hiring was associated with about a 0.4-percentage-point increase in AI adoption — and the effect concentrates in the firms that first built the remote-work rung.
+
+The name for this in the paper: **organizational technology ladders** — capabilities that were built for one technology get reused for the next. The remote-work investments (digital coordination, documented processes, async communication, tooling discipline) were *organizational capital*, and that capital transferred to AI adoption. Skills build on skills — at the firm level, not just the individual level.
+
+Why this is a Knowledge Debt page and not an adoption page: **the ladder is also the debt, in reverse.** The firms climbing the ladder cheaply are the ones that paid earlier — in coordination tooling, documentation discipline, and process clarity. The firms that skipped those rungs don't just adopt AI more slowly; they face a *higher marginal cost* of adoption when they finally move, because the prerequisites (visible process, clean data, review habits) were never built. That's organizational knowledge debt: deferred infrastructure that compounds into a steeper climb.
+
+**The implication for you:**
+
+- **The rung you build today is a discount on the next tool.** Every coordination habit, documented workflow, and review checkpoint you establish now is organizational capital that the next technology adoption will draw on. The paper's complementarity math works at the individual scale too — the person who already runs clean delegation briefs adopts the next agent tool faster.
+- **If your organization has no ladder, expect the first AI project to be expensive.** That's not a sign the project is wrong; it's the debt coming due. Budget for the prerequisite rungs (process visibility, documentation, review habits) instead of expecting the tool alone to deliver.
+- **The ladder connects to [[The Capability Ladder]] at the individual level:** skills stack the same way — trigger-level automation teaches you verification habits that make workflow-level delegation cheaper to adopt. Personal capability ladders and organizational technology ladders are the same phenomenon at two scales.
+
+The bridge principles at the top of this page hold at both scales. The twist the ladder adds: the cheapest time to build the next rung is *before* you need it — and the cost of not building it is measured in the adoption you can't afford later.
+
+**Source:** arXiv:2608.11626 — "Organizational Technology Ladders: Remote Work and Generative AI Adoption"
+
 ## The Core Insight
 
 > Delegation without learning is borrowing against your future competence. Every time you accept an AI deliverable without understanding it, you're making a withdrawal from an account that doesn't send statements. Eventually, the balance comes due — usually at the worst possible moment.

@@ -25,6 +25,7 @@ Each barrier page follows the same structure. We name what's happening, explain 
 | [[The Certification Boundary]] | The institutional debt: when AI-mediated work breaks the inference between submitted work and human capability — what remains certifiable? | Four cognitive stewardship questions + a Delegation Audit exercise |
 | [[Social Thinning]] | The collective cost: when AI joining teams degrades human-human communication and compresses creative diversity | Explicit social infrastructure — human-first rounds, AI-free debriefs, voice rotation, and using AI for refinement not ideation |
 | [[Risk Cascades]] | Barriers aren't isolated bugs — trust miscalibration, cognitive burden, accountability gaps, capability erosion, goal misalignment, and technostress fire in chains across the adoption lifecycle | Name the stage, trace the cascade, intervene at the shared driver instead of the symptom |
+| [[No One to Blame]] | The void: configurations where accountability is structurally impossible — no human can be named, so nobody answers | Name the person before you delegate; refuse to be the only identifiable actor; separate propose from approve from audit |
 
 ## How to Use This Section
 

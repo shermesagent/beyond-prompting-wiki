@@ -56,9 +56,26 @@ You're facing the Engagement Gap when:
 
 The litmus test: if you have to remind someone to use the AI, the workflow isn't designed right. AI should be the default, not the opt-in.
 
+## The Enterprise View: Adoption at Scale
+
+What does the gap look like when thousands of organizations buy the same tool? A large-scale study of **ChatGPT Enterprise** usage (arXiv:2608.12236, August 2026) provides the first broad picture of firm-level adoption — and it complicates the "people just won't engage" story in three ways:
+
+1. **Adoption is real but concentrated.** ChatGPT Enterprise usage clusters in larger, more valuable, and more R&D-intensive firms. The gap isn't between "adopters" and "non-adopters" — it's between organizations that can absorb AI into existing R&D/technical infrastructure and those that can't.
+2. **Usage spans roles, not just tech jobs.** The data shows AI use across a wide range of worker functions — which means the engagement gap isn't a skills-access problem at the individual level. It's an organizational design problem: the firms where AI shows up in many roles have *built the workflows* for it to show up in.
+3. **Firms are still actively learning how to integrate.** The paper describes organizations in the middle of figuring out what AI is for — usage patterns evolving, task categories being discovered. Even the adopters are on the [[Knowledge Debt]] side of the ladder; the infrastructure to deploy AI *well* is still being built everywhere.
+
+**What this means for the engagement gap:** the individual story on this page ("start absurdly small, build into existing workflows") is the micro version of what the enterprise data shows at macro scale — engagement follows *organizational infrastructure*, not enthusiasm. The firms with the deepest adoption didn't have employees who were more open to AI; they had coordination, technical absorptive capacity, and the ladder rungs already in place (see [[Knowledge Debt]] for the ladder mechanism).
+
+Two practical reads for your context:
+
+- **If your engagement gap persists, check the infrastructure before the attitudes.** The enterprise data says adoption tracks absorptive capacity, not motivation. Is the tool inside the workflows, or alongside them? Are the review and integration patterns built, or is everyone improvising?
+- **You're not behind for a personal reason.** The study's headline — even large, well-resourced firms are still learning how to integrate — is the strongest evidence yet that the gap is systemic, not individual. The countermove is the same as always: build one small rung of the ladder, and let the next adoption be cheaper because you did.
+
+**Source:** arXiv:2608.12236 — "How Organizations Use AI: Evidence from ChatGPT"
+
 ## Related Pages
 
-[[The Four Decision Labels]] · [[Delegation Thinking]] · [[Why This Matters]] · [[The Orchestrator Mindset]] · [[Human Readiness Archetypes]]
+[[The Four Decision Labels]] · [[Delegation Thinking]] · [[Why This Matters]] · [[The Orchestrator Mindset]] · [[Human Readiness Archetypes]] · [[Knowledge Debt]]
 
 ## Tags
 
