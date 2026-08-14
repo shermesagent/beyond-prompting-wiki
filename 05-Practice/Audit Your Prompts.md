@@ -1,13 +1,14 @@
 ---
 title: Audit Your Prompts
 created: 2026-06-27
-updated: 2026-08-08
+updated: 2026-08-14
 type: practice
 tags: [practice, operator]
 confidence: high
 sources:
   - raw/papers/genai-rts-scale-2607.14301.md
   - raw/papers/authorship-calibration-2607.15006.md
+  - raw/articles/credible-not-always-correct-2608.13369.md
 ---
 
 # Audit Your Prompts
@@ -307,6 +308,32 @@ For any tool you rely on for judgment calls:
 4. Compare. If the tool's answer **reverses with your stated preference**, it has no independent stance for you to rely on — mark it as a habit, not a resource.
 
 **What to do with the result:** a reversal on the probe doesn't mean "never use the tool." It means: on judgment tasks, treat the tool as a drafting partner, not a referee. Route those tasks through review — see [[The Reliance Audit]] and its three-question gate in [[First Delegation]].
+
+## Beyond Categories: The Verification Spectrum
+
+Your audit sorts interactions into categories and scores how often you verify. The harder question is *what kind of verification you do* — because most verification is really just **form-based trust**.
+
+Research on how laypeople actually verify AI-generated advice (Owens, Çetinkaya, Aidinlis, Mehta & Elmas, arXiv:2608.13369, August 2026) analyzed 153 Reddit narratives and 5,341 community reactions about AI-generated legal advice. The spectrum they found:
+
+| Verification practice | Who does it | What it catches |
+|-----------------------|-------------|-----------------|
+| **Act on form alone** | The majority | Nothing — the advice *looked* lawyer-like and *felt* reassuring, so it was acted on |
+| **Triangulate across models** | A minority | Confident wrongness: a second independent model saying the same thing is weak evidence, but a second model disagreeing is a strong signal |
+| **Distributed counsel** | The smallest group | Blind spots: submitting the AI's answer to people with domain experience before acting |
+
+The uncomfortable finding: most users were **silent on verification entirely** — the advice was acted on because it was well-formed and emotionally reassuring, not because it was checked. The researchers call this an informal infrastructure that "redistributes the work of verification to those least equipped to bear it."
+
+### The Spectrum Check (2 min)
+
+Go back through the interactions in your audit and classify your verification:
+
+1. **Did I act because the output looked right — or because I checked it?** (Form vs. substance. If the formatting were bad, would I have doubted it more? The answer should be no — and usually is.)
+2. **Have I ever run the same prompt through a second tool and compared?** (Triangulation. One minute, and it's the cheapest real check there is.)
+3. **For high-stakes output, did anyone with domain experience see it before it went out?** (Distributed counsel — a colleague, a forum, a community.)
+
+If you're at level 1 on every category, your audit is measuring *how often you glance at output*, not *whether you verified it*. Form-based trust is what the [[Distributed Counsel]] concept exists to break: one second opinion is worth more than ten confident paragraphs.
+
+See also: [[Distributed Counsel]] · [[Trust Calibration]] · [[The Observability Gap]]
 
 ## Related Pages
 

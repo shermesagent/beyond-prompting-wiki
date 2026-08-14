@@ -44,6 +44,8 @@ You don't need to read them in order. Jump to whichever title grabs you. But if 
 32. [[The Observability Gap]] — the mismatch between the cues you can see and the properties that matter for reliance: disclaimers that backfire, trust calibrated on surface cues, and the rule-gated fix that makes the checkable visible.
 33. [[The Capability Ladder]] — the five-rung scale of AI operational autonomy (trigger → automation → workflow → agent → agent team) and the supervision each rung requires — a curriculum and a personal diagnostic for the operator → orchestrator → architect path.
 34. [[Silent Updates]] — the deployed system that changes under you without a version or disclosure: no provider lets you verify the served artifact matches its documentation — the disclosure gap that makes calibration provisional and oversight blind.
+35. [[The Enactment Gap]] — the distance between receiving good guidance and acting on it: AI access alone is insufficient; purposeful workflow design that structures selection, evaluation, and dialogue is what produces uptake (14.1% → 26.2% in the largest study to date).
+36. [[Distributed Counsel]] — the verification practice of pooling independent judgment before acting: triangulating across models and submitting AI output to domain-experienced humans — the counter-move to acting on lawyer-like form and reassurance alone.
 
 ---
 
@@ -94,6 +96,8 @@ They came out of real research — papers on human-AI collaboration, case studie
 | [[The Observability Gap]] | Why do I trust the wrong cues — and what do I need to see before I rely? | Orchestrator → Architect |
 | [[The Capability Ladder]] | What autonomy level is my AI actually operating at — and what supervision does it require? | Orchestrator → Architect |
 | [[Silent Updates]] | When the tool changes under you without a version, a changelog, or a notification — what can you still trust? | Orchestrator → Architect |
+| [[The Enactment Gap]] | Why does good AI guidance so often change nothing — and what workflow structure makes it stick? | Orchestrator |
+| [[Distributed Counsel]] | How do I verify a confident AI answer without being an expert myself? | Everyone |
 
 ---
 

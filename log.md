@@ -945,3 +945,20 @@ Theme: **Delegation is a redistribution of consequences — and reliability fail
 - Raw files: 5 new abstract files in raw/articles/ (2608.11803, 2608.11794, 2608.12104, 2608.11626, 2608.12236), sha256 over verbatim API abstract text
 - Rotation confirmed against runbook (Day 4 = 04-Barriers-and-Bridges); 08-12 digest's note matched — no discrepancy
 - Spares added to file: 2608.11344, 2608.11491, 2608.11512, 2608.12166, 2608.11540, 2608.12278, 2608.11256, 2508.09219, 2608.12292, 2608.11806, 2608.11259, 2608.11251, 2608.11830, 2608.11955
+## 2026-08-14 | ingest | Day 5 Practice rotation (Week 7) — The Enactment Gap
+- Theme: Practice is infrastructure — guidance is cheap, enactment is the product; the gap between advice and action is closed by workflow design, not more advice (0.1% optional uptake vs 26.2% forced enactment).
+- Sources (5, 218 → 223):
+  - Alsaiari, Baghaei, Lodge, Gašević, Winstone, Khosravi — "Making AI-Generated Feedback Matter: From Provision to Student Enactment" (arXiv:2608.11625) — 13,037 students / 51,296 resources; Directed 14.1% vs Enacted 26.2% vs Self-Directed 0.1% uptake; enactment workflow (select → evaluate → act) raises confidence + quality
+  - Owens, Çetinkaya, Aidinlis, Mehta, Elmas — "Credible, Not Always Correct: How Reddit Users Verify AI-Generated Legal Advice" (arXiv:2608.13369) — 153 narratives + 5,341 reactions; minority triangulate across models / seek distributed counsel; majority act on lawyer-like form + reassurance alone
+  - Dong, Gao, Li, Xu, Hua, Yang — "Agent Skills Can Be Harmful: An Empirical Study of Skill-Induced Failures in LLM Agents" (arXiv:2608.11888) — 307 skill-induced failures (125 functional + 182 efficiency); SkillTriage; Excessive Procedure biggest source (excessive verification 67 + heavy pipelines 30); regressions NOT explained by prompt length
+  - Chen, Nguyen, Zhang, Gullapalli, Wang, Lu, Wang, Huang, Yu, Lai — "Retry, Switch, or Abstain? Learning Strategy-Aware Tool-Use Policies via Controlled Error Injection" (arXiv:2608.11977) — BENCH2ROBUST; BTM +16.8 pp held-out Retail without retraining; combined 40.8–45.5% under injection vs near-universal gap
+  - Mehjabin, Kautz, Nepal — "Not All Nudges Land: Behavioral Controllability and Elaboration Quality in AI-Supported Journaling" (arXiv:2608.12582) — solo behaviors 50–63% vs social 15–22% improvement; controllability ceiling on nudges
+- Pages created: The Enactment Gap (02-Key-Concepts; +README entry #35 + table row; sources → feedback-enactment-workflows-2608.11625), Distributed Counsel (02-Key-Concepts; +README entry #36 + table row; sources → credible-not-always-correct-2608.13369)
+- Pages updated: Build a Tiny Pipeline (+The Verification Tax: when checklist steps become mandatory work — 307 failures, required-vs-spot-check audit), Audit Your Prompts (+Beyond Categories: The Verification Spectrum — form vs substance, triangulation, distributed counsel, 2-min Spectrum Check), First Delegation (+The Recovery Drill: retry/switch/abstain — RECOVERY block, one retry one switch then abstain), The Daily Standup (+The Ninth Question — The Enactment Check; +The Tenth Question — The Nudge Reality Check)
+- Digest: 00-Daily-Digests/2026-08-14.md
+- Navigation: Home.md (86 → 88 pages, Today's Digest pointer → 08-14, section lists, Recent Updates row)
+- Sources: 5 entries added to sources/sources.jsonl (218 → 223)
+- Raw files: 5 new abstract files in raw/articles/ (2608.11625, 2608.13369, 2608.11888, 2608.11977, 2608.12582), sha256 self-verifying per 08-11 convention — all five verify
+- Rotation flag: 08-13 digest's "Next rotation: Day 1" note was WRONG — Friday 08-14 = Day 5 (05-Practice) per runbook + git sequence (37301bd Day-4 pattern, 82e249e 08-13); Week 7 closes; next session (Mon 08-17) = Day 1 (01-The-Shift)
+- Hash debt carried: 08-13 raw files (2608.11803, 2608.11626, 2608.11794) still store stale hashes — bulk re-hash deferred since 08-11
+- Spares added to file: 2608.12320, 2608.12352, 2608.12323, 2608.12355, 2608.12349, 2608.12346, 2608.13022, 2608.12358; cross-pollination noted (2608.11344, 2608.11955 re-appeared in today's cs feed)

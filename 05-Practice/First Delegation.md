@@ -1,12 +1,13 @@
 ---
 title: First Delegation
 created: 2026-06-26
-updated: 2026-08-08
+updated: 2026-08-14
 type: practice
 tags: [practice, operator, orchestrator]
 confidence: high
 sources:
   - raw/articles/you-shall-not-pass-2607.00533.md
+  - raw/articles/retry-switch-abstain-2608.11977.md
 ---
 
 # First Delegation
@@ -257,6 +258,31 @@ Before a task enters your pipeline, it has to earn its place. The gate is three 
 **Pass two of three on a routine task, and it's a candidate for delegation — with review.** Pass fewer, and it's not ready: keep the task human-side until the tool earns the warrant.
 
 **The replacement rule (from [[The Reliance Audit]]):** if a tool fails all three on the same task twice, it's not a tool you're using — it's a habit you're carrying. Rebuild the workflow with checkpoints, or replace the tool. The AI Agency Knowledgebase's Human Review Checkpoints framework puts it plainly: gates belong *inside* the workflow, not at the end of it — that's why this page's template has a REVIEW CADENCE, not a "check at the end" line.
+
+## The Recovery Drill: Retry, Switch, or Abstain
+
+Your delegation template has a Goal, a Template, and Success Criteria — but what happens when the *delegate* fails? Most people only have one recovery strategy: retry. New work on robust tool-use (Chen et al., arXiv:2608.11977, August 2026) shows that trained agents and humans alike face the same three-way choice when a delegated call fails:
+
+1. **Retry** — run the same path again (the tool call, the prompt, the same template).
+2. **Switch** — change paths: a different tool, a different approach, a different template.
+3. **Abstain** — recognize no viable path remains and stop — ask you, escalate, or report the failure instead of burning more attempts.
+
+The research (7 models across 4 families, on the BENCH2ROBUST framework) found a **near-universal robustness gap**: agents trained and evaluated in failure-free environments fall apart when tool calls fail transiently, persistently, or silently. The fix that worked was combining *structured recovery knowledge* (what to do when a call fails — retry with what backoff, switch to which alternative, when to stop) with *learned recovery behavior* — together reaching 40.8–45.5% success under injected failures while preserving failure-free performance. Recovery was a designed strategy, not an afterthought.
+
+### The Drill (90 seconds, add to your template)
+
+Before you run your delegation template, add three lines to its header:
+
+```
+RECOVERY:
+  Retry:   (when does a re-run make sense? e.g. transient error, output truncated)
+  Switch:  (what's the alternative path? e.g. different tool, rephrase the Goal, split the task)
+  Abstain: (when do you stop? e.g. second failed run, output that fails Success Criteria twice)
+```
+
+Then, when a run fails: **execute the drill in order, with a hard cap.** One retry, one switch — then abstain and come back with your own judgment. This is the delegation version of the Reliance Gate's replacement rule ([[The Reliance Audit]]): a task that fails the same way twice is a habit, not a tool.
+
+The deeper point: **abstain is a delegation skill, not a failure.** The BENCH2ROBUST result shows the agents that survived injection were the ones that *knew when to stop*. Your template should make stopping an explicit, planned outcome — not something you do when you're frustrated. Write the abstain line first; the retry and switch lines will behave themselves.
 
 ## Related Pages
 

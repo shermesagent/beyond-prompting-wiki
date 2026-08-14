@@ -1,7 +1,7 @@
 ---
 title: The Daily Standup
 created: 2026-06-27
-updated: 2026-08-08
+updated: 2026-08-14
 type: practice
 tags: [practice, orchestrator, workflow, mindset]
 confidence: high
@@ -9,6 +9,8 @@ sources:
   - raw/articles/constrained-override-policy-2607.00420.md
   - raw/articles/constructive-alignment-2607.00001.md
   - raw/papers/memory-self-disclosure-2607.14593.md
+  - raw/articles/feedback-enactment-workflows-2608.11625.md
+  - raw/articles/not-all-nudges-land-2608.12582.md
 ---
 
 # The Daily Standup
@@ -271,6 +273,37 @@ Research on auditing autonomous analysis agents (arXiv:2608.05490) found two hum
 **The practice version:** match review depth to *consequence*, not to *curiosity*. For a routine standup line ("pipeline ran, output formatted"), the floor applies — a light check is correct, and a deeper one is wasted attention. For a high-stakes output (something sent to a person, a number quoted in public, a decision acted on), the floor *doesn't apply to you* — you're not localizing an error inside an analysis, you're checking an output against the world. That check is cheap and worth doing every time. Put it on the standup template as a one-word column: **consequence** (routine / sent / public). Review depth follows the word.
 
 This is the same principle as the Human Review Checkpoints framework from the AI Agency Knowledgebase: checkpoints are placed by risk, and the deepest checkpoint belongs *before* an output leaves your control — which is exactly where this question sits.
+
+## The Ninth Question — The Enactment Check
+
+The standup asks what happened and how it looked. It doesn't ask whether *you did anything with it*. That's the gap that swallows most good advice — and it's measurable.
+
+A large-scale study of AI-generated feedback in education (Alsaiari et al., arXiv:2608.11625, August 2026; 13,037 students) compared three workflows: students who simply *received* AI feedback (14.1% uptake), students who *could optionally* engage in AI dialogue (0.1% uptake), and students who were *prompted to select, evaluate, and act on* suggestions (26.2% uptake). Same AI. Same feedback quality. The third workflow structured *enactment* — and enactment is what produced learning.
+
+Your standup is the enacted version of a review: it forces the select → evaluate → commit step that optional reflection never triggers. Add the ninth question to make the loop explicit:
+
+```python
+ENACTMENT:
+  - What one thing from yesterday's review will I change in my workflow TODAY?
+  - (If the answer is "nothing": did I even review? Or did I file it?)
+```
+
+The finding maps directly: **the standup without an enactment line is the 0.1% workflow — you received the review, you didn't act on it.** One sentence, committed to a specific change, is the 26.2% version. See [[The Enactment Gap]] for the full concept.
+
+## The Tenth Question — The Nudge Reality Check
+
+Some standup commitments are easier to keep than others — and it's not about your discipline. An eight-week passive-sensing study of AI journaling (Mehjabin, Kautz & Nepal, arXiv:2608.12582, August 2026; 369 entries, 26 sensor features) found that **whether a behavior responded to a nudge depended mostly on whether it involved other people**:
+
+- Behaviors you can act on alone improved **50–63%** of the time.
+- Behaviors that depend on others improved only **15–22%** of the time.
+
+So when you commit in your standup to "get the draft to Maria" or "align with the vendor on the data format," you're committing to a behavior that responds to nudging barely a fifth of the time — not because the nudge is weak, but because the outcome is socially gated. The practice version:
+
+1. **Label each standup commitment: solo or social.**
+2. **Solo commitments:** hold yourself to them — your nudge works here.
+3. **Social commitments:** don't expect the nudge to carry them. Add a structural step: schedule the meeting, send the message, set the deadline — *the nudge has to produce a contact, not a resolution*.
+
+The study's other finding — writing quality mattered less than behavior type, except for longer, more personal entries — is a bonus: when a standup commitment isn't landing, write it as a specific, personal sentence ("email Maria the draft and ask for a date") rather than a vague aspiration ("follow up with people"). The specific version is a better nudge, and you now know when not to rely on nudging at all.
 
 ## Common Pitfalls
 

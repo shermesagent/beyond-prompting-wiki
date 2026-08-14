@@ -1,13 +1,14 @@
 ---
 title: Build a Tiny Pipeline
 created: 2026-06-27
-updated: 2026-08-08
+updated: 2026-08-14
 type: practice
 tags: [practice, orchestrator, workflow]
 confidence: high
 sources:
   - raw/articles/agentic-workflow-patterns-ai-agency-kb.md
   - raw/papers/harness-handbook-2607.13285.md
+  - raw/articles/agent-skills-can-be-harmful-2608.11888.md
 ---
 
 # Build a Tiny Pipeline
@@ -286,6 +287,27 @@ The headline: auditing against all three traces is far more reliable than compar
 **What this means for your tiny pipeline:** when you write the Behavior-Centric Pipeline Document, add one line per step — *what output did this step actually produce?* Keep a run log (date, input, output). Three entries is enough to start. Then, when a pipeline output surprises you, you can trace *which* step produced it, instead of re-running the whole thing and hoping.
 
 This is the operational half of the Reliance Audit's ACCESS question ([[The Reliance Audit]]): you can't inspect what you didn't record.
+
+## The Verification Tax: When Checklist Steps Become Mandatory Work
+
+Your pipeline's VERIFICATION section is a liability as well as an asset. New empirical work on agent skills (Dong, Gao, Li, Xu, Hua & Yang, arXiv:2608.11888, August 2026) analyzed 307 skill-induced failures across SkillsBench and SWE-Skills-Bench — 125 functional failures and 182 efficiency regressions — and found that **the largest source of damage was Excessive Procedure**: skills that turn validation checklists and construction recipes into *mandatory work*. Excessive verification accounted for 67 of the failures, heavy implementation pipelines for 30 more.
+
+Three findings map directly onto your tiny pipeline:
+
+1. **Seemingly relevant guidance is the dangerous kind.** Functional failures were rarely caused by obviously irrelevant skills. The failures came from *relevant-looking* steps that made the agent "incorrectly implement or omit task-required implementation elements." In pipeline terms: your Step 2 template says "verify each claim" — and the agent burns the whole run producing verification theater instead of the deliverable.
+2. **Efficiency regressions are not explained by prompt length.** You can't fix the tax by shortening your templates. The cost comes from the *structure* — mandatory checkpoints and multi-step recipes — not the word count.
+3. **Checklists become mandatory.** Once a verification step is in the template, the agent treats it as a required gate, not a suggestion. Your "optional QA pass" is not optional to the agent.
+
+**The practice version — the Verification Tax Audit:**
+
+- Tag each verification line in your pipeline template as **required** or **spot-check**.
+- Required: things that change the output (does the email have all 5 stories? are the links live?).
+- Spot-check: things that burn tokens without changing the output (re-verifying formatting, re-summarizing the summary, self-consistency checks on routine numbers).
+- Run the pipeline once with every spot-check line prefixed "skip unless something looks wrong." If the output survives, you just cut the tax. Keep the required lines — that's the verification that's actually doing work.
+
+This is the same triage idea as [[Distributed Counsel]] applied to your own workflow: verification is counsel you pay for, so spend it where the output could be wrong, not where it could be prettier.
+
+See also [[The Reliance Audit]]'s ACCESS question — you can't verify what you didn't record, and you don't need to record what you're not going to check.
 
 ## What Comes Next
 
