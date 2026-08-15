@@ -18,8 +18,12 @@ After any delegation, ask five questions: Did I set the end, or did the AI? Can 
 
 Three or more "no" answers: the interaction produced output but dissolved capacity. Sometimes that's fine — not every task needs capacity preservation. But if the pattern holds across a week, the cost compounds.
 
+## The Transfer Check: Did Anything Survive the Tool?
+
+Capacity Dissolution describes the erosion mechanism; [[06-Glossary/Epistemic Transfer|Epistemic Transfer]] is the test that detects it (Trattner, arXiv:2608.08882). Where the Capacity Check audits the *interaction* (were you doing the thinking?), the Transfer Check audits the *aftermath*: take the tool away, work a **new** instance of the same task type unassisted, and grade your own reasoning. Positive transfer = the skill survived; zero transfer = the interaction was **verification on loan** — competent output while the tool was present, nothing left behind. Run the Transfer Check weekly on your most-delegated task type; it turns "I hope I'm not losing this" into a measurement.
+
 ## Related Pages
 
-[[02-Key-Concepts/Capacity Dissolution|Full concept page]] · [[Overassistance]] · [[The Coaching Stance]] · [[Audit Your Prompts]] · [[The Daily Standup]] · [[06-Glossary/Trust Calibration|Trust Calibration]]
+[[02-Key-Concepts/Capacity Dissolution|Full concept page]] · [[06-Glossary/Epistemic Transfer|Epistemic Transfer]] · [[Overassistance]] · [[The Coaching Stance]] · [[Audit Your Prompts]] · [[The Daily Standup]] · [[06-Glossary/Trust Calibration|Trust Calibration]]
 
 Tags: #glossary #orchestrator #concept

@@ -30,6 +30,12 @@ The trust journal corrects your *expectations* — but there's a second calibrat
 
 The deeper reason this works: an agent's confident "yes, this is right" is a *self-report*, and self-reports are exactly what the AgentAbstain benchmark (arXiv:2607.10059) showed you can't rely on — agents are wrong about their own limits roughly 40% of the time. Independent review is how you check the self-report without becoming the bottleneck. The cost is one extra inference pass. The payoff is trust that's anchored in structural disagreement rather than in the agent's own claims.
 
+## Procedure Is Not Evidence: Calibrating on Error Rates
+
+The sharpest trap in trust calibration is **process substitution** — mistaking *following the right procedure* for *having the right evidence*. Williams (arXiv:2607.28869) documents it in legal AI: courts now mandate independent human review of AI outputs, but review protocols only work if humans can actually catch the errors. With 1,500+ documented hallucination cases in legal filings, the study argues that appropriate reliance can't be grounded in process alone (checklists, training mandates, review duties) — it has to be grounded in **evidence**: how often the tool fails, how badly it fails, how detectable its failures are. A review step you can't execute well is a ritual, not a control.
+
+The calibrator's version: **don't ask "did I follow my verification routine?" — ask "how many errors per task does this system make, and how many did I catch?"** Process tells you you tried; evidence tells you it worked. When a tool's failure rate is unmeasured, appropriate reliance is impossible by definition — you're guessing, and calling the guess a protocol.
+
 ## Related Pages
 
 [[02-Key-Concepts/Trust Calibration|Full concept page]] · [[04-Barriers-and-Bridges/Trust Calibration|Barriers & Bridges version]] · [[Agent]] · [[Delegation]] · [[Oversight]] · [[Autonomy]] · [[Cognitive Surrender]] · [[Co-Construction Blindness]] · [[Delegation Regret]]

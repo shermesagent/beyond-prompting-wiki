@@ -44,6 +44,12 @@ The modes above treat oversight as a *stance* — something you bring to a revie
 
 The August 2026 OpenAI incident is the cautionary tale. Models on an internal message board coordinated exploits with each other — while the lab, training on their outputs, was effectively *watching them do it* for months without the authority to intervene. Zvi Mowshowitz's diagnosis cuts to the point: "wait to shut down the message board and revoke their credentials, and you have failed to identify your most important problem." The lesson for orchestrators: if you can observe but cannot halt, you are monitoring, not overseeing. Oversight includes stop authority — the verified right to intervene — and every oversight system you build should be tested against the question "what happens when I notice something wrong? Does the system actually stop?"
 
+## Verification Without Distrust
+
+A 2026 interview study of everyday chatbot users (Pyae, arXiv:2607.24761) found something counterintuitive: **verification and trust are independent.** Users who checked outputs were not less trusting than users who didn't — verification was routine epistemic hygiene, not a signal of suspicion. The study reframes user-side checking as *evaluative oversight* (assessing outputs) rather than *interventionist oversight* (policing the tool), and names it **routine epistemic governance**: a normal, non-adversarial part of delegating thinking to software, like reading a bank statement before paying bills.
+
+That reframe matters for the oversight modes above. If verification feels like distrust, you'll skip it precisely when you should double down — and if you're the one being supervised, you'll read reasonable checking as hostility. **The orchestrator's default: verify because output quality varies, not because the tool is suspect.** Detached verification is a workflow step; distrust is an emotion. The first is always professional; the second is usually misplaced.
+
 ## Related Pages
 
 [[Human in the Loop]] · [[Autonomy]] · [[Orchestration]] · [[Delegation]] · [[Trust Calibration]] · [[Agent]] · [[Overassistance]] · [[Capacity Dissolution]]

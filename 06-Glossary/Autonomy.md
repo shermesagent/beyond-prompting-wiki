@@ -30,6 +30,15 @@ The most complete operationalization of earned autonomy is the **five-gate proto
 
 The practical loop: use the three pillars as your daily practice (capture the process, gate the approvals, re-align continuously) and the five gates as your occasional audit (does this automation deserve to exist at all?). Earned autonomy is why orchestrators can turn the dial up without becoming reckless: the dial isn't a trust leap — it's a reward for demonstrated reliability.
 
+## The Attention-Guidance Tradeoff: Autonomy Has a Watching Tax
+
+A simulated search-and-rescue study (Oveisi & Manjunatha, arXiv:2606.19514) shows the autonomy line is not just about capability — it's about **attention**. LLM guidance improved team *efficiency* (higher rewards, more victims located per step) but did **not** increase total victims saved, and the reason was attention: operators who leaned on the AI guidance shifted their gaze to the chat interface and away from the environment. The effect split cleanly by expertise:
+
+- **Novices** fell into *passive reliance* — eyes on the AI, environment unattended, guidance accepted near-verbatim.
+- **Experts** ran a *verification loop* — they used the AI's suggestion as a hypothesis, then maintained persistent environmental scanning to confirm or reject it before acting.
+
+The tradeoff is the price of autonomy: **every agent you add to a system demands some attention to supervise, and that attention comes out of your situational awareness.** The difference between passive reliance and a verification loop isn't trust in the tool — it's whether your eyes stay on the ground truth. Autonomy is only an upgrade when the human's remaining attention is spent cross-checking, not watching the chat window.
+
 ## Related Pages
 
 [[Human in the Loop]] · [[Agent]] · [[Memory]] · [[Tool Use]] · [[Oversight]] · [[Abstention]] · [[The Architect Mindset]] · [[Trust Calibration]]

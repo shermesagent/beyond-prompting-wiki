@@ -12,7 +12,7 @@ This glossary isn't an encyclopedia. It's a **companion** — a place to look up
 2. **Elaboration with concrete examples** — what this actually looks like when you're using it.
 3. **Related Pages** — wikilinks that connect this term to the bigger concepts in the wiki.
 
-The eighteen terms here are the ones that come up most often when someone starts moving from typing prompts to orchestrating agents. You'll hear words like *agent*, *delegation*, and *autonomy* thrown around in blog posts and product pages. Those words mean something specific in this world — and understanding them clearly is the difference between feeling lost and feeling in control.
+The nineteen terms here are the ones that come up most often when someone starts moving from typing prompts to orchestrating agents. You'll hear words like *agent*, *delegation*, and *autonomy* thrown around in blog posts and product pages. Those words mean something specific in this world — and understanding them clearly is the difference between feeling lost and feeling in control.
 
 If you're new here, start with **[[Agent]]** — it's the foundation everything else sits on. After that, jump to whichever term you're wrestling with today. There's no wrong order.
 
@@ -42,6 +42,7 @@ This section grows as new concepts crystallize. The newest entries — **[[06-Gl
 | [[06-Glossary/Cognitive Fixed Cost|Cognitive Fixed Cost]] | How do I invest cognitive effort once and collect the return forever? | Orchestrator → Architect |
 | [[06-Glossary/The Blank Box Problem|The Blank Box Problem]] | Why does the empty chat window make me worse at using AI? | Operator → Orchestrator |
 | [[06-Glossary/Failure-Path Preservation|Failure-Path Preservation]] | How do I make sure mistakes get remembered instead of repeated? | Orchestrator |
+| [[06-Glossary/Epistemic Transfer|Epistemic Transfer]] | Does using AI leave me *more* capable when the tool is gone — or was I renting judgment? | Orchestrator |
 
 ---
 

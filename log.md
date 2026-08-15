@@ -962,3 +962,18 @@ Theme: **Delegation is a redistribution of consequences — and reliability fail
 - Rotation flag: 08-13 digest's "Next rotation: Day 1" note was WRONG — Friday 08-14 = Day 5 (05-Practice) per runbook + git sequence (37301bd Day-4 pattern, 82e249e 08-13); Week 7 closes; next session (Mon 08-17) = Day 1 (01-The-Shift)
 - Hash debt carried: 08-13 raw files (2608.11803, 2608.11626, 2608.11794) still store stale hashes — bulk re-hash deferred since 08-11
 - Spares added to file: 2608.12320, 2608.12352, 2608.12323, 2608.12355, 2608.12349, 2608.12346, 2608.13022, 2608.12358; cross-pollination noted (2608.11344, 2608.11955 re-appeared in today's cs feed)
+
+## 2026-08-15 | Day 6 | Glossary Deepening (Week 7)
+
+- Rotation: Saturday 08-15 = Day 6 (06-Glossary) per runbook + git sequence; Week 7 complete; next session (Mon 08-17) = Day 1 (01-The-Shift), Week 8
+- Theme: precision of foundational terms — "what AI leaves behind" — each term now carries a check/diagnostic/tax
+- New glossary entry: Epistemic Transfer (06-Glossary/Epistemic Transfer.md) — ETE × TRC four-quadrant diagnostic (capability building / capability + tool advantage / epistemic inertness / verification on loan), 30-Second Transfer Check; complements Capacity Dissolution (mechanism vs test)
+- Glossary sharpened (5): Orchestration (+The Synergy Ceiling — added collaborators can lower performance without coordination structure; 1,482 sessions, Collaborative Gym), Trust Calibration (+Procedure Is Not Evidence — process substitution trap; 1,500+ legal hallucination cases; calibrate on error rates), Oversight (+Verification Without Distrust — trust and verification independent; evaluative vs interventionist oversight; routine epistemic governance), Autonomy (+The Attention-Guidance Tradeoff — efficiency up but victims saved flat in simulated SAR; novices passive reliance vs experts verification loop; autonomy has a watching tax), Capacity Dissolution (+The Transfer Check — weekly unassisted re-test)
+- Sources: 5 entries added to sources/sources.jsonl (223 → 228): 2608.08882 (Trattner, Epistemic Transfer), 2606.18413 (Kotalwar/Das/Rosé, Synergy), 2607.28869 (Williams, Process to Evidence), 2607.24761 (Pyae, Verification Without Distrust), 2606.19514 (Oveisi/Manjunatha, SAR attention)
+- Raw files: 5 new in raw/articles/ — sha256 self-verifying per 08-11 convention; all five verify
+- Digest: 00-Daily-Digests/2026-08-15.md
+- Navigation: Home.md (88 → 89 pages, Today's Digest pointer → 08-15, 06-Glossary list + Epistemic Transfer, Recent Updates row); 06-Glossary/README.md (18 → 19 entries + table row)
+- Weekend sourcing: web search down + arXiv RSS weekdays-only → arXiv API HTTPS direct; AI Agency Knowledgebase cross-pollination noted ("The Agentic Garden of Forking Paths")
+- Spares: 2607.13798 (Persona Migration) added; 2608.12320/12352/12323/12355/12349/12346/13022/12358 + 14 from 08-13 + backlog 2608.09946, 2608.00818, 2606.26502, 2608.07488, 2608.07494, 2607.15434
+- Hash debt carried: 08-13 raw files (2608.11803, 2608.11626, 2608.11794) still store stale hashes — bulk re-hash deferred since 08-11
+- Commit: "Beyond Prompting Wiki update — 2026-08-15 (Day 6 Glossary rotation, Week 7)"

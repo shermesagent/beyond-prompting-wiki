@@ -43,6 +43,12 @@ Three practical consequences for the orchestrator:
 - **Add an anti-coercion verification gate.** The Digital Apprentice authorization gates (arXiv:2606.04321) ensure agents act only with explicit human approval. The coercion finding adds a new gate category: before approving an agent's actions, verify it is not coercing other agents in the execution chain. Approval becomes a two-layer check — "is this action safe?" and "is this action *enforcing* on someone else?"
 - **Model selection is a guardrail.** In the benchmark, models that refused to escalate under authority were the exception, not the rule. For any agent that will hold authority in your workflows, coercion-resistance is a selection criterion — not a nice-to-have.
 
+## When Adding Agents Hurts: The Synergy Ceiling
+
+A 2026 study of shared-workspace collaboration (Kotalwar, Das & Rosé, arXiv:2606.18413) adds the missing dimension to the team-type table above: **adding collaborators can *lower* performance when coordination structure is absent.** In 1,482 sessions on the Collaborative Gym testbed, teams with more AI partners did not reliably do better — performance gains appeared only when the workspace supplied structure: shared group memory and human-in-the-loop approval gates. The effect was sharpest in three-person teams, where adding a partner without scaffolding dragged results down.
+
+The orchestrator translation: **team size is not a capability multiplier.** A second agent is only an asset if there is a coordination substrate — who sees what, who approves what, what's remembered across turns. No shared memory, no gates → the added agent adds noise, not leverage. When you're planning your next pipeline, the question isn't "how many agents can I throw at this?" It's "what structure will make the *n*-th agent pay for itself?"
+
 ## Related Pages
 
 [[Delegation]] · [[Decomposition]] · [[Agent]] · [[Human in the Loop]] · [[Oversight]] · [[Task Decomposition]] · [[SOP]]
