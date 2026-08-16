@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2607.19988
 ingested: 2026-07-23
-sha256: cogsteward-2026-placeholder
+sha256: 5b44fcb516d9c784e36d9ba71517289f3687b160358e7316d0964f9577f565b8
 ---
 
 # What Does the Credential Still Certify? Cognitive Stewardship for AI-Mediated Education

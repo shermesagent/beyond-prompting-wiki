@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2607.05411
 ingested: 2026-07-08
-sha256: d7d1d2f0e0b635c98485e432f4bb728d3fa8e84ce7a718eec6e280b74aae0be1
+sha256: 52d73c76cfa34d53f6fcd6c13c8f01f529222dbbb2a45a01295fedfb2304d4e7
 ---
 
 # The GenAI Skill Bypass: Mapping Divergent Pathways of University Students and Staff AI Literacy

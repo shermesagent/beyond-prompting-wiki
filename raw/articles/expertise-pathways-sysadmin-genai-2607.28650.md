@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2607.28650
 ingested: 2026-08-03
-sha256: TBD
+sha256: 95f5da4bc24b8aceaae10ae7c378011949ae7ae06626a9ce63b7511f550fd8f8
 ---
 
 # Unanticipated Effects of Generative AI on Expertise Pathways and Performance Perception in System Administration

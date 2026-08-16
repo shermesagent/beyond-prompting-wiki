@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2608.05545
 ingested: 2026-08-07
-sha256: TBD
+sha256: 6c3eae4a87c719393a50a949bad3a2eb81c7b4542af33dd00c2c72476eff04da
 ---
 
 # Vibe Compiler: A Research-Logic Synthesis Tool That Runs without Prompt Engineering — Toward Enhancing Metacognition for Sustaining Agency in the Age of Generative AI

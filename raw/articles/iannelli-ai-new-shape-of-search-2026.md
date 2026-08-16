@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2607.04282
 ingested: 2026-07-07
-sha256: 1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b
+sha256: dd72f9b566cb38d7526164fef3cb951ab3b5faad0bba90ee5654f1e9842ef26d
 ---
 
 # The New Shape of Search: How Conversational AI Recomposes Information Seeking

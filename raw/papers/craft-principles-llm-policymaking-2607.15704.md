@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2607.15704
 ingested: 2026-07-20
-sha256: 9b8c7d6e5f4a3b2c1d0e9f8a7b6c5d4e3f2a1b0c9d8e7f6a5b4c3d2e1f0a9b8
+sha256: e5906eaa2b211e3919b5c13a7956887f735d59cda470bb4d6cbe33691bf560af
 ---
 
 # The CRAFT Principles for the Responsible Use of Large Language Models in Policymaking

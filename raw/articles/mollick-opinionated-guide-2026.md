@@ -1,7 +1,7 @@
 ---
 source_url: https://www.oneusefulthing.org/p/an-opinionated-guide-to-which-ai-b22
 ingested: 2026-07-27
-sha256: placeholder
+sha256: 52873d5d8aaf249003869b5a408d30113f0c31c08845d74bac69d1216cfa918e
 ---
 
 # An opinionated guide to which AI to use to do stuff

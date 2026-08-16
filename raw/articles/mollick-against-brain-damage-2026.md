@@ -1,7 +1,7 @@
 ---
 source_url: https://www.oneusefulthing.org/p/against-brain-damage
 ingested: 2026-07-06
-sha256: c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8
+sha256: 51f87419e9f4d53bbf3a325aefc9419902bb5978a8c31efbe749b9cb6d604275
 ---
 
 # Against "Brain Damage"

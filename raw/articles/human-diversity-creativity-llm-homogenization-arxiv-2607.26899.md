@@ -1,3 +1,8 @@
+---
+source_url: https://arxiv.org/abs/2607.26899
+ingested: 2026-07-30
+sha256: 41419882875aadbd4e86157780ba099f9c472922fe64ec7dfb17bdd220bec9a7
+---
 # Human Diversity Fuels Collective Creativity That Large Language Models Cannot Simulate or Sustain
 
 **arXiv:** 2607.26899

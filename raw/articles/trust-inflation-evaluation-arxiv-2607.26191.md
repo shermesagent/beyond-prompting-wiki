@@ -1,3 +1,8 @@
+---
+source_url: https://arxiv.org/abs/2607.26191
+ingested: 2026-07-30
+sha256: e70461e76891fc7cdac8f328d32291ba102bc84bc04199ff4e12852e8c8e604d
+---
 # Trust Inflation in Evaluation
 
 **arXiv:** 2607.26191

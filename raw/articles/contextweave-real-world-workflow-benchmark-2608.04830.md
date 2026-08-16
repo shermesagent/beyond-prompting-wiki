@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2608.04830
 ingested: 2026-08-06
-sha256: TBD
+sha256: 4e47998562cd17712363d84036c42d600dd377edd2784eacde8ef40cc292a7ae
 ---
 
 # ContextWeave: A Real-World Workflow Benchmark

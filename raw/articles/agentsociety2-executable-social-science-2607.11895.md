@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2607.11895
 ingested: 2026-07-15
-sha256: placeholder
+sha256: c2067e0e687430c373a1631276ddd7b8c3a71c71913edf652ead87d0709619a7
 ---
 
 # AgentSociety 2: An Integrated Research Environment for Executable Social Science

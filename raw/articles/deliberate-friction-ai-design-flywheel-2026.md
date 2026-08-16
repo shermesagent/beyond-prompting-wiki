@@ -1,7 +1,7 @@
 ---
 source_url: https://ai-flywheel.com/article/ai-design-needs-deliberate-friction
 ingested: 2026-06-22
-sha256: placeholder
+sha256: 0c94bdc3e16ef7c377b09e98f0a4d38bba40bb5b08a361ec7f6e9eef0f1085b9
 ---
 
 # Why Deliberate Friction Is Essential in AI Product Design

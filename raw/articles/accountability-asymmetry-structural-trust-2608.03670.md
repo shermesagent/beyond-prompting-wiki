@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2608.03670
 ingested: 2026-08-05
-sha256: TBD
+sha256: 75521b3077450eb1f0189453664d9a00f108fd9a1bf881bc3991daa665abe3bb
 ---
 
 # Accountability Asymmetry and Structural Trust in Autonomous AI Systems

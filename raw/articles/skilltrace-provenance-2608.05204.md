@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2608.05204
 ingested: 2026-08-08
-sha256: TBD
+sha256: d6bead9a639856edb02276921298bf95219b2929483d0aa72837de7dd0c79e61
 ---
 
 # SkillTrace: Multi-Trace Provenance Auditing for LLM-Agent Skill Reuse

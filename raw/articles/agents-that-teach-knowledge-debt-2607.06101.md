@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2607.06101
 ingested: 2026-07-08
-sha256: 2c06c2ee0c5258d1a7e39b8e0128b1b37a64f634a75e0eafceacf2e6a1a4cb91
+sha256: b38d9c3b34191dcd31125ecc3a5be7aea05f5dab46cfad8aceb4b668fc820b2f
 ---
 
 # Agents That Teach: Designing Incidental Learning Back into AI-Assisted Software Development

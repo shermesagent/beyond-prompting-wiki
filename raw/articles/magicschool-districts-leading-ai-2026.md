@@ -1,7 +1,7 @@
 ---
 source_url: https://www.magicschool.ai/blog-posts/districts-leading-the-way-2026
 ingested: 2026-06-22
-sha256: placeholder
+sha256: ebb1b861aab1bc37c25576bce6aefb86d4fbfad69b055d47323c62b4e48cf10a
 ---
 
 # Districts Leading the Way in AI Adoption 2026

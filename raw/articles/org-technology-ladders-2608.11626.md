@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2608.11626
 ingested: 2026-08-13
-sha256: 0d5e767e507ccb96eb17566aefc2605f2aa79dc826aa22f468c685add77220b8
+sha256: 7e9c7158fd0fe80ae2373e0b4d1abdc86fbbc5fba0ccc0ca0d02c2b588b64dcd
 ---
 
 # Organizational Technology Ladders: Remote Work and Generative AI Adoption

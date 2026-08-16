@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2608.02491
 ingested: 2026-08-05
-sha256: TBD
+sha256: 4b83f62bbeab50ddec1969ee2a01e5024c0eef2e0e50895c6e554885f444eabb
 ---
 
 # Long-term Measurements: Towards a Longitudinal Understanding of Human-AI Interactions

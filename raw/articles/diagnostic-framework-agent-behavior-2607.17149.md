@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2607.17149
 ingested: 2026-07-21
-sha256: TBD
+sha256: 2aee50013e07c7697560bb8aa88707a3e601fa298f352d1d83f58fe074e3f4ee
 ---
 
 # A Diagnostic Framework for AI Agent Behavior

@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2608.05179
 ingested: 2026-08-07
-sha256: TBD
+sha256: d3f6fa54c096ca5f10ff7224d509b80a42be7fb73c23350f255ba2591400c52e
 ---
 
 # Autonomous Research Agents: A Survey of AI Scientists and the Verification Gap

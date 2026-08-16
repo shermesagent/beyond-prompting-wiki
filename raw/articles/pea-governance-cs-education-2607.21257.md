@@ -1,3 +1,8 @@
+---
+source_url: https://arxiv.org/abs/2607.21257
+ingested: 2026-07-25
+sha256: 0a570be570f211c90c2d3bb0d768e02403bde9eb529945003de435f9e8970c06
+---
 # Exploring the Design Space of LLM-Based Programming Support in CS Education: A Scoping Review through the Lens of Assistance Governance
 
 - **Title:** Exploring the Design Space of LLM-Based Programming Support in CS Education: A Scoping Review through the Lens of Assistance Governance

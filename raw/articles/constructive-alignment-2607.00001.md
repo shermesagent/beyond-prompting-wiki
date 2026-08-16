@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2607.00001
 ingested: 2026-07-02
-sha256: TBD-recompute-on-lint
+sha256: 70f482a8410ade9b06b9be6a005770b860000501fbe40f5d3475a2813a348ca1
 ---
 
 # Constructive Alignment: Governing Preference Dynamics in Human-AI Interaction

@@ -2,6 +2,7 @@
 source_url: https://arxiv.org/abs/2606.25337
 ingested: 2026-06-25
 type: research_paper
+sha256: b747e20c189c51abc33aaedf68738d0a43121a25849f5b62fe2278c359c69d75
 ---
 # AI Coaching for Accelerating Human Skill Development with Reinforcement Learning
 

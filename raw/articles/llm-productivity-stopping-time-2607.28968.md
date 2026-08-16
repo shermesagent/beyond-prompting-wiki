@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2607.28968
 ingested: 2026-08-03
-sha256: TBD
+sha256: 069d27ee2ed0c530d8234c6d3c4bdd337c23df944b05b193b4514a0270783889
 ---
 
 # A Robust Association Between LLM Use and Scientific Productivity: Assessing Stopping-Time Selection

@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2607.05674
 ingested: 2026-07-08
-sha256: 3db9b5b3d78d4a8c94ff3d3d5a8ec370d7f07bb50e8724ec9137e60d1e6e1f9f
+sha256: dc0dee1a93a62fed99a215a30142cbc2eb96bd5637f1c98e94ddd5138b26c72f
 ---
 
 # Perceived System Predictability: Scale Development and Application

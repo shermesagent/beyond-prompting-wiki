@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2608.04625
 ingested: 2026-08-06
-sha256: TBD
+sha256: 27806898b21576f78463fd21a803981f6f5646f24bb66a23bdc74bc4433fa1eb
 ---
 
 # A/B Agent: A Self-Evolving Agent for Strategy Iteration in Industrial A/B Testing

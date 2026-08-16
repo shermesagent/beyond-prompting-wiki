@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2607.14301
 ingested: 2026-07-17
-sha256: 7d9a3f1c5e8b2a4d6f0c1e3a5b7d9f2a4c6e8
+sha256: e15a8705ed4d2d5f90f01c4148acb6bcae6f2c3a6d224a3c35f18cf298dc42e8
 ---
 
 # Measuring How Students Rely on Generative AI in Academic Writing: Development and Multi-Source Validation of the Generative AI Reliance Types Scale (GenAI-RTS)

@@ -1,6 +1,7 @@
 ---
 source_url: https://www.ibm.com/thought-leadership/institute-business-value/en-us/report/2026-ceo
 ingested: 2026-07-05
+sha256: e0f464488822be0f9957779afa6adf30542af9f904a9f673ba08847b86ff14d8
 ---
 
 # IBM 2026 CEO Study — "5 Plays for AI-first Transformation"

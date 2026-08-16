@@ -1,6 +1,7 @@
 ---
 source_url: https://www.prnewswire.com/news-releases/from-operators-to-orchestrators-deloittes-2026-global-technology-leadership-study-reveals-a-new-mandate-for-tech-leaders-302758075.html
 ingested: 2026-07-05
+sha256: 6f7a793cf96bb67c779612b329a0904bb8a407a6beeffd412214ef49038f469a
 ---
 
 # Deloitte 2026 Global Technology Leadership Study — "From Operators to Orchestrators"

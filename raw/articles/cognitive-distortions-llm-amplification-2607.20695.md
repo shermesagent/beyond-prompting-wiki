@@ -1,3 +1,8 @@
+---
+source_url: https://arxiv.org/abs/2607.20695
+ingested: 2026-07-25
+sha256: 5707db819ad800d41380b9fd8afa78bad97ca683c5dcf0ed282cb7b64731cb2d
+---
 # Language Models Embody and Amplify Human Cognitive Distortions: What Is to Be Done?
 
 - **Title:** Language Models Embody and Amplify Human Cognitive Distortions: What Is to Be Done?

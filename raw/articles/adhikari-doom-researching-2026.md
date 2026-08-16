@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2607.02723
 ingested: 2026-07-07
-sha256: 0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b
+sha256: 26d0949ee039b2e21c87a8b3ac2a9949e1abffe9d62c3a588a9491f33b9ef77c
 ---
 
 # Doom Researching: A Conceptual Framework for Repetitive AI-Assisted Information Seeking, Cognitive Offloading, and the Illusion of Knowing

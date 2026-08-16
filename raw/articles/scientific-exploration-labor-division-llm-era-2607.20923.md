@@ -1,3 +1,8 @@
+---
+source_url: https://arxiv.org/abs/2607.20923
+ingested: 2026-07-25
+sha256: a3f39592b98a233cda24b6259270e445f8d84ac828f1e941a65cbff7b4a6a724
+---
 # Scientific exploration, collaboration and labor division in the large language model era
 
 - **Title:** Scientific exploration, collaboration and labor division in the large language model era

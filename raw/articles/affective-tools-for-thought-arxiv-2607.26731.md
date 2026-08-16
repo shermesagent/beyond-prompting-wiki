@@ -1,3 +1,8 @@
+---
+source_url: https://arxiv.org/abs/2607.26731
+ingested: 2026-07-30
+sha256: 2d2b8312ef03dae4faaa653e58eb63632522bc1f71e54a10a7a4efc39899841b
+---
 # Affective Tools for Thought: Towards Shared Attention and Affective Reorienting in AI-Supported Thinking
 
 **arXiv:** 2607.26731

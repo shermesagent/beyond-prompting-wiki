@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2608.05175
 ingested: 2026-08-07
-sha256: TBD
+sha256: a2b28d467763fddd7eed834b9fd0fe26c9116f6f67274ff9b73233c0b3488780
 ---
 
 # Teaching Intro AI When the Tools Can Do the Homework: A Course Redesign and a Student Bill of Rights

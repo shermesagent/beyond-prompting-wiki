@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2607.29089
 ingested: 2026-08-03
-sha256: TBD
+sha256: 9e4e4660bb930dbb3bfd032aa44ca150f50af6ef051fa3e4576d840346737dfc
 ---
 
 # The Deployment Wall: A Diagnostic Framework and Instrument for Enterprise AI in the Deployment Era

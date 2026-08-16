@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2608.11803
 ingested: 2026-08-13
-sha256: 30040776b3c7980041067242691ecc43b9e696c11ff2a59f3730ddd1977a5207
+sha256: 938ff7062a0724b500d41e9197ad2ba9a254deda9735e86dc376e5fc9dc6ed86
 ---
 
 # Silent Updates: Measuring and Closing the Post-Deployment Disclosure Gap

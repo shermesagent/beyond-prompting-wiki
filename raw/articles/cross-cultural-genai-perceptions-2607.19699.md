@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2607.19699
 ingested: 2026-07-23
-sha256: crosscult-2026-placeholder
+sha256: 4a9c92a4b056be151f91822aff005d89a35ba57e9b4d403327591a353573b312
 ---
 
 # Cross-Cultural Differences in Student Perceptions of Generative AI Use in University Computing Education

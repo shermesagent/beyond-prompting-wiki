@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2608.12236
 ingested: 2026-08-13
-sha256: 4cab6ee84d828fc8289451aabcfbe1079c13da312876cf4162b61cc2b01a30ba
+sha256: 6e78c1db52d965fe7fb002350861ef8db7ebaf01fa5fa9ab7295ffb741093141
 ---
 
 # How Organizations Use AI: Evidence from ChatGPT

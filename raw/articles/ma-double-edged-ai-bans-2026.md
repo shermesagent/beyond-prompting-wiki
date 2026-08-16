@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2607.04601
 ingested: 2026-07-07
-sha256: 3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b
+sha256: a5f091dc8430661a4f4986e1e49ab3a653ce66f11f45a4552d83fec408ad6e69
 ---
 
 # The Double-edged Effect of Banning Generative AI on Online Q&A Communities: Evidence from Stack Exchange

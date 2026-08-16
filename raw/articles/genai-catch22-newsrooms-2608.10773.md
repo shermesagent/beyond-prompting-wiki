@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2608.10773
 ingested: 2026-08-12
-sha256: b3f6aba8016a075d30e133caa2e61adafe179d4dc0709b338a12116afaa559e8
+sha256: c596b8267397c20171b93575649065af8e4dd591b0a8dc74d9fd166acd2e5c16
 ---
 
 # The GenAI Catch-22: Use of Generative Artificial Intelligence in Norwegian Newsrooms During the 2025 Parliamentary Election

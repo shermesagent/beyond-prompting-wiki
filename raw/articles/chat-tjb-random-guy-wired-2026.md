@@ -1,7 +1,7 @@
 ---
 source_url: https://www.wired.com/story/this-chatbot-is-just-a-random-guy-lol/
 ingested: 2026-08-08
-sha256: TBD
+sha256: 1211779fdcb6a901e9376bf293791fb9f7eaac0e102365e709ba83ada8e2e403
 ---
 
 # The Hottest New AI Chatbot Is Just a Guy Answering Your Questions

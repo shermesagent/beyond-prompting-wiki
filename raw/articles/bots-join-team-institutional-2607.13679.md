@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2607.13679
 ingested: 2026-07-16
-sha256: TBD
+sha256: 08833cbe72cb216f6118bc3c4b7f7bcebc88ddbfd85ed257517353d144074d06
 ---
 
 # When Bots Join the Team: Bot Adoption and the Institutional Fabric of Open-Source Software Projects

@@ -2,6 +2,7 @@
 source_url: https://arxiv.org/abs/2606.25489
 ingested: 2026-06-25
 type: research_paper
+sha256: cd60e89736d46f719ed58dc0196a9c43d3a31aa44dfbdaffb78c68153ce93088
 ---
 # When LLM Rationales Become User-Facing: Effects on Trust Perception, Decision-Making, and Gaze Behaviors
 

@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2608.07627
 ingested: 2026-08-12
-sha256: fca714a78d1e01d5d0e14460f6d353daeb73db576f11d0613ebc53df8ff9cef7
+sha256: 760e0ad3bb9c593affddc5070035b03540254318bac59ee84e5ad0a575d2cfa0
 ---
 
 # From Single Chatbots to Governed Agent Ecosystems: An Agentic AI Pattern Catalogue and Orchestration Framework for Mission-Critical Hospital Information Management Systems

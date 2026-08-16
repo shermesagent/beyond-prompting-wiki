@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2608.04066
 ingested: 2026-08-06
-sha256: TBD
+sha256: c46cd9d1947c331f528d240abc8cb2945a7fece71484e005da50d6229fe29db0
 ---
 
 # The LLM Proposes, the Executive Disposes: A Self-Verifying Agent Instrument that Dissociates Commitment Drift from Binding Drift in Long-Horizon Agents

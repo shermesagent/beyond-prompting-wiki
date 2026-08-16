@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2604.03501
 ingested: 2026-06-22
-sha256: placeholder
+sha256: 9759739062aee9cf12285af7a5cd06fc5013513e2bc62c78580ab63d5159bd83
 ---
 
 # The Augmentation Trap: AI Productivity and the Cost of Cognitive Offloading

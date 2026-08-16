@@ -977,3 +977,18 @@ Theme: **Delegation is a redistribution of consequences — and reliability fail
 - Spares: 2607.13798 (Persona Migration) added; 2608.12320/12352/12323/12355/12349/12346/13022/12358 + 14 from 08-13 + backlog 2608.09946, 2608.00818, 2606.26502, 2608.07488, 2608.07494, 2607.15434
 - Hash debt carried: 08-13 raw files (2608.11803, 2608.11626, 2608.11794) still store stale hashes — bulk re-hash deferred since 08-11
 - Commit: "Beyond Prompting Wiki update — 2026-08-15 (Day 6 Glossary rotation, Week 7)"
+
+## 2026-08-16 | Day 7 | Cross-Section Lint + Weekend Deep-Synthesis (Week 7 close)
+
+- Rotation: Sunday 08-16 = Day 7 per runbook; Week 7 complete; next session (Mon 08-17) = Day 1 (01-The-Shift), Week 8
+- HASH DEBT CLEARED: 142/142 raw files verify under the locked 08-11 convention (sha256 over full content minus the sha256 line); 127 files re-hashed (167 insertions / 110 deletions), 15 verifiers untouched — 08-15 self-verify claim TRUE; 08-10's "all 12 hashes filled" were 16-char truncated placeholders, now real 64-hex
+- Frontmatter: wiki pages = NON-issue per SCHEMA.md; raw/ contract fixed — 10 files (ingested 07-25/07-30) received source_url/ingested/sha256 blocks with correct whole-file-minus-sha256-line hashes
+- Lint: Epistemic Transfer orphan flag RETRACTED (pathful inbound links; Home, glossary README, Capacity Dissolution); orphans 54 = 52 digests + .hermes cron prompt + 04 README (expected); 135 broken wikilinks = digest-table false positives + log.md → [[Home]] (append-only skip); 0 cross-directory; 9 pages >200 lines flagged (defer to ~400); no digest files for 07-12/08-04 (flag only)
+- Navigation: Home 08-10 row RESTORED (triple-confirmed missing; added between 08-11 and 08-09); Today's Digest pointer → 08-16; 08-16 row added (pages remain 89)
+- Digest links: 08-10 and 08-11 digests brought to ≥2 outbound links (next-rotation lines now wikilink forward; 08-11 label corrected 03-Practice → 03-Real-World per runbook, cf. 08-12 rotation note)
+- Deep-synthesis: The Architect Mindset += "The Harness Is the System: Model vs. Harness (August 2026)" — harness-vs-model separation, O'Reilly architecture of participation (WIRED 08-14), Gemini 3.7 Flash workhorse tier (08-13); cross-links Harness Effect (07-10, 2607.06906) + FlowEvo skill-bank (08-02, Memory as Infrastructure)
+- Sources: 2 entries added to sources/sources.jsonl (228 → 230) via KB cross-pollination: 2026-08-15-wired-oreilly-participation, 2026-08-15-deepmind-gemini-3-7-flash (internal_reference format per line-30 template)
+- Digest: 00-Daily-Digests/2026-08-16.md
+- Raw files: no new ingests (repair day); 127 modified under hash remediation
+- Weekend sourcing: web search down (day 15+); arXiv API HTTPS + KB cross-pollination
+- Commit: "Beyond Prompting Wiki update — 2026-08-16 (Day 7 cross-section lint + weekend deep-synthesis, Week 7 close)"

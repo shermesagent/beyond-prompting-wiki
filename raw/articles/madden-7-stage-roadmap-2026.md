@@ -1,6 +1,7 @@
 ---
 source_url: https://www.citrix.com/blogs/2026/06/10/the-7-stage-roadmap-for-human-ai-collaboration-2026-edition/
 ingested: 2026-07-05
+sha256: 3ac608cc4c7b8059e81437b3b2bcb0a9e6a17ff05f195584bcc2f9a61e93092d
 ---
 
 # Brian Madden / Citrix — "The 7-stage roadmap for human-AI collaboration (2026 Edition)"

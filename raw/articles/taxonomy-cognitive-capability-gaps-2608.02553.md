@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2608.02553
 ingested: 2026-08-05
-sha256: TBD
+sha256: 80a1ed5dae22070057e66207669c4ebe63c69cbecd58602cd4bfeb884799acb1
 ---
 
 # A Taxonomy of Cognitive Capability Gaps in Generative and Agentic AI

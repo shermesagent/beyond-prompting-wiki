@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2608.03462
 ingested: 2026-08-05
-sha256: TBD
+sha256: d63d5c00fe6c128cdcb6e6a71afe6038c22522b0bdad4dd7794915abfe53dbaa
 ---
 
 # When AI Joins the Team! A Model of How AI Adoption Relates To Social Patterns in Software Engineering Teams

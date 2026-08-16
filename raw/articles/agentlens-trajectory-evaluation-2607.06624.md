@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2607.06624
 ingested: 2026-07-09
-sha256: <to be computed>
+sha256: 91e2c7b6ef0277ce1fa03b7f9ee10b9350e4b09c7b81c8df350ae6836d88bf11
 ---
 
 # AgentLens: Production-Assessed Trajectory Review Benchmarks

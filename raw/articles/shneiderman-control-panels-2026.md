@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2607.21598
 ingested: 2026-07-27
-sha256: placeholder
+sha256: ac2fe813dc0ddda9417c5e05c0b66a0200b336643399d7d737f459a0f5655dbf
 ---
 
 # Control panels to clarify user intent with Large Language Models

@@ -1,3 +1,8 @@
+---
+source_url: https://arxiv.org/abs/2607.26827
+ingested: 2026-07-30
+sha256: fbb16d64ba9464307811908f043306367c644de874b4c2d10f823cef08fb9b52
+---
 # AI as Friction for Reflection: Supporting Reflection in Ideation
 
 **arXiv:** 2607.26827

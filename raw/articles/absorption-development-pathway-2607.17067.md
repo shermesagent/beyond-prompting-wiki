@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2607.17067
 ingested: 2026-07-21
-sha256: TBD
+sha256: e8c5199c833f290b0e4d46517dabc67fc4ff2fc8b8c322e01ac1c0d329d89f50
 ---
 
 # Who Will Become the Next Senior? How Generative AI Erodes the Development Pathway in Software Engineering

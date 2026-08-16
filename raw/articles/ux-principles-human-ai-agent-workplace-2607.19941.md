@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2607.19941
 ingested: 2026-07-23
-sha256: uxprinciples-2026-placeholder
+sha256: 19849d54b6f769bd801869a52e6e0f1ffb5d9003602651deebce1ff006b45064
 ---
 
 # A Framework of User Experience Principles for Human-AI Agent Interaction in the Workplace

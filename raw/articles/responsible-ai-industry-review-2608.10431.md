@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2608.10431
 ingested: 2026-08-12
-sha256: 2b5b8a977059af8590fc5d2e41da8d946bdc4bb53e465ecc126d12cc8643ae4c
+sha256: c7ae261963b6b4f3e2b3d79570bfb22da763129ddd2d058761da6c8b410f6d08
 ---
 
 # What We Know about Responsible AI Practices in Industry: A Half Decade of Empirical Research

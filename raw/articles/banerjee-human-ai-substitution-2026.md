@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2607.20781
 ingested: 2026-07-27
-sha256: placeholder
+sha256: 44b851ce54ed4be6d38d6a2562a1fd7c832285db9f1771bfe337837ddcd159de
 ---
 
 # The Human-AI Substitution Principle: When will you be replaced by AI in your organization?

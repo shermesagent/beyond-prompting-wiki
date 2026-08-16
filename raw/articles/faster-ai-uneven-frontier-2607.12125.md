@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2607.12125
 ingested: 2026-07-15
-sha256: placeholder
+sha256: 796f15451880411969f1a83ad12bad5086f23933e81919b5a32c66787146146c
 ---
 
 # Faster AI, Uneven Frontier: Rapid Crossings, a Jagged Frontier, and the Repositioning of Human Judgment

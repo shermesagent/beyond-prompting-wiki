@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2607.12180
 ingested: 2026-07-15
-sha256: placeholder
+sha256: b7ca326b0935f61ea8305e9d77268125b3b2b0daa18aa09a8e1e3c2554213f4d
 ---
 
 # TRAIL: A Platform for Configurable Human--AI Teaming Experiments

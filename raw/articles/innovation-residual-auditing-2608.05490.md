@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2608.05490
 ingested: 2026-08-08
-sha256: TBD
+sha256: 0ac38b6d207504ad6db6b2b0cf3e9eb33181cb9b915e46de9e72eed2a14db96e
 ---
 
 # Innovation-Residual Auditing of Autonomous Analysis Agents: Localization, Detection Limits, Error Control, and Identifiability

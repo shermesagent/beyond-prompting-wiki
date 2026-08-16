@@ -2,6 +2,7 @@
 source_url: https://arxiv.org/abs/2606.25287
 ingested: 2026-06-25
 type: research_paper
+sha256: 3ee5fe732c5f15a35484a9f5853eea9e6f6f984fdab2d297ce08dd3473c16e99
 ---
 # The Digital Pirahã Condition: Ecological Mismatch and the Reconstruction of Recursive Cognition
 

@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2607.13077
 ingested: 2026-07-16
-sha256: TBD
+sha256: 1daf1e36ab4dff534f3a3753144932510753f53a0596a73e6bb9107eec1ba40b
 ---
 
 # The Hitchhiker's Guide to Monoculture

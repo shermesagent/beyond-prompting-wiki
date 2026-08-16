@@ -1,7 +1,7 @@
 ---
 source_url: https://oneusefulthing.substack.com/p/the-twilight-of-the-chatbots
 ingested: 2026-07-06
-sha256: a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6
+sha256: 05566fdc5402a5dda8d715b300b250aed63c497f198fc8bb0eb4ec6c506b97fc
 ---
 
 # The twilight of the chatbots

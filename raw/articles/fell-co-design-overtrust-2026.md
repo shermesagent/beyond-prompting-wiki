@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2607.21757
 ingested: 2026-07-27
-sha256: placeholder
+sha256: cfc54593f7a47e18899e84e8fa30435926ee562fbf18f38e16af12cf1e7404b0
 ---
 
 # Co-design of LLM-based preference agents: participation may drive overtrust

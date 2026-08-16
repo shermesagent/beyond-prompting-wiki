@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2608.03585
 ingested: 2026-08-05
-sha256: TBD
+sha256: 3c4be2242c5b1f214ae2a061b6c690ebfa8b013faf6ddb589ecfc86497bd09c9
 ---
 
 # From Social Coding to Agentic Coding: Productivity and Relational Reconfiguration in Open-Source Communities

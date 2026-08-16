@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2608.12104
 ingested: 2026-08-13
-sha256: ad03dafd5403bd03d805831f9189827ca0a8929caec4597a8ee3b9fbdd02829d
+sha256: 019a0ada39b5b2c08725940d9473fcfa5e2686f92db9e4fd11f334bbf6cea3ea
 ---
 
 # No One to Blame: A Framework of Constitutive AI Unaccountability

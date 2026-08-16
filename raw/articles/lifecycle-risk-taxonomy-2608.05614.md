@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2608.05614
 ingested: 2026-08-07
-sha256: TBD
+sha256: 9651dea391e4563d67c3878333dee9daedcdcbf4117d436bfdbc43952c4ba497
 ---
 
 # Toward Resilient Human-AI Collaboration: A Lifecycle Taxonomy of Sociotechnical Risks and Cascading Failures

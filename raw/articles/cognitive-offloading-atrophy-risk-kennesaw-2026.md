@@ -1,7 +1,7 @@
 ---
 source_url: https://digitalcommons.kennesaw.edu/cgi/viewcontent.cgi?article=1005&context=cognoconproceedings
 ingested: 2026-06-22
-sha256: placeholder
+sha256: e784cb3c590ad6d507b862c69d96e43b0a9282fe3bce5e33c47cd009d28e07fd
 ---
 
 # Cognitive Offloading, Atrophy Risk, and the Design of Human-AI Interfaces

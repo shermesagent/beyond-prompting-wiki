@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2608.04331
 ingested: 2026-08-06
-sha256: TBD
+sha256: 708b6f86df592d773230d73872bf9f245511372b69dd21aa3eeac83a83db98de
 ---
 
 # IntentLint: Supporting Intent Scaffolding and Prompt-time Linting in Human-AI Collaborative Data Analysis

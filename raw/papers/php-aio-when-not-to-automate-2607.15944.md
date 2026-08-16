@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2607.15944
 ingested: 2026-07-20
-sha256: 7a3f9c8b1d2e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9
+sha256: d3920537a065d3108b3b292b5f4ce99831dd1a0ca74fa1835112edb943d9b873
 ---
 
 # When Not to Automate: A Formal Protocol for Human Preservation in AI-Optimized Organizations

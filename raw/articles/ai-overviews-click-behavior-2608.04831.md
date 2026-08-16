@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2608.04831
 ingested: 2026-08-06
-sha256: TBD
+sha256: 98f9696aaae8739a704f8ab7a6dc3cd160d74c2f634aab65a84a552e34128e59
 ---
 
 # Investigating Click Behaviors On Google Search Result Pages That Produce an AI Overview

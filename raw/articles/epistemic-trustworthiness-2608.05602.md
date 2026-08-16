@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2608.05602
 ingested: 2026-08-07
-sha256: TBD
+sha256: 73d6c77caa01db9e53e4d095817eda9a23260f044cf01ae434d174ff6a3eec3f
 ---
 
 # Epistemic Trustworthiness in Generative AI: A Normative Framework for Warranted Reliance in High-Stakes Workflows

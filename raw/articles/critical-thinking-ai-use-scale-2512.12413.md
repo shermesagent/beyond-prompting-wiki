@@ -1,3 +1,8 @@
+---
+source_url: https://arxiv.org/abs/2512.12413
+ingested: 2026-07-25
+sha256: 5dbbcba371b4cdc40617de17fd0a60dc1dd748a01c3c7b4813d61b9c5762a525
+---
 # Understanding Critical Thinking in Generative Artificial Intelligence Use
 
 - **Title:** Understanding Critical Thinking in Generative Artificial Intelligence Use: Development, Validation, and Correlates of the Critical Thinking in AI Use Scale

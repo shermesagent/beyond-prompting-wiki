@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2607.12575
 ingested: 2026-07-15
-sha256: placeholder
+sha256: b7f6995810ead6fdca25e1b0456337a8602c45af7386132907251757d848faca
 ---
 
 # How Agentic Is Agentic Commerce? A Population-Scale Measurement of x402 Adoption and Authenticity

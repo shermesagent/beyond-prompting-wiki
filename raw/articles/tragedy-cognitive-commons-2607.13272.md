@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2607.13272
 ingested: 2026-07-16
-sha256: TBD
+sha256: 22efaa3c97a3df929bbf038ac123a5b39e860a0b6fb9ae9c4f3d3a24592b038d
 ---
 
 # The tragedy of the cognitive commons: collective intelligence beyond AI-induced knowledge collapse

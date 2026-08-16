@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2608.05624
 ingested: 2026-08-08
-sha256: TBD
+sha256: 73df52ac012947b591805ef4b8dd79ace206a807e2879555133f61ea3ea46f39
 ---
 
 # Measuring and Detecting Harmful AI Sycophancy

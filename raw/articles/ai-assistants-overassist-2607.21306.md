@@ -1,3 +1,8 @@
+---
+source_url: https://arxiv.org/abs/2607.21306
+ingested: 2026-07-25
+sha256: 5c0fa86084a4306a1ebf8e0709816601dc44311709fa6f762b416cc4384cba65
+---
 # AI Assistants Overassist
 
 - **Title:** AI Assistants Overassist

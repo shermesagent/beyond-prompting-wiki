@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2607.17643
 ingested: 2026-07-21
-sha256: TBD
+sha256: 4fb95122204baaec51ed7a3afec43a4da974cc8a0924dcc74b0c6f5c4f532610
 ---
 
 # Informal Learning Emerges in Everyday Human-LLM Interaction

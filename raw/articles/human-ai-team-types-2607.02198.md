@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2607.02198
 ingested: 2026-07-03
-sha256: 7e8f3a2b1c5d9e4f6a8b0c2d4e6f8a0b2c4d6e8f0a2b4c6d8e0f2a4b6c8d0e2f4
+sha256: 8c63e6393d813e034183927bed41464b78f3e01e439b550af888abad190e1d13
 ---
 
 # What Types of Human-AI Teams Exist?

@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2607.29380
 ingested: 2026-08-03
-sha256: TBD
+sha256: 1ce4010a7cbe236a2577b7aede501203954c3fd5cd8f85d6cb7b0a64cbfb2ffb
 ---
 
 # The Tragedy of the Cognitive Commons: How AI Could Disrupt the Regeneration of Professional Expertise

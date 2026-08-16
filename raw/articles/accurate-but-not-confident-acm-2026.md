@@ -1,7 +1,7 @@
 ---
 source_url: https://dl.acm.org/doi/10.1145/3772363.3798384
 ingested: 2026-06-22
-sha256: placeholder
+sha256: bbed1103baa218a0acd060c97ac0bc23c2c8a7c5c1e621723258a0a8874d59d6
 ---
 
 # Accurate but Not Confident or Confident but Not Accurate

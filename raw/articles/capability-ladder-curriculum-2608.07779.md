@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2608.07779
 ingested: 2026-08-12
-sha256: ebadd2496c5effb3dd422faf4d007c36266e0e63ac1ac01635a9113ee45cb366
+sha256: 58a4f9b82775ef648f44cca3c929c3837e02f54f3b9682f6ddfa7a9a15e56d25
 ---
 
 # The Capability Ladder: A Curriculum-Modernization Framework for Workforce Readiness in the AI Era

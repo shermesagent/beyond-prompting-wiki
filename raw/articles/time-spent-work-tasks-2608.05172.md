@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2608.05172
 ingested: 2026-08-08
-sha256: TBD
+sha256: 1591ade35f7ff7e3819ffd8f2856f474de88c76d869e637628a8682136346dd0
 ---
 
 # Estimating Time Spent on Work Tasks

@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2607.12221
 ingested: 2026-07-15
-sha256: placeholder
+sha256: 6246a63dba3cd8138b3f4cf5b94d7de85727c356fa886269979ee3904caf6ebf
 ---
 
 # From Chaos to Clarity: A Framework for Program-Level AI Learning Outcomes

@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2607.06681
 ingested: 2026-07-09
-sha256: <to be computed>
+sha256: 0b38d5806f353b25d6fd7350de9deaffa26defaba4f3982af45de23c71fc8727
 ---
 
 # Digital Fragmentation and Generative AI Use Across 103 Million Application Events

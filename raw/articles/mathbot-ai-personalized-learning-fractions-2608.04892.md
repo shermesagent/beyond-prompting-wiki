@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2608.04892
 ingested: 2026-08-06
-sha256: TBD
+sha256: 73e4c8fbd0fe1b3f1bec595c710b45b6c0561fba3f8cbfba755f3857c4526128
 ---
 
 # Exploring Fraction Comprehension and Interest in Elementary Education Through AI-Powered Personalized Learning

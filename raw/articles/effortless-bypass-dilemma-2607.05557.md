@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2607.05557
 ingested: 2026-07-08
-sha256: 9e7e3b1185fbb1f7b70d8f1252e9e9b27ccbdace9d9ef10ee5e8f80e30673263
+sha256: f6d451b5074f3a0fde5c3ad100424bc667e469b49a112869452e18dee0cf62a1
 ---
 
 # AIED's Unfinished Mission: Centering Agency and Motivation in the Age of Effortless Bypass

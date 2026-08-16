@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2608.10412
 ingested: 2026-08-12
-sha256: 834e15c59a5a68607eca8b5370fc7e349653d88028c22667f8f0f694354a3363
+sha256: 7cdfd4c07c694e93c7d36d97f4ddd9ec9239281835b116bdfa9ddac368470874
 ---
 
 # When the Interviewer Is a Bot: Behavior, Breakdowns, and Trust in MLLM-Led Interviews

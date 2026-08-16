@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2607.07522
 ingested: 2026-07-09
-sha256: <to be computed>
+sha256: a58e1902e12ecb8109c197d22c7426a047c2cc14e4bf49841547ce48bbaa1b43
 ---
 
 # Two-player Alternate Uses Test: A Controlled Testbed for Interactive Human-AI and Human-Human Co-Creation

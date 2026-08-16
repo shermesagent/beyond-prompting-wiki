@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2607.00420
 ingested: 2026-07-02
-sha256: TBD-recompute-on-lint
+sha256: 3c7531816d686d541badbaaba9076d8caa67d6f24ba9f46f956eab2c40b571af
 ---
 
 # A Simple Solution to Improving Human Supervision of Algorithms: Evidence from Smart Vending

@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2607.19355
 ingested: 2026-07-23
-sha256: infodiscern-2026-placeholder
+sha256: 88d9750f8ec9f0f02d4e04590c85e1ccc5435ac6937121feacccf716fed8b42f
 ---
 
 # Information Discernment in Large Language Models

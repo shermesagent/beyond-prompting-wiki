@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2607.20047
 ingested: 2026-07-23
-sha256: expmeta-2026-placeholder
+sha256: 1405801f9ec111dae90b5efd05d23fc555bc94ce83ad445756a168ddca119b29
 ---
 
 # Experiential Versus Instructional Approaches for Eliciting Metacognitive Awareness in AI-Assisted Learning

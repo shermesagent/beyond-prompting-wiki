@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2607.29274
 ingested: 2026-08-03
-sha256: TBD
+sha256: 305314be7211db6ff4de2a4f18c78119e9b2c4a01429be2937527c79d89b4f1c
 ---
 
 # Language Models Agree With Each Other, Not With Readers

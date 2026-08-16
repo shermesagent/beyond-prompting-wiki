@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2607.07521
 ingested: 2026-07-09
-sha256: <to be computed>
+sha256: bd18a6ec398615db852ad2d47ec41e5196fddfb9bd35835597251c4ba5cdbb06
 ---
 
 # Creativity from Friction: Human-AI Interaction for Exploratory Structural Design

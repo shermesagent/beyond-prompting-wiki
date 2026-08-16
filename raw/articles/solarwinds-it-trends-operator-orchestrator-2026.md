@@ -2,6 +2,7 @@
 source_url: https://www.solarwinds.com/campaign/it-trends
 ingested: 2026-06-25
 type: industry_survey
+sha256: e9d861748428576f84ed7d71ae176d11e27562bde338a21742eca15d329a1ec5
 ---
 # SolarWinds 2026 IT Trends Report: The Human Side of Autonomous IT
 

@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2607.13798
 ingested: 2026-07-16
-sha256: TBD
+sha256: 4a54f66db056bec63c9a273b9c6a74489138c078c5cd398c6e9f389dfe0317c1
 ---
 
 # Persona Migration and Expectation Recalibration in Generative AI Adoption: A Longitudinal Study at a State Department of Transportation

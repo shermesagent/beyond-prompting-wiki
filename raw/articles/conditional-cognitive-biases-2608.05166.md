@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2608.05166
 ingested: 2026-08-07
-sha256: TBD
+sha256: fbb8e28a9c2d678e6097eb99695f4b4e4fbf7366c70b1aba9504652a9897176f
 ---
 
 # Conditional Cognitive Biases in LLMs: How Biased User Turns Modulate In-Context Reasoning

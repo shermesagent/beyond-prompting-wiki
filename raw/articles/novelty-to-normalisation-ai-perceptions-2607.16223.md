@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2607.16223
 ingested: 2026-07-21
-sha256: TBD
+sha256: 52954f7eae51297d991d48d0a9a969c5ecd5a234a2c0b29ca6d7006152c2c1d4
 ---
 
 # From Novelty to Normalisation: Tracking Changing Perceptions of AI in Higher Education, 2024-2026

@@ -1,3 +1,8 @@
+---
+source_url: https://arxiv.org/abs/2607.27179
+ingested: 2026-07-30
+sha256: c7fd2245221f1dff90a4c089863716473d2e0f2a3ed2231306a84cb65d5a71b2
+---
 # The Social Cost of an AI Teammate: How an Artificial Teammate Reshapes Human-Human Communication in Small-Team Decision-Making
 
 **arXiv:** 2607.27179

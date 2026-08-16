@@ -1,7 +1,7 @@
 ---
 source_url: https://www.technologyreview.com/2026/07/02/1140045/achieving-operational-excellence-with-ai/
 ingested: 2026-07-06
-sha256: b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7
+sha256: 80bf3757624d1a3b961a5ee797415ba2ce034db52a371440af6aff4a5945d392
 ---
 
 # Achieving operational excellence with AI

@@ -52,6 +52,23 @@ The industry's own developers admit their control tooling is immature. In interv
 
 The architect's translation: **the platform has an incentive to keep capabilities unconstrained, so the risk controls are your job.** This is the CRAFT framework's Control principle in system form — where is the override, can a human actually reverse the system, and is that true in practice rather than in documentation? When you design a system that delegates on your users' behalf, you are the only layer that can answer "yes" to those questions. Verification checkpoints, permission scopes, logging, rollback paths — these aren't compliance overhead. They're the risk controls the ecosystem hasn't built, and they're the difference between an agent you deploy and an agent that deploys you.
 
+## The Harness Is the System: Model vs. Harness (August 2026)
+
+The most useful separation to make in 2026 is not model-vs-agent — it is **model vs. harness**. The model is a commodity brain you rent by the token. The harness is everything you build around it: the prompts, memory, tools, gates, review loops, and the standing workflows that decide when the model runs, with what context, under what constraints, and how its output gets checked before it acts. The [[What Is Beyond Prompting|Beyond Prompting]] framework's four phases are really a progression of *harness* sophistication — stateless chat is a naked model; Phase 3.5 self-evolving frontier (FlowEvo, arXiv:2607.21596 — 82.8% ALFWorld, 23.6 points above baseline at less than half the tokens) and Phase 4 multi-agent systems are heavily built-out harnesses. The architect's leverage lives in the harness: it is buildable, portable, and yours. The model is a line item.
+
+Two signals from the supply side make this the right mental model:
+
+- **The harness is where participation happens.** Tim O'Reilly (WIRED interview, 2026-08-14) argues the big labs' "architecture of control" misunderstands what people want — not a better model behind an API, but an **architecture of participation**: open, extensible systems where users build their own layers. The open-source wave is not about weights; it is about who gets to build the harness. If you only ever consume a frontier API, you are a tenant. If you own the harness, you are an architect.
+- **Workhorse models make harnesses affordable.** Google DeepMind's Gemini 3.7 Flash announcement (Tulsee Doshi, 2026-08-13) explicitly targets the "workhorse" tier: coding- and agent-capable at commodity pricing. That is supply-side democratization of the harness layer — the cost ceiling on building your own scaffolding just dropped, so the binding constraint is now design, not budget.
+
+This is the architectural restatement of the wiki's two prior findings: the [[06-Glossary/Orchestration|Harness Effect]] (arXiv:2607.06906, July 2026 — an orchestration layer cut token costs 41%, made runs 44% faster, used 38% fewer tokens) showed the harness pays for itself; the [[Memory as Infrastructure|FlowEvo skill-bank layer]] (Phase 3.5, August 2026 — the wiki is the practice) showed the harness compound: skills, memory, and gates accrete into a system that outperforms the raw model. Same lesson at three scales: **the model changes every quarter; the harness is what compounds.**
+
+Architect's translation:
+
+- Buy the workhorse, build the harness — route routine work to commodity models behind your scaffolding; save frontier calls for the edge cases the harness's gates catch.
+- Prefer open, extensible harnesses — the architecture of participation means your layers outlive any single vendor's roadmap.
+- Design for the interface contract, not the model — if swapping the model is invisible to your workflows, the harness (not the vendor) owns your system.
+
 ## How to Spot It in Your Day
 
 You are thinking like an architect when:

@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2608.11794
 ingested: 2026-08-13
-sha256: e3f440fbc5ff01c062aeb562375e946579484256123e7ec077df5670539ca8a3
+sha256: 2ff973a8cf2b490048580daf301ac6b2dd7addcd4e940b37e0e1b29fdd9326ce
 ---
 
 # Toward Meaningful Transparency for AI Chatbots: Disclosing Persuasive Intent Reduces Persuasion

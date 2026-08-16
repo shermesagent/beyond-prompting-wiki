@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2608.04006
 ingested: 2026-08-05
-sha256: TBD
+sha256: 8c2a710020f68bd20ea56e0fcf47ab90e4966d4eaaf47f70b8d8605565945492
 ---
 
 # Calibrating Trustworthiness: Co-Designing Metrics and Visualizations for Evaluating LLMs in Education

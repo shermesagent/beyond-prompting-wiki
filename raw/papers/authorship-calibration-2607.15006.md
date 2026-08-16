@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2607.15006
 ingested: 2026-07-17
-sha256: a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9
+sha256: 99823b21c3af913d7d3d265d806fb892abb3bebdf78f2b88fa7e64c90a304697
 ---
 
 # When AI Blurs the Boundaries of Contribution: An Empirical Study of Authorship Calibration

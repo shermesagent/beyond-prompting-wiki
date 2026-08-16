@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2607.13562
 ingested: 2026-07-16
-sha256: TBD
+sha256: 05b117ac27dd10eeff68a32576f0f4a682c22bec68574ce19d64e11377b754a7
 ---
 
 # AI advice suppresses people's willingness to say "I don't know", even when the advice is wrong and accuracy is incentivized

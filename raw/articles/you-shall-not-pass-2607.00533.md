@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2607.00533
 ingested: 2026-07-02
-sha256: TBD-recompute-on-lint
+sha256: 53fc37f0a8031d586c12e78e5313c3aa215c8ad83bb7910e05bb9ad66291d98f
 ---
 
 # You Shall Not Pass! Where and Why Developers Draw The Line on AI Autonomy

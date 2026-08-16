@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2607.17947
 ingested: 2026-07-21
-sha256: TBD
+sha256: ce6e638826701b61d0fb71e78f86c7a12bcf38d8279bc2fb0d23c9bdd3237f02
 ---
 
 # The Autonomous Agency Scale: A Behavioral Framework for Measuring Self-Directed Behavior in AI Systems

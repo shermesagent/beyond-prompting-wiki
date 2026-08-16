@@ -1,7 +1,7 @@
 ---
 source_url: https://arxiv.org/abs/2607.13285
 ingested: 2026-07-17
-sha256: c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1
+sha256: 1baae819c49430dd7022ad2e870ebe4659f23057762cf0eefc2465ba0982caf3
 ---
 
 # Harness Handbook: Making Evolving Agent Harnesses Readable, Navigable, and Editable
