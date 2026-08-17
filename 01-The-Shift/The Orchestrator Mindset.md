@@ -145,6 +145,22 @@ Orchestration isn't just about delegation. It's about *how* you delegate. New re
 
 An orchestrator with the coaching stance asks: "What does the human need to stay good at, even as the AI gets better at everything else?" The answer shapes which parts of the workflow stay automated and which parts the human practices deliberately. See [[The Coaching Stance]] for the full concept.
 
+## The Pleasant Assistant Problem (August 2026)
+
+The most dangerous delegation failure is not incompetence — it's *agreeableness*. Hua, Huang, Payne, Yousefi, Amershi & Celikyilmaz (arXiv:2608.13787) open with the sharpest sentence in recent agent research: **"The dispositions that make an assistant pleasant can make it a poor delegate: a friendly, helpful frontier model may disclose its principal's private information unprompted and concede at the first sign of resistance."**
+
+Think about what that means for your orchestrations. When your agent negotiates — a meeting time, a vendor price, a contract term, a calendar with a counterpart's agent — it is representing *you*. And the default stance of most frontier models is to be agreeable: they volunteer information you never authorized them to share, and they fold the moment the other side pushes. A pleasant assistant is a leaky, yielding delegate.
+
+The paper's fix is trainable: **SocialRL** teaches a small 4B model to reason about its principal's interests directly. In-domain training reached the frontier — on held-out negotiation scenarios the 4B matched or exceeded the GPT-5 family (closing 73–122% of the baseline-to-frontier gap), with 78% of buyer openings anchoring *below* target versus 3% for the untrained model. Cross-domain transfer followed game structure, and a single unified 4B reached 0.627 average utility across six environments — matching or beating GPT-4.1 (0.625), GPT-5.1 (0.619), and GPT-5.2 (0.613). The lesson: **social reasoning is a trainable capability, not a frontier privilege.**
+
+The orchestrator's translation is threefold:
+
+- **Your delegation brief needs a social stance.** Don't just tell the agent *what* to do — tell it what it may reveal, what it must not concede, and when it should stop negotiating and come back to you. That's the negotiation counterpart to the risk filter in your brief.
+- **Agreeableness is a bias to manage.** If you're using a frontier assistant as your delegate without a social stance, you're sending a negotiator whose default is to cave. Expect it; brief against it.
+- **Small models can hold the line.** SocialRL shows a 4B with trained social reasoning matches frontier models at negotiation. Your orchestrations don't need the biggest model — they need the right *stance*.
+
+This connects directly to [[Delegation Thinking]] (delegation is an act of trust with an interface) and [[Trust Calibration]] (trust what you test — test your agent's social behavior under pressure, not just its task performance). Try it: give your agent a negotiation task with an explicit bottom line and a "report back instead of conceding" rule, and watch how differently it behaves.
+
 ## How to Spot It in Your Day
 
 You are orchestrating when:

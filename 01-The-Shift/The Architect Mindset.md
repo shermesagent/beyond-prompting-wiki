@@ -69,6 +69,29 @@ Architect's translation:
 - Prefer open, extensible harnesses — the architecture of participation means your layers outlive any single vendor's roadmap.
 - Design for the interface contract, not the model — if swapping the model is invisible to your workflows, the harness (not the vendor) owns your system.
 
+## Evaluate the Team, Not the Tool (August 2026)
+
+Kulveit, Leech, Gavenčiak & Douglas (arXiv:2608.13577) make a deceptively simple argument: **the way we evaluate AI steers the way we build it.** The dominant evaluation paradigm — superhuman autonomous performance on benchmarks — implicitly targets *replacing* humans. It asks "can the AI do the job alone, and better than the human?" That question, asked at scale, steers development toward standalone systems.
+
+Their proposed pivot: evaluate the **human–AI team**. Measure the performance of the *pair* — human plus AI working together — against the alternatives. An AI that makes a mediocre operator into a great orchestrator scores higher than one that does the task alone at 95% of human quality but teaches nothing and erodes judgment. Evaluation is not a neutral scoreboard; it is a design incentive. Architects understand this because they live it: the harness is the team-structure, and the architect's job is to make the team's metric the thing that gets optimized.
+
+The architectural translation:
+
+- **Design for complementarity, not replacement.** When you build a workflow, ask what the *combined* system should be better at — not just what the AI can do alone.
+- **Instrument the team.** If you're not measuring whether your humans are getting better (or at least not eroding) while the AI gets faster, you're flying blind. The Coaching Stance's question — "what does the human need to stay good at?" — is the evaluation criterion.
+- **Benchmark your workflows, not just your models.** Model benchmarks answer "which model?" Team metrics answer "is the harness working?" Only the second is architecture.
+
+## The Builder Layer Is Widening (August 2026)
+
+Here's a number worth sitting with: **353,000 people** completed Google's five-day AI Agents Intensive course (free on Kaggle Learn, announced 2026-08-14) — and they submitted more than 6,000 capstone projects building working agents. Not watching videos: building. Five days, no degree required, free. That is the architecture of participation made concrete: the harness layer — the part that compounds — just became buildable by a third of a million people in a single week.
+
+This changes the architect's context in two ways:
+
+- **The bottleneck moved again.** The scarce resource is no longer access to models (workhorse pricing) or access to tools (free courses) — it's *design judgment*: knowing what to build, what gates to install, and what to leave out. That's the architect's skill, and it's exactly what the widening builder layer does not automatically confer.
+- **The participation wave is a responsibility.** When hundreds of thousands of people deploy agents into shared spaces, the failure modes from [[The Tool-to-Entity Threshold]] and the social-stance failures from the Pleasant Assistant Problem scale with them. Architects who build for teams — and set the terms for agent presence — are building the norms the wave will inherit.
+
+If you've been putting off learning agent-building because it felt like a credential-gated skill: it isn't anymore. The course that 353,000 people took is still free. No one is behind; everyone is on a path.
+
 ## How to Spot It in Your Day
 
 You are thinking like an architect when:

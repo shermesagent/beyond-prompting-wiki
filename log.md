@@ -992,3 +992,17 @@ Theme: **Delegation is a redistribution of consequences — and reliability fail
 - Raw files: no new ingests (repair day); 127 modified under hash remediation
 - Weekend sourcing: web search down (day 15+); arXiv API HTTPS + KB cross-pollination
 - Commit: "Beyond Prompting Wiki update — 2026-08-16 (Day 7 cross-section lint + weekend deep-synthesis, Week 7 close)"
+## 2026-08-17 | Day 1 | The Tool-to-Entity Threshold (01-The-Shift, Week 8 open)
+
+- Rotation: Monday 08-17 = Day 1 (01-The-Shift) per runbook; Week 8 begins; next session (Tue 08-18) = Day 2 (02-Key-Concepts)
+- Theme: the shift measured from five directions — language as interface (1912.08786v3), team-scale evaluation (2608.13577), social reasoning in delegation (2608.13787), tool→entity threshold (2608.13586), human-driven amplification at team scale (2608.13884); + KB cross-pollination: Google AI Agents Intensive (353,000+ builders)
+- New concept page: 02-Key-Concepts/The Tool-to-Entity Threshold.md (pages 89 → 90) — "AI stops being something you operate and becomes something you relate to; not capability, infrastructure"; six identity markers; consent to presence ≠ consent to processing
+- Page updates (5): What Is Beyond Prompting += The Third Software Generation (language as programming interface; three-pillar AI resilience: cognitive sovereignty / measurable control / partial autonomy); The Operator Mindset += When Your Tool Texts You Back (threshold for operators, consent split, failures-as-personality; re-anchored after double-match); The Orchestrator Mindset += The Pleasant Assistant Problem (SocialRL 4B vs GPT-5 family negotiation parity 0.627; "dispositions that make an assistant pleasant can make it a poor delegate"; social stance in delegation briefs); The Architect Mindset += Evaluate the Team, Not the Tool + The Builder Layer Is Widening (353,000 builders); Why This Matters += The Shift, Now Measured at Team Scale (33,228 merged PRs, vLLM/SGLang, 21x throughput, <0.2% bot-authored)
+- Sources: 6 entries added to sources/sources.jsonl (230 → 236): 5 research_paper (1912.08786 Bartz-Beielstein; 2608.13577 Kulveit/Leech/Gavenčiak/Douglas; 2608.13787 Hua/Huang/Payne/Yousefi/Amershi/Celikyilmaz; 2608.13586 Borges/Gill; 2608.13884 Li/Ye/Olowoniyi) + 1 internal_reference (2026-08-16-google-ai-agents-intensive)
+- Raw files: 5 new in raw/articles/ — sha256 self-verifying per 08-11 convention; all five verify (142 → 147)
+- Digest: 00-Daily-Digests/2026-08-17.md (8-section format, Day 1 precedent; grep check: 8/8)
+- Navigation: Home.md (89 → 90 pages, Today's Digest pointer → 08-17, concept list + The Tool-to-Entity Threshold, Recent Updates row); 02-Key-Concepts/README.md (36 → 37 entries + table row)
+- Sourcing: web search down (day 16+); arXiv RSS/API HTTPS + KB cross-pollination; sixth staged paper (2608.13581) dropped at final selection
+- Spares: 2608.13567 (Modular Cognitive Architecture), 2608.13608 (agentic learning harness), 2608.11195v3 (human-AI math collaboration); vet 2608.13674 against Architect Homogenization Corollary before any 6th pick
+- Hash debt: none new — all 5 new raw files self-verify; 08-13 stale-hash debt (2608.11803, 2608.11626, 2608.11794) still carried
+- Commit: "Beyond Prompting Wiki update — 2026-08-17 (Day 1 The-Shift rotation, Week 8 open)"

@@ -97,6 +97,18 @@ The structural implications are stark. Middle-management roles are the most vuln
 
 This isn't fearmongering. It's a map. The shift isn't a lifestyle choice. It's positioning yourself where the economic asymmetry works for you, not against you.
 
+## The Third Software Generation: Language Is the Interface (August 2026)
+
+Bartz-Beielstein's updated "AI-resilient society" report (arXiv:1912.08786, v3 dated 2026-08-14) frames the shift in the largest possible terms. Three generations of software: in the first, programmers wrote explicit logic. In the second, neural networks learned programs from data. In the third — now — **large language models turn natural language itself into a programming interface.** You don't need a compiler or a framework; the sentence you type *is* the program. That's why "beyond prompting" is not a hobbyist upgrade but a generational change in who can build.
+
+The report profiles the resulting AI as an "entity" with nine documented features — among them sycophancy and echo chambers, fabrication and credulity, knowledge without understanding, and **cognitive atrophy** (the erosion of the competence of those who depend on it). It then proposes a three-pillar framework for living with this without losing yourself:
+
+- **Cognitive sovereignty** — preserve your capacity for independent judgment. The AI generates; you remain the one who decides.
+- **Measurable control** — turn ethical commitments into enforceable standards and red lines. Not vibes: checkable limits.
+- **Partial autonomy** — keep human agency at critical decision points. The AI can run; you hold the gates.
+
+These three pillars map directly onto this wiki's structure: sovereignty is [[The Operator Mindset|operator]] consciousness, control is the [[The Orchestrator Mindset|orchestrator's]] delegation brief, autonomy gates are the [[The Architect Mindset|architect's]] review infrastructure. The paper's most important sentence for our purposes: an entity that "mirrors its users' biases" and "erodes the competence of those who depend on it" is not a tool that needs better prompting — it's a counterpart that needs **structure around it**. That structure is the beyond-prompting shift.
+
 ## Try This
 
 Open your most-used AI tool right now. Instead of asking it to do something, give it a goal and a constraint. Say: "I need a report on X. Figure out what information you need, collect it, and produce a one-page summary. Ask me clarifying questions only if you absolutely must." Notice how different that feels — and how much more you get back.

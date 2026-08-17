@@ -88,6 +88,19 @@ This is the operator trap at the cognitive level, and it's the same mechanism th
 
 The operator's countermove is cheap: **make the goal concrete before you delegate it.** If you can't explain what you want in one sentence to a colleague, the AI will choose your goal for you — that's Fantasia. Write the sentence first. You're not adding friction; you're keeping the thinking that the AI would otherwise skip. The orchestrator doesn't outsource the abstract→concrete step. They do it — or explicitly ask the AI to do it *with* them, as a partner in refinement rather than a machine that jumps to the end.
 
+## When Your Tool Texts You Back (August 2026)
+
+There's a moment operators start noticing: the agent has a name now. An avatar. A phone number. It sits in the same group chat as your team, and people talk *to* it. Borges & Gill (arXiv:2608.13586) name this moment — **the tool-to-entity threshold** — and it matters for operators specifically, because operators are the first people to experience it.
+
+The researchers identify six design markers that flip a tool into a social entity — naming, visual identity, contact presence, personality, social co-presence, persistence — and they trigger the flip **independently of how capable the model is**. A weak model with a name and a seat in your group chat is still an entity to the people in that chat. The threshold isn't about intelligence; it's about infrastructure and presence.
+
+Two consequences land squarely on operators:
+
+- **Consent splits.** In shared spaces, consent to an agent's *presence* is categorically different from consent to its *processing* of what's said there. "Sure, the bot can join" is not "the bot may read, store, and act on everything we say." If you put an agent in a shared channel, you're delegating on behalf of everyone in it — whether they agreed or not.
+- **Failures become personality.** An entity's errors get read as quirks ("Alex is being stubborn again") instead of system faults. That's how operators stop auditing the thing they run.
+
+The operator's move isn't to fear the threshold — it's to *cross it deliberately*. If your agent has a name, decide what it's allowed to do with the conversations it joins. That decision is the operator-level version of the shift: the moment your tool becomes a presence, running it becomes stewardship. See [[02-Key-Concepts/The Tool-to-Entity Threshold|The Tool-to-Entity Threshold]] for the full framework.
+
 ## The Self-Check: Where Are You on the Shift?
 
 Use the four SolarWinds dimensions to locate yourself:

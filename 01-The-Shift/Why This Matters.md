@@ -56,6 +56,19 @@ The shift isn't just about what you can produce with AI. New research shows AI-m
 
 This wiki matters because it's not just a productivity playbook. It's a guide to navigating the shift *without losing yourself in it*. The orchestrator who can still think deeply without AI is the one who stays relevant. See [[Cognitive Surrender]] and [[The Augmentation Trap]] for the full picture.
 
+## The Shift, Now Measured at Team Scale (August 2026)
+
+If you want the hardest numbers yet that the shift is real — and that it is *human-driven* — look at Li, Ye & Olowoniyi's longitudinal study of two high-velocity open-source AI projects (arXiv:2608.13884). Across **33,228 merged pull requests** in vLLM and SGLang (Feb 2023–June 2026):
+
+- **PR throughput increased 21x (vLLM) and 17.9x (SGLang)** across four eras of AI-assisted development.
+- **Bot-authored PRs accounted for less than 0.2% of that growth.** The explosion of output was overwhelmingly *human*-driven — humans using AI to build, not AI replacing humans.
+- Median cycle time dropped to **1.04 days** (vLLM) and **0.62 days** (SGLang); monthly unique authors rose steadily — *more* people participating, not fewer.
+- PR comment density increased **4.2x** (vLLM) and **3.8x** (SGLang) — richer review discussion, not less, with bots contributing an estimated 15–20%.
+
+Read that again: the teams that embraced AI-assisted development did not get replaced, did not get quieter, and did not shrink. They got **21x faster while reviewing harder**. The amplification is a *human* outcome — which is precisely the point of the [[The Architect Mindset|architect's]] "evaluate the team, not the tool" principle: the unit that compounds is the human–AI pair, not the AI alone.
+
+This is also the cleanest evidence for why the shift is a *mindset* shift rather than a tooling shift. The same tools that produce 21x throughput in one team produce plateaus in another — because throughput tracks what the humans *do* with the harness, not which model they rent. The leverage isn't in the prompt. It's in the orchestration.
+
 ## How to Spot It in Your Day
 
 You know this matters to you when:
