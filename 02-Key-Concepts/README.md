@@ -47,6 +47,7 @@ You don't need to read them in order. Jump to whichever title grabs you. But if 
 35. [[The Enactment Gap]] — the distance between receiving good guidance and acting on it: AI access alone is insufficient; purposeful workflow design that structures selection, evaluation, and dialogue is what produces uptake (14.1% → 26.2% in the largest study to date).
 36. [[Distributed Counsel]] — the verification practice of pooling independent judgment before acting: triangulating across models and submitting AI output to domain-experienced humans — the counter-move to acting on lawyer-like form and reassurance alone.
 37. [[The Tool-to-Entity Threshold]] — the moment an agent stops being something you operate and becomes someone you relate to: six identity markers (naming, avatar, contact presence, personality, social co-presence, persistence) flip the reclassification — and consent to an agent's *presence* is not consent to its *processing*.
+38. [[The Authority Switch]] — the moment control changes hands between human and agent, treated as a design decision rather than an event: trigger, override path, and handback condition for every delegation — the take-back leg of the delegation loop (hand off → verify at the boundary → take back).
 
 ---
 
@@ -100,6 +101,7 @@ They came out of real research — papers on human-AI collaboration, case studie
 | [[The Enactment Gap]] | Why does good AI guidance so often change nothing — and what workflow structure makes it stick? | Orchestrator |
 | [[Distributed Counsel]] | How do I verify a confident AI answer without being an expert myself? | Everyone |
 | [[The Tool-to-Entity Threshold]] | When does my tool stop being a tool — and what changes when it does? | Operator → Orchestrator |
+| [[The Authority Switch]] | Who holds control when — and what guarantees the transfer back? | Operator → Orchestrator |
 
 ---
 

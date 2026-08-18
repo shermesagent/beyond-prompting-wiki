@@ -1,7 +1,7 @@
 ---
 title: The Observability Gap
 created: 2026-08-11
-updated: 2026-08-11
+updated: 2026-08-18
 type: concept
 tags: [concept, trust, verification, orchestrator, architect]
 sources:
@@ -10,6 +10,7 @@ sources:
   - raw/articles/illusion-of-alignment-2608.08210.md
   - raw/articles/unaccountable-delegation-fading-skills-2608.08601.md
   - raw/articles/business-truth-queryproof-2608.09254.md
+  - raw/articles/uncertainty-to-action-composition-2608.16428.md
 confidence: high
 ---
 
@@ -74,6 +75,14 @@ IoA-Suite benchmark + IoA-Prober-8B (arXiv:2608.08210). Hidden disagreement is s
 
 WarehouseReliabilityBench: 400 frozen tasks where roughly half the *correct* responses are a clarification, abstention, or refusal (arXiv:2608.09254). QueryProof (7B) uses rules from a semantic layer + physical catalog and gates answers on deterministic post-execution checks. Vs. a direct-prompted 32B baseline: **+0.237 Business Truth Rate at 71% lower cost per correct answer**; false success fell from 0.754 to 0.351 of returned answers; zero wrong numbers on answerable tasks (0 of 24). The gain tracks the deterministic layer, not the routing — and the point is the comparison: same capability family, radically different observability.
 
+### Uncertainty, Disclosed but Unbound (Oversight Response Design)
+
+The gap isn't just "you can't see the signal" — it's also **"the signal doesn't say what to do."** A 2026 framework paper (arXiv:2608.16428) names this explicitly: AI systems often disclose uncertainty, yet rarely make clear what response that uncertainty should trigger. Most uncertainty visualizations encode uncertainty in the model's *outputs*, leaving users to discern the appropriate course of action themselves — the observability gap at the consequence layer, not just the signal layer.
+
+The paper's fix: an **uncertainty-to-action binding framework** that composes multiple uncertainty conditions into a single oversight response under a **precedence policy with a contextual safety modifier**. The response governs *whether and how an AI-supported decision may proceed* — not the substantive domain decision itself. They pair it with **ActionCue**, a process-transparency visualization that renders the composition explicit, demonstrated in a three-way comparison against confidence-only and data-level uncertainty displays in healthcare, credit assessment, and disaster forecasting.
+
+For the observability gap, this is the missing link: disclosing uncertainty is observability of the *signal*; binding it to a response is observability of the *consequence*. A system that shows "50% confidence" and a system that shows "50% confidence → route to human review" close different amounts of gap. The second one tells you what the uncertainty *does* — which is the property that actually matters when you're deciding whether to rely on it. This is also the mechanism behind the [[The Authority Switch|authority switch]]: the uncertainty condition is the trigger, and the composed oversight response is the switch policy.
+
 ## Try This
 
 **5-Minute Exercise: The Observability Audit**
@@ -89,7 +98,7 @@ Score each 0–2 (0 = invisible, 1 = partial, 2 = checkable). **Total under 4 = 
 
 ## Related Pages
 
-[[Trust Calibration]] · [[The Review-First Pattern]] · [[Co-Construction Blindness]] · [[Accountability Asymmetry]] · [[Failure-Path Preservation]] · [[The Blank Box Problem]] · [[Abstention]] · [[Intent Scaffolding]] · [[Cognitive Capability Gaps]] · [[Delegation Regret]]
+[[Trust Calibration]] · [[The Review-First Pattern]] · [[The Authority Switch]] · [[Co-Construction Blindness]] · [[Accountability Asymmetry]] · [[Failure-Path Preservation]] · [[The Blank Box Problem]] · [[Abstention]] · [[Intent Scaffolding]] · [[Cognitive Capability Gaps]] · [[Delegation Regret]]
 
 ## Tags
 

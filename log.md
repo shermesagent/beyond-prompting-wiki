@@ -1006,3 +1006,17 @@ Theme: **Delegation is a redistribution of consequences — and reliability fail
 - Spares: 2608.13567 (Modular Cognitive Architecture), 2608.13608 (agentic learning harness), 2608.11195v3 (human-AI math collaboration); vet 2608.13674 against Architect Homogenization Corollary before any 6th pick
 - Hash debt: none new — all 5 new raw files self-verify; 08-13 stale-hash debt (2608.11803, 2608.11626, 2608.11794) still carried
 - Commit: "Beyond Prompting Wiki update — 2026-08-17 (Day 1 The-Shift rotation, Week 8 open)"
+## 2026-08-18 | Day 2 | The Authority Switch (02-Key-Concepts, Week 8)
+
+- Rotation: Tuesday 08-18 = Day 2 (02-Key-Concepts) per runbook; Week 8 day 2; next session (Wed 08-19) = Day 3 (03-Real-World)
+- Theme: the delegation loop — hand off, verify at the boundary, take back; five papers supply the loop's missing mechanisms: switching policy for control (2608.16293), boundary-gate quantification (2608.14588), uncertainty as gate trigger (2608.14659), oversight-response binding (2608.16428), narrative-elicited anxiety (2608.14609)
+- New concept page: 02-Key-Concepts/The Authority Switch.md (pages 90 → 91) — control transfer as a design object, not an event; trigger / override path / handback condition for every delegation; asymmetric authority + stochastic human override from the shared-autonomy framework; boundary-verification evidence cross-linked from the snowball study
+- Page updates (3): The Observability Gap += Uncertainty, Disclosed but Unbound (uncertainty-to-action binding, precedence policy + contextual safety modifier, ActionCue; observability of the consequence; sources 5 → 6, updated 08-18); The Review-First Pattern += Verify at the Boundary, Not at the End (snowball 58.4% → 16.2% boundary vs end-checking, verify-early allocation; uncertainty degrades self-correction 5/6 configs, verification-based regeneration +6–26pp; sources 2 → 4, updated 08-18); Fear of Losing Control += The Fear, Elicited: AI Anxiety Is Contagious by Narrative (RCT N=316 + replication N=995, moderated by perceived usefulness)
+- Sources: 5 entries added to sources/sources.jsonl (236 → 241), all research_paper: 2608.16293 (Banik & Hovakimyan), 2608.16428 (Anyabolu/Dubey/Hattab), 2608.14588 (Singh & Pawar), 2608.14659 (Rakasi et al.), 2608.14609 (Grobelny/Klakus/Szymański/Chirkowska-Smolak); 2608.16293 pages_linked → 02-Key-Concepts/The Authority Switch
+- Raw files: 5 new in raw/articles/ — sha256 self-verifying per locked 08-11 convention; all five verify (147 → 152)
+- Digest: 00-Daily-Digests/2026-08-18.md (8-section format; grep check: 8/8)
+- Navigation: Home.md (90 → 91 pages, Today's Digest pointer → 08-18, concept list += The Authority Switch, Recent Updates 08-18 row); 02-Key-Concepts/README.md (37 → 38 entries + table row)
+- Sourcing: web search down (day 17+); arXiv RSS/API HTTPS + KB cross-pollination; sixth staged paper (2608.15550 M365 digital-trace) dropped at final selection — aggregate work-practice shift, overlaps Day 1 team-scale theme, no handoff/verification payload
+- Spares: 2608.13567 (Modular Cognitive Architecture), 2608.13608 (agentic learning harness), 2608.11195v3 (human-AI math collaboration); vet 2608.13674 against Architect Homogenization Corollary before any 6th pick; cross-pollination repeats circulating: 2608.11344, 2608.11955
+- Hash debt: none new — all 5 new raw files self-verify; 08-13 stale-hash debt (2608.11803, 2608.11626, 2608.11794) still carried
+- Commit: "Beyond Prompting Wiki update — 2026-08-18 (Day 2 Key-Concepts rotation, Week 8)"

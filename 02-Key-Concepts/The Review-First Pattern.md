@@ -1,10 +1,10 @@
 ---
 title: The Review-First Pattern
 created: 2026-06-30
-updated: 2026-06-30
+updated: 2026-08-18
 type: concept
 tags: [concept, workflow, orchestrator]
-sources: [raw/articles/viktor-agents-cannot-do-2026.md, raw/articles/automation-boundaries-2026.md]
+sources: [raw/articles/viktor-agents-cannot-do-2026.md, raw/articles/automation-boundaries-2026.md, raw/articles/hallucination-snowball-2608.14588.md, raw/articles/uncertainty-isnt-enough-self-correction-2608.14659.md]
 confidence: high
 ---
 
@@ -85,11 +85,20 @@ There's a policy dimension to this pattern that matters for anyone in an institu
 
 The review-first pattern isn't just a productivity technique. It's an accountability technique. Every agent action should have a clear human authorization trail. "Who decided that, and when?" should have an answer. The review point is where that answer lives.
 
+## Verify at the Boundary, Not at the End
+
+Two 2026 studies sharpen the review-first pattern from "review the output" to **"review at the handoffs."**
+
+- **The Hallucination Snowball** (arXiv:2608.14588): sequential multi-agent pipelines that chain specialized agents *without verification at handoffs* have a structural flaw. Errors don't merely persist — they transform: raw numerical facts become derived computations, then narrative prose, then editorially approved conclusions. Detectability degrades near-irreversibly at each step (per-boundary escape probabilities 24.6%, 48.3%, 89.3%). In 346 injected hallucinations across a 4-agent financial pipeline, boundary gates using *identical* RAG verification tools cut hallucination survival from 58.4% to 16.2% versus end-of-pipeline checking (Cohen's h = −0.911, p < 0.000001) — while end-checking alone beat no verification by just 2.3 percentage points. The paper's one-liner is this pattern in its strongest form: **when you verify matters more than whether you verify.** Its allocation rule: verify early (at S1→S2, where 75.4% of hallucinations are still catchable), not late (at S3→S4, where 89.3% have already escaped).
+- **When Uncertainty Isn't Enough** (arXiv:2608.14659): uncertainty signals are poor substitutes for verification but good *triggers* for it. Five uncertainty methods across three small code LLMs: multi-sample P(True) correlated strongest with correctness, but uncertainty-based self-correction actually *degraded* Pass@1 in 5 of 6 configurations (−3 to −10pp). Verification-based regeneration — using the signal to decide *when to run a costlier verification loop* rather than to fix output directly — reliably improved Pass@1 (+6 to +26pp on HumanEval, +8 to +20pp on BigCodeBench), scaling inversely with baseline strength. Cheap signals should gate expensive checks, not replace them.
+
+Both studies land on the same design rule: the review point belongs **at each boundary between agents and between agent and human** — not once, at the end. This extends the review-first pattern from a single-draft workflow to the whole pipeline. Your review isn't the last step; it's a repeated switch that fires at every handoff — the same mechanism the [[The Authority Switch|authority switch]] formalizes.
+
 ---
 
 ## Related Pages
 
-[[From Prompt to Pipeline]] · [[From Author to Editor]] · [[Trust Calibration]] · [[Delegation Thinking]] · [[Human in the Loop]] · [[Friction by Design]] · [[The Collapse Pattern]] · [[The Sequencing Principle]] · [[02-Key-Concepts/README|02 — Key Concepts]]
+[[From Prompt to Pipeline]] · [[From Author to Editor]] · [[Trust Calibration]] · [[Delegation Thinking]] · [[The Authority Switch]] · [[Human in the Loop]] · [[Friction by Design]] · [[The Collapse Pattern]] · [[The Sequencing Principle]] · [[02-Key-Concepts/README|02 — Key Concepts]]
 
 ## Tags
 

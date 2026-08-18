@@ -110,6 +110,19 @@ The fear that the tool "changes under you" is the most rational fear on this pag
 
 ---
 
+## The Fear, Elicited: AI Anxiety Is Contagious by Narrative
+
+An August 2026 paper (arXiv:2608.14609) provides the first causal evidence about where AI job-replacement anxiety comes from — and it's not direct experience of displacement. Drawing on Integrated Fear Acquisition Theory and the Technology Acceptance Model, the researchers tested whether anxiety can be elicited through **vicarious exposure to narratives emphasizing AI-over-human control** — stories where the AI is in charge and the human loses control.
+
+- **Study 1** (randomized experiment, N = 316): exposure to such narratives *increased* AI job replacement anxiety. The effect was moderated by perceived usefulness of AI — people who saw AI as useful felt less anxious — but not by perceived ease of use, and it held after controlling for core self-evaluations.
+- **Study 2** (observational, N = 995): replicated the association between perceived AI-over-human control and job replacement anxiety, with convergent evidence for the moderating role of perceived usefulness.
+
+What this means for the fear of losing control: **the fear is a perceptual response to how AI agency is narrated, not a direct readout of labor-market reality.** The story "AI is in control now" — in coverage, demos, or your own org's messaging — is itself the stimulus. That cuts both ways. It means the fear can be triggered by narratives that overstate AI agency; the "AI elite" framing from earlier on this page is exactly such a narrative. And it means the antidote is partly narrative too: perceived usefulness is the moderator that cushions the response. Delegation that makes the AI's usefulness *to you* concrete — the boundary table, the verification loop, the world's smallest delegation — isn't just good practice; it's the empirically supported counter-stimulus to fear acquisition.
+
+**Source:** arXiv:2608.14609 — "Understanding AI Anxiety in the Workplace" (Grobelny, Klakus, Szymański & Chirkowska-Smolak).
+
+---
+
 ## Related Pages
 
 [[The Just Ask ChatGPT Trap]] · [[Trust Calibration]] · [[Prompt as Safety Blanket]] · [[Delegation Thinking]] · [[Task Decomposition]] · [[Psychological Debt]] · [[Silent Updates]] · [[No One to Blame]]
