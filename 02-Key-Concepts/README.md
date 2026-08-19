@@ -43,11 +43,12 @@ You don't need to read them in order. Jump to whichever title grabs you. But if 
 31. [[Repair Literacy]] — the skill of learning from AI breakdowns: repair work during failures produces the deepest understanding of what a system can and cannot do.
 32. [[The Observability Gap]] — the mismatch between the cues you can see and the properties that matter for reliance: disclaimers that backfire, trust calibrated on surface cues, and the rule-gated fix that makes the checkable visible.
 33. [[The Capability Ladder]] — the five-rung scale of AI operational autonomy (trigger → automation → workflow → agent → agent team) and the supervision each rung requires — a curriculum and a personal diagnostic for the operator → orchestrator → architect path.
-34. [[Silent Updates]] — the deployed system that changes under you without a version or disclosure: no provider lets you verify the served artifact matches its documentation — the disclosure gap that makes calibration provisional and oversight blind.
-35. [[The Enactment Gap]] — the distance between receiving good guidance and acting on it: AI access alone is insufficient; purposeful workflow design that structures selection, evaluation, and dialogue is what produces uptake (14.1% → 26.2% in the largest study to date).
-36. [[Distributed Counsel]] — the verification practice of pooling independent judgment before acting: triangulating across models and submitting AI output to domain-experienced humans — the counter-move to acting on lawyer-like form and reassurance alone.
-37. [[The Tool-to-Entity Threshold]] — the moment an agent stops being something you operate and becomes someone you relate to: six identity markers (naming, avatar, contact presence, personality, social co-presence, persistence) flip the reclassification — and consent to an agent's *presence* is not consent to its *processing*.
-38. [[The Authority Switch]] — the moment control changes hands between human and agent, treated as a design decision rather than an event: trigger, override path, and handback condition for every delegation — the take-back leg of the delegation loop (hand off → verify at the boundary → take back).
+34. **[[Scaffold, Don't Substitute]]** — the teacher-research pattern: AI should hold up thinking, not replace it; when delegation makes a task easier without building capability, it's substitution wearing a productivity costume.
+35. [[Silent Updates]] — the deployed system that changes under you without a version or disclosure: no provider lets you verify the served artifact matches its documentation — the disclosure gap that makes calibration provisional and oversight blind.
+36. [[The Enactment Gap]] — the distance between receiving good guidance and acting on it: AI access alone is insufficient; purposeful workflow design that structures selection, evaluation, and dialogue is what produces uptake (14.1% → 26.2% in the largest study to date).
+37. [[Distributed Counsel]] — the verification practice of pooling independent judgment before acting: triangulating across models and submitting AI output to domain-experienced humans — the counter-move to acting on lawyer-like form and reassurance alone.
+38. [[The Tool-to-Entity Threshold]] — the moment an agent stops being something you operate and becomes someone you relate to: six identity markers (naming, avatar, contact presence, personality, social co-presence, persistence) flip the reclassification — and consent to an agent's *presence* is not consent to its *processing*.
+39. [[The Authority Switch]] — the moment control changes hands between human and agent, treated as a design decision rather than an event: trigger, override path, and handback condition for every delegation — the take-back leg of the delegation loop (hand off → verify at the boundary → take back).
 
 ---
 
@@ -102,6 +103,7 @@ They came out of real research — papers on human-AI collaboration, case studie
 | [[Distributed Counsel]] | How do I verify a confident AI answer without being an expert myself? | Everyone |
 | [[The Tool-to-Entity Threshold]] | When does my tool stop being a tool — and what changes when it does? | Operator → Orchestrator |
 | [[The Authority Switch]] | Who holds control when — and what guarantees the transfer back? | Operator → Orchestrator |
+| [[Scaffold, Don't Substitute]] | When does AI hold up thinking — and when does it replace it? | Operator → Orchestrator |
 
 ---
 

@@ -248,6 +248,21 @@ The compliance detail matters too: the framework is built against HIPAA, GDPR, t
 
 ---
 
+## The Oversight Problem: Watching a Pipeline That Runs While You Sleep
+
+Mara's pipeline works because she reviews at the boundary. But as pipelines get longer and more autonomous, the review question changes: *what exactly do you look at while the run is still going?* A 2026 systems paper (Liu et al., arXiv:2608.17834) names the two requirements every long-running agentic analysis needs and most interfaces lack:
+
+- **Observability** — understanding the agent's evolving reasoning and evidence *during* the run, not just at the end
+- **Steerability** — redirecting low-value directions or deepening promising ones *while execution is underway*, instead of discovering the wrong turn after the run completes
+
+The authors' system (AdaLens) builds a **storyline-based view** that unifies four things that are usually scattered across logs: the analytical *plan*, *execution progress*, intermediate *findings*, and which *data columns* the agent is actually touching. Steering interactions are grounded in those same elements — you redirect by pointing at the story, not by reading a log dump.
+
+**What this means for you:** the moment your delegation runs longer than a single sitting, "review the final output" is no longer a sufficient control strategy — it's [[The Review-First Pattern]] with the boundary moved to the end, which is exactly where boundary checks lose their power. The orchestrator's version of the AdaLens move: ask your agent to *maintain a running storyline* — what it plans to do, what it's done, what it found, what it's using — and check in on the story at natural pauses, redirecting when a branch looks low-value. You don't need the interface; you need the discipline of mid-run look-ins at named checkpoints. That's observability and steerability as habits instead of features. See [[The Observability Gap]] for why trusting the final output alone fails.
+
+**Source:** Liu, Y., Miao, Y., Liu, S., Zhou, Y., Kim, D.H., Weng, D. & Wu, Y. "AdaLens: Interactive Storyline for Monitoring and Steering Long-Running Agentic Data Analysis." arXiv 2608.17834 (August 2026).
+
+---
+
 ## You Can Do This Too
 
 You don't need to be a developer. You don't need an expensive platform. You need three things:
@@ -264,7 +279,7 @@ The first time you come back to a completed draft you didn't micromanage, someth
 
 ## Related Pages
 
-[[The School District Shift]] · [[Task Decomposition]] · [[Delegation Thinking]] · [[Trust Calibration]] · [[From Author to Editor]] · [[Doom Researching]] · [[Memory as Infrastructure]] · [[Intent Scaffolding]] · [[03-Real-World/README|03 — Real World Stories]]
+[[The School District Shift]] · [[Task Decomposition]] · [[Delegation Thinking]] · [[Trust Calibration]] · [[From Author to Editor]] · [[Doom Researching]] · [[Memory as Infrastructure]] · [[Intent Scaffolding]] · [[The Observability Gap]] · [[03-Real-World/README|03 — Real World Stories]]
 
 ## Tags
 

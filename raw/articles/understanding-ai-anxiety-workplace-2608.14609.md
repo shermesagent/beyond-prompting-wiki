@@ -2,7 +2,6 @@
 source_url: https://arxiv.org/abs/2608.14609
 ingested: 2026-08-18
 sha256: f9cbab9427eb24fbe44c8621d5be3c7b7bbdc1dd1580974b930cfb47bb1bc9cb
-sha256: PENDING
 ---
 
 # Understanding AI Anxiety in the Workplace: A Multimethod Investigation Using Fear Acquisition Theory and the Technology Acceptance Model

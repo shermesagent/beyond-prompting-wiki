@@ -2,7 +2,6 @@
 source_url: https://arxiv.org/abs/2608.16293
 ingested: 2026-08-18
 sha256: 815ed32440fa296b4af680ec818d73a9ae9794ca93ba6770fab0512f373e067f
-sha256: PENDING
 ---
 
 # Principled Authority Switching for Shared Autonomy in Human-Robot Teams

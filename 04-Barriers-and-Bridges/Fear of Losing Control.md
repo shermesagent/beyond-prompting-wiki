@@ -123,9 +123,27 @@ What this means for the fear of losing control: **the fear is a perceptual respo
 
 ---
 
+## The Care-Setting Mirror: When Protection Becomes the Cage
+
+There's a second face of the fear of losing control — the version where *you* are the one deciding how much control someone else gets. A qualitative study of 45 older adults with cognitive impairment and their caregivers (arXiv:2608.17175) maps how generative-AI systems redistribute decision-making in care contexts. The researchers identified five **accessibility-oriented mechanisms** through which systems structure interaction:
+
+- **AI Capability Constraint** — limiting what the AI can do or say on its own
+- **Human Oversight Embedding** — building a caregiver check into the loop
+- **Cognitive Engagement Maintenance** — keeping the user thinking rather than just receiving
+- **Human-AI Relationship Regulation** — shaping how much the user comes to rely on the system
+- **Risk Transparency and Control** — making risks visible and giving a way to act on them
+
+The finding that matters for this page: **the same mechanisms both support and constrain.** Protective designs genuinely support users with severe impairment — but they *restrict autonomy for users with mild impairment*, who could safely do more. And as impairment progresses, the tension becomes *less visible*, because the user participates less and the caregiver's judgment fills the gap. Safety and autonomy trade off silently.
+
+**The mirror lesson:** the fear of losing control isn't only felt by the person delegating — it's *designed into* systems when the designer (or caregiver) over-manages on the other person's behalf. The fix isn't "more protection" or "more freedom" — it's **dynamic authority that tracks the person's actual capacity**: more oversight when capability drops, more autonomy when it rises. That's [[The Authority Switch]] applied to someone else's agency — and the design discipline is the same: state the trigger, state the override path, state the handback condition. In care, in classrooms, in teams: protection without a release condition is a cage with good intentions.
+
+**Source:** arXiv:2608.17175 — "Balancing Safety and Autonomy: Accessibility-Oriented Interventions in Generative AI for Cognitive Impairment" (Meng, Chen, Ye, Liu & Lu).
+
+---
+
 ## Related Pages
 
-[[The Just Ask ChatGPT Trap]] · [[Trust Calibration]] · [[Prompt as Safety Blanket]] · [[Delegation Thinking]] · [[Task Decomposition]] · [[Psychological Debt]] · [[Silent Updates]] · [[No One to Blame]]
+[[The Just Ask ChatGPT Trap]] · [[Trust Calibration]] · [[Prompt as Safety Blanket]] · [[Delegation Thinking]] · [[Task Decomposition]] · [[Psychological Debt]] · [[Silent Updates]] · [[No One to Blame]] · [[The Authority Switch]]
 
 ## Tags
 

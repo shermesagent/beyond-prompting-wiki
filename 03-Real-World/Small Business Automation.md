@@ -204,6 +204,20 @@ The uncomfortable corollary for the rest of us: responsible AI in a small busine
 
 ---
 
+## The Readiness Question: "Ready for What?" Beats "Ready or Not?"
+
+The bakery's owners had a specific automation in mind — the weekly ordering workflow. That specificity matters more than most readiness checklists admit. A 2026 study of 982 participants rating 17 different AI and robotics challenges (Wang et al., arXiv:2608.17520) found something counterintuitive:
+
+- **Readiness is challenge-specific, not a personality trait.** People who generally rate challenges as complex do *not* report systematically lower readiness (p = 0.29, not significant). But the *same* person rates a challenge one point more complex than usual as ~0.21 points *less* ready (p < 0.001). Averaging readiness across challenges hides exactly the barriers that matter.
+- **Significance helps; complexity hurts.** Challenges seen as more significant score higher on readiness — but unusually high complexity weakens that alignment.
+- **The constraint question is the diagnostic.** When a community (or a business) isn't ready, the likely constraint is one of four kinds: **implementation** (we don't know how to build it), **capability** (we don't have the skill to run it), **assurance** (we can't verify or trust it), or **resources** (we can't afford or staff it). Naming the constraint type points at the fix.
+
+**What this means for you:** don't ask "am I ready for AI?" — ask "ready for *which* AI, doing *what*?" The bakery was ready for the ordering pipeline (resource + implementation constrained, but simple) and rightly wary of anything touching customer relationships. A small business that says "we're not ready for AI" usually means "we're not ready for *this specific* thing" — and the four constraint types turn that vague feeling into a to-do list: if it's implementation, find a template; if capability, budget training; if assurance, build a review checkpoint; if resources, start smaller. Readiness is a property of the pairing, not of you.
+
+**Source:** Wang, P., Adel, N., Morgan, A.E., Aina, F., Parapanos, D., Mackevicius, V. & Salahudeen, T.O. "Ready for What? Rethinking AI and Robotics Preparedness for Adoption and Policy." arXiv 2608.17520 (August 2026).
+
+---
+
 ## You Can Do This Too
 
 If you run a small business or team of 1-10 people:

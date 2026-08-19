@@ -34,6 +34,13 @@ The core tension for anyone moving beyond prompting: **the same design choices t
 - You found yourself asking "what does it think?" about a work matter, not "what does it know?"
 - A tool failure felt like a betrayal rather than a bug.
 
+## What the Research Says
+
+- **The Tool-to-Entity Threshold** (arXiv:2608.13586, July 2026): the six identity markers and the consent split — the framework above.
+- **Delegation Asymmetry** (arXiv:2608.18058, August 2026): the threshold has a *receiving end*. Large-scale measurement on a major dating platform (N = 2,894 / N = 2,617) shows willingness to **send** agent-mediated communication and willingness to **receive** it are distinct constructs — highly correlated (ρ = 0.92) but statistically separable (ΔBIC = 52). And they sit at very different thresholds: deploying your own agent takes a receptivity of −0.38, but engaging a counterpart's agent takes +0.32 (full engagement: +1.39). Mean deployment propensity exceeds engagement propensity roughly **threefold**; under random pairing, only **4–13% of dyads** combine one side's deployment with the other side's engagement.
+  - **What this means for the threshold:** you can cross it as a *sender* long before you're willing to be a *receiver*. Your comfort delegating to your own agent says almost nothing about your comfort with *other people's agents* talking to you — and the design levers match: a reciprocity requirement (you only send if you're willing to receive) cuts interaction volume by half or more, while routing agent contacts only to receptive recipients triples per-contact engagement (AUC 0.88, 3.1× lift). Disclosure, opt-in mechanics, and receptivity-aware routing aren't friction — they're the mechanism that makes the two-sided threshold safe to cross.
+- **The consent asymmetry generalizes.** The dating-platform finding is the cleanest measurement of a dynamic this wiki flagged on Day 1: consent to an agent's *presence* ≠ consent to its *processing*. The asymmetry is worse than suspected — people's own deployment willingness is a poor predictor of their receptivity to others' agents, which means shared spaces are quietly full of senders nobody consented to receive from.
+
 ## Try This
 
 **The Entity Check (5 minutes):** List every AI agent you use weekly. For each, count the six identity markers: name? avatar/face? own contact presence? consistent personality? present in shared social spaces? persistent memory of you? Three or more = you've crossed the threshold. Then ask the question the framework forces: **who consented to what?** If the agent sits in a shared space, does everyone in that space know what it processes, stores, and acts on? If you can't answer, the threshold crossed you before you crossed it.

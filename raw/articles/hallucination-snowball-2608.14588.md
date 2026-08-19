@@ -2,7 +2,6 @@
 source_url: https://arxiv.org/abs/2608.14588
 ingested: 2026-08-18
 sha256: 6d42538f8c3b0cdbe77edfa8cdf3e64d4e2871aa4ed53fecce912199d25f481e
-sha256: PENDING
 ---
 
 # The Hallucination Snowball: Modeling Error Propagation as State Transitions in Multi-Agent LLM Pipelines

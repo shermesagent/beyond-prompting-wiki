@@ -2,7 +2,6 @@
 source_url: https://arxiv.org/abs/2608.16428
 ingested: 2026-08-18
 sha256: b28f1740d926ef131746813444d604fc78092e41cc1c82cdac8144be5382f369
-sha256: PENDING
 ---
 
 # Visualizing Uncertainty-to-Action Composition for Human Oversight

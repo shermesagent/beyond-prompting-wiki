@@ -300,6 +300,22 @@ For districts, this is a gift: it turns "teach AI literacy" from a slogan into a
 
 ---
 
+## The Scaffolding Lesson: Substitution Is the Silent Failure Mode
+
+The fractions-tutor evidence shows AI can teach. The harder question is what AI does to *thinking* while it teaches — and a 2026 study of students' own writing (Favero, Pérez-Ortiz, Käser & Oliver, arXiv:2608.17451) puts the failure mode in students' own words.
+
+The paper's framework: AI use in education carries risk of a **self-reinforcing harm cycle** across four dimensions — **cognition** (offloading replaces reasoning), **agency** (deciding less), **emotional well-being**, and **ethics** — where each round of offloading makes the next round easier and the capacities weaker. In an exploratory analysis of 49 International Baccalaureate argumentative essays about AI's impact, **80% reported that AI reliance reduces thinking** — and the students' proposed fixes were strikingly consistent with learning science:
+
+- **Withhold immediate answers** — don't hand over the solution; hand over the question
+- **Prompt recall** — ask what they already know before adding anything
+- **Encourage reflection through questions instead of solutions**
+
+That's the design principle in one line: **scaffold, do not substitute**. A classroom tool that answers everything is substitution wearing a smile; a tool that asks first, answers second, and leaves the reasoning trail visible is scaffolding. The district translation is direct: when evaluating AI purchases and usage policies, the unit of analysis isn't "does it help students finish work" — it's "does it strengthen or replace the capacity it touches?" Teachers should be trained to spot the difference in five minutes: *after this tool, can the student do more of the underlying thing, or less?* See [[Scaffold, Don't Substitute]] for the full concept and a 5-minute capacity test.
+
+**Source:** Favero, L., Pérez-Ortiz, J.A., Käser, T. & Oliver, N. "From Substitution to Scaffolding: Breaking the Self-Reinforcing Harm Cycle of AI in Education (and Beyond)." arXiv 2608.17451 (August 2026).
+
+---
+
 ## The Newsroom Lesson: What Happens When the Vision Meets Reality
 
 One more real-world case worth a district's attention — because it's a ten-month, election-cycle case study of *institutional* AI adoption, the closest published analogue to what districts are attempting (Reisjå & Løvlie, arXiv:2608.10773, August 2026).
@@ -318,7 +334,7 @@ Farmersville's translation: the districts that will be fine are the ones whose l
 
 ## Related Pages
 
-[[From Prompt to Pipeline]] · [[Task Decomposition]] · [[Delegation Thinking]] · [[Trust Calibration]] · [[Human in the Loop]] · [[Doom Researching]] · [[The Capability Ladder]] · [[03-Real-World/README|03 — Real World Stories]]
+[[From Prompt to Pipeline]] · [[Task Decomposition]] · [[Delegation Thinking]] · [[Trust Calibration]] · [[Human in the Loop]] · [[Doom Researching]] · [[The Capability Ladder]] · [[Scaffold, Don't Substitute]] · [[03-Real-World/README|03 — Real World Stories]]
 
 ## Tags
 

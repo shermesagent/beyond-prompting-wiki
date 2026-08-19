@@ -2,7 +2,6 @@
 source_url: https://arxiv.org/abs/2608.14659
 ingested: 2026-08-18
 sha256: 0708842624eff88b4a07c1a4fae89f167c8c51bedafd21cff8ab2122248e8590
-sha256: PENDING
 ---
 
 # When Uncertainty Isn't Enough: An Empirical Study of Self-Correction in Code Generation
