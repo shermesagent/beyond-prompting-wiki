@@ -73,6 +73,19 @@ Two practical reads for your context:
 
 **Source:** arXiv:2608.12236 — "How Organizations Use AI: Evidence from ChatGPT"
 
+## The Structural Read: When the Interface Collapses Engagement
+
+There's a version of the engagement gap where the problem isn't the people at all — it's the *shape of the tool*. A 2026 study of LLM-assisted writing (arXiv:2608.17326) gives a **structural account of disengagement**: students who disengage from AI writing tools aren't simply under-regulated; the interface itself replaces their iterative process with a single finished output, shifting the task from *generation* to *comprehensive evaluation* — and evaluation of a whole polished artifact is so costly that shallow engagement becomes the rational default. The paper calls this **[[02-Key-Concepts/Procedural Collapse|Procedural Collapse]]**: a structural failure mode of LLM interfaces, not a dispositional failure of users.
+
+Why this matters on this page: the engagement gap is usually read as "people won't use the tool." Procedural collapse is the mirror image — *the tool is used, and the engagement it produces is structurally shallow*. Both gaps live on the same spectrum: whenever the interface asks for one big evaluation instead of a series of small moves, the human-side thinking evaporates and the workflow feels hollow.
+
+**The bridge it adds to this page:**
+
+- **Audit the interaction shape, not just the adoption rate.** Before asking "why won't my team open the AI?", ask "when they do, what is the AI asking them to do?" If the default interaction is "produce the whole thing at once," procedural collapse is being induced — and the counter-move is design, not motivation: decomposed stages, goal elicitation first, single-level outputs (the paper's three design directions).
+- **Engagement follows structure in both directions.** The enterprise data on this page showed engagement follows organizational infrastructure. The writing study shows engagement follows *interface* infrastructure. Same principle, one level down: design the move to be cheap and the engagement will survive.
+
+**Source:** arXiv:2608.17326 — "Procedural Collapse: A Structural Account of Disengagement in LLM-Assisted Writing" (Kim & Mei).
+
 ## Related Pages
 
 [[The Four Decision Labels]] · [[Delegation Thinking]] · [[Why This Matters]] · [[The Orchestrator Mindset]] · [[Human Readiness Archetypes]] · [[Knowledge Debt]]

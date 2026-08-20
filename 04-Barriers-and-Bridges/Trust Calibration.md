@@ -1,13 +1,14 @@
 ---
 title: Trust Calibration
 created: 2026-07-16
-updated: 2026-08-07
+updated: 2026-08-20
 type: concept
 tags: [barrier, mindset, skill]
 sources:
   - raw/articles/ai-suppresses-i-dont-know-2607.13562.md
   - raw/articles/llm-rationales-user-facing-trust-2026.md
   - raw/articles/epistemic-trustworthiness-2608.05602.md
+  - raw/articles/social-norm-framings-health-chatbots-2509.15575.md
 confidence: high
 ---
 
@@ -130,6 +131,29 @@ This is a calibration result, not a policy essay. Your trust thermostat measures
 The bottom line sharpens: AI fluency makes "it's just a bot" feel like protection. The experiment says otherwise. The protection isn't knowing it's AI — it's knowing what the AI is trying to do, and accounting for it before you calibrate trust.
 
 **Source:** arXiv:2608.11794 — "Toward Meaningful Transparency for AI Chatbots: Disclosing Persuasive Intent Reduces Persuasion"
+
+## The Framing Lever: Preference Is Not Calibration
+
+There's a fifth layer that separates this page's two concepts — trust and calibration — and it's the one designers control directly: **how the AI frames its relationship to you.** A mixed-methods study with 61 community health workers in rural India (arXiv:2509.15575, September 2025) delivered *identical health content* through chatbot interfaces that varied in one cultural lever — the social norm being invoked:
+
+- **Neutral** framing (plain information)
+- **Descriptive** framing ("most people do this")
+- **Narrative identity** framing (story-based, identity-anchored)
+- **Injunctive authority** framing ("health authorities recommend this")
+
+The results are the cleanest preference/calibration split on record:
+
+- **Narrative framings were the most preferred — and encouraged overreliance.** Users liked the story-based interface best, and that liking translated into following it more than was warranted.
+- **Authority framings were the least preferred — yet supported calibrated trust.** Users trusted the authority-framed chatbot less warmly, but their trust tracked actual correctness: following correct advice and resisting incorrect advice.
+
+This is the thermostat reading the room: **the most likable AI is not the most trustworthy AI, and the most trusted-feeling interaction is often the least calibrated one.** The paper's recommendation is dynamic framing — adapt the normative lever to context (low- vs. high-ambiguity scenarios) — and, critically, it argues for **calibrated trust — following correct advice and resisting incorrect advice — as the evaluation metric** for safe, culturally-grounded AI. Not satisfaction. Not preference. Calibration.
+
+**What this means for your thermostat:** when you rate how much you trust a tool, you're probably rating *how it makes you feel*. This study says those two numbers diverge systematically — the framings that feel best are the ones that make you least calibrated. Two practical moves:
+
+1. **Ask "does my trust track outcomes?" instead of "does this feel right?"** The health-worker data shows preference and calibration can be negatively correlated. Your felt trust is a design output, not an accuracy signal.
+2. **Watch for the narrative frame.** Story-based, identity-anchored AI is engineered to be preferred — which is exactly why it deserves a calibration discount. Warmth is a feature of the interface, not evidence about the content.
+
+**Source:** arXiv:2509.15575 — "Trade-offs in Social-Norm Framings for Health Chatbots: Balancing Trust and Preference" (Wadhwa, Vashistha & Jain)
 
 ## The Bottom Line
 

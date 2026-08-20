@@ -141,6 +141,22 @@ The finding that matters for this page: **the same mechanisms both support and c
 
 ---
 
+## The Control Bridge: What Experienced Developers Actually Do
+
+The fear of losing control has a surprising rebuttal from the people who delegate to agents most: **experienced professionals don't trust more — they control more.** A 2025 study of professional software developers (arXiv:2512.14012) combined field observations (N=13) and qualitative surveys (N=99) of how experts actually use AI coding agents. The headline is in the title: *Professional Software Developers Don't Vibe, They Control.*
+
+Three findings that reframe this page's barrier:
+
+1. **Experts value agents as a productivity boost — while retaining their agency in design and implementation.** They don't hand over the whole problem. They delegate *inside* their own design decisions, keeping the architecture and quality calls human.
+2. **They employ explicit control strategies leveraging their expertise.** The fear on this page is "I won't know what it's doing" — the expert answer isn't to watch more closely, it's to *constrain the space the agent operates in*: narrower tasks, explicit acceptance criteria, review gates keyed to the quality attributes they insist on (correctness, maintainability, testability).
+3. **They frame agents as collaboration, not delegation — based on task-suitability judgment.** Experts are selective about *what* gets handed off. The question isn't "can I trust it?" — it's "is this task the kind an agent can do without me redoing it?"
+
+**The bridge this builds:** the fear of losing control is not a sign you'll never delegate — it's the same instinct the most experienced practitioners run on. The difference is what they do with it. They don't let the fear veto delegation; they let it *shape the delegation contract*: name the quality attributes that can't be compromised, define the task boundary tightly, and keep the design-level decisions human. The fear becomes the specification for how much control to keep — not a reason to keep all of it. See [[The Authority Switch]] for the mechanism, and [[Trust Calibration]] for the calibration routine that makes "I kept control of the right things" a checkable claim.
+
+**Source:** arXiv:2512.14012 — "Professional Software Developers Don't Vibe, They Control: AI Agent Use for Coding in 2025" (Huang, Reyna, Lerner, Xia & Hempel).
+
+---
+
 ## Related Pages
 
 [[The Just Ask ChatGPT Trap]] · [[Trust Calibration]] · [[Prompt as Safety Blanket]] · [[Delegation Thinking]] · [[Task Decomposition]] · [[Psychological Debt]] · [[Silent Updates]] · [[No One to Blame]] · [[The Authority Switch]]

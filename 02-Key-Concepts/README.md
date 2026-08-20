@@ -104,6 +104,7 @@ They came out of real research — papers on human-AI collaboration, case studie
 | [[The Tool-to-Entity Threshold]] | When does my tool stop being a tool — and what changes when it does? | Operator → Orchestrator |
 | [[The Authority Switch]] | Who holds control when — and what guarantees the transfer back? | Operator → Orchestrator |
 | [[Scaffold, Don't Substitute]] | When does AI hold up thinking — and when does it replace it? | Operator → Orchestrator |
+| [[Procedural Collapse]] | Why does the interface itself make engagement collapse — and what design puts the process back? | Operator → Orchestrator |
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: The Just Ask ChatGPT Trap
 created: 2026-07-08
-updated: 2026-08-07
+updated: 2026-08-20
 type: concept
 tags: [barrier, operator, mindset]
 sources:
@@ -9,6 +9,7 @@ sources:
   - raw/articles/information-discernment-llms-2607.19355.md
   - raw/articles/ai-overviews-click-behavior-2608.04831.md
   - raw/articles/verification-gap-ai-scientists-2608.05179.md
+  - raw/articles/ai-search-publisher-referrals-2608.18352.md
 confidence: high
 ---
 
@@ -116,6 +117,20 @@ Three findings:
 And which queries trigger the overviews at all: longer queries, queries beginning with a question word, and queries containing both a noun and a verb — in other words, **the exact shape of how we've been trained to ask**.
 
 What this means for the trap: the acceptance default isn't an individual character flaw. It's the default *behavior at population scale* — 99% of the time an AI answer appears, the sources stay unopened. You are not lazy; you are the mode. And that makes the counter-move more valuable, not less: when an AI overview answers your question, click one cited source. You're not checking the AI's work to be paranoid. You're doing the one thing 99% of people don't — and it's the same review-first reflex this whole wiki is built on ([[The Review-First Pattern]]), applied to the smallest possible unit: one answer, one click.
+
+## A New Layer: The Experiment That Measured the Swap
+
+The 1% click rate describes the user side of the trap. A preregistered field experiment on Google Search (arXiv:2608.18352, August 2026) measures the *platform side* — what happens to traffic and trust when AI answers replace the link list (N=1,100):
+
+- **Removing AI Overviews and AI Mode *increases* click-through rates to publishers.** The AI summary is not neutral — its presence causally suppresses visits to the sources underneath it.
+- **An AI Mode-only experience reduces click-through rates *and* erodes user experience and trust in information found on Google.** The synthesized-answer experience doesn't even buy better UX for the user in exchange for the traffic it diverts.
+- **The effects are causal, not correlational.** Preregistered field experiment on the dominant search platform — the cleanest evidence yet that AI-in-search reshapes online attention with direct economic consequences for publishers.
+
+This is the trap's structural floor. The Just Ask ChatGPT Trap was always about the Q&A loop replacing exploration; this experiment shows the loop is being *engineered into the dominant platform* — the summary *is* the product, the sources are the externality, and the 1% click rate is the behavioral equilibrium the design produces. When the platform itself is built to close the session, "just ask" stops being a personal habit and becomes the designed default.
+
+**What this means for the trap:** the counter-move gets an additional, sharper form. When an AI answer appears in search, you're not just skipping a click — you're exiting the information ecosystem that made the answer possible. Clicking through is no longer only a verification act; it's an act of keeping the publisher side of the loop alive. The bridge on this page — one answer, one click — is now also the only individual-scale answer to a structural design: the platform is built to close the session, so the user who opens the source is doing something the system wasn't built to expect. That asymmetry is exactly where orchestration starts ([[The Review-First Pattern]]), one click at a time.
+
+**Source:** arXiv:2608.18352 — "AI in Search Reduces Publisher Referrals Without Improving User Experience: Experimental Evidence" (Wang, Gleason, Bart, Wilson & Metaxa).
 
 ---
 
