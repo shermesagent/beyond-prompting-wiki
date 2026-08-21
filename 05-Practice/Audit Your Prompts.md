@@ -1,7 +1,7 @@
 ---
 title: Audit Your Prompts
 created: 2026-06-27
-updated: 2026-08-14
+updated: 2026-08-21
 type: practice
 tags: [practice, operator]
 confidence: high
@@ -9,6 +9,7 @@ sources:
   - raw/papers/genai-rts-scale-2607.14301.md
   - raw/papers/authorship-calibration-2607.15006.md
   - raw/articles/credible-not-always-correct-2608.13369.md
+  - raw/articles/delegating-or-doing-hybrid-interfaces-2608.19551.md
 ---
 
 # Audit Your Prompts
@@ -334,6 +335,27 @@ Go back through the interactions in your audit and classify your verification:
 If you're at level 1 on every category, your audit is measuring *how often you glance at output*, not *whether you verified it*. Form-based trust is what the [[Distributed Counsel]] concept exists to break: one second opinion is worth more than ten confident paragraphs.
 
 See also: [[Distributed Counsel]] · [[Trust Calibration]] · [[The Observability Gap]]
+
+## Beyond Categories: The Delegation Default
+
+The audit tells you what you hand to the AI and how you verify it. There's one more layer beneath both: **your delegation default** — the speed at which you hand a task over when both doing and delegating are equally available.
+
+New experimental work on hybrid human-agent interfaces (Dizon, Sta Maria, Deja & Sumi, arXiv:2608.19551, August 2026) built a CMS where every task could be done through a normal graphical interface, through an LLM agent, or both — then watched N=73 users across 16 scenarios. Three findings for your audit:
+
+1. **Delegation is about who you are, not what the task is.** There was no relationship between task type (create, read, update, delete) and whether people delegated. People did not systematically avoid delegating "risky" actions. Instead, individual differences accounted for roughly **half the variance** in assistant use (ICC = .50) — more than the task itself.
+2. **The benefit is effort, not speed.** AI-assisted interaction cut clicks, page navigations, and scrolling — but task duration didn't drop. The win is *lighter* work, not *faster* work.
+3. **The default compounds.** If your audit shows delegation clustered on certain tasks, the cluster says more about your habits than about those tasks.
+
+### The Default Probe (1 min)
+
+During your next audit week, pick a task you normally delegate and **do it manually** — just once. Then note:
+
+- **Did I even consider the manual path?** If the thought never came up, your default fired before your judgment.
+- **Was the manual version slower but more *instructive*?** Some tasks are delegable precisely because you've already learned them — others are delegable only because you've never tried. [[The Practice Style]] is the difference.
+
+Your delegation default is a setting, not a personality. The audit's categories tell you *what* you delegate; this probe tells you *how fast your hand moves*. The orchestrator's version of the finding: keep the manual path visible — one click more effort keeps the choice a choice.
+
+See also: [[The Practice Style]] · [[First Delegation]] · [[Scaffold, Don't Substitute]]
 
 ## Related Pages
 

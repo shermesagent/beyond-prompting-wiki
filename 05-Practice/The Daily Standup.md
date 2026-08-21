@@ -1,7 +1,7 @@
 ---
 title: The Daily Standup
 created: 2026-06-27
-updated: 2026-08-14
+updated: 2026-08-21
 type: practice
 tags: [practice, orchestrator, workflow, mindset]
 confidence: high
@@ -11,6 +11,7 @@ sources:
   - raw/papers/memory-self-disclosure-2607.14593.md
   - raw/articles/feedback-enactment-workflows-2608.11625.md
   - raw/articles/not-all-nudges-land-2608.12582.md
+  - raw/articles/ai-overreliance-complex-adaptive-system-2608.19616.md
 ---
 
 # The Daily Standup
@@ -304,6 +305,27 @@ So when you commit in your standup to "get the draft to Maria" or "align with th
 3. **Social commitments:** don't expect the nudge to carry them. Add a structural step: schedule the meeting, send the message, set the deadline — *the nudge has to produce a contact, not a resolution*.
 
 The study's other finding — writing quality mattered less than behavior type, except for longer, more personal entries — is a bonus: when a standup commitment isn't landing, write it as a specific, personal sentence ("email Maria the draft and ask for a date") rather than a vague aspiration ("follow up with people"). The specific version is a better nudge, and you now know when not to rely on nudging at all.
+
+## The Eleventh Question — The Visibility Check
+
+Every question so far asks what *you* did. This one asks what *other people could see* you did — because verification has a social function your standup has been ignoring.
+
+Population-level modeling of AI reliance (Biswas, arXiv:2608.19616) shows that reliance is contagious: when visible, unchecked AI use accumulates, it suppresses verification across the whole group and tips everyone into **collective overreliance** — including people who privately knew better. And the reverse holds: **visible verification prevents the collapse.** One person checking out loud is a public good; the same check done silently protects nobody else.
+
+Add the eleventh question to the template:
+
+```python
+VISIBILITY:
+  - Which output did I verify, and did anyone SEE me verify it?
+  - (If nothing was visible: pick one check to do out loud this week.)
+```
+
+Two ways to make a check visible without turning your standup into theater:
+
+1. **Say the check in the channel where others work.** "I ran the draft past a second source before sending" — the sentence is the signal; the group recalibrates to it.
+2. **Export the check.** Share *how* you verified — the rubric, the link, the named step — so it's reusable, not just reportable. This is the difference between visible and contagious.
+
+This is the practice-layer habit behind [[The Reliance Audit]]'s VISIBILITY column: the audit tells you whether your reliance is warranted; the standup's eleventh question tells you whether your warrant is *visible* — and visibility is what keeps the whole team calibrated, not just you.
 
 ## Common Pitfalls
 

@@ -1,7 +1,7 @@
 ---
 title: Build a Tiny Pipeline
 created: 2026-06-27
-updated: 2026-08-14
+updated: 2026-08-21
 type: practice
 tags: [practice, orchestrator, workflow]
 confidence: high
@@ -9,6 +9,7 @@ sources:
   - raw/articles/agentic-workflow-patterns-ai-agency-kb.md
   - raw/papers/harness-handbook-2607.13285.md
   - raw/articles/agent-skills-can-be-harmful-2608.11888.md
+  - raw/articles/memtrapbench-cognitive-traps-2608.20202.md
 ---
 
 # Build a Tiny Pipeline
@@ -308,6 +309,27 @@ Three findings map directly onto your tiny pipeline:
 This is the same triage idea as [[Distributed Counsel]] applied to your own workflow: verification is counsel you pay for, so spend it where the output could be wrong, not where it could be prettier.
 
 See also [[The Reliance Audit]]'s ACCESS question — you can't verify what you didn't record, and you don't need to record what you're not going to check.
+
+## The Memory Trap Check: When the Pipeline Remembers Too Much
+
+If your pipeline carries memory across runs — saved context, a persistent profile, accumulated conversation — add one more check, because **memory can make a pipeline worse, not better.**
+
+MemTrapBench (Wang et al., arXiv:2608.20202) built a benchmark for exactly this: memory systems that *faithfully* store and retrieve relevant information, then measured what the retrieved memories did to current-task performance. The result: on every memory framework tested, performance **dropped below the no-memory baseline** — even the strongest methods lost more than 10%. The paper names two trap mechanisms:
+
+- **Reasoning Fixation** — the retrieved memory anchors the model to a prior pattern, so it can't see the current input fresh. Your pipeline's "remember how we did this last month" becomes "assume it's the same as last month."
+- **Belief Distortion** — stored beliefs from earlier runs bend how new evidence is interpreted. The memory is accurate; the *use* of it is distorting.
+
+The mitigation that worked (AdaptiveMem) is one line of instruction: **tell the model when to ignore memory.** The no-memory baseline was the reference point the whole benchmark was judged against — and it kept winning.
+
+### The Check (2 minutes, add to your pipeline template)
+
+Before you run a pipeline that carries context, decide *which is load-bearing*:
+
+1. **Is the memory task-state or task-identity?** Task-state (the draft, the IDs, the halfway work) is legitimate memory — losing it breaks the run. Task-identity ("the way we always do this") is a trap — it's how Reasoning Fixation starts.
+2. **Add the escape hatch.** In your first prompt, one line: *"Ignore prior context where it conflicts with the current input. If this task looks like a past task but differs, say so."* That's the AdaptiveMem trick in plain language.
+3. **Run the null test once:** one run with memory cleared. If the output is *better* with no memory — or no worse — your pipeline was carrying a trap, not an advantage. Keep the null run on the calendar quarterly.
+
+The uncomfortable headline for pipeline builders: **memory is a feature you have to earn.** A pipeline that forgets nothing is not automatically better than a pipeline that starts fresh — the benchmark says it's usually worse. See [[Instruction Bleed]] for the sibling failure when prompts in one run leak into each other; the Memory Trap is that leak stretched across runs.
 
 ## What Comes Next
 

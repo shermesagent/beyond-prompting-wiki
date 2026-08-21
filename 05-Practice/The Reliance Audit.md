@@ -1,7 +1,7 @@
 ---
 title: The Reliance Audit
 created: 2026-08-08
-updated: 2026-08-08
+updated: 2026-08-21
 type: practice
 tags: [practice, operator, orchestrator, trust]
 confidence: high
@@ -10,6 +10,7 @@ sources:
   - raw/articles/harmful-ai-sycophancy-2608.05624.md
   - raw/articles/chat-tjb-random-guy-wired-2026.md
   - ../../ai-agency-knowledgebase/06-Frameworks/Human Review Checkpoints.md
+  - raw/articles/ai-overreliance-complex-adaptive-system-2608.19616.md
 ---
 
 # The Reliance Audit
@@ -67,6 +68,32 @@ Count your interactions. For each of the three questions, ask: how many of my re
 ## The Replacement Rule
 
 If a tool fails **all three questions twice on the same task**, it's not a tool you're using — it's a habit you're carrying. Put it on probation: either rebuild the workflow with review checkpoints (see [[First Delegation]] and its REVIEW CADENCE), or replace the tool. This mirrors the AI Agency Knowledgebase's Human Review Checkpoints framework: checkpoints belong *inside* the workflow, not at the end of it.
+
+## The Visibility Effect: Verification Is Social
+
+Your audit tallies verification as a private act — you checked, or you didn't. New population-level modeling of AI reliance (Biswas, arXiv:2608.19616) adds a social dimension your tally is missing: **whether other people can see you verify changes whether *they* verify.**
+
+The model treats a whole group of users as one system, with three results that reframe the audit:
+
+1. **The environment sets the baseline.** Task difficulty and AI quality fix how much overreliance a population can fall into — before anyone's habits enter the picture.
+2. **Social proof turns reliance into a cascade.** When people can see others *using* AI output without checking it, verification gets suppressed and the whole group tips into **collective overreliance** — even users who privately knew better.
+3. **Visible verification reverses it.** Making your checking visible — or dampening the social proof of unchecked use — prevents the collapse. One person's visible verification is a public good.
+
+### The Audit Addition (30 seconds)
+
+In your weekly tally, add one column:
+
+```
+VISIBILITY — did anyone see me verify this?
+```
+
+Three grades:
+
+- **Invisible:** I checked it, quietly. Good for me; useless to the team.
+- **Visible:** I checked it and said so — "I ran this past a second source before sending" in the channel where others saw it.
+- **Exported:** I showed *how* — the check itself is reusable (a link, a rubric, a named step). This is the one that changes group behavior.
+
+The mechanism is the same one that runs the ChatTJB story above: people calibrate to what they see around them. The audit's Q2 (ACCESS) asks whether *you* can inspect the output. The visibility column asks whether your inspection is *contagious* — and that's what protects a team, not just a person. See [[The Daily Standup]]'s Eleventh Question for the habit that makes visibility routine.
 
 ## Where This Fits
 

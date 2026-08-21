@@ -1,13 +1,14 @@
 ---
 title: First Delegation
 created: 2026-06-26
-updated: 2026-08-14
+updated: 2026-08-21
 type: practice
 tags: [practice, operator, orchestrator]
 confidence: high
 sources:
   - raw/articles/you-shall-not-pass-2607.00533.md
   - raw/articles/retry-switch-abstain-2608.11977.md
+  - raw/articles/constitutive-vs-corrective-2603.19213.md
 ---
 
 # First Delegation
@@ -283,6 +284,38 @@ RECOVERY:
 Then, when a run fails: **execute the drill in order, with a hard cap.** One retry, one switch — then abstain and come back with your own judgment. This is the delegation version of the Reliance Gate's replacement rule ([[The Reliance Audit]]): a task that fails the same way twice is a habit, not a tool.
 
 The deeper point: **abstain is a delegation skill, not a failure.** The BENCH2ROBUST result shows the agents that survived injection were the ones that *knew when to stop*. Your template should make stopping an explicit, planned outcome — not something you do when you're frustrated. Write the abstain line first; the retry and switch lines will behave themselves.
+
+## The Loop Role Check: What Your Slot Actually Is
+
+Your template says what the agent does. The harder question is what *you* are doing while it runs — and the language we use for that has been quietly wrong.
+
+A causal taxonomy of human runtime involvement (Baum & Laux, arXiv:2603.19213) clears it up. The real distinction isn't spatial — "in" or "on" the loop — it's **causal**:
+
+| Role | What it means | Your template line |
+|------|---------------|--------------------|
+| **Constitutive (HITL)** | A human contribution is *necessary* for the output to exist. No human step, no result. | The GOAL (you set it), the REVIEW (you pass or reject) |
+| **Corrective (HOTL)** | The system runs without you, but you're positioned to prevent or modify outputs — synchronously (watching), asynchronously (reviewing later), or anticipatorily (setting guardrails first). | The SUCCESS CRITERIA and REVIEW CADENCE, if the pipeline runs unattended |
+
+The point isn't that one role is better. It's that **your template should say which one you're in** — because they demand different preparation:
+
+- **Constitutive slot:** your job is *being there*. The output can't exist without you, so your attention is load-bearing. Prepare to actually do your step well.
+- **Corrective slot:** your job is *preparedness*. The research is explicit that genuine oversight isn't a position — it's **genuine capacity to intervene**: you know what to look for, you have the access to inspect, and you could actually stop a bad output before it ships. A corrective slot without that capacity is theater: you're "on the loop" in name and out of it in fact.
+
+### The Check (30 seconds, add to your template)
+
+In your delegation template header, add one line:
+
+```
+LOOP ROLE: constitutive (output requires me)  /  corrective (runs without me — I intervene)
+```
+
+If you mark **corrective**, answer the three preparedness questions before you hit run:
+
+1. *Do I know what a bad output looks like for this task?* (Name two failure patterns.)
+2. *Can I inspect what it did?* (Access — see [[The Reliance Audit]] Q2.)
+3. *Could I actually stop it before it ships?* (Not "would I notice" — "can I intervene".)
+
+The same person often occupies both roles in one workflow — that role duality is a design problem, not a personality trait. Your template is where you design it.
 
 ## Related Pages
 
