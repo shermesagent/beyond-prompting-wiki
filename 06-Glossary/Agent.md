@@ -44,6 +44,23 @@ The overassistance trap describes what agents do by default. The July 2026 field
 
 That four-dimensional space is where the orchestrator actually operates in Phase 3: the agent executes toward the outcome, and your skill moves from producing output to *specifying it well and correcting it honestly*. Mollick's own workflow is the proof: he gave GPT-5.6 Sol in Codex his book PDF, it worked 30 minutes, chased down 195 references, produced zero hallucinated citations — and was "incredibly nitpicky," which he rejected with human judgment. That's management: verifying substance, not deferring to the agent's output — or to your first impression of it.
 
+### The Eight Flavors of Agency — What "Agent" Actually Covers
+
+"Agent" is a word that hides choices. The typology (Fourie, arXiv:2608.20041) sharpens it into three dimensions — **nature** (moral or legal), **mode** (individual or collective), and **locus** (human or non-human). Combining them yields eight possible instantiations, classified as conventional, contested, or controversial:
+
+| Nature | Mode | Locus | Example (roughly) | Status |
+|--------|------|-------|-------------------|--------|
+| Moral | Individual | Human | A person making a responsible choice | Conventional |
+| Moral | Individual | Non-human | An AI being held morally responsible | Controversial |
+| Moral | Collective | Human | A team deciding together | Contested |
+| Moral | Collective | Non-human | An agent swarm bearing moral weight | Controversial |
+| Legal | Individual | Human | A person signing a contract | Conventional |
+| Legal | Individual | Non-human | An AI as a legal entity / contractor | Contested |
+| Legal | Collective | Human | An organization as a legal person | Conventional |
+| Legal | Collective | Non-human | A corporate AI system with legal standing | Controversial |
+
+The precision matters for one practical reason: **legal agency and moral agency are different things, and the typology deliberately separates them.** An AI can be a legal agent — capable of entering contracts, being named in a lawsuit, held to regulatory standards — without being a moral agent. When an instrumental goal complicates attributing an AI's actions to a particular human (who is responsible for what the agent did?), the answer depends on which flavor of agency you're dealing with. Before you delegate anything consequential, name the flavor: *what kind of agency does this agent have — legal, moral, or neither?* Your accountability differs in each case.
+
 ## Related Pages
 
 [[Orchestration]] · [[Delegation]] · [[Tool Use]] · [[Autonomy]] · [[Oversight]] · [[Overassistance]] · [[01-The-Shift/README|The Orchestrator Mindset]]

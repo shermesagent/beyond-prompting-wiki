@@ -50,6 +50,21 @@ A 2026 interview study of everyday chatbot users (Pyae, arXiv:2607.24761) found 
 
 That reframe matters for the oversight modes above. If verification feels like distrust, you'll skip it precisely when you should double down — and if you're the one being supervised, you'll read reasonable checking as hostility. **The orchestrator's default: verify because output quality varies, not because the tool is suspect.** Detached verification is a workflow step; distrust is an emotion. The first is always professional; the second is usually misplaced.
 
+### Bounded Sovereignty — You Can Only Oversee What You Can Reach
+
+Oversight has a precondition the modes above silently assume: **reach**. Most control protocols assume the deployer can instrument the model — but on managed APIs and vendor endpoints, you hold only part of the stack. The sovereignty analysis (Lim, arXiv:2608.19216) makes the hidden assumption explicit with a four-layer access typology:
+
+| Layer | What It Means | What You Can Do With It |
+|-------|---------------|-------------------------|
+| **Data** | The inputs and outputs you actually see | Analyze logs, detect anomalies, audit usage |
+| **Model** | The weights and parameters themselves | Fine-tune, align, constrain behavior directly |
+| **Infrastructure** | The hardware/runtime the model runs on | Enforce policies at the system level, guarantee rollback |
+| **Interaction** | The interface you talk to (API, UI) | Prompt, instruct, gate calls — but nothing deeper |
+
+Most users hold **data + interaction** only. The gap between the layers you hold and the layers you'd need for full control is paid for with the **sovereignty discount** — the portion of the **control tax** (the cost of making an AI system safe) that gets spent substituting for missing access: contractual assurances, audits, architectural workarounds, residual risk, and reduced scope.
+
+The practical findings sharpen the tradeoff: complete logs improve diagnosis; a pre-execution gateway enables intervention; trace access plus model-version control strengthen post-incident explanation. And the sharpest result: **restricting scope can improve safety even while it reduces usefulness** — sovereignty isn't only about getting more access; it's about choosing what you genuinely need to reach. See [[Bounded Sovereignty]] for the full entry. The oversight rule: **state your access assumptions before you promise oversight** — if you hold only data and interaction, say so, and design the checkpoints for the layers you actually have.
+
 ## Related Pages
 
 [[Human in the Loop]] · [[Autonomy]] · [[Orchestration]] · [[Delegation]] · [[Trust Calibration]] · [[Agent]] · [[Overassistance]] · [[Capacity Dissolution]]

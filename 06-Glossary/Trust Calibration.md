@@ -36,6 +36,19 @@ The sharpest trap in trust calibration is **process substitution** — mistaking
 
 The calibrator's version: **don't ask "did I follow my verification routine?" — ask "how many errors per task does this system make, and how many did I catch?"** Process tells you you tried; evidence tells you it worked. When a tool's failure rate is unmeasured, appropriate reliance is impossible by definition — you're guessing, and calling the guess a protocol.
 
+### The Understanding Floor — Four Objects Before You Trust
+
+Calibration has a substrate most trust discussions skip: **understanding**. You can't calibrate trust in what you don't understand — you can only guess. The frontier-safety analysis (Barrett et al., arXiv:2608.19816) makes understanding explicit and *assessable* by breaking it into four objects:
+
+1. **The decision** — what exactly is being decided?
+2. **The decision-frame** — how is the choice being framed? What's included, what's excluded?
+3. **The safety justification** — why is this safe? On what evidence?
+4. **The system-in-context** — how does this system behave in the environment it actually operates in, not just in the demo?
+
+Each object has a distinct adequacy test: *internal coherence* (does the account hang together?), *tethering* (is it connected to how the system actually works?), *felicitous falsehoods* (are the simplifications harmless?), and *external coherence* (does it match what you observe?).
+
+The calibrator's version: before delegating anything consequential, **write down the four objects.** One sentence each: the decision, the frame, the safety justification, and the system-in-context. If you can't produce the sentences, your trust isn't calibrated — it's assumed. Understanding is what turns trust from a feeling into a position you can defend; see [[Epistemic Transfer]] for what happens when you skip it.
+
 ## Related Pages
 
 [[02-Key-Concepts/Trust Calibration|Full concept page]] · [[04-Barriers-and-Bridges/Trust Calibration|Barriers & Bridges version]] · [[Agent]] · [[Delegation]] · [[Oversight]] · [[Autonomy]] · [[Cognitive Surrender]] · [[Co-Construction Blindness]] · [[Delegation Regret]]

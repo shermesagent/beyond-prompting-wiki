@@ -16,7 +16,7 @@ The nineteen terms here are the ones that come up most often when someone starts
 
 If you're new here, start with **[[Agent]]** — it's the foundation everything else sits on. After that, jump to whichever term you're wrestling with today. There's no wrong order.
 
-This section grows as new concepts crystallize. The newest entries — **[[06-Glossary/Capacity Dissolution|Capacity Dissolution]]**, **[[06-Glossary/Cognitive Fixed Cost|Cognitive Fixed Cost]]**, **[[06-Glossary/The Blank Box Problem|The Blank Box Problem]]**, and **[[06-Glossary/Failure-Path Preservation|Failure-Path Preservation]]** — were added in August 2026, synthesizing a wave of July 2026 research (Yao, Li & Cao, Shneiderman, Saboia Moreira & Sweet). Each is a 30-second quick reference: the full treatment lives on the linked concept page, and every entry's Related Pages leads with it. Earlier entries — **[[Overassistance]]**, **[[06-Glossary/Trust Calibration|Trust Calibration]]**, and **[[06-Glossary/Delegation Regret|Delegation Regret]]** — were added in July 2026 after research demonstrated that over-helping (not error) is AI's primary failure mode, and that boundary violations (not mistakes) are what most erode human trust. The glossary evolves with the practice.
+This section grows as new concepts crystallize. The newest entries — **[[06-Glossary/Bounded Sovereignty|Bounded Sovereignty]]**, **[[06-Glossary/Capacity Dissolution|Capacity Dissolution]]**, **[[06-Glossary/Cognitive Fixed Cost|Cognitive Fixed Cost]]**, **[[06-Glossary/The Blank Box Problem|The Blank Box Problem]]**, and **[[06-Glossary/Failure-Path Preservation|Failure-Path Preservation]]** — were added in August 2026. **Bounded Sovereignty** synthesizes the sovereignty analysis (Lim, arXiv:2608.19216): the four-layer access typology (data, model, infrastructure, interaction) that determines what oversight is actually possible, and the sovereignty discount you pay for the layers you don't hold. The other August entries synthesize a wave of July 2026 research (Yao, Li & Cao, Shneiderman, Saboia Moreira & Sweet). Each is a 30-second quick reference: the full treatment lives on the linked concept page, and every entry's Related Pages leads with it. Earlier entries — **[[Overassistance]]**, **[[06-Glossary/Trust Calibration|Trust Calibration]]**, and **[[06-Glossary/Delegation Regret|Delegation Regret]]** — were added in July 2026 after research demonstrated that over-helping (not error) is AI's primary failure mode, and that boundary violations (not mistakes) are what most erode human trust. The glossary evolves with the practice.
 
 ---
 
@@ -43,6 +43,7 @@ This section grows as new concepts crystallize. The newest entries — **[[06-Gl
 | [[06-Glossary/The Blank Box Problem|The Blank Box Problem]] | Why does the empty chat window make me worse at using AI? | Operator → Orchestrator |
 | [[06-Glossary/Failure-Path Preservation|Failure-Path Preservation]] | How do I make sure mistakes get remembered instead of repeated? | Orchestrator |
 | [[06-Glossary/Epistemic Transfer|Epistemic Transfer]] | Does using AI leave me *more* capable when the tool is gone — or was I renting judgment? | Orchestrator |
+| [[06-Glossary/Bounded Sovereignty|Bounded Sovereignty]] | What parts of the AI stack do I actually control — and what does that limit my oversight to? | Architect |
 
 ---
 

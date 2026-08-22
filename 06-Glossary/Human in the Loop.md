@@ -43,6 +43,16 @@ Two failure modes quietly degrade checkpoints over time:
 
 The good news is that the *machinery* of checkpoints is nearly free — memory-integrity validators and policy gates run at under 0.2 ms of overhead (Containment Gap). Human attention is the expensive resource. Risk-proportional placement is how you spend it where it counts.
 
+### The Frontier Case — Conditions, Not Checkpoints
+
+Most human-in-the-loop thinking assumes the human's job is *approval*. The long-horizon research case (Li et al., arXiv:2608.11195) shows a different role: the human as **condition-setter**. In the study, an AI research system produced genuinely novel mathematical insights — tightening bounds on the Grothendieck constant to within a record 6π/11 ≤ K_G ≤ π/(2 log(1+√2)) − 10⁻⁴ — with the results deemed novel by domain experts. The loop's value wasn't in checking each step; it was in:
+
+- **Setting the conditions** — the environment, goals, and evaluation criteria under which the AI's best work becomes possible;
+- **Knowing the human system's strengths and weaknesses** — when to let the agent run long and when to intervene;
+- **Recognizing novelty when it appears** — the evaluative act that transforms raw output into a result.
+
+The reframe: human-in-the-loop at the frontier isn't a chain of approval clicks. It's **engineering the conditions for the agent's best work, then being the one who recognizes what's genuinely new.** That's the orchestrator's version of the loop — less checkpoint, more stewardship.
+
 ## Related Pages
 
 [[Autonomy]] · [[Delegation]] · [[Orchestration]] · [[Oversight]] · [[Trust Calibration]] · [[Fear of Losing Control]] · [[Co-Construction Blindness]]

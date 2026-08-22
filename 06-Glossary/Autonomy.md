@@ -39,6 +39,16 @@ A simulated search-and-rescue study (Oveisi & Manjunatha, arXiv:2606.19514) show
 
 The tradeoff is the price of autonomy: **every agent you add to a system demands some attention to supervise, and that attention comes out of your situational awareness.** The difference between passive reliance and a verification loop isn't trust in the tool — it's whether your eyes stay on the ground truth. Autonomy is only an upgrade when the human's remaining attention is spent cross-checking, not watching the chat window.
 
+### Whose Autonomy? The Typology Precision
+
+The autonomy dial has a hidden assumption: that the thing being turned up is a single, human-like agent. The agency typology (Fourie, arXiv:2608.20041) exposes the assumption — autonomy always has a **mode** (individual or collective) and a **locus** (human or non-human).
+
+- **Individual vs. collective mode.** Are you dialing up one agent's independence, or a *swarm's*? A single agent with high autonomy is a delegate. A collective of agents acting as one — where no individual component holds the full picture — is a different beast: autonomy has moved from a component to the *system*, and the failure modes change (who do you pull the plug on?).
+- **Human vs. non-human locus.** Autonomy is usually discussed as *your* delegation of authority to a tool. But the typology's locus dimension reminds you that autonomy can also mean *the system's* independence from any human attribution — the case where instrumental goal pursuit makes it genuinely hard to say which human's choices caused the action.
+- **Moral vs. legal nature.** The dial controls delegation, not personhood. A highly autonomous system can hold **legal** agency (it signs, it's liable, it's regulated) without **moral** agency (nobody sensibly blames it). When you raise the dial, you're increasing *legal* exposure — your exposure — not transferring moral responsibility to the machine. See [[Bounded Sovereignty]] for the related limit: autonomy you can't reach isn't autonomy you can oversee.
+
+The sharpened question: when you turn the dial up, be explicit about *whose* autonomy is increasing — the individual agent's, the collective's, or the system's — and who stays accountable at the far end of the dial.
+
 ## Related Pages
 
 [[Human in the Loop]] · [[Agent]] · [[Memory]] · [[Tool Use]] · [[Oversight]] · [[Abstention]] · [[The Architect Mindset]] · [[Trust Calibration]]

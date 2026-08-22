@@ -33,6 +33,16 @@ The routing heuristic: if your brief reads like a specification, an execution mo
 
 At team scale, routing becomes an organizational pattern. The **manager-of-managers** model (Fosslien & Duffy, HBR, May 2026) describes teams where members manage AI agents directly and the human manager's job shifts to direction, priorities, and coordination — managing the managers rather than doing the work. Delegation compounds twice: the agent executes the task, and the team's structure executes delegation itself.
 
+### The Identity Dimension — What Delegation Does to the Delegator
+
+Most delegation analysis asks *can the agent do this?* The identity dimension asks a harder question: *what does delegating do to the person who delegates?* The "Basic B\*\*\* effect" (Matz et al., arXiv:2509.02910) answers it with uncomfortable precision, using 110,000 real-world choices from 1,000 U.S. consumers plus a controlled study of 348 participants making 12,097 choices:
+
+- **Delegating identity-defining choices to LLM agents reduces interpersonal distinctiveness.** Choices shift toward popular, common options — everyone's agent picks the same crowd-pleasing answer, so the people behind the agents start to look alike.
+- **Generic agents homogenize more; personalized agents compress diversity harder.** A generic agent nudges you toward the mainstream. A personalized agent — one given rich data about you — actually compresses *intrapersonal* diversity: your choices become less varied across domains, and more homogenous as a portfolio.
+- **The effect amplifies with sequential decisions and domain-specific personalization.** The more decisions you hand over, and the more the agent knows about your domain, the more your choice space shrinks.
+
+The orchestrator's rule: **delegation is for execution, not for taste.** Before handing off a decision, ask *"is this choice part of who I am?"* If the answer is yes — identity-defining, preference-defining, value-expressing — keep it human. Agents are optimal for the how; the what-you-stand-for stays yours. This is the identity twin of [[Capacity Dissolution]]: capacity erosion describes what delegation does to your *skills*; the Basic B\*\*\* effect describes what it does to your *taste*.
+
 ## Related Pages
 
 [[Decomposition]] · [[Orchestration]] · [[Agent]] · [[Human in the Loop]] · [[Delegation Thinking]] · [[First Delegation]] · [[Delegation Regret]]
