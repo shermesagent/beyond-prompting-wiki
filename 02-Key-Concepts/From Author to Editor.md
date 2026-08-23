@@ -1,7 +1,7 @@
 ---
 title: From Author to Editor
 created: 2026-06-24
-updated: 2026-07-06
+updated: 2026-08-23
 type: concept
 tags: [concept, orchestrator, mindset, workflow]
 sources: [raw/articles/90-days-ai-agents-analytics-2026.md, raw/articles/getting-smart-workflow-schools-2026.md, raw/articles/agentic-browsers-accessibility-2026.md, raw/articles/mollick-against-brain-damage-2026.md]
@@ -84,6 +84,17 @@ This means the author-to-editor shift has an absorption cliff on one side: **if 
 The practical standard: for anything where the *thinking* matters, write your own first draft. AI is the editor — not the author. For anything where the *output* matters but the thinking doesn't (formatting, transcription, routine summaries), delegate freely. The distinction is: **is this writing to discover what I think, or writing to communicate what I already know?** The former requires authoring. The latter can be absorbed.
 
 See also: [[The Absorption Pattern]] · [[The Coaching Stance]] · [[The Sequencing Principle]]
+
+## The Provenance Question: What's Actually Yours
+
+The author-to-editor shift has always had a measurement problem: how do you know — really — how much of the final output is yours? Editing *feels* like ownership, but feelings aren't auditable. In August 2026 the question gained an instrument. Text watermarking — shipped in Google's Gemini 3.7 Flash since 2024, Anthropic's rollout began mid-August 2026, EU Code of Practice commits the Western labs — embeds a verifiable pattern in the model's *detail-choices*: the small decisions of word and phrasing where many options were equally good. The pattern **survives in proportion to how many AI detail-choices you keep**: keep the draft's structure, examples, and phrasings and the output is measurably the model's; replace them with your own and the watermark recedes. (Zvi Mowshowitz, "AI Text Watermarking Is Free And Good," 2026-08-21.)
+
+That makes the shift's core move concrete: **editing is the act of replacing the model's detail-choices with yours.** The Mollick method and the absorption cliff above describe why that matters; watermarking describes how you'd know. Two practical consequences:
+
+1. **Your edit rate is now a number you can check.** If you "edited" a draft but kept its structure, examples, and phrasings, your ownership share is lower than it feels. The meter doesn't judge — it calibrates.
+2. **The absorption risk gets visible.** Skipping the authoring and lightly editing an AI draft is the invisible version of the same loss the absorption research measures. Provenance makes the invisible loss legible: a high AI-choice share on work you shipped means the developmental work went to the model.
+
+The standard from the section above survives, now with a check: *is this writing to discover what I think, or to communicate what I already know?* For the first, your choices must be the ones in the text — and provenance is how you'd know. See [[02-Key-Concepts/The Provenance Principle|The Provenance Principle]] for the practice.
 
 ## Tags
 

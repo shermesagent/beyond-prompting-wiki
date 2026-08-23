@@ -1,7 +1,7 @@
 ---
 title: Audit Your Prompts
 created: 2026-06-27
-updated: 2026-08-21
+updated: 2026-08-23
 type: practice
 tags: [practice, operator]
 confidence: high
@@ -356,6 +356,21 @@ During your next audit week, pick a task you normally delegate and **do it manua
 Your delegation default is a setting, not a personality. The audit's categories tell you *what* you delegate; this probe tells you *how fast your hand moves*. The orchestrator's version of the finding: keep the manual path visible — one click more effort keeps the choice a choice.
 
 See also: [[The Practice Style]] · [[First Delegation]] · [[Scaffold, Don't Substitute]]
+
+## Beyond Categories: The Provenance Check
+
+The audit's categories classify what you delegate and how you verify it. There's one more layer beneath both: **whose choices are in the output** — the provenance of your work. It became measurable in August 2026: text watermarking is now shipped infrastructure (Google's Gemini 3.7 Flash since 2024; Anthropic's rollout since mid-August; EU Code of Practice). The mechanism: the model's *detail-choices* — the equally-good small decisions of word and phrasing — carry a verifiable pattern that **survives in proportion to how many AI detail-choices you keep**. (Zvi Mowshowitz, "AI Text Watermarking Is Free And Good," 2026-08-21.)
+
+### The Provenance Pass (layered on your audit week)
+
+1. **Collect three outputs** from the week: one you authored with AI help, one you delegated wholesale, one an agent produced end-to-end.
+2. **Estimate your ownership share** for each (0–100%): who chose the structure, the examples, the phrasing, the facts, the tone?
+3. **Run a checker if you can** — watermarked tools (Gemini 3.7 Flash output has carried the pattern since 2024; Anthropic's since August 2026) have public check APIs. Compare the meter to your estimate.
+4. **Log the gap.** Estimate vs. meter is your authorship-calibration error — the same measurement move as the [[Trust Calibration]] exercise, applied to authorship instead of accuracy. (Pairs with the Delegation Journal from Day 5.)
+
+The audit tells you *what* you hand over and *how* you check it. The provenance check tells you *how much of what you shipped is actually yours* — and whether "I edited it" means you chose, or you kept. High AI-choice share on work you claim isn't a sin; it's a calibration fact.
+
+See also: [[02-Key-Concepts/The Provenance Principle|The Provenance Principle]] · [[From Author to Editor]] · [[The Absorption Pattern]]
 
 ## Related Pages
 

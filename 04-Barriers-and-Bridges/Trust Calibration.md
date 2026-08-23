@@ -1,7 +1,7 @@
 ---
 title: Trust Calibration
 created: 2026-07-16
-updated: 2026-08-20
+updated: 2026-08-23
 type: concept
 tags: [barrier, mindset, skill]
 sources:
@@ -154,6 +154,22 @@ This is the thermostat reading the room: **the most likable AI is not the most t
 2. **Watch for the narrative frame.** Story-based, identity-anchored AI is engineered to be preferred — which is exactly why it deserves a calibration discount. Warmth is a feature of the interface, not evidence about the content.
 
 **Source:** arXiv:2509.15575 — "Trade-offs in Social-Norm Framings for Health Chatbots: Balancing Trust and Preference" (Wadhwa, Vashistha & Jain)
+
+## The Provenance Layer: When Output Is Measurable, Trust Gets a Meter
+
+There's a sixth layer, and it's the one that changes the calibration exercise itself: **provenance — the verifiable origin of the output.** Every earlier layer asked you to judge the output: is it right (accuracy), is it worthy (normative), what is it for (intent), does my trust track outcomes (framing). Provenance asks a prior question: *whose output is this, measurably?*
+
+In August 2026, text watermarking became shipped infrastructure (Zvi Mowshowitz, "AI Text Watermarking Is Free And Good," 2026-08-21): Google has watermarked Gemini 3.7 Flash since 2024 — a 20-million-message A/B found no user-feedback difference — Anthropic's rollout began around August 14, 2026, and the EU Code of Practice commits the major Western labs to the scheme. The mechanism (Aaronson–Kirchner): the model's secret-key pseudo-random choices across *detail-choices* — the many equally-good small decisions of word and phrasing — leave a pattern a public check API can verify. Near-zero quality cost. The privacy objections are rebuttable; the real exposure is checking services, not the scheme itself.
+
+Why this is a calibration instrument, not just a policy story: **the watermark survives in proportion to how many AI detail-choices you keep.** Accept a draft wholesale → the output is measurably the model's. Rewrite it, choose different structure and phrasing → you replace AI choices with yours and the watermark recedes. Your thermostat has been guessing "how much of this is mine?" — now there's a meter. That doesn't replace the layers above: a watermarked text can still be wrong, or persuasive, or the product of a system unworthy of reliance. It adds the missing axis: *how much of what you're about to trust is actually yours?* See [[02-Key-Concepts/The Provenance Principle|The Provenance Principle]] for the practice (the Provenance Pass).
+
+**What this means for your thermostat:** add one question to your calibration routine — *"if this output were checked, how much of it would be mine?"* Three practical applications:
+
+1. **Estimate before you check.** For a delegated draft, write your ownership share (0–100%) before any checker runs. The gap between estimate and meter is your authorship-calibration error — practice shrinking it.
+2. **Use the meter for the absorption check.** A high AI-choice share on work you "wrote" is the measurable version of [[The Absorption Pattern]]: the developmental work went to the model.
+3. **Ask who chose the instrument.** Watermarking arrived by vendor choice (Google silently, Anthropic openly, OpenAI declining). Whether provenance is measurable in your stack is a decision someone made — know who, and why. That's calibration data too.
+
+**Source:** Zvi Mowshowitz — "AI Text Watermarking Is Free And Good" (2026-08-21); see also [[02-Key-Concepts/The Provenance Principle|The Provenance Principle]]
 
 ## The Bottom Line
 

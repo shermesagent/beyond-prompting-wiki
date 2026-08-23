@@ -50,6 +50,7 @@ You don't need to read them in order. Jump to whichever title grabs you. But if 
 38. [[The Tool-to-Entity Threshold]] — the moment an agent stops being something you operate and becomes someone you relate to: six identity markers (naming, avatar, contact presence, personality, social co-presence, persistence) flip the reclassification — and consent to an agent's *presence* is not consent to its *processing*.
 39. [[The Authority Switch]] — the moment control changes hands between human and agent, treated as a design decision rather than an event: trigger, override path, and handback condition for every delegation — the take-back leg of the delegation loop (hand off → verify at the boundary → take back).
 40. [[The Practice Style]] — the mode you use AI in while learning: substitute (AI does the reps, skill never builds) vs. complement (AI accelerates practice, skill grows); the mode, not the tool, decides whether ability erodes — and AI-prohibited gates can separate the two at credential boundaries.
+41. [[The Provenance Principle]] — origin plus verifiability: knowing where a thing came from and being able to check it. Text watermarking (shipped since 2024 in Gemini 3.7 Flash, Anthropic since Aug 2026) makes authorship measurable — the watermark survives in proportion to how many AI detail-choices you keep — and compute geography makes *where* your delegation runs an auditable fact.
 
 ---
 
@@ -107,6 +108,7 @@ They came out of real research — papers on human-AI collaboration, case studie
 | [[Scaffold, Don't Substitute]] | When does AI hold up thinking — and when does it replace it? | Operator → Orchestrator |
 | [[Procedural Collapse]] | Why does the interface itself make engagement collapse — and what design puts the process back? | Operator → Orchestrator |
 | [[The Practice Style]] | Is AI building my skill or standing in for it — and how do I tell? | Everyone |
+| [[The Provenance Principle]] | Where did this output come from — and who chose that the answer would be measurable? | Orchestrator |
 
 ---
 

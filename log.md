@@ -1080,3 +1080,12 @@ Theme: **Delegation is a redistribution of consequences — and reliability fail
 - Spares: 2608.16603 (vetted, not selected), 2608.13674 (still unvetted), 2608.17017, 2608.13567, 2608.13608, 2608.18078, 2608.18086, 2608.18110, 2608.18117, 2608.18122, 2608.18778
 - Hash debt: none new — all 25 active raw files (5 Day 2 … 5 Day 6) self-verify; 08-13 stale-hash debt (2608.11803, 2608.11626, 2608.11794) still carried
 - Commit: "Beyond Prompting Wiki update — 2026-08-22 (Day 6 Glossary Deepening rotation, Week 8)"
+
+## 2026-08-23 | deep-synthesis | Day 7 cross-section lint + weekend deep-synthesis (Week 8 close)
+- Theme: Provenance — origin plus verifiability; the week through-line (checkability) gets its instrument
+- Lint: 151 pages scanned; 190 flagged links reviewed → all false positives (pathful house pattern, [[Home]]/[[log]], table-escape aliases); 61 orphans = 59 digests + 2 structural (expected); 0 genuine breakage
+- Sources ingested: 2 via AI Agency KB cross-pollination (zvi-ai-text-watermarking 2026-08-21, wired-ulanqab 2026-08-21); sources 261 → 263
+- Pages created: 02-Key-Concepts/The Provenance Principle (provenance principle, detail-choices meter, Instrument Question, compute geography, Provenance Pass)
+- Pages updated: Trust Calibration (The Provenance Layer), From Author to Editor (The Provenance Question), Audit Your Prompts (The Provenance Check)
+- Digest: 00-Daily-Digests/2026-08-23.md (weekend deep-synthesis)
+- Navigation: Home.md (count 96→97, digest pointer, Recent Updates), 02-Key-Concepts/README.md
