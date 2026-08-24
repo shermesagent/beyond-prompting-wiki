@@ -112,6 +112,30 @@ Use the four SolarWinds dimensions to locate yourself:
 
 If you score low on most of these, you're in solid operator territory — and that's fine. The 80% of IT pros who said they're shifting didn't all start from the same place. They just noticed the direction.
 
+## The Belief Update Gate: What Moves — and What Doesn't (August 2026)
+
+When researchers re-analyzed a large human-AI decision-making dataset (240 participants, 7,200 trials, 3 task domains; arXiv:2608.20828), they found something surprising: **67.3% of trial-level belief changes were exactly zero.** Three-quarters of the time, people's stated confidence didn't move by even five percentage points — no matter what the AI did. The authors call this the **belief update gate**: there's a difference between *whether* a belief changes at all and *how* it changes when it moves.
+
+The operator translation: **most of us aren't updating most of the time.** You watch the AI succeed a dozen times and fail twice, and your confidence in it stays frozen at whatever it was. The gate opens for one specific reason — the *absolute* gap between what the AI just did and what you believed about it. Big surprises move you; small feedback doesn't.
+
+For the operator this is both a warning and a lever:
+
+- **Warning:** your model of the AI's reliability may be older than your experience with it. If you haven't been surprised lately, that doesn't mean the AI is stable — it may mean your gate is closed.
+- **Lever:** when you *do* want to update — after a failure, after a success — name the old belief and the new evidence in one sentence: "I thought this was 80% reliable; it just failed twice in a row." Putting the discrepancy in words is what opens the gate.
+
+The deeper point: the gate doesn't tell you whether the AI is good. It tells you whether *you* are still learning about it.
+
+## Which Folk Theory Holds Your Model of the AI? (August 2026)
+
+A Perspective with a deliberately plain title — "Six misconceptions about large language models" (arXiv:2608.20421) — argues that most of our debates about AI are structured by **folk theories**: intuitive, informal explanatory models that feel complete but capture only a feature of the system and mistake it for the whole.
+
+- Deflationary slogans — **"just autocomplete," "stochastic parrots," "average of the internet"** — each point at a real feature (next-token prediction, statistical mimicry, training data) but miss the rest of the system.
+- Anthropomorphic framings — **"emergent agents," "proto-minds"** — capture the real way these systems behave in conversation but import agency and understanding the systems don't have.
+
+The paper's fix is a **minimal working model** built on four distinctions: pretraining vs. the deployed system; the learned distribution vs. particular samples; parametric vs. contextual vs. external memory; and **task competence vs. agency** — the one that matters most for the shift.
+
+For the operator, this is a lens check: **the folk theory you hold determines what you delegate and what you don't.** If your model is "just autocomplete," you'll treat every output as random noise — never delegating anything that matters. If your model is "proto-mind," you'll treat every output as intention — delegating things that need your judgment. The truth is in between: these systems can *do* more than a parrot and *be* less than a mind. Your job is to keep testing which tasks are which, instead of letting a slogan decide for you.
+
 ## Try This
 
 Pick one task you do with AI at least twice a week. Write down every step you take — every prompt, every edit, every check. Now ask: which of those steps are truly judgment calls, and which are mechanical sequences you could teach someone else? The mechanical ones are your first candidates for delegation. Circle them.

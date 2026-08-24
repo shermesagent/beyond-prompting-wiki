@@ -109,13 +109,25 @@ The report profiles the resulting AI as an "entity" with nine documented feature
 
 These three pillars map directly onto this wiki's structure: sovereignty is [[The Operator Mindset|operator]] consciousness, control is the [[The Orchestrator Mindset|orchestrator's]] delegation brief, autonomy gates are the [[The Architect Mindset|architect's]] review infrastructure. The paper's most important sentence for our purposes: an entity that "mirrors its users' biases" and "erodes the competence of those who depend on it" is not a tool that needs better prompting — it's a counterpart that needs **structure around it**. That structure is the beyond-prompting shift.
 
+## The Gap Between Exposure and Delegation (August 2026)
+
+By August 2026, the shift got its first large-scale measurement. Researchers (arXiv:2608.20425) embedded roughly **53,000 agent configurations** that practitioners had actually built and shared on the Manus Skills Marketplace, matched them against ~18,000 O*NET task statements, and scored every occupation on something they call **delegated exposure** — whether workers have *committed* a task to AI by building it into a workflow. See [[02-Key-Concepts/Delegated Exposure|Delegated Exposure]] for the full breakdown.
+
+The old question was exposure: what *could* AI do to your job? The new question is delegation: what have you *actually* handed over? Three findings:
+
+- **Delegation concentrates in different occupations than the pre-AI "most at risk" lists predicted.** The jobs everyone expected to be automated first aren't where people are delegating most.
+- **Delegation tracks what AI *could* do more closely than what workers currently use it for.** The systems lead; the choices follow.
+- **Delegation peaks below the top of the wage distribution and at the bachelor's level — declining at both extremes.** And the shortfall among the most-educated isn't explained by technical availability: either their work resists being specified in advance, or they're exercising discretion over how fast their work gets codified.
+
+Why this belongs on this page: **exposure happens to you; delegation is a decision you make.** That one sentence is the shift. If you've never counted what you've actually delegated — as opposed to what AI could do — you're still reading the old map.
+
 ## Try This
 
 Open your most-used AI tool right now. Instead of asking it to do something, give it a goal and a constraint. Say: "I need a report on X. Figure out what information you need, collect it, and produce a one-page summary. Ask me clarifying questions only if you absolutely must." Notice how different that feels — and how much more you get back.
 
 ## Related Pages
 
-[[The Operator Mindset]] · [[The Orchestrator Mindset]] · [[Why This Matters]] · [[The Blank Box Problem]]
+[[The Operator Mindset]] · [[The Orchestrator Mindset]] · [[Why This Matters]] · [[The Blank Box Problem]] · [[02-Key-Concepts/Delegated Exposure|Delegated Exposure]]
 
 ## Tags
 

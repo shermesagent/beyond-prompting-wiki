@@ -1089,3 +1089,12 @@ Theme: **Delegation is a redistribution of consequences — and reliability fail
 - Pages updated: Trust Calibration (The Provenance Layer), From Author to Editor (The Provenance Question), Audit Your Prompts (The Provenance Check)
 - Digest: 00-Daily-Digests/2026-08-23.md (weekend deep-synthesis)
 - Navigation: Home.md (count 96→97, digest pointer, Recent Updates), 02-Key-Concepts/README.md
+
+## 2026-08-24 | 01-The-Shift | Day 1 rotation (Week 9 open)
+- Theme: Delegation is a decision, not an exposure — Monday's question (whose choices are in today's output, and did you mean to keep them?) answered by 5 sources
+- Sources ingested: 4 arXiv (who-delegates-to-ai-2608.20425, the-belief-update-gate-2608.20828, six-misconceptions-about-large-language-models-2608.20421, the-substitution-escrow-threshold-2608.21221) + 1 via AI Agency KB cross-pollination (simon-willison-instruct-and-verify 2026-08-22); sources 263 → 268
+- raw/: 4 new files sha256-verified (163 → 167); 08-13 hash debt still carried
+- Pages created: 02-Key-Concepts/Delegated Exposure (exposure vs delegation, Agentic Adoption Index, ~53,000 configs vs ~18,000 O*NET statements)
+- Pages updated: all five 01-The-Shift pages (What Is Beyond Prompting — The Gap Between Exposure and Delegation; The Operator Mindset — The Belief Update Gate 67.3% zero-updates + Which Folk Theory Holds Your Model of the AI?; The Orchestrator Mindset — Instruct and Verify; The Architect Mindset — Escrow Your Exit Path / Substitution Escrow Threshold; Why This Matters — The Delegation Gap Is the Opportunity)
+- Digest: 00-Daily-Digests/2026-08-24.md
+- Navigation: Home.md (count 97→98, digest pointer, Recent Updates), 02-Key-Concepts/README.md (concept #42 + glance table)

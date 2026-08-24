@@ -161,6 +161,20 @@ The orchestrator's translation is threefold:
 
 This connects directly to [[Delegation Thinking]] (delegation is an act of trust with an interface) and [[Trust Calibration]] (trust what you test — test your agent's social behavior under pressure, not just its task performance). Try it: give your agent a negotiation task with an explicit bottom line and a "report back instead of conceding" rule, and watch how differently it behaves.
 
+## Instruct and Verify (August 2026)
+
+Simon Willison — one of the clearest voices on practical AI use — put the orchestrator's core skill in two words (simonwillison.net, 2026-08-22): **instruct and verify**. "The key skill required to make productive use of coding agents is being able to confidently instruct them on how to make changes and then confidently verify that those changes have been applied in the correct way."
+
+The corollary is the part most people miss: **eyeballing every line has never been the most effective approach.** Reading output carefully is not the same as verifying it. Verification is structured: tests that should pass, diffs that should match expectations, behavioral checks that confirm the result does what you asked — not just looks like it.
+
+Why this is the orchestrator's move:
+
+- **Instructing confidently** is what separates delegation from guessing. You give the goal, the constraints, and the definition of done — not a wish.
+- **Verifying confidently** is what keeps the delegation yours. Unverified delegation isn't delegation; it's hope with a prompt attached.
+- **Structured verification** is the antidote to the reading illusion — line-by-line reading fails because humans are pattern-matched into agreement. A failing test can't be flattered.
+
+This pairs with the delegated-exposure research (see [[02-Key-Concepts/Delegated Exposure|Delegated Exposure]]): the field is full of people who *use* AI but can't *verify* it. The orchestrator is the one who can say "show me" and mean it. The loop is the same one this wiki keeps circling: **hand off → verify at the boundary → take back.** Instruct and verify is how the hand-off earns the take-back.
+
 ## How to Spot It in Your Day
 
 You are orchestrating when:
@@ -178,7 +192,7 @@ Take the mechanical sequences you circled in [[The Operator Mindset]] exercise. 
 
 ## Related Pages
 
-[[What Is Beyond Prompting]] · [[The Operator Mindset]] · [[The Architect Mindset]] · [[Why This Matters]] · [[The Four Decision Labels]] · [[Delegation Thinking]] · [[The Blank Box Problem]]
+[[What Is Beyond Prompting]] · [[The Operator Mindset]] · [[The Architect Mindset]] · [[Why This Matters]] · [[The Four Decision Labels]] · [[Delegation Thinking]] · [[The Blank Box Problem]] · [[02-Key-Concepts/Delegated Exposure|Delegated Exposure]]
 
 ## Tags
 

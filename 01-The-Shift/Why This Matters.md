@@ -79,6 +79,18 @@ You know this matters to you when:
 - You want AI skills that will still be relevant in five years, not just five months
 - You suspect there is a whole tier of AI capability you have not accessed yet
 
+## The Delegation Gap Is the Opportunity (August 2026)
+
+The first large-scale measurement of who actually delegates to AI (arXiv:2608.20425; ~53,000 agent configurations matched against ~18,000 O*NET task statements) found that the **Agentic Adoption Index tracks what AI could do more closely than what workers currently use it for.** In other words: capability is ahead of delegation, everywhere.
+
+That gap — between what's buildable and what's been built into workflows — is the single biggest reason the shift matters right now:
+
+- **It's not a technology problem.** The tools exist; the workflows mostly don't.
+- **It's not a skills problem in the usual sense.** It's a delegation problem: someone has to decide to commit a task to AI, build it in, and own the result.
+- **It's not evenly distributed.** Delegation peaks below the top of the wage distribution and at the bachelor's level. Among the most-educated occupations, the shortfall isn't explained by technical availability — the work resists advance specification, or the people doing it are choosing the pace.
+
+For you, the practical read is bracing and hopeful at once: **most of the value of the shift is still sitting unclaimed.** The people who move first — who build one task into a real workflow, verify it, and own it — are the ones the next measurement will count. The gap closes one delegation at a time, and each one starts with a decision, not an upgrade.
+
 ## Try This
 
 **The Leverage Ratio Check.** Calculate your "AI leverage ratio" for this week. Count how many minutes you spent directly interacting with AI versus how many minutes of work the AI actually produced. If you prompted for 90 minutes and got 90 minutes of output, your ratio is 1:1. If you prompted for 30 minutes and got 3 hours of output, your ratio is 1:6. Write that number down. Next week, try to double it — not by working harder, but by moving one task from operator mode to orchestrator mode.

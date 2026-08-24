@@ -92,6 +92,22 @@ This changes the architect's context in two ways:
 
 If you've been putting off learning agent-building because it felt like a credential-gated skill: it isn't anymore. The course that 353,000 people took is still free. No one is behind; everyone is on a path.
 
+## Escrow Your Exit Path (August 2026)
+
+Enterprise buyers have always read compatibility claims — "S3-compatible," "PostgreSQL-compatible," now "OpenAI-compatible" — as promises that they can substitute later. A new paper (arXiv:2608.21221) points out that **most compatibility claims don't escrow the substitution path they imply.** They reduce the cost of the first integration, not the risk of the eventual exit.
+
+The paper's **Substitution Escrow Threshold** says a claim genuinely de-risks you only when five conditions hold:
+
+1. **Boundary closure** — you can see exactly where the compatible surface ends (and what's outside it).
+2. **Executable conformance** — compatibility is testable, not just claimed.
+3. **Custody independence** — your data and state aren't hostage to the vendor's infrastructure.
+4. **State and operations reversibility** — you can back out and take your operations with you.
+5. **Extension quarantine** — vendor-specific extensions can't silently become dependencies.
+
+Five infrastructure cases (OCI, Kubernetes, OpenTelemetry, S3, PostgreSQL) land in five different outcome cells — some genuinely escrow your exit, some only lower the entry fee. And the paper names **AI infrastructure as the framework's most urgent next application** — which is exactly where your delegation now runs.
+
+The architect translation: **before you build a workflow on an AI tool, ask what it would take to leave.** "OpenAI-compatible" is a claim about day one. The escrow threshold is a claim about day 400. If you can't test the conformance, recover the state, or see where the compatibility ends, then the claim bought you a cheaper first step — and an unexamined exit. This is the infrastructure-level version of [[02-Key-Concepts/The Authority Switch|The Authority Switch]]: not just "who holds control now," but "can I take it back?"
+
 ## How to Spot It in Your Day
 
 You are thinking like an architect when:
@@ -109,7 +125,7 @@ Pick one workflow you currently orchestrate manually. Ask: "If I got hit by a bu
 
 ## Related Pages
 
-[[The Orchestrator Mindset]] · [[The Operator Mindset]] · [[What Is Beyond Prompting]] · [[Why This Matters]]
+[[The Orchestrator Mindset]] · [[The Operator Mindset]] · [[What Is Beyond Prompting]] · [[Why This Matters]] · [[02-Key-Concepts/The Authority Switch|The Authority Switch]]
 
 ## Tags
 
