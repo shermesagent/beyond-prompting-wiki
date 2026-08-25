@@ -215,6 +215,16 @@ The lesson for calibration: **fluency is a surface cue.** The bot sounded attent
 
 **Source:** Zhang, H., Chukwuma, K., Kim, C. & Carroll, J.M. "When the Interviewer Is a Bot: Behavior, Breakdowns, and Trust in MLLM-Led Interviews." arXiv 2608.10412 (August 2026). See also [[The Coaching Stance]] for the probe-light pattern's flip side.
 
+### The Confidence Gap: When Sounding Sure Is the Problem (New, August 2026)
+
+**The most important calibration data of 2026 arrived wearing a legal robe.** The High-Confidence Error Rate study (August 2026, arXiv:2608.21089) measured exactly what this page has been circling for weeks: whether a model's stated confidence predicts its accuracy. It doesn't. Across a 60-case battery on the Indian Contract Act 1872 (including a recent statutory shift), **Meta AI delivered incorrect verdicts at a 31.7% rate while stating a mean confidence of 9.1/10**; Perplexity was wrong at 15.0%; ChatGPT at 6.7%. The researchers named it the *inertia of confidence*, hypothesized as **precedent overfitting**: the model's confidence tracks how well the answer matches familiar text patterns, not how true it is.
+
+That's [[The Confidence Gap]] in one study — and it converts directly into calibration practice:
+
+- **Never treat stated confidence as a signal about accuracy.** It's a signal about *fluency*.
+- **Check the highest-confidence outputs first.** The ≥ 8/10 zone is where the gap hides; the Confidence Strip drill (15 minutes, on [[The Confidence Gap|the concept page]]) makes the check reflexive.
+- **Assume reactive verification is your default.** N=380 law students who'd been burned by fabricated citations verify at 4.2/5 vs. 2.8/5 for the unburned — and 71.1% had zero formal instruction on verifying AI output. Calibration taught by getting burned is the expensive curriculum; explicit drills are the cheap one.
+
 ## Try This
 
 **5-Minute Exercise: Build a Trust Map**
@@ -229,7 +239,7 @@ Keep this map. Update it next week. You're building your own calibration data.
 
 ## Related Pages
 
-[[06-Glossary/Trust Calibration|Quick reference]] · [[04-Barriers-and-Bridges/Trust Calibration|Barriers & Bridges version]] · [[Cognitive Surrender]] · [[Task Decomposition]] · [[Delegation Thinking]] · [[Memory as Infrastructure]] · [[The Review-First Pattern]] · [[04-Barriers-and-Bridges/README|04 — Barriers & Bridges]] · [[Co-Construction Blindness]] · [[The Sequencing Principle]] · [[The Jagged Frontier]]
+[[06-Glossary/Trust Calibration|Quick reference]] · [[04-Barriers-and-Bridges/Trust Calibration|Barriers & Bridges version]] · [[Cognitive Surrender]] · [[Task Decomposition]] · [[Delegation Thinking]] · [[Memory as Infrastructure]] · [[The Review-First Pattern]] · [[04-Barriers-and-Bridges/README|04 — Barriers & Bridges]] · [[Co-Construction Blindness]] · [[The Sequencing Principle]] · [[The Jagged Frontier]] · [[The Confidence Gap]] · [[Delegated Exposure]]
 
 ## Tags
 

@@ -96,9 +96,15 @@ Both studies land on the same design rule: the review point belongs **at each bo
 
 ---
 
+### Never Let the Generator Be the Judge (New, August 2026)
+
+**The reviewer must not be the author.** An August 2026 study (arXiv:2608.21850) scored LLM feedback against human teaching-assistant feedback on a five-criteria rubric: students rated the AI's feedback *above* the human TAs — but the same models showed a significant **self-preference bias** when evaluating their own outputs, a bias that persisted even in cross-model evaluation. Generous, fluent self-assessment is exactly what a model produces about its own work: it has no outside view, and its confidence (see [[The Confidence Gap]]) doesn't correct for that.
+
+The pattern extension: Review-First has always meant *review before use*; this study adds the **independence requirement** — the reviewer must be structurally separated from the generator. Concretely: a different model reviewing, a human domain reviewer, or a checklist applied against the source — anything that breaks the loop where the thing that produced the work also certifies it. Verify at the boundary is only verification if the boundary is *outside* the generator.
+
 ## Related Pages
 
-[[From Prompt to Pipeline]] · [[From Author to Editor]] · [[Trust Calibration]] · [[Delegation Thinking]] · [[The Authority Switch]] · [[Human in the Loop]] · [[Friction by Design]] · [[The Collapse Pattern]] · [[The Sequencing Principle]] · [[02-Key-Concepts/README|02 — Key Concepts]]
+[[From Prompt to Pipeline]] · [[From Author to Editor]] · [[Trust Calibration]] · [[Delegation Thinking]] · [[The Authority Switch]] · [[Human in the Loop]] · [[Friction by Design]] · [[The Collapse Pattern]] · [[The Sequencing Principle]] · [[02-Key-Concepts/README|02 — Key Concepts]] · [[The Confidence Gap]]
 
 ## Tags
 

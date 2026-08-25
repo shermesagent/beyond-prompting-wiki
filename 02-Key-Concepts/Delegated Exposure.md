@@ -34,6 +34,8 @@ The gap between the two measures is the shift's territory:
 
 There's also a subtle lesson in the data: **delegation tracks capability, not use.** What people build and share today is shaped by what the tools can do — which means your own delegation map probably is too. The systems are leading; the choices are following. Noticing that is the first step to choosing on purpose.
 
+Delegation needs a companion meter: **calibration.** The delegation decision is only as good as your read on the output — and this week's calibration research shows machine confidence doesn't track accuracy (wrong answers arrive at 9.1/10 stated confidence), and comprehension doesn't track risk (teens understand therapy-bot advice 10–14 points better than they gauge its danger). The gap between *what you've handed over* and *what you can verify* is where misdelegation lives; see [[Trust Calibration]] and [[The Confidence Gap]].
+
 ## How to Spot It in Your Day
 
 - **Ask the exposure question:** "What could AI do in my role?" — the answer is probably a long list.
@@ -61,6 +63,8 @@ Your goal isn't an all-marked column. It's a column where every row has a *reaso
 - [[The Jagged Frontier]] — which tasks AI has already crossed
 - [[Task Decomposition]] — how to turn a task into something delegable
 - [[The Provenance Principle]] — knowing where delegated output came from
+- [[Trust Calibration]] — delegation is only as sound as your read on the output
+- [[The Confidence Gap]] — the distance between how sure the machine sounds and how often it's right
 
 ## Tags
 

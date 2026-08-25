@@ -52,6 +52,7 @@ You don't need to read them in order. Jump to whichever title grabs you. But if 
 40. [[The Practice Style]] — the mode you use AI in while learning: substitute (AI does the reps, skill never builds) vs. complement (AI accelerates practice, skill grows); the mode, not the tool, decides whether ability erodes — and AI-prohibited gates can separate the two at credential boundaries.
 41. [[The Provenance Principle]] — origin plus verifiability: knowing where a thing came from and being able to check it. Text watermarking (shipped since 2024 in Gemini 3.7 Flash, Anthropic since Aug 2026) makes authorship measurable — the watermark survives in proportion to how many AI detail-choices you keep — and compute geography makes *where* your delegation runs an auditable fact.
 42. [[Delegated Exposure]] — exposure asks what AI *could* do to your job; delegation asks what you've *actually* handed over. Built from ~53,000 real agent configurations (Manus Skills Marketplace) matched against ~18,000 O*NET task statements: delegation concentrates differently than the "most at risk" lists predicted, tracks capability more than use, and peaks below the top of the wage distribution — the gap between the two lists is your delegation map.
+43. [[The Confidence Gap]] — the distance between how sure a machine sounds and how often it's actually right. The High-Confidence Error Rate study measured it: wrong legal verdicts at 31.7% while stating 9.1/10 confidence (inertia of confidence, precedent overfitting); teens comprehend therapy-bot advice 10–14 points better than they gauge its risk. Confidence is a tone of voice, not evidence — and the Confidence Strip drill retrains the check before the burn.
 
 ---
 
@@ -111,6 +112,7 @@ They came out of real research — papers on human-AI collaboration, case studie
 | [[The Practice Style]] | Is AI building my skill or standing in for it — and how do I tell? | Everyone |
 | [[The Provenance Principle]] | Where did this output come from — and who chose that the answer would be measurable? | Orchestrator |
 | [[Delegated Exposure]] | What have I actually handed over — and what's still just "could"? | Operator → Orchestrator |
+| [[The Confidence Gap]] | How much should I trust that confident-sounding answer? | Orchestrator |
 
 ---
 

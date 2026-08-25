@@ -1098,3 +1098,12 @@ Theme: **Delegation is a redistribution of consequences — and reliability fail
 - Pages updated: all five 01-The-Shift pages (What Is Beyond Prompting — The Gap Between Exposure and Delegation; The Operator Mindset — The Belief Update Gate 67.3% zero-updates + Which Folk Theory Holds Your Model of the AI?; The Orchestrator Mindset — Instruct and Verify; The Architect Mindset — Escrow Your Exit Path / Substitution Escrow Threshold; Why This Matters — The Delegation Gap Is the Opportunity)
 - Digest: 00-Daily-Digests/2026-08-24.md
 - Navigation: Home.md (count 97→98, digest pointer, Recent Updates), 02-Key-Concepts/README.md (concept #42 + glance table)
+
+## 2026-08-25 | 02-Key-Concepts | Day 2 rotation (Week 9)
+- Theme: The Confidence Gap — how sure the machine sounds is not how often it's right; Tuesday's question (how sure did it sound, and did you check the sure ones first?) answered by 5 sources
+- Sources ingested: 5 arXiv papers (high-confidence-error-rate-legal-2608.21089, therapy-bot-gen-alpha-risk-gap-2608.20345, llms-talk-more-than-listen-2608.22425, feedback-quality-rubric-humans-machines-2608.21850, turn-level-design-frictions-2608.22427); sources 268 → 273; cross-pollinated with AI Agency KB 08-24 digest (The Calibration Question)
+- raw/: 5 new files sha256-verified (167 → 172); 08-13 hash debt still carried
+- Pages created: 02-Key-Concepts/The Confidence Gap (inertia of confidence, precedent overfitting, risk-comprehension gap, Confidence Strip drill)
+- Pages updated: Trust Calibration (When Sounding Sure Is the Problem: HCER 31.7% @ 9.1/10, reactive vs proactive verification N=380); The Coaching Stance (Talk More Than They Listen: ICC 0.91 personality readability, listening gate); Friction by Design (Friction as Calibration: 6 probes × 3 mechanisms, workload/ownership tradeoff); The Review-First Pattern (Never Let the Generator Be the Judge: self-preference bias, independence requirement); Delegated Exposure (cross-linked to Trust Calibration + The Confidence Gap)
+- Digest: 00-Daily-Digests/2026-08-25.md
+- Navigation: Home.md (count 98→99, digest pointer, Recent Updates), 02-Key-Concepts/README.md (concept #43 + glance table)

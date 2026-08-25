@@ -121,9 +121,19 @@ This validates the core thesis of Friction by Design from a design-theory perspe
 
 **Source:** arXiv:2607.26827 — "AI as Friction for Reflection Support in Ideation"
 
+### Friction as Calibration: Turn-Level Design Frictions (New, August 2026)
+
+**Friction isn't only for reflection — it's a calibration instrument.** An August 2026 within-subject study (N=24, arXiv:2608.22427) tested six friction probes across the three mechanisms designers actually control: **eliciting user contribution**, **restricting access to generated content**, and **reshaping system output**. Every probe increased workload and task duration — but also raised perceived ownership of the result. Recall and recognition gains were selective, and adaptation varied sharply with user goals and workflows.
+
+Three takeaways for this page:
+
+1. **Friction has a measurable price.** Workload and duration rose across all six probes. Designed slowdowns are a tax — spend it where the error is expensive, not everywhere.
+2. **Ownership is the payoff.** Every mechanism raised perceived ownership, which is the state where review actually happens. Friction's job is to make the user *feel* like the work is theirs — because then they check it.
+3. **One size fails.** Effects depended on what the user was trying to do. Friction by design means *matching* the slowdown to the stakes. This week's rule of thumb, from [[The Confidence Gap]]: put the friction at the ≥ 8/10 confidence outputs — the fluent ones your brain wants to skip.
+
 ## Related Pages
 
-[[Cognitive Surrender]] · [[Trust Calibration]] · [[The Augmentation Trap]] · [[Delegation Thinking]] · [[Task Decomposition]] · [[The Placement Rule]] · [[The Sequencing Principle]] · [[The Scaffold Match]] · [[Instruction Bleed]] · [[Social Thinning]]
+[[Cognitive Surrender]] · [[Trust Calibration]] · [[The Augmentation Trap]] · [[Delegation Thinking]] · [[Task Decomposition]] · [[The Placement Rule]] · [[The Sequencing Principle]] · [[The Scaffold Match]] · [[Instruction Bleed]] · [[Social Thinning]] · [[The Confidence Gap]]
 
 ## Tags
 

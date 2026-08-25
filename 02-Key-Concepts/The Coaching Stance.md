@@ -115,9 +115,15 @@ Why this matters for the coaching stance: **a coach who never probes is a coach 
 
 **Source:** Zhang, H., Chukwuma, K., Kim, C. & Carroll, J.M. "When the Interviewer Is a Bot." arXiv 2608.10412 (August 2026). See also [[Trust Calibration]] for the trust-side reading of the same study.
 
+### Talk More Than They Listen (New, August 2026)
+
+**A coaching session that never listens isn't coaching — it's a lecture.** That's the uncomfortable finding of an August 2026 study (arXiv:2608.22425) that evaluated four LLMs in acute-crisis conversations with personality-aware assessment: all four talked more than they listened, and verbosity plus premature problem-solving persisted even as blind auditors recovered the speakers' Big Five personality bands from the dialogue at striking accuracy — ICC(2,4) = 0.91, band-score correlation r = 0.78. **The models could read the person. They just didn't let that reading change how much they talked.**
+
+This is the Probe-Light problem from a different angle: the bot that acknowledges but never digs is now the bot that *perceives* but never pauses. For the Coaching Stance, the lesson is that listening is a **constraint you impose**, not a behavior you request. The model's training pushes it toward output, so the coaching ratio — hear the learner out, then respond — has to be designed into the workflow: a listening gate ("summarize what I said before you respond"), a talk-to-listen budget, or a rule that the first response to any confused learner is a question, not an answer. The machine will not supply the pause on its own; [[The Confidence Gap]] is the same lesson on the accuracy side — neither listening nor confidence can be inferred from how the model sounds.
+
 ## Related Pages
 
-[[The Augmentation Trap]] · [[The Placement Rule]] · [[Cognitive Surrender]] · [[Trust Calibration]] · [[Delegation Thinking]] · [[Friction by Design]] · [[The Orchestrator Mindset]] · [[The Sequencing Principle]]
+[[The Augmentation Trap]] · [[The Placement Rule]] · [[Cognitive Surrender]] · [[Trust Calibration]] · [[Delegation Thinking]] · [[Friction by Design]] · [[The Orchestrator Mindset]] · [[The Sequencing Principle]] · [[The Confidence Gap]]
 
 ## Tags
 
