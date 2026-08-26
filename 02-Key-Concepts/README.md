@@ -53,6 +53,7 @@ You don't need to read them in order. Jump to whichever title grabs you. But if 
 41. [[The Provenance Principle]] — origin plus verifiability: knowing where a thing came from and being able to check it. Text watermarking (shipped since 2024 in Gemini 3.7 Flash, Anthropic since Aug 2026) makes authorship measurable — the watermark survives in proportion to how many AI detail-choices you keep — and compute geography makes *where* your delegation runs an auditable fact.
 42. [[Delegated Exposure]] — exposure asks what AI *could* do to your job; delegation asks what you've *actually* handed over. Built from ~53,000 real agent configurations (Manus Skills Marketplace) matched against ~18,000 O*NET task statements: delegation concentrates differently than the "most at risk" lists predicted, tracks capability more than use, and peaks below the top of the wage distribution — the gap between the two lists is your delegation map.
 43. [[The Confidence Gap]] — the distance between how sure a machine sounds and how often it's actually right. The High-Confidence Error Rate study measured it: wrong legal verdicts at 31.7% while stating 9.1/10 confidence (inertia of confidence, precedent overfitting); teens comprehend therapy-bot advice 10–14 points better than they gauge its risk. Confidence is a tone of voice, not evidence — and the Confidence Strip drill retrains the check before the burn.
+44. [[The Warm Expert]] — the trusted human who translates, troubleshoots, and legitimizes a new technology for someone else — and in the AI era, helps them judge appropriate uses, what to disclose, whether an output is credible, and when AI advice is safe to act on. The failure mode: help that solves the immediate problem without leaving reusable calibration knowledge. Help that leaves a check behind is help that compounds.
 
 ---
 
@@ -113,6 +114,7 @@ They came out of real research — papers on human-AI collaboration, case studie
 | [[The Provenance Principle]] | Where did this output come from — and who chose that the answer would be measurable? | Orchestrator |
 | [[Delegated Exposure]] | What have I actually handed over — and what's still just "could"? | Operator → Orchestrator |
 | [[The Confidence Gap]] | How much should I trust that confident-sounding answer? | Orchestrator |
+| [[The Warm Expert]] | Who translates, troubleshoots, and legitimizes AI for the people around you — and does the help transfer judgment? | Operator → Orchestrator |
 
 ---
 

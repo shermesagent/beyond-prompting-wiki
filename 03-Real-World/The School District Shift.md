@@ -332,9 +332,51 @@ Farmersville's translation: the districts that will be fine are the ones whose l
 
 ---
 
+## The Traffic Light Classroom: Governance You Can See
+
+Farmersville built its workflows at the district level. But what does the governance layer look like *inside* an actual school? A case study from MIT Technology Review (August 2026) shows one school's answer — Cheshire Academy, a Connecticut boarding school with ~400 students in grades 9–12:
+
+- **Traffic-light assignments.** Every assignment is labelled: **green** = AI fully allowed, **yellow** = some tools allowed and others banned (spell-check yes, chatbot no), **red** = no AI. The interaction structure is explicit before the student starts — the classroom version of stating constraints upfront.
+- **The LLM-edit reflection.** French teacher Miriam Przybyla-Baum (nearly 30 years of her own materials — see the "problem bank" idea below) has students let an LLM edit their homework, then go through the edits and decide **which ones were correct and which ones removed their voice.** That's [[From Author to Editor]] as pedagogy: the judgment is the assignment.
+- **Anonymous peer annotation.** Students grade each other's AI-assisted assignments, annotating which parts they believe are AI-assisted — practicing provenance detection on each other's work.
+- **A Student AI Council.** A pilot where students create media and lead discussions about healthy AI use — students as co-authors of the norms, not just subjects of them.
+- **Staff training on general techniques + limits**, not prescribed tools — plus the explicit caution that AI is best for *brainstorming* materials, and every citation, equation, and statement still needs checking.
+
+The governance muscle is trainable — and school-age. The **Agents of ViTAL** learning environment (arXiv:2608.23580, August 2026) pushes the same idea further: middle school students collaboratively evaluate whether a *fictional school* should adopt an AI-powered classroom feedback tool — investigating stakeholder perspectives and weighing privacy, bias, and environmental tradeoffs before negotiating group consensus (with a peer-like "EthicsBot" scaffolding the reasoning). Initial implementations with ninth-graders showed strong engagement and substantive ethical reasoning grounded in students' lived experience. Students can be **adoption judges** — if you give them a real decision to weigh.
+
+**The district translation:** traffic lights are the interface version of the review-first pattern. When the rules of AI use are visible at the point of use (green/yellow/red), students learn to make the judgment themselves — and the school stops depending on policing. The Farmersville version of this: put a traffic-light label on every workflow output, and let students see the review pass happen. Governance you can see is governance students can learn.
+
+**Sources:** Hall, P. "How to encourage smarter AI use in the classroom." MIT Technology Review, 2026-08-24; "Agents of ViTAL: Ethics Missions." arXiv 2608.23580 (August 2026).
+
+---
+
+## The Next Teacher Problem: Who Learns to Plan When AI Plans?
+
+The traffic-light school has a French teacher with thirty years of materials who doesn't need AI's help. The uncomfortable question is about the teacher *without* thirty years of materials. New research on software engineering juniors (arXiv:2607.17067, July 2026) names the mechanism that applies to every profession, teaching included:
+
+**The Absorption Pattern.** GenAI redirects entry-level work into senior-AI workflows. The juniors — the people who were supposed to learn by doing that work — lose the **productive struggle** through which expertise develops. The study's three consequences:
+
+1. **Loss of the struggle.** Entry-level work was the training ground: the slow, error-prone doing that builds judgment. When the AI does it, the training never happens.
+2. **Structural reproduction.** The loss gets normalized — university classrooms teach with AI from day one, so the expectation that "this is how work is done" reproduces the gap for the next cohort.
+3. **Perceptual asymmetry.** Seniors don't see the loss (the work gets done); juniors can't say it (they don't know what they're missing). Neither side can correct the dynamic on their own.
+
+This is [[The Absorption Pattern]] at the level of careers, not tasks — and the MIT Technology Review article supplies the school-district translation: AI is great for brainstorming lesson plans **"especially for teachers early in their careers who don't have a big problem bank already built up"** — but using it for final drafts can produce assignments that confuse students. The problem bank *is* the productive struggle. A new teacher who delegates every plan skips the years of building the bank.
+
+**What this means for districts:**
+
+- **Protect the struggle deliberately.** New-teacher planning is how new teachers learn. Use AI as the *brainstorm partner* for novices, not the final-draft machine — and keep the LLM-edit reflection pattern (decide which edits are right, which remove your voice) as the actual assignment for the teacher, not just the student.
+- **The test is the same as [[Scaffold, Don't Substitute]]:** after the tool, can the new teacher do more of the underlying thing, or less? If a first-year teacher can plan a lesson *faster without AI* after a year of using it, the scaffold worked. If they can't, the pathway eroded.
+- **Institutional design, not individual blame.** The paper's prescription: preserving the pathway requires deliberate design across classrooms, workplaces, and evaluation criteria. That's a district decision, not a personal one — and it's exactly the kind of decision Farmersville's leadership team was built to make.
+
+The shift isn't just about what teachers hand to AI. It's about who still gets to *learn* — and the answer has to be a design choice, not an accident.
+
+**Source:** "Who Will Become the Next Senior? How Generative AI Erodes the Development Pathway in Software Engineering." arXiv 2607.17067 (July 2026).
+
+---
+
 ## Related Pages
 
-[[From Prompt to Pipeline]] · [[Task Decomposition]] · [[Delegation Thinking]] · [[Trust Calibration]] · [[Human in the Loop]] · [[Doom Researching]] · [[The Capability Ladder]] · [[Scaffold, Don't Substitute]] · [[03-Real-World/README|03 — Real World Stories]]
+[[From Prompt to Pipeline]] · [[Task Decomposition]] · [[Delegation Thinking]] · [[Trust Calibration]] · [[Human in the Loop]] · [[Doom Researching]] · [[The Capability Ladder]] · [[Scaffold, Don't Substitute]] · [[From Author to Editor]] · [[The Warm Expert]] · [[03-Real-World/README|03 — Real World Stories]]
 
 ## Tags
 

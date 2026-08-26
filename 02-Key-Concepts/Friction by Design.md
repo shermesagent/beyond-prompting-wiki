@@ -1,10 +1,10 @@
 ---
 title: Friction by Design
 created: 2026-06-22
-updated: 2026-06-26
+updated: 2026-08-26
 type: concept
 tags: [concept, workflow, orchestrator, barrier]
-sources: [raw/articles/cognitive-offloading-atrophy-risk-kennesaw-2026.md, raw/articles/deliberate-friction-ai-design-flywheel-2026.md, raw/articles/the-effortless-trap-arxiv-2026.md]
+sources: [raw/articles/cognitive-offloading-atrophy-risk-kennesaw-2026.md, raw/articles/deliberate-friction-ai-design-flywheel-2026.md, raw/articles/the-effortless-trap-arxiv-2026.md, raw/articles/wired-job-applications-friction-2026-08-25.md]
 confidence: medium
 ---
 
@@ -130,6 +130,21 @@ Three takeaways for this page:
 1. **Friction has a measurable price.** Workload and duration rose across all six probes. Designed slowdowns are a tax — spend it where the error is expensive, not everywhere.
 2. **Ownership is the payoff.** Every mechanism raised perceived ownership, which is the state where review actually happens. Friction's job is to make the user *feel* like the work is theirs — because then they check it.
 3. **One size fails.** Effects depended on what the user was trying to do. Friction by design means *matching* the slowdown to the stakes. This week's rule of thumb, from [[The Confidence Gap]]: put the friction at the ≥ 8/10 confidence outputs — the fluent ones your brain wants to skip.
+
+## The Friction Is the Signal: What One-Click Applying Taught Recruiters
+
+Sometimes the strongest evidence for friction by design comes from a place that tried to eliminate it — and watched the signal die. In August 2026, WIRED reported on the job-application market after years of "one-click" applications, autofill, and AI-written résumés:
+
+- **Vendr** went from reviewing ~100 applications per listing to **hundreds, sometimes topping a thousand** — "a good chunk were 'total bogus'" fake candidates, many more AI-written and hard to distinguish.
+- **Greenhouse's** Ophir Samson: "What they got was **2,000 applicants in 24 hours** for a job. That is a shitty experience for everyone." Recruiters' new refrain: "actually, we kind of want friction... The friction is good. We want to make it harder."
+- LinkedIn submissions per applicant are up **46%** since February 2020 (and **22%** since ChatGPT's launch) — so much that LinkedIn is now adding limits and telling underqualified applicants they probably aren't a fit.
+- Recruiters are rebuilding friction by hand: AI interview gates, knock-out questions, skills testing earlier in the funnel, and heavier reliance on referrals.
+
+The lesson for this page: **the cost of applying was sorting signal. Removing it destroyed the signal for everyone.** Former HR executive Tessa White's summary — "Every time we seem to strive for efficiency, we seem to give up quality" — is the operator's dream of frictionless AI, measured at market scale.
+
+**What this means for your workflows:** when you automate away friction — one-click anything, autofill, instant intake, zero-review pipelines — ask what signal the friction was carrying. The application form wasn't a barrier to entry; it was an *effort filter* that separated serious candidates from the merely able-to-click. The fix isn't to restore annoyance — it's to **restore a deliberate verification step where the friction used to sort**: a short written question, a checkpoint, a human review gate. That's friction by design applied to intake — and it's the same logic as the school traffic lights (see [[The School District Shift|The Traffic Light Classroom]]): the point isn't the slowdown, it's the signal the slowdown produces.
+
+**Source:** Taylor, K. "It Should Be Harder to Apply for a Job. No, Really." WIRED, 2026-08-25.
 
 ## Related Pages
 

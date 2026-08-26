@@ -263,6 +263,49 @@ The authors' system (AdaLens) builds a **storyline-based view** that unifies fou
 
 ---
 
+## The Oversight Ceiling: Why the Loop Pushes You Out
+
+Mara's pipeline works because she reviews at the boundary. But a position paper from August 2026 (arXiv:2608.23642) names the uncomfortable reality of what happens next: **AI agents push humans out of the loop — not by policy, but by default.** The authors argue that current approaches to agent design don't just fail to support human oversight; they *contribute to its degradation*, through two mechanisms:
+
+1. **Design gaps.** Nothing in the typical agent interface is built for the overseer's actual job — no affordances for exercising critical judgment mid-run, no support for the situated, real-time decisions an overseer has to make.
+2. **Skill atrophy.** The cognitive capacities oversight requires are themselves degraded by extended use of AI systems. The more you delegate, the rustier the judgment you delegate *to*.
+
+This is the [[Oversight]] version of the [[The School District Shift|newsroom Catch-22]]: monitoring AI requires human expertise, and heavy AI use erodes exactly that expertise. The paper's prescription: treat the overseer's needs as first-class — design-level affordances **and** organizational protocols that (a) support critical judgment and (b) deliberately counteract atrophy.
+
+**What this means for you:** the moment your pipeline runs longer than a single sitting, oversight stops being something you *have* and becomes something you *maintain*. Three moves, from the paper's logic:
+
+- **Give the overseer affordances.** Mid-run look-ins at named checkpoints (the AdaLens move above) aren't a luxury — they're the design support your judgment needs.
+- **Schedule the counter-atrophy practice.** Keep one task in your week that you do *without* AI — the thing that exercises the exact judgment your delegation depends on. That's the deliberate practice that keeps the ceiling from lowering.
+- **Don't blame yourself when you miss things.** The loop pushes you out structurally, not because you're a bad overseer. The fix is structure, not vigilance.
+
+See [[Bounded Sovereignty]] for why oversight is bounded by access, and [[The Observability Gap]] for why the final output alone can't carry the check.
+
+**Source:** "AI Agents Push Humans Out of the Loop." arXiv 2608.23642 (August 2026).
+
+---
+
+## Did It Actually Take? Adoption Telemetry
+
+Mara's pipeline runs. But here's a question that sounds silly and isn't: *how do you know she actually adopted it?* Not whether the tool exists — whether the **workflow changed**.
+
+An August 2026 measurement paper (arXiv:2608.23617) makes this concrete with **adoption telemetry**: computing change-management stage-progression directly from production usage signals, instead of from surveys, licenses, or anecdotes. The authors contribute a five-stage operationalization (NANTE) with published thresholds and an open reference implementation that separates a healthy adoption cohort from **five characteristic adoption-failure modes**. Their honest caveat: the thresholds are proposed constructs, not a calibrated model — but the *method* is the point.
+
+**What this means for you:** adoption is a workflow change, and workflow changes leave traces. The pipeline that runs is not the pipeline that took. Ask the telemetry questions for your own delegation:
+
+| Signal | Operator's version | Orchestrator's version |
+|--------|-------------------|------------------------|
+| Runs | "I tried it once" | Weekly runs happen without being scheduled |
+| Review | "I check when I remember" | Every output gets its review pass — edited, accepted, or rejected |
+| Replacement | "I still do it the old way too" | The manual path is gone; the AI path is the path |
+| Regeneration | "I keep re-prompting" | You fix the task description, not the output |
+| Failure modes | Unnamed | Named and watched (e.g., "the pipeline exists but nobody feeds it inputs") |
+
+This is the same instinct as the district page's government-AI lesson: **you can measure this.** If you can't point at a production signal that changed, you haven't adopted — you've piloted. The shift from pilot to adoption is a measurement problem, not a vibes problem.
+
+**Source:** "Adoption Telemetry: Measuring Enterprise AI Adoption from Production Signals." arXiv 2608.23617 (August 2026).
+
+---
+
 ## You Can Do This Too
 
 You don't need to be a developer. You don't need an expensive platform. You need three things:

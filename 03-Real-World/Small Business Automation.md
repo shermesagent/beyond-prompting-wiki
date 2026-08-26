@@ -218,6 +218,26 @@ The bakery's owners had a specific automation in mind — the weekly ordering wo
 
 ---
 
+## The Warm Expert Layer: Who Set Up Your Workflows?
+
+Em and Jules learned the review-first pattern from someone at a small business Meetup. That person was their **warm expert** — and new research (arXiv:2608.24297, August 2026) explains why the bakery's adoption stuck where other people's adoption stalls.
+
+The warm expert is the trusted human who translates a new technology for someone else. In the AI era, the research shows, that role has expanded: warm experts don't just fix things — they help people **judge appropriate uses, decide what to disclose, assess whether an output is credible, and decide when AI advice is safe to act on.** That's exactly what the Meetup contact did for Em and Jules: not "here's a tool," but "here's how to think about whether to hand something off."
+
+The study's warning applies directly to small business adoption: **because AI rarely produces visible breakdowns, the supporter has limited signals for when help is actually needed** — and help often solves the immediate problem *without leaving reusable calibration knowledge*. The person whose cousin "set everything up for them" has a running system and zero judgment about it. The first time the AI quietly does something wrong, they won't know to look.
+
+The bakery got the other version: the warm expert's help was **learning-oriented** — they built the workflows themselves across three afternoons, with the pattern explained, not the problem solved. The research calls this preserving **task ownership**: the person being helped stays the owner of the task, and the help builds their ability to judge it.
+
+**What this means for you:**
+
+- **If you have a warm expert** (the friend, the kid, the consultant who set up your automation): ask them to explain their *checks*, not just their fixes. "How will I know when it's wrong?" is the most valuable question in the adoption conversation.
+- **If you ARE the warm expert** (the person everyone in your network comes to): use the **consentful-help pattern** — ask whether they want you to do it or do it *with* them — and end every session by naming the judgment, not just the steps. Help that leaves a check behind is help that compounds.
+- **For the bakery's next hire:** the warm expert layer is why onboarding should include "here's how we review the workflow output," not just "here's how to run the workflow." See [[The Warm Expert]] for the full concept and the 5-minute Warm Expert Swap.
+
+**Source:** "When AI 'Works,' When Does Help Begin?: Intergenerational Support Around Older Adults' LLM Usage." arXiv 2608.24297 (August 2026).
+
+---
+
 ## You Can Do This Too
 
 If you run a small business or team of 1-10 people:
