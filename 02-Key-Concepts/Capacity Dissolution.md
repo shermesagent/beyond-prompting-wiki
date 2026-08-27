@@ -109,7 +109,7 @@ The transfer to your day: **the erosion loop runs wherever GenAI output is consu
 
 ## Related Pages
 
-[[06-Glossary/Capacity Dissolution|Quick reference]] · [[The Coaching Stance]] · [[Cognitive Surrender]] · [[The Absorption Pattern]] · [[The Augmentation Trap]] · [[Friction by Design]] · [[From Author to Editor]] · [[Trust Calibration]]
+[[06-Glossary/Capacity Dissolution|Quick reference]] · [[The Coaching Stance]] · [[Cognitive Surrender]] · [[The Absorption Pattern]] · [[The Augmentation Trap]] · [[Friction by Design]] · [[From Author to Editor]] · [[Trust Calibration]] · [[The Validator Trap]]
 
 ## Tags
 

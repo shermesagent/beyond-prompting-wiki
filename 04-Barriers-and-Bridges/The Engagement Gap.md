@@ -1,7 +1,7 @@
 ---
 title: The Engagement Gap
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-08-27
 type: concept
 tags: [barrier, orchestrator, adoption, workflow]
 confidence: high
@@ -9,6 +9,7 @@ sources:
   - https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization
   - https://www.weforum.org/stories/2026/06/ai-workplace-adoption-readiness/
   - https://executiveeducation.wharton.upenn.edu/thought-leadership/wharton-at-work/2026/04/a-solution-to-ai-adoption/
+  - raw/articles/ai-adaptation-gap-higher-ed-2608.25063.md
 ---
 
 # The Engagement Gap
@@ -85,6 +86,20 @@ Why this matters on this page: the engagement gap is usually read as "people won
 - **Engagement follows structure in both directions.** The enterprise data on this page showed engagement follows organizational infrastructure. The writing study shows engagement follows *interface* infrastructure. Same principle, one level down: design the move to be cheap and the engagement will survive.
 
 **Source:** arXiv:2608.17326 — "Procedural Collapse: A Structural Account of Disengagement in LLM-Assisted Writing" (Kim & Mei).
+
+## The Adaptation Gap: Roles Adapt at Different Speeds
+
+The engagement gap isn't just between *people* and *tools* — it's between **roles in the same building.** A large survey of a teacher-education university (N = 2,121: 1,809 students, 250 faculty, 62 administrative staff; arXiv:2608.25063) found a **pronounced AI adaptation gap across the three groups**:
+
+- **Students reported the highest AI-use intensity and perceived usefulness.** They're already living in the tools — using them more, liking them more.
+- **Faculty and administrative staff reported stronger academic-integrity concerns and greater endorsement of responsible-use norms.** They're more cautious — and more convinced the cautiousness is right.
+- The gap isn't a personality split; it's a **role split**. The people who write the policies are the most worried about the tool, and the people who use it most are the ones the policies are about.
+
+And here's the number that matters most for closing the gap: in the pooled trust model, **perceived usefulness was the strongest driver of trust in AI (β = 0.402)** — nearly twice the contribution of **institutional policy clarity (β = 0.223)**. Usefulness built trust about twice as effectively as policy did.
+
+**What this means for the engagement gap:** the cautious group (faculty, administrators, and — in your building — the leaders writing the guidance) won't be moved by more policy. They'll be moved by *usefulness they can see*. The policy that helps (β = 0.223) is real but secondary; the winning move is showing the worried group one concrete, low-stakes task where the AI demonstrably helps *them* — not the students, not the tech-forward colleagues. The adaptation gap closes fastest when the most cautious role gets the most personal demonstration.
+
+**Source:** arXiv:2608.25063 — "The AI Adaptation Gap in Higher Education: Students, Faculty, and Administrative Staff"
 
 ## Related Pages
 

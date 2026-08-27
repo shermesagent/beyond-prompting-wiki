@@ -1,12 +1,13 @@
 ---
 title: The Certification Boundary
 created: 2026-07-23
-updated: 2026-08-07
+updated: 2026-08-27
 type: concept
 tags: [barrier, delegation, institution]
 sources:
   - raw/articles/cognitive-stewardship-credentials-2607.19988.md
   - raw/articles/student-bill-ai-rights-2608.05175.md
+  - raw/articles/genait-literacy-test-2608.25815.md
 confidence: medium
 ---
 
@@ -68,6 +69,22 @@ The August 2026 experience report from CSS 382 at the University of Washington B
 The centerpiece is the **Student Bill of AI Rights** — a participatory ethics sequence where students deliberated on and endorsed rules governing their *instructor's* use of AI, including the requirement that **the instructor personally complete any AI-generated assignment before issuing it**. That clause is a certification-boundary insight hiding in plain sight: the person who assigns work must be able to do it themselves. The boundary applies to the teacher before it applies to the student — and the students understood that intuitively. The account also reports the tensions honestly: students objected to AI-generated course materials, and the authors flag the limits of a single-cohort design narrative.
 
 **What this means for your context:** you don't need to be a university to use the pattern. The three moves scale down to any team or credential: (1) make the learning claim about understanding, not tool fluency; (2) assess in forms the tool can't stand in for — defense, explanation, in-person performance; (3) hold the person who delegates accountable for doing the work themselves before assigning it. That third move is the missing piece in most AI policies: they regulate the student's use of AI, but the Certification Boundary cuts both ways.
+
+## The Literacy Test Question: When the Boundary Gets an Instrument
+
+The certification boundary sounds like a wall — but a 2026 study from Estonia (arXiv:2608.25815) shows part of it is actually an **instrument gap**: we couldn't measure AI literacy, so we couldn't certify it. The study developed and validated **GenAIT, an 18-item multiple-choice test of generative-AI literacy** for high school students, spanning three domains — *technical* (how the tools work), *practical* (how to use them), and *human-impact* (what they do to people and society). It was validated on **7,432 Estonian students** using confirmatory factor analysis and item-response theory, with adequate reliability for group-level measurement and expert-reviewed content validity.
+
+Three implications for this page:
+
+1. **Literacy is measurable — which means it's teachable.** The certification boundary is defined by what the inference chain can prove about a person. An objective literacy test is proof technology: if we can measure what someone understands about AI — not what they say about it, but what they can demonstrate — the boundary stops being a judgment call and starts being a score. And what gets measured gets taught: schools now have a validated target for what AI literacy actually means.
+
+2. **The testable part is knowledge, not craft.** GenAIT measures *conceptual knowledge* — how the tools work, what they risk, what they can't do. That's the part of the boundary that can be certified objectively. The other part — demonstrated craft, the defended project, the work AI can't stand in for — still needs the assessment redesign this page already describes ([[02-Key-Concepts/From Author to Editor|the defended performance]]). The boundary splits into two halves: what you can know (test it) and what you can do (defend it).
+
+3. **High school is where the boundary gets set.** The study's population matters: the students whose credentials will live entirely in the AI era are being measured now. The certification question isn't a mid-career crisis — it's being answered in classrooms before these students ever apply for a credential.
+
+**What this means for your context:** if you're responsible for a credential, a course, or a hiring bar, ask the instrument question: *which part of "knows AI" can we actually measure?* An objective, validated literacy check converts the softest part of the boundary into a hard number — and gives learners a target to study for instead of a wall to be anxious about.
+
+**Source:** arXiv:2608.25815 — "GenAIT: Development and Validation of an Objective Generative AI Literacy Test for High School Students"
 
 ## The Bottom Line
 

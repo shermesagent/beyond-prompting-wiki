@@ -1,7 +1,7 @@
 ---
 title: Trust Calibration
 created: 2026-07-16
-updated: 2026-08-23
+updated: 2026-08-27
 type: concept
 tags: [barrier, mindset, skill]
 sources:
@@ -9,6 +9,8 @@ sources:
   - raw/articles/llm-rationales-user-facing-trust-2026.md
   - raw/articles/epistemic-trustworthiness-2608.05602.md
   - raw/articles/social-norm-framings-health-chatbots-2509.15575.md
+  - raw/articles/follow-ai-advice-wellbeing-2511.15352.md
+  - raw/articles/bonding-trust-human-robot-2608.24915.md
 confidence: high
 ---
 
@@ -171,13 +173,37 @@ Why this is a calibration instrument, not just a policy story: **the watermark s
 
 **Source:** Zvi Mowshowitz — "AI Text Watermarking Is Free And Good" (2026-08-21); see also [[02-Key-Concepts/The Provenance Principle|The Provenance Principle]]
 
+## The Following Gap: Following Is Not Trusting
+
+There's a seventh layer, and it's the one that separates this page's two nouns: **trust** and **following.** Every layer above assumed your thermostat measures the right thing — accuracy, worthiness, intent, framing. Two August 2026 findings say even your *action* can be the wrong meter: people follow AI advice they shouldn't, and we confuse feeling close to a tool with trusting it.
+
+**Following ≠ benefiting.** A longitudinal RCT with a representative UK sample of 6,474 people (arXiv:2511.15352) gave participants a 20-minute discussion with a chatbot (GPT-4o, Llama-3.3-70B, or Gemini 3 Pro) about health, careers, or relationships. **Up to 79% subsequently reported following its advice** — and advice-following stayed **above 65% even for high-stakes recommendations.** Users only weakly calibrated reliance to consequences. Then the outcome: queried 2–3 weeks later, the advice-followers showed **no sustained well-being benefit** versus a control group that just discussed hobbies. People followed, believed they'd gained, and gained nothing. Action is not evidence of trustworthiness — it's evidence of compliance.
+
+**Trust ≠ bonding.** A human-robot interaction analysis (arXiv:2608.24915) argues a category error runs through most relationship measurement: researchers use "trust" as an index of how *bonded* a person feels to a system. The two are distinct constructs — different antecedents, timescales, and ethical concerns — and should be treated as **independent dimensions**, producing four configurations:
+
+| Configuration | Trust | Bonding | What It Looks Like |
+|---------------|-------|---------|--------------------|
+| **Avoidance** | Low | Low | Won't delegate, doesn't miss it — the tool stays shut |
+| **Functional** | High | Low | Delegates on merit, no attachment — "it's a tool, not a friend" |
+| **Dependence** | Low | High | Feels warm and safe, but the record says the output doesn't merit reliance |
+| **Symbiosis** | High | High | Trust earned *and* comfortable — the rare, genuinely healthy state |
+
+The trap configuration is **dependence**: a user stays attached to a system that no longer merits reliance. That's the 79%-following result wearing a warmer coat — people keep leaning on the chatbot even when the outcomes don't show up.
+
+**What this means for your thermostat:** add two questions to your calibration routine.
+
+1. **"Would I still follow this if it came from a stranger?"** The RCT shows the chatbot's advice got followed at rates a human advisor would envy. Before acting on high-stakes AI advice, apply the stranger discount — and check what the outcome *was* last time you followed, not what it felt like.
+2. **"Am I in dependence or symbiosis?"** Name your configuration for your most-used tool. If the answer is dependence — it feels good and the record doesn't support it — that's a design problem with the arrangement, not a character flaw. Restructure it: smaller delegations, named verification steps, and the [[The Validator Trap|production floor]] that keeps your judgment stocked.
+
+**Source:** arXiv:2511.15352 — "People readily follow personal advice from AI but it does not improve their well-being"; arXiv:2608.24915 — "What Are We Measuring? Bonding, Trust, and the Evaluation of Human-Robot Relationships"
+
 ## The Bottom Line
 
 > AI is getting better at sounding right. Your most important counter-skill is getting better at saying "I don't know." Practice it. The research shows you'll need the practice — because AI fluency makes those three words feel unnecessary right up until they're essential. And remember the third layer: calibration is personal, but *worthiness* is structural. A flawless thermostat attached to a system that hides its limits, blocks inspection, or dismisses your knowledge is still measuring a broken room.
 
 ## Related Pages
 
-[[02-Key-Concepts/Trust Calibration|Concept page]] · [[06-Glossary/Trust Calibration|Quick reference]] · [[The Just Ask ChatGPT Trap]] · [[Fear of Losing Control]] · [[Knowledge Debt]] · [[The Augmentation Trap]] · [[Delegation Thinking]] · [[Task Decomposition]] · [[Prompt as Safety Blanket]]
+[[02-Key-Concepts/Trust Calibration|Concept page]] · [[06-Glossary/Trust Calibration|Quick reference]] · [[The Just Ask ChatGPT Trap]] · [[Fear of Losing Control]] · [[Knowledge Debt]] · [[The Augmentation Trap]] · [[Delegation Thinking]] · [[Task Decomposition]] · [[Prompt as Safety Blanket]] · [[The Validator Trap]]
 
 ## Tags
 

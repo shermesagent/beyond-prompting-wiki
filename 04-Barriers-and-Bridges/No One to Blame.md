@@ -1,11 +1,12 @@
 ---
 title: No One to Blame
 created: 2026-08-13
-updated: 2026-08-13
+updated: 2026-08-27
 type: concept
 tags: [barrier, trust, governance, accountability, orchestrator]
 sources:
   - raw/articles/constitutive-ai-unaccountability-2608.12104.md
+  - raw/articles/invisible-editorial-layer-2608.24662.md
 confidence: medium
 ---
 
@@ -47,9 +48,23 @@ Pick your most consequential delegated workflow. Ask: "If this goes catastrophic
 - If you named a person: good. Add one sentence to the workflow brief naming them as the accountable owner, so the arrangement matches the assumption.
 - If you couldn't: write down what's missing — an approval step? A named owner? A versioned artifact? — and add the smallest missing piece. The point isn't bureaucracy. It's that an arrangement with no one to blame is an arrangement that will eventually hurt someone, and it won't be the model.
 
+## The Invisible Editorial Layer: When No One Can See Who Steered
+
+There's a second, quieter way the accountable actor can disappear — not because no one answers, but because **no one can see whose hand was in the output.** A formal analysis of deployed language-model stacks (arXiv:2608.24662) documents that modern inference systems support **runtime interventions that change what a model says without changing the model** — steering generated text toward institutional, ideological, or commercial frames while the model parameters stay frozen. The paper formalizes the *Inference Attribution Problem* and proves a sobering result: **under black-box observation alone, you cannot tell whether an output's stance came from the model or from the production stack.** The two are behaviorally indistinguishable from the outside.
+
+This matters on this page because attribution is the first requirement of blame. The accountability chain on this page starts with "who is positioned to answer?" — but before that, you have to be able to answer "who *did* this?" The invisible editorial layer makes that question formally unanswerable for the person reading the output: the political framing, the brand inclination, the normative push in a finished answer could be the model's trained character, the provider's live steering, or a client's configured bias — and you can't tell which from the text alone.
+
+**What this adds to the bridge:**
+
+1. **Add the platform to the blame drill.** Before you delegate something consequential, ask not just "who answers?" but "**who is serving me this output, and what does their stack steer?**" A provider that discloses inference-time interventions is naming an accountable actor; one that stays silent leaves the steering unowned.
+2. **Treat unexplained framing as an attribution flag.** If an AI output's point of view is doing work you didn't ask for — a push toward one vendor, one ideology, one conclusion — that's not necessarily the model "having opinions." It may be an editorial layer you can't inspect. Flag it as unowned before you act on it.
+3. **Prefer inspectable stacks.** The paper's non-identifiability result is about *black-box* observation. The escape hatch is structural: providers who let you verify what was served, versioned and auditable, convert an unanswerable attribution question into a checkable one — the same move as [[Silent Updates]]' versioned artifacts, applied to the steering layer.
+
+**Source:** arXiv:2608.24662 — "The Invisible Editorial Layer: Formalizing Undisclosed Inference-Time Steering, Probability Placement, and the Attribution Problem in Deployed Language Models"
+
 ## Related Pages
 
-[[Accountability Asymmetry]] · [[Silent Updates]] · [[Fear of Losing Control]] · [[Trust Calibration]] · [[The Observability Gap]] · [[Knowledge Debt]]
+[[Accountability Asymmetry]] · [[Silent Updates]] · [[Fear of Losing Control]] · [[Trust Calibration]] · [[The Observability Gap]] · [[Knowledge Debt]] · [[The Validator Trap]]
 
 ## Tags
 

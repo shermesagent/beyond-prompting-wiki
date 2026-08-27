@@ -136,7 +136,7 @@ This is the trap's structural floor. The Just Ask ChatGPT Trap was always about 
 
 ## Related Pages
 
-[[Fear of Losing Control]] · [[Trust Calibration]] · [[Prompt as Safety Blanket]] · [[The Operator Mindset]] · [[Delegation Thinking]] · [[The Certification Boundary]]
+[[Fear of Losing Control]] · [[Trust Calibration]] · [[Prompt as Safety Blanket]] · [[The Operator Mindset]] · [[Delegation Thinking]] · [[The Certification Boundary]] · [[The Validator Trap]]
 
 ## Tags
 

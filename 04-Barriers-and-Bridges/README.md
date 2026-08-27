@@ -27,6 +27,7 @@ Each barrier page follows the same structure. We name what's happening, explain 
 | [[Risk Cascades]] | Barriers aren't isolated bugs — trust miscalibration, cognitive burden, accountability gaps, capability erosion, goal misalignment, and technostress fire in chains across the adoption lifecycle | Name the stage, trace the cascade, intervene at the shared driver instead of the symptom |
 | [[No One to Blame]] | The void: configurations where accountability is structurally impossible — no human can be named, so nobody answers | Name the person before you delegate; refuse to be the only identifiable actor; separate propose from approve from audit |
 | [[The Fabricated Front]] | Effort opacity: when AI decouples visible output from real engagement, the reciprocal exchange that sustains collaborative trust loses its raw material | Involvement management — specify which forms of human involvement (attention, effort, judgment) stay inspectable, and to whom |
+| [[The Validator Trap]] | When AI takes the producing and leaves you the checking — and good validation depends on the production skill you just stopped using | The Production Floor (one thing made by hand, weekly), the Sample-Not-the-Skim, the Rebuild Loop — and the 5-minute Swap Test |
 
 ## How to Use This Section
 

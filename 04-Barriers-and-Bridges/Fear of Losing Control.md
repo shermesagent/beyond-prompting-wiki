@@ -159,7 +159,7 @@ Three findings that reframe this page's barrier:
 
 ## Related Pages
 
-[[The Just Ask ChatGPT Trap]] · [[Trust Calibration]] · [[Prompt as Safety Blanket]] · [[Delegation Thinking]] · [[Task Decomposition]] · [[Psychological Debt]] · [[Silent Updates]] · [[No One to Blame]] · [[The Authority Switch]]
+[[The Just Ask ChatGPT Trap]] · [[Trust Calibration]] · [[Prompt as Safety Blanket]] · [[Delegation Thinking]] · [[Task Decomposition]] · [[Psychological Debt]] · [[Silent Updates]] · [[No One to Blame]] · [[The Authority Switch]] · [[The Validator Trap]]
 
 ## Tags
 
