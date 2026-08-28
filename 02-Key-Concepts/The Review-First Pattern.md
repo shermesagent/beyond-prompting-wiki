@@ -104,7 +104,7 @@ The pattern extension: Review-First has always meant *review before use*; this s
 
 ## Related Pages
 
-[[From Prompt to Pipeline]] · [[From Author to Editor]] · [[Trust Calibration]] · [[Delegation Thinking]] · [[The Authority Switch]] · [[Human in the Loop]] · [[Friction by Design]] · [[The Collapse Pattern]] · [[The Sequencing Principle]] · [[02-Key-Concepts/README|02 — Key Concepts]] · [[The Confidence Gap]]
+[[From Prompt to Pipeline]] · [[From Author to Editor]] · [[Trust Calibration]] · [[Delegation Thinking]] · [[The Authority Switch]] · [[Human in the Loop]] · [[Friction by Design]] · [[The Collapse Pattern]] · [[The Sequencing Principle]] · [[02-Key-Concepts/README|02 — Key Concepts]] · [[The Confidence Gap]] · [[Run-to-Run Variance]]
 
 ## Tags
 

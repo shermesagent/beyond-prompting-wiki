@@ -1,7 +1,7 @@
 ---
 title: Build a Tiny Pipeline
 created: 2026-06-27
-updated: 2026-08-21
+updated: 2026-08-28
 type: practice
 tags: [practice, orchestrator, workflow]
 confidence: high
@@ -10,6 +10,8 @@ sources:
   - raw/papers/harness-handbook-2607.13285.md
   - raw/articles/agent-skills-can-be-harmful-2608.11888.md
   - raw/articles/memtrapbench-cognitive-traps-2608.20202.md
+  - raw/articles/mitigating-fabrication-hiring-pipelines-2608.26171.md
+  - raw/articles/human-llm-screening-workflows-2608.26885.md
 ---
 
 # Build a Tiny Pipeline
@@ -330,6 +332,32 @@ Before you run a pipeline that carries context, decide *which is load-bearing*:
 3. **Run the null test once:** one run with memory cleared. If the output is *better* with no memory — or no worse — your pipeline was carrying a trap, not an advantage. Keep the null run on the calendar quarterly.
 
 The uncomfortable headline for pipeline builders: **memory is a feature you have to earn.** A pipeline that forgets nothing is not automatically better than a pipeline that starts fresh — the benchmark says it's usually worse. See [[Instruction Bleed]] for the sibling failure when prompts in one run leak into each other; the Memory Trap is that leak stretched across runs.
+
+## The Checkpoint Placement: Where Your Eyes Go, Not Just Whether
+
+Your pipeline's VERIFICATION section says *how* you check. The harder question is *where* — and the answer is a layered architecture, not a single review. An empirical study of multi-stage LLM hiring pipelines (arXiv:2608.26171; resume improvement → interview questions → answer feedback, 180 controlled runs) measured exactly what each verification layer catches and misses:
+
+| Layer | What it caught | What it missed |
+|-------|---------------|----------------|
+| **Nothing (baseline)** | — | Fabrication in 96.7% of outputs (mean 6.80 unsupported findings/output) |
+| **Prompt guardrail** (instructions against inventing) | Cut finding density by 86% (6.80 → 0.92/output) | Still fabricated in 50.0% of outputs — prompt-level mitigation alone is insufficient |
+| **Human checkpoint** (after the riskiest stage) | Eliminated **all** identity fabrications; cut JD-baited trap capture from 47% → 2%; item-level fabrication 96.7% → 75.0% | Subtle qualifier drops and plausible new claims survived review roughly half the time (54.5% removal) |
+
+Three lessons for your tiny pipeline:
+
+1. **Guardrails are cheap and mechanical; checkpoints are expensive and categorical.** The guardrail cut the *density* of problems 86% for free. The checkpoint eliminated the *severe class* (invented identities, baited claims) almost categorically. Neither does the other's job. Build both: a guardrail line in your template ("do not add facts not in the source") *plus* a named human checkpoint at the point where fabrication would hurt most — not at the end, but right after the step that makes the irreversible claims.
+
+2. **The checkpoint is not a cure — it's a filter with a known miss rate.** The reviewer caught every flagrant fabrication but subtle qualifier drops and plausible new claims survived half the time. Your review catches the loud failures and misses the quiet ones. That's not a reason to skip review; it's a reason to *sample the output you'd normally skim* (the Sample-Not-the-Skim move from [[04-Barriers-and-Bridges/The Validator Trap|The Validator Trap]]) and to keep one production skill alive so your checker has something to check against.
+
+3. **Checking doesn't degrade the deliverable.** Claim retention exceeded 99% under both mitigations. The fear that "verification will gut the output" is unfounded — the guardrail and checkpoint removed fabrications without removing the real content. Verification is not a tax on the pipeline; it's the part of the pipeline that keeps the output shippable.
+
+**The Checkpoint Placement Drill (2 min):** draw your pipeline as boxes and arrows. Circle the single step whose output, if wrong, would be hardest to catch later — the step that commits facts, names, or numbers that downstream steps will build on. Put your human checkpoint *there*, not at the end. Then add one guardrail line to that step's template. That's the layered architecture, in miniature.
+
+## The Run-to-Run Check: Same Input, Different Output
+
+One more verification layer costs almost nothing and catches a failure class most people don't know exists. A preregistered screening study (arXiv:2608.26885) ran two **nominally identical** LLM runs on the same 1,131 records: the runs agreed on 91.7% of decisions and disagreed on 94 — including 29 verified-eligible records that only *one* of the two runs caught. Identical inputs, same model, same day: different answers. The output you reviewed is one sample from a distribution, and the difference between samples can be the difference between catching something and missing it.
+
+**The Two-Run Rule:** for any pipeline output that will be acted on or shipped, run the pipeline twice and diff the outputs. Material differences (facts, numbers, names, inclusions/exclusions) mean the task has real variance — route it through a tiebreak (third run, or a human read). Cosmetic differences are fine. "Checked once" is not "checked" — see [[Run-to-Run Variance]] for the full concept and the 5-minute Two-Run Test.
 
 ## What Comes Next
 

@@ -56,6 +56,7 @@ Then adopt the calibration rule: **any answer rated ≥ 8/10 gets verified first
 ## Related Pages
 
 - [[Trust Calibration]] — the umbrella practice: aligning trust with track record, not tone
+- [[Run-to-Run Variance]] — the same prompt twice can give different answers; confidence is calibrated per run, variance is per distribution
 - [[Delegated Exposure]] — delegation is the decision; calibration is what keeps the decision yours
 - [[The Observability Gap]] — why the cues you can see don't include the properties that matter
 - [[The Review-First Pattern]] — the workflow fix: verify at the boundary, never at the end

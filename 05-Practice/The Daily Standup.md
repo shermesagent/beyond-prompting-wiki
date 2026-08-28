@@ -1,7 +1,7 @@
 ---
 title: The Daily Standup
 created: 2026-06-27
-updated: 2026-08-21
+updated: 2026-08-28
 type: practice
 tags: [practice, orchestrator, workflow, mindset]
 confidence: high
@@ -12,6 +12,8 @@ sources:
   - raw/articles/feedback-enactment-workflows-2608.11625.md
   - raw/articles/not-all-nudges-land-2608.12582.md
   - raw/articles/ai-overreliance-complex-adaptive-system-2608.19616.md
+  - raw/articles/second-set-of-eyes-doc-review-2608.26232.md
+  - raw/articles/user-centric-cot-reasoning-2608.26166.md
 ---
 
 # The Daily Standup
@@ -326,6 +328,35 @@ Two ways to make a check visible without turning your standup into theater:
 2. **Export the check.** Share *how* you verified — the rubric, the link, the named step — so it's reusable, not just reportable. This is the difference between visible and contagious.
 
 This is the practice-layer habit behind [[The Reliance Audit]]'s VISIBILITY column: the audit tells you whether your reliance is warranted; the standup's eleventh question tells you whether your warrant is *visible* — and visibility is what keeps the whole team calibrated, not just you.
+
+## The Twelfth Question — The Second Set of Eyes
+
+Every question so far assumes one reviewer: you. But interviews with 31 experienced technical writers (arXiv:2608.26232) show that professional review is never one act — it's **five distinct stages, each drawing on different expertise**:
+
+| Review stage | Who does it | What it catches |
+|--------------|-------------|-----------------|
+| **Self review** | The producer | Basic errors, obvious gaps — weakest at blind spots (you can't see what you didn't notice) |
+| **Technical review** | A domain expert | Wrong facts, wrong method, things that *look* right but aren't |
+| **Editorial review** | A language/format person | Presentation, clarity, structure, consistency |
+| **Play testing** | A real user | Whether the output actually works in use — the gap between "reads well" and "works" |
+| **Post-publication feedback** | The audience | What broke after it shipped |
+
+The writers' hardest problem wasn't doing these stages — it was **recruiting expert reviewers and fitting review into timelines**. Your AI standup has the same problem: the second set of eyes you need (a colleague who knows the domain) is the one you never schedule.
+
+Add the twelfth question to the template:
+
+```python
+SECOND SET OF EYES:
+  - Which output from this week needed a review YOU couldn't give it?
+  - (Technical review? Play testing? Name the stage — then name one person who could do it.)
+```
+
+The orchestrator's rule of thumb: **match the review stage to the consequence.** A routine internal note needs self review only. Something that will be acted on by others needs a technical eye. Something that will be used by end users needs play testing — actually using the output the way a user would, before it ships. If the output is important enough to delegate, it's important enough for one second set of eyes.
+
+Two upgrades that make your own review sharper:
+
+1. **Ask for checkable steps, not just an answer.** Research on user-centric reasoning traces (arXiv:2608.26166) shows that when an agent structures its reasoning into self-contained, verifiable steps (e.g., tagged "claim → evidence" chunks), you can assess and correct each step independently — and it doesn't hurt the model's performance. Add one line to your templates: *"return your reasoning as discrete, labeled steps, each checkable on its own."* This turns your Fifth Question (trajectory review) from a feeling into a concrete pass.
+2. **Play test the output you'd otherwise skim.** The cheapest second set of eyes is the one you already have — used differently. Before you ship a delegated output, spend 60 seconds *using* it the way the recipient will: click the link, run the calculation, read the email as if you'd received it. The review stage that catches the most real-world breakage is the one people skip most often.
 
 ## Common Pitfalls
 

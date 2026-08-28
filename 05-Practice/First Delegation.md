@@ -1,7 +1,7 @@
 ---
 title: First Delegation
 created: 2026-06-26
-updated: 2026-08-21
+updated: 2026-08-28
 type: practice
 tags: [practice, operator, orchestrator]
 confidence: high
@@ -9,6 +9,7 @@ sources:
   - raw/articles/you-shall-not-pass-2607.00533.md
   - raw/articles/retry-switch-abstain-2608.11977.md
   - raw/articles/constitutive-vs-corrective-2603.19213.md
+  - raw/articles/user-permission-policies-agent-overreach-2608.27443.md
 ---
 
 # First Delegation
@@ -316,6 +317,33 @@ If you mark **corrective**, answer the three preparedness questions before you h
 3. *Could I actually stop it before it ships?* (Not "would I notice" — "can I intervene".)
 
 The same person often occupies both roles in one workflow — that role duality is a design problem, not a personality trait. Your template is where you design it.
+
+## The Permission Policy: Decide in Advance, Don't Decide at Runtime
+
+Your delegation template's TOOLS and SUCCESS CRITERIA constrain *what* the agent does. But there's a second kind of constraint that most first delegations skip: **the permission policy** — the explicit "allow / ask / never" rules for what the agent may do on its own.
+
+New research on user-authored permission policies (arXiv:2608.27443; 113 non-technical participants supervising an 18-action simulated agent day) found something counterintuitive: **writing your own rules in advance was WORSE at blocking overreach than per-action approval** — 20.1 percentage points worse than human-in-the-loop, 14.5 points worse than automated review. And the reason wasn't the rules' content. It was that **participants chose "ask" for 114 of their 140 rules** — turning their standing policy into a standing decision to defer. Of the 148 overreach actions that ran under a policy, **133 followed a human approving them in the moment.**
+
+The researchers name it the gap between *preference* and *commitment*: repeatedly choosing "ask" preserves case-by-case choice but prevents a standing policy from settling anything in advance. "Ask" feels safe — but it hands every decision back to your tired, in-the-moment self, which approves things your calm self would never allow.
+
+### The Policy Check (3 minutes, add to your template)
+
+For your first delegation, add a PERMISSIONS section and commit to real rules, not "ask" defaults:
+
+```python
+PERMISSIONS (allow / ask / never):
+  Allow:   (what may the agent do without checking in? e.g. search, draft, summarize)
+  Ask:     (what requires a checkpoint? e.g. sending anything, spending, sharing)
+  Never:   (what is off the table? e.g. contacting people, final sign-off, irreversible actions)
+```
+
+Three rules of thumb:
+
+1. **"Never" is the most important line.** If you can name what the agent may *never* do — no matter what you're asking for — you've drawn the boundary that protects you when you're not paying attention.
+2. **"Ask" should be small and named, not the default.** Each "ask" rule is a decision you're deferring to a moment when you're busy. Reserve "ask" for genuinely ambiguous cases — and write what the agent should do *while* asking (wait? draft and hold?).
+3. **The policy is a commitment device, not a formality.** The study's punchline — 133 of 148 overreach actions happened because a human clicked approve — means the danger isn't the agent running wild. It's *you* approving things you'd have vetoed in advance. The policy line is how your calm self wins over your busy self.
+
+This pairs with [[The Line You Draw]]: that exercise maps what you won't delegate *at all*; the PERMISSIONS line maps how much rope the delegated task gets. Together they're your delegation constitution.
 
 ## Related Pages
 
