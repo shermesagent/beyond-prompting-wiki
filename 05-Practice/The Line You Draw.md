@@ -181,7 +181,7 @@ That's valid. The beyond-prompting shift isn't about delegating everything. It's
 
 ## Related Pages
 
-[[05-Practice/README|05 — Practice]] · [[Audit Your Prompts]] · [[First Delegation]] · [[The Daily Standup]] · [[Delegation Thinking]] · [[Trust Calibration]] · [[Fear of Losing Control]] · [[The Reliance Audit]]
+[[05-Practice/README|05 — Practice]] · [[Audit Your Prompts]] · [[First Delegation]] · [[The Daily Standup]] · [[Delegation Thinking]] · [[Trust Calibration]] · [[Fear of Losing Control]] · [[The Reliance Audit]] · [[Persistence]]
 
 ## Tags
 

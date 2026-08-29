@@ -37,6 +37,12 @@ Failure of any gate means **no automation** — the task stays human-executed wi
 
 The distinction matters for orchestrators: the **Abstention Gate** asks "should the agent stop?" and trusts the agent's judgment. The **Preservation Gate** asks "should this be automated at all?" and is answered by the workflow itself — it cannot be skipped, forgotten, or rationalized away by the agent. The five-gate protocol is the most complete operationalization of the earned-autonomy principle (see [[Autonomy]]): agents earn the right to act by passing structural gates, not by claiming they're confident.
 
+### Refusal Is Not Robustness — Abstention Is an Environment Property
+
+A provably uninformative-input study (De & Pavuluri, arXiv:2608.26167) sharpens what abstention actually is. Seven models were shown speech transcripts that *could not* contain the answer being asked for (pain scores were recoverable from audio, but the transcripts had no pain information at all — transcript prediction was at chance, AUC 0.489). When the prompts were cooperative, **six of seven models abstained correctly** on nearly all of them, with calibration error ≤ 0.100. Then the same models were given *authority-framed* prompts — equivalent phrasings that sounded like the model was expected to answer. Abstention became prompt-dependent: **the same model ranged from 0.18 to 1.00 abstention across equivalent phrasings.** Forced to answer, two models confidently fabricated pain scores at 0.53 and 0.76 rates, while everything else stayed ≤ 0.15.
+
+The sharpened lesson: **abstention is a property of the prompt environment, not the model.** A model that refuses perfectly under one framing will confidently fabricate under another. This is why the abstention gate (above) must be structural — if you want "I don't know," the environment has to allow it, and authority-heavy prompts quietly switch it off. The 5-minute version: take one high-stakes prompt you use and test it two ways — neutral and authority-framed. If the model's willingness to say "I don't know" changes between them, your environment, not the model, is setting the safety property. Fix the environment.
+
 ## In Plain Language
 
 You don't want a colleague who never says "I don't know" and always tries to help — because sometimes "helping" makes things worse. You want a colleague who says "I'm not confident about this — let me flag it." That's abstention: the skill of knowing when NOT to act. It turns out to be one of the hardest things to teach an AI — and one of the most important to design for.

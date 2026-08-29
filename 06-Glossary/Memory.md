@@ -28,6 +28,12 @@ At the architect level, memory stops being a feature and starts being infrastruc
 
 This also connects to [[The Blank Box Problem]]. The blank box forces recall — every interaction starts from zero. Memory solves that. When your preferences, your templates, your SOPs carry forward, you never face a truly blank box. The cursor is still there, but the system remembers what you need before you type. Building memory is building your way out of the blank box.
 
+### Memory Has a Human Face — The Augmentation Direction
+
+Most of this entry is about the agent's memory. There's a second direction that matters just as much for the beyond-prompting shift: **your** memory, and what AI does to it. A semantic memory search study (Lacosse et al., arXiv:2608.26152) found an LLM can track and predict a person's mental trajectory in a memory-retrieval task *better than other humans can*. That's not the agent remembering things for you — it's the agent as an extension of your own recall, a cognitive tool that follows your thinking and helps you go further.
+
+The reason this belongs in the glossary: memory has two faces, and they pull in opposite directions. **Agent memory** (the first half of this page) replaces your need to hold context — that's the delegation face, and it's where [[Capacity Dissolution]] lives. **Augmented memory** (this section) extends your ability to retrieve and connect what *you* know — that's the augmentation face, the one that compounds. The same tool can do both; the difference is who's doing the remembering. If the agent holds the context and you don't, that's delegation with an erosion risk. If the agent helps you find what was already in your head, that's the tool working *with* your cognition. Ask which one happened after every session: did I offload memory, or extend it?
+
 ## Related Pages
 
 [[Agent]] · [[Autonomy]] · [[Tool Use]] · [[Memory as Infrastructure]] · [[The Architect Mindset]] · [[Cognitive Fixed Cost]] · [[The Blank Box Problem]] · [[SOP]]

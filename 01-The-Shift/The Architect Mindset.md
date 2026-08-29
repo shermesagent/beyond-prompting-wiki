@@ -125,7 +125,7 @@ Pick one workflow you currently orchestrate manually. Ask: "If I got hit by a bu
 
 ## Related Pages
 
-[[The Orchestrator Mindset]] · [[The Operator Mindset]] · [[What Is Beyond Prompting]] · [[Why This Matters]] · [[02-Key-Concepts/The Authority Switch|The Authority Switch]]
+[[The Orchestrator Mindset]] · [[The Operator Mindset]] · [[What Is Beyond Prompting]] · [[Why This Matters]] · [[02-Key-Concepts/The Authority Switch|The Authority Switch]] · [[Persistence]]
 
 ## Tags
 

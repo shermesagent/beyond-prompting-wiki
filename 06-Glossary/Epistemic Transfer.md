@@ -40,6 +40,12 @@ After any delegated task where you want to keep the skill:
 
 If you can't, the interaction was **verification on loan** — competent output, zero transfer. That's the outcome [[Capacity Dissolution]] warns about, measured directly instead of inferred. The two belong together: the **Capacity Check** asks whether the interaction *felt* like you were engaged; the **Transfer Check** asks whether it *proved* you could do it alone. See [[06-Glossary/Capacity Dissolution|Capacity Dissolution]].
 
+### The Authority to Validate — Who Gets to Say What Counts
+
+Epistemic transfer has a hidden precondition: it assumes *you* hold the authority to validate claims. A critical-framework paper (Poudyal, arXiv:2608.26937) argues the bigger shift GenAI is making is the reassignment of **epistemological authority** — who gets to produce knowledge, who gets to validate claims, who gets to create evidence of learning. The "impartial tool" framing hides it: when the machine holds the authority to know, your verification practice has nothing to bite on. You can't check a claim if you've already handed over the right to decide what counts as a good check.
+
+The sharpened question for every AI-assisted workflow: **who holds validation authority for each claim — you, or the machine?** If the machine does, "verification" is acceptance with extra steps, and transfer is impossible by construction. The 30-second version of the check: name the person who would defend the claim if challenged. If the answer is "nobody — the AI said so," you're not doing oversight, you're witnessing. Transfer requires that you keep the authority to validate, even (especially) when the tool makes the claim.
+
 ## Related Pages
 
 [[06-Glossary/Capacity Dissolution|Capacity Dissolution]] · [[06-Glossary/Trust Calibration|Trust Calibration]] · [[06-Glossary/Oversight|Oversight]] · [[The Coaching Stance]] · [[The Review-First Pattern]] · [[Cognitive Surrender]]

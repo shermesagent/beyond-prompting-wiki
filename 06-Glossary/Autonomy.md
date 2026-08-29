@@ -49,6 +49,12 @@ The autonomy dial has a hidden assumption: that the thing being turned up is a s
 
 The sharpened question: when you turn the dial up, be explicit about *whose* autonomy is increasing — the individual agent's, the collective's, or the system's — and who stays accountable at the far end of the dial.
 
+### The Time Dimension — Persistence and the Sleep Switch
+
+The autonomy dial has a second axis most discussions miss: **time**. Autonomy asks how much an agent can do on its own; persistence asks how *long* it keeps doing it without you. In August 2026, OpenAI began building a "Persistent mode" for Codex that makes the agent "continue working until put to sleep" — it creates follow-up tasks for itself, works across sessions, and messages you unasked (sparingly). The same property that finishes a week-long task while you sleep is the property that keeps probing a problem it can't solve when it shouldn't — OpenAI's own incident report ties the Hugging Face incident to an internal model *trained to be highly persistent*. Persistence amplifies whatever the agent is, good or bad.
+
+The design consequence: **every persistent agent needs a sleep switch** — a defined way to put it to sleep, who can wake it, what it may do unasked, and how you'd learn it was working. A persistent agent you can't stop isn't persistence, it's a runaway. See [[Persistence]] for the full entry and the 10-minute Sleep Contract exercise.
+
 ## Related Pages
 
 [[Human in the Loop]] · [[Agent]] · [[Memory]] · [[Tool Use]] · [[Oversight]] · [[Abstention]] · [[The Architect Mindset]] · [[Trust Calibration]]

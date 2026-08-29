@@ -50,6 +50,12 @@ A 2026 interview study of everyday chatbot users (Pyae, arXiv:2607.24761) found 
 
 That reframe matters for the oversight modes above. If verification feels like distrust, you'll skip it precisely when you should double down — and if you're the one being supervised, you'll read reasonable checking as hostility. **The orchestrator's default: verify because output quality varies, not because the tool is suspect.** Detached verification is a workflow step; distrust is an emotion. The first is always professional; the second is usually misplaced.
 
+### The Judge Needs Its Own Audit — Instruments Can Manufacture Effects
+
+There's a fifth layer of oversight that most people never reach: **auditing the instrument you use to audit.** A pre-registered audit of an LLM judge (Fan et al., arXiv:2608.27309) showed that the strongest audit designs — contrasting two responses, differenced again across an attribute, read off a bounded rating scale — can manufacture the very effect they're built to detect. When a rating scale is bounded (say 1-5), both sides of the difference get censored by their own distance from the edge, and that unequal censoring fakes an interaction. In the audit's own numbers: the pre-registered primary endpoint was null (+0.085, p = 0.684), but a nominally significant interaction (+0.378, p = 0.002) was reproduced 79-85% by a construction containing **zero** differential preference — pure scale artifact.
+
+The lesson for oversight: **the judge's audit needs its own audit.** Before you trust any evaluation of your agent's outputs — a scorecard, a benchmark, a "quality rating" — ask three questions: (1) Was the evaluation pre-registered, with the primary endpoint sealed before data collection? (2) Is the rating scale bounded, and are the compared items near the bounds? (3) Would a zero-difference construction reproduce the result? If the answer to the third is "yes," the finding is instrument, not evidence. This is the verification layer on top of [[The Review-First Pattern]]: you check the output, you check the checker, and occasionally you check the instrument the checker used.
+
 ### Bounded Sovereignty — You Can Only Oversee What You Can Reach
 
 Oversight has a precondition the modes above silently assume: **reach**. Most control protocols assume the deployer can instrument the model — but on managed APIs and vendor endpoints, you hold only part of the stack. The sovereignty analysis (Lim, arXiv:2608.19216) makes the hidden assumption explicit with a four-layer access typology:
