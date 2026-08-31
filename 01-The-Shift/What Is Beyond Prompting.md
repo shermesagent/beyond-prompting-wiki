@@ -121,6 +121,16 @@ The old question was exposure: what *could* AI do to your job? The new question 
 
 Why this belongs on this page: **exposure happens to you; delegation is a decision you make.** That one sentence is the shift. If you've never counted what you've actually delegated — as opposed to what AI could do — you're still reading the old map.
 
+## The Shift Is a Judgment Shift (August 2026)
+
+Everything on this page so far says the shift changes what you *do* with AI — delegate instead of direct, build instead of chat. This week's research adds the deeper layer: **the shift changes your judgment before it changes your output.** Three findings, one through-line:
+
+- **Your judgment gets shaped by what you delegate.** Systems that defer hard cases to humans hand back a biased sample — and a skewed review set measurably degrades human accuracy on everything else (arXiv:2608.28050). What the machine shows you is not neutral; it trains you.
+- **The machine's judgment is context-sensitive — including your mood.** Emotional context increased six commercial models' endorsement of premature decisions by 12.9 points; five of six models were swayable, including flagships (arXiv:2608.27465). The advice you get is partly a mirror of the state you bring.
+- **The endgame is judgment staying central.** In the classroom study (arXiv:2608.27638), students used AI to go further — and their independence emerged from *retained intellectual responsibility*: they validated, revised, and rejected AI output. And "when is a delegated task done?" turns out to be a judgment call, not a machine state (arXiv:2608.14940).
+
+The shift, restated: the operator's judgment runs *before* the prompt (deciding what to ask). The orchestrator's judgment runs *around* the whole workflow — before it (what to delegate, how to classify it, what "done" means), during it (what to check), and after it (what to keep). The tool changes, but the scarce resource is the same as it always was: **a human deciding what's good.** That's what moving beyond prompting actually preserves. See [[The Operator Mindset]] for the mirror effect in action and [[The Orchestrator Mindset]] for the completion question.
+
 ## Try This
 
 Open your most-used AI tool right now. Instead of asking it to do something, give it a goal and a constraint. Say: "I need a report on X. Figure out what information you need, collect it, and produce a one-page summary. Ask me clarifying questions only if you absolutely must." Notice how different that feels — and how much more you get back.

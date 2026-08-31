@@ -97,7 +97,7 @@ See also: [[The Overassistance Pattern]] · [[Delegation Thinking]]
 
 ## Related Pages
 
-[[Friction by Design]] · [[Delegation Thinking]] · [[Task Decomposition]] · [[SOP]] · [[Trust Calibration]]
+[[Friction by Design]] · [[Delegation Thinking]] · [[Task Decomposition]] · [[SOP]] · [[Trust Calibration]] · [[The SCAN Test]]
 
 ## Tags
 

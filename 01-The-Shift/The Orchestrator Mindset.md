@@ -175,6 +175,21 @@ Why this is the orchestrator's move:
 
 This pairs with the delegated-exposure research (see [[02-Key-Concepts/Delegated Exposure|Delegated Exposure]]): the field is full of people who *use* AI but can't *verify* it. The orchestrator is the one who can say "show me" and mean it. The loop is the same one this wiki keeps circling: **hand off → verify at the boundary → take back.** Instruct and verify is how the hand-off earns the take-back.
 
+## The Completion Question: When Is a Delegated Task Actually Done? (August 2026)
+
+Orchestrators delegate. But there's a moment every orchestrator stumbles on: **when is it over?** The agent stops running, the output appears, and you have to decide whether the task is finished. New research on agent evaluation (arXiv:2608.14940) shows that "the run stopped" is not the same as "the task is done" — and names the two things you actually need to check:
+
+- **Outcome finality** — can anything that happens *later* still change this result? In controlled replays, endpoint labels and final labels differed for every operation with any delay — a delayed write flipped the verdict.
+- **Cross-unit separation** — did the *previous* run contaminate this one? Under shared state, a delayed write from run one changed run two's score; after isolation (namespacing or a verified reset), it didn't.
+
+The practical version is a three-line habit before you accept any delegated work:
+
+1. **What could still be running?** (background tasks, delayed writes, scheduled jobs — the open effects.)
+2. **What shared state did this touch?** (did last week's run leave anything behind that changed this one?)
+3. **What would have to happen for this answer to be wrong?** (if you can't name anything, you haven't defined "done" — you've just stopped.)
+
+That last question is the orchestrator's definition of completion: **done means the result is stable and the environment is clean** — nothing pending can flip it, and nothing from before shaped it. The machine never tells you this. You decide it, in advance, before you delegate. See also [[The SCAN Test]] for deciding *how* to delegate in the first place.
+
 ## How to Spot It in Your Day
 
 You are orchestrating when:

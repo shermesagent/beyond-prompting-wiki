@@ -69,6 +69,15 @@ Read that again: the teams that embraced AI-assisted development did not get rep
 
 This is also the cleanest evidence for why the shift is a *mindset* shift rather than a tooling shift. The same tools that produce 21x throughput in one team produce plateaus in another — because throughput tracks what the humans *do* with the harness, not which model they rent. The leverage isn't in the prompt. It's in the orchestration.
 
+## The Floor and the Ceiling: What AI Raises, and What Stays Yours (August 2026)
+
+Two studies this week land on the same answer to "does the shift just mean the machine does everything?" — no. AI raises the floor; judgment raises the ceiling.
+
+- **The classroom version.** Across three semesters of an undergraduate research course (arXiv:2608.27638), GenAI expanded what novices could investigate: personalized on-demand scaffolding let every team develop its own self-directed project (not instructor-chosen topics), and the AI became connective tissue helping them coordinate across their distinct expertise. But — and this is the finding to underline — **expanded capability did not replace the need for disciplinary judgment.** Students increasingly validated, revised, or rejected AI-generated contributions, and their research independence *emerged through that retained responsibility*. The review habit wasn't the price of using AI; it was the point.
+- **The experimental version.** A randomized study with 1,000+ students (OpenAI Economic Research with Bocconi, 2026-08-27) found ChatGPT access raised work quality by about one rubric point and made novices' work more expert-similar — while critical-thinking training produced *more original ideas that the rubric simply didn't measure*. Give students both, and you get both effects. The lesson: **AI raises the floor, thinking skills raise the ceiling — and the rubric only measures the floor.**
+
+For the shift, this is the payoff of the whole arc: the leverage curve at the top of this page is real (21x throughput, 0.2% bots — see The Shift, Now Measured at Team Scale), and what it buys you is not a world where judgment is obsolete but one where judgment is the scarce input. The people who move beyond prompting aren't the ones who let the machine decide — they're the ones who use it to reach further, then exercise the judgment the machine can't. That's the definition of the ceiling, and it's why the shift is worth making. See [[The SCAN Test]] and [[02-Key-Concepts/The Review-First Pattern|The Review-First Pattern]] for the mechanics.
+
 ## How to Spot It in Your Day
 
 You know this matters to you when:

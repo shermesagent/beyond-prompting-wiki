@@ -107,7 +107,7 @@ See also: [[The Augmentation Trap]] · [[Friction by Design]] · [[The Coaching 
 
 ## Related Pages
 
-[[The Augmentation Trap]] · [[Friction by Design]] · [[The Coaching Stance]] · [[Task Decomposition]] · [[The Orchestrator Mindset]] · [[The Operator Mindset]] · [[Cognitive Surrender]]
+[[The Augmentation Trap]] · [[Friction by Design]] · [[The Coaching Stance]] · [[Task Decomposition]] · [[The Orchestrator Mindset]] · [[The Operator Mindset]] · [[Cognitive Surrender]] · [[The SCAN Test]]
 
 ## Tags
 
