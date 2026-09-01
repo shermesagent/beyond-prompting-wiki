@@ -306,6 +306,23 @@ This is the same instinct as the district page's government-AI lesson: **you can
 
 ---
 
+## The Signed Note: When the Human Checkpoint Isn't Checking
+
+Mara's pipeline has a review step, and the review step is where her agency lives. But here's the uncomfortable question from a September 2026 audit of AI scribes in real clinics (arXiv:2608.31017): **what if your "human check" is a signature, not a check?**
+
+Three commercial AI scribes — the kind that listen to a doctor-patient visit and draft the clinical note — were audited on the same 142 consultations: 565 notes total. The vendors' reassurance: *a clinician signs every note.* The audit's finding: **one note in three (31.3%) carried a verified failure** — concentrated in allergy and medication information, invented patient identity, and history written up as examination on telephone calls where no examination could have happened. In one failure mode, a treatment the clinician had retracted was recorded as delivered care.
+
+Two details matter for anyone building a pipeline with a human checkpoint:
+
+1. **The signature was a formality, not a filter.** Clinicians were signing notes that a rigorous audit could verify as wrong. The checkpoint existed in the process chart and didn't exist in the work. If your review step would pass without reading, it's not a review step — it's the "clinician signs every note" fiction wearing your name.
+2. **The audit instrument decided the finding more than the scribes did.** With the same evidence, changing the review instruction alone moved the verified-failure share from 9.3% to 79.0%; changing the reviewing model's family roughly doubled the flagged-note share. The researchers' kicker: a failure rate depends on the instrument as much as on the thing being audited — between 28% and 97% of notes "carry a failure" depending on the standard you choose.
+
+The pipeline lesson: Mara's review pass works because she checks the output against *what she knows the work should be* — voice, facts, tone. The clinics' sign-off failed because signing was the whole job. When you design the human checkpoint in your own pipeline, make it a **check against a standard** (a rubric, a source, a known-good example), not a rubber stamp. And when someone quotes you an accuracy number — for a scribe, an agent, a vendor — ask what instrument produced it. Numbers without instruments are vibes wearing a lab coat.
+
+**Source:** "One Note in Three: A Verified Census of Three Deployed AI Scribes, and the Instrument That Counted It." arXiv 2608.31017 (August 2026). See [[The Review-First Pattern]] for the verification mechanics.
+
+---
+
 ## You Can Do This Too
 
 You don't need to be a developer. You don't need an expensive platform. You need three things:

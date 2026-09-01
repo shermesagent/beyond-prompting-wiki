@@ -1,10 +1,10 @@
 ---
 title: Trust Calibration
 created: 2026-06-21
-updated: 2026-08-11
+updated: 2026-09-01
 type: concept
 tags: [concept, barrier, orchestrator]
-sources: [raw/articles/accurate-but-not-confident-acm-2026.md, raw/articles/automation-boundaries-2026.md, raw/articles/perceived-system-predictability-2607.05674.md, raw/articles/faster-ai-uneven-frontier-2607.12125.md, raw/articles/how-agentic-is-agentic-commerce-2607.12575.md, raw/articles/calibrating-trustworthiness-education-2608.04006.md, raw/articles/transparency-trap-disclaimers-2608.07493.md, raw/articles/wearing-trust-wearables-2608.08856.md]
+sources: [raw/articles/accurate-but-not-confident-acm-2026.md, raw/articles/automation-boundaries-2026.md, raw/articles/perceived-system-predictability-2607.05674.md, raw/articles/faster-ai-uneven-frontier-2607.12125.md, raw/articles/how-agentic-is-agentic-commerce-2607.12575.md, raw/articles/calibrating-trustworthiness-education-2608.04006.md, raw/articles/transparency-trap-disclaimers-2608.07493.md, raw/articles/wearing-trust-wearables-2608.08856.md, raw/articles/rating-the-pitch-expectations-2607.05113.md]
 confidence: high
 ---
 
@@ -224,6 +224,20 @@ That's [[The Confidence Gap]] in one study — and it converts directly into cal
 - **Never treat stated confidence as a signal about accuracy.** It's a signal about *fluency*.
 - **Check the highest-confidence outputs first.** The ≥ 8/10 zone is where the gap hides; the Confidence Strip drill (15 minutes, on [[The Confidence Gap|the concept page]]) makes the check reflexive.
 - **Assume reactive verification is your default.** N=380 law students who'd been burned by fabricated citations verify at 4.2/5 vs. 2.8/5 for the unburned — and 71.1% had zero formal instruction on verifying AI output. Calibration taught by getting burned is the expensive curriculum; explicit drills are the cheap one.
+
+### The Expectation Effect: You're Rating the Pitch, Not the Product (New, September 2026)
+
+The most underrated contaminant in trust calibration is **what you were told about the model before you used it.** A controlled study (arXiv:2607.05113, N=162) gave users one of six LLMs — after showing them a landing page that matched, overstated, or understated the model's true capability. The users were on the *same model*; only the framing differed.
+
+The results are a calibration bomb:
+
+1. **Impressions didn't track performance — they tracked expectations.** Change in model impression after use was not predicted by task performance (β = −0.01, n.s.) — but was strongly predicted by whether the model met users' expectations (β = 0.47, p < .001) and how confident they felt (β = 0.47, p < .001). You can use a model, watch it work, and still walk away rating the label.
+2. **The label changed how people interacted.** Oversold users became micromanagers — more directive prompting ("do this, then that"). Undersold users became collaborators — longer, more open prompts. The framing didn't change the product's quality (that tracked only true capability); it changed the *relationship*.
+3. **Leaderboard data is contaminated too.** The paper's kicker: user-elicited evaluations — including the preference data driving public leaderboards — measure expectation management at least as much as the model.
+
+**The calibration implication:** your "trust" in an AI is partly a report on your expectations, not on the machine. Every brand, benchmark headline, and "it's the flagship now" narrative resets your prior before the first interaction. The fix isn't to ignore branding — it's to build the habit of measuring the product directly: keep a task-level track record (see the Trust Map below) and update it from *outcomes you observed*, not impressions you formed. When you find yourself saying "this model is great," the calibrating follow-up is: *great at what, measured how — or just great because I expected it to be?*
+
+That same expectation dynamic is why the oversold user's directive prompting matters for the operator→orchestrator path: **the label shapes your interaction style, and your interaction style shapes what the system can show you.** The undersold users got more from the same model because they asked it more openly. Treating a tool as a peer to brief (orchestrator mode) beats treating it as a vending machine (operator mode) — independent of the tier sticker on the box.
 
 ## Try This
 

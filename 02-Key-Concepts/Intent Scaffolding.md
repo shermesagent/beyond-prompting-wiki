@@ -55,7 +55,7 @@ Three reasons this concept matters:
 
 ## Related Pages
 
-[[From Prompt to Pipeline]] · [[Task Decomposition]] · [[Trust Calibration]] · [[The Just Ask ChatGPT Trap]] · [[Accountability Asymmetry]] · [[Memory as Infrastructure]] · [[The Review-First Pattern]] · [[The Observability Gap]]
+[[From Prompt to Pipeline]] · [[Task Decomposition]] · [[Trust Calibration]] · [[The Just Ask ChatGPT Trap]] · [[Accountability Asymmetry]] · [[Memory as Infrastructure]] · [[The Review-First Pattern]] · [[The Observability Gap]] · [[The Rule Capture Problem]]
 
 ## The Production Proof: Rules Beat Size (August 2026)
 

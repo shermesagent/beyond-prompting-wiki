@@ -1,10 +1,10 @@
 ---
 title: The Review-First Pattern
 created: 2026-06-30
-updated: 2026-08-18
+updated: 2026-09-01
 type: concept
 tags: [concept, workflow, orchestrator]
-sources: [raw/articles/viktor-agents-cannot-do-2026.md, raw/articles/automation-boundaries-2026.md, raw/articles/hallucination-snowball-2608.14588.md, raw/articles/uncertainty-isnt-enough-self-correction-2608.14659.md]
+sources: [raw/articles/viktor-agents-cannot-do-2026.md, raw/articles/automation-boundaries-2026.md, raw/articles/hallucination-snowball-2608.14588.md, raw/articles/uncertainty-isnt-enough-self-correction-2608.14659.md, raw/articles/crossaudit-cross-vendor-audit-2608.28631.md, raw/articles/one-note-in-three-ai-scribes-2608.31017.md]
 confidence: high
 ---
 
@@ -102,9 +102,35 @@ Both studies land on the same design rule: the review point belongs **at each bo
 
 The pattern extension: Review-First has always meant *review before use*; this study adds the **independence requirement** — the reviewer must be structurally separated from the generator. Concretely: a different model reviewing, a human domain reviewer, or a checklist applied against the source — anything that breaks the loop where the thing that produced the work also certifies it. Verify at the boundary is only verification if the boundary is *outside* the generator.
 
+### The Independent Reviewer: Cross-Vendor Auditing (New, September 2026)
+
+The independence requirement has a mechanical answer now. **CrossAudit** (arXiv:2608.28631) is a protocol for supervising autonomous pipelines, and its first sentence is this page's thesis: *"An AI scientist should not grade its own homework."* The systems the authors examined review their own work with a reviewer from the same model family — or at least the same vendor. Model evaluators favor their own generations, and models trained alike may share blind spots: **the reviewer inherits the author's.** If you're checking the AI's work with the same AI's judgment, you're not checking — you're re-reading.
+
+The protocol's three commitments translate directly to any delegation, not just research pipelines:
+
+1. **Different vendor, human rulebook.** Each increment of work is audited by a reviewer from a *different vendor* against a standard a *human wrote and versioned*. The rulebook lives outside both models — it's the thing neither side gets to edit mid-review.
+2. **The audit history is a record, not a log.** Verdicts, disputes, and rulings are committed like git commits — re-readable, citable, learnable-from. "What did we wave through last month?" has an answer you can look up.
+3. **A model blocks only by citing a rule.** Advisory judgment never gates the pipeline: no model may wave a deterministic failure, and any blocker must cite the specific rule it's enforcing. Blockers that survive a bounded number of revision rounds go to a person — the human is the tiebreaker, not the first stop.
+
+The trial evidence matters less than the design: two vendors read the same rulebook differently, and neither reading was "better" — the *difference* is the signal. Independence isn't about finding a perfect reviewer. It's about making sure the reviewer's blind spots aren't the author's blind spots.
+
+**Your move:** for anything you run on autopilot, ask the vendor question — *is the thing checking this output from the same family as the thing that made it?* If yes, you don't have a review loop; you have a confirmation loop. Even a human checklist against a written standard beats same-vendor self-review ([[The Rule Capture Problem]] is why the written standard matters).
+
+### The Instrument Effect: What the Audit Finds Depends on the Instrument
+
+The hardest verification lesson of the month comes from a clinical-notes audit (arXiv:2608.31017): three commercial AI scribes, 565 notes, 142 consultations — and **one note in three carried a verified failure** (31.3%), concentrated in allergy/medication information, invented patient identity, and history written up as examination on phone calls. The reassurance — "a clinician signs every note" — turned out to be a formality, not a check.
+
+But the deeper finding is about *your* review practice: **the failure rate depends on the instrument as much as on the thing being audited.** With the same evidence, the review instruction alone moved the share of candidates verified from 9.3% to 79.0%. Change the reviewing model's family and the flagged-note share roughly doubled (54.8% vs. 27.8%). Published audits disagree with each other by margins that instrument differences alone can produce — omission is 54-86% of their errors against 23.1% in this census.
+
+Three moves for the orchestrator:
+
+1. **Treat every audit number as instrument-dependent.** Before you believe "our AI is 95% accurate," ask what instrument produced that number, who refuted it, and with what instructions.
+2. **Use adversarial two-reviewer refutation.** The census verified findings by having two models from different families try to *refute* each candidate — the same cross-vendor logic as CrossAudit, applied to a single output. Your cheap version: run a different model (or a skeptical human) against the first draft and instruct it to find reasons it's wrong.
+3. **Audit the audit.** The clinicians upheld 32 of 33 findings blind — real checks on real outputs hold up. Formality checks (the signature, the sign-off, the green checkmark) don't. If your review step would pass without reading, it's not a review step.
+
 ## Related Pages
 
-[[From Prompt to Pipeline]] · [[From Author to Editor]] · [[Trust Calibration]] · [[Delegation Thinking]] · [[The Authority Switch]] · [[Human in the Loop]] · [[Friction by Design]] · [[The Collapse Pattern]] · [[The Sequencing Principle]] · [[02-Key-Concepts/README|02 — Key Concepts]] · [[The Confidence Gap]] · [[Run-to-Run Variance]]
+[[From Prompt to Pipeline]] · [[From Author to Editor]] · [[Trust Calibration]] · [[Delegation Thinking]] · [[The Authority Switch]] · [[Human in the Loop]] · [[Friction by Design]] · [[The Collapse Pattern]] · [[The Sequencing Principle]] · [[02-Key-Concepts/README|02 — Key Concepts]] · [[The Confidence Gap]] · [[Run-to-Run Variance]] · [[The Rule Capture Problem]]
 
 ## Tags
 

@@ -41,7 +41,7 @@ Pick one task you delegated successfully this week. Open a blank document and wr
 
 ## Related Pages
 
-[[Delegation]] · [[Orchestration]] · [[Decomposition]] · [[Memory]] · [[The Architect Mindset]] · [[Delegation Thinking]]
+[[Delegation]] · [[Orchestration]] · [[Decomposition]] · [[Memory]] · [[The Architect Mindset]] · [[Delegation Thinking]] · [[The Rule Capture Problem]]
 
 ## Tags
 
