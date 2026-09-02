@@ -238,6 +238,28 @@ The bakery got the other version: the warm expert's help was **learning-oriented
 
 ---
 
+## The AI Storefront: Being Recommendable Is Now a Business Function
+
+The bakery automated its back office. But there's a front door it can't see in its web analytics: **what AI assistants say about the business — or fail to say — when a customer asks.** New measurement research (arXiv:2606.10907) tracked what happens when ChatGPT, Claude, or Gemini mentions a brand to a user with no recent engagement with it: same-name Google searches rose **+4.3 percentage points**, visits to the brand's own site **+2.4pp**, and retailer-page visits **+1.0pp** — effects invisible to standard referrer-based and last-click attribution, because the customer's journey started inside an assistant conversation, not on your website.
+
+Three findings matter for a small business:
+
+1. **Incidental mentions barely move behavior; direct recommendations do.** A passing "your Netflix download" does almost nothing (+1.8/+1.1/+0.3). A deliberate "here's a brand that fits what you asked for" moves people. The effect lives in *being the answer*, not being mentioned.
+2. **The effect is mostly search-mediated.** The assistant changes what the customer searches for next — which means your Google Business Profile, your website's clarity about what you do, and your local-search presence decide whether the assistant's nudge converts.
+3. **You can't see this channel.** No dashboard reports it. The only way to know what assistants say about you is to *ask them* — which is exactly the move an orchestrator makes.
+
+**What this means for the bakery — and any small business:**
+
+- **Run the quarterly assistant audit.** Ask three different assistants (ChatGPT, Claude, Gemini — or the assistants your actual customers use) "best [your category] near [your town]" and "I need [your product/service] — what do you recommend?" Record what they say about you, about your competitors, and whether you appear at all. That transcript is your storefront.
+- **Make yourself describable.** Assistants answer from what they can find: consistent hours, a clear one-line description of what you do, current menus/prices, and reviews. Fuzzy web presence = fuzzy recommendations.
+- **Treat "being recommendable" as a workflow, not a wish.** The same review-first habit applies: the assistant is a first draft of your reputation — check what it says, correct what's wrong (claim profiles, fix inaccuracies), re-ask next quarter.
+
+This is [[The Just Ask ChatGPT Trap]] in reverse: the trap is trusting an assistant's answer as if it were complete; the opportunity is understanding that *your customers do exactly that* — and making sure the answer they get is accurate. You can't prompt your way into recommendations, but you can audit and correct your way there.
+
+**Source:** Iannelli, M. & Ai, A. "From Prompt to Purchase: How AI Brand Recommendations Move Consumers on the Open Web." arXiv 2606.10907 (June 2026).
+
+---
+
 ## You Can Do This Too
 
 If you run a small business or team of 1-10 people:

@@ -374,6 +374,44 @@ The shift isn't just about what teachers hand to AI. It's about who still gets t
 
 ---
 
+## The Autonomy Divide: How Much of the Job Do You Hand Over?
+
+By 2026, the question for education leaders stopped being *whether* to run AI agents and became *how much autonomy and data access to grant them*. At the Bridges 2026 conference, three institutions showed three different answers — and each answer is a legitimate posture, not a maturity ranking:
+
+| Institution | Posture | What the agents do | The human line |
+|-------------|---------|-------------------|----------------|
+| Milwaukee Area Technical College | Guarded | Faculty-controlled tutoring agents (Gemini Notebook) outside office hours | No broad data access — "we don't know yet... collect data that probably shouldn't go out to the public" |
+| Johnston Community College (NC) | Scaling | 12 agents processing the enrollment cycle "from inquiry to completion," reading student records to replicate what staff do | Staff couldn't be hired fast enough; agents absorb the growth — but humans own the student relationship |
+| Peninsula School District (WA) | Distributed | Pilot agents from last year rolling out to **every adult staffer this fall**; district builds the "skills" assigned to agents | CIO Kris Hagel: agents are a capacity lever when districts are "running low on money" and can't add systems or people |
+
+The through-line across all three: **an agent is not a chatbot.** A chatbot responds to prompts; an agent makes decisions "pinned back to a specific goal, and the intent is to observe and change action" (Joe Siedlecki, Amira Learning). That distinction is exactly the operator→orchestrator line — and it's why the *autonomy* question (how much may it do on its own, with which data?) replaces the *prompt* question (what do I type?).
+
+Two adoption lessons worth stealing for any district:
+
+- **The last step stays human.** MATC automates the monthly enrollment report that determines institutional funding — and keeps a human at the very end: "When we're talking $150 million a year... you do want somebody just at the very end to verify those before we file them with the state." That is [[The Review-First Pattern]] with a dollar sign on it.
+- **Adoption runs on champions and fail-forward culture, not memos.** Johnston CC's VP: "It's not 'set-it-and-forget-it'" — find internal champions who iterate. Milwaukee's provost: faculty conversations — teachers showing colleagues what worked — drove adoption more than any directive. Same finding as [[The Warm Expert]]: trusted humans move adoption; policies announce it.
+
+**Source:** Gilban-Cohen, J. "Bridges 2026: How Schools Are Putting AI Agents to Work." GovTech, July 2026.
+
+---
+
+## The Learning Theory Question: What Counts as Learning Now?
+
+If AI is in every classroom, a deeper question sits underneath the tool debates: **what is learning, when knowledge is co-constructed with a machine?** A 2026 theory paper (arXiv:2606.12441) argues the four classic learning theories — behaviorism, cognitivism, constructivism, connectivism — were all formulated before AI could generate, synthesize, and reason about knowledge. It proposes **Generativism**: learning increasingly happens through iterative co-construction between a learner and an AI system, organized around four constructs:
+
+| Construct | Plain meaning | What it implies for classrooms |
+|-----------|---------------|-------------------------------|
+| **Epistemic partnership** | The learner and AI build knowledge together | Writing, research, and problem-solving become joint acts — so "whose work is this?" is the wrong question. The right question: what did the student contribute to the partnership? |
+| **Distributed agency** | Intent and control spread across human and machine | Students need practice *noticing* when the machine took over a decision they should own (see [[The Absorption Pattern]]) |
+| **Generative literacy** | The skill of directing and evaluating AI generation | Directing generation (good briefs) and evaluating output (good checks) become teachable core skills — see [[The Vibe Compiler]] and [[The Review-First Pattern]] |
+| **Adaptive metacognition** | Monitoring your own thinking when thinking is shared | The oldest skill in this wiki, upgraded: knowing what *you* know versus what the system knows (see [[Authorship Calibration]]) |
+
+The uncomfortable implication for assessment: if students co-construct with AI, then grading the final artifact grades the partnership — unless the task is designed to reveal the student's contribution. The paper's four constructs give curriculum leaders a vocabulary for designing that: assess the brief (generative literacy), assess the check (adaptive metacognition), assess what the student chose to own (distributed agency) — not just the output.
+
+**Source:** Li, S. & Zheng, J. "Generativism: Toward a Learning Theory for the Age of Generative AI." arXiv 2606.12441 (May 2026).
+
+---
+
 ## Related Pages
 
 [[From Prompt to Pipeline]] · [[Task Decomposition]] · [[Delegation Thinking]] · [[Trust Calibration]] · [[Human in the Loop]] · [[Doom Researching]] · [[The Capability Ladder]] · [[Scaffold, Don't Substitute]] · [[From Author to Editor]] · [[The Warm Expert]] · [[03-Real-World/README|03 — Real World Stories]]

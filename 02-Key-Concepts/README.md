@@ -57,6 +57,7 @@ You don't need to read them in order. Jump to whichever title grabs you. But if 
 45. [[Run-to-Run Variance]] — the gap between what the same AI produces on two identical runs: same prompt, same model, same day, different answer. Measured cleanly in a preregistered screening study (two identical runs agreed 91.7% but differed on 94 records, including 29 verified-eligible ones caught by only one run) — "checked once" is not "checked," and the re-run is the cheapest verification instrument you own.
 46. [[The SCAN Test]] — the task-classification check that turns "am I misusing AI?" into "am I misclassifying this task?": Substitute, Complement, Aid, Non-Negotiable — pick the mode that fits where you are, not the task's label — and watch for the three failure trajectories (de-skilling, never-skilling, mis-skilling) plus the sneaky one: passive engagement inside a correctly-scaffolded task.
 47. [[The Rule Capture Problem]] — the written rule (prompt, SOP, playbook) is a lossy copy of the job: it captures know-what, not know-how. The AI receives the procedure; the organization runs on the procedure plus negative boundaries, runtime judgment, and learning history. The fix isn't a longer prompt — it's externalizing the boundaries (O-I-B-A-R: OPEN / IS / BUT / ACTION / RESULT), where the BUT clause is the gold and the suspension is where human-AI handoffs are born: when a dimension matters but its value is unresolved, the rule says measure, ask, retrieve, or escalate to a human.
+48. [[The Failure Review]] — the blameless, structured ritual for when production AI fails anyway: freeze the evidence, then classify the case across Trigger (what exposed the vulnerability) → Mechanism (what process produced the risk) → Consequence (what it did to the work) → Corrective Action (the fix, with an owner). Borrowed from medicine's morbidity-and-mortality conferences; the third leg of the delegation system beside The Review-First Pattern and Failure-Path Preservation.
 
 ---
 
@@ -121,6 +122,7 @@ They came out of real research — papers on human-AI collaboration, case studie
 | [[Run-to-Run Variance]] | Why does the same prompt give a different answer — and how do I check against it? | Orchestrator |
 | [[The SCAN Test]] | Am I picking the right AI mode for this task — or just the default? | Operator → Orchestrator |
 | [[The Rule Capture Problem]] | Why does my written rule miss the judgment the work actually needs — and how do I externalize the boundaries? | Orchestrator |
+| [[The Failure Review]] | What do I do when a delegated AI task fails anyway — without blame, and with a fix that sticks? | Orchestrator |
 
 ---
 

@@ -43,7 +43,7 @@ That's it. A single markdown file called "What Didn't Work" with dated entries. 
 
 ## Related Pages
 
-[[06-Glossary/Failure-Path Preservation|Quick reference]] · [[02-Key-Concepts/Cognitive Fixed Cost|Cognitive Fixed Cost]] (the upfront investment — failure-path preservation is one of the things the investment buys) · [[Doom Researching]] (the consumption pattern where nothing persists — the opposite of failure-path preservation) · [[Task Decomposition]] (breaking work into delegable units — the substrate records what each unit learned) · [[Delegation Thinking]] (deciding what to delegate — failure paths inform future delegation decisions) · [[Small Business Automation]] (concrete example of what a bakery loses without failure-path preservation) · [[The School District Shift]] (concrete example at institutional scale)
+[[06-Glossary/Failure-Path Preservation|Quick reference]] · [[02-Key-Concepts/Cognitive Fixed Cost|Cognitive Fixed Cost]] (the upfront investment — failure-path preservation is one of the things the investment buys) · [[Doom Researching]] (the consumption pattern where nothing persists — the opposite of failure-path preservation) · [[Task Decomposition]] (breaking work into delegable units — the substrate records what each unit learned) · [[Delegation Thinking]] (deciding what to delegate — failure paths inform future delegation decisions) · [[Small Business Automation]] (concrete example of what a bakery loses without failure-path preservation) · [[The School District Shift]] (concrete example at institutional scale) · [[The Failure Review]] (what to do with the preserved failure when one slips through — blameless review)
 
 ## Source
 

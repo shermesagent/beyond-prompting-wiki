@@ -323,6 +323,39 @@ The pipeline lesson: Mara's review pass works because she checks the output agai
 
 ---
 
+## The Tumor Board Lesson: AI Widens the Net, the Expert Decides
+
+Mara's pipeline drafts content. A harder version of the same architecture runs in oncology: matching cancer patients to clinical trials. Most trials fail because of insufficient enrollment, and AI systems that tried to help mostly did eligibility checks in isolation — never inside a real workflow. **TrialGPT 2.0** (arXiv:2609.01202) was built differently, for production: it doesn't just ask whether a patient qualifies. It assesses *which trials warrant further consideration* given the patient's current needs and the clinic's workflow priorities, and it returns **structured, inspectable explanations for expert review**.
+
+The real-world numbers, from retrospective cohorts and a six-month prospective deployment inside an active precision-oncology tumor board:
+
+- **Retrospective, 288 cases:** the system surfaced at least one clinician-recommended trial in its top 10 for ~91% of cases — while **cutting clinician screening time by 55.0%**.
+- **Prospective, six months in a live tumor board:** it contributed trial opportunities the routine workflow had *missed*, **expanding patient access to clinical trial participation by 90.9%**.
+
+The orchestrator pattern, at clinical stakes: **the AI widens the net; the human keeps the decision.** Nobody on the tumor board delegates the judgment call to the model — but the model changes what the experts get to see (more opportunities, in less time). That's the difference between "AI that replaces a step" and "AI that raises the ceiling of a human system" — see [[Why This Matters]] for why that distinction is the whole game.
+
+For your pipeline, the lesson is the *form* of the output: TrialGPT didn't hand clinicians a verdict. It handed them a **ranked, explained shortlist**. When you delegate to an agent, ask for the same shape — "here's what I found, here's why each item made the list, here's what I recommend" — not a single confident answer. An inspectable shortlist keeps your judgment in the loop. That's the [[From Author to Editor]] move applied to decision support.
+
+**Source:** Fang, Y., Jin, Q., Tian, S., He, L. & Geer, M. "Towards AI-Assisted Clinical Trial Matching: Practical Considerations, Multicenter Evaluation, and Real-World Deployment." arXiv 2609.01202 (September 2026).
+
+---
+
+## The Failure Review: When Something Slips Through Anyway
+
+Mara reviews. The tumor board reviews. The scribe clinics *thought* they reviewed. And still — occasionally — something wrong ships. What does a mature pipeline do then? A 2026 framework from clinical AI (arXiv:2609.00076) argues that neither aggregate monitoring ("accuracy dipped") nor incident reporting ("something bad happened") explains *how* the failure emerged across the AI, the human, the workflow, and the controls. It proposes what hospitals already do after deaths and complications, adapted for AI: a **structured, blameless case review** — Trigger → Mechanism → Consequence → Corrective Action — with evidence preserved and fixes tracked to completion.
+
+The practical translation for anyone running a pipeline:
+
+1. **Freeze the evidence first.** Prompts, logs, outputs — before anyone "cleans up." If you can't reconstruct what happened, that's the first finding.
+2. **Separate the trigger from the mechanism.** What *exposed* the vulnerability (e.g., a task ran unattended at 2am) is not the same as the *process* that produced the error (e.g., the instruction had no escalation rule). Fixing only one of them guarantees a repeat.
+3. **Keep it blameless.** When AI is in the loop, blame is a category error — see [[No One to Blame]]. The review's job is institutional learning, and it only works if people bring failures to it.
+
+This is the third leg of your delegation system: [[The Review-First Pattern]] checks work before it ships, [[Failure-Path Preservation]] keeps failures visible, and **The Failure Review** extracts the lesson when one gets through anyway. See [[The Failure Review]] for the full concept and the 10-minute exercise.
+
+**Source:** Mui, P., Sittig, D.F., Labkoff, S. & Basu, S. "AI Morbidity and Mortality: A Framework for Clinical AI Failure Review." arXiv 2609.00076 (August 2026).
+
+---
+
 ## You Can Do This Too
 
 You don't need to be a developer. You don't need an expensive platform. You need three things:
