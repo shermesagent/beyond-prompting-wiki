@@ -132,4 +132,4 @@ The bridge principles at the top of this page hold at both scales. The twist the
 
 ## Related Pages
 
-[[The Augmentation Trap]] · [[Psychological Debt]] · [[Friction by Design]] · [[Trust Calibration]] · [[Fear of Losing Control]] · [[Cognitive Surrender]] · [[The Coaching Stance]] · [[Distributed Mastery]] · [[The Validator Trap]] · [[The Rule Capture Problem]]
+[[The Augmentation Trap]] · [[Psychological Debt]] · [[Friction by Design]] · [[Trust Calibration]] · [[Fear of Losing Control]] · [[Cognitive Surrender]] · [[The Coaching Stance]] · [[Distributed Mastery]] · [[The Validator Trap]] · [[The Rule Capture Problem]] · [[The Retrievability Gap]]

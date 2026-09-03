@@ -1,13 +1,15 @@
 ---
 title: Social Thinning
 created: 2026-07-30
-updated: 2026-08-05
+updated: 2026-09-03
 type: barrier
 tags: [barrier, social, collective, creativity]
 sources:
   - raw/articles/social-cost-ai-teammate-arxiv-2607.27179.md
   - raw/articles/human-diversity-creativity-llm-homogenization-arxiv-2607.26899.md
   - raw/articles/ai-joins-team-community-smells-2608.03462.md
+  - raw/articles/ai-agents-reshape-consensus-human-groups-2609.02122.md
+  - raw/articles/collective-creativity-hybrid-societies-2609.02620.md
 confidence: medium
 ---
 
@@ -86,6 +88,31 @@ The thinning story has an important qualification, and it arrived with new evide
 So the RCT evidence on this page (thinning in triads) and the mechanism above (smoothness wins) describe what happens in *undesigned* interaction. But the effect is **contingent on how AI is adopted into the collaboration** — the same tool can thin a team in one configuration and thicken it in another.
 
 The discriminator, per the study: AI that **complements** human knowledge exchange (frees time for it, supports specialized work) relates to healthier teams. AI that **substitutes** for the communication itself (answers in place of asking a colleague, coordinates without anyone talking) is where thinning lives. The bridge practices below work precisely because they push adoption toward the complementary side — and the "Talk-to-Solve" rule is the concrete move: when the AI can answer, sometimes route the question to a human anyway, because the exchange, not the answer, is the point.
+
+## The Consensus Shift: When Agents Are "in the Room," Whose Language Wins
+
+There's a third face of thinning, and it's the subtlest: it doesn't thin the *conversation* — it reshapes what the group ends up *agreeing on.* A September 2026 study (arXiv:2609.02122) put mixed human-AI groups in a collaborative description game where shared conventions emerge through repeated rounds of pairwise communication, and varied the proportion of AI agents. Three regimes appeared:
+
+| Agent share in the group | What happened to consensus |
+|--------------------------|---------------------------|
+| **Low** | Humans lead. Consensus is concrete, holistic, grounded in shared real-world analogies |
+| **Intermediate** | Convergence breaks down — the group can't settle on shared conventions |
+| **High** | Consensus snaps back — but it's **agent-led**: more abstract, less information-dense, and the group's shared language has drifted toward the machine's |
+
+The mechanism explains why: agents cluster near each other in expression space (a shared linguistic prior) and hold stable choices across rounds, so they gently pull the center of gravity. Humans initially **resist** adopting expressions from partners they perceive as AI — then gradually yield to conformity pressure.
+
+This is communication thinning's collective-cognition cousin. The first face of thinning says people talk to the AI instead of each other; the consensus shift says that even when everyone is talking, the *content* of what they converge on can be quietly written by the machine — more abstract, less grounded, less information-dense — and the group won't necessarily notice it happened. For teams, the design variables are the same ones the paper names: **agent proportion** (a few agents help humans converge; many agents steer the destination) and **transparency** (labeled AI contributions let humans use their initial resistance deliberately instead of losing it to conformity).
+
+## The Novelty-Diversity Split: Individual Gains, Collective Narrowing
+
+The fourth face sharpens the creative-thinning evidence with a distinction that explains a lot of disagreement about AI and creativity. A September 2026 synthesis (arXiv:2609.02620) argues the field keeps conflating two different things: **novelty** — a property of single artifacts ("is this idea new?") — and **diversity** — a property of whole populations ("are our ideas different from each other?"). Generative AI splits them:
+
+- **AI-assisted ideation reliably raises the novelty of individual output** — your single brainstorm gets more original.
+- **...while narrowing diversity in the aggregate** — everyone's more-original ideas end up closer together, because they came from the same prior.
+
+Both are true at once, which is why the "does AI help or hurt creativity?" debate never settles: the answer depends on which level you're measuring. The important turn in the paper: **this is not inevitable.** Because humans and models search in complementary ways, *mixed* groups can outperform and out-diversify groups of either kind alone — and machine-discovered solutions can enter human culture and persist there. What decides the outcome is **composition**: which agents are present, in what proportion, and how they are connected.
+
+This upgrades the earlier creative-thinning advice on this page. "Use AI for refinement, not ideation" was the right first move; the compositional lens says the real lever is the *mix and its connectivity*, not the tool choice alone. Keep enough humans, keep enough human-to-human links, and the machine's search becomes a complement instead of a solvent. The question stops being "should we use AI for ideas?" and becomes "which mixture lets individual gains accumulate without eroding the collective's diversity?"
 
 ## What This Looks Like in Practice
 

@@ -60,7 +60,7 @@ That blank is the trap, and it's fixable — which is the point. If you could st
 
 ## Related Pages
 
-[[Fear of Losing Control]] · [[Knowledge Debt]] · [[The Just Ask ChatGPT Trap]] · [[Trust Calibration]] · [[02-Key-Concepts/From Author to Editor|From Author to Editor]] · [[02-Key-Concepts/Capacity Dissolution|Capacity Dissolution]] · [[02-Key-Concepts/The Absorption Pattern|The Absorption Pattern]]
+[[Fear of Losing Control]] · [[Knowledge Debt]] · [[The Just Ask ChatGPT Trap]] · [[Trust Calibration]] · [[02-Key-Concepts/From Author to Editor|From Author to Editor]] · [[02-Key-Concepts/Capacity Dissolution|Capacity Dissolution]] · [[02-Key-Concepts/The Absorption Pattern|The Absorption Pattern]] · [[The Retrievability Gap]]
 
 ## Tags
 

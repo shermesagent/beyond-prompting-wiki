@@ -98,7 +98,7 @@ Score each 0–2 (0 = invisible, 1 = partial, 2 = checkable). **Total under 4 = 
 
 ## Related Pages
 
-[[Trust Calibration]] · [[The Review-First Pattern]] · [[The Authority Switch]] · [[Co-Construction Blindness]] · [[Accountability Asymmetry]] · [[Failure-Path Preservation]] · [[The Blank Box Problem]] · [[Abstention]] · [[Intent Scaffolding]] · [[Cognitive Capability Gaps]] · [[Delegation Regret]]
+[[Trust Calibration]] · [[The Review-First Pattern]] · [[The Authority Switch]] · [[Co-Construction Blindness]] · [[Accountability Asymmetry]] · [[Failure-Path Preservation]] · [[The Blank Box Problem]] · [[Abstention]] · [[Intent Scaffolding]] · [[Cognitive Capability Gaps]] · [[Delegation Regret]] · [[The Retrievability Gap]]
 
 ## Tags
 

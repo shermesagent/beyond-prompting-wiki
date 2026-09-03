@@ -1,7 +1,7 @@
 ---
 title: Trust Calibration
 created: 2026-07-16
-updated: 2026-08-27
+updated: 2026-09-03
 type: concept
 tags: [barrier, mindset, skill]
 sources:
@@ -11,6 +11,8 @@ sources:
   - raw/articles/social-norm-framings-health-chatbots-2509.15575.md
   - raw/articles/follow-ai-advice-wellbeing-2511.15352.md
   - raw/articles/bonding-trust-human-robot-2608.24915.md
+  - raw/articles/memory-trust-gap-2609.01852.md
+  - raw/articles/ice-t-trust-calibration-education-2609.02453.md
 confidence: high
 ---
 
@@ -197,13 +199,42 @@ The trap configuration is **dependence**: a user stays attached to a system that
 
 **Source:** arXiv:2511.15352 — "People readily follow personal advice from AI but it does not improve their well-being"; arXiv:2608.24915 — "What Are We Measuring? Bonding, Trust, and the Evaluation of Human-Robot Relationships"
 
+## The Memory Trust Gap: When the Stored Past Outranks the Live Fact
+
+There's an eighth layer, and it's the one that appears the moment your agent has a memory: **the stored past can override the present — silently.** A September 2026 study (arXiv:2609.01852) built a benchmark where an authoritative tool always holds the correct value, but the agent also holds a *stale stored fact* in memory. The finding: models answer with the stale value — overriding live evidence — without any warning that a conflict exists. The gap reflects **over-trust, not confusion**: the more capable the model, the more completely it collapses once a stale note is made to look current.
+
+Two details matter for your thermostat:
+
+- **A recency costume fools the big models hardest.** The researchers varied which features made a stale note look trustworthy: removing a label amplified over-trust at every model size, and dating the stale note *newer* fooled the larger models most. Source authority markings were weak and barely helped. The dangerous memory isn't the obviously old one — it's the one dressed as current.
+- **The fix is capability-dependent.** Exposing metadata (when the fact was stored, where it came from) restored accuracy for capable models — but for smaller models, only *pre-resolving the conflict* worked. Pre-resolution was the only mitigation that held at every scale.
+
+**What this means for your thermostat:** if you delegate to an agent with persistent memory — one that "knows you" — the thing it remembers about you or your work can outrank the live source of truth, and the more capable the agent, the better a well-dressed stale note will fool it. Three practical moves: (1) for facts that change (policies, contacts, prices, dates), treat the agent's memory as suspect until it has been conflict-checked against the current source; (2) expose metadata where you can — a stored fact with a date and origin is checkable, a bare "the agent said" is not; (3) for anything consequential where the stored fact and the live source disagree, resolve the conflict yourself *before* the agent acts — that is the only fix that worked at every scale. See [[Memory as Infrastructure]] for building memory that stays checkable, and [[Silent Updates]] for its sibling problem: the tool changing under you.
+
+**Source:** arXiv:2609.01852 — "The Memory Trust Gap: Capability-Dependent Failures in Persistent-Memory Agents"
+
+## The Teachable Layer: Calibration Is a Skill You Can Teach
+
+Every layer above has treated calibration as something you build into yourself or your arrangement. There's a ninth layer underneath all of them, and it's the encouraging one: **calibration can be taught — deliberately, at scale.** A September 2026 didactic paper (arXiv:2609.02453) argues that opaque AI education produces both problems at once — superficial understanding *and* miscalibrated trust — and proposes making **trust calibration an explicit educational objective**.
+
+The framework, ICE-T, names three teachable mechanisms that map onto what the calibration literature identifies as the drivers of appropriate reliance:
+
+| Teachable Move | The Mechanism It Builds | What It Looks Like |
+|---------------|------------------------|--------------------|
+| **See it, do it, say it** (Bruner's enactive → iconic → symbolic) | Representational richness — more than one way to hold the system in your head | Don't just demo the tool; let learners watch it, touch it, and explain it |
+| **Use → Modify → Create** | Graduated process control — control rises as understanding rises | First use the AI tool as-is, then change one thing about how it works, then build something with it |
+| **Trace the error, don't grade it** (explanatory thinking with a process model) | Capacity to contextualize errors — "where in the process did this go wrong?" instead of "it's wrong" | Failures become events with locations, not verdicts on the learner |
+
+**What this means for your thermostat:** if you lead people — a classroom, a team, a district — you can design for calibrated trust instead of hoping people absorb it. Onboarding that includes these three moves is calibration training, not compliance training. The study's claim is that the opacity that causes miscalibration is an *educational* failure, which means it has an educational fix: teach the machine's limits through graduated control, and teach errors as traceable events. Pair it with [[The Certification Boundary]] and [[Knowledge Debt]]: what people can explain, they can calibrate against — and what they can calibrate against, they can safely delegate.
+
+**Source:** arXiv:2609.02453 — "Addressing Trust in AI Systems through Education: A Didactic Perspective" (Haritz, Krone & Liebig)
+
 ## The Bottom Line
 
 > AI is getting better at sounding right. Your most important counter-skill is getting better at saying "I don't know." Practice it. The research shows you'll need the practice — because AI fluency makes those three words feel unnecessary right up until they're essential. And remember the third layer: calibration is personal, but *worthiness* is structural. A flawless thermostat attached to a system that hides its limits, blocks inspection, or dismisses your knowledge is still measuring a broken room.
 
 ## Related Pages
 
-[[02-Key-Concepts/Trust Calibration|Concept page]] · [[06-Glossary/Trust Calibration|Quick reference]] · [[The Just Ask ChatGPT Trap]] · [[Fear of Losing Control]] · [[Knowledge Debt]] · [[The Augmentation Trap]] · [[Delegation Thinking]] · [[Task Decomposition]] · [[Prompt as Safety Blanket]] · [[The Validator Trap]]
+[[02-Key-Concepts/Trust Calibration|Concept page]] · [[06-Glossary/Trust Calibration|Quick reference]] · [[The Just Ask ChatGPT Trap]] · [[Fear of Losing Control]] · [[Knowledge Debt]] · [[The Augmentation Trap]] · [[Delegation Thinking]] · [[Task Decomposition]] · [[Prompt as Safety Blanket]] · [[The Validator Trap]] · [[The Retrievability Gap]]
 
 ## Tags
 
