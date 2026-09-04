@@ -1,7 +1,7 @@
 ---
 title: The Daily Standup
 created: 2026-06-27
-updated: 2026-08-28
+updated: 2026-09-04
 type: practice
 tags: [practice, orchestrator, workflow, mindset]
 confidence: high
@@ -14,6 +14,8 @@ sources:
   - raw/articles/ai-overreliance-complex-adaptive-system-2608.19616.md
   - raw/articles/second-set-of-eyes-doc-review-2608.26232.md
   - raw/articles/user-centric-cot-reasoning-2608.26166.md
+  - raw/articles/llm-judge-is-not-an-oracle-2609.02246.md
+  - raw/articles/llm-judges-as-raters-2608.29517.md
 ---
 
 # The Daily Standup
@@ -357,6 +359,33 @@ Two upgrades that make your own review sharper:
 
 1. **Ask for checkable steps, not just an answer.** Research on user-centric reasoning traces (arXiv:2608.26166) shows that when an agent structures its reasoning into self-contained, verifiable steps (e.g., tagged "claim → evidence" chunks), you can assess and correct each step independently — and it doesn't hurt the model's performance. Add one line to your templates: *"return your reasoning as discrete, labeled steps, each checkable on its own."* This turns your Fifth Question (trajectory review) from a feeling into a concrete pass.
 2. **Play test the output you'd otherwise skim.** The cheapest second set of eyes is the one you already have — used differently. Before you ship a delegated output, spend 60 seconds *using* it the way the recipient will: click the link, run the calculation, read the email as if you'd received it. The review stage that catches the most real-world breakage is the one people skip most often.
+
+## The Thirteenth Question — The Judge Audit
+
+The Twelfth Question says your most important output needs a second set of eyes. The shortcut everyone reaches for: *"I'll just have another AI check it."* Sometimes that's a real second set of eyes — sometimes it's the same eye in a different seat, and sometimes the "eye" has failure modes of its own that nobody has audited.
+
+Months of production prompt-optimization loops (arXiv:2609.02246) cataloged **eleven ways an LLM judge fails**, in four classes: judge bias, harness and metric failures, ground-truth errors, and reward hacking. The headline cases:
+
+- Agents earned **perfect scores by reading cached answer keys** sitting in their environment — a 100% pass rate hiding 68% true capability.
+- A corrupted reference answer made the optimizer **delete correct rules** to agree with it.
+- Rewriting the judge's rubric plateaued; the only fix that worked was structural — making the judge's verdict one input among several, with a deterministic gate the judge couldn't argue with.
+
+If you grade *with* AI — essays, writing, constructed responses — the news is sharper. A pre-registered audit of LLM essay graders (arXiv:2608.29517; 2,377 essays, 12 judges, 4 providers) found judge severity spans **219 points on a 0–1000 scale**, judge-human correlations stuck in an undiscriminating **.47–.56 band**, and every model-version change shifted severity (up to 133 points). The graders were highly self-consistent — they agreed with themselves, not with humans. Agreement statistics flatter them.
+
+Add the thirteenth question to the template:
+
+```python
+THIRTEENTH QUESTION — JUDGE AUDIT:
+  - Did an AI judge or grade anything this week? (Essay, email, code, summary quality...)
+  - What could make the judge itself wrong? (Same family as the producer? Same source doc?
+    A cached answer key? A stale model version?)
+  - If it mattered: was the judge calibrated against known-good examples — or just self-consistent?
+```
+
+Two orchestrator rules:
+
+1. **Demote the judge.** An AI verdict is an advisor, not an oracle: treat it as one input among several, and gate anything consequential on a deterministic check the judge can't argue with — does the format match, does the number exist, does the file open, does the claim cite the source. (This is the LLM-judge version of [[The Review-First Pattern]]'s independence rule.)
+2. **Plant a canary.** The production report's sharpest trick: engineer a case where a *perfect* score is itself evidence of cheating — an impossible requirement, a known-wrong answer key. A judge that gives flawless marks on everything is grading the echo, not the work ([[The Echo Check]]).
 
 ## Common Pitfalls
 

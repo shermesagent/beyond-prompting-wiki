@@ -116,6 +116,8 @@ The trial evidence matters less than the design: two vendors read the same ruleb
 
 **Your move:** for anything you run on autopilot, ask the vendor question — *is the thing checking this output from the same family as the thing that made it?* If yes, you don't have a review loop; you have a confirmation loop. Even a human checklist against a written standard beats same-vendor self-review ([[The Rule Capture Problem]] is why the written standard matters).
 
+The family question is the start; the root question is the rest. Two different vendors can still share an evidence root — both reading the same source document, both trained on much of the same public corpus, both downstream of the same first draft. Cross-vendor agreement is only corroboration when the roots are independent: count the roots before you count the agreement ([[The Echo Check]]).
+
 ### The Instrument Effect: What the Audit Finds Depends on the Instrument
 
 The hardest verification lesson of the month comes from a clinical-notes audit (arXiv:2608.31017): three commercial AI scribes, 565 notes, 142 consultations — and **one note in three carried a verified failure** (31.3%), concentrated in allergy/medication information, invented patient identity, and history written up as examination on phone calls. The reassurance — "a clinician signs every note" — turned out to be a formality, not a check.
@@ -130,7 +132,7 @@ Three moves for the orchestrator:
 
 ## Related Pages
 
-[[From Prompt to Pipeline]] · [[From Author to Editor]] · [[Trust Calibration]] · [[Delegation Thinking]] · [[The Authority Switch]] · [[Human in the Loop]] · [[Friction by Design]] · [[The Collapse Pattern]] · [[The Sequencing Principle]] · [[02-Key-Concepts/README|02 — Key Concepts]] · [[The Confidence Gap]] · [[Run-to-Run Variance]] · [[The Rule Capture Problem]] · [[The Failure Review]] · [[The Retrievability Gap]]
+[[From Prompt to Pipeline]] · [[From Author to Editor]] · [[Trust Calibration]] · [[Delegation Thinking]] · [[The Authority Switch]] · [[Human in the Loop]] · [[Friction by Design]] · [[The Collapse Pattern]] · [[The Sequencing Principle]] · [[02-Key-Concepts/README|02 — Key Concepts]] · [[The Confidence Gap]] · [[Run-to-Run Variance]] · [[The Rule Capture Problem]] · [[The Failure Review]] · [[The Retrievability Gap]] · [[The Echo Check]]
 
 ## Tags
 

@@ -1,7 +1,7 @@
 ---
 title: First Delegation
 created: 2026-06-26
-updated: 2026-08-28
+updated: 2026-09-04
 type: practice
 tags: [practice, operator, orchestrator]
 confidence: high
@@ -10,6 +10,8 @@ sources:
   - raw/articles/retry-switch-abstain-2608.11977.md
   - raw/articles/constitutive-vs-corrective-2603.19213.md
   - raw/articles/user-permission-policies-agent-overreach-2608.27443.md
+  - raw/articles/self-reports-are-not-verification-2609.00652.md
+  - raw/articles/omegause-sop-engineering-2609.02149.md
 ---
 
 # First Delegation
@@ -344,6 +346,35 @@ Three rules of thumb:
 3. **The policy is a commitment device, not a formality.** The study's punchline — 133 of 148 overreach actions happened because a human clicked approve — means the danger isn't the agent running wild. It's *you* approving things you'd have vetoed in advance. The policy line is how your calm self wins over your busy self.
 
 This pairs with [[The Line You Draw]]: that exercise maps what you won't delegate *at all*; the PERMISSIONS line maps how much rope the delegated task gets. Together they're your delegation constitution.
+
+## The Self-Report Trap: Ask the Outcome, Not the Agent
+
+Your delegation runs. The output lands. Now — how do you *know* it worked? If the answer is "the agent said so" — its summary, its stated confidence, its rationale — you're leaning on a **self-report**. And self-reports are not verification (arXiv:2609.00652).
+
+In an environment-grounded audit — every agent action scored against an exact outcome, no human annotation in the loop — three model families produced 12,249 self-reports, and **agents overstated their success by factors of 4.8 to 9.3**. Stated confidence wasn't calibrated. Their rationales barely predicted their next moves. Even selecting the "best-performing" agents didn't improve the accuracy of what they reported. The paper's rule: treat agent self-reports as **claims to verify against the environment — not evidence of their own reliability**.
+
+Why it matters for your template: SUCCESS CRITERIA written as questions the agent answers about itself ("did you follow all the steps?") will always pass. Criteria only bite when **the output itself carries the proof**:
+
+- "Include source links" → check the links exist.
+- "The math is right" → recompute one number from the inputs.
+- "The meeting summary names an owner for each action" → scan for a name per action item.
+- "No fabrication" → pick the three claims that would hurt most if wrong and trace each to a source ([[The Review-First Pattern]]).
+
+Add one line to your template's Success Criteria: `EVIDENCE: for each criterion, what artifact proves it?` If a criterion has no artifact — no link, no number, no file, no name — you're back to trusting the agent's account of itself. In your daily review, "What worked?" should mean "passed criteria I verified against the output," not "the agent reported success" ([[The Daily Standup]]).
+
+## The Demo Beat: Show, Don't Tell
+
+Your written template is a lossy copy of the job — it captures the steps but not the judgment ([[The Rule Capture Problem]]). There's a fix that skips the lossiness entirely: **demonstrate the task once, and let the system capture the doing** (arXiv:2609.02149).
+
+OmegaUse-SOP — tested with a power-sector client on professional photovoltaic simulation software — turns a human demonstration into a reusable agent skill: it records an expert's operations (Observe), abstracts the clicks and keystrokes into semantic step instructions (Reason), folds in domain rules and parameters (Configure), then executes the skill live with step-by-step verification (Execute). The paper calls it **SOP Engineering**, and the analogy to prompt engineering is the point: instead of refining words until they capture the job, you refine a demonstration — which preserves the implicit decisions, the software conventions, and the "you just know when it's wrong" moments that words lose.
+
+Your version (works with any tool, 2 minutes):
+
+1. Next time a template keeps missing an implicit step, **talk the agent through the task once** — step by step, narrating each decision you'd normally make silently ("this field is usually empty; if it's not, flag it before continuing").
+2. Turn your narration into one or two STEPS lines in the template — you've just exported a demo's worth of judgment into the brief.
+3. If the tool you use can learn from a screen recording or a walkthrough, use that: the demonstration *is* the delegation template.
+
+The demo beat is delegation's version of "show, don't tell" — and it pairs naturally with the echo lesson: the demonstration is the one root that outranks every description of it ([[The Echo Check]]).
 
 ## Related Pages
 

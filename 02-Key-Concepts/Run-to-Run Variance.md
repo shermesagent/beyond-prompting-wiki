@@ -50,9 +50,11 @@ The point isn't that the AI is flaky and can't be trusted. The point is that **"
 
 The screening study's other finding sharpens this: LLM performance depended more on the *workflow* (file-batch vs. all-at-once) than on the model. And in the hiring-pipeline study (arXiv:2608.26171), a newer-generation model still fabricated at a 90.0% baseline rate — model progress alone didn't fix the problem. The same logic applies to variance: **don't assume a better model will make the re-run unnecessary.** The re-run is a workflow property, not a model property. Build it in.
 
+**Same voice, two samples — not two minds.** The re-run checks variance *within* one voice. When you want a genuinely different voice — a second opinion, a cross-check — the re-run isn't enough: if both voices share a model family, a source document, or a drafter, their agreement can be an echo, not corroboration. Count the roots before you count the agreement ([[The Echo Check]]).
+
 ## Related Pages
 
-[[The Review-First Pattern]] · [[The Confidence Gap]] · [[The Observability Gap]] · [[Distributed Counsel]] · [[Build a Tiny Pipeline]] · [[Trust Calibration]]
+[[The Review-First Pattern]] · [[The Confidence Gap]] · [[The Observability Gap]] · [[Distributed Counsel]] · [[Build a Tiny Pipeline]] · [[Trust Calibration]] · [[The Echo Check]]
 
 ## Tags
 
