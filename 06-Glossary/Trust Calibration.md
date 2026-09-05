@@ -49,6 +49,14 @@ Each object has a distinct adequacy test: *internal coherence* (does the account
 
 The calibrator's version: before delegating anything consequential, **write down the four objects.** One sentence each: the decision, the frame, the safety justification, and the system-in-context. If you can't produce the sentences, your trust isn't calibrated — it's assumed. Understanding is what turns trust from a feeling into a position you can defend; see [[Epistemic Transfer]] for what happens when you skip it.
 
+### Evidence Over Labels — The Reader Side of Calibration
+
+Most calibration advice targets the moment you *delegate*: how much to trust this output, where to verify. There's a second calibration moment that happens even earlier — when you *read*: an AI-assisted report, a draft, a summary someone else generated. The **Fluency Trap** (Zhang et al., arXiv:2609.03460) names the failure: now that polished prose is cheap, fluency no longer signals truth, and readers who lean on it do two bad things at once — they trust fluent hallucinations *and* discount accurate content once it's flagged AI-made. The transparency penalty cuts both ways; binary labels don't fix it.
+
+The study's fix is a calibration target you can adopt today: **evidence over labels**. "Made with AI" tags barely moved discernment, but showing the *density of verified claims* behind a text restored it decisively (+4.15 points, d = 1.82 — while readers given no signal at all showed **no detectable ability** to tell fluent truth from fluent fabrication). The sharpest twist: on live questions, retrieval alone wasn't enough — a **Consistency Veto** carried the signal. Claims that kept checking out under repeated probing were true; claims that wobbled were not.
+
+The calibrator's version: don't ask "was this AI-made?" — ask "what supports this claim, and does it survive a second probe?" Labels tell you where text came from; evidence tells you what it's worth. This is the reader-side twin of [[The Echo Check]]'s root count and [[The Retrievability Gap]]'s evidence-adjacent rule: in every direction, calibration improves when you can see the roots under the claims.
+
 ## Related Pages
 
 [[02-Key-Concepts/Trust Calibration|Full concept page]] · [[04-Barriers-and-Bridges/Trust Calibration|Barriers & Bridges version]] · [[Agent]] · [[Delegation]] · [[Oversight]] · [[Autonomy]] · [[Cognitive Surrender]] · [[Co-Construction Blindness]] · [[Delegation Regret]]

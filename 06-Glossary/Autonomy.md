@@ -55,6 +55,14 @@ The autonomy dial has a second axis most discussions miss: **time**. Autonomy as
 
 The design consequence: **every persistent agent needs a sleep switch** — a defined way to put it to sleep, who can wake it, what it may do unasked, and how you'd learn it was working. A persistent agent you can't stop isn't persistence, it's a runaway. See [[Persistence]] for the full entry and the 10-minute Sleep Contract exercise.
 
+### The Initiation Axis — Silent, Ask, Assist, or Act
+
+The autonomy dial has a third axis that most people haven't met yet: **who starts the work?** Execution freedom asks how much an agent does once asked. Persistence asks how long it keeps going without you. *Initiation* asks whether the agent acts before anyone asks at all. Proactive-service research (Tang et al., arXiv:2609.03727) maps the upstream decision: an agent infers a service opportunity from incomplete signals and chooses among four moves — **remain silent, ask, assist, or act** — while pricing four costs: interruption, misunderstanding, overreach, and privacy.
+
+Two concepts from the survey sharpen the dial for orchestrators. First, the **option value of waiting**: sometimes the best action is none — holding off until signals clarify beats a well-meaning guess. Second, the **decision value of questions**: a well-timed question can outperform an action, because asking converts a guess into information. Reliable proactivity, the authors argue, requires calibrated intervention value, verifiable authorization, recoverable execution, and counterfactual evidence — not merely long memory.
+
+The design question for you: what may your agent do *unasked*? Most teams start at "nothing" and move deliberately — silent by default, ask when the stakes are low, assist when invited, act only under explicit standing authorization with a recoverable path. An agent that initiates is an agent that can also **overreach** — the initiative-excess failure of [[Overassistance]] — so initiation rights should be granted the same way as every other autonomy increase: earned, gated, and reversible (see [[Abstention]]).
+
 ## Related Pages
 
 [[Human in the Loop]] · [[Agent]] · [[Memory]] · [[Tool Use]] · [[Oversight]] · [[Abstention]] · [[The Architect Mindset]] · [[Trust Calibration]]

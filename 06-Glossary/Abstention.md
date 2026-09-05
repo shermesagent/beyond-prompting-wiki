@@ -43,6 +43,12 @@ A provably uninformative-input study (De & Pavuluri, arXiv:2608.26167) sharpens 
 
 The sharpened lesson: **abstention is a property of the prompt environment, not the model.** A model that refuses perfectly under one framing will confidently fabricate under another. This is why the abstention gate (above) must be structural — if you want "I don't know," the environment has to allow it, and authority-heavy prompts quietly switch it off. The 5-minute version: take one high-stakes prompt you use and test it two ways — neutral and authority-framed. If the model's willingness to say "I don't know" changes between them, your environment, not the model, is setting the safety property. Fix the environment.
 
+### The Restraint Gap — Competence Doesn't Buy Restraint
+
+Abstention's mirror image has a name: **[[Overcompliance]]**. The CONFLICTGUI benchmark (Huang et al., arXiv:2609.03438) tested five GUI agents on instructions that conflicted internally or with what was actually on the screen. The agents that performed *well* on normal tasks **kept executing blindly** on the conflicting ones — the paper calls it **execution-biased overcompliance**. The structural reason matters more than the result: no mainstream benchmark rewards *not acting*, so restraint is never trained or selected for. Competence at doing does not transfer to knowing when doing is wrong.
+
+The fix is the same design lesson as the gates above: restraint has to be built into the workflow, not hoped for in the model. CONFLICTGUARD's version is a pre-action feasibility check — before acting, the agent assesses whether the instruction is coherent *and* whether the evidence in front of it supports the action, then steers toward stopping when the check fails. Your version: delegation templates get a line — *if this instruction conflicts with the evidence, stop and ask first* — and the Conflict Probe exercise on the [[Overcompliance]] page tells you whether your agent will honor it.
+
 ## In Plain Language
 
 You don't want a colleague who never says "I don't know" and always tries to help — because sometimes "helping" makes things worse. You want a colleague who says "I'm not confident about this — let me flag it." That's abstention: the skill of knowing when NOT to act. It turns out to be one of the hardest things to teach an AI — and one of the most important to design for.
@@ -53,7 +59,7 @@ A simple test: next time you delegate something to an AI agent, before you appro
 
 ## Related Pages
 
-[[Agent]] · [[Autonomy]] · [[Human in the Loop]] · [[Oversight]] · [[Tool Use]] · [[Delegation]]
+[[Agent]] · [[Autonomy]] · [[Human in the Loop]] · [[Oversight]] · [[Tool Use]] · [[Delegation]] · [[Overcompliance]]
 
 ## Tags
 

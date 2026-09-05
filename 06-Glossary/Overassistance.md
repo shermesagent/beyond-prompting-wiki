@@ -20,6 +20,10 @@ Overassistance is the hidden tax on every AI interaction. Every time the AI prod
 
 The countermeasure is the PEA Governance Layer, named from research published simultaneously (arXiv, July 2026). PEA stands for Preserve, Empower, Augment — a framework for deciding when AI should preserve human effort (let you struggle), empower you (give you a hint), or augment you (do it for you). The governance layer means you make this decision **explicitly**, before the AI gets a chance to default to augmentation every time.
 
+### The Other Direction — Overcompliance
+
+Overassistance is one direction of a restraint failure; **[[Overcompliance]]** is the mirror image. An overassisting agent does *more* than you asked — initiative excess. An overcompliant agent does *exactly* what you asked, even when the request is impossible, self-contradictory, or conflicts with the evidence in front of it — obedience excess. One gives you too much of the agent; the other gives you too much of your own instructions back. Overassistance needs you to constrain the agent's initiative; overcompliance needs the agent to question yours.
+
 ## In Plain Language
 
 Imagine you're teaching a teenager to cook. If you stand behind them and grab the knife every time they hesitate, they'll never learn knife skills. You're not being mean — you're making sure dinner gets made. But six months later, they still can't chop an onion.
@@ -32,7 +36,7 @@ The orchestrator's skill isn't using AI more. It's using AI *less often but more
 
 ## Related Pages
 
-[[Agent]] · [[Delegation]] · [[Autonomy]] · [[Oversight]] · [[Cognitive Surrender]] · [[Trust Calibration]] · [[The Overassistance Pattern]] · [[The Preservation Principle]]
+[[Agent]] · [[Delegation]] · [[Autonomy]] · [[Oversight]] · [[Cognitive Surrender]] · [[Trust Calibration]] · [[The Overassistance Pattern]] · [[The Preservation Principle]] · [[Overcompliance]]
 
 ## Tags
 

@@ -71,9 +71,15 @@ Most users hold **data + interaction** only. The gap between the layers you hold
 
 The practical findings sharpen the tradeoff: complete logs improve diagnosis; a pre-execution gateway enables intervention; trace access plus model-version control strengthen post-incident explanation. And the sharpest result: **restricting scope can improve safety even while it reduces usefulness** — sovereignty isn't only about getting more access; it's about choosing what you genuinely need to reach. See [[Bounded Sovereignty]] for the full entry. The oversight rule: **state your access assumptions before you promise oversight** — if you hold only data and interaction, say so, and design the checkpoints for the layers you actually have.
 
+### Name the Threshold Before the Incident
+
+Oversight's weakest moment is the one everyone prepares for least: the moment something looks *kind of off* and you have to decide, in real time, whether it's a problem. In that moment, without a pre-committed standard, you will rationalize. The fix comes from an unexpected place — a national-security framework for monitoring AI risk (Bauer et al., arXiv:2609.03189, with Yoshua Bengio among the authors): before you can monitor anything, you define **metrics, indicators, and thresholds** across the dimensions that matter — cybersecurity-style — so that "is this a problem?" becomes "has it crossed the threshold we named?" instead of a vibes question asked mid-incident.
+
+The orchestrator's version is the **pre-committed threshold sheet**. For each recurring delegation, write down (1) the *indicator* you'd watch (error rate, missed escalations, output that contradicts the source), (2) the *threshold* that triggers action ("more than one missed escalation in a week", "any cited source that doesn't exist"), and (3) the *action* you'll take when crossed (pause the workflow, review the last N runs, drop the agent back to supervised). Write it while calm; enforce it while busy. Monitoring without thresholds is watching; oversight with thresholds is a system that knows what it's looking for — and an [[Overcompliance|overcompliant agent]] that never surfaces its own conflicts is exactly the kind of risk a threshold sheet exists to catch.
+
 ## Related Pages
 
-[[Human in the Loop]] · [[Autonomy]] · [[Orchestration]] · [[Delegation]] · [[Trust Calibration]] · [[Agent]] · [[Overassistance]] · [[Capacity Dissolution]]
+[[Human in the Loop]] · [[Autonomy]] · [[Orchestration]] · [[Delegation]] · [[Trust Calibration]] · [[Agent]] · [[Overassistance]] · [[Capacity Dissolution]] · [[Overcompliance]]
 
 ## Tags
 
