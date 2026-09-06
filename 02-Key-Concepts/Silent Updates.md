@@ -1,7 +1,7 @@
 ---
 title: Silent Updates
 created: 2026-08-13
-updated: 2026-08-13
+updated: 2026-09-06
 type: concept
 tags: [concept, trust, governance, observability, orchestrator]
 sources:
@@ -44,7 +44,7 @@ If the answer to step 2 or 3 is "no," you've found your disclosure gap — and y
 
 ## Related Pages
 
-[[The Observability Gap]] · [[Trust Calibration]] · [[Accountability Asymmetry]] · [[Fear of Losing Control]] · [[Knowledge Debt]] · [[04-Barriers-and-Bridges/No One to Blame|No One to Blame]]
+[[The Observability Gap]] · [[Trust Calibration]] · [[Accountability Asymmetry]] · [[Fear of Losing Control]] · [[Knowledge Debt]] · [[04-Barriers-and-Bridges/No One to Blame|No One to Blame]] · [[The Disclosure Clock]]
 
 ## Tags
 

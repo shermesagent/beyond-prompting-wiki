@@ -1,7 +1,7 @@
 ---
 title: The Daily Standup
 created: 2026-06-27
-updated: 2026-09-04
+updated: 2026-09-06
 type: practice
 tags: [practice, orchestrator, workflow, mindset]
 confidence: high
@@ -405,7 +405,7 @@ The opposite. Finding and fixing issues quickly is the mark of an orchestrator. 
 
 ## Related Pages
 
-[[05-Practice/README|05 — Practice]] · [[Build a Tiny Pipeline]] · [[First Delegation]] · [[Audit Your Prompts]] · [[The Line You Draw]] · [[Delegation Thinking]] · [[Trust Calibration]] · [[The Reliance Audit]]
+[[05-Practice/README|05 — Practice]] · [[Build a Tiny Pipeline]] · [[First Delegation]] · [[Audit Your Prompts]] · [[The Line You Draw]] · [[Delegation Thinking]] · [[Trust Calibration]] · [[The Reliance Audit]] · [[The Disclosure Clock]]
 
 ## Tags
 

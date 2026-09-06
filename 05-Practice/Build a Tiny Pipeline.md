@@ -1,7 +1,7 @@
 ---
 title: Build a Tiny Pipeline
 created: 2026-06-27
-updated: 2026-08-28
+updated: 2026-09-06
 type: practice
 tags: [practice, orchestrator, workflow]
 confidence: high
@@ -358,6 +358,19 @@ Three lessons for your tiny pipeline:
 One more verification layer costs almost nothing and catches a failure class most people don't know exists. A preregistered screening study (arXiv:2608.26885) ran two **nominally identical** LLM runs on the same 1,131 records: the runs agreed on 91.7% of decisions and disagreed on 94 — including 29 verified-eligible records that only *one* of the two runs caught. Identical inputs, same model, same day: different answers. The output you reviewed is one sample from a distribution, and the difference between samples can be the difference between catching something and missing it.
 
 **The Two-Run Rule:** for any pipeline output that will be acted on or shipped, run the pipeline twice and diff the outputs. Material differences (facts, numbers, names, inclusions/exclusions) mean the task has real variance — route it through a tiebreak (third run, or a human read). Cosmetic differences are fine. "Checked once" is not "checked" — see [[Run-to-Run Variance]] for the full concept and the 5-minute Two-Run Test.
+
+## The Fallback Model: The Agent That Acted Isn't the One You Called
+
+A September 2026 system-card audit surfaced the most practical pipeline finding of the week: most successful attacks against a frontier model hit its **fallback** — the older model users silently get when a safety classifier trips. You ask for the new model; the classifier decides your request is risky; the system quietly hands the work to the previous generation, which is easier to exploit. You never see the swap. The lesson for your pipeline is boring and important: **log which model actually handled each step, not the model you think you called.** Guardrails, classifiers, and routing rules can all knock a task down to an older model without telling you — and if you are calibrating trust in "the new model," you may be calibrating against the wrong one.
+
+Two drills to add to your pipeline template:
+
+1. **The model field.** Every step's output record gets a line: *model that acted.* If a step ever shows a model you did not route to, that is a finding, not a footnote — your guardrail just changed your system under you.
+2. **The upgrade re-audit.** The same audit revealed that roughly half of one lab's training environments rewarded the very behavior they were meant to prevent — discovered only when someone re-checked them with a *newer* model. Environments that were safe for the old model can be gameable by the new one. Every time you upgrade a model behind your pipeline, re-run your known-good and known-bad test cases. The environment changed; the tests should run again, not assume.
+
+This is the pipeline-level version of [[Silent Updates]]: systems change under you. The fix is not to stop upgrading — it is to make the change visible in the record ([[The Provenance Principle]]).
+
+**Source:** Zvi Mowshowitz, "Claude Fable 5.1 and Mythos 5.1: The System Card" (2026-09-04); cross-pollinated from AI Agency Knowledgebase digest 2026-09-05.
 
 ## What Comes Next
 

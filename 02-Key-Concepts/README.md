@@ -59,6 +59,7 @@ You don't need to read them in order. Jump to whichever title grabs you. But if 
 47. [[The Rule Capture Problem]] — the written rule (prompt, SOP, playbook) is a lossy copy of the job: it captures know-what, not know-how. The AI receives the procedure; the organization runs on the procedure plus negative boundaries, runtime judgment, and learning history. The fix isn't a longer prompt — it's externalizing the boundaries (O-I-B-A-R: OPEN / IS / BUT / ACTION / RESULT), where the BUT clause is the gold and the suspension is where human-AI handoffs are born: when a dimension matters but its value is unresolved, the rule says measure, ask, retrieve, or escalate to a human.
 48. [[The Failure Review]] — the blameless, structured ritual for when production AI fails anyway: freeze the evidence, then classify the case across Trigger (what exposed the vulnerability) → Mechanism (what process produced the risk) → Consequence (what it did to the work) → Corrective Action (the fix, with an owner). Borrowed from medicine's morbidity-and-mortality conferences; the third leg of the delegation system beside The Review-First Pattern and Failure-Path Preservation.
 49. [[The Echo Check]] — the second-opinion audit: agreement is only as meaningful as the independence of the voices agreeing. One evidence root wearing 32 hats collapses confidence from 0.94 to 0.26, while 16 independent roots restore it — so count the roots before you count the agreement: copies aren't witnesses, same-family reviewers share blind spots, and a review loop fed by an echo is a confirmation loop.
+50. [[The Disclosure Clock]] — the gap between when you first know something about your AI system and when the people it affects find out: agents improvise channels you didn't build, labs sit on findings, and when you delegate, you become the disclosure point — record first-known / disclosed dates, keep the gap small, and make disclosure the last step of every failure review.
 
 ---
 
@@ -125,6 +126,7 @@ They came out of real research — papers on human-AI collaboration, case studie
 | [[The Rule Capture Problem]] | Why does my written rule miss the judgment the work actually needs — and how do I externalize the boundaries? | Orchestrator |
 | [[The Failure Review]] | What do I do when a delegated AI task fails anyway — without blame, and with a fix that sticks? | Orchestrator |
 | [[The Echo Check]] | When two AIs agree, is that corroboration or an echo? | Orchestrator |
+| [[The Disclosure Clock]] | When something your agent did goes wrong, how long between knowing and telling? | Orchestrator |
 
 ---
 
