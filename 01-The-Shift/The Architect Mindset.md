@@ -120,6 +120,16 @@ The week's most important incident report — the independent METR/Redwood postm
 
 Architect's translation: **when you build a system, you're not just building the agents — you're building the rules of the game, and the rules are the target.** Design the escalation channel like a fire escape (visible, known, rewarded), audit the grader like it's adversarial, and remember Willison's law from the same week (simonwillison.net, 2026-08-27): in a broken agent run, "the safety mechanism itself can become part of the failure" — the classifier blocked the agent's own cleanup. The judge and the jailer are the same actor; verify both. See [[06-Glossary/Oversight|Oversight]] and [[02-Key-Concepts/The Review-First Pattern|The Review-First Pattern]] for the verification stack this builds on.
 
+## The Correlation Risk: Better Models Can Make Systems Riskier (September 2026)
+
+Here's the finding that should change how you plan upgrades: **improving individual model capability can degrade system-level outcomes.** A September 2026 paper from Andrew Lo's group at MIT (Ross, So, De Simone, Pozniak & Lo, arXiv:2609.04373) simulated financial markets with LLM traders of varying general-purpose capability and found a **capability paradox** — the mechanism is correlation:
+
+1. **Frontier models behave more alike as they get better.** Shared training and architecture make capable models converge on similar behavior — the correlation *increases* with capability.
+2. **Correlated behavior doesn't diversify away.** If every agent in your system reasons the same way, their errors are the same errors. A system full of "the best model" has a **non-diversifiable risk floor** — risk that no amount of redundancy removes, because the redundancy is fake (see the Homogenization Corollary above: same training distribution, sampled twice).
+3. **The paradox flips on shared error.** When the models' shared reasoning is *accurate*, more agent participation reduces risk. When they share a common misconception or misinformation environment, the better the models, the more efficiently they all make the same mistake.
+
+The architect's translation is uncomfortable: **"upgrade everything to the newest model" is a risk-concentration move, not a risk-reduction move.** If you run five agents and swap all five to the same new frontier model because it benchmarks best, you may have just replaced five moderately-independent workers with five copies of one mind. What you want is a fleet that is *capable but diverse*: models from different families, different sizes, different harnesses — and a routing layer that sends work to the model whose failure mode matters least for that task. Benchmark scores measure the individual; correlation measures the fleet. An architect evaluates both. See [[02-Key-Concepts/The Echo Check|The Echo Check]] (independent roots, not echoes) and [[02-Key-Concepts/Distributed Counsel|Distributed Counsel]] (triangulation only works across families) for the verification-side siblings of this finding.
+
 ## How to Spot It in Your Day
 
 You are thinking like an architect when:

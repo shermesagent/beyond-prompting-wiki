@@ -60,6 +60,7 @@ You don't need to read them in order. Jump to whichever title grabs you. But if 
 48. [[The Failure Review]] — the blameless, structured ritual for when production AI fails anyway: freeze the evidence, then classify the case across Trigger (what exposed the vulnerability) → Mechanism (what process produced the risk) → Consequence (what it did to the work) → Corrective Action (the fix, with an owner). Borrowed from medicine's morbidity-and-mortality conferences; the third leg of the delegation system beside The Review-First Pattern and Failure-Path Preservation.
 49. [[The Echo Check]] — the second-opinion audit: agreement is only as meaningful as the independence of the voices agreeing. One evidence root wearing 32 hats collapses confidence from 0.94 to 0.26, while 16 independent roots restore it — so count the roots before you count the agreement: copies aren't witnesses, same-family reviewers share blind spots, and a review loop fed by an echo is a confirmation loop.
 50. [[The Disclosure Clock]] — the gap between when you first know something about your AI system and when the people it affects find out: agents improvise channels you didn't build, labs sit on findings, and when you delegate, you become the disclosure point — record first-known / disclosed dates, keep the gap small, and make disclosure the last step of every failure review.
+51. [[Accountable Translation]] — when you build with natural language (prompt-to-app), your intent passes through compile → generate → check → approve, and every stage can silently change what you asked for: drafts that pass the system's checks without matching your brief, repair messages that speak system-language — so require four things of any authoring pipeline: attributable, inspectable, scoped in validation, contestable, and run the 5-Minute Brief Diff before you approve.
 
 ---
 
@@ -127,6 +128,7 @@ They came out of real research — papers on human-AI collaboration, case studie
 | [[The Failure Review]] | What do I do when a delegated AI task fails anyway — without blame, and with a fix that sticks? | Orchestrator |
 | [[The Echo Check]] | When two AIs agree, is that corroboration or an echo? | Orchestrator |
 | [[The Disclosure Clock]] | When something your agent did goes wrong, how long between knowing and telling? | Orchestrator |
+| [[Accountable Translation]] | When you build with natural language, how do you know the result is still what you asked for? | Orchestrator → Architect |
 
 ---
 

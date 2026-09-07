@@ -78,6 +78,16 @@ Two studies this week land on the same answer to "does the shift just mean the m
 
 For the shift, this is the payoff of the whole arc: the leverage curve at the top of this page is real (21x throughput, 0.2% bots — see The Shift, Now Measured at Team Scale), and what it buys you is not a world where judgment is obsolete but one where judgment is the scarce input. The people who move beyond prompting aren't the ones who let the machine decide — they're the ones who use it to reach further, then exercise the judgment the machine can't. That's the definition of the ceiling, and it's why the shift is worth making. See [[The SCAN Test]] and [[02-Key-Concepts/The Review-First Pattern|The Review-First Pattern]] for the mechanics.
 
+## The Course Is the Lever: Better AI Can Widen the Gap (September 2026)
+
+There's an economics paper every leader should read before buying better models (Davies, arXiv:2607.18735). It models a student who can either **work** a task (costly effort, builds skill) or **delegate** it to AI (no effort, no skill) — and a teacher who designs the task sequence to maximize learning. Three findings, in order of importance:
+
+- **Delegation builds no skill — that's the model, not a bug.** Work requires effort and builds capability; delegation requires nothing and builds nothing. The student who delegates every task learns nothing, even when the AI is excellent.
+- **Better AI widens the gap between the skilled and the unskilled — unless the course is redesigned.** When AI *complements* effort, improvements in AI quality make high-skill students learn *faster* while low-skill students learn *slower*. The tool that should equalize can quietly become an accelerant for people who already know how to work with it.
+- **The teacher's lever is the task sequence.** With AI in the room, the teacher must redesign early tasks to *induce effort* — because students will delegate anything that can be delegated. Skill development only survives when the course deliberately keeps some work effortful.
+
+Now translate "student" to "professional" and "course" to "workflow," and you have the shift's economic case in one paragraph: **AI raises the floor, but the course decides who reaches the ceiling — and the course is the part you design.** The operator who delegates everything is the myopic student in the model: short-term output, no compounding skill. The orchestrator is the redesigned course: workflows that keep the effortful, skill-building parts human while the machine does what it's for. This is why the shift isn't about access to better tools — it's about who is deliberately designing the work. See [[The Operator Mindset]] (the effort is the asset), [[02-Key-Concepts/The Absorption Pattern|The Absorption Pattern]], and [[02-Key-Concepts/Scaffold, Don't Substitute|Scaffold, Don't Substitute]] for the mechanism, and [[The School District Shift]] for what the redesign looks like in a classroom.
+
 ## How to Spot It in Your Day
 
 You know this matters to you when:

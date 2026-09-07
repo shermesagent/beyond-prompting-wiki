@@ -414,7 +414,7 @@ The uncomfortable implication for assessment: if students co-construct with AI, 
 
 ## Related Pages
 
-[[From Prompt to Pipeline]] · [[Task Decomposition]] · [[Delegation Thinking]] · [[Trust Calibration]] · [[Human in the Loop]] · [[Doom Researching]] · [[The Capability Ladder]] · [[Scaffold, Don't Substitute]] · [[From Author to Editor]] · [[The Warm Expert]] · [[03-Real-World/README|03 — Real World Stories]]
+[[From Prompt to Pipeline]] · [[Task Decomposition]] · [[Delegation Thinking]] · [[Trust Calibration]] · [[Human in the Loop]] · [[Doom Researching]] · [[The Capability Ladder]] · [[Scaffold, Don't Substitute]] · [[From Author to Editor]] · [[The Warm Expert]] · [[02-Key-Concepts/Accountable Translation|Accountable Translation]] · [[03-Real-World/README|03 — Real World Stories]]
 
 ## Tags
 

@@ -67,7 +67,7 @@ Two lessons for the orchestrator:
 
 ## Related Pages
 
-[[Co-Construction Blindness]] · [[Knowledge Debt]] · [[Intent Scaffolding]] · [[Friction by Design]] · [[The Review-First Pattern]] · [[Risk Cascades]] · [[Trust Calibration]] · [[The Rule Capture Problem]]
+[[Co-Construction Blindness]] · [[Knowledge Debt]] · [[Intent Scaffolding]] · [[Friction by Design]] · [[The Review-First Pattern]] · [[Risk Cascades]] · [[Trust Calibration]] · [[The Rule Capture Problem]] · [[Accountable Translation]]
 
 ## Tags
 

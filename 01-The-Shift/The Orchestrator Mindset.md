@@ -190,6 +190,17 @@ The practical version is a three-line habit before you accept any delegated work
 
 That last question is the orchestrator's definition of completion: **done means the result is stable and the environment is clean** — nothing pending can flip it, and nothing from before shaped it. The machine never tells you this. You decide it, in advance, before you delegate. See also [[The SCAN Test]] for deciding *how* to delegate in the first place.
 
+## The Comparison Question: When the Instruments Disagree (September 2026)
+
+In the first week of September 2026, two labs shipped "the world's most powerful model" within ~48 hours of each other — Anthropic's Claude Fable 5.1 / Mythos 5.1 and OpenAI's GPT-6 Astra. Zvi Mowshowitz opened his capabilities review with the moment's absurdity: "No wait, this just in, we also have someone else introducing the world's most powerful model." Then came the finding every orchestrator needs: **the evaluation instruments disagreed with each other more than the models did.** Anthropic's own ECI put Fable 5.1 at 162.0; Epoch's independent ECI put Astra at 169 vs. Fable's 163. Artificial Analysis first scored Astra a "strangely low" 61, then retroactively re-ran its methodology to produce Fable 57 / Astra 55. Vals' composite had Fable 5.1 ahead. FrontierMath Erdos had Astra solving 2 of 68 problems — the only model ever — and dominating Tier 4 at 97.6% vs. Fable's 87.8%. Same two models, six instruments, no consensus.
+
+The orchestrator translation is a habit, not a headline: **when the instruments disagree, no single score can substitute for your own task-level test.** Zvi's practice is the playbook: "My plan is to 'dual wield' and ask both all non-trivial queries." Run the *actual* task on two models from different families, compare the outputs, and price the difference in tokens and friction rather than index points. Where the two models agree, confidence rises; where they disagree, you've found the part of the task that needs a human (this is [[02-Key-Concepts/Distributed Counsel|Distributed Counsel]] applied at the model-selection layer, and it only works across families — see the Correlation Risk finding in [[The Architect Mindset]]).
+
+Two practical notes from the same week:
+
+- **Over-proactivity is now a measurable defect — even at the frontier.** Fable 5.1's FrontierCode scores got *worse* at higher effort levels because the model "is unable to stop itself from making additional helpful edits," and users described it as "RL-fried: bro just loves taking proactive actions for the sake of it, whether useful or not." Your delegation brief needs a *scope of helpfulness*: tell the agent what "done" means and that unsolicited extras are not part of the contract. (This is the Completion Question's live demonstration — the machine doesn't know when to stop, even when it's excellent.)
+- **Adoption is gated by friction, not capability.** Fable 5 never exceeded ~11% of Anthropic's enterprise spend despite being "the clearly best model" — because of classifier blast radius and a 30-day data-retention requirement. Anthropic responded by cutting cache-read prices 75%, offering zero-outside-retention, and reducing false positives 60%+. Lesson: if a tool your team needs is enclosed, the enclosure is often a *product decision* the vendor can reverse — ask for the fence to lower before you conclude the tool "isn't for us."
+
 ## How to Spot It in Your Day
 
 You are orchestrating when:

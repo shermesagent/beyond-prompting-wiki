@@ -386,7 +386,7 @@ The first time you come back to a completed draft you didn't micromanage, someth
 
 ## Related Pages
 
-[[The School District Shift]] · [[Task Decomposition]] · [[Delegation Thinking]] · [[Trust Calibration]] · [[From Author to Editor]] · [[Doom Researching]] · [[Memory as Infrastructure]] · [[Intent Scaffolding]] · [[The Observability Gap]] · [[03-Real-World/README|03 — Real World Stories]]
+[[The School District Shift]] · [[Task Decomposition]] · [[Delegation Thinking]] · [[Trust Calibration]] · [[From Author to Editor]] · [[Doom Researching]] · [[Memory as Infrastructure]] · [[Intent Scaffolding]] · [[The Observability Gap]] · [[02-Key-Concepts/Accountable Translation|Accountable Translation]] · [[03-Real-World/README|03 — Real World Stories]]
 
 ## Tags
 
