@@ -98,7 +98,7 @@ The standard from the section above survives, now with a check: *is this writing
 
 ## Related Pages
 
-[[The Validator Trap]] · [[The Absorption Pattern]] · [[Co-Construction Blindness]] · [[The Augmentation Trap]] · [[02-Key-Concepts/The Provenance Principle|The Provenance Principle]] · [[Trust Calibration]]
+[[The Validator Trap]] · [[The Absorption Pattern]] · [[Co-Construction Blindness]] · [[The Augmentation Trap]] · [[02-Key-Concepts/The Provenance Principle|The Provenance Principle]] · [[Trust Calibration]] · [[02-Key-Concepts/Interpretive Appearance|Interpretive Appearance]]
 
 ## Tags
 

@@ -65,6 +65,7 @@ Then adopt the calibration rule: **any answer rated ≥ 8/10 gets verified first
 - [[The Vibe Compiler]] — stopping the machine from filling your gaps with confident guesses
 - [[The Illusion of Mastery]] — the human-side Confidence Gap, in the mirror
 - [[Cognitive Surrender]] — what happens when you stop checking entirely
+- [[02-Key-Concepts/Interpretive Appearance|Interpretive Appearance]] — when surface polish and structured prose masquerade as established truth
 
 ## Tags
 

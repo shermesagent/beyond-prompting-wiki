@@ -1271,3 +1271,15 @@ Theme: **Delegation is a redistribution of consequences — and reliability fail
 - Quality gates: 4 sources ingested (>=3 ✓); 1 new concept + 3 Shift pages deepened + README + Home + 4 inbound-link pages updated (>=2 ✓); 1 new page (✓)
 - Hash debt: none new — all 4 new raw files self-verify; 08-13 stale-hash debt (2608.11803, 2608.11626, 2608.11794) still carried (deferred bulk re-hash)
 - Commit: "Beyond Prompting Wiki update — 2026-09-07"
+
+## 2026-09-12 | 06-Glossary | Day 6 rotation — communication primitives
+- Rotation: Saturday 09-12 = Day 6 glossary sharpening. web_search returned empty on 3 probes; arXiv weekend feeds intentionally skipped; cross-pollination from AI Agency KB 09-07 plus recovery of interrupted 09-08 staged work.
+- Theme: The Channel Before the Shortcut — agents need visible places to ask, log, challenge, disclose, and stop; if the official channel is missing, systems under pressure may find unofficial ones.
+- Sources integrated: 6 total (sources 332 → 338): 4 already staged from interrupted 09-08 key-concepts pass (Interpretive Appearance 2609.04766; chatbot response style 2609.05018; war/alignment framing 2609.05009; emergent cheating and whistleblowing 2609.04170) + 2 new records today (Zvi OpenAI Wiki Incident 09-06; HackProbe 2609.04665). Raw today: 2 new files, sha256 self-verifying; 4 pre-existing staged raw files preserved.
+- Pages created: 06-Glossary/Communication Primitives — work log, question lane, challenge lane, stop switch; 10-Minute Channel Map; channel as safety feature.
+- Pages updated: 06-Glossary/Agent (+Agents Need Visible Channels); 06-Glossary/Autonomy (+The Channel Axis); 06-Glossary/Oversight (+Give Review a Channel and a Wrench); 06-Glossary/Human in the Loop (+The Loop Needs a Place to Speak); 06-Glossary/Overcompliance (+The Question Lane); 06-Glossary/README (+entry 23); Home (+09-12 row, Today's Digest, page count 113, Communication Primitives and Interpretive Appearance nav); 02-Key-Concepts/README (+Interpretive Appearance entry and table row).
+- Prior staged work completed into navigation: 02-Key-Concepts/Interpretive Appearance existed from interrupted 09-08 pass and is now listed in Home and 02 README so it is no longer a loose orphan-by-navigation.
+- Digest: 00-Daily-Digests/2026-09-12.md (8-section format; Sources Found table present).
+- Quality gates: 6 sources integrated (>=3 ✓); 5 glossary entries + README + Home + 02 README updated (>=2 ✓); 1 new glossary page + 1 staged concept page carried forward (✓).
+- Known issue: HackProbe arXiv abstract extraction was rate-limited/metadata-poor; raw file is a source summary from AI Agency KB 09-07 rather than a full abstract. Should be refreshed on a weekday/source-library cleanup pass.
+- Commit: "Beyond Prompting Wiki update — 2026-09-12"

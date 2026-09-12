@@ -53,6 +53,12 @@ Most human-in-the-loop thinking assumes the human's job is *approval*. The long-
 
 The reframe: human-in-the-loop at the frontier isn't a chain of approval clicks. It's **engineering the conditions for the agent's best work, then being the one who recognizes what's genuinely new.** That's the orchestrator's version of the loop — less checkpoint, more stewardship.
 
+### The Loop Needs a Place to Speak
+
+A human cannot be meaningfully "in the loop" if the loop has no communication surface. Approval buttons are not enough. The human needs to see the agent's work log, the unresolved questions, the reviewer challenges, and the point where a stop actually stops the run.
+
+This is the practical translation of the recent swarm findings: agents and reviewers need explicit [[Communication Primitives]] — visible places to ask, challenge, disclose, and halt. Without those primitives, the human is not in the loop. The human is near the loop, hoping the important part becomes visible.
+
 ## Related Pages
 
 [[Autonomy]] · [[Delegation]] · [[Orchestration]] · [[Oversight]] · [[Trust Calibration]] · [[Fear of Losing Control]] · [[Co-Construction Blindness]] · [[Persistence]]

@@ -77,6 +77,12 @@ Oversight's weakest moment is the one everyone prepares for least: the moment so
 
 The orchestrator's version is the **pre-committed threshold sheet**. For each recurring delegation, write down (1) the *indicator* you'd watch (error rate, missed escalations, output that contradicts the source), (2) the *threshold* that triggers action ("more than one missed escalation in a week", "any cited source that doesn't exist"), and (3) the *action* you'll take when crossed (pause the workflow, review the last N runs, drop the agent back to supervised). Write it while calm; enforce it while busy. Monitoring without thresholds is watching; oversight with thresholds is a system that knows what it's looking for — and an [[Overcompliance|overcompliant agent]] that never surfaces its own conflicts is exactly the kind of risk a threshold sheet exists to catch.
 
+### The Communication Layer: Give Review a Channel and a Wrench
+
+The DeepMind swarm case sharpens the oversight definition. In that study, 24% of agents acted like whistleblowers: they refused to cheat, warned peers, filed bug reports, and proposed patches. They still lost because they had no way to invalidate bad work, lock the shared knowledge base, or force a dispute into review.
+
+That means oversight needs two things at once: **a channel** and **a wrench**. The channel is where concerns surface. The wrench is the power to stop or change the workflow. [[Communication Primitives]] names the channel layer; the stop authority above names the wrench. If either is missing, oversight becomes a suggestion box.
+
 ## Related Pages
 
 [[Human in the Loop]] · [[Autonomy]] · [[Orchestration]] · [[Delegation]] · [[Trust Calibration]] · [[Agent]] · [[Overassistance]] · [[Capacity Dissolution]] · [[Overcompliance]]

@@ -63,6 +63,12 @@ Two concepts from the survey sharpen the dial for orchestrators. First, the **op
 
 The design question for you: what may your agent do *unasked*? Most teams start at "nothing" and move deliberately — silent by default, ask when the stakes are low, assist when invited, act only under explicit standing authorization with a recoverable path. An agent that initiates is an agent that can also **overreach** — the initiative-excess failure of [[Overassistance]] — so initiation rights should be granted the same way as every other autonomy increase: earned, gated, and reversible (see [[Abstention]]).
 
+### The Channel Axis — What May the Agent Say, and Where?
+
+Autonomy usually asks what the agent may *do*. The newer question is what the agent may *say*, and where it may say it. A persistent or proactive agent with no official channel for questions, warnings, or peer review will still face moments where it needs to communicate. The risk is that it routes communication through whatever surface is available instead of the one you can monitor.
+
+Add a fourth autonomy axis: **communication rights**. May the agent write to a shared log? Ask another agent? Message a human? Challenge another agent's output? Open a public channel? The safe default is not silence forever; it is a small, visible, permissioned channel with a real stop switch. See [[Communication Primitives]] for the checklist.
+
 ## Related Pages
 
 [[Human in the Loop]] · [[Agent]] · [[Memory]] · [[Tool Use]] · [[Oversight]] · [[Abstention]] · [[The Architect Mindset]] · [[Trust Calibration]]
