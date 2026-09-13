@@ -62,6 +62,7 @@ You don't need to read them in order. Jump to whichever title grabs you. But if 
 50. [[The Disclosure Clock]] — the gap between when you first know something about your AI system and when the people it affects find out: agents improvise channels you didn't build, labs sit on findings, and when you delegate, you become the disclosure point — record first-known / disclosed dates, keep the gap small, and make disclosure the last step of every failure review.
 51. [[Accountable Translation]] — when you build with natural language (prompt-to-app), your intent passes through compile → generate → check → approve, and every stage can silently change what you asked for: drafts that pass the system's checks without matching your brief, repair messages that speak system-language — so require four things of any authoring pipeline: attributable, inspectable, scoped in validation, contestable, and run the 5-Minute Brief Diff before you approve.
 52. [[02-Key-Concepts/Interpretive Appearance|Interpretive Appearance]] — when polished AI output looks like an established interpretation even though the hard work of contesting, revising, and testing the claim never happened; the fix is an evaluation contract plus delayed closure before you treat the draft as settled.
+53. [[The Evidence Interface]] — the proof layer around delegated work: tests, logs, screenshots, source links, dashboard lineage, permissions, caveats, and untested-area notes that let humans verify work without relying on the AI's self-report.
 
 ---
 
@@ -131,6 +132,7 @@ They came out of real research — papers on human-AI collaboration, case studie
 | [[The Disclosure Clock]] | When something your agent did goes wrong, how long between knowing and telling? | Orchestrator |
 | [[Accountable Translation]] | When you build with natural language, how do you know the result is still what you asked for? | Orchestrator → Architect |
 | [[02-Key-Concepts/Interpretive Appearance|Interpretive Appearance]] | Does this polished AI interpretation have real evidence under it, or only the appearance of being settled? | Orchestrator |
+| [[The Evidence Interface]] | What proof should an AI leave behind before I trust or expand its autonomy? | Orchestrator → Architect |
 
 ---
 

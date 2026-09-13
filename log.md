@@ -1283,3 +1283,13 @@ Theme: **Delegation is a redistribution of consequences — and reliability fail
 - Quality gates: 6 sources integrated (>=3 ✓); 5 glossary entries + README + Home + 02 README updated (>=2 ✓); 1 new glossary page + 1 staged concept page carried forward (✓).
 - Known issue: HackProbe arXiv abstract extraction was rate-limited/metadata-poor; raw file is a source summary from AI Agency KB 09-07 rather than a full abstract. Should be refreshed on a weekday/source-library cleanup pass.
 - Commit: "Beyond Prompting Wiki update — 2026-09-12"
+## 2026-09-13 | Day 7 cross-section | Evidence interface synthesis
+- Rotation: Sunday 09-13 = Day 7 cross-section linking/lint. web_search returned empty on 2 probes; Sunday arXiv intentionally skipped per weekend rule; cross-pollination from AI Agency Knowledgebase 09-12 digest.
+- Theme: The Evidence Interface — when AI gets too capable to watch directly, require proof outside the model's self-report: tests, logs, screenshots, source links, dashboard lineage, permissions, caveats, and untested-area notes.
+- Sources integrated: 5 (sources 338 → 343): Zvi "Astra Is Hard to Monitor"; WIRED Strogatz math interview; OpenAI Devin/Astra testing case study; OpenAI Data agent announcement; WIRED Claude misuse roundup. All raw files created with sha256 frontmatter.
+- Pages created: 02-Key-Concepts/The Evidence Interface — proof layer around delegated work; 5-Minute Evidence Interface Audit; rule: no evidence, no autonomy.
+- Pages updated: The Review-First Pattern (+Ask for Artifacts, Not Reassurance); Trust Calibration (+Evidence Layer: reasoning trace is not enough); Build a Tiny Pipeline (+Evidence Interface line in template); The Daily Standup (+Fourteenth Question); 05-Practice/README (+Evidence Interface Audit); 02-Key-Concepts/README and Home navigation updated.
+- Digest: 00-Daily-Digests/2026-09-13.md (8-section format; Sources Found table present).
+- Quality gates: 5 sources integrated (>=3 ✓); 4 existing pages deepened + README/Home navigation (>=2 ✓); 1 new concept page (✓).
+- Lint: structural sanity check run after edits; no broken wikilinks detected in wiki content; digest/README orphans treated as expected navigation endpoints.
+- Commit: "Beyond Prompting Wiki update — 2026-09-13"

@@ -1,7 +1,7 @@
 ---
 title: Build a Tiny Pipeline
 created: 2026-06-27
-updated: 2026-09-06
+updated: 2026-09-13
 type: practice
 tags: [practice, orchestrator, workflow]
 confidence: high
@@ -12,6 +12,8 @@ sources:
   - raw/articles/memtrapbench-cognitive-traps-2608.20202.md
   - raw/articles/mitigating-fabrication-hiring-pipelines-2608.26171.md
   - raw/articles/human-llm-screening-workflows-2608.26885.md
+  - raw/articles/openai-devin-tests-work-with-astra-2026-09-11.md
+  - raw/articles/openai-data-agent-put-data-to-work-2026-09-10.md
 ---
 
 # Build a Tiny Pipeline
@@ -372,6 +374,21 @@ This is the pipeline-level version of [[Silent Updates]]: systems change under y
 
 **Source:** Zvi Mowshowitz, "Claude Fable 5.1 and Mythos 5.1: The System Card" (2026-09-04); cross-pollinated from AI Agency Knowledgebase digest 2026-09-05.
 
+## The Evidence Interface Line: What Proof Comes Out?
+
+Add one more line to the pipeline template, right under VERIFICATION:
+
+```
+EVIDENCE INTERFACE:
+  - What artifact proves this step worked?
+  - What did the AI not test?
+  - Is the evidence produced by the same AI, or by an independent source/tool/person?
+```
+
+This is the tiny-pipeline version of [[The Evidence Interface]]. OpenAI's Devin/Astra case study is vendor-framed, but the interface pattern is useful: return simulator recordings, test reports, and explicit untested areas. The Data agent announcement points the same direction for analysis work: dashboards should expose definitions, data sources, permissions, and caveats.
+
+**Try it on your next two-step workflow:** after Step 1, require one visible artifact before Step 2 can use the output. For a research step, that might be source links. For a spreadsheet step, it might be the formula or query. For a writing step, it might be a claim-to-source list. If the handoff carries no evidence, downstream steps are building on vibes.
+
 ## What Comes Next
 
 Use this pipeline three times. Note where the handoff needs tightening. Run the infrastructure readiness check on every tool in the chain. Tag it with a reliability level. Then you're ready for [[The Daily Standup]], where you'll build the habit of reviewing and improving your pipelines as a regular practice — the orchestrator's version of a standup meeting.
@@ -380,7 +397,7 @@ Use this pipeline three times. Note where the handoff needs tightening. Run the 
 
 ## Related Pages
 
-[[05-Practice/README|05 — Practice]] · [[First Delegation]] · [[Audit Your Prompts]] · [[The Daily Standup]] · [[Task Decomposition]] · [[Delegation Thinking]] · [[From Prompt to Pipeline]] · [[Instruction Bleed]] · [[The Reliance Audit]]
+[[05-Practice/README|05 — Practice]] · [[First Delegation]] · [[Audit Your Prompts]] · [[The Daily Standup]] · [[Task Decomposition]] · [[Delegation Thinking]] · [[From Prompt to Pipeline]] · [[Instruction Bleed]] · [[The Reliance Audit]] · [[The Evidence Interface]]
 
 ## Tags
 

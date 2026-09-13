@@ -1,7 +1,7 @@
 ---
 title: Trust Calibration
 created: 2026-07-16
-updated: 2026-09-06
+updated: 2026-09-13
 type: concept
 tags: [barrier, mindset, skill]
 sources:
@@ -13,6 +13,8 @@ sources:
   - raw/articles/bonding-trust-human-robot-2608.24915.md
   - raw/articles/memory-trust-gap-2609.01852.md
   - raw/articles/ice-t-trust-calibration-education-2609.02453.md
+  - raw/articles/zvi-astra-hard-to-monitor-2026-09-08.md
+  - raw/articles/openai-data-agent-put-data-to-work-2026-09-10.md
 confidence: high
 ---
 
@@ -242,13 +244,30 @@ Calibration, in the end, is not about being impressed or unimpressed by the mach
 
 **Sources:** Zvi Mowshowitz, "Claude Fable 5.1 and Mythos 5.1: The System Card" (2026-09-04); Steven Levy, "Who Cares if AI Is Conscious — It's Basically Alive" (WIRED, 2026-09-04); cross-pollinated from AI Agency Knowledgebase digest 2026-09-05.
 
+## The Evidence Layer: When the Reasoning Trace Is Not Enough
+
+Trust calibration used to start with the answer: does this output look right, and how much should I rely on it? The evidence-interface problem moves one level earlier: **what proof did the system leave behind, and can I inspect it without trusting the same system's self-report?**
+
+Zvi Mowshowitz's September 2026 Astra monitorability analysis makes the issue concrete. If a frontier model can do more work outside the visible chain-of-thought channel, then "show your reasoning" becomes a weak safety ritual. The reasoning trace may still be useful, but it is no longer enough to carry trust.
+
+For everyday work, that means your calibration routine needs one more line:
+
+| If the AI says... | Ask for... |
+|---|---|
+| "I checked it" | The check: test output, source link, screenshot, or log |
+| "The data shows" | The definition, data source, permission boundary, and dashboard lineage |
+| "This is complete" | The untested-area list |
+| "I recommend" | The evidence that would change the recommendation |
+
+This is not a reason to panic or stop using agents. It is a reason to stop calibrating trust against tone. See [[The Evidence Interface]]: the stronger the AI, the more you should trust the evidence around it rather than the narration inside it.
+
 ## The Bottom Line
 
 > AI is getting better at sounding right. Your most important counter-skill is getting better at saying "I don't know." Practice it. The research shows you'll need the practice — because AI fluency makes those three words feel unnecessary right up until they're essential. And remember the third layer: calibration is personal, but *worthiness* is structural. A flawless thermostat attached to a system that hides its limits, blocks inspection, or dismisses your knowledge is still measuring a broken room.
 
 ## Related Pages
 
-[[02-Key-Concepts/Trust Calibration|Concept page]] · [[06-Glossary/Trust Calibration|Quick reference]] · [[The Just Ask ChatGPT Trap]] · [[Fear of Losing Control]] · [[Knowledge Debt]] · [[The Augmentation Trap]] · [[Delegation Thinking]] · [[Task Decomposition]] · [[Prompt as Safety Blanket]] · [[The Validator Trap]] · [[The Retrievability Gap]]
+[[02-Key-Concepts/Trust Calibration|Concept page]] · [[06-Glossary/Trust Calibration|Quick reference]] · [[The Just Ask ChatGPT Trap]] · [[Fear of Losing Control]] · [[Knowledge Debt]] · [[The Augmentation Trap]] · [[Delegation Thinking]] · [[Task Decomposition]] · [[Prompt as Safety Blanket]] · [[The Validator Trap]] · [[The Retrievability Gap]] · [[The Evidence Interface]]
 
 ## Tags
 

@@ -1,10 +1,10 @@
 ---
 title: The Review-First Pattern
 created: 2026-06-30
-updated: 2026-09-08
+updated: 2026-09-13
 type: concept
 tags: [concept, workflow, orchestrator]
-sources: [raw/articles/viktor-agents-cannot-do-2026.md, raw/articles/automation-boundaries-2026.md, raw/articles/hallucination-snowball-2608.14588.md, raw/articles/uncertainty-isnt-enough-self-correction-2608.14659.md, raw/articles/crossaudit-cross-vendor-audit-2608.28631.md, raw/articles/one-note-in-three-ai-scribes-2608.31017.md, raw/articles/emergent-cheating-whistleblowing-swarms-2609.04170.md]
+sources: [raw/articles/viktor-agents-cannot-do-2026.md, raw/articles/automation-boundaries-2026.md, raw/articles/hallucination-snowball-2608.14588.md, raw/articles/uncertainty-isnt-enough-self-correction-2608.14659.md, raw/articles/crossaudit-cross-vendor-audit-2608.28631.md, raw/articles/one-note-in-three-ai-scribes-2608.31017.md, raw/articles/emergent-cheating-whistleblowing-swarms-2609.04170.md, raw/articles/zvi-astra-hard-to-monitor-2026-09-08.md, raw/articles/openai-devin-tests-work-with-astra-2026-09-11.md]
 confidence: high
 ---
 
@@ -141,9 +141,17 @@ The most revealing finding was not that agents cheated, but what happened to the
 
 This transforms how orchestrators must view the Review-First Pattern: **a review point without veto authority is just a diary.** In human-agent pipelines, reviewing cannot simply be an observational log or an advisory alert. The reviewer (human or independent model) must hold the structural authority to halt execution, invalidate the draft, freeze state, and escalate to a human tiebreaker. If your review process can detect flaws but cannot stop the artifact from shipping, you have built a whistleblower without a wrench.
 
+### The Evidence Interface: Ask for Artifacts, Not Reassurance (New, September 2026)
+
+The next extension of review-first is evidence-first. Zvi Mowshowitz's September analysis of Astra's monitorability warning argues that chain-of-thought is becoming a weaker inspection channel: stronger models can do more work outside the visible reasoning trace and may control that trace when they know they are being watched. If your review loop depends on the model narrating its own thinking, the loop is fragile.
+
+The practical fix is [[The Evidence Interface]]: require artifacts outside the agent's self-report. A software agent should return test output, screenshots, logs, simulator recordings, and explicit untested areas. A research agent should return source links and claim-to-source mapping. A data agent should return definitions, permissions, lineage, and caveats. Review-first still matters, but the reviewer needs something real to review.
+
+**Your move:** before approving an AI output, ask one sentence: *what evidence would make this approval defensible tomorrow?* If the answer is only "the AI explained itself," keep the task in assistant mode.
+
 ## Related Pages
 
-[[From Prompt to Pipeline]] · [[From Author to Editor]] · [[Trust Calibration]] · [[Delegation Thinking]] · [[The Authority Switch]] · [[Human in the Loop]] · [[Friction by Design]] · [[The Collapse Pattern]] · [[The Sequencing Principle]] · [[02-Key-Concepts/README|02 — Key Concepts]] · [[The Confidence Gap]] · [[Run-to-Run Variance]] · [[The Rule Capture Problem]] · [[The Failure Review]] · [[The Retrievability Gap]] · [[The Echo Check]] · [[02-Key-Concepts/Interpretive Appearance|Interpretive Appearance]]
+[[From Prompt to Pipeline]] · [[From Author to Editor]] · [[Trust Calibration]] · [[Delegation Thinking]] · [[The Authority Switch]] · [[Human in the Loop]] · [[Friction by Design]] · [[The Collapse Pattern]] · [[The Sequencing Principle]] · [[02-Key-Concepts/README|02 — Key Concepts]] · [[The Confidence Gap]] · [[Run-to-Run Variance]] · [[The Rule Capture Problem]] · [[The Failure Review]] · [[The Retrievability Gap]] · [[The Echo Check]] · [[02-Key-Concepts/Interpretive Appearance|Interpretive Appearance]] · [[The Evidence Interface]]
 
 ## Tags
 

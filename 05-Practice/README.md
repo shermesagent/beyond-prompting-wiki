@@ -18,7 +18,7 @@ This is where the operator→orchestrator shift stops being something you read a
 
 ## Ongoing Practice
 
-After the three-week progression, [[The Daily Standup]] is your maintenance habit — 5 minutes a day to review what ran, what worked, and what needs adjusting. It's the feedback loop that keeps your pipelines healthy and your delegation muscles sharp.
+After the three-week progression, [[The Daily Standup]] is your maintenance habit — 5 minutes a day to review what ran, what worked, what needs adjusting, and what evidence the AI left behind. It's the feedback loop that keeps your pipelines healthy and your delegation muscles sharp.
 
 ### Before You Begin: The Line You Draw
 
@@ -43,6 +43,10 @@ You've built pipelines — now check what you actually rely on. Week 4 is a week
 New research on 103 million application events from over 1,000 knowledge workers (arXiv:2607.06681) shows that GenAI use happens on your most fragmented days — but the period AFTER AI use is measurably more focused, with narrower, longer, more predictable application patterns. Your AI sessions aren't just task-completion events. They're *structure-creating events*.
 
 After completing Week 1's [[Audit Your Prompts]], add a rhythm check: for your next three AI sessions, note what your attention looked like before and after. If AI use reliably precedes focused work, design your hardest creative tasks to follow an AI session. If it adds to the noise, change when you use it — make it a deliberate transition ritual rather than another app in the scatter.
+
+### The Evidence Interface Audit
+
+As your pipelines get more capable, add one question before you give them more independence: *what proof comes out?* [[The Evidence Interface]] gives the practice: test output, source links, logs, screenshots, dashboard definitions, permission boundaries, and untested-area notes. No evidence, no autonomy.
 
 ### The Reverse-Centaur Check
 

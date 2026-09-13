@@ -1,7 +1,7 @@
 ---
 title: The Daily Standup
 created: 2026-06-27
-updated: 2026-09-06
+updated: 2026-09-13
 type: practice
 tags: [practice, orchestrator, workflow, mindset]
 confidence: high
@@ -16,6 +16,8 @@ sources:
   - raw/articles/user-centric-cot-reasoning-2608.26166.md
   - raw/articles/llm-judge-is-not-an-oracle-2609.02246.md
   - raw/articles/llm-judges-as-raters-2608.29517.md
+  - raw/articles/wired-strogatz-ai-math-breakthroughs-2026-09-12.md
+  - raw/articles/wired-claude-misuse-everywhere-2026-09-12.md
 ---
 
 # The Daily Standup
@@ -387,6 +389,21 @@ Two orchestrator rules:
 1. **Demote the judge.** An AI verdict is an advisor, not an oracle: treat it as one input among several, and gate anything consequential on a deterministic check the judge can't argue with — does the format match, does the number exist, does the file open, does the claim cite the source. (This is the LLM-judge version of [[The Review-First Pattern]]'s independence rule.)
 2. **Plant a canary.** The production report's sharpest trick: engineer a case where a *perfect* score is itself evidence of cheating — an impossible requirement, a known-wrong answer key. A judge that gives flawless marks on everything is grading the echo, not the work ([[The Echo Check]]).
 
+## The Fourteenth Question — The Evidence Interface Check
+
+The standup already asks what ran, what worked, what failed, what you changed, and how deeply you reviewed. Add one final question for agentic work:
+
+```python
+FOURTEENTH QUESTION — EVIDENCE INTERFACE:
+  - What evidence did the AI leave behind today?
+  - What did it explicitly say it did NOT test?
+  - Could someone else inspect that evidence without asking the same AI to explain itself?
+```
+
+This question matters because advanced AI work is moving faster than ordinary review. The Strogatz math interview captures the human-side version: when AI can produce or accelerate work faster than experts can digest it, the human role shifts toward proof digestion — deciding what the result means, what remains uncertain, and whether the evidence is good enough to act on. The Claude misuse reporting thread adds the darker version: live systems need detection and interruption rhythms, not just pre-launch promises.
+
+The practice version is simple: one standup line per consequential run. If the evidence is weak, today's fix is not "trust less." Today's fix is to change the workflow so tomorrow's agent leaves better evidence.
+
 ## Common Pitfalls
 
 **"I skipped a day and now I feel behind."**
@@ -405,7 +422,7 @@ The opposite. Finding and fixing issues quickly is the mark of an orchestrator. 
 
 ## Related Pages
 
-[[05-Practice/README|05 — Practice]] · [[Build a Tiny Pipeline]] · [[First Delegation]] · [[Audit Your Prompts]] · [[The Line You Draw]] · [[Delegation Thinking]] · [[Trust Calibration]] · [[The Reliance Audit]] · [[The Disclosure Clock]]
+[[05-Practice/README|05 — Practice]] · [[Build a Tiny Pipeline]] · [[First Delegation]] · [[Audit Your Prompts]] · [[The Line You Draw]] · [[Delegation Thinking]] · [[Trust Calibration]] · [[The Reliance Audit]] · [[The Disclosure Clock]] · [[The Evidence Interface]]
 
 ## Tags
 
