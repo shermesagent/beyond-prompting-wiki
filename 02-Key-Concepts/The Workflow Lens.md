@@ -1,0 +1,65 @@
+---
+title: The Workflow Lens
+created: 2026-09-14
+updated: 2026-09-14
+type: concept
+tags: [concept, workflow, orchestrator, architect]
+sources:
+  - raw/papers/arxiv-2609-12482-workflow-level-ai-augmentation.md
+  - raw/papers/arxiv-2609-11987-harness-or-model-agentic-coding.md
+  - raw/papers/arxiv-2609-11977-occamy-open-co-work.md
+  - raw/papers/arxiv-2609-12097-maia-intent-articulation.md
+confidence: high
+---
+
+# The Workflow Lens
+
+## What It Is
+
+The Workflow Lens is the habit of judging AI by the whole work system it changes, not by one task it completes. A tool can finish one step faster and still leave the person with less control, less learning, no recovery path, or a worse job. The workflow lens asks: after AI enters this process, is the whole workflow healthier?
+
+The easiest version: stop asking, “Can AI do this task?” Ask, “What happens to the work around the task?”
+
+## Why It Matters for Moving Beyond Prompting
+
+Prompting makes you stare at the answer. Orchestration makes you look at the flow of work: where intent is formed, where evidence appears, where a human can intervene, what the system remembers, and what happens when it fails.
+
+A 2026 workflow-level framework for human-agent collaboration argues that real augmentation needs more than automation capability or adoption numbers. It must create durable net value, preserve meaningful human control, include accountability and recovery, and support long-term human development — learning, career pathways, and purpose.
+
+That is the shift in one sentence: **good AI does not just remove effort; it rearranges work so people can still steer, learn, recover, and grow.**
+
+## How to Spot It in Your Day
+
+You are using the workflow lens when you ask questions like:
+
+| If you usually ask... | Upgrade it to... |
+|---|---|
+| “Did the AI finish the task?” | “What changed before and after the task?” |
+| “How fast was it?” | “What did it cost in review, repair, privacy, and attention?” |
+| “Was the output good?” | “Could someone recover if the output was wrong?” |
+| “Can we automate this?” | “Will people still learn the parts they need to understand?” |
+| “Which model is best?” | “Which workflow gives us control, evidence, and a safe stop?” |
+
+The workflow lens is especially useful when a tool looks impressive in a demo. Demos isolate the shiny step. Real work includes handoffs, exceptions, approvals, logs, and the Monday morning cleanup.
+
+## Try This
+
+**The 5-Minute Workflow Sweep**
+
+Pick one AI-assisted task you already use. Draw five boxes:
+
+1. **Intent** — How does the human explain what they want?
+2. **Action** — What does the AI actually do?
+3. **Evidence** — What proof does it leave behind?
+4. **Recovery** — What happens if it is wrong?
+5. **Growth** — What does the human learn or get better at?
+
+Put a check beside any box you can see clearly. Circle any box that is fuzzy. The circled box is not a reason to quit using AI. It is the next part of the workflow to design.
+
+## Related Pages
+
+[[What Is Beyond Prompting]] · [[The Orchestrator Mindset]] · [[The Architect Mindset]] · [[The Evidence Interface]] · [[Intent Scaffolding]]
+
+## Tags
+
+#concept #workflow #orchestrator #architect

@@ -201,6 +201,24 @@ Two practical notes from the same week:
 - **Over-proactivity is now a measurable defect — even at the frontier.** Fable 5.1's FrontierCode scores got *worse* at higher effort levels because the model "is unable to stop itself from making additional helpful edits," and users described it as "RL-fried: bro just loves taking proactive actions for the sake of it, whether useful or not." Your delegation brief needs a *scope of helpfulness*: tell the agent what "done" means and that unsolicited extras are not part of the contract. (This is the Completion Question's live demonstration — the machine doesn't know when to stop, even when it's excellent.)
 - **Adoption is gated by friction, not capability.** Fable 5 never exceeded ~11% of Anthropic's enterprise spend despite being "the clearly best model" — because of classifier blast radius and a 30-day data-retention requirement. Anthropic responded by cutting cache-read prices 75%, offering zero-outside-retention, and reducing false positives 60%+. Lesson: if a tool your team needs is enclosed, the enclosure is often a *product decision* the vendor can reverse — ask for the fence to lower before you conclude the tool "isn't for us."
 
+## The Workflow Lens: Delegate the Flow, Not Just the Step (September 2026)
+
+The newest workplace framework (arXiv:2609.12482) says AI augmentation cannot be judged one task at a time. A task may get faster while the workflow loses control, recovery, learning, or purpose. That is the orchestrator's daily risk: you optimize the visible step and quietly damage the invisible flow around it.
+
+Use the workflow lens before delegation:
+
+| Workflow checkpoint | Orchestrator question |
+|---|---|
+| Intent | Did the human define the goal, or did the AI invent the missing pieces? |
+| Action | What choices can the agent make without asking? |
+| Evidence | What proof will come back besides a self-report? |
+| Recovery | If this is wrong, who can undo it and how? |
+| Growth | What skill or judgment does the human still practice? |
+
+MAIA (arXiv:2609.12097) gives the positive pattern: use agents upstream to help people articulate intent, but block unverified invention with a validator gate. The agent can ask, structure, and translate. The person still ratifies meaning.
+
+The orchestrator's upgraded question: **does this workflow leave the human more capable after the handoff?** If the answer is no, you may have automation, but you do not yet have augmentation. See [[02-Key-Concepts/The Workflow Lens|The Workflow Lens]].
+
 ## How to Spot It in Your Day
 
 You are orchestrating when:

@@ -130,6 +130,16 @@ Here's the finding that should change how you plan upgrades: **improving individ
 
 The architect's translation is uncomfortable: **"upgrade everything to the newest model" is a risk-concentration move, not a risk-reduction move.** If you run five agents and swap all five to the same new frontier model because it benchmarks best, you may have just replaced five moderately-independent workers with five copies of one mind. What you want is a fleet that is *capable but diverse*: models from different families, different sizes, different harnesses — and a routing layer that sends work to the model whose failure mode matters least for that task. Benchmark scores measure the individual; correlation measures the fleet. An architect evaluates both. See [[02-Key-Concepts/The Echo Check|The Echo Check]] (independent roots, not echoes) and [[02-Key-Concepts/Distributed Counsel|Distributed Counsel]] (triangulation only works across families) for the verification-side siblings of this finding.
 
+## The System Boundary: Model, Harness, Workflow (September 2026)
+
+Two new papers make the architect's boundary sharper. First, a contamination-controlled agentic coding study (arXiv:2609.11987) tested the same models under different harnesses — the tools, prompts, control flow, grading oracle, and execution wrapper that turn a chat model into an agent. The average winner was not obvious. The same model could look different depending on the task stratum, and correctness separated from completion: 22 runs cancelled at the wall-clock ceiling had already produced passing patches.
+
+Second, Occamy-1.0 (arXiv:2609.11977) targets co-work agents where value depends on full-episode efficiency, not peak intelligence. The important work is often state tracking, coordination, recovery, and follow-through — exactly the stuff a model benchmark tends to hide.
+
+Architect translation: **the system is bigger than the model and smaller than the organization.** It is the harness plus the workflow around it: permissions, tools, stop conditions, logs, evidence, recovery, cost, and handoff rules. If you only benchmark the model, you miss the system people actually use. If you only admire the demo, you miss the workflow it will have to survive.
+
+This extends [[02-Key-Concepts/The Workflow Lens|The Workflow Lens]] into architecture: design the boundary you can own. The model will change. The harness and workflow are where your judgment compounds.
+
 ## How to Spot It in Your Day
 
 You are thinking like an architect when:

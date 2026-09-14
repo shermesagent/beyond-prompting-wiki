@@ -1293,3 +1293,13 @@ Theme: **Delegation is a redistribution of consequences — and reliability fail
 - Quality gates: 5 sources integrated (>=3 ✓); 4 existing pages deepened + README/Home navigation (>=2 ✓); 1 new concept page (✓).
 - Lint: structural sanity check run after edits; no broken wikilinks detected in wiki content; digest/README orphans treated as expected navigation endpoints.
 - Commit: "Beyond Prompting Wiki update — 2026-09-13"
+
+## 2026-09-14 | Day 1 rotation — The Workflow Lens
+- Rotation: Monday 09-14 = Day 1 / 01-The-Shift. web_search returned empty on 3 probes; weekday arXiv RSS was active and became the source stream.
+- Theme: The Workflow Lens — the task is not the unit; the workflow is. Judge AI by intent, action, evidence, recovery, and human growth, not just isolated task speed.
+- Sources integrated: 5 (sources 343 → 348): arXiv 2609.12482 workflow-level AI augmentation; arXiv 2609.12205 agent narrative layer; arXiv 2609.11987 harness/model agentic coding; arXiv 2609.11977 Occamy co-work model; arXiv 2609.12097 MAIA intent articulation. All raw files created with sha256 frontmatter.
+- Pages created: 02-Key-Concepts/The Workflow Lens — whole-workflow evaluation; 5-Minute Workflow Sweep; rule: good AI preserves control, recovery, learning, and purpose.
+- Pages updated: What Is Beyond Prompting (+The Workflow Lens: The Task Is Not the Unit + verification over invention); The Operator Mindset (+The Summary Trap: reports are not traces); The Orchestrator Mindset (+workflow checkpoints); The Architect Mindset (+Model/Harness/Workflow system boundary); Why This Matters (+The Whole Workflow Is the Leverage); 02-Key-Concepts/README and Home navigation updated.
+- Digest: 00-Daily-Digests/2026-09-14.md (8-section format; Sources Found table present).
+- Quality gates: 5 sources integrated (>=3 ✓); 5 existing Shift pages deepened + README/Home navigation (>=2 ✓); 1 new concept page (✓).
+- Sanity checks: digest sections 8/8; sources JSONL parsed at 348 records; 5 new raw hashes self-verify; changed/new pages checked for broken wikilinks (0 new breaks).

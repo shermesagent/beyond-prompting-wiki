@@ -131,6 +131,16 @@ Everything on this page so far says the shift changes what you *do* with AI — 
 
 The shift, restated: the operator's judgment runs *before* the prompt (deciding what to ask). The orchestrator's judgment runs *around* the whole workflow — before it (what to delegate, how to classify it, what "done" means), during it (what to check), and after it (what to keep). The tool changes, but the scarce resource is the same as it always was: **a human deciding what's good.** That's what moving beyond prompting actually preserves. See [[The Operator Mindset]] for the mirror effect in action and [[The Orchestrator Mindset]] for the completion question.
 
+## The Workflow Lens: The Task Is Not the Unit (September 2026)
+
+A new workflow-level framework for human-agent collaboration (arXiv:2609.12482) sharpens the definition of the whole shift. Most AI measurement still asks two small questions: what can the model automate, and how many people are using it? The framework argues those are the wrong units. The real unit is the **workflow** — the chain of intent, action, evidence, recovery, learning, and purpose around the task.
+
+That distinction matters because a task can be automated while the workflow gets worse. Faster output can reduce meaningful human control. A cleaner draft can hide who is accountable when it fails. A helpful assistant can quietly remove the learning that made the human capable in the first place. The paper names six conditions for real augmentation, including durable net value, meaningful control, accountability and recovery, and long-term human development.
+
+For this wiki, the practical translation is simple: **beyond prompting begins when you stop evaluating answers and start evaluating work systems.** The question is not just, “Did AI do the thing?” It is, “After AI entered the workflow, can people still steer it, understand it, recover from it, and grow through it?” See [[02-Key-Concepts/The Workflow Lens|The Workflow Lens]].
+
+MAIA (arXiv:2609.12097) shows the same idea at the front end of work. In art commissions, the system did not jump straight to making the artifact. It helped people articulate intent under a “verification over invention” rule, with a validator gate blocking unapproved content. That is beyond prompting in miniature: help the human form the goal before the machine executes the goal.
+
 ## Try This
 
 Open your most-used AI tool right now. Instead of asking it to do something, give it a goal and a constraint. Say: "I need a report on X. Figure out what information you need, collect it, and produce a one-page summary. Ask me clarifying questions only if you absolutely must." Notice how different that feels — and how much more you get back.

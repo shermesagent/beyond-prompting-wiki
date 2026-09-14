@@ -110,6 +110,16 @@ That gap — between what's buildable and what's been built into workflows — i
 
 For you, the practical read is bracing and hopeful at once: **most of the value of the shift is still sitting unclaimed.** The people who move first — who build one task into a real workflow, verify it, and own it — are the ones the next measurement will count. The gap closes one delegation at a time, and each one starts with a decision, not an upgrade.
 
+## The Whole Workflow Is the Leverage (September 2026)
+
+The latest workplace research (arXiv:2609.12482) puts a hard edge on the promise of AI augmentation: the value is not whether AI can do an isolated task, but whether the **workflow after AI** creates durable net value, meaningful human control, accountability and recovery, and long-term human development.
+
+This matters because the most common AI success story is still too narrow: “we saved time.” Good. But saved time is not the whole scorecard. Did the human keep enough control to steer? Is there a recovery path when the agent is wrong? Did people learn anything that makes next week's work better? Did the job become more purposeful, or just thinner?
+
+Occamy-1.0 (arXiv:2609.11977) points to the same shift from the model side: practical co-work agents are valuable when they manage state, coordinate steps, recover, follow through, and stay cost-effective over the whole episode. That is leverage you can actually live with.
+
+The reason this wiki exists is not to make people better prompt typists. It is to help people design work so AI expands agency instead of quietly draining it. The whole workflow is the leverage. See [[02-Key-Concepts/The Workflow Lens|The Workflow Lens]].
+
 ## Try This
 
 **The Leverage Ratio Check.** Calculate your "AI leverage ratio" for this week. Count how many minutes you spent directly interacting with AI versus how many minutes of work the AI actually produced. If you prompted for 90 minutes and got 90 minutes of output, your ratio is 1:1. If you prompted for 30 minutes and got 3 hours of output, your ratio is 1:6. Write that number down. Next week, try to double it — not by working harder, but by moving one task from operator mode to orchestrator mode.

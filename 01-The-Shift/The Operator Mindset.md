@@ -152,6 +152,14 @@ There's a second way the machine's behavior quietly reshapes your judgment — a
 
 For the operator, this is the invisible bias in "let me check the hard ones": **what the AI chooses to show you is already shaping how you judge everything else.** Before you grade the work the machine hands you, ask: what fraction of the whole task am I actually seeing — and is that fraction representative? The question "what is this tool NOT showing me?" is the operator's version of the shift. See [[02-Key-Concepts/Run-to-Run Variance|Run-to-Run Variance]] for the checking companion.
 
+## The Summary Trap: The Report Is Not the Work (September 2026)
+
+A study of 5,851 real developer sessions and 355,942 agent tool calls (arXiv:2609.12205) found that the agent's final self-report referred to about **one action in eleven**. A reader using only the report recovered roughly **one-fifth** of the action log. Whether the session later needed human correction did not make the report much more revealing.
+
+For an operator, this is the new copy-paste trap. The agent finishes, writes a polished summary, and your brain treats the summary as if it were the work. It is not. It is the agent's story about the work. Sometimes the story is useful. Sometimes it is thin. When execution diverges from the plan, the story can pull your attention back toward what was supposed to happen instead of what actually happened.
+
+The operator move is not paranoia. It is a small distinction: **read the summary, then check one trace.** A trace can be a diff, a log, a source list, a screenshot, a test result, or a timestamped action record. If there is no trace, keep the work in draft mode. See [[02-Key-Concepts/The Evidence Interface|The Evidence Interface]] for the proof layer this builds toward.
+
 ## Try This
 
 Pick one task you do with AI at least twice a week. Write down every step you take — every prompt, every edit, every check. Now ask: which of those steps are truly judgment calls, and which are mechanical sequences you could teach someone else? The mechanical ones are your first candidates for delegation. Circle them.
