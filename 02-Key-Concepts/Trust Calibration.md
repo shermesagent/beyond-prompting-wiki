@@ -1,10 +1,10 @@
 ---
 title: Trust Calibration
 created: 2026-06-21
-updated: 2026-09-01
+updated: 2026-09-15
 type: concept
 tags: [concept, barrier, orchestrator]
-sources: [raw/articles/accurate-but-not-confident-acm-2026.md, raw/articles/automation-boundaries-2026.md, raw/articles/perceived-system-predictability-2607.05674.md, raw/articles/faster-ai-uneven-frontier-2607.12125.md, raw/articles/how-agentic-is-agentic-commerce-2607.12575.md, raw/articles/calibrating-trustworthiness-education-2608.04006.md, raw/articles/transparency-trap-disclaimers-2608.07493.md, raw/articles/wearing-trust-wearables-2608.08856.md, raw/articles/rating-the-pitch-expectations-2607.05113.md]
+sources: [raw/articles/accurate-but-not-confident-acm-2026.md, raw/articles/automation-boundaries-2026.md, raw/articles/perceived-system-predictability-2607.05674.md, raw/articles/faster-ai-uneven-frontier-2607.12125.md, raw/articles/how-agentic-is-agentic-commerce-2607.12575.md, raw/articles/calibrating-trustworthiness-education-2608.04006.md, raw/articles/transparency-trap-disclaimers-2608.07493.md, raw/articles/wearing-trust-wearables-2608.08856.md, raw/articles/rating-the-pitch-expectations-2607.05113.md, raw/articles/govtech-utah-edtech-privacy-audit-2026-09-04.md]
 confidence: high
 ---
 
@@ -238,6 +238,20 @@ The results are a calibration bomb:
 **The calibration implication:** your "trust" in an AI is partly a report on your expectations, not on the machine. Every brand, benchmark headline, and "it's the flagship now" narrative resets your prior before the first interaction. The fix isn't to ignore branding — it's to build the habit of measuring the product directly: keep a task-level track record (see the Trust Map below) and update it from *outcomes you observed*, not impressions you formed. When you find yourself saying "this model is great," the calibrating follow-up is: *great at what, measured how — or just great because I expected it to be?*
 
 That same expectation dynamic is why the oversold user's directive prompting matters for the operator→orchestrator path: **the label shapes your interaction style, and your interaction style shapes what the system can show you.** The undersold users got more from the same model because they asked it more openly. Treating a tool as a peer to brief (orchestrator mode) beats treating it as a vending machine (operator mode) — independent of the tier sticker on the box.
+
+### Auditability Is Trust: Promises Are Not Controls (New, September 2026)
+
+Utah's 2026 ed-tech privacy audit gives trust calibration a blunt operating rule: **a promise is not a control unless someone can test it.** The reported audit found that 52% of tested applications with standard data privacy agreements collected at least one data type not permitted by the agreement, and 13% shared at least one unpermitted data element with a third party.
+
+This does not mean every vendor is malicious. It means calibration cannot stop at labels: approved, private, secure, compliant, trusted. Those words describe intent. Trust calibration needs behavior evidence.
+
+For orchestrators, the check is simple:
+
+- **What can I observe?** Logs, permissions, source links, data-flow reports, change notices.
+- **Who can test it?** Internal reviewer, vendor report, independent audit, small pilot.
+- **What happens if behavior changes?** Alert, pause, rollback, review gate.
+
+This is where [[Sequenced Agency]] and [[The Evidence Interface]] meet: more access is earned by observable behavior, not confidence in the promise.
 
 ## Try This
 

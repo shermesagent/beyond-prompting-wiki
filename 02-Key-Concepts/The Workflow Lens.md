@@ -1,7 +1,7 @@
 ---
 title: The Workflow Lens
 created: 2026-09-14
-updated: 2026-09-14
+updated: 2026-09-15
 type: concept
 tags: [concept, workflow, orchestrator, architect]
 sources:
@@ -9,6 +9,7 @@ sources:
   - raw/papers/arxiv-2609-11987-harness-or-model-agentic-coding.md
   - raw/papers/arxiv-2609-11977-occamy-open-co-work.md
   - raw/papers/arxiv-2609-12097-maia-intent-articulation.md
+  - raw/articles/lausd-ai-moratorium-sequenced-access-2026-09-04.md
 confidence: high
 ---
 
@@ -56,9 +57,20 @@ Pick one AI-assisted task you already use. Draw five boxes:
 
 Put a check beside any box you can see clearly. Circle any box that is fuzzy. The circled box is not a reason to quit using AI. It is the next part of the workflow to design.
 
+## The Sequencing Question
+
+The workflow lens tells you what to look at. [[Sequenced Agency]] tells you what to do next: move only one level of autonomy at a time, and only when the workflow can prove it is ready.
+
+After the 5-box sweep, add two questions:
+
+- **What evidence would let this workflow move one step forward?** A clean audit log, lower review burden, stable source links, successful pilot, or clear human approval point.
+- **What failure would move it one step back?** Missing evidence, privacy drift, repeated rework, unexplained output changes, or people relying on AI where human support should stay visible.
+
+That forward/backward pair keeps the workflow honest. It turns "this seems to work" into a small governance system.
+
 ## Related Pages
 
-[[What Is Beyond Prompting]] · [[The Orchestrator Mindset]] · [[The Architect Mindset]] · [[The Evidence Interface]] · [[Intent Scaffolding]]
+[[What Is Beyond Prompting]] · [[The Orchestrator Mindset]] · [[The Architect Mindset]] · [[The Evidence Interface]] · [[Intent Scaffolding]] · [[Sequenced Agency]]
 
 ## Tags
 

@@ -133,6 +133,19 @@ The power of this framework is that it gives you a **next step**, not a judgment
 
 **Try this:** Pick your three most common AI tasks. For each one, what delegation level are you currently using? Now ask: what would it take to move each task up ONE level? Not to Level 6. Just one. Write down the one thing you'd need to change. That's your next move.
 
+## Sequenced Agency: One Rung at a Time
+
+The delegation spectrum is not a dare. You do not move from "AI helps me draft" to "AI runs the workflow" because the tool got a better demo video. [[Sequenced Agency]] adds the missing rule: every increase in autonomy needs evidence first.
+
+Microsoft's 2026 WorkLab framing makes this practical. Workers can gain more agency when agents take bounded execution, but the organization only benefits if it captures what people learn and turns private AI hacks into shared workflows. LAUSD's temporary AI moratorium shows the opposite danger: a hard pause may protect students while policy catches up, but it can also push use into an unsupervised shadow system. The better move is a ladder: supervised concepts, guided practice, approved independent use, then monitored autonomy.
+
+**The one-rung rule:** before moving any AI task up the delegation spectrum, write two sentences:
+
+1. *The evidence that would earn the next rung is...*
+2. *The failure that would move it back down is...*
+
+If you cannot write both, stay where you are. That is not fear. That is governance.
+
 ## The Author-to-Editor Shift
 
 The most consistent pattern in real delegation stories isn't about the AI — it's about the human. The person's job shifts from *author* to *editor*. An analytics practitioner who replaced half his workflow with agents for 90 days: "My job shifted from author to editor, and editing is faster — but it's also a different skill set."

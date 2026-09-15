@@ -1,10 +1,10 @@
 ---
 title: Cognitive Load
 created: 2026-07-11
-updated: 2026-07-11
+updated: 2026-09-15
 type: concept
-tags: [barrier, operator, orchestration, psychology]
-sources: [raw/articles/lim-multi-agent-cognitive-load-2026.md]
+tags: [concept, barrier, operator, orchestrator]
+sources: [raw/articles/lim-multi-agent-cognitive-load-2026.md, raw/articles/arxiv-2609.12273-synthetic-tlx-workload-forecasting.md]
 confidence: high
 ---
 
@@ -40,6 +40,22 @@ There's a specific trap here that researchers call the **Orchestration Paradox:*
 
 The fix isn't to use fewer agents. It's to **protect the thinking.** Schedule blocks of deep, single-focus work where you're not managing any AI stream. Those blocks are where the judgment stays sharp.
 
+## Forecast the Load Before You Deploy
+
+The next step is to stop discovering cognitive load only after people are already overwhelmed. Synthetic TLX research (arXiv:2609.12273) points toward a useful habit: forecast the human workload of a technology-mediated task before deployment, then check that forecast against real human experience.
+
+For everyday AI workflows, you do not need a formal NASA workload instrument. You need a quick pre-flight estimate:
+
+| Load Type | Ask Before You Add AI |
+|---|---|
+| Attention | How often will a person need to check or redirect? |
+| Context | How much background must the reviewer hold in mind? |
+| Recovery | If the agent is wrong, how hard is cleanup? |
+| Emotion | Will this make people feel supported, watched, rushed, or responsible for invisible work? |
+| Switching | How many tools, tabs, or handoffs does the human now manage? |
+
+If the AI saves ten minutes of production but creates fifteen minutes of anxious review, you did not reduce work. You moved it. [[Sequenced Agency]] says the workflow should not climb to the next autonomy rung until the load is visible and manageable.
+
 ## For the Operator
 
 You're not managing multiple AI streams yet — but you're building the habits that will determine whether you can. Start now: when you use AI, write down your conclusion afterward. Not copy-paste the AI's answer — write what *you* think, in your words. This small act builds the synthesis muscle that orchestrators depend on when they're evaluating outputs from multiple streams.
@@ -50,4 +66,4 @@ You're not managing multiple AI streams yet — but you're building the habits t
 
 ## Tags
 
-#barrier #operator #orchestration #psychology
+#concept #barrier #operator #orchestrator

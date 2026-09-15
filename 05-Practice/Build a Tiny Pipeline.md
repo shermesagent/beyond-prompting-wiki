@@ -1,7 +1,7 @@
 ---
 title: Build a Tiny Pipeline
 created: 2026-06-27
-updated: 2026-09-13
+updated: 2026-09-15
 type: practice
 tags: [practice, orchestrator, workflow]
 confidence: high
@@ -14,6 +14,7 @@ sources:
   - raw/articles/human-llm-screening-workflows-2608.26885.md
   - raw/articles/openai-devin-tests-work-with-astra-2026-09-11.md
   - raw/articles/openai-data-agent-put-data-to-work-2026-09-10.md
+  - raw/articles/arxiv-2609.12273-synthetic-tlx-workload-forecasting.md
 ---
 
 # Build a Tiny Pipeline
@@ -54,6 +55,14 @@ STEP 2:
 
 VERIFICATION:
   How do you check the whole pipeline produced good work?
+
+AUTONOMY LADDER:
+  What rung is this pipeline on right now?
+  - Observe: AI suggests, human does
+  - Assist: AI drafts/analyzes, human reviews every output
+  - Act with approval: AI performs steps but waits before visible/irreversible/data-sensitive action
+  - Act with monitoring: AI handles routine cases; human reviews exceptions and samples
+  What evidence would move it up one rung? What failure would move it back down?
 ```
 
 ## Step by Step
@@ -397,7 +406,7 @@ Use this pipeline three times. Note where the handoff needs tightening. Run the 
 
 ## Related Pages
 
-[[05-Practice/README|05 — Practice]] · [[First Delegation]] · [[Audit Your Prompts]] · [[The Daily Standup]] · [[Task Decomposition]] · [[Delegation Thinking]] · [[From Prompt to Pipeline]] · [[Instruction Bleed]] · [[The Reliance Audit]] · [[The Evidence Interface]]
+[[05-Practice/README|05 — Practice]] · [[First Delegation]] · [[Audit Your Prompts]] · [[The Daily Standup]] · [[Task Decomposition]] · [[Delegation Thinking]] · [[From Prompt to Pipeline]] · [[Instruction Bleed]] · [[The Reliance Audit]] · [[The Evidence Interface]] · [[Sequenced Agency]]
 
 ## Tags
 

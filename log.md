@@ -1303,3 +1303,13 @@ Theme: **Delegation is a redistribution of consequences — and reliability fail
 - Digest: 00-Daily-Digests/2026-09-14.md (8-section format; Sources Found table present).
 - Quality gates: 5 sources integrated (>=3 ✓); 5 existing Shift pages deepened + README/Home navigation (>=2 ✓); 1 new concept page (✓).
 - Sanity checks: digest sections 8/8; sources JSONL parsed at 348 records; 5 new raw hashes self-verify; changed/new pages checked for broken wikilinks (0 new breaks).
+
+## 2026-09-15 | Day 2 rotation — Sequenced Agency
+- Rotation: Tuesday 09-15 = Day 2 / 02-Key-Concepts. `web_search` returned empty on 2 probes; weekday arXiv RSS returned zero items across cs.AI, cs.HC, and cs.CY, so the run pivoted to AI Agency Knowledgebase 09-14 cross-pollination rather than wasting time on dead source channels.
+- Theme: Sequenced Agency — AI access should be a ladder, not a light switch. Give AI more freedom only when evidence earns the next rung, and define the failure that moves it back down.
+- Sources integrated: 5 (sources 348 → 353): Microsoft WorkLab agents/human agency article; GovTech Utah ed-tech privacy audit; GovTech/LA Daily News LAUSD AI moratorium; arXiv 2609.12273 Synthetic TLX workload forecasting; arXiv 2609.12314 socioemotional LLM support trajectories. All raw source summaries created with sha256 frontmatter.
+- Pages created: 02-Key-Concepts/Sequenced Agency — autonomy ladder; evidence-before-autonomy; 5-Minute Autonomy Ladder; earned/visible/reversible autonomy rule.
+- Pages updated: Delegation Thinking (+one-rung rule); Trust Calibration (+auditability as trust / promises are not controls); Cognitive Load (+forecast the load before deployment); Cognitive Surrender (+reliance slope from practical help to first-stop support); The Workflow Lens (+sequencing question); Build a Tiny Pipeline (+Autonomy Ladder line in template); 02-Key-Concepts/README and Home navigation updated.
+- Digest: 00-Daily-Digests/2026-09-15.md (8-section format; Sources Found table present).
+- Quality gates: 5 sources integrated (>=3 ✓); 5 existing concept pages + 1 practice page + README/Home updated (>=2 ✓); 1 new concept page (✓).
+- Sanity checks: digest sections 8/8; sources JSONL parsed at 353 records after append; 5 new raw hashes self-verify; wikilink check found no missing target for new links.

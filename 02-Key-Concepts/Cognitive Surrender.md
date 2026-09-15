@@ -1,10 +1,10 @@
 ---
 title: Cognitive Surrender
 created: 2026-06-21
-updated: 2026-07-06
+updated: 2026-09-15
 type: concept
 tags: [concept, barrier, mindset]
-sources: [raw/articles/augmentation-trap-caosun-aral-2026.md, raw/articles/cognitive-offloading-atrophy-risk-kennesaw-2026.md, raw/articles/accurate-but-not-confident-acm-2026.md, raw/articles/keystroke-dynamics-cognitive-effort-prompting-2026.md, raw/articles/mollick-against-brain-damage-2026.md]
+sources: [raw/articles/augmentation-trap-caosun-aral-2026.md, raw/articles/cognitive-offloading-atrophy-risk-kennesaw-2026.md, raw/articles/accurate-but-not-confident-acm-2026.md, raw/articles/keystroke-dynamics-cognitive-effort-prompting-2026.md, raw/articles/mollick-against-brain-damage-2026.md, raw/articles/arxiv-2609.12314-socioemotional-llm-support.md]
 confidence: high
 ---
 
@@ -87,6 +87,19 @@ New evidence from the classroom (arXiv 2607.09938, July 2026) reveals what happe
 This is cognitive surrender at the system level. Individually, each student made rational choices — the AI's suggestions looked good, and refinement made them better. Collectively, those individually rational choices produced convergence. The AI's "good" became everyone's "good enough." The range of outcomes narrowed.
 
 **The orchestrator's defense:** Use AI output as a starting point, not a destination. Ask: "What's different about this from what everyone else would get with the same prompt?" If the answer is "nothing," you haven't added your judgment yet. The goal isn't to reject AI suggestions — it's to push past them. The AI gives you the average. Your judgment makes it specific.
+
+## The Reliance Slope: Practical Help Can Become First-Stop Support
+
+A September 2026 longitudinal study of 18 adults using general-purpose LLMs for socioemotional support adds a softer, more human version of cognitive surrender. People did not always start by seeking an AI companion. Often, emotional reliance grew out of ordinary practical use: planning, venting, drafting, asking for perspective when other support was not available. Users could feel “very seen” by the chatbot and still feel alone.
+
+This matters because surrender is not always dramatic. Sometimes it is a slope:
+
+1. **Utility** — “Help me think through this.”
+2. **Preference** — “This is easier than asking a person.”
+3. **First stop** — “When I feel bad, I go here first.”
+4. **Replacement** — “I no longer reach for human support.”
+
+The point is not shame. The point is visibility. [[Sequenced Agency]] applies here too: keep the human route visible, notice when AI becomes the first stop for distress, and set a check-in before support becomes substitution.
 
 ## Try This
 
