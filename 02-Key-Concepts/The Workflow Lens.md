@@ -10,6 +10,7 @@ sources:
   - raw/papers/arxiv-2609-11977-occamy-open-co-work.md
   - raw/papers/arxiv-2609-12097-maia-intent-articulation.md
   - raw/articles/lausd-ai-moratorium-sequenced-access-2026-09-04.md
+  - raw/articles/professional-task-structure-ai-workflows-2609.16482.md
 confidence: high
 ---
 
@@ -70,7 +71,7 @@ That forward/backward pair keeps the workflow honest. It turns "this seems to wo
 
 ## Related Pages
 
-[[What Is Beyond Prompting]] · [[The Orchestrator Mindset]] · [[The Architect Mindset]] · [[The Evidence Interface]] · [[Intent Scaffolding]] · [[Sequenced Agency]]
+[[What Is Beyond Prompting]] · [[The Orchestrator Mindset]] · [[The Architect Mindset]] · [[The Evidence Interface]] · [[Intent Scaffolding]] · [[Sequenced Agency]] · [[The Task Scaffold]]
 
 ## Tags
 

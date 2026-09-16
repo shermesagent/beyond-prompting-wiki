@@ -65,6 +65,7 @@ You don't need to read them in order. Jump to whichever title grabs you. But if 
 53. [[The Evidence Interface]] — the proof layer around delegated work: tests, logs, screenshots, source links, dashboard lineage, permissions, caveats, and untested-area notes that let humans verify work without relying on the AI's self-report.
 54. [[The Workflow Lens]] — the habit of judging AI by the whole work system it changes: intent, action, evidence, recovery, and human growth — not just whether one task got faster.
 55. [[Sequenced Agency]] — the autonomy ladder: give AI more freedom only when evidence earns the next rung, and define what failure moves it back down.
+56. [[The Task Scaffold]] — the structure around an AI interaction that helps the human and AI build the real work together: checklist, workflow, rubric, missingness pass, or readiness signal.
 
 ---
 
@@ -137,6 +138,7 @@ They came out of real research — papers on human-AI collaboration, case studie
 | [[The Evidence Interface]] | What proof should an AI leave behind before I trust or expand its autonomy? | Orchestrator → Architect |
 | [[The Workflow Lens]] | Is this AI improving the whole workflow — control, recovery, learning, and purpose — or just speeding up one step? | Orchestrator → Architect |
 | [[Sequenced Agency]] | What evidence earns the next level of AI autonomy — and what failure moves it back down? | Orchestrator → Architect |
+| [[The Task Scaffold]] | What structure does this task need before AI touches it? | Operator → Orchestrator |
 
 ---
 

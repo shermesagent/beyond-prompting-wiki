@@ -1313,3 +1313,13 @@ Theme: **Delegation is a redistribution of consequences — and reliability fail
 - Digest: 00-Daily-Digests/2026-09-15.md (8-section format; Sources Found table present).
 - Quality gates: 5 sources integrated (>=3 ✓); 5 existing concept pages + 1 practice page + README/Home updated (>=2 ✓); 1 new concept page (✓).
 - Sanity checks: digest sections 8/8; sources JSONL parsed at 353 records after append; 5 new raw hashes self-verify; wikilink check found no missing target for new links.
+
+## 2026-09-16 | Day 3 rotation — The Task Scaffold
+- Rotation: Wednesday 09-16 = Day 3 / 03-Real-World. `web_search` returned empty on 2 probes, so discovery pivoted to weekday arXiv RSS; cs.AI/cs.HC/cs.CY were active.
+- Theme: The Task Scaffold — real-world AI adoption works when the workflow gives people structure for judgment: checks, stages, missingness questions, readiness signals, and human decision points.
+- Sources integrated: 5 (sources 353 → 358): arXiv 2609.16482 professional task structure for AI workflows; arXiv 2609.16784 AI literacy over tool design; arXiv 2609.16793 human-AI synergy; arXiv 2609.13543 Asclepius adaptive harness for long-horizon clinical agents; arXiv 2609.13552 decision-assurance layer for flight planning. All raw source summaries created with sha256 frontmatter.
+- Pages created: 02-Key-Concepts/The Task Scaffold — task structure around AI interaction; missingness check; 5-Minute Task Scaffold.
+- Pages updated: From Prompt to Pipeline (+professional task scaffold + long-horizon harness); The School District Shift (+AI literacy over tool design); Small Business Automation (+available-but-unclaimed synergy + assurance-layer translation); The Workflow Lens and Intent Scaffolding (+inbound links); 03-Real-World/README, 02-Key-Concepts/README, and Home navigation updated.
+- Digest: 00-Daily-Digests/2026-09-16.md (8-section format; Sources Found table present).
+- Quality gates: 5 sources integrated (>=3 ✓); 3 existing Real-World pages deepened + README/Home/02 README navigation (>=2 ✓); 1 new concept page (✓).
+- Sanity checks: sources JSONL parsed at 358 records after append; 5 new raw hashes self-verify; digest sections 8/8; new wikilinks checked with no missing targets.

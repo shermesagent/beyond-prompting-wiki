@@ -228,6 +228,24 @@ For Mara — or a team sharing one pipeline — the practical translation is sim
 
 ---
 
+## The Professional Task Scaffold: Stop Asking from a Blank Box
+
+Mara's pipeline works because it is not just a long prompt. It is a task scaffold: the workflow already knows the shape of the job. It knows there should be research, an outline, a draft, derivative emails, social posts, uncertainty flags, and a review pass. The AI is not being asked to invent the work from a blank box; it is being asked to operate inside a professional structure.
+
+A September 2026 study tested this directly in negotiation preparation. General chat helped people prepare better than no AI, but scaffolded workflows improved coverage beyond chat because they embedded the structure of the professional task. The strongest pattern was not “AI completes the analysis and hands it to you.” It was **user-directed, incremental development**: the workflow helped people build the analysis step by step, ask a broader range of questions, and feel less effort while doing it.
+
+For Mara, that means the next upgrade is not a cleverer prompt. It is a **missingness check** built into the pipeline:
+
+> “Using the standards of this task, what important audience, claim, source, constraint, or risk is missing from this draft? Do not rewrite yet. Show me the checklist first.”
+
+That one line changes the review from “does this sound good?” to “did this cover the job?” See [[The Task Scaffold]] for the full concept.
+
+The same lesson shows up at higher stakes. A new clinical-agent system called Asclepius found that agents could often diagnose correctly but still miss timely critical actions during a simulated emergency-department shift. The fix was not merely a better model. It was an adaptive harness: a revised operating manual, trace-level feedback between shifts, an external skills library, and subagents partitioned by patient-queue decisions. The model mattered. The harness made it deployable.
+
+**Sources:** Ma et al., “ChatGPT, what am I missing?” arXiv 2609.16482 (September 2026); Yuan et al., “Asclepius,” arXiv 2609.13543 (September 2026).
+
+---
+
 ## The Hospital Lesson: When One Pipeline Isn't Enough
 
 Mara's story is one pipeline. What happens when an organization needs *dozens* — with different risk levels, different compliance rules, different owners? That's the question behind a new agentic-AI framework for mission-critical hospital information systems (Dhar, Singh & Manikonda, arXiv:2608.07627, August 2026), and its answer is the natural next chapter of this page.

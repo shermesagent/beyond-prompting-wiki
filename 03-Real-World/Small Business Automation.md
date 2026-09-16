@@ -260,6 +260,28 @@ This is [[The Just Ask ChatGPT Trap]] in reverse: the trap is trusting an assist
 
 ---
 
+## Available but Unclaimed: Why AI Advice Needs a Checkpoint
+
+Em and Jules use AI because it saves time. But a September 2026 reasoning study adds the uncomfortable caveat: **AI help being available does not mean the human-AI team actually claims the benefit.**
+
+In a 535-person study, participants solved reasoning problems either alone or with a frontier model. The models were often helpful, and human performance improved more when the model was stronger on the item. But only about half of the model's accuracy gain carried through to the assisted human. Worse, after seeing AI advice, people's confidence became less useful as a signal of whether they were right.
+
+For a small business, that translates cleanly: the AI can improve the purchase order, the customer email, or the schedule — but only if the human knows when to defer and when to push back. The review step is not “look it over.” It is selective deference:
+
+| Review Question | Why it matters |
+|---|---|
+| What did I accept from the AI? | Makes useful deference visible |
+| What did I reject? | Preserves independent judgment |
+| What rule or evidence decided it? | Keeps confidence from becoming the standard |
+
+The flight-planning literature offers a stronger version for high-stakes decisions: a **decision-assurance layer** that checks semantic stability, structured consistency, and domain-rule validity before assigning a readiness level. Em and Jules do not need aviation software. But they can steal the habit: if an AI-generated purchase order changes wildly when reworded, violates a supplier rule, or cannot explain the quantities, it is not ready to approve.
+
+See [[The Task Scaffold]] for the lightweight version: required checks, missingness categories, and a decision rule before the AI output becomes business action.
+
+**Sources:** Welsch et al., “Available but Unclaimed,” arXiv 2609.16793 (September 2026); Barreto et al., “Toward a Decision-Assurance Layer,” arXiv 2609.13552 (September 2026).
+
+---
+
 ## You Can Do This Too
 
 If you run a small business or team of 1-10 people:

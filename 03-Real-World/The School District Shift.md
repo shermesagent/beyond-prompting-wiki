@@ -216,6 +216,26 @@ The Farmersville lesson: when you build workflows for teachers, design the AI's 
 
 **Source:** "TRAIL: A Platform for Configurable Human--AI Teaming Experiments," arXiv 2607.12180 (July 2026)
 
+### AI Literacy Over Tool Design
+
+A September 2026 classroom study complicates the usual district debate: should students get a restricted, scaffolded AI tool or unrestricted access to the tools they already use? In a seven-week master's-level data analytics course, 33 students were randomly assigned either to a scaffolded AI Study Coach inside notebook labs or to unrestricted AI tools of their own choosing.
+
+The Coach was intentionally conservative: stepwise hints, no generated code, limited hints per session, and a required reflection. The expectation was sensible: guided support should build confidence and reduce over-reliance.
+
+The results were messier — and more useful:
+
+- Assignment performance did **not** differ by condition.
+- Coach students reported higher confidence but often managed the hint budget poorly.
+- Unrestricted-tool students liked their tools but were uneasy about how much they depended on them.
+- Across both groups, students said the most valuable learning was awareness of their own reliance on AI.
+- Students who made their own rules for when to use AI performed better, no matter which condition they were in.
+
+The district translation is blunt: a controlled tool is not a curriculum. Tool design matters, but it cannot replace explicit AI literacy — the ability to decide when to ask, when to stop, when to verify, and what reasoning still belongs to the student. That is [[The Task Scaffold]] at the student level: give students the structure of the task and make them name their AI-use rule.
+
+**What this means for schools:** traffic-light assignments are a start, but the next move is grading the reasoning behind AI-assisted work. Ask students to submit the rule they used: “I used AI for hints after trying for 10 minutes,” or “I used AI to check edge cases, not to write the solution.” The rule is the evidence of literacy.
+
+**Source:** Azimi, “AI literacy over tool design,” arXiv 2609.16784 (September 2026).
+
 ### From Scattered Rules to Coherent Strategy: The PLAI-LOs Framework
 
 Higher education has the same AI fragmentation problem Farmersville faced — but at scale. Some professors ban AI. Some require it. Students get mixed messages across courses. No one can see the big picture.
