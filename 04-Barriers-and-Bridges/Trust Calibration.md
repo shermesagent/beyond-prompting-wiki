@@ -1,7 +1,7 @@
 ---
 title: Trust Calibration
 created: 2026-07-16
-updated: 2026-09-13
+updated: 2026-09-17
 type: concept
 tags: [barrier, mindset, skill]
 sources:
@@ -259,7 +259,28 @@ For everyday work, that means your calibration routine needs one more line:
 | "This is complete" | The untested-area list |
 | "I recommend" | The evidence that would change the recommendation |
 
-This is not a reason to panic or stop using agents. It is a reason to stop calibrating trust against tone. See [[The Evidence Interface]]: the stronger the AI, the more you should trust the evidence around it rather than the narration inside it.
+This is not a reason to panic or stop using agents. It is a reason to stop calibrating trust against tone. See [[The Evidence Interface]] · [[Procedural Standing]]: the stronger the AI, the more you should trust the evidence around it rather than the narration inside it.
+
+## The Procedure Layer: Trust Needs a Handle
+
+There is a ninth layer that is less glamorous than model capability and more important in real organizations: **procedure**. People do not only ask whether an AI output is right. They ask whether they can challenge it, understand it, appeal it, or route it to someone accountable.
+
+The September 2026 procedure cluster makes this concrete:
+
+- A study on AI refusals found that users prefer genuine answers most, hallucinations second, and refusals last. The safety move backfires when “I can’t answer” leaves the person stranded.
+- A 3,208-person persuasion study found that a short warning — AI can be prompted to persuade and may present information selectively — cut political belief change by about 48%. Identity labels were not enough; mechanism labels helped.
+- An AI hiring study found that job seekers value appeal, opt-out, independent audit, and meaningful human involvement as dignity-preserving procedure, not only as error correction.
+- A federal governance audit found coverage mismatches: policy attention can be thick in some areas while vulnerable sectors and risk types remain under-covered.
+
+**What this means for your thermostat:** calibrated trust now needs a procedural check. Before relying on AI in a consequential workflow, ask: *what handle does the affected person have?* If the answer is “none,” the system may be accurate and still not be trustworthy enough to scale.
+
+Three practical moves:
+
+1. **Refuse with a next step.** “I can’t answer” should be followed by what can be answered, what evidence is missing, and what the user can do next.
+2. **Disclose the mechanism, not just the machine.** “This is AI” is weak. “This AI may persuade, rank, recommend, or refuse” gives people something to watch for.
+3. **Add contestability before autonomy.** Appeal, opt-out, human review, audit receipt, owner name. Pick one handle before you give the system more freedom.
+
+See [[Procedural Standing]] for the 5-minute Contestability Check.
 
 ## The Bottom Line
 

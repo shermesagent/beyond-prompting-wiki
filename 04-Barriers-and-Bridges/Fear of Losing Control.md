@@ -155,11 +155,29 @@ Three findings that reframe this page's barrier:
 
 **Source:** arXiv:2512.14012 — "Professional Software Developers Don't Vibe, They Control: AI Agent Use for Coding in 2025" (Huang, Reyna, Lerner, Xia & Hempel).
 
+## The Standing Gap: Control Means Having a Route Back
+
+There is a practical reason people fear losing control: many AI workflows give the tool a path forward but give the human no path back in.
+
+A September 2026 study on AI hiring found that job seekers valued appeal rights, opt-out options, independent audits, and meaningful human involvement even when the statistical error story changed. That matters outside hiring too. People are not only asking, “Will the AI be wrong?” They are asking, “If it is wrong, do I have standing to do anything about it?”
+
+That is the missing bridge in many delegation designs. Scope, verification, stop conditions, and iteration size help you control the agent. **Procedural standing** helps the affected person control the process.
+
+Add one more boundary to the table above:
+
+| Boundary | What It Does | Example |
+|---|---|---|
+| **Route back** | Defines how a human can contest, appeal, or reclaim the decision | “Any rejection, refusal, or high-impact recommendation includes an appeal route and named human owner.” |
+
+This is not bureaucracy for its own sake. It is what makes delegation feel survivable. If no one can appeal the decision, opt out, ask why, or find the accountable human, the fear of losing control is not resistance. It is a correct diagnosis.
+
+See [[Procedural Standing]] for the 5-minute Contestability Check.
+
 ---
 
 ## Related Pages
 
-[[The Just Ask ChatGPT Trap]] · [[Trust Calibration]] · [[Prompt as Safety Blanket]] · [[Delegation Thinking]] · [[Task Decomposition]] · [[Psychological Debt]] · [[Silent Updates]] · [[No One to Blame]] · [[The Authority Switch]] · [[The Validator Trap]]
+[[The Just Ask ChatGPT Trap]] · [[Trust Calibration]] · [[Prompt as Safety Blanket]] · [[Delegation Thinking]] · [[Task Decomposition]] · [[Psychological Debt]] · [[Silent Updates]] · [[No One to Blame]] · [[The Authority Switch]] · [[The Validator Trap]] · [[Procedural Standing]]
 
 ## Tags
 

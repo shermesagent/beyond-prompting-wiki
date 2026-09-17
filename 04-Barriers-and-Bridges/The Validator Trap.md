@@ -1,7 +1,7 @@
 ---
 title: The Validator Trap
 created: 2026-08-27
-updated: 2026-08-27
+updated: 2026-09-17
 type: concept
 tags: [barrier, mindset, skill, operator, orchestrator]
 sources:
@@ -58,9 +58,28 @@ The through-line: **the validator's judgment is a stock, not a salary.** It's ma
 
 That blank is the trap, and it's fixable — which is the point. If you could start, your validation is probably still grounded. If you couldn't, pick **one** step of that task to produce yourself this week (the first draft, the outline, the data pull). That's your production floor. Do it weekly, and your reviews will tell the difference.
 
+## The Procedure Floor: Validation Needs Standing, Too
+
+The Validator Trap gets sharper when the validator has no real authority. If AI produces the shortlist, draft, ranking, recommendation, or refusal — and the human only rubber-stamps it — “human review” becomes theater.
+
+A September 2026 AI-hiring study makes the point clearly: people valued procedures like appeal, opt-out, independent bias audit, and meaningful human involvement even beyond simple error-rate correction. The procedure itself carried dignity. It told the person, “you still have standing here.”
+
+For validators, that means the Production Floor needs a companion: **the Procedure Floor**.
+
+Before you agree to validate AI-produced work, ask:
+
+1. **Can I change the outcome, or only comment on it?**
+2. **Can the affected person contest my validation?**
+3. **Is there a record of what I checked?**
+4. **Do I have enough production knowledge left to judge the work?**
+
+If the answer to the first two is no, you are not validating. You are laundering the AI decision through a human name. That is exactly the trap this page is trying to help you avoid.
+
+See [[Procedural Standing]] and [[No One to Blame]] for the accountability side of this problem.
+
 ## Related Pages
 
-[[Fear of Losing Control]] · [[Knowledge Debt]] · [[The Just Ask ChatGPT Trap]] · [[Trust Calibration]] · [[02-Key-Concepts/From Author to Editor|From Author to Editor]] · [[02-Key-Concepts/Capacity Dissolution|Capacity Dissolution]] · [[02-Key-Concepts/The Absorption Pattern|The Absorption Pattern]] · [[The Retrievability Gap]]
+[[Fear of Losing Control]] · [[Knowledge Debt]] · [[The Just Ask ChatGPT Trap]] · [[Trust Calibration]] · [[02-Key-Concepts/From Author to Editor|From Author to Editor]] · [[02-Key-Concepts/Capacity Dissolution|Capacity Dissolution]] · [[02-Key-Concepts/The Absorption Pattern|The Absorption Pattern]] · [[The Retrievability Gap]] · [[Procedural Standing]]
 
 ## Tags
 

@@ -1323,3 +1323,13 @@ Theme: **Delegation is a redistribution of consequences — and reliability fail
 - Digest: 00-Daily-Digests/2026-09-16.md (8-section format; Sources Found table present).
 - Quality gates: 5 sources integrated (>=3 ✓); 3 existing Real-World pages deepened + README/Home/02 README navigation (>=2 ✓); 1 new concept page (✓).
 - Sanity checks: sources JSONL parsed at 358 records after append; 5 new raw hashes self-verify; digest sections 8/8; new wikilinks checked with no missing targets.
+
+## 2026-09-17 | Day 4 rotation — Procedural Standing
+- Rotation: Thursday 09-17 = Day 4 / 04-Barriers-and-Bridges. `web_search` returned empty on 2 probes; weekday arXiv RSS returned zero items across cs.AI, cs.HC, and cs.CY, so discovery pivoted to AI Agency Knowledgebase 09-16 procedure-layer digest.
+- Theme: Procedural Standing — people do not only need AI to be accurate; they need a handle to ask why, appeal, opt out, route to a human, or verify that the procedure happened.
+- Sources integrated: 5 (sources 358 → 363): arXiv 2609.16432 AI literacy warning against political persuasion; arXiv 2609.16191 refusal usability; arXiv 2609.16390 procedural dignity in AI hiring; arXiv 2609.16260 governance coverage vs sector vulnerability; Zvi AI #185 Preference Cascade. All raw source summaries created with sha256 frontmatter.
+- Pages created: 04-Barriers-and-Bridges/Procedural Standing — contestability, appeal, opt-out, human route, audit receipt; 5-Minute Add One Handle exercise.
+- Pages updated: Trust Calibration (+Procedure Layer: trust needs a handle); The Just Ask ChatGPT Trap (+dead-end refusals and refusal-as-procedure); Fear of Losing Control (+route-back boundary); The Validator Trap (+Procedure Floor); 04-Barriers-and-Bridges/README and Home navigation updated.
+- Digest: 00-Daily-Digests/2026-09-17.md (8-section format; Sources Found table present).
+- Quality gates: 5 sources integrated (>=3 ✓); 4 existing barrier pages deepened + README/Home navigation (>=2 ✓); 1 new barrier page (✓).
+- Sanity checks: sources JSONL parsed at 363 records after append; 5 new raw hashes self-verify; digest sections 8/8; new wikilinks checked with no missing targets.

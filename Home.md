@@ -48,7 +48,7 @@ Case studies, transformation stories, and honest failure postmortems.
 
 ### [[04-Barriers-and-Bridges/README|04 — Barriers & Bridges]]
 What holds people back — and how to cross.
-→ [[Fear of Losing Control]] · [[The Just Ask ChatGPT Trap]] · [[Psychological Debt]] · [[04-Barriers-and-Bridges/Trust Calibration|Trust Calibration]] · [[Knowledge Debt]] · [[Prompt as Safety Blanket]] · [[Human Readiness Archetypes]] · [[The Engagement Gap]] · [[The Certification Boundary]] · [[Social Thinning]] · [[04-Barriers-and-Bridges/No One to Blame|No One to Blame]] · [[04-Barriers-and-Bridges/The Fabricated Front|The Fabricated Front]] · [[The Validator Trap]] · [[The Retrievability Gap]]
+→ [[Fear of Losing Control]] · [[The Just Ask ChatGPT Trap]] · [[Psychological Debt]] · [[04-Barriers-and-Bridges/Trust Calibration|Trust Calibration]] · [[Knowledge Debt]] · [[Prompt as Safety Blanket]] · [[Human Readiness Archetypes]] · [[The Engagement Gap]] · [[The Certification Boundary]] · [[Social Thinning]] · [[04-Barriers-and-Bridges/No One to Blame|No One to Blame]] · [[04-Barriers-and-Bridges/The Fabricated Front|The Fabricated Front]] · [[The Validator Trap]] · [[The Retrievability Gap]] · [[Procedural Standing]]
 
 ### [[05-Practice/README|05 — Practice]]
 Weekly muscle builders. Concrete exercises that build the orchestrator mindset.
@@ -60,7 +60,7 @@ Plain-language definitions of every key term.
 
 ### 00-Daily-Digests
 Daily curated research digests — what we found, what it means, and how to use it.
-→ [[00-Daily-Digests/2026-09-16|Today's Digest]]
+→ [[00-Daily-Digests/2026-09-17|Today's Digest]]
 
 ---
 
@@ -80,6 +80,7 @@ _Last 7 days of activity._
 
 | Date | What Changed |
 |------|-------------|
+| 2026-09-17 | Day 4 rotation — 04-Barriers-and-Bridges: Daily digest + 5 AI Agency KB 09-16 sources integrated after web_search returned empty on 2 probes and arXiv RSS returned zero items; **1 new barrier page** ([[Procedural Standing]] — the right to ask why, appeal, opt out, route to a human, or verify that a procedure happened) + 4 barrier pages deepened (Trust Calibration, The Just Ask ChatGPT Trap, Fear of Losing Control, The Validator Trap) + 04 README and Home updated. Thursday's question: if this AI workflow goes wrong, what handle does the affected person have? |
 | 2026-09-16 | Day 3 rotation — 03-Real-World: Daily digest + 5 new arXiv sources integrated (web_search empty on 2 probes; weekday arXiv RSS active) + **1 new concept** ([[The Task Scaffold]] — put AI inside the real task structure: checks, stages, missingness questions, readiness signals, and human decision points instead of a blank chat box) + 3 real-world pages deepened (From Prompt to Pipeline, The School District Shift, Small Business Automation) + 03-Real-World README, 02-Key-Concepts README, and Home updated. Wednesday's question: what structure does this task need before AI touches it? |
 | 2026-09-15 | Day 2 rotation — 02-Key-Concepts: Daily digest + 5 AI Agency KB cross-pollinated sources integrated (web_search empty on 2 probes; arXiv RSS returned zero items across cs.AI/cs.HC/cs.CY) + **1 new concept** ([[Sequenced Agency]] — give AI more freedom one evidence-earned rung at a time, with a rollback condition before optimism gets admin privileges) + 5 existing pages deepened (Delegation Thinking, Trust Calibration, Cognitive Load, Cognitive Surrender, The Workflow Lens) + Build a Tiny Pipeline template upgraded with an Autonomy Ladder line + 02-Key-Concepts README and Home updated. Tuesday's question: what proof earns the next rung of autonomy? |
 | 2026-09-14 | Day 1 rotation — 01-The-Shift (Week 12 open): Daily digest + 5 new arXiv sources integrated (web_search empty on 3 probes; weekday arXiv RSS active) + **1 new concept** ([[The Workflow Lens]] — judge AI by the whole work system it changes: intent, action, evidence, recovery, and human growth, not just whether one task got faster) + 5 Shift pages deepened (What Is Beyond Prompting, The Operator Mindset, The Orchestrator Mindset, The Architect Mindset, Why This Matters) + 02-Key-Concepts README and Home updated. Monday's question: did AI improve the workflow, or only the step you were watching? |
