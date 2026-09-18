@@ -1333,3 +1333,13 @@ Theme: **Delegation is a redistribution of consequences — and reliability fail
 - Digest: 00-Daily-Digests/2026-09-17.md (8-section format; Sources Found table present).
 - Quality gates: 5 sources integrated (>=3 ✓); 4 existing barrier pages deepened + README/Home navigation (>=2 ✓); 1 new barrier page (✓).
 - Sanity checks: sources JSONL parsed at 363 records after append; 5 new raw hashes self-verify; digest sections 8/8; new wikilinks checked with no missing targets.
+
+## 2026-09-18 | Day 5 rotation — The Evidence Ticket
+- Rotation: Friday 09-18 = Day 5 / 05-Practice. `web_search` returned empty on 2 probes; weekday arXiv RSS/direct abstract extraction was active, with one AI Agency Knowledgebase 09-17 framing cross-check.
+- Theme: The Evidence Ticket — before AI output leaves your scratch space, require a tiny proof trail: evidence needed, evidence checked, independent roots, skipped evidence, reasoning note, and exact state approved.
+- Sources integrated: 6 (sources 363 → 369): arXiv 2609.17865 SAFE evidence-seeking; arXiv 2609.17695 GraphEcho provenance; arXiv 2609.17631 Publication Authority; arXiv 2609.19420 ICML 2026 LLM peer-review policy experiment; arXiv 2609.19488 Teaching Memory; arXiv 2609.19429 CARES regulation-grounded reporting. All raw source summaries created with sha256 frontmatter.
+- Pages created: 05-Practice/The Evidence Ticket — six-line proof-trail template; 3-Minute Evidence Ticket exercise; exact-state approval habit.
+- Pages updated: Audit Your Prompts (+Policy Reality Check +Reasoning Memory Note); First Delegation (+Evidence Ticket line); Build a Tiny Pipeline (+Independent-Roots Check +Exact-State Handoff); The Daily Standup (+Fifteenth Question — Evidence-Seeking Check); 05-Practice/README and Home navigation updated.
+- Digest: 00-Daily-Digests/2026-09-18.md (8-section format; Sources Found table present).
+- Quality gates: 6 sources integrated (>=3 ✓); 4 existing Practice pages + README/Home updated (>=2 ✓); 1 new practice page (✓).
+- Sanity checks: sources JSONL parsed at 369 records after append; 6 new raw hashes self-verify; digest sections 8/8; new wikilinks checked with no missing targets.

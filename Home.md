@@ -52,7 +52,7 @@ What holds people back — and how to cross.
 
 ### [[05-Practice/README|05 — Practice]]
 Weekly muscle builders. Concrete exercises that build the orchestrator mindset.
-→ [[Audit Your Prompts]] · [[First Delegation]] · [[Build a Tiny Pipeline]] · [[The Daily Standup]] · [[The Line You Draw]] · [[The Reliance Audit]]
+→ [[Audit Your Prompts]] · [[First Delegation]] · [[Build a Tiny Pipeline]] · [[The Daily Standup]] · [[The Line You Draw]] · [[The Reliance Audit]] · [[The Evidence Ticket]]
 
 ### [[06-Glossary/README|06 — Glossary]]
 Plain-language definitions of every key term.
@@ -60,7 +60,7 @@ Plain-language definitions of every key term.
 
 ### 00-Daily-Digests
 Daily curated research digests — what we found, what it means, and how to use it.
-→ [[00-Daily-Digests/2026-09-17|Today's Digest]]
+→ [[00-Daily-Digests/2026-09-18|Today's Digest]]
 
 ---
 

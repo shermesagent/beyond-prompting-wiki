@@ -1,7 +1,7 @@
 ---
 title: First Delegation
 created: 2026-06-26
-updated: 2026-09-04
+updated: 2026-09-18
 type: practice
 tags: [practice, operator, orchestrator]
 confidence: high
@@ -12,6 +12,8 @@ sources:
   - raw/articles/user-permission-policies-agent-overreach-2608.27443.md
   - raw/articles/self-reports-are-not-verification-2609.00652.md
   - raw/articles/omegause-sop-engineering-2609.02149.md
+  - raw/articles/do-frontier-models-seek-safety-evidence-2609.17865.md
+  - raw/articles/cares-regulation-grounded-safety-reporting-2609.19429.md
 ---
 
 # First Delegation
@@ -191,6 +193,27 @@ For every delegation template, name who decides:
 The PEA framework isn't extra overhead. It's a vocabulary for what you're already doing — just more intentionally. The orchestrator who designs Policy, Enforcement, and Authority for every delegation is the one who moves beyond prompting. The one who doesn't is hoping the AI behaves well.
 
 See also: [[The Overassistance Pattern]] · [[The Coaching Stance]] · [[The Scaffold Match]]
+
+## The Evidence Ticket: Ask Before It Acts
+
+Your delegation template already has Goal, Tools, Steps, Success Criteria, and Review Cadence. Add one more line before you trust a delegated output:
+
+```text
+EVIDENCE TICKET:
+  Evidence needed:
+  Evidence checked:
+  Independent roots:
+  Skipped evidence:
+  Exact state approved:
+```
+
+SAFE, a September 2026 benchmark, found that frontier models have different habits around whether they inspect safety-relevant evidence before acting. Some inspect almost by default. Others skip more often when evidence costs time or threatens the deployment payoff. The practice lesson is blunt: **do not assume the agent looked. Require the ticket.**
+
+CARES, a regulation-grounded safety reporting system, shows the friendlier version: keep the relevant sources and the evolving report visible side by side, so the human can correct the output while the evidence is still on the table.
+
+For a first delegation, the ticket can be tiny. One source checked is better than a confident summary with no proof trail.
+
+See [[The Evidence Ticket]] for the full exercise.
 
 ## Common Pitfalls
 

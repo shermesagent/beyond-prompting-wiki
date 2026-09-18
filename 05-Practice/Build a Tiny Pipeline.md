@@ -1,7 +1,7 @@
 ---
 title: Build a Tiny Pipeline
 created: 2026-06-27
-updated: 2026-09-15
+updated: 2026-09-18
 type: practice
 tags: [practice, orchestrator, workflow]
 confidence: high
@@ -15,6 +15,8 @@ sources:
   - raw/articles/openai-devin-tests-work-with-astra-2026-09-11.md
   - raw/articles/openai-data-agent-put-data-to-work-2026-09-10.md
   - raw/articles/arxiv-2609.12273-synthetic-tlx-workload-forecasting.md
+  - raw/articles/graphecho-evidence-provenance-2609.17695.md
+  - raw/articles/publication-authority-challengeable-claims-2609.17631.md
 ---
 
 # Build a Tiny Pipeline
@@ -397,6 +399,37 @@ EVIDENCE INTERFACE:
 This is the tiny-pipeline version of [[The Evidence Interface]]. OpenAI's Devin/Astra case study is vendor-framed, but the interface pattern is useful: return simulator recordings, test reports, and explicit untested areas. The Data agent announcement points the same direction for analysis work: dashboards should expose definitions, data sources, permissions, and caveats.
 
 **Try it on your next two-step workflow:** after Step 1, require one visible artifact before Step 2 can use the output. For a research step, that might be source links. For a spreadsheet step, it might be the formula or query. For a writing step, it might be a claim-to-source list. If the handoff carries no evidence, downstream steps are building on vibes.
+
+## The Independent-Roots Check
+
+A pipeline can look well-supported while quietly repeating the same evidence. GraphEcho shows the failure pattern: an agent can follow more graph paths without collecting more independent evidence. Ten routes can still be one root.
+
+Add this line to the HANDOFF section:
+
+```text
+INDEPENDENT ROOTS:
+  How many separate origins support this handoff? Count source roots, not links.
+```
+
+If Step 1 hands Step 2 five citations that all trace back to one press release, write `1 root`, not `5 sources`. That is not a failure. It is calibration. Step 2 now knows whether it is building on corroboration or an echo.
+
+## The Exact-State Handoff
+
+Publication Authority research names a second pipeline problem: the evidence, analysis, approval, and final surface can refer to different states. In plain English: you approved draft 3, but draft 4 shipped; the chart used data from Tuesday, but the source link points to Wednesday; the screenshot proves a version nobody saw.
+
+Before a pipeline output leaves your control, freeze the state:
+
+```text
+EXACT STATE:
+  Input version:
+  Output version:
+  Evidence version:
+  Human approval version:
+```
+
+This is not legal bureaucracy. It is the difference between “I approved something like this” and “I approved this.”
+
+See also [[The Evidence Ticket]] and [[The Evidence Interface]].
 
 ## What Comes Next
 

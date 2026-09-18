@@ -15,6 +15,7 @@ This is where the operator→orchestrator shift stops being something you read a
 | 2 | [[First Delegation]] | 10 min | Pick one recurring task and design a real agent workflow for it |
 | 3 | [[Build a Tiny Pipeline]] | 10 min | Chain two tasks together and watch them run without you |
 | 4 | [[The Reliance Audit]] | 10 sec/day + 10 min | Tally every reliance for a week, grade it against three questions, and get a number you can defend |
+| 5 | [[The Evidence Ticket]] | 3 min | Require one short proof trail before AI output leaves your scratch space |
 
 ## Ongoing Practice
 
@@ -35,6 +36,9 @@ The orchestration leap. You take two tasks that normally happen in sequence and 
 
 ### Week 4 — The Reliance Audit
 You've built pipelines — now check what you actually rely on. Week 4 is a week-long tally: every time you act on an AI answer, grade it against three questions (humility, access, justice). The output is a defensible number — how much of your reliance is warranted versus habit. It's the practice-layer companion to [[02-Key-Concepts/Trust Calibration|Trust Calibration]], and it includes the Stance-Reversal Probe (sycophancy base rates run 5–56% across models, arXiv:2608.05624) and the Random-Guy Test (30,000+ people asked "a random guy" chatbot for real advice in 2026 — with no AI behind it at all). Re-run it for one week each quarter.
+
+### Week 5 — The Evidence Ticket
+As your workflows become useful enough to rely on, add a proof trail. [[The Evidence Ticket]] asks six small questions before AI output leaves your scratch space: what evidence was needed, what was checked, whether the sources are independent, what was skipped, what reasoning you preserved, and what exact state you approved. This is the practice-layer bridge from “the output looks good” to “someone else could inspect what happened.”
 
 ## Beyond the Three-Week Progression
 

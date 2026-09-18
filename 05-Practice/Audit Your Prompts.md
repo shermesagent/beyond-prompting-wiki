@@ -1,7 +1,7 @@
 ---
 title: Audit Your Prompts
 created: 2026-06-27
-updated: 2026-08-23
+updated: 2026-09-18
 type: practice
 tags: [practice, operator]
 confidence: high
@@ -10,6 +10,8 @@ sources:
   - raw/papers/authorship-calibration-2607.15006.md
   - raw/articles/credible-not-always-correct-2608.13369.md
   - raw/articles/delegating-or-doing-hybrid-interfaces-2608.19551.md
+  - raw/articles/llms-in-peer-review-icml-2026-2609.19420.md
+  - raw/articles/teaching-memory-instructional-reasoning-2609.19488.md
 ---
 
 # Audit Your Prompts
@@ -371,6 +373,39 @@ The audit's categories classify what you delegate and how you verify it. There's
 The audit tells you *what* you hand over and *how* you check it. The provenance check tells you *how much of what you shipped is actually yours* — and whether "I edited it" means you chose, or you kept. High AI-choice share on work you claim isn't a sin; it's a calibration fact.
 
 See also: [[02-Key-Concepts/The Provenance Principle|The Provenance Principle]] · [[From Author to Editor]] · [[The Absorption Pattern]]
+
+## Beyond Categories: The Policy Reality Check
+
+Your audit should compare three things: what the rule says, what you actually did, and what evidence remains.
+
+A randomized ICML 2026 peer-review study involving more than 24,000 papers and 17,000 reviewers found that policy language alone barely changed review outcomes. Reviews under permissive LLM rules were only 5.5–7% longer, and final decisions, scores, and confidence barely moved. The uncomfortable part was behavior: 22.5% of reviewers under a no-LLM policy reported using one anyway, and 36.5% under a permissive policy reported at least one use that the policy explicitly disallowed.
+
+### The Check (2 min)
+
+Add three columns to your next prompt audit:
+
+| Task | What the rule says | What I actually did | Evidence left behind |
+|---|---|---|---|
+| Example: drafted summary | AI allowed for draft only | Used AI to draft and revise | Version history + final edits |
+
+The point is not shame. The point is reality. A policy you do not compare against behavior is decoration.
+
+## Beyond Categories: Save the Reasoning, Not Just the Output
+
+Teaching Memory research makes a simple point that applies far beyond classrooms: artifacts travel better than reasoning. A lesson, report, email, or spreadsheet may get passed to the next person, but the intention, constraints, context, and reflective choices that shaped it disappear.
+
+### The Reasoning Memory Note (60 sec)
+
+For any AI output you might reuse, save four lines:
+
+```text
+INTENT: Why did I ask for this?
+CONTEXT: What situation shaped the answer?
+CHANGES: What did I accept, change, or reject?
+REUSE WARNING: What should future-me know before reusing it?
+```
+
+This pairs with [[The Evidence Ticket]]. Evidence says what the work rested on. Reasoning memory says why you made the choices you made.
 
 ## Related Pages
 

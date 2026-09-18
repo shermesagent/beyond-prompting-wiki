@@ -1,7 +1,7 @@
 ---
 title: The Daily Standup
 created: 2026-06-27
-updated: 2026-09-13
+updated: 2026-09-18
 type: practice
 tags: [practice, orchestrator, workflow, mindset]
 confidence: high
@@ -18,6 +18,8 @@ sources:
   - raw/articles/llm-judges-as-raters-2608.29517.md
   - raw/articles/wired-strogatz-ai-math-breakthroughs-2026-09-12.md
   - raw/articles/wired-claude-misuse-everywhere-2026-09-12.md
+  - raw/articles/do-frontier-models-seek-safety-evidence-2609.17865.md
+  - raw/articles/llms-in-peer-review-icml-2026-2609.19420.md
 ---
 
 # The Daily Standup
@@ -403,6 +405,21 @@ FOURTEENTH QUESTION — EVIDENCE INTERFACE:
 This question matters because advanced AI work is moving faster than ordinary review. The Strogatz math interview captures the human-side version: when AI can produce or accelerate work faster than experts can digest it, the human role shifts toward proof digestion — deciding what the result means, what remains uncertain, and whether the evidence is good enough to act on. The Claude misuse reporting thread adds the darker version: live systems need detection and interruption rhythms, not just pre-launch promises.
 
 The practice version is simple: one standup line per consequential run. If the evidence is weak, today's fix is not "trust less." Today's fix is to change the workflow so tomorrow's agent leaves better evidence.
+
+## The Fifteenth Question — The Evidence-Seeking Check
+
+The standup asks what evidence the AI left behind. Add one sharper question: **did the AI go looking for the evidence it needed before it acted?**
+
+SAFE shows that evidence-seeking is a behavior, not a guarantee. Models differ in whether they inspect before acting, and retrieval friction can push them toward skipping. The ICML peer-review experiment adds the human version: stated policy does not reliably describe actual practice. So your standup needs to track both the AI's inspection and your own use.
+
+```text
+FIFTEENTH QUESTION — EVIDENCE-SEEKING:
+  - What evidence did this workflow need before acting?
+  - Did the AI actually inspect it, or did it proceed from context and confidence?
+  - Did my actual AI use match the policy/template I claimed to follow?
+```
+
+If the answer is “it did not look,” today's fix is simple: add an evidence ticket before that workflow runs again.
 
 ## Common Pitfalls
 
