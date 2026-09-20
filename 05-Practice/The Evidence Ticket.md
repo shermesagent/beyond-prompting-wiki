@@ -1,7 +1,7 @@
 ---
 title: The Evidence Ticket
 created: 2026-09-18
-updated: 2026-09-18
+updated: 2026-09-20
 type: practice
 tags: [practice, orchestrator, workflow]
 confidence: high
@@ -97,7 +97,7 @@ That is enough for future-you or a colleague to understand what happened without
 
 ## Related Pages
 
-[[Build a Tiny Pipeline]] · [[First Delegation]] · [[The Daily Standup]] · [[The Evidence Interface]] · [[The Review-First Pattern]] · [[Trust Calibration]]
+[[Build a Tiny Pipeline]] · [[First Delegation]] · [[The Daily Standup]] · [[The Evidence Interface]] · [[The Review-First Pattern]] · [[Trust Calibration]] · [[The Translation Layer]]
 
 ## Tags
 

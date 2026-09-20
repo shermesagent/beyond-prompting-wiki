@@ -66,6 +66,7 @@ You don't need to read them in order. Jump to whichever title grabs you. But if 
 54. [[The Workflow Lens]] — the habit of judging AI by the whole work system it changes: intent, action, evidence, recovery, and human growth — not just whether one task got faster.
 55. [[Sequenced Agency]] — the autonomy ladder: give AI more freedom only when evidence earns the next rung, and define what failure moves it back down.
 56. [[The Task Scaffold]] — the structure around an AI interaction that helps the human and AI build the real work together: checklist, workflow, rubric, missingness pass, or readiness signal.
+57. [[The Translation Layer]] — the bridge from impressive AI capability to usable workflow: interface, trusted data, permissions, review habits, and evidence trails that normal people can actually use.
 
 ---
 
@@ -139,6 +140,7 @@ They came out of real research — papers on human-AI collaboration, case studie
 | [[The Workflow Lens]] | Is this AI improving the whole workflow — control, recovery, learning, and purpose — or just speeding up one step? | Orchestrator → Architect |
 | [[Sequenced Agency]] | What evidence earns the next level of AI autonomy — and what failure moves it back down? | Orchestrator → Architect |
 | [[The Task Scaffold]] | What structure does this task need before AI touches it? | Operator → Orchestrator |
+| [[The Translation Layer]] | What turns AI capability into a workflow normal people can trust, inspect, and repeat? | Orchestrator |
 
 ---
 

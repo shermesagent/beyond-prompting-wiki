@@ -1343,3 +1343,12 @@ Theme: **Delegation is a redistribution of consequences — and reliability fail
 - Digest: 00-Daily-Digests/2026-09-18.md (8-section format; Sources Found table present).
 - Quality gates: 6 sources integrated (>=3 ✓); 4 existing Practice pages + README/Home updated (>=2 ✓); 1 new practice page (✓).
 - Sanity checks: sources JSONL parsed at 369 records after append; 6 new raw hashes self-verify; digest sections 8/8; new wikilinks checked with no missing targets.
+
+## 2026-09-20 | Day 7 cross-section — The Translation Layer
+- Rotation: Sunday 09-20 = Day 7 / cross-section linking. `web_search` returned empty on 3 probes; Sunday arXiv skipped per runbook, so discovery pivoted to AI Agency Knowledgebase 09-19 cross-pollination.
+- Theme: The Translation Layer — AI only matters when people can use it: interface, trusted data, permissions, review habits, evidence trails, and workflows that do not require anyone to become an AI hobbyist first.
+- Sources integrated: 5 (sources 369 → 374): Google AI & Economy ATLAS; Google / UN System Data Commons; Google Flow Fashion Week; Simon Willison / Thomas Ptacek on writing with LLMs; Stratechery on agents as UI. Raw source summaries created with sha256 frontmatter.
+- Pages created: 02-Key-Concepts/The Translation Layer — bridge from AI capability to usable workflow; 5-Minute Translation-Layer Audit; rule: capability is not adoption until it is translated.
+- Pages updated: The Workflow Lens (+Translation Question); From Prompt to Pipeline (+make the pipeline usable by normal people); Communication Primitives (+When the Interface Disappears); The Evidence Ticket (+translation-layer cross-link); 02-Key-Concepts/README and Home navigation updated.
+- Digest: 00-Daily-Digests/2026-09-20.md (8-section format; Sources Found table present).
+- Quality gates: 5 sources integrated (>=3 ✓); 4 existing pages + README/Home updated (>=2 ✓); 1 new concept page (✓).

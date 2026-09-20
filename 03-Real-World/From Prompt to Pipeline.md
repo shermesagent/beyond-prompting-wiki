@@ -388,6 +388,15 @@ Three practical translations for anyone running a pipeline:
 
 ---
 
+
+## The Translation Layer: Make the Pipeline Usable by Normal People
+
+Mara's pipeline worked because it translated AI capability into a routine she could actually live with. It did not ask her to become an AI researcher. It gave her one topic input, one output folder, one review pass, and a clear place for uncertainty.
+
+That is the difference between a demo and a workflow. Google's ATLAS data shows the same pattern at larger scale: AI can save scientists time, but the new bottleneck becomes validation and follow-through. Google Flow's fashion-week case shows it in creative work: the value is not “AI has taste.” The value is cheaper rehearsal before physical production. Willison and Ptacek's writing rule shows it at the sentence level: use AI to copyedit, but do not borrow its phrases. Keep the human choice visible.
+
+For your own pipeline, ask the translation-layer question before you add another feature: **would a normal person know what to do next, what to check, and what not to delegate?** If not, make the path clearer before making the agent stronger. See [[The Translation Layer]].
+
 ## You Can Do This Too
 
 You don't need to be a developer. You don't need an expensive platform. You need three things:
@@ -404,7 +413,7 @@ The first time you come back to a completed draft you didn't micromanage, someth
 
 ## Related Pages
 
-[[The School District Shift]] · [[Task Decomposition]] · [[Delegation Thinking]] · [[Trust Calibration]] · [[From Author to Editor]] · [[Doom Researching]] · [[Memory as Infrastructure]] · [[Intent Scaffolding]] · [[The Observability Gap]] · [[02-Key-Concepts/Accountable Translation|Accountable Translation]] · [[03-Real-World/README|03 — Real World Stories]]
+[[The School District Shift]] · [[Task Decomposition]] · [[Delegation Thinking]] · [[Trust Calibration]] · [[From Author to Editor]] · [[Doom Researching]] · [[Memory as Infrastructure]] · [[Intent Scaffolding]] · [[The Observability Gap]] · [[02-Key-Concepts/Accountable Translation|Accountable Translation]] · [[The Translation Layer]] · [[03-Real-World/README|03 — Real World Stories]]
 
 ## Tags
 

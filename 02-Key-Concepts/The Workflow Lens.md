@@ -1,7 +1,7 @@
 ---
 title: The Workflow Lens
 created: 2026-09-14
-updated: 2026-09-15
+updated: 2026-09-20
 type: concept
 tags: [concept, workflow, orchestrator, architect]
 sources:
@@ -11,6 +11,8 @@ sources:
   - raw/papers/arxiv-2609-12097-maia-intent-articulation.md
   - raw/articles/lausd-ai-moratorium-sequenced-access-2026-09-04.md
   - raw/articles/professional-task-structure-ai-workflows-2609.16482.md
+  - raw/articles/google-ai-economy-atlas-2026-09-15.md
+  - raw/articles/stratechery-salesforce-agents-as-ui-2026-09-16.md
 confidence: high
 ---
 
@@ -69,9 +71,20 @@ After the 5-box sweep, add two questions:
 
 That forward/backward pair keeps the workflow honest. It turns "this seems to work" into a small governance system.
 
+
+## The Translation Question
+
+The workflow lens now has a companion question: **what has to be translated before normal people can use this?** [[The Translation Layer]] is the bridge between capability and daily practice.
+
+Google's AI & Economy ATLAS is a useful reminder that adoption is not one number. AI use differs by occupation and geography, and scientists who save hours with AI still face slower downstream bottlenecks: validation, physical experimentation, clinical follow-through, and review. Speed in one step exposes the next constraint.
+
+The same lesson appears in the headless-agent trend: if agents become the interface, the old screen no longer carries the user's sense of control. The workflow has to translate action into visible permissions, logs, source links, stop conditions, and review points. Otherwise the work may be faster, but the human is less able to see what happened.
+
+Add one line to the 5-box sweep: **Translation — could someone use this workflow without being an AI hobbyist?** If the answer is no, the model is not the problem yet. The translation layer is.
+
 ## Related Pages
 
-[[What Is Beyond Prompting]] · [[The Orchestrator Mindset]] · [[The Architect Mindset]] · [[The Evidence Interface]] · [[Intent Scaffolding]] · [[Sequenced Agency]] · [[The Task Scaffold]]
+[[What Is Beyond Prompting]] · [[The Orchestrator Mindset]] · [[The Architect Mindset]] · [[The Evidence Interface]] · [[Intent Scaffolding]] · [[Sequenced Agency]] · [[The Task Scaffold]] · [[The Translation Layer]]
 
 ## Tags
 

@@ -54,9 +54,16 @@ Pick one recurring AI workflow and draw four boxes:
 
 If any box is blank, do not add more autonomy yet. Add the missing channel first.
 
+
+## When the Interface Disappears
+
+The headless-agent trend makes communication primitives more important, not less. If agents become the interface — acting through workflows instead of waiting behind a visible screen — people still need to know where the work is logged, what permissions were used, what source data was touched, and how to stop the run.
+
+That is the communication side of [[The Translation Layer]]. A workflow is not translated for real people until the agent's communication channels are visible enough for a non-expert to follow: where it asks, where it logs, where it challenges, and where a human can pull the brake.
+
 ## Related Pages
 
-[[Agent]] · [[Autonomy]] · [[Oversight]] · [[Human in the Loop]] · [[Overcompliance]] · [[The Review-First Pattern]] · [[The Disclosure Clock]] · [[From Prompt to Pipeline]]
+[[Agent]] · [[Autonomy]] · [[Oversight]] · [[Human in the Loop]] · [[Overcompliance]] · [[The Review-First Pattern]] · [[The Disclosure Clock]] · [[From Prompt to Pipeline]] · [[The Translation Layer]]
 
 ## Tags
 
