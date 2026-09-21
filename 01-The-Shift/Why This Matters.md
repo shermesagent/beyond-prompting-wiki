@@ -120,6 +120,16 @@ Occamy-1.0 (arXiv:2609.11977) points to the same shift from the model side: prac
 
 The reason this wiki exists is not to make people better prompt typists. It is to help people design work so AI expands agency instead of quietly draining it. The whole workflow is the leverage. See [[02-Key-Concepts/The Workflow Lens|The Workflow Lens]].
 
+## Capability Without Handles Is Enclosure (September 2026)
+
+The biggest reason this shift matters is not that AI will become more capable. It will. The harder question is whether ordinary people and organizations can still inspect, steer, and benefit from that capability.
+
+MIT Technology Review's September infrastructure coverage frames the data-center boom as a trillion-dollar bet whose risks can spill into utilities, communities, pensions, and local power planning. That is not a prompt-engineering issue. It is an agency issue: who owns the infrastructure, who pays for failure, and who gets to exit?
+
+The same logic applies at human scale. A school AI tool that flags risk without a follow-up path creates anxiety. A workplace agent that acts without logs creates cleanup work. A civic-data assistant without source provenance creates spreadsheet mythology with a nicer interface.
+
+So the real promise of moving beyond prompting is not “AI does more.” It is **humans gain more usable agency because the system has handles.** Leverage without handles becomes enclosure. Leverage with handles becomes capability. See [[The Control Surface]].
+
 ## Try This
 
 **The Leverage Ratio Check.** Calculate your "AI leverage ratio" for this week. Count how many minutes you spent directly interacting with AI versus how many minutes of work the AI actually produced. If you prompted for 90 minutes and got 90 minutes of output, your ratio is 1:1. If you prompted for 30 minutes and got 3 hours of output, your ratio is 1:6. Write that number down. Next week, try to double it — not by working harder, but by moving one task from operator mode to orchestrator mode.

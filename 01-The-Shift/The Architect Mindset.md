@@ -140,6 +140,22 @@ Architect translation: **the system is bigger than the model and smaller than th
 
 This extends [[02-Key-Concepts/The Workflow Lens|The Workflow Lens]] into architecture: design the boundary you can own. The model will change. The harness and workflow are where your judgment compounds.
 
+## The Control Surface Is the Architecture (September 2026)
+
+For architects, the control surface is not a safety add-on. It is the system.
+
+MIT Technology Review's infrastructure analysis makes the point outside software: AI scale is now tied to data centers, utilities, ratepayers, financing, and public risk. Google's health examples make the point inside high-stakes workflows: detection is only useful when follow-up, privacy, evidence, and accountability exist around it. The same pattern holds everywhere agents operate. Capability is the engine. The control surface is the steering, brakes, dashboard, insurance card, and maintenance log.
+
+Architects design those surfaces deliberately:
+
+- **Inspection:** What can a human see after the system acts?
+- **Steering:** Where can a human redirect the system before damage compounds?
+- **Payment:** Who carries cost, cleanup, reputational damage, or civic exposure?
+- **Exit:** How does a user, team, or organization leave the system without losing its work?
+- **Disclosure:** Who gets told when the system crosses a boundary?
+
+A workflow without these answers may still be impressive. It is not yet architecture. See [[The Control Surface]], [[The Disclosure Clock]], and [[The Authority Switch]].
+
 ## How to Spot It in Your Day
 
 You are thinking like an architect when:

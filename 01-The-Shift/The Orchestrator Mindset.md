@@ -219,6 +219,24 @@ MAIA (arXiv:2609.12097) gives the positive pattern: use agents upstream to help 
 
 The orchestrator's upgraded question: **does this workflow leave the human more capable after the handoff?** If the answer is no, you may have automation, but you do not yet have augmentation. See [[02-Key-Concepts/The Workflow Lens|The Workflow Lens]].
 
+## The Control Surface: Autonomy Needs Handles (September 2026)
+
+The orchestrator gives AI permission to make intermediate decisions. That is the whole leverage move. But permission without handles turns delegation into disappearance.
+
+This week's sources sharpen the orchestrator's rule: **the control surface must grow with the autonomy surface.** If an agent can act, it needs a log. If it can spend, it needs a budget. If it can affect people, it needs a human route. If it can screen or recommend, it needs an evidence threshold and a follow-up path.
+
+Use this before expanding a workflow:
+
+| New autonomy | Required handle |
+|---|---|
+| The AI can choose sources | Source list + skipped-source note |
+| The AI can make a recommendation | Criteria + evidence that would change the recommendation |
+| The AI can contact someone | Approval gate + exact message preserved |
+| The AI can touch money, records, or public output | Owner + rollback path + incident note |
+| The AI can keep running without you | Stop condition + log review rhythm |
+
+The orchestrator's job is not to watch every step. It is to make sure the steps leave enough evidence that watching every step is unnecessary. See [[The Control Surface]] and [[The Evidence Interface]].
+
 ## How to Spot It in Your Day
 
 You are orchestrating when:

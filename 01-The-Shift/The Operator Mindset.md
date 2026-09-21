@@ -160,6 +160,16 @@ For an operator, this is the new copy-paste trap. The agent finishes, writes a p
 
 The operator move is not paranoia. It is a small distinction: **read the summary, then check one trace.** A trace can be a diff, a log, a source list, a screenshot, a test result, or a timestamped action record. If there is no trace, keep the work in draft mode. See [[02-Key-Concepts/The Evidence Interface|The Evidence Interface]] for the proof layer this builds toward.
 
+## The First Handle: Don't Add Autonomy Until You Can See It (September 2026)
+
+Operators often feel safest because they are close to the work. Every prompt is visible. Every response appears on screen. That closeness is useful — but it can hide the next growth step.
+
+The move out of operator mode is not “let the AI do more and hope.” It is “add one handle before adding one freedom.” MIT Technology Review's risk coverage and Google's public-impact examples point to the same practice: useful AI systems need logs, stop conditions, human review, and evidence that someone besides the model can inspect.
+
+For an operator, the first handle is tiny: before you let an AI workflow do one more thing without you, decide what trace it must leave. A source list. A diff. A screenshot. A test result. A short [[The Evidence Ticket]]. Once you can see the work after it happens, you are ready to delegate a little more.
+
+That is the non-scary path out of operator mode: not blind trust, not total control — one visible handle at a time. See [[The Control Surface]].
+
 ## Try This
 
 Pick one task you do with AI at least twice a week. Write down every step you take — every prompt, every edit, every check. Now ask: which of those steps are truly judgment calls, and which are mechanical sequences you could teach someone else? The mechanical ones are your first candidates for delegation. Circle them.

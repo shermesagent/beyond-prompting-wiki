@@ -141,6 +141,14 @@ For this wiki, the practical translation is simple: **beyond prompting begins wh
 
 MAIA (arXiv:2609.12097) shows the same idea at the front end of work. In art commissions, the system did not jump straight to making the artifact. It helped people articulate intent under a “verification over invention” rule, with a validator gate blocking unapproved content. That is beyond prompting in miniature: help the human form the goal before the machine executes the goal.
 
+## The Control Surface: Power Needs Handles (September 2026)
+
+The newest risk and infrastructure sources add a simple guardrail to the whole beyond-prompting shift: **more capability requires more handles.** MIT Technology Review's recent risk coverage is useful because it separates real concerns from theater and keeps asking what controls follow: monitoring, disclosure, autonomy limits, red-team evidence, and human-readable proof.
+
+Google's health and societal-impact examples show the positive version. AI-assisted screening can find risks earlier. Weather and science systems can widen access to information. But none of that replaces the human system around the signal: follow-up, privacy, evidence thresholds, treatment capacity, and someone accountable for what happens next.
+
+So the shift is not “trust the AI more.” It is **delegate only as far as the control surface reaches.** If you cannot see what happened, stop it, appeal it, reverse it, or explain who owns the consequence, you have not moved beyond prompting. You have moved beyond visibility. See [[The Control Surface]].
+
 ## Try This
 
 Open your most-used AI tool right now. Instead of asking it to do something, give it a goal and a constraint. Say: "I need a report on X. Figure out what information you need, collect it, and produce a one-page summary. Ask me clarifying questions only if you absolutely must." Notice how different that feels — and how much more you get back.

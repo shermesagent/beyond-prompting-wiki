@@ -1352,3 +1352,12 @@ Theme: **Delegation is a redistribution of consequences — and reliability fail
 - Pages updated: The Workflow Lens (+Translation Question); From Prompt to Pipeline (+make the pipeline usable by normal people); Communication Primitives (+When the Interface Disappears); The Evidence Ticket (+translation-layer cross-link); 02-Key-Concepts/README and Home navigation updated.
 - Digest: 00-Daily-Digests/2026-09-20.md (8-section format; Sources Found table present).
 - Quality gates: 5 sources integrated (>=3 ✓); 4 existing pages + README/Home updated (>=2 ✓); 1 new concept page (✓).
+
+## 2026-09-21 | Day 1 rotation — The Control Surface
+- Rotation: Monday 09-21 = Day 1 / 01-The-Shift. `web_search` returned empty on 2 probes; weekday arXiv RSS returned zero items across cs.AI, cs.HC, and cs.CY, so discovery pivoted to AI Agency Knowledgebase 09-20 control-surface digest.
+- Theme: The Control Surface — AI gets useful when humans have handles: logs, permissions, stop conditions, owners, evidence, budgets, escalation paths, and exit routes.
+- Sources integrated: 5 (sources 374 → 379): MIT Technology Review on AI doomer turn / transparency; MIT Technology Review on trillion-dollar infrastructure economics; MIT Technology Review AI risk Q&A; Google Building AI to accelerate science and improve lives; Google AI for Societal Impact. Raw source summaries created with sha256 frontmatter.
+- Pages created: 02-Key-Concepts/The Control Surface — inspect, steer, pause, correct, and pay attention to AI systems; 5-Minute Control-Surface Audit.
+- Pages updated: What Is Beyond Prompting (+Power Needs Handles); The Operator Mindset (+First Handle); The Orchestrator Mindset (+autonomy-to-handle table); The Architect Mindset (+control surface as architecture); Why This Matters (+capability without handles is enclosure); 02-Key-Concepts/README and Home navigation updated.
+- Digest: 00-Daily-Digests/2026-09-21.md (8-section format; Sources Found table present).
+- Quality gates: 5 sources integrated (>=3 ✓); 5 existing Shift pages + README/Home updated (>=2 ✓); 1 new concept page (✓).
