@@ -1,7 +1,7 @@
 ---
 title: The Control Surface
 created: 2026-09-21
-updated: 2026-09-21
+updated: 2026-09-22
 type: concept
 tags: [concept, workflow, orchestrator, architect]
 sources:
@@ -10,6 +10,8 @@ sources:
   - raw/articles/mittr-could-ai-kill-us-qa-2026-09-18.md
   - raw/articles/google-building-ai-science-lives-2026-09-15.md
   - raw/articles/google-ai-for-societal-impact-2026-09-15.md
+  - raw/articles/law-of-stop-agentic-ai-2609.22882.md
+  - raw/articles/anticipatory-human-oversight-agentic-ai-2609.24242.md
 confidence: medium
 ---
 
@@ -58,9 +60,28 @@ Pick one AI workflow you use or supervise. Answer five questions:
 
 If #2 or #3 is blank, do not add more autonomy yet. Add a handle first.
 
+## The Stop Is a Practice, Not a Button (New, September 2026)
+
+Oren Perez's “Law of Stop” paper (arXiv:2609.22882) sharpens yesterday's control-surface rule: interruption is not just a technical feature. It is a practice made of four pieces:
+
+1. **Technical affordance** — can the system actually be paused or halted?
+2. **Interruption authority** — who is allowed to stop it?
+3. **Epistemic trigger** — what evidence activates the stop?
+4. **Epistemic standing** — whose concern counts as valid enough to trigger review?
+
+The paper's blunt finding: in AI incident records, missing stops were often legal or procedural, not technical. The button can exist while no one has authority, evidence access, or standing to use it.
+
+## Oversight Starts Before the Agent Acts
+
+Baum, Kiener, Langer, and Laux (arXiv:2609.24242) add the companion idea: reactive oversight is too late for long-horizon agents. If you inspect every action, you defeat the point of autonomy. If you only inspect the final pattern, cumulative harm may already be baked in.
+
+Their answer is **anticipatory oversight**: set the agenda before the agent acts, then refine it through specification, runtime, and inspection. For everyday workflows, that means writing the “what good looks like / what must not happen / when to escalate” rule before you start the agent, not after you dislike the output.
+
+See also: [[Metacognitive Demand]] · [[Sequenced Agency]] · [[Procedural Standing]]
+
 ## Related Pages
 
-[[What Is Beyond Prompting]] · [[The Orchestrator Mindset]] · [[The Architect Mindset]] · [[The Workflow Lens]] · [[The Translation Layer]] · [[The Evidence Interface]] · [[The Evidence Ticket]] · [[Procedural Standing]]
+[[What Is Beyond Prompting]] · [[The Orchestrator Mindset]] · [[The Architect Mindset]] · [[The Workflow Lens]] · [[The Translation Layer]] · [[The Evidence Interface]] · [[The Evidence Ticket]] · [[Procedural Standing]] · [[Metacognitive Demand]]
 
 ## Tags
 

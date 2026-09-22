@@ -1,10 +1,10 @@
 ---
 title: Trust Calibration
 created: 2026-06-21
-updated: 2026-09-15
+updated: 2026-09-22
 type: concept
 tags: [concept, barrier, orchestrator]
-sources: [raw/articles/accurate-but-not-confident-acm-2026.md, raw/articles/automation-boundaries-2026.md, raw/articles/perceived-system-predictability-2607.05674.md, raw/articles/faster-ai-uneven-frontier-2607.12125.md, raw/articles/how-agentic-is-agentic-commerce-2607.12575.md, raw/articles/calibrating-trustworthiness-education-2608.04006.md, raw/articles/transparency-trap-disclaimers-2608.07493.md, raw/articles/wearing-trust-wearables-2608.08856.md, raw/articles/rating-the-pitch-expectations-2607.05113.md, raw/articles/govtech-utah-edtech-privacy-audit-2026-09-04.md]
+sources: [raw/articles/accurate-but-not-confident-acm-2026.md, raw/articles/automation-boundaries-2026.md, raw/articles/perceived-system-predictability-2607.05674.md, raw/articles/faster-ai-uneven-frontier-2607.12125.md, raw/articles/how-agentic-is-agentic-commerce-2607.12575.md, raw/articles/calibrating-trustworthiness-education-2608.04006.md, raw/articles/transparency-trap-disclaimers-2608.07493.md, raw/articles/wearing-trust-wearables-2608.08856.md, raw/articles/rating-the-pitch-expectations-2607.05113.md, raw/articles/govtech-utah-edtech-privacy-audit-2026-09-04.md, raw/articles/explanation-navigator-leaky-explanations-2609.22707.md]
 confidence: high
 ---
 
@@ -252,6 +252,16 @@ For orchestrators, the check is simple:
 - **What happens if behavior changes?** Alert, pause, rollback, review gate.
 
 This is where [[Sequenced Agency]] and [[The Evidence Interface]] meet: more access is earned by observable behavior, not confidence in the promise.
+
+### The Explanation Scope Check: Clear Does Not Mean Complete (New, September 2026)
+
+Explanations can create a special calibration trap: they feel like understanding even when they leave out the detail needed to answer your real question. Xuan, Sokol, and Hettiachchi (arXiv:2609.22707) call these **leaky explanations** — simplified explanations whose correct use still depends on hidden complexity.
+
+In interviews, people often filled in the missing pieces themselves and treated the guess as if the explanation had supplied it. Their Explanation Navigator framework helped users notice when their question was outside the explanation's scope and either supplied the missing context or redirected them to a better explanation. In an online study with 316 participants, that guidance helped people correct confabulated understanding.
+
+The orchestrator habit: whenever an AI explains something, ask one extra question — **what does this explanation not cover?** That one question keeps the explanation from quietly absorbing your judgment.
+
+See also: [[Metacognitive Demand]] · [[The Evidence Interface]]
 
 ## Try This
 

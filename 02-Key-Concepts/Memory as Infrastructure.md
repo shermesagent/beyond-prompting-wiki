@@ -63,9 +63,26 @@ The orchestrator translation: Phase 3 agents set goals. Phase 3.5 agents remembe
 
 **And this wiki is the human version of a skill bank.** Every SOP page is a compiled workflow. Every glossary entry is distilled skill knowledge. `log.md` is the curation layer — recording what worked and what didn't (see [[02-Key-Concepts/Failure-Path Preservation|Failure-Path Preservation]]) so the wiki compounds instead of leaking. The practice of moving beyond prompting and the practice of maintaining this wiki are the same practice.
 
+## Memory Needs Boundaries, Not Just Capacity (New, September 2026)
+
+Memory lowers the burden of repeating yourself. That is the upside. The boundary problem is that remembered information can travel into contexts where it does not belong.
+
+Taheri et al. (arXiv:2609.22720) interviewed disabled adults who use conversational AI assistants. Participants often disclosed by need rather than by diagnosis: not “I have X,” but “format this so I can use it,” “slow down,” or “remember this preference.” Memory made that easier because they did not have to keep re-explaining. But it also created a risk: disability-related information could drift into future tasks where the person did not want it used.
+
+The practical upgrade: every useful memory needs four controls — **scope, provenance, retention, and access**.
+
+| Memory control | Plain-language question |
+|---|---|
+| Scope | Where is this memory allowed to apply? |
+| Provenance | Why does the agent think it knows this? |
+| Retention | How long should it keep this? |
+| Access | Who or what can use it later? |
+
+The orchestrator does not ask only “can the AI remember?” They ask “where should this memory stop?”
+
 ## Related Pages
 
-[[Task Decomposition]] · [[Trust Calibration]] · [[Delegation Thinking]] · [[01-The-Shift/README|The Architect Mindset]] · [[05-Practice/README|Practice Section]]
+[[Task Decomposition]] · [[Trust Calibration]] · [[Delegation Thinking]] · [[01-The-Shift/README|The Architect Mindset]] · [[05-Practice/README|Practice Section]] · [[Metacognitive Demand]]
 
 ## Tags
 

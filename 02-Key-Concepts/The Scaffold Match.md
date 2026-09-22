@@ -1,10 +1,10 @@
 ---
 title: The Scaffold Match
 created: 2026-07-14
-updated: 2026-07-14
+updated: 2026-09-22
 type: concept
 tags: [concept, workflow, orchestrator, scaffolding]
-sources: [arxiv/2607.09743]
+sources: [arxiv/2607.09743, raw/articles/adaptive-scaffolding-contingency-2609.22993.md]
 confidence: medium
 ---
 
@@ -95,9 +95,22 @@ The orchestrator's expanded rule: **test the tool's default intervention level f
 
 See also: [[The Overassistance Pattern]] · [[Delegation Thinking]]
 
+### Preserve the Decision, Not the Difficulty (New, September 2026)
+
+The newest scaffold-matching evidence adds a cleaner test: **does the scaffold preserve the human decision?** Hou et al. (arXiv:2609.22993) separate two things people often mash together:
+
+- **Cognitive load** — how much work the system carries.
+- **Metacognitive demand** — what the learner must still decide, monitor, or explain before help arrives.
+
+Their AI tutor, CoMeT, raised support when a learner failed at a decision point and faded support when the learner took it up. The result matters for every orchestrator, not just teachers: CoMeT kept the same decision demand as a question-only tutor, delivered artifacts twice as often as an unrestricted assistant, frustrated learners less, and surrendered a full answer in one session in sixteen rather than one in six.
+
+That is the scaffold-match upgrade: **reduce unnecessary load without deleting the decision.** If the scaffold makes the task easier by removing the user's chance to plan, monitor, choose, or explain, it is substitution in nicer clothes. If it makes the task easier while keeping the decision visible, it is a real scaffold.
+
+See also: [[Metacognitive Demand]] · [[Scaffold, Don't Substitute]]
+
 ## Related Pages
 
-[[Friction by Design]] · [[Delegation Thinking]] · [[Task Decomposition]] · [[SOP]] · [[Trust Calibration]] · [[The SCAN Test]]
+[[Friction by Design]] · [[Delegation Thinking]] · [[Task Decomposition]] · [[SOP]] · [[Trust Calibration]] · [[The SCAN Test]] · [[Metacognitive Demand]]
 
 ## Tags
 

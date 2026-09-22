@@ -1361,3 +1361,12 @@ Theme: **Delegation is a redistribution of consequences — and reliability fail
 - Pages updated: What Is Beyond Prompting (+Power Needs Handles); The Operator Mindset (+First Handle); The Orchestrator Mindset (+autonomy-to-handle table); The Architect Mindset (+control surface as architecture); Why This Matters (+capability without handles is enclosure); 02-Key-Concepts/README and Home navigation updated.
 - Digest: 00-Daily-Digests/2026-09-21.md (8-section format; Sources Found table present).
 - Quality gates: 5 sources integrated (>=3 ✓); 5 existing Shift pages + README/Home updated (>=2 ✓); 1 new concept page (✓).
+
+## 2026-09-22 | Day 2 rotation — Metacognitive Demand
+- Rotation: Tuesday 09-22 = Day 2 / 02-Key-Concepts. `web_search` returned empty on 2 probes; weekday arXiv RSS was active across cs.AI, cs.HC, and cs.CY, so discovery used arXiv RSS/API abstracts.
+- Theme: Metacognitive Demand — AI should carry more of the load without quietly taking over the decisions that build judgment.
+- Sources integrated: 5 (sources 379 → 384): arXiv 2609.22993 adaptive scaffolding / preserved metacognitive demand; arXiv 2609.22707 leaky explanations / Explanation Navigator; arXiv 2609.22720 disability disclosure and AI memory boundaries; arXiv 2609.22882 Law of Stop; arXiv 2609.24242 anticipatory human oversight. All raw source summaries created with sha256 frontmatter.
+- Pages created: 02-Key-Concepts/Metacognitive Demand — the human decision that must stay alive while AI carries more of the work; 5-Minute Demand Check.
+- Pages updated: The Scaffold Match (+preserve the decision, not the difficulty); Trust Calibration (+Explanation Scope Check); Memory as Infrastructure (+scope/provenance/retention/access memory controls); The Control Surface (+stop as practice + anticipatory oversight); 02-Key-Concepts/README and Home navigation updated.
+- Digest: 00-Daily-Digests/2026-09-22.md (8-section format; Sources Found table present).
+- Quality gates: 5 sources integrated (>=3 ✓); 4 existing Key Concept pages + README/Home updated (>=2 ✓); 1 new concept page (✓).
