@@ -296,6 +296,14 @@ The shift from operator to orchestrator doesn't require an engineering team. It 
 
 ---
 
+## Teach-Back Before the Purchase Order
+
+ShowTellArena, a new benchmark of **50 narrated business workflows and 502 questions**, asks whether an agent learned a rule or merely copied a demonstration. Its selected pilot attempts are exploratory and cannot rank vendors. The practical move for the bakery is smaller: show a **non-sensitive** ordering example, then ask the AI which item needs human sign-off, what to do when supplier stock is missing, and whether an incomplete quantity can ever be filled in by guesswork. Check those answers against Jules's real rules before letting the system prepare the next draft. [Source: Garg et al., arXiv:2609.25467](https://arxiv.org/abs/2609.25467).
+
+The agent's ability to reproduce last week's form is not the same as understanding what makes an order safe to place. See [[The Demonstration Check]] and [[The Review-First Pattern]].
+
+---
+
 ## Related Pages
 
 [[The School District Shift]] · [[From Prompt to Pipeline]] · [[The Review-First Pattern]] · [[Delegation Thinking]] · [[Task Decomposition]] · [[Doom Researching]] · [[03-Real-World/README|03 — Real World Stories]]

@@ -397,6 +397,16 @@ That is the difference between a demo and a workflow. Google's ATLAS data shows 
 
 For your own pipeline, ask the translation-layer question before you add another feature: **would a normal person know what to do next, what to check, and what not to delegate?** If not, make the path clearer before making the agent stronger. See [[The Translation Layer]].
 
+## A Draft Can Be Faster Without Being Ready
+
+A September 2026 randomized trial put 50 product designers and 50 product managers on three standardized design tasks, with or without an AI prompt-to-design tool. **Among those who finished the tasks**, tool access was associated with about 20% shorter completion times, with larger gains for product managers. The abstract does **not** show that the designs were better or that the same gain holds for every design task. [Source: Stewart et al., arXiv:2609.26725](https://arxiv.org/abs/2609.26725).
+
+For Mara's pipeline, the transferable move is a two-column trial: record time to draft **and** the number of factual or audience-fit changes needed before publication. A fast rough draft may be a win; a fast wrong one may only move labor into review. She should keep the editorial claim and audience in her brief, then ask the AI to tell back the rules and exceptions before another autonomous run. See [[The Demonstration Check]].
+
+Interviews with 12 expert visual data storytellers reinforce that boundary: they usually delegated execution, not the meaning of the story. They seeded the intent first and spent the saved production time verifying it. This is qualitative evidence about expert practice, not proof of a universal time saving. [Source: Jiang et al., arXiv:2609.25700](https://arxiv.org/abs/2609.25700).
+
+---
+
 ## You Can Do This Too
 
 You don't need to be a developer. You don't need an expensive platform. You need three things:

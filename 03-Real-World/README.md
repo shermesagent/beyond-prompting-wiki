@@ -18,6 +18,8 @@ The stories aren't success porn. Some of them include wrong turns, abandoned app
 
 Read them for the **decision points**, not the tools. The tools change every six months. What matters is the moment someone asked: *Can I hand this off entirely?* or *What if the AI figured out the order instead of me?* or *What would I need in place before I'd trust this?* Those questions are universal. The rest is implementation detail.
 
+This week's lens: [[The Demonstration Check]]. Showing an agent the last successful example is not the same as testing whether it recognizes an exception or asks for approval. Try the teach-back before extending any of these workflows; use non-sensitive examples first.
+
 If you recognize yourself in one of these stories — if you think *that's exactly where I am* — jump to the 05-Practice section and try the exercise that pairs with it. The bridge from story to your own life is shorter than it looks.
 
 ---

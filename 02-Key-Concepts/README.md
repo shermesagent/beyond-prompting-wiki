@@ -69,6 +69,7 @@ You don't need to read them in order. Jump to whichever title grabs you. But if 
 57. [[The Translation Layer]] — the bridge from impressive AI capability to usable workflow: interface, trusted data, permissions, review habits, and evidence trails that normal people can actually use.
 58. [[The Control Surface]] — the handles that let people inspect, steer, pause, correct, and pay attention to AI systems: logs, permissions, stop conditions, owners, evidence, and exit paths.
 59. [[Metacognitive Demand]] — the human decision that must stay alive inside an AI workflow: what to choose, monitor, explain, stop, scope, or challenge before the system carries the work.
+60. [[The Demonstration Check]] — after showing AI an approved example, test the rule, an exception, and the human approval boundary before trusting the next draft.
 
 ---
 
@@ -145,6 +146,7 @@ They came out of real research — papers on human-AI collaboration, case studie
 | [[The Translation Layer]] | What turns AI capability into a workflow normal people can trust, inspect, and repeat? | Orchestrator |
 | [[The Control Surface]] | What handles let people inspect, steer, pause, correct, and pay attention to AI systems before autonomy expands? | Orchestrator → Architect |
 | [[Metacognitive Demand]] | What human decision must stay alive while AI carries more of the work? | Operator → Orchestrator |
+| [[The Demonstration Check]] | Did the AI learn the rules of the job or just copy the example? | Operator → Orchestrator |
 
 ---
 

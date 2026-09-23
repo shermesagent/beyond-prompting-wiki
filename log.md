@@ -1370,3 +1370,12 @@ Theme: **Delegation is a redistribution of consequences — and reliability fail
 - Pages updated: The Scaffold Match (+preserve the decision, not the difficulty); Trust Calibration (+Explanation Scope Check); Memory as Infrastructure (+scope/provenance/retention/access memory controls); The Control Surface (+stop as practice + anticipatory oversight); 02-Key-Concepts/README and Home navigation updated.
 - Digest: 00-Daily-Digests/2026-09-22.md (8-section format; Sources Found table present).
 - Quality gates: 5 sources integrated (>=3 ✓); 4 existing Key Concept pages + README/Home updated (>=2 ✓); 1 new concept page (✓).
+
+## 2026-09-23 | Day 3 rotation — The Demonstration Check
+- Rotation: 03-Real-World. `web_search` returned empty on two probes; new sources selected from live arXiv cs.HC/cs.CY/cs.AI RSS abstracts (not full-text reviews).
+- Theme: showing a workflow is not proof an AI understands its rules or when to stop.
+- Sources integrated: 4 (sources 384 → 388): ShowTellArena 2609.25467; visual storytelling delegation boundaries 2609.25700; graduate systematic-review classroom experience 2609.26057; prompt-to-design randomized trial 2609.26725. Four raw source-summary files added with SHA-256 frontmatter; `sources/sources.jsonl` appended in active schema.
+- Pages created: `02-Key-Concepts/The Demonstration Check.md` — five-minute, privacy-safe teach-back and exception test.
+- Existing pages deepened: `03-Real-World/From Prompt to Pipeline.md` (speed vs quality); `03-Real-World/The School District Shift.md` (source-selection decision records; no K–12 outcome extrapolation); `03-Real-World/Small Business Automation.md` (purchase-order teach-back). `03-Real-World/README.md`, `02-Key-Concepts/README.md`, and `Home.md` navigation updated.
+- Digest: `00-Daily-Digests/2026-09-23.md` (all 8 required sections).
+- Source caveat: all four are newly announced arXiv papers; pilot and classroom observations are preliminary and do not establish deployment effectiveness. Pre-existing fictionalized composite stories and their asserted numerical outcomes require a separate provenance review before being treated as real district/business results; untouched in this run.

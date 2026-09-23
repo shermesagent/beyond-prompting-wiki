@@ -2,7 +2,7 @@
 
 > A living guide to the **operator → orchestrator shift**. If you've ever typed a prompt and thought "there has to be more than this" — start here.
 
-_122 pages across 6 sections. Updated daily. Git-backed, human-readable, cross-linked._
+_123 pages across 6 sections. Updated daily. Git-backed, human-readable, cross-linked._
 
 ---
 
@@ -42,6 +42,8 @@ The core idea. What it means, why it matters, and the three mindsets along the p
 Approachable distillations of research into learning concepts you can use today.
 → [[Task Decomposition]] · [[Delegation Thinking]] · [[Cognitive Surrender]] · [[02-Key-Concepts/Trust Calibration|Trust Calibration]] · [[Friction by Design]] · [[The Augmentation Trap]] · [[Co-Construction Blindness]] · [[From Author to Editor]] · [[The Coaching Stance]] · [[The Placement Rule]] · [[The Four Decision Labels]] · [[Memory as Infrastructure]] · [[The Review-First Pattern]] · [[The Sequencing Principle]] · [[Doom Researching]] · [[Reverse-Centaur]] · [[The Collapse Pattern]] · [[Cognitive Load]] · [[The Illusion of Mastery]] · [[The Scaffold Match]] · [[The Jagged Frontier]] · [[Abstention]] · [[Authorship Calibration]] · [[Autonomy]] · [[The Preservation Principle]] · [[The Absorption Pattern]] · [[The Overassistance Pattern]] · [[02-Key-Concepts/Delegation Regret|Delegation Regret]] · [[Instruction Bleed]] · [[02-Key-Concepts/The Blank Box Problem|The Blank Box Problem]] · [[AI Context Anxiety]] · [[Lexical Oscillation]] · [[02-Key-Concepts/Capacity Dissolution|Capacity Dissolution]] · [[02-Key-Concepts/Cognitive Fixed Cost|Cognitive Fixed Cost]] · [[02-Key-Concepts/Failure-Path Preservation|Failure-Path Preservation]] · [[Distributed Mastery]] · [[02-Key-Concepts/Accountability Asymmetry|Accountability Asymmetry]] · [[02-Key-Concepts/Cognitive Capability Gaps|Cognitive Capability Gaps]] · [[02-Key-Concepts/Intent Scaffolding|Intent Scaffolding]] · [[02-Key-Concepts/The Vibe Compiler|The Vibe Compiler]] · [[02-Key-Concepts/Repair Literacy|Repair Literacy]] · [[02-Key-Concepts/Silent Updates|Silent Updates]] · [[02-Key-Concepts/The Enactment Gap|The Enactment Gap]] · [[02-Key-Concepts/Distributed Counsel|Distributed Counsel]] · [[02-Key-Concepts/The Tool-to-Entity Threshold|The Tool-to-Entity Threshold]] · [[02-Key-Concepts/The Authority Switch|The Authority Switch]] · [[02-Key-Concepts/Scaffold, Don't Substitute|Scaffold, Don't Substitute]] · [[02-Key-Concepts/Procedural Collapse|Procedural Collapse]] · [[02-Key-Concepts/The Practice Style|The Practice Style]] · [[02-Key-Concepts/The Provenance Principle|The Provenance Principle]] · [[02-Key-Concepts/Delegated Exposure|Delegated Exposure]] · [[02-Key-Concepts/The Confidence Gap|The Confidence Gap]] · [[02-Key-Concepts/The Warm Expert|The Warm Expert]] · [[02-Key-Concepts/Run-to-Run Variance|Run-to-Run Variance]] · [[02-Key-Concepts/The SCAN Test|The SCAN Test]] · [[02-Key-Concepts/The Rule Capture Problem|The Rule Capture Problem]] · [[02-Key-Concepts/The Failure Review|The Failure Review]] · [[02-Key-Concepts/The Echo Check|The Echo Check]] · [[02-Key-Concepts/The Disclosure Clock|The Disclosure Clock]] · [[02-Key-Concepts/Accountable Translation|Accountable Translation]] · [[02-Key-Concepts/Interpretive Appearance|Interpretive Appearance]] · [[The Evidence Interface]] · [[The Workflow Lens]] · [[Sequenced Agency]] · [[The Task Scaffold]] · [[The Translation Layer]] · [[The Control Surface]] · [[Metacognitive Demand]]
 
+New this week: [[The Demonstration Check]] — teach-back before the next delegated run.
+
 ### [[03-Real-World/README|03 — Real World Stories]]
 Case studies, transformation stories, and honest failure postmortems.
 → [[From Prompt to Pipeline]] · [[The School District Shift]] · [[Small Business Automation]]
@@ -60,7 +62,7 @@ Plain-language definitions of every key term.
 
 ### 00-Daily-Digests
 Daily curated research digests — what we found, what it means, and how to use it.
-→ [[00-Daily-Digests/2026-09-22|Today's Digest]]
+→ [[00-Daily-Digests/2026-09-23|Today's Digest]]
 
 ---
 
@@ -80,6 +82,7 @@ _Last 7 days of activity._
 
 | Date | What Changed |
 |------|-------------|
+| 2026-09-23 | Day 3 rotation — 03-Real-World: 4 newly announced arXiv sources; [[The Demonstration Check]] created; From Prompt to Pipeline, The School District Shift, and Small Business Automation deepened with teach-back, decision records, and speed-versus-quality checks. Today's question: does the AI know when not to copy the example? |
 | 2026-09-22 | Day 2 rotation — 02-Key-Concepts: Daily digest + 5 new arXiv sources integrated after web_search returned empty; **1 new concept** ([[Metacognitive Demand]] — the human decision that must stay alive while AI carries more of the work: choose, monitor, explain, stop, scope, or challenge) + 4 existing pages deepened (The Scaffold Match, Trust Calibration, Memory as Infrastructure, The Control Surface) + 02-Key-Concepts README and Home updated. Tuesday's question: what decision should the human still make before the AI helps? |
 | 2026-09-21 | Day 1 rotation — 01-The-Shift: Daily digest + 5 AI Agency KB 09-20 sources integrated after web_search returned empty and arXiv RSS returned zero items; **1 new concept** ([[The Control Surface]] — the handles that let people inspect, steer, pause, correct, and pay attention to AI systems: logs, permissions, stop conditions, owners, evidence, and exit paths) + 5 Shift pages deepened (What Is Beyond Prompting, The Operator Mindset, The Orchestrator Mindset, The Architect Mindset, Why This Matters) + 02-Key-Concepts README and Home updated. Monday's question: what handle do you need before this AI workflow gets more freedom? |
 | 2026-09-20 | Day 7 cross-section — The Translation Layer: Daily digest + 5 AI Agency KB 09-19 sources integrated after web_search returned empty on 3 probes and Sunday arXiv was skipped; **1 new concept** ([[The Translation Layer]] — the bridge from AI capability to usable workflows: interface, trusted data, permissions, review habits, and evidence trails normal people can use) + 4 existing pages deepened (The Workflow Lens, From Prompt to Pipeline, Communication Primitives, The Evidence Ticket) + 02-Key-Concepts README and Home updated. Sunday's question: what has to be translated before a normal person can use this? |

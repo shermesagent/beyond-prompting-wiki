@@ -432,6 +432,14 @@ The uncomfortable implication for assessment: if students co-construct with AI, 
 
 ---
 
+## Teach the Method, Not Just the Answer
+
+In a **single-day observation** of ten doctoral students working in three groups on systematic literature reviews, AI made it easier to generate alternatives and surface methodological problems. It also invited excessive delegation, superficial validation, and attention drifting from the review toward operating the tool. This is a graduate software-engineering course, **not a K–12 district trial**; the lesson for a curriculum team is a design prompt, not a claim about district outcomes. [Source: Ribeiro and Hida, arXiv:2609.26057](https://arxiv.org/abs/2609.26057).
+
+Try it on a **public, non-student source set**: before asking AI to summarize, have the teacher or team record one inclusion rule, one exclusion rule, and who resolves borderline cases. After the AI sorts the sources, check one included and one excluded item against the originals. [[The Demonstration Check]] is the adjacent skill: after showing a workflow, ask the system to teach back its exception and approval boundary before trusting the draft. No student, accommodation, or personnel data belongs in an unapproved tool.
+
+---
+
 ## Related Pages
 
 [[From Prompt to Pipeline]] · [[Task Decomposition]] · [[Delegation Thinking]] · [[Trust Calibration]] · [[Human in the Loop]] · [[Doom Researching]] · [[The Capability Ladder]] · [[Scaffold, Don't Substitute]] · [[From Author to Editor]] · [[The Warm Expert]] · [[02-Key-Concepts/Accountable Translation|Accountable Translation]] · [[03-Real-World/README|03 — Real World Stories]]
