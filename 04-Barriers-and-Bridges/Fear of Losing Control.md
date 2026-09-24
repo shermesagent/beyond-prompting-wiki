@@ -175,9 +175,15 @@ See [[Procedural Standing]] for the 5-minute Contestability Check.
 
 ---
 
+## Whose Control Are We Protecting?
+
+The scope-and-stop rules above protect the person delegating. They do not automatically protect people *affected* by the delegated work. Reported smart-glasses recording in India shows the distinction sharply: a wearer controls capture, but a person filmed without realizing it may lose control over where their image goes. In AT&T's reported modernization, customers and workers experience a bundle of changes, not just an AI tool's convenience; the article does not isolate AI's share of job reductions. ^[raw/articles/smart-glasses-india-bystander-consent-2026-09-23.md] ^[raw/articles/wired-att-automation-affected-people-2026-09-23.md]
+
+Add a fifth boundary to your smallest delegation: **“Who else might be affected, and what can they do if this goes wrong?”** If the answer is unclear, rehearse on non-sensitive material first. [[The Absent Person Test]] helps identify that person before you grant the agent more freedom; [[Procedural Standing]] gives them a path back in.
+
 ## Related Pages
 
-[[The Just Ask ChatGPT Trap]] · [[Trust Calibration]] · [[Prompt as Safety Blanket]] · [[Delegation Thinking]] · [[Task Decomposition]] · [[Psychological Debt]] · [[Silent Updates]] · [[No One to Blame]] · [[The Authority Switch]] · [[The Validator Trap]] · [[Procedural Standing]]
+[[The Just Ask ChatGPT Trap]] · [[Trust Calibration]] · [[Prompt as Safety Blanket]] · [[Delegation Thinking]] · [[Task Decomposition]] · [[Psychological Debt]] · [[Silent Updates]] · [[No One to Blame]] · [[The Authority Switch]] · [[The Validator Trap]] · [[Procedural Standing]] · [[The Absent Person Test]]
 
 ## Tags
 

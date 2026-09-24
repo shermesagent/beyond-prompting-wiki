@@ -2,7 +2,7 @@
 
 > A living guide to the **operator → orchestrator shift**. If you've ever typed a prompt and thought "there has to be more than this" — start here.
 
-_123 pages across 6 sections. Updated daily. Git-backed, human-readable, cross-linked._
+_124 pages across 6 sections. Updated daily. Git-backed, human-readable, cross-linked._
 
 ---
 
@@ -50,7 +50,7 @@ Case studies, transformation stories, and honest failure postmortems.
 
 ### [[04-Barriers-and-Bridges/README|04 — Barriers & Bridges]]
 What holds people back — and how to cross.
-→ [[Fear of Losing Control]] · [[The Just Ask ChatGPT Trap]] · [[Psychological Debt]] · [[04-Barriers-and-Bridges/Trust Calibration|Trust Calibration]] · [[Knowledge Debt]] · [[Prompt as Safety Blanket]] · [[Human Readiness Archetypes]] · [[The Engagement Gap]] · [[The Certification Boundary]] · [[Social Thinning]] · [[04-Barriers-and-Bridges/No One to Blame|No One to Blame]] · [[04-Barriers-and-Bridges/The Fabricated Front|The Fabricated Front]] · [[The Validator Trap]] · [[The Retrievability Gap]] · [[Procedural Standing]]
+→ [[Fear of Losing Control]] · [[The Just Ask ChatGPT Trap]] · [[Psychological Debt]] · [[04-Barriers-and-Bridges/Trust Calibration|Trust Calibration]] · [[Knowledge Debt]] · [[Prompt as Safety Blanket]] · [[Human Readiness Archetypes]] · [[The Engagement Gap]] · [[The Certification Boundary]] · [[Social Thinning]] · [[04-Barriers-and-Bridges/No One to Blame|No One to Blame]] · [[04-Barriers-and-Bridges/The Fabricated Front|The Fabricated Front]] · [[The Validator Trap]] · [[The Retrievability Gap]] · [[Procedural Standing]] · [[The Absent Person Test]]
 
 ### [[05-Practice/README|05 — Practice]]
 Weekly muscle builders. Concrete exercises that build the orchestrator mindset.
@@ -62,7 +62,7 @@ Plain-language definitions of every key term.
 
 ### 00-Daily-Digests
 Daily curated research digests — what we found, what it means, and how to use it.
-→ [[00-Daily-Digests/2026-09-23|Today's Digest]]
+→ [[00-Daily-Digests/2026-09-24|Today's Digest]]
 
 ---
 
@@ -82,6 +82,7 @@ _Last 7 days of activity._
 
 | Date | What Changed |
 |------|-------------|
+| 2026-09-24 | Day 4 rotation — 04-Barriers-and-Bridges: three sources (MIT Technology Review, WIRED, an older arXiv preprint); [[The Absent Person Test]] created; Procedural Standing and Fear of Losing Control now ask who is affected without ever using the tool. Today's question: whose name is absent from the approval meeting? |
 | 2026-09-23 | Day 3 rotation — 03-Real-World: 4 newly announced arXiv sources; [[The Demonstration Check]] created; From Prompt to Pipeline, The School District Shift, and Small Business Automation deepened with teach-back, decision records, and speed-versus-quality checks. Today's question: does the AI know when not to copy the example? |
 | 2026-09-22 | Day 2 rotation — 02-Key-Concepts: Daily digest + 5 new arXiv sources integrated after web_search returned empty; **1 new concept** ([[Metacognitive Demand]] — the human decision that must stay alive while AI carries more of the work: choose, monitor, explain, stop, scope, or challenge) + 4 existing pages deepened (The Scaffold Match, Trust Calibration, Memory as Infrastructure, The Control Surface) + 02-Key-Concepts README and Home updated. Tuesday's question: what decision should the human still make before the AI helps? |
 | 2026-09-21 | Day 1 rotation — 01-The-Shift: Daily digest + 5 AI Agency KB 09-20 sources integrated after web_search returned empty and arXiv RSS returned zero items; **1 new concept** ([[The Control Surface]] — the handles that let people inspect, steer, pause, correct, and pay attention to AI systems: logs, permissions, stop conditions, owners, evidence, and exit paths) + 5 Shift pages deepened (What Is Beyond Prompting, The Operator Mindset, The Orchestrator Mindset, The Architect Mindset, Why This Matters) + 02-Key-Concepts README and Home updated. Monday's question: what handle do you need before this AI workflow gets more freedom? |

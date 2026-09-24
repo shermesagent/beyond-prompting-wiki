@@ -1,7 +1,7 @@
 ---
 title: Procedural Standing
 created: 2026-09-17
-updated: 2026-09-17
+updated: 2026-09-24
 type: concept
 tags: [barrier, mindset, orchestrator]
 sources:
@@ -10,6 +10,8 @@ sources:
   - raw/articles/ai-hiring-procedure-value-2609.16390.md
   - raw/articles/federal-ai-governance-sector-vulnerability-2609.16260.md
   - raw/articles/zvi-ai-185-preference-cascade-2026-09-16.md
+  - raw/articles/smart-glasses-india-bystander-consent-2026-09-23.md
+  - raw/articles/wired-att-automation-affected-people-2026-09-23.md
 confidence: high
 ---
 
@@ -69,9 +71,15 @@ Pick one AI-assisted workflow you use or oversee.
    - or a pre-use warning that names the AI’s possible agenda.
 4. Run the workflow again and ask: “Does the person now have standing, or just a nicer message?”
 
+## The Route for Someone Who Never Signed Up
+
+The appeal link cannot start only with the person who clicked “use AI.” MIT Technology Review reported that a person filmed by smart glasses at a protest learned about the recording after a mocking video spread. The wearer had the device; the person filmed had to deal with the consequences. WIRED's reporting on AT&T's simultaneous AI adoption and retirement of older network services likewise raises a customer-access question separate from the company's efficiency question. Neither account proves a general rate of harm, and AT&T's workforce cuts cannot be assigned to AI alone. ^[raw/articles/smart-glasses-india-bystander-consent-2026-09-23.md] ^[raw/articles/wired-att-automation-affected-people-2026-09-23.md]
+
+Add a **nonuser route** to the Contestability Check: How would a person who never opened the tool learn they were affected, find a usable alternative, or reach the human owner? Start the planning step with [[The Absent Person Test]]; standing means little if only insiders know the route exists.
+
 ## Related Pages
 
-[[Trust Calibration]] · [[Fear of Losing Control]] · [[The Just Ask ChatGPT Trap]] · [[The Validator Trap]] · [[No One to Blame]] · [[The Evidence Interface]] · [[The Disclosure Clock]]
+[[Trust Calibration]] · [[Fear of Losing Control]] · [[The Just Ask ChatGPT Trap]] · [[The Validator Trap]] · [[No One to Blame]] · [[The Evidence Interface]] · [[The Disclosure Clock]] · [[The Absent Person Test]]
 
 ## Tags
 

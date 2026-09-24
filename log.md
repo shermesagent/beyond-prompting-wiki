@@ -1379,3 +1379,13 @@ Theme: **Delegation is a redistribution of consequences — and reliability fail
 - Existing pages deepened: `03-Real-World/From Prompt to Pipeline.md` (speed vs quality); `03-Real-World/The School District Shift.md` (source-selection decision records; no K–12 outcome extrapolation); `03-Real-World/Small Business Automation.md` (purchase-order teach-back). `03-Real-World/README.md`, `02-Key-Concepts/README.md`, and `Home.md` navigation updated.
 - Digest: `00-Daily-Digests/2026-09-23.md` (all 8 required sections).
 - Source caveat: all four are newly announced arXiv papers; pilot and classroom observations are preliminary and do not establish deployment effectiveness. Pre-existing fictionalized composite stories and their asserted numerical outcomes require a separate provenance review before being treated as real district/business results; untouched in this run.
+
+## 2026-09-24 | Day 4 rotation — The Absent Person Test
+- Rotation: 04-Barriers-and-Bridges. Two web-search probes returned empty; three primary pages read directly with web extraction. Sources: MIT Technology Review smart-glasses reporting (2026-09-23), WIRED AT&T reporting (2026-09-23), and arXiv:2609.25010 synthetic-persona preprint (submitted 2026-07-27; not a new September study).
+- Theme: the people using AI are not necessarily the people affected by it. Do a nonuser check before rollout and give affected people an actual route back.
+- Sources integrated: 3 (sources 388 → 391); attributed raw source notes and matching SHA-256 frontmatter added; active-schema JSONL records appended.
+- Page created: 04-Barriers-and-Bridges/The Absent Person Test.md — pre-pilot affected-person check, observed baseline, five-minute exercise.
+- Existing pages deepened: 04-Barriers-and-Bridges/Procedural Standing.md (nonuser route); 04-Barriers-and-Bridges/Fear of Losing Control.md (whose control matters). 04-Barriers-and-Bridges/README.md and Home.md navigation updated.
+- Digest: 00-Daily-Digests/2026-09-24.md (8 required sections). No claim that AI alone caused AT&T job cuts or that the preprint covers all persona uses.
+- Files added: raw/articles/smart-glasses-india-bystander-consent-2026-09-23.md; raw/articles/wired-att-automation-affected-people-2026-09-23.md; raw/articles/synthetic-personas-real-audience-2609.25010.md; 04-Barriers-and-Bridges/The Absent Person Test.md; 00-Daily-Digests/2026-09-24.md.
+- Files updated: 04-Barriers-and-Bridges/Procedural Standing.md; 04-Barriers-and-Bridges/Fear of Losing Control.md; 04-Barriers-and-Bridges/README.md; Home.md; sources/sources.jsonl; log.md.
