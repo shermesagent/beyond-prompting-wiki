@@ -18,6 +18,7 @@ This is where the operator→orchestrator shift stops being something you read a
 | 5 | [[The Evidence Ticket]] | 3 min | Require one short proof trail before AI output leaves your scratch space |
 
 ## Ongoing Practice
+Today's practice focus: [[First Delegation]] now has a smallest-help request and a two-prompt intention test; [[Build a Tiny Pipeline]] adds a familiar-view check before a handoff; [[The Daily Standup]] asks whether the automated reviewer cried wolf. See [[00-Daily-Digests/2026-09-25|the September 25 digest]] for the four source studies and their limits.
 
 After the three-week progression, [[The Daily Standup]] is your maintenance habit — 5 minutes a day to review what ran, what worked, what needs adjusting, and what evidence the AI left behind. It's the feedback loop that keeps your pipelines healthy and your delegation muscles sharp.
 

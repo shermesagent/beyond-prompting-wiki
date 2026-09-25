@@ -1,7 +1,7 @@
 ---
 title: The Daily Standup
 created: 2026-06-27
-updated: 2026-09-18
+updated: 2026-09-25
 type: practice
 tags: [practice, orchestrator, workflow, mindset]
 confidence: high
@@ -20,6 +20,8 @@ sources:
   - raw/articles/wired-claude-misuse-everywhere-2026-09-12.md
   - raw/articles/do-frontier-models-seek-safety-evidence-2609.17865.md
   - raw/articles/llms-in-peer-review-icml-2026-2609.19420.md
+  - raw/articles/educational-ai-evaluator-false-flags-2609.28478.md
+  - raw/articles/spatial-biologists-verifying-ai-2609.28723.md
 ---
 
 # The Daily Standup
@@ -420,6 +422,12 @@ FIFTEENTH QUESTION — EVIDENCE-SEEKING:
 ```
 
 If the answer is “it did not look,” today's fix is simple: add an evidence ticket before that workflow runs again.
+
+## Review the Reviewer, Not Just the Output
+
+False alarms are not free: they burn the time needed to find real problems. MagicSchool's production evaluation team reports that across 21 AI evaluators, tuning repeated judge runs, model choices, and rubrics reduced confirmed false-positive flags by 99% while retaining 100% of *known egregious failures in its test set*. That last condition matters: a test set cannot promise to catch every future failure, and the study is a preprint from the product team.
+
+**Try this in today's standup (3 minutes):** choose one automated warning. Was it a real defect or a false alarm? Keep a tiny list of serious, independently checked failures the reviewer must catch, plus ordinary outputs it should leave alone. Change only one review rule, then test it against *both* lists. If you use AI to check work about students, use approved systems and de-identified cases; teacher review remains the gate before any high-stakes action. The scientists' verification study adds a companion question: could you inspect the result in a tool you already trust, or did you only ask the agent to explain itself? [[The Evidence Ticket]] has a place to record that check. [Evaluator preprint](https://arxiv.org/abs/2609.28478); [verification study](https://arxiv.org/abs/2609.28723).
 
 ## Common Pitfalls
 

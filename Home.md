@@ -62,7 +62,7 @@ Plain-language definitions of every key term.
 
 ### 00-Daily-Digests
 Daily curated research digests — what we found, what it means, and how to use it.
-→ [[00-Daily-Digests/2026-09-24|Today's Digest]]
+→ [[00-Daily-Digests/2026-09-25|Today's Digest]]
 
 ---
 
@@ -82,6 +82,7 @@ _Last 7 days of activity._
 
 | Date | What Changed |
 |------|-------------|
+| 2026-09-25 | Day 5 practice rotation: four arXiv preprints distilled into practical checks for [[First Delegation]], [[Build a Tiny Pipeline]], and [[The Daily Standup]]. Today's question: what can you verify without asking the same AI? No new concept page; all four findings fit existing exercises. |
 | 2026-09-24 | Day 4 rotation — 04-Barriers-and-Bridges: three sources (MIT Technology Review, WIRED, an older arXiv preprint); [[The Absent Person Test]] created; Procedural Standing and Fear of Losing Control now ask who is affected without ever using the tool. Today's question: whose name is absent from the approval meeting? |
 | 2026-09-23 | Day 3 rotation — 03-Real-World: 4 newly announced arXiv sources; [[The Demonstration Check]] created; From Prompt to Pipeline, The School District Shift, and Small Business Automation deepened with teach-back, decision records, and speed-versus-quality checks. Today's question: does the AI know when not to copy the example? |
 | 2026-09-22 | Day 2 rotation — 02-Key-Concepts: Daily digest + 5 new arXiv sources integrated after web_search returned empty; **1 new concept** ([[Metacognitive Demand]] — the human decision that must stay alive while AI carries more of the work: choose, monitor, explain, stop, scope, or challenge) + 4 existing pages deepened (The Scaffold Match, Trust Calibration, Memory as Infrastructure, The Control Surface) + 02-Key-Concepts README and Home updated. Tuesday's question: what decision should the human still make before the AI helps? |

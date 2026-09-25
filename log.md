@@ -1389,3 +1389,13 @@ Theme: **Delegation is a redistribution of consequences — and reliability fail
 - Digest: 00-Daily-Digests/2026-09-24.md (8 required sections). No claim that AI alone caused AT&T job cuts or that the preprint covers all persona uses.
 - Files added: raw/articles/smart-glasses-india-bystander-consent-2026-09-23.md; raw/articles/wired-att-automation-affected-people-2026-09-23.md; raw/articles/synthetic-personas-real-audience-2609.25010.md; 04-Barriers-and-Bridges/The Absent Person Test.md; 00-Daily-Digests/2026-09-24.md.
 - Files updated: 04-Barriers-and-Bridges/Procedural Standing.md; 04-Barriers-and-Bridges/Fear of Losing Control.md; 04-Barriers-and-Bridges/README.md; Home.md; sources/sources.jsonl; log.md.
+
+## 2026-09-25 | Day 5 rotation — Practice the Handoff
+- Rotation: 05-Practice. Two web-search probes returned empty; four arXiv abstracts and metadata read directly. Three sources submitted September 23–24; the MagicSchool evaluator preprint was submitted August 1 and is not presented as new September research.
+- Theme: choose the smallest useful help, test intended behavior, check an AI result in a familiar tool, and audit the automated reviewer itself.
+- Sources integrated: 4 (391 → 395): HelpCoach 2609.28918; spatial biologists' verification 2609.28723; MagicSchool evaluator false flags 2609.28478; teacher chatbot configuration 2609.29993. Four immutable raw/ source-note files with body SHA-256; four active-schema JSONL records appended. Research is preliminary and setting-specific.
+- Existing practice pages deepened: 05-Practice/First Delegation.md (smallest-help request; two-prompt intention test); 05-Practice/Build a Tiny Pipeline.md (familiar-view check); 05-Practice/The Daily Standup.md (review the reviewer). 05-Practice/README.md and Home.md updated.
+- Digest: 00-Daily-Digests/2026-09-25.md (all eight required sections). No new concept page: these findings belong inside the existing exercises, not four more thin pages.
+- Privacy: no student-level data collected; classroom test advises approved tools and non-identifiable prompts.
+- Files added: raw/articles/helpcoach-targeted-help-seeking-2609.28918.md; raw/articles/spatial-biologists-verifying-ai-2609.28723.md; raw/articles/educational-ai-evaluator-false-flags-2609.28478.md; raw/articles/teacher-chatbot-intent-vs-behavior-2609.29993.md; 00-Daily-Digests/2026-09-25.md.
+- Files updated: 05-Practice/First Delegation.md; 05-Practice/Build a Tiny Pipeline.md; 05-Practice/The Daily Standup.md; 05-Practice/README.md; Home.md; sources/sources.jsonl; log.md.

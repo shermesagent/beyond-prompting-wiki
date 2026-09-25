@@ -1,7 +1,7 @@
 ---
 title: Build a Tiny Pipeline
 created: 2026-06-27
-updated: 2026-09-18
+updated: 2026-09-25
 type: practice
 tags: [practice, orchestrator, workflow]
 confidence: high
@@ -17,6 +17,8 @@ sources:
   - raw/articles/arxiv-2609.12273-synthetic-tlx-workload-forecasting.md
   - raw/articles/graphecho-evidence-provenance-2609.17695.md
   - raw/articles/publication-authority-challengeable-claims-2609.17631.md
+  - raw/articles/spatial-biologists-verifying-ai-2609.28723.md
+  - raw/articles/teacher-chatbot-intent-vs-behavior-2609.29993.md
 ---
 
 # Build a Tiny Pipeline
@@ -430,6 +432,12 @@ EXACT STATE:
 This is not legal bureaucracy. It is the difference between “I approved something like this” and “I approved this.”
 
 See also [[The Evidence Ticket]] and [[The Evidence Interface]].
+
+## The Familiar-View Check
+
+An observational study with ten spatial biologists using an AI analysis agent on their own data found that verification often meant opening a familiar view or external tool, then interpreting results using knowledge of the tissue and markers. They also wanted to see what computation was underway so they could redirect it. This is a workflow observation, not a demonstrated productivity gain.
+
+**Try this on your next two-step pipeline:** before Step 2 accepts Step 1's result, open one key claim in the original source, spreadsheet, or application you already know. Write one line: “I checked ___ in ___; it matched / did not match.” Add a progress checkpoint before the agent commits a decision you cannot easily undo. For a teacher-designed chatbot, make the handoff a test of its stated *purpose and rules*, not just its friendly tone: [[First Delegation]] has a two-prompt test. [Biologist study](https://arxiv.org/abs/2609.28723); [teacher chatbot study](https://arxiv.org/abs/2609.29993).
 
 ## What Comes Next
 

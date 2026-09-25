@@ -1,7 +1,7 @@
 ---
 title: First Delegation
 created: 2026-06-26
-updated: 2026-09-18
+updated: 2026-09-25
 type: practice
 tags: [practice, operator, orchestrator]
 confidence: high
@@ -14,6 +14,8 @@ sources:
   - raw/articles/omegause-sop-engineering-2609.02149.md
   - raw/articles/do-frontier-models-seek-safety-evidence-2609.17865.md
   - raw/articles/cares-regulation-grounded-safety-reporting-2609.19429.md
+  - raw/articles/helpcoach-targeted-help-seeking-2609.28918.md
+  - raw/articles/teacher-chatbot-intent-vs-behavior-2609.29993.md
 ---
 
 # First Delegation
@@ -398,6 +400,18 @@ Your version (works with any tool, 2 minutes):
 3. If the tool you use can learn from a screen recording or a walkthrough, use that: the demonstration *is* the delegation template.
 
 The demo beat is delegation's version of "show, don't tell" — and it pairs naturally with the echo lesson: the demonstration is the one root that outranks every description of it ([[The Echo Check]]).
+
+## Ask for the Smallest Help That Moves You Forward
+
+Delegation need not mean “do the whole problem.” In a study with 40 college students learning web programming, HelpCoach prompted learners to revise vague questions into requests for a particular kind of help; the group asked more specific questions and retained more knowledge than a group that received help-seeking training before the task. That is a promising *small study*, not proof that the same result holds for every class.
+
+**Try this before your next request (2 minutes):** write “I tried ___; I am stuck at ___; give me a hint / explanation / next step, not the finished answer.” If the task is developmental, keep your own next move visible. See [[Metacognitive Demand]] and [[The Coaching Stance]]. [HelpCoach preprint](https://arxiv.org/abs/2609.28918).
+
+## The Intention-to-Behavior Test
+
+An instruction can sound pedagogically right while the chatbot behaves differently. In workshops with 27 middle-school teachers, a configurable chatbot aligned more often with responsiveness (88.9%) and persona (81.5%) than with rules (70.4%) or stated instructional purpose (59.3%). These are logged alignment ratings in one authoring setting, **not** student learning gains.
+
+**Try this on an approved, non-sensitive test:** state the lesson purpose (“help the learner reason about the text”), one boundary (“ask a question before giving the answer”), then give the bot two practice prompts: a normal request and a request for the full answer. Record whether it followed *both* the purpose and the boundary. If not, adjust the configuration and retest before students use it. Never paste identifiable student work into an unapproved service. This is a practical version of [[The Demonstration Check]]. [Teacher chatbot study](https://arxiv.org/abs/2609.29993).
 
 ## Related Pages
 
