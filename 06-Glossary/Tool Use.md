@@ -24,6 +24,12 @@ There's an architectural reason tool use matters that has nothing to do with con
 
 This means tool use isn't just "nice to have" for AI that does real work. It's architecturally necessary. Beyond a certain complexity, thinking alone isn't enough — the AI must be able to act, check results, and course-correct. The orchestrator who designs workflows with tool-augmented reasoning at complex decision points gets reliability; the one who relies on pure chain-of-thought at those same points gets failure. The architecture determines the ceiling.
 
+### Keep the Trail Alongside the File
+
+In [Simon Willison's running-route example](https://simonwillison.net/2026/Sep/12/astra-running-routes/), an agent produced usable-looking maps and downloadable route files. But he could not inspect the exact code and steps in the interface; after the conversation was compressed, the agent could not supply the code either. A finished file is not a record of how it was made. This is one reported experience, not a reliability study.
+
+For a low-risk task, ask for **the source inputs, tools used, intermediate checks, and final file** in a saved handoff. Open the file in its normal application and verify one result against the source. If the trail cannot be saved, limit what the agent may do until [[Oversight]] and [[Memory]] have somewhere to put that evidence.
+
 ## Related Pages
 
 [[Agent]] · [[Memory]] · [[Autonomy]] · [[Orchestration]] · [[Abstention]] · [[01-The-Shift/README|The Architect Mindset]]

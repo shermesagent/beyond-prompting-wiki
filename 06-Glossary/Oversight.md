@@ -83,6 +83,12 @@ The DeepMind swarm case sharpens the oversight definition. In that study, 24% of
 
 That means oversight needs two things at once: **a channel** and **a wrench**. The channel is where concerns surface. The wrench is the power to stop or change the workflow. [[Communication Primitives]] names the channel layer; the stop authority above names the wrench. If either is missing, oversight becomes a suggestion box.
 
+### A Score Is Not Its Own Answer Key
+
+[MIT Technology Review's September 2026 reporting](https://www.technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector/) describes a **proposed**, not deployed, AI-enabled polygraph program. The central problem is not whether the model can combine many signals. It's that the underlying test has no dependable, independently checked label for who lied. Training or evaluating against unreliable labels cannot establish a valid verdict. The proposal's performance has not been demonstrated.
+
+Before putting an AI score into an approval or screening workflow, write down: **What counts as a correct answer? Who established it independently? How does a flagged person challenge a mistake?** If you cannot answer, keep the score out of consequential decisions. This is [[06-Glossary/Trust Calibration|Trust Calibration]] applied to the answer key, and [[Human in the Loop]] applied to the affected person's recourse.
+
 ## Related Pages
 
 [[Human in the Loop]] · [[Autonomy]] · [[Orchestration]] · [[Delegation]] · [[Trust Calibration]] · [[Agent]] · [[Overassistance]] · [[Capacity Dissolution]] · [[Overcompliance]]

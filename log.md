@@ -1399,3 +1399,14 @@ Theme: **Delegation is a redistribution of consequences — and reliability fail
 - Privacy: no student-level data collected; classroom test advises approved tools and non-identifiable prompts.
 - Files added: raw/articles/helpcoach-targeted-help-seeking-2609.28918.md; raw/articles/spatial-biologists-verifying-ai-2609.28723.md; raw/articles/educational-ai-evaluator-false-flags-2609.28478.md; raw/articles/teacher-chatbot-intent-vs-behavior-2609.29993.md; 00-Daily-Digests/2026-09-25.md.
 - Files updated: 05-Practice/First Delegation.md; 05-Practice/Build a Tiny Pipeline.md; 05-Practice/The Daily Standup.md; 05-Practice/README.md; Home.md; sources/sources.jsonl; log.md.
+
+## 2026-09-26 | Day 6 rotation — Keep the Proof, Not Just the Polished Result
+- Rotation: 06-Glossary. Three web-search probes returned empty; primary pages read directly. Sources published September 12, 18, and 25; the first two are not new publications today.
+- Theme: keep the human choice, independent answer key, and inspectable trail with each delegated artifact.
+- Sources integrated: 3 (395 → 398): Mollick, The Overhang; MIT Technology Review, proposed Polygraph+; Willison, running-route workflow. Three immutable, attributed raw source notes with verified SHA-256 and three active-schema JSONL records. Author not exposed in the extracted MIT Technology Review page, so its JSONL authors list is empty rather than guessed.
+- Existing glossary entries deepened: 06-Glossary/Delegation.md (keep the choice); 06-Glossary/Oversight.md (independent answer key and appeal); 06-Glossary/Tool Use.md (preserve the tool trail). 06-Glossary/README.md and Home.md updated.
+- Digest: 00-Daily-Digests/2026-09-26.md (eight required sections). No new glossary or concept page: source findings fit the existing definitions.
+- Scope and caveats: no claim that the proposed detector was deployed or validated; examples are not controlled studies. No personal location, employee, or student-level data copied into the wiki.
+- Files added: raw/articles/mollick-overhang-human-advantages-2026-09-18.md; raw/articles/mit-tech-review-polygraph-plus-ground-truth-2026-09-25.md; raw/articles/willison-running-routes-missing-trace-2026-09-12.md; 00-Daily-Digests/2026-09-26.md.
+- Files updated: 06-Glossary/Delegation.md; 06-Glossary/Oversight.md; 06-Glossary/Tool Use.md; 06-Glossary/README.md; Home.md; sources/sources.jsonl; log.md.
+- Verification note: today’s three raw notes hash-verified; full historical raw audit found 62 pre-existing hash mismatches among 292 files. Not rewritten during this Day 6 rotation. Active article JSONL convention requires raw_path empty; the three attributed source notes remain in raw/articles/ and are listed in this log.

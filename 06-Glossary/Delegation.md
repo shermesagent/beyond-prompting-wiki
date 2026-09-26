@@ -43,6 +43,12 @@ Most delegation analysis asks *can the agent do this?* The identity dimension as
 
 The orchestrator's rule: **delegation is for execution, not for taste.** Before handing off a decision, ask *"is this choice part of who I am?"* If the answer is yes — identity-defining, preference-defining, value-expressing — keep it human. Agents are optimal for the how; the what-you-stand-for stays yours. This is the identity twin of [[Capacity Dissolution]]: capacity erosion describes what delegation does to your *skills*; the Basic B\*\*\* effect describes what it does to your *taste*.
 
+### Keep the Choice, Not Just the Deliverable
+
+Ethan Mollick's [September 2026 essay](https://www.oneusefulthing.org/p/the-overhang) describes impressive AI-built games, maps, and trailers — but he chose the projects, spotted mismatches using his subject knowledge, and rejected creative choices he disliked. His four advantages are **deep knowledge, wide knowledge, taste, and agency**. Those examples show what's possible for one expert; they don't prove every agent's output is reliable.
+
+Try this on an ordinary draft: ask for two versions, name one factual check you can perform, and write one sentence explaining why you kept one version. Delegate production; retain the decision. [[06-Glossary/Trust Calibration|Trust Calibration]] covers the factual check, while [[Oversight]] makes the decision reviewable.
+
 ## Related Pages
 
 [[Decomposition]] · [[Orchestration]] · [[Agent]] · [[Human in the Loop]] · [[Delegation Thinking]] · [[First Delegation]] · [[Delegation Regret]]
