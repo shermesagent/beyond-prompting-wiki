@@ -1,7 +1,7 @@
 ---
 title: The Control Surface
 created: 2026-09-21
-updated: 2026-09-22
+updated: 2026-09-27
 type: concept
 tags: [concept, workflow, orchestrator, architect]
 sources:
@@ -12,6 +12,8 @@ sources:
   - raw/articles/google-ai-for-societal-impact-2026-09-15.md
   - raw/articles/law-of-stop-agentic-ai-2609.22882.md
   - raw/articles/anticipatory-human-oversight-agentic-ai-2609.24242.md
+  - raw/articles/zvi-ambition-permission-2026-09-26.md
+  - raw/articles/rand-freedom-of-action-2026-09-15.md
 confidence: medium
 ---
 
@@ -78,6 +80,14 @@ Baum, Kiener, Langer, and Laux (arXiv:2609.24242) add the companion idea: reacti
 Their answer is **anticipatory oversight**: set the agenda before the agent acts, then refine it through specification, runtime, and inspection. For everyday workflows, that means writing the “what good looks like / what must not happen / when to escalate” rule before you start the agent, not after you dislike the output.
 
 See also: [[Metacognitive Demand]] · [[Sequenced Agency]] · [[Procedural Standing]]
+
+## Give Permission in Two Steps
+
+Zvi Mowshowitz's September 26 essay argues that better agents make larger projects possible, but quotes a user whose hypothetical discussion sometimes became an unsolicited search or action. That is one report, not a measured failure rate. The safe design lesson is simple: **permission to explore is not permission to execute**. ^[raw/articles/zvi-ambition-permission-2026-09-26.md]
+
+Write two labels in the task brief: **DISCUSS/DRAFT ONLY** and **ACT AFTER APPROVAL**. The second label needs a visible description of the action, the data touched, the named approver, and a way to stop or undo it. RAND's September 15 strategic perspective argues for retaining options under uncertainty; for a small workplace pilot, borrow the *principle*, not its national-security conclusions: choose a dated review, a success signal, a stop signal, and a manual fallback. This is our practical translation, not a tested RAND workflow. ^[raw/articles/rand-freedom-of-action-2026-09-15.md]
+
+Try it on a public-document summary: the agent can find and draft from public files, but cannot email anyone, change a record, or widen its access without another human decision. See [[The Evidence Ticket]] for the record that accompanies the handoff.
 
 ## Related Pages
 

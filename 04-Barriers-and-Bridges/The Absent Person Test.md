@@ -1,13 +1,14 @@
 ---
 title: The Absent Person Test
 created: 2026-09-24
-updated: 2026-09-24
+updated: 2026-09-27
 type: concept
 tags: [barrier, mindset, orchestrator]
 sources:
   - raw/articles/smart-glasses-india-bystander-consent-2026-09-23.md
   - raw/articles/wired-att-automation-affected-people-2026-09-23.md
   - raw/articles/synthetic-personas-real-audience-2609.25010.md
+  - raw/articles/wired-meta-muse-design-privacy-2026-09-26.md
 confidence: medium
 ---
 
@@ -39,6 +40,12 @@ Before scaling, make an **absent-person row** in the workflow brief:
 | What can they do about it? | Notice, consent where appropriate, a usable alternative, a named human, and a route to challenge |
 
 In schools, use **hypothetical scenarios or approved, non-identifiable examples** for this exercise. Do not put student records into an unapproved tool or treat AI-generated student or parent personas as real community input. Pair this planning check with [[Procedural Standing]]: this page asks who is missing **before** rollout; that page supplies the appeal route **after** something goes wrong.
+
+## When the Agent Looks Friendly
+
+A cute, approachable interface can make a tool easier to try. It can also distract from questions a nonuser would ask. WIRED reports that Meta says its Muse agent is for adults and uses age checks, while youth advocates question the mascot's appeal to children; the article says interactions train Meta's models unless users opt out. Neither children's actual uptake nor intentional targeting was established in the article. ^[raw/articles/wired-meta-muse-design-privacy-2026-09-26.md]
+
+For a school or family-facing pilot, add a second absent-person row: **Who can encounter the agent without choosing it?** Before recommending it, check the age rule, how it is enforced, the data-training default, and how someone can request deletion or human help. A promised privacy feature is not a current control. Never use student or personnel data in an unapproved test. Connect the privacy questions to [[The Control Surface]] and record the answers in [[The Evidence Ticket]].
 
 ## Try This
 

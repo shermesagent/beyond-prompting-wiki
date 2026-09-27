@@ -42,7 +42,7 @@ The core idea. What it means, why it matters, and the three mindsets along the p
 Approachable distillations of research into learning concepts you can use today.
 → [[Task Decomposition]] · [[Delegation Thinking]] · [[Cognitive Surrender]] · [[02-Key-Concepts/Trust Calibration|Trust Calibration]] · [[Friction by Design]] · [[The Augmentation Trap]] · [[Co-Construction Blindness]] · [[From Author to Editor]] · [[The Coaching Stance]] · [[The Placement Rule]] · [[The Four Decision Labels]] · [[Memory as Infrastructure]] · [[The Review-First Pattern]] · [[The Sequencing Principle]] · [[Doom Researching]] · [[Reverse-Centaur]] · [[The Collapse Pattern]] · [[Cognitive Load]] · [[The Illusion of Mastery]] · [[The Scaffold Match]] · [[The Jagged Frontier]] · [[Abstention]] · [[Authorship Calibration]] · [[Autonomy]] · [[The Preservation Principle]] · [[The Absorption Pattern]] · [[The Overassistance Pattern]] · [[02-Key-Concepts/Delegation Regret|Delegation Regret]] · [[Instruction Bleed]] · [[02-Key-Concepts/The Blank Box Problem|The Blank Box Problem]] · [[AI Context Anxiety]] · [[Lexical Oscillation]] · [[02-Key-Concepts/Capacity Dissolution|Capacity Dissolution]] · [[02-Key-Concepts/Cognitive Fixed Cost|Cognitive Fixed Cost]] · [[02-Key-Concepts/Failure-Path Preservation|Failure-Path Preservation]] · [[Distributed Mastery]] · [[02-Key-Concepts/Accountability Asymmetry|Accountability Asymmetry]] · [[02-Key-Concepts/Cognitive Capability Gaps|Cognitive Capability Gaps]] · [[02-Key-Concepts/Intent Scaffolding|Intent Scaffolding]] · [[02-Key-Concepts/The Vibe Compiler|The Vibe Compiler]] · [[02-Key-Concepts/Repair Literacy|Repair Literacy]] · [[02-Key-Concepts/Silent Updates|Silent Updates]] · [[02-Key-Concepts/The Enactment Gap|The Enactment Gap]] · [[02-Key-Concepts/Distributed Counsel|Distributed Counsel]] · [[02-Key-Concepts/The Tool-to-Entity Threshold|The Tool-to-Entity Threshold]] · [[02-Key-Concepts/The Authority Switch|The Authority Switch]] · [[02-Key-Concepts/Scaffold, Don't Substitute|Scaffold, Don't Substitute]] · [[02-Key-Concepts/Procedural Collapse|Procedural Collapse]] · [[02-Key-Concepts/The Practice Style|The Practice Style]] · [[02-Key-Concepts/The Provenance Principle|The Provenance Principle]] · [[02-Key-Concepts/Delegated Exposure|Delegated Exposure]] · [[02-Key-Concepts/The Confidence Gap|The Confidence Gap]] · [[02-Key-Concepts/The Warm Expert|The Warm Expert]] · [[02-Key-Concepts/Run-to-Run Variance|Run-to-Run Variance]] · [[02-Key-Concepts/The SCAN Test|The SCAN Test]] · [[02-Key-Concepts/The Rule Capture Problem|The Rule Capture Problem]] · [[02-Key-Concepts/The Failure Review|The Failure Review]] · [[02-Key-Concepts/The Echo Check|The Echo Check]] · [[02-Key-Concepts/The Disclosure Clock|The Disclosure Clock]] · [[02-Key-Concepts/Accountable Translation|Accountable Translation]] · [[02-Key-Concepts/Interpretive Appearance|Interpretive Appearance]] · [[The Evidence Interface]] · [[The Workflow Lens]] · [[Sequenced Agency]] · [[The Task Scaffold]] · [[The Translation Layer]] · [[The Control Surface]] · [[Metacognitive Demand]]
 
-New this week: [[The Demonstration Check]] — teach-back before the next delegated run.
+New this week: [[The Demonstration Check]] — teach-back before the next delegated run. Also explore [[The Observability Gap]] and [[The Capability Ladder]] for deciding what to verify at each autonomy level.
 
 ### [[03-Real-World/README|03 — Real World Stories]]
 Case studies, transformation stories, and honest failure postmortems.
@@ -50,7 +50,7 @@ Case studies, transformation stories, and honest failure postmortems.
 
 ### [[04-Barriers-and-Bridges/README|04 — Barriers & Bridges]]
 What holds people back — and how to cross.
-→ [[Fear of Losing Control]] · [[The Just Ask ChatGPT Trap]] · [[Psychological Debt]] · [[04-Barriers-and-Bridges/Trust Calibration|Trust Calibration]] · [[Knowledge Debt]] · [[Prompt as Safety Blanket]] · [[Human Readiness Archetypes]] · [[The Engagement Gap]] · [[The Certification Boundary]] · [[Social Thinning]] · [[04-Barriers-and-Bridges/No One to Blame|No One to Blame]] · [[04-Barriers-and-Bridges/The Fabricated Front|The Fabricated Front]] · [[The Validator Trap]] · [[The Retrievability Gap]] · [[Procedural Standing]] · [[The Absent Person Test]]
+→ [[Fear of Losing Control]] · [[The Just Ask ChatGPT Trap]] · [[Psychological Debt]] · [[04-Barriers-and-Bridges/Trust Calibration|Trust Calibration]] · [[Knowledge Debt]] · [[Prompt as Safety Blanket]] · [[Human Readiness Archetypes]] · [[The Engagement Gap]] · [[The Certification Boundary]] · [[Social Thinning]] · [[04-Barriers-and-Bridges/No One to Blame|No One to Blame]] · [[04-Barriers-and-Bridges/The Fabricated Front|The Fabricated Front]] · [[Risk Cascades]] · [[The Validator Trap]] · [[The Retrievability Gap]] · [[Procedural Standing]] · [[The Absent Person Test]]
 
 ### [[05-Practice/README|05 — Practice]]
 Weekly muscle builders. Concrete exercises that build the orchestrator mindset.
@@ -62,7 +62,7 @@ Plain-language definitions of every key term.
 
 ### 00-Daily-Digests
 Daily curated research digests — what we found, what it means, and how to use it.
-→ [[00-Daily-Digests/2026-09-26|Today's Digest]]
+→ [[00-Daily-Digests/2026-09-27|Today's Digest]]
 
 ---
 
@@ -82,6 +82,7 @@ _Last 7 days of activity._
 
 | Date | What Changed |
 |------|-------------|
+| 2026-09-27 | Day 7 cross-section: three non-paper sources linked the approval boundary in [[The Control Surface]], the privacy and nonuser check in [[The Absent Person Test]], and the dated exit gate in [[The Evidence Ticket]]. Sunday structural lint completed; historical raw hash debt remains under review. |
 | 2026-09-26 | Day 6 glossary rotation: three independently read non-paper sources sharpened [[Delegation]], [[Oversight]], and [[Tool Use]]. Check the human choice, the answer key, and the work trail before calling an AI handoff complete. |
 | 2026-09-25 | Day 5 practice rotation: four arXiv preprints distilled into practical checks for [[First Delegation]], [[Build a Tiny Pipeline]], and [[The Daily Standup]]. Today's question: what can you verify without asking the same AI? No new concept page; all four findings fit existing exercises. |
 | 2026-09-24 | Day 4 rotation — 04-Barriers-and-Bridges: three sources (MIT Technology Review, WIRED, an older arXiv preprint); [[The Absent Person Test]] created; Procedural Standing and Fear of Losing Control now ask who is affected without ever using the tool. Today's question: whose name is absent from the approval meeting? |

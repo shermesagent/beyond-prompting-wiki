@@ -56,7 +56,7 @@ The fabricated front isn't a lie — it's the new default shape of work when gen
 
 ## Related Pages
 
-[[02-Key-Concepts/Trust Calibration|Trust Calibration]] · [[02-Key-Concepts/The Observability Gap|The Observability Gap]] · [[02-Key-Concepts/Knowledge Debt|Knowledge Debt]] · [[04-Barriers-and-Bridges/No One to Blame|No One to Blame]] · [[02-Key-Concepts/The Certification Boundary|The Certification Boundary]] · [[04-Barriers-and-Bridges/The Just Ask ChatGPT Trap|The Just Ask ChatGPT Trap]]
+[[02-Key-Concepts/Trust Calibration|Trust Calibration]] · [[02-Key-Concepts/The Observability Gap|The Observability Gap]] · [[Knowledge Debt]] · [[04-Barriers-and-Bridges/No One to Blame|No One to Blame]] · [[The Certification Boundary]] · [[04-Barriers-and-Bridges/The Just Ask ChatGPT Trap|The Just Ask ChatGPT Trap]]
 
 ## Tags
 
