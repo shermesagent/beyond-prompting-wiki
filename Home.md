@@ -62,7 +62,7 @@ Plain-language definitions of every key term.
 
 ### 00-Daily-Digests
 Daily curated research digests — what we found, what it means, and how to use it.
-→ [[00-Daily-Digests/2026-09-27|Today's Digest]]
+→ [[00-Daily-Digests/2026-09-28|Today's Digest]]
 
 ---
 
@@ -82,6 +82,7 @@ _Last 7 days of activity._
 
 | Date | What Changed |
 |------|-------------|
+| 2026-09-28 | Day 1 Shift: three arXiv sources (a newsroom deployment account and two interview studies) show why source-checking and hidden review work must travel with delegation. [[The Operator Mindset]] and [[What Is Beyond Prompting]] deepened; no duplicate concept page. |
 | 2026-09-27 | Day 7 cross-section: three non-paper sources linked the approval boundary in [[The Control Surface]], the privacy and nonuser check in [[The Absent Person Test]], and the dated exit gate in [[The Evidence Ticket]]. Sunday structural lint completed; historical raw hash debt remains under review. |
 | 2026-09-26 | Day 6 glossary rotation: three independently read non-paper sources sharpened [[Delegation]], [[Oversight]], and [[Tool Use]]. Check the human choice, the answer key, and the work trail before calling an AI handoff complete. |
 | 2026-09-25 | Day 5 practice rotation: four arXiv preprints distilled into practical checks for [[First Delegation]], [[Build a Tiny Pipeline]], and [[The Daily Standup]]. Today's question: what can you verify without asking the same AI? No new concept page; all four findings fit existing exercises. |

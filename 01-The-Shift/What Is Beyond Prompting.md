@@ -149,6 +149,12 @@ Google's health and societal-impact examples show the positive version. AI-assis
 
 So the shift is not “trust the AI more.” It is **delegate only as far as the control surface reaches.** If you cannot see what happened, stop it, appeal it, reverse it, or explain who owns the consequence, you have not moved beyond prompting. You have moved beyond visibility. See [[The Control Surface]].
 
+## Delegation Moves the Work, Not the Responsibility (September 2026)
+
+The New York Times team's [account of its Epstein Files Engine](https://arxiv.org/abs/2609.30611) describes an agent that turns reporter questions into searches across public document collections and brings back cited results. The team reports use by more than 100 journalists and contributions to at least 20 stories. Those are team-reported deployment figures, not an independent accuracy test. The agent helped people *find* material; reporters still had to verify it and decide what to publish. The pattern for any team is retrieval with inspectable citations, not unattended writing.
+
+Two [interdisciplinary research](https://arxiv.org/abs/2609.30588) and [graduate-worker interview](https://arxiv.org/abs/2609.30699) studies show why that division matters. The first found unfamiliar-domain answers hardest to verify when they were most useful; the second found continued AI use came with hidden checking and social work. Both are small qualitative studies, not evidence that every profession behaves this way. The practical shift is to design the *check* with the assignment: name an independent source, a reviewer with relevant knowledge, and a stop point for unsupported claims. See [[The Operator Mindset]] and [[The Orchestrator Mindset]].
+
 ## Try This
 
 Open your most-used AI tool right now. Instead of asking it to do something, give it a goal and a constraint. Say: "I need a report on X. Figure out what information you need, collect it, and produce a one-page summary. Ask me clarifying questions only if you absolutely must." Notice how different that feels — and how much more you get back.

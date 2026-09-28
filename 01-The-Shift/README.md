@@ -13,3 +13,5 @@ None of this requires a computer science degree. It requires a different way of 
 - [[The Orchestrator Mindset]] — what changes when you delegate instead of direct
 - [[The Architect Mindset]] — where the real leverage lives
 - [[Why This Matters]] — the stakes, for your work and for everyone else's
+
+**This week's bridge:** [[The Operator Mindset]] shows why checking and coordination count as work; [[What Is Beyond Prompting]] shows how an agent can find evidence without replacing the person who must verify it.

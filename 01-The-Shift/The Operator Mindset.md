@@ -170,6 +170,14 @@ For an operator, the first handle is tiny: before you let an AI workflow do one 
 
 That is the non-scary path out of operator mode: not blind trust, not total control — one visible handle at a time. See [[The Control Surface]].
 
+## The Work You Cannot See in a Usage Count (September 2026)
+
+In interviews with 36 graduate student workers, researchers found that people kept using AI while also checking its output, worrying about what it did to their thinking, and managing how others judged their use. Continued use was not a vote of confidence: the paper calls this cycle **active negotiation**. Its sample is academic, so it does not tell us how common the pattern is in other jobs. [Source: Viana et al., arXiv:2609.30699](https://arxiv.org/abs/2609.30699).
+
+Another study followed and interviewed 15 people doing research across disciplines. They used AI to bridge knowledge gaps, but the claims they most needed help with were also the hardest for them to check. Do not mistake a smooth answer in an unfamiliar field for an answer you can validate. [Source: Hayati et al., arXiv:2609.30588](https://arxiv.org/abs/2609.30588).
+
+**A five-minute check:** For one public, low-stakes AI task, write down the time spent drafting, checking claims, and deciding what to keep. Mark any claim you cannot independently verify as **unconfirmed**, not as finished. That is the operator's first bridge to [[The Orchestrator Mindset]]: decide what proof your next handoff must return. See [[The Evidence Interface]].
+
 ## Try This
 
 Pick one task you do with AI at least twice a week. Write down every step you take — every prompt, every edit, every check. Now ask: which of those steps are truly judgment calls, and which are mechanical sequences you could teach someone else? The mechanical ones are your first candidates for delegation. Circle them.
