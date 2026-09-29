@@ -1,11 +1,12 @@
 ---
 title: The Enactment Gap
 created: 2026-08-14
-updated: 2026-08-14
+updated: 2026-09-29
 type: concept
 tags: [concept, feedback, enactment, workflow, orchestrator]
 sources:
   - raw/articles/feedback-enactment-workflows-2608.11625.md
+  - raw/articles/chatbot-metalearning-three-countries-2609.32739.md
 confidence: high
 ---
 
@@ -41,6 +42,12 @@ The gap also reframes how you *design* your AI workflows:
 - **Structure beats access.** The Enacted workflow didn't give students more AI. It gave them a forced ritual: select → evaluate → dialogue. The ritual is what produced enactment.
 - **Uptake is the metric.** When you're deciding whether an AI practice "works," don't measure the quality of the output you received. Measure whether you *acted* on it. That's the Enactment Gap as a personal KPI.
 
+## Did the Skill Travel Without the Chatbot? (September 2026)
+
+A preregistered randomized experiment across the US, India, and Singapore (about 2,200 people) tested ways to correct out-of-context image misinformation. A chatbot produced the largest **immediate** discernment gain, but no advantage persisted on an unaided test one week later; in some comparisons its group declined relative to the control group. The authors argue that engaging help does not automatically teach a durable checking skill. This experiment is about misinformation images, not all classroom feedback or all AI help. [Source](https://arxiv.org/abs/2609.32739). ^[raw/articles/chatbot-metalearning-three-countries-2609.32739.md]
+
+**Add a transfer step to any helpful AI workflow:** after the assisted result, write the method in your own words; later, try a different public example without the chatbot. If you cannot explain what you checked, the answer may have improved while your skill stayed put. This extends the enactment audit below from “did I use the advice?” to “could I make the next judgment unaided?” See [[Scaffold, Don't Substitute]].
+
 ## Try This
 
 **5-Minute Exercise: The Enactment Audit**
@@ -54,7 +61,7 @@ If a workflow is stuck in the 0.1% zone, don't add better AI to it. Add structur
 
 ## Related Pages
 
-[[05-Practice/The Daily Standup|The Daily Standup]] · [[Audit Your Prompts]] · [[The Review-First Pattern]] · [[From Author to Editor]] · [[Knowledge Debt]] · [[The Vibe Compiler]]
+[[05-Practice/The Daily Standup|The Daily Standup]] · [[Audit Your Prompts]] · [[The Review-First Pattern]] · [[From Author to Editor]] · [[Knowledge Debt]] · [[The Vibe Compiler]] · [[Scaffold, Don't Substitute]]
 
 ## Tags
 

@@ -1,13 +1,14 @@
 ---
 title: Co-Construction Blindness
 created: 2026-06-23
-updated: 2026-08-11
+updated: 2026-09-29
 type: concept
 tags: [concept, barrier, mindset, orchestrator]
 sources:
   - raw/articles/co-construction-blindness-ximenes-2026.md
   - raw/articles/conditional-cognitive-biases-2608.05166.md
   - raw/articles/illusion-of-alignment-2608.08210.md
+  - raw/articles/alignment-games-conceptual-repair-2609.35197.md
 confidence: medium
 ---
 
@@ -77,6 +78,12 @@ Two more findings matter:
 
 **The orchestrator's takeaway:** when you end a session with an agent (or a teammate) and feel aligned, you have *not* verified alignment — you've observed the absence of voiced disagreement, which is a different thing. The fix is a **divergence probe**: before accepting "yes, understood," ask a question with at least two defensible answers (what does success look like? what would you do if X happens? which definition are you using?) and check whether the answers actually agree. Silence and agreement are not the same signal. See [[The Observability Gap]] for the structural version of this blind spot.
 
+## Ask Which Meaning Won (September 2026)
+
+Subramonyam, Agrawala, and Follmer's [Alignment Games framework](https://arxiv.org/abs/2609.35197) shows a fix for an everyday handoff failure: two collaborators can agree on a word while imagining different results. “Visually appealing for a five-year-old” could mean cartoons and bright colors to one person, but fewer words and simpler shapes to another. Their paper offers repair moves and examples, **not a tested improvement rate**. ^[raw/articles/alignment-games-conceptual-repair-2609.35197.md]
+
+Before a consequential draft, ask for two interpretations of its key adjective, pick one, and name what must stay unchanged. This adds a concrete check to the divergence probe above: not just “do we agree?” but “what exactly do we each mean by *ready*?” See [[The Meaning Check]] for the five-minute version.
+
 ## How to Spot It in Your Day
 
 You might be experiencing co-construction blindness when:
@@ -106,7 +113,7 @@ The point isn't to distrust the AI. It's to stop pretending you're outside the s
 
 ## Related Pages
 
-[[Trust Calibration]] · [[Delegation Thinking]] · [[Cognitive Surrender]] · [[Friction by Design]] · [[Human in the Loop]] · [[Task Decomposition]] · [[Lexical Oscillation]]
+[[Trust Calibration]] · [[Delegation Thinking]] · [[Cognitive Surrender]] · [[Friction by Design]] · [[Human in the Loop]] · [[Task Decomposition]] · [[Lexical Oscillation]] · [[The Meaning Check]]
 
 ## Tags
 

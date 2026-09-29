@@ -80,9 +80,15 @@ The practical upgrade: every useful memory needs four controls — **scope, prov
 
 The orchestrator does not ask only “can the AI remember?” They ask “where should this memory stop?”
 
+## Memory Is a Proposal, Not a Verdict (September 2026)
+
+Chen and colleagues studied user-reported mismatches in AI memory: 457 saved entries from 28 users, 304 diary reports from 32 people, co-design workshops, and a preference exercise with 121 users. Their taxonomy covers mistakes when information enters memory, while it is stored, and when it is reused or interpreted. In the preference exercise, people favored controls they could use before a mistake over demanding forensic views of why a memory fired. These are reported experiences and design preferences, not proof of a deployed fix. [Source](https://arxiv.org/abs/2609.33623). ^[raw/articles/memory-misalignment-user-perspectives-2609.33623.md]
+
+**Try this on a non-sensitive saved preference:** ask where it came from, where it is allowed to apply, and how to correct or remove it. Then test one new task where it *should not* appear. For school workflows, do not put student information into an unapproved memory feature. Memory should save you repetition without quietly changing who you are to the next task.
+
 ## Related Pages
 
-[[Task Decomposition]] · [[Trust Calibration]] · [[Delegation Thinking]] · [[01-The-Shift/README|The Architect Mindset]] · [[05-Practice/README|Practice Section]] · [[Metacognitive Demand]]
+[[Task Decomposition]] · [[Trust Calibration]] · [[Delegation Thinking]] · [[01-The-Shift/README|The Architect Mindset]] · [[05-Practice/README|Practice Section]] · [[Metacognitive Demand]] · [[The Meaning Check]]
 
 ## Tags
 

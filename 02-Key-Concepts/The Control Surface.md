@@ -1,7 +1,7 @@
 ---
 title: The Control Surface
 created: 2026-09-21
-updated: 2026-09-27
+updated: 2026-09-29
 type: concept
 tags: [concept, workflow, orchestrator, architect]
 sources:
@@ -14,6 +14,7 @@ sources:
   - raw/articles/anticipatory-human-oversight-agentic-ai-2609.24242.md
   - raw/articles/zvi-ambition-permission-2026-09-26.md
   - raw/articles/rand-freedom-of-action-2026-09-15.md
+  - raw/articles/parallelpilot-supervision-2609.33113.md
 confidence: medium
 ---
 
@@ -89,9 +90,15 @@ Write two labels in the task brief: **DISCUSS/DRAFT ONLY** and **ACT AFTER APPRO
 
 Try it on a public-document summary: the agent can find and draft from public files, but cannot email anyone, change a record, or widen its access without another human decision. See [[The Evidence Ticket]] for the record that accompanies the handoff.
 
+## A Status Board Is Not a Steering Wheel (September 2026)
+
+A small study of parallel AI coding introduced five supervisory habits: **plan** tasks, **isolate** work, **log** runs, **observe** status, and **triage** problems. In a 16-person short-task test, its tool increased ticket throughput by 63% and reduced tracking and context-switching effort. It did **not** significantly improve participants' reported ability to redirect agents or their sense of control. The finding belongs to this coding setting; it is not a promised productivity gain for other work. [Source](https://arxiv.org/abs/2609.33113). ^[raw/articles/parallelpilot-supervision-2609.33113.md]
+
+For one low-risk public-document workflow, sketch the five habits on paper. Then add the missing sixth question: **where do I actually pause or redirect this run?** If you can see a problem but cannot correct the next action, your dashboard is informative but your control surface is incomplete. See [[The Meaning Check]] for a pre-run interpretation check.
+
 ## Related Pages
 
-[[What Is Beyond Prompting]] · [[The Orchestrator Mindset]] · [[The Architect Mindset]] · [[The Workflow Lens]] · [[The Translation Layer]] · [[The Evidence Interface]] · [[The Evidence Ticket]] · [[Procedural Standing]] · [[Metacognitive Demand]]
+[[What Is Beyond Prompting]] · [[The Orchestrator Mindset]] · [[The Architect Mindset]] · [[The Workflow Lens]] · [[The Translation Layer]] · [[The Evidence Interface]] · [[The Evidence Ticket]] · [[Procedural Standing]] · [[Metacognitive Demand]] · [[The Meaning Check]]
 
 ## Tags
 
