@@ -1,5 +1,7 @@
 # The School District Shift
 
+> **Illustrative scenario, not a Farmersville ISD case study.** The named district, rollout, quotations, outcomes and figures in the opening story are fictional and must not be cited as district results. The research sections below cite separate published sources. Do not enter student, accommodation, or personnel records into an unapproved AI tool.
+
 ## What It Is
 
 A case study of a small Texas school district — call it Farmersville ISD — that moved from individual teachers using ChatGPT for lesson plans to a district-wide system where orchestrated agents handle curriculum alignment, data analysis, parent communication, and more. The shift took eighteen months, cost less than a single textbook adoption, and changed how teachers spent their planning periods.
@@ -437,6 +439,14 @@ The uncomfortable implication for assessment: if students co-construct with AI, 
 In a **single-day observation** of ten doctoral students working in three groups on systematic literature reviews, AI made it easier to generate alternatives and surface methodological problems. It also invited excessive delegation, superficial validation, and attention drifting from the review toward operating the tool. This is a graduate software-engineering course, **not a K–12 district trial**; the lesson for a curriculum team is a design prompt, not a claim about district outcomes. [Source: Ribeiro and Hida, arXiv:2609.26057](https://arxiv.org/abs/2609.26057).
 
 Try it on a **public, non-student source set**: before asking AI to summarize, have the teacher or team record one inclusion rule, one exclusion rule, and who resolves borderline cases. After the AI sorts the sources, check one included and one excluded item against the originals. [[The Demonstration Check]] is the adjacent skill: after showing a workflow, ask the system to teach back its exception and approval boundary before trusting the draft. No student, accommodation, or personnel data belongs in an unapproved tool.
+
+## The Access-to-Practice Test: What Happens After the Login?
+
+In interviews with first-generation, low-income college students and program staff, Hyungsik Kim found that access did not guarantee broad use. Participants described narrow chatbot uses and barriers such as not seeing a clear benefit, not knowing where to start, and not seeing peers model useful work. The paper describes four depths of use, from basic chat to integrated workflows; it does **not** test a K–12 district rollout. [Source: Kim, arXiv:2609.36129](https://arxiv.org/abs/2609.36129).
+
+A district pilot can respond without demanding that every teacher become an agent builder: pick one **public, non-student** curriculum task, show a colleague how to produce a draft, and have the colleague name the standard and evidence they will check. Record whether they use that routine again unaided next week. Count **completed, reviewed tasks**, not accounts provisioned. This is an application of the interview findings, not an effect measured in schools. See [[The Enactment Gap]] and [[The Warm Expert]].
+
+Two *related*, small classroom pilots from Zahra and colleagues sharpen the outcome check. In two graduate research-methods courses, a tool that asked learners to justify a position first showed a gain in **self-reported** AI literacy, but no change in measured critical thinking, awareness, or knowledge; records were incomplete. In a separate undergraduate methods/statistics pilot (14 students), statistics measures improved while standardized critical-thinking percentiles did not, and many students used AI to validate rather than debate. Neither pilot proves a K–12 teaching effect or a district-wide implementation. Ask for a before/after work sample **and** a short explanation of what the learner rejected, using approved materials and procedures. [Sources: arXiv:2609.37880](https://arxiv.org/abs/2609.37880); [arXiv:2609.38029](https://arxiv.org/abs/2609.38029). See [[Scaffold, Don't Substitute]].
 
 ---
 

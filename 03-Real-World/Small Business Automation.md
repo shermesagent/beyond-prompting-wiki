@@ -1,5 +1,7 @@
 # Small Business Automation
 
+> **Illustrative composite, not verified business results.** Rise & Rye, its owners, dialogue, savings and financial figures are invented examples. Do not cite the story's numbers as observed outcomes; use the separately cited research sections for evidence.
+
 ## What It Is
 
 A story about a two-person bakery in Austin, Texas, that turned its entire back office into a set of agent workflows: inventory tracking and ordering, customer follow-ups, scheduling, and bookkeeping prep. Total setup time: three afternoons. No custom software. No engineering background. Just a willingness to stop doing assembly-line work by hand.

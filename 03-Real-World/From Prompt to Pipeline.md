@@ -1,5 +1,7 @@
 # From Prompt to Pipeline
 
+> **Illustrative composite, not measured outcomes.** Mara, her dialogue and the hours/results in the story are invented examples, not a verified customer case or trial. The sourced research sections below must be read separately from this scenario.
+
 ## What It Is
 
 A story about someone who went from writing prompts one at a time — tweaking, re-running, copying, pasting — to building a single agent pipeline that does a week's worth of content drafts while she's asleep. No engineering background. No budget. Just a shift in how she thought about the work.
@@ -404,6 +406,12 @@ A September 2026 randomized trial put 50 product designers and 50 product manage
 For Mara's pipeline, the transferable move is a two-column trial: record time to draft **and** the number of factual or audience-fit changes needed before publication. A fast rough draft may be a win; a fast wrong one may only move labor into review. She should keep the editorial claim and audience in her brief, then ask the AI to tell back the rules and exceptions before another autonomous run. See [[The Demonstration Check]].
 
 Interviews with 12 expert visual data storytellers reinforce that boundary: they usually delegated execution, not the meaning of the story. They seeded the intent first and spent the saved production time verifying it. This is qualitative evidence about expert practice, not proof of a universal time saving. [Source: Jiang et al., arXiv:2609.25700](https://arxiv.org/abs/2609.25700).
+
+## Adoption Is Not a Login; Learning Is Not a Feeling
+
+Kim's interviews with first-generation, low-income college students suggest a useful adoption question for Mara's team: **what keeps a person from using the next level of the workflow after getting access?** An unclear first task and a lack of peer examples are different problems from a missing license. A team can demo one recurring draft on public material, ask a colleague to run it again next week, and record whether the output was actually reviewed and used. The four use modes in the study describe a progression; they are not a required ranking for every worker. [Source: Kim, arXiv:2609.36129](https://arxiv.org/abs/2609.36129). See [[The Enactment Gap]] and [[The Warm Expert]].
+
+Related course pilots by Zahra and colleagues warn against celebrating confidence alone: one graduate-course design cycle found a change in reported AI literacy without a corresponding measured critical-thinking change, and an undergraduate pilot (14 students) found statistics gains without a shift in standardized critical-thinking percentiles. Both are educational contexts, **not content-marketing trials**. For Mara's next two runs, keep a simple review record: claim checked against original source, change accepted/rejected, and why. The record tests the team's review habit rather than inventing an efficiency number. [Sources: arXiv:2609.37880](https://arxiv.org/abs/2609.37880); [arXiv:2609.38029](https://arxiv.org/abs/2609.38029). See [[The Review-First Pattern]].
 
 ---
 

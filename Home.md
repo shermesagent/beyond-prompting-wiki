@@ -62,7 +62,7 @@ Plain-language definitions of every key term.
 
 ### 00-Daily-Digests
 Daily curated research digests — what we found, what it means, and how to use it.
-→ [[00-Daily-Digests/2026-09-29|Today's Digest]]
+→ [[00-Daily-Digests/2026-09-30|Today's Digest]]
 
 ---
 
@@ -82,13 +82,13 @@ _Last 7 days of activity._
 
 | Date | What Changed |
 |------|-------------|
+| 2026-09-30 | Day 3 real-world rotation: three new preprints on access versus practice and confidence versus demonstrated skill; [[The School District Shift]] and [[From Prompt to Pipeline]] gained repeat-use and evidence checks. All three composite stories now prominently label their invented numbers. [[00-Daily-Digests/2026-09-30|Read today's digest]]. |
 | 2026-09-29 | Day 2 concepts: four new preprints sharpened shared meaning, unaided learning, memory boundaries, and real redirection. [[The Meaning Check]] created; four existing concepts deepened. |
 | 2026-09-28 | Day 1 Shift: three arXiv sources (a newsroom deployment account and two interview studies) show why source-checking and hidden review work must travel with delegation. [[The Operator Mindset]] and [[What Is Beyond Prompting]] deepened; no duplicate concept page. |
 | 2026-09-27 | Day 7 cross-section: three non-paper sources linked the approval boundary in [[The Control Surface]], the privacy and nonuser check in [[The Absent Person Test]], and the dated exit gate in [[The Evidence Ticket]]. Sunday structural lint completed; historical raw hash debt remains under review. |
 | 2026-09-26 | Day 6 glossary rotation: three independently read non-paper sources sharpened [[Delegation]], [[Oversight]], and [[Tool Use]]. Check the human choice, the answer key, and the work trail before calling an AI handoff complete. |
 | 2026-09-25 | Day 5 practice rotation: four arXiv preprints distilled into practical checks for [[First Delegation]], [[Build a Tiny Pipeline]], and [[The Daily Standup]]. Today's question: what can you verify without asking the same AI? No new concept page; all four findings fit existing exercises. |
 | 2026-09-24 | Day 4 rotation — 04-Barriers-and-Bridges: three sources (MIT Technology Review, WIRED, an older arXiv preprint); [[The Absent Person Test]] created; Procedural Standing and Fear of Losing Control now ask who is affected without ever using the tool. Today's question: whose name is absent from the approval meeting? |
-| 2026-09-23 | Day 3 rotation — 03-Real-World: 4 newly announced arXiv sources; [[The Demonstration Check]] created; From Prompt to Pipeline, The School District Shift, and Small Business Automation deepened with teach-back, decision records, and speed-versus-quality checks. Today's question: does the AI know when not to copy the example? |
 | 2026-09-22 | Day 2 rotation — 02-Key-Concepts: Daily digest + 5 new arXiv sources integrated after web_search returned empty; **1 new concept** ([[Metacognitive Demand]] — the human decision that must stay alive while AI carries more of the work: choose, monitor, explain, stop, scope, or challenge) + 4 existing pages deepened (The Scaffold Match, Trust Calibration, Memory as Infrastructure, The Control Surface) + 02-Key-Concepts README and Home updated. Tuesday's question: what decision should the human still make before the AI helps? |
 | 2026-09-21 | Day 1 rotation — 01-The-Shift: Daily digest + 5 AI Agency KB 09-20 sources integrated after web_search returned empty and arXiv RSS returned zero items; **1 new concept** ([[The Control Surface]] — the handles that let people inspect, steer, pause, correct, and pay attention to AI systems: logs, permissions, stop conditions, owners, evidence, and exit paths) + 5 Shift pages deepened (What Is Beyond Prompting, The Operator Mindset, The Orchestrator Mindset, The Architect Mindset, Why This Matters) + 02-Key-Concepts README and Home updated. Monday's question: what handle do you need before this AI workflow gets more freedom? |
 | 2026-09-20 | Day 7 cross-section — The Translation Layer: Daily digest + 5 AI Agency KB 09-19 sources integrated after web_search returned empty on 3 probes and Sunday arXiv was skipped; **1 new concept** ([[The Translation Layer]] — the bridge from AI capability to usable workflows: interface, trusted data, permissions, review habits, and evidence trails normal people can use) + 4 existing pages deepened (The Workflow Lens, From Prompt to Pipeline, Communication Primitives, The Evidence Ticket) + 02-Key-Concepts README and Home updated. Sunday's question: what has to be translated before a normal person can use this? |
