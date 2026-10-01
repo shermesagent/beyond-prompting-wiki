@@ -1,11 +1,12 @@
 ---
 title: The Fabricated Front
 created: 2026-08-20
-updated: 2026-08-20
+updated: 2026-10-01
 type: concept
 tags: [barrier, trust, workplace, opacity, orchestrator]
 sources:
   - raw/articles/fabricated-front-2608.18369.md
+  - raw/articles/companion-self-description-audit-2609.38753.md
 confidence: high
 ---
 
@@ -50,6 +51,12 @@ The governance task is **involvement management**: specifying which forms of hum
 - **Stop laundering labor.** If a deliverable took you 20 minutes because the AI did the heavy lifting, say so in the places where investment matters. The person who sees the real investment can calibrate trust; the person who doesn't will calibrate wrong.
 - **Write the involvement contract for your team.** For each recurring deliverable type, specify: which involvement stays visible, to whom, and what happens when it isn't. That's the 2026 answer to the 2025 "put an AI label on it" policy.
 
+## When the Tool Describes Itself
+
+The same gap can exist inside the tool. In a [small companion-agent study](https://arxiv.org/abs/2609.38753), nine colleagues rated memory reasonably well, even though two of the prototype's three memory layers had never performed their accumulation step. The authors compared self-description, user judgment and implementation records; they classified claims as supported, contradicted or unresolved. This is one prototype, not a failure rate for all agents. ^[raw/articles/companion-self-description-audit-2609.38753.md]
+
+**Bridge:** for an agent that says “I remembered,” test a harmless, non-personal fact across sessions and ask for the dated record of what was saved and retrieved. If you cannot see a record, mark the mechanism **unverified** rather than either trusting or dismissing it. [[The Fairness Dashboard Trap]] is the institutional cousin: a reassuring presentation is not a check of the underlying errors.
+
 ## The Bottom Line
 
 The fabricated front isn't a lie — it's the new default shape of work when generation is effortless. The question isn't whether AI is involved; it's whether the involvement that matters to your audience is still inspectable. Name the mechanism, protect the identity cues, and manage involvement instead of banning disclosure.
@@ -57,6 +64,7 @@ The fabricated front isn't a lie — it's the new default shape of work when gen
 ## Related Pages
 
 [[02-Key-Concepts/Trust Calibration|Trust Calibration]] · [[02-Key-Concepts/The Observability Gap|The Observability Gap]] · [[Knowledge Debt]] · [[04-Barriers-and-Bridges/No One to Blame|No One to Blame]] · [[The Certification Boundary]] · [[04-Barriers-and-Bridges/The Just Ask ChatGPT Trap|The Just Ask ChatGPT Trap]]
+[[The Fairness Dashboard Trap]] · [[Procedural Standing]]
 
 ## Tags
 

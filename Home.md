@@ -2,7 +2,7 @@
 
 > A living guide to the **operator → orchestrator shift**. If you've ever typed a prompt and thought "there has to be more than this" — start here.
 
-_125 pages across 6 sections. Updated daily. Git-backed, human-readable, cross-linked._
+_126 pages across 6 sections. Updated daily. Git-backed, human-readable, cross-linked._
 
 ---
 
@@ -50,7 +50,7 @@ Case studies, transformation stories, and honest failure postmortems.
 
 ### [[04-Barriers-and-Bridges/README|04 — Barriers & Bridges]]
 What holds people back — and how to cross.
-→ [[Fear of Losing Control]] · [[The Just Ask ChatGPT Trap]] · [[Psychological Debt]] · [[04-Barriers-and-Bridges/Trust Calibration|Trust Calibration]] · [[Knowledge Debt]] · [[Prompt as Safety Blanket]] · [[Human Readiness Archetypes]] · [[The Engagement Gap]] · [[The Certification Boundary]] · [[Social Thinning]] · [[04-Barriers-and-Bridges/No One to Blame|No One to Blame]] · [[04-Barriers-and-Bridges/The Fabricated Front|The Fabricated Front]] · [[Risk Cascades]] · [[The Validator Trap]] · [[The Retrievability Gap]] · [[Procedural Standing]] · [[The Absent Person Test]]
+→ [[Fear of Losing Control]] · [[The Just Ask ChatGPT Trap]] · [[Psychological Debt]] · [[04-Barriers-and-Bridges/Trust Calibration|Trust Calibration]] · [[Knowledge Debt]] · [[Prompt as Safety Blanket]] · [[Human Readiness Archetypes]] · [[The Engagement Gap]] · [[The Certification Boundary]] · [[Social Thinning]] · [[04-Barriers-and-Bridges/No One to Blame|No One to Blame]] · [[04-Barriers-and-Bridges/The Fabricated Front|The Fabricated Front]] · [[Risk Cascades]] · [[The Validator Trap]] · [[The Retrievability Gap]] · [[Procedural Standing]] · [[The Absent Person Test]] · [[The Fairness Dashboard Trap]]
 
 ### [[05-Practice/README|05 — Practice]]
 Weekly muscle builders. Concrete exercises that build the orchestrator mindset.
@@ -62,7 +62,7 @@ Plain-language definitions of every key term.
 
 ### 00-Daily-Digests
 Daily curated research digests — what we found, what it means, and how to use it.
-→ [[00-Daily-Digests/2026-09-30|Today's Digest]]
+→ [[00-Daily-Digests/2026-10-01|Today's Digest]]
 
 ---
 
@@ -82,6 +82,7 @@ _Last 7 days of activity._
 
 | Date | What Changed |
 |------|-------------|
+| 2026-10-01 | Day 4 barriers: a better score or smoother story is not proof of fewer mistakes. [[The Fairness Dashboard Trap]] added; [[Procedural Standing]], [[The Fabricated Front]], and [[No One to Blame]] gained error-map, memory-claim and stop-owner checks. [[00-Daily-Digests/2026-10-01|Read today's digest]]. |
 | 2026-09-30 | Day 3 real-world rotation: three new preprints on access versus practice and confidence versus demonstrated skill; [[The School District Shift]] and [[From Prompt to Pipeline]] gained repeat-use and evidence checks. All three composite stories now prominently label their invented numbers. [[00-Daily-Digests/2026-09-30|Read today's digest]]. |
 | 2026-09-29 | Day 2 concepts: four new preprints sharpened shared meaning, unaided learning, memory boundaries, and real redirection. [[The Meaning Check]] created; four existing concepts deepened. |
 | 2026-09-28 | Day 1 Shift: three arXiv sources (a newsroom deployment account and two interview studies) show why source-checking and hidden review work must travel with delegation. [[The Operator Mindset]] and [[What Is Beyond Prompting]] deepened; no duplicate concept page. |

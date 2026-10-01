@@ -1,7 +1,7 @@
 ---
 title: Procedural Standing
 created: 2026-09-17
-updated: 2026-09-24
+updated: 2026-10-01
 type: concept
 tags: [barrier, mindset, orchestrator]
 sources:
@@ -12,6 +12,7 @@ sources:
   - raw/articles/zvi-ai-185-preference-cascade-2026-09-16.md
   - raw/articles/smart-glasses-india-bystander-consent-2026-09-23.md
   - raw/articles/wired-att-automation-affected-people-2026-09-23.md
+  - raw/articles/fairness-theatre-early-warning-2609.38552.md
 confidence: high
 ---
 
@@ -77,9 +78,16 @@ The appeal link cannot start only with the person who clicked “use AI.” MIT 
 
 Add a **nonuser route** to the Contestability Check: How would a person who never opened the tool learn they were affected, find a usable alternative, or reach the human owner? Start the planning step with [[The Absent Person Test]]; standing means little if only insiders know the route exists.
 
+## The Score That Hides the Person
+
+An [Ontario college early-warning preprint](https://arxiv.org/abs/2609.38552) found that six after-the-fact fairness adjustments moved error burdens without consistently reducing them. An aggregate dashboard can improve while wrongly flagged or missed groups remain poorly served. The study tested a research system under simulated vendor constraints, not a K–12 deployment. ^[raw/articles/fairness-theatre-early-warning-2609.38552.md]
+
+Add a fifth question to the Contestability Check: **who can see and challenge a wrongly flagged or wrongly missed case?** Ask for privacy-approved, group-level false-alarm and missed-case patterns; protect small cells from re-identification. If the vendor allows only score adjustments, make that limitation explicit before claiming a fairness fix. See [[The Fairness Dashboard Trap]].
+
 ## Related Pages
 
 [[Trust Calibration]] · [[Fear of Losing Control]] · [[The Just Ask ChatGPT Trap]] · [[The Validator Trap]] · [[No One to Blame]] · [[The Evidence Interface]] · [[The Disclosure Clock]] · [[The Absent Person Test]]
+[[The Fairness Dashboard Trap]]
 
 ## Tags
 

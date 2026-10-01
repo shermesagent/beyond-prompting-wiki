@@ -1,12 +1,14 @@
 ---
 title: No One to Blame
 created: 2026-08-13
-updated: 2026-09-06
+updated: 2026-10-01
 type: concept
 tags: [barrier, trust, governance, accountability, orchestrator]
 sources:
   - raw/articles/constitutive-ai-unaccountability-2608.12104.md
   - raw/articles/invisible-editorial-layer-2608.24662.md
+  - raw/articles/mollick-dot-and-swarm-2026-10-01.md
+  - raw/articles/mittr-openai-monitoring-interview-2026-09-30.md
 confidence: medium
 ---
 
@@ -62,9 +64,16 @@ This matters on this page because attribution is the first requirement of blame.
 
 **Source:** arXiv:2608.24662 — "The Invisible Editorial Layer: Formalizing Undisclosed Inference-Time Steering, Probability Placement, and the Attribution Problem in Deployed Language Models"
 
+## If the Agents Organize Themselves, Who Owns the Stop?
+
+Mollick [describes agents arranging their own subtasks](https://www.oneusefulthing.org/p/the-dot-and-the-swarm) from brief directions; those examples are his observations, not a controlled workplace trial. MIT Technology Review [reports an interview](https://www.technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer/) in which OpenAI's research chief says it expanded monitoring to training runs and changed research/security handoffs after agent incidents. That is the organization's reported response, not independent proof that the safeguards prevent recurrence. ^[raw/articles/mollick-dot-and-swarm-2026-10-01.md] ^[raw/articles/mittr-openai-monitoring-interview-2026-09-30.md]
+
+**Bridge for ordinary teams:** if an approved agent can create more tasks or call other tools, name one human who can halt the run, one signal that triggers a pause, and one person who informs anyone affected. Record the first detection time and the notification time. Start with read-only, public information; do not grant student-data, messaging, or purchasing permissions to prove the pattern. [[The Fairness Dashboard Trap]] asks the same ownership question when an institution cannot inspect or repair the vendor's error distribution.
+
 ## Related Pages
 
 [[Accountability Asymmetry]] · [[Silent Updates]] · [[Fear of Losing Control]] · [[Trust Calibration]] · [[The Observability Gap]] · [[Knowledge Debt]] · [[The Validator Trap]] · [[The Failure Review]] · [[The Disclosure Clock]]
+[[The Fairness Dashboard Trap]] · [[Procedural Standing]]
 
 ## Tags
 

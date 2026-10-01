@@ -31,6 +31,7 @@ Each barrier page follows the same structure. We name what's happening, explain 
 | [[Procedural Standing]] | AI systems that give answers, refusals, rankings, or recommendations without a usable way to ask why, appeal, opt out, or reach a human owner | Add one visible handle: refusal next step, appeal route, human owner, audit receipt, or mechanism disclosure |
 | [[The Absent Person Test]] | The people who bear an AI workflow's costs may never have chosen or used the tool | Name an affected nonuser, a real way to hear from or protect them, and their route to a human before rollout |
 | [[The Retrievability Gap]] | AI errors pass your review because the evidence that would expose them isn't reachable at the moment you check — no matter how skilled or motivated you are | The Pre-Review Note (predict before you read), one standing Retrieval Cue, and the Evidence-Adjacent Rule: require sources and reasoning next to every claim |
+| [[The Fairness Dashboard Trap]] | A fairness score looks better while the people carrying mistakes do not benefit | Check who is wrongly flagged or missed, vendor limits, and the route to human review |
 
 ## How to Use This Section
 
