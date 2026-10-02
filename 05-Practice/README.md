@@ -18,9 +18,11 @@ This is where the operator→orchestrator shift stops being something you read a
 | 5 | [[The Evidence Ticket]] | 3 min | Require one short proof trail before AI output leaves your scratch space |
 
 ## Ongoing Practice
+Friday's five-minute drill: draw three lines around a public-data task — **your first thought, the fact that would reverse the AI's recommendation, and what the tool may access**. [[The Line You Draw]] has the think/change/connect exercise, [[The Reversal Condition]] has the flip test, and [[The Evidence Ticket]] captures the source and approval. See [[00-Daily-Digests/2026-10-02|October 2's digest]] for the studies and their limits. Never use unapproved systems for student or personnel data.
+
 Sunday cross-section check: [[The Evidence Ticket]] now includes an explicit **discuss/draft/act** status, a named approver, a dated review, and a way back. Pair it with [[The Control Surface]] and [[The Absent Person Test]] before any people-facing pilot. See [[00-Daily-Digests/2026-09-27|September 27's digest]] for the three source boundaries.
 
-Today's practice focus: [[First Delegation]] now has a smallest-help request and a two-prompt intention test; [[Build a Tiny Pipeline]] adds a familiar-view check before a handoff; [[The Daily Standup]] asks whether the automated reviewer cried wolf. See [[00-Daily-Digests/2026-09-25|the September 25 digest]] for the four source studies and their limits.
+Earlier practice focus: [[First Delegation]] has a smallest-help request and a two-prompt intention test; [[Build a Tiny Pipeline]] adds a familiar-view check before a handoff; [[The Daily Standup]] asks whether the automated reviewer cried wolf. See [[00-Daily-Digests/2026-09-25|the September 25 digest]] for the four source studies and their limits.
 
 After the three-week progression, [[The Daily Standup]] is your maintenance habit — 5 minutes a day to review what ran, what worked, what needs adjusting, and what evidence the AI left behind. It's the feedback loop that keeps your pipelines healthy and your delegation muscles sharp.
 

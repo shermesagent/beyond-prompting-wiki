@@ -1,13 +1,16 @@
 ---
 title: The Line You Draw
 created: 2026-07-02
-updated: 2026-08-08
+updated: 2026-10-02
 type: practice
 tags: [practice, operator, orchestrator, mindset]
 confidence: high
 sources:
   - raw/articles/constrained-override-policy-2607.00420.md
   - raw/articles/you-shall-not-pass-2607.00533.md
+  - raw/articles/engage-to-unlock-writing-2610.01518.md
+  - raw/articles/ai-leaves-tailorshop-2610.00163.md
+  - raw/articles/wired-chatgpt-mac-permission-flaw-2026-10-02.md
 ---
 
 # The Line You Draw
@@ -163,6 +166,12 @@ The line-drawing exercise counts *tasks*. The labor research (arXiv:2608.05172) 
 
 Same logic applies to your boundary: a task you do five times a week for five minutes is not where your line matters. A task you do twice a week for three hours is. When you set your check-in date (Step 4), note the *hours* each task takes, not just its count — and draw your line where the hours are. The Quarterly Boundary Audit is the place to re-weight.
 
+## The Three-Part Boundary: Think, Change, Connect
+
+Your line is not only *which task*. It is also **when help starts**, **whether you still change the advice**, and **what the tool can reach**. In a controlled writing study (N=398), requiring meaningful engagement before generative help shifted effort toward writing without lengthening the overall task; this is task-specific, not a universal classroom prescription. In two simulated factory studies (N=200 and N=198), people who altered AI recommendations more often also showed stronger unaided performance or knowledge *within the AI group*; that association does not establish cause. A WIRED report on a patched local ChatGPT Mac vulnerability shows why the access line matters even when a tool itself appears trustworthy. ^[raw/articles/engage-to-unlock-writing-2610.01518.md] ^[raw/articles/ai-leaves-tailorshop-2610.00163.md] ^[raw/articles/wired-chatgpt-mac-permission-flaw-2026-10-02.md]
+
+**Try this in five minutes on a public task:** (1) write your own first sentence before opening AI; (2) after its suggestion, write one change you made and why; (3) list the accounts, files or browser connections you would *not* grant it. For a school task, do not paste student or personnel records into an unapproved tool. The first two steps protect your thinking; the third limits what a compromised or misdirected agent could touch. Take the resulting choice to [[First Delegation]], and test its decisive reason with [[The Reversal Condition]].
+
 ## Common Pitfalls
 
 **"All of my boundaries are identity-based. I feel like I *am* my work."**
@@ -181,7 +190,7 @@ That's valid. The beyond-prompting shift isn't about delegating everything. It's
 
 ## Related Pages
 
-[[05-Practice/README|05 — Practice]] · [[Audit Your Prompts]] · [[First Delegation]] · [[The Daily Standup]] · [[Delegation Thinking]] · [[Trust Calibration]] · [[Fear of Losing Control]] · [[The Reliance Audit]] · [[Persistence]]
+[[05-Practice/README|05 — Practice]] · [[Audit Your Prompts]] · [[First Delegation]] · [[The Daily Standup]] · [[Delegation Thinking]] · [[Trust Calibration]] · [[Fear of Losing Control]] · [[The Reliance Audit]] · [[Persistence]] · [[The Reversal Condition]]
 
 ## Tags
 

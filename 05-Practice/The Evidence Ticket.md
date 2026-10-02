@@ -1,7 +1,7 @@
 ---
 title: The Evidence Ticket
 created: 2026-09-18
-updated: 2026-09-27
+updated: 2026-10-02
 type: practice
 tags: [practice, orchestrator, workflow]
 confidence: high
@@ -14,6 +14,8 @@ sources:
   - raw/articles/zvi-ambition-permission-2026-09-26.md
   - raw/articles/rand-freedom-of-action-2026-09-15.md
   - raw/articles/wired-meta-muse-design-privacy-2026-09-26.md
+  - raw/articles/checkable-delegation-reasons-2610.00961.md
+  - raw/articles/graepel-reasoning-ledger-mittr-2026-10-02.md
 ---
 
 # The Evidence Ticket
@@ -115,9 +117,15 @@ The review-date idea is an analogy to RAND's strategy for preserving options und
 
 **Five-minute trial:** use a public document and ask the agent to draft a summary without sending it. Fill the four lines above, then see whether any proposed step crosses the approval boundary. [[The Absent Person Test]] catches people the task brief forgot; [[The Control Surface]] supplies the stop handle.
 
+## The Reversal Line: Could Someone Test Your Reason?
+
+Add a seventh line to the ticket for **consequential** recommendations: `What changed fact would reverse this choice, and where can I check it?` In a conceptual delegation paper, Lumbroso argues that approval without a checkable reversal condition can become a rubber stamp. Graepel's MIT Technology Review essay makes the separate case for a visible record of evidence and unanswered questions rather than a polished story of thinking. These are proposals and an expert argument, **not** a validated scoring tool. ^[raw/articles/checkable-delegation-reasons-2610.00961.md] ^[raw/articles/graepel-reasoning-ledger-mittr-2026-10-02.md]
+
+**Try it (3 minutes):** on a public-data recommendation, fill `Choice / Source fact / If that fact changed / Who checked it`. If the AI cannot name the condition or the source is unavailable, keep the output in draft; do not pretend the extra line verified it. [[The Reversal Condition]] has a five-minute flip test. For district work, use only approved systems and de-identified examples; a teacher or other authorized reviewer owns the decision.
+
 ## Related Pages
 
-[[Build a Tiny Pipeline]] · [[First Delegation]] · [[The Daily Standup]] · [[The Evidence Interface]] · [[The Review-First Pattern]] · [[Trust Calibration]] · [[The Translation Layer]]
+[[Build a Tiny Pipeline]] · [[First Delegation]] · [[The Daily Standup]] · [[The Evidence Interface]] · [[The Review-First Pattern]] · [[Trust Calibration]] · [[The Translation Layer]] · [[The Reversal Condition]]
 
 ## Tags
 
