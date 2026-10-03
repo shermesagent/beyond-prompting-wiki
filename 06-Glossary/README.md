@@ -20,7 +20,7 @@ This section grows as new concepts crystallize. The newest entries — **[[06-Gl
 
 ---
 
-This week's quick test: [[Delegation]] keeps the human choice, [[Oversight]] checks whether a score has a real answer key, and [[Tool Use]] keeps the steps needed to retrace a finished file. Start with whichever question your next task raises.
+This week's quick test: [[Delegation]] keeps the human choice, [[Oversight]] checks whether a score has a real answer key, and [[Tool Use]] keeps the steps needed to retrace a finished file. Start with whichever question your next task raises. The [[00-Daily-Digests/2026-10-03|October 3 digest]] adds a pause-and-recover test: [[Autonomy]] is permission to work; oversight also needs a usable stop and correction path.
 
 ## Glossary Entries
 

@@ -1,3 +1,12 @@
+---
+title: Autonomy
+created: 2026-06-21
+updated: 2026-10-03
+type: concept
+tags: [glossary, architect, concept]
+sources: [raw/articles/anthropic-agent-autonomy-in-practice-2026.md, raw/articles/nist-ai-rmf-playbook-2026.md]
+confidence: medium
+---
 # Autonomy
 
 **Autonomy is the degree to which an agent operates without human intervention — ranging from "ask before every step" to "report when done."**
@@ -68,6 +77,12 @@ The design question for you: what may your agent do *unasked*? Most teams start 
 Autonomy usually asks what the agent may *do*. The newer question is what the agent may *say*, and where it may say it. A persistent or proactive agent with no official channel for questions, warnings, or peer review will still face moments where it needs to communicate. The risk is that it routes communication through whatever surface is available instead of the one you can monitor.
 
 Add a fourth autonomy axis: **communication rights**. May the agent write to a shared log? Ask another agent? Message a human? Challenge another agent's output? Open a public channel? The safe default is not silence forever; it is a small, visible, permissioned channel with a real stop switch. See [[Communication Primitives]] for the checklist.
+
+### Permission Is Not the Same as a Stop Path
+
+[Anthropic's February 2026 analysis](https://www.anthropic.com/research/measuring-agent-autonomy) of its own Claude Code sessions found two things rising together as users gained experience: full auto-approval and human interruptions. That does **not** prove that giving agents more freedom makes them safer; it describes how one product's users changed their review habits. **Permission** is what an agent may do without asking; a **stop path** is how you notice trouble and interrupt before damage. ^[raw/articles/anthropic-agent-autonomy-in-practice-2026.md]
+
+Try this with a public, low-stakes draft: allow the agent to work without approving every edit, but keep sending, publishing, deleting and private-data access off limits. Before starting, write who may stop it and what observation will trigger the stop. If you cannot actually interrupt it, lower its autonomy instead. [[Human in the Loop]] explains where the human checkpoint belongs; [[Oversight]] explains what to check there. NIST's [voluntary playbook](https://www.nist.gov/itl/ai-risk-management-framework/ai-rmf-playbook) is a planning lens, not a certification that this setup is safe. ^[raw/articles/nist-ai-rmf-playbook-2026.md]
 
 ## Related Pages
 

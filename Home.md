@@ -63,7 +63,7 @@ Plain-language definitions of every key term.
 
 ### 00-Daily-Digests
 Daily curated research digests — what we found, what it means, and how to use it.
-→ [[00-Daily-Digests/2026-10-02|Today's Digest]]
+→ [[00-Daily-Digests/2026-10-03|Today's Digest]]
 
 ---
 
@@ -83,6 +83,7 @@ _Last 7 days of activity._
 
 | Date | What Changed |
 |------|-------------|
+| 2026-10-03 | Day 6 glossary: three older, directly checked sources clarified permission versus stop authority. [[Autonomy]] and [[Oversight]] now offer a draft-only trial and a pause-and-recover test. [[00-Daily-Digests/2026-10-03|Read today's digest]]. |
 | 2026-10-02 | Day 5 practice: five sources connect human-first drafting, checkable reversal reasons, unaided skill and access boundaries. [[The Reversal Condition]] created; [[The Evidence Ticket]] and [[The Line You Draw]] deepened. [[00-Daily-Digests/2026-10-02|Read today's digest]]. |
 | 2026-10-01 | Day 4 barriers: a better score or smoother story is not proof of fewer mistakes. [[The Fairness Dashboard Trap]] added; [[Procedural Standing]], [[The Fabricated Front]], and [[No One to Blame]] gained error-map, memory-claim and stop-owner checks. [[00-Daily-Digests/2026-10-01|Read today's digest]]. |
 | 2026-09-30 | Day 3 real-world rotation: three new preprints on access versus practice and confidence versus demonstrated skill; [[The School District Shift]] and [[From Prompt to Pipeline]] gained repeat-use and evidence checks. All three composite stories now prominently label their invented numbers. [[00-Daily-Digests/2026-09-30|Read today's digest]]. |

@@ -1,3 +1,12 @@
+---
+title: Oversight
+created: 2026-07-03
+updated: 2026-10-03
+type: concept
+tags: [glossary, orchestrator, workflow]
+sources: [raw/articles/anthropic-agent-autonomy-in-practice-2026.md, raw/articles/nist-ai-rmf-playbook-2026.md, raw/articles/amershi-human-ai-interaction-guidelines-2019.md]
+confidence: medium
+---
 # Oversight
 
 **Oversight is the practice of verifying that an AI agent's outputs and decisions are correct, honest, and well-reasoned — not as an adversarial judge, but as a collaborative partner in finding the truth.**
@@ -88,6 +97,12 @@ That means oversight needs two things at once: **a channel** and **a wrench**. T
 [MIT Technology Review's September 2026 reporting](https://www.technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector/) describes a **proposed**, not deployed, AI-enabled polygraph program. The central problem is not whether the model can combine many signals. It's that the underlying test has no dependable, independently checked label for who lied. Training or evaluating against unreliable labels cannot establish a valid verdict. The proposal's performance has not been demonstrated.
 
 Before putting an AI score into an approval or screening workflow, write down: **What counts as a correct answer? Who established it independently? How does a flagged person challenge a mistake?** If you cannot answer, keep the score out of consequential decisions. This is [[06-Glossary/Trust Calibration|Trust Calibration]] applied to the answer key, and [[Human in the Loop]] applied to the affected person's recourse.
+
+### The Pause-and-Recover Test
+
+Oversight is more than a sign-off box. Anthropic observed that experienced Claude Code users both auto-approved more and interrupted more; the study cannot tell us whether their interruptions were timely or their outputs correct. [Microsoft Research's human–AI interaction guidelines](https://www.microsoft.com/en-us/research/publication/guidelines-for-human-ai-interaction/) were evaluated with 49 design practitioners and 20 AI-enabled products in 2019; they are a design aid, not a validation of today's long-running agents. Together they suggest a practical **test**, not a proven universal rule: can a person see enough to challenge a result, stop the next action, and recover after an error? ^[raw/articles/anthropic-agent-autonomy-in-practice-2026.md] ^[raw/articles/amershi-human-ai-interaction-guidelines-2019.md]
+
+On a non-sensitive sample task, write four lines: **owner** (who may stop the run), **evidence** (what independent source checks its result), **pause** (the exact action before sending or changing records), and **recovery** (how you undo or correct a mistake). This translates NIST's voluntary Govern → Map → Measure → Manage structure into a small workflow check; it is not a formal NIST assessment. If any line is blank, keep the run in draft mode. See [[Autonomy]] for the permission dial and [[Human in the Loop]] for the checkpoint. ^[raw/articles/nist-ai-rmf-playbook-2026.md]
 
 ## Related Pages
 
