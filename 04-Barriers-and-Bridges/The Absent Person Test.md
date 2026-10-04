@@ -1,7 +1,7 @@
 ---
 title: The Absent Person Test
 created: 2026-09-24
-updated: 2026-09-27
+updated: 2026-10-04
 type: concept
 tags: [barrier, mindset, orchestrator]
 sources:
@@ -9,6 +9,8 @@ sources:
   - raw/articles/wired-att-automation-affected-people-2026-09-23.md
   - raw/articles/synthetic-personas-real-audience-2609.25010.md
   - raw/articles/wired-meta-muse-design-privacy-2026-09-26.md
+  - raw/articles/wired-muse-relationship-profiles-2026-10-03.md
+  - raw/articles/wired-amazon-data-center-ndas-2026-10-02.md
 confidence: medium
 ---
 
@@ -46,6 +48,14 @@ In schools, use **hypothetical scenarios or approved, non-identifiable examples*
 A cute, approachable interface can make a tool easier to try. It can also distract from questions a nonuser would ask. WIRED reports that Meta says its Muse agent is for adults and uses age checks, while youth advocates question the mascot's appeal to children; the article says interactions train Meta's models unless users opt out. Neither children's actual uptake nor intentional targeting was established in the article. ^[raw/articles/wired-meta-muse-design-privacy-2026-09-26.md]
 
 For a school or family-facing pilot, add a second absent-person row: **Who can encounter the agent without choosing it?** Before recommending it, check the age rule, how it is enforced, the data-training default, and how someone can request deletion or human help. A promised privacy feature is not a current control. Never use student or personnel data in an unapproved test. Connect the privacy questions to [[The Control Surface]] and record the answers in [[The Evidence Ticket]].
+
+## The Person in the Connector
+
+WIRED's October 3 report says extracted Muse instructions describe building relationship pages about people in a user's life from connected information. Meta says the account holder can wipe memories, disconnect services and inspect activity. That is a useful control for the user, but does not show that a friend or coworker knows about an inferred page or can correct it. Do not treat an extracted instruction as proof every page was created. ^[raw/articles/wired-muse-relationship-profiles-2026-10-03.md]
+
+The same question applies when decisions are public. Amazon says it has stopped using secrecy agreements with county officials for data-center deals; WIRED could not establish whether that pledge reaches contractors. A decision-maker's disclosure promise is not yet the affected community's access to the facts. This is a comparison of *visibility paths*, not a claim that data-center agreements are AI agents. ^[raw/articles/wired-amazon-data-center-ndas-2026-10-02.md]
+
+**Add to the absent-person row:** What information about this person or their community can the tool or vendor infer? Who can inspect it? If wrong, who can correct it—and how would we check that the correction stuck? Pair this with [[Procedural Standing]] and the read-back in [[The Evidence Ticket]].
 
 ## Try This
 

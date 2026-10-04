@@ -1,7 +1,7 @@
 ---
 title: Procedural Standing
 created: 2026-09-17
-updated: 2026-10-01
+updated: 2026-10-04
 type: concept
 tags: [barrier, mindset, orchestrator]
 sources:
@@ -13,6 +13,7 @@ sources:
   - raw/articles/smart-glasses-india-bystander-consent-2026-09-23.md
   - raw/articles/wired-att-automation-affected-people-2026-09-23.md
   - raw/articles/fairness-theatre-early-warning-2609.38552.md
+  - raw/articles/wired-nurse-scheduling-appeals-2026-10-02.md
 confidence: high
 ---
 
@@ -83,6 +84,12 @@ Add a **nonuser route** to the Contestability Check: How would a person who neve
 An [Ontario college early-warning preprint](https://arxiv.org/abs/2609.38552) found that six after-the-fact fairness adjustments moved error burdens without consistently reducing them. An aggregate dashboard can improve while wrongly flagged or missed groups remain poorly served. The study tested a research system under simulated vendor constraints, not a K–12 deployment. ^[raw/articles/fairness-theatre-early-warning-2609.38552.md]
 
 Add a fifth question to the Contestability Check: **who can see and challenge a wrongly flagged or wrongly missed case?** Ask for privacy-approved, group-level false-alarm and missed-case patterns; protect small cells from re-identification. If the vendor allows only score adjustments, make that limitation explicit before claiming a fairness fix. See [[The Fairness Dashboard Trap]].
+
+## A Correction Must Reach the Work
+
+WIRED interviewed nurses who say an AI-assisted scheduler assigns unwanted consecutive shifts and sends appeals to a centralized team that may not hear the local context. HCA says nursing leaders make final decisions and cites benefits. The reporting does **not** establish that the tool caused patient harm or that all schedules are worse. It does show why the existence of a human approver is a weak answer to a frontline worker who cannot get a timely correction. ^[raw/articles/wired-nurse-scheduling-appeals-2026-10-02.md]
+
+**Try this on a draft agenda built from a public event notice:** deliberately put the event at the wrong time in your private draft. Ask a colleague to find the error, reach the authorized editor, correct the draft before it is shared, and read back the final version. Record which handoff failed. A feedback inbox alone is not a correction path; [[The Control Surface]] needs a real editor and [[The Evidence Ticket]] needs a receipt.
 
 ## Related Pages
 

@@ -1,7 +1,7 @@
 ---
 title: The Evidence Ticket
 created: 2026-09-18
-updated: 2026-10-02
+updated: 2026-10-04
 type: practice
 tags: [practice, orchestrator, workflow]
 confidence: high
@@ -16,6 +16,9 @@ sources:
   - raw/articles/wired-meta-muse-design-privacy-2026-09-26.md
   - raw/articles/checkable-delegation-reasons-2610.00961.md
   - raw/articles/graepel-reasoning-ledger-mittr-2026-10-02.md
+  - raw/articles/wired-muse-relationship-profiles-2026-10-03.md
+  - raw/articles/wired-nurse-scheduling-appeals-2026-10-02.md
+  - raw/articles/wired-amazon-data-center-ndas-2026-10-02.md
 ---
 
 # The Evidence Ticket
@@ -122,6 +125,12 @@ The review-date idea is an analogy to RAND's strategy for preserving options und
 Add a seventh line to the ticket for **consequential** recommendations: `What changed fact would reverse this choice, and where can I check it?` In a conceptual delegation paper, Lumbroso argues that approval without a checkable reversal condition can become a rubber stamp. Graepel's MIT Technology Review essay makes the separate case for a visible record of evidence and unanswered questions rather than a polished story of thinking. These are proposals and an expert argument, **not** a validated scoring tool. ^[raw/articles/checkable-delegation-reasons-2610.00961.md] ^[raw/articles/graepel-reasoning-ledger-mittr-2026-10-02.md]
 
 **Try it (3 minutes):** on a public-data recommendation, fill `Choice / Source fact / If that fact changed / Who checked it`. If the AI cannot name the condition or the source is unavailable, keep the output in draft; do not pretend the extra line verified it. [[The Reversal Condition]] has a five-minute flip test. For district work, use only approved systems and de-identified examples; a teacher or other authorized reviewer owns the decision.
+
+## Close the Loop on a Correction
+
+Three reported stories put the ticket's limits in view: an assistant may infer information about people who never joined, a nurse may struggle to get a local schedule corrected, and a public disclosure pledge may leave contractor-held facts out of reach. The common test is not whether the system offers a log or feedback form; it is whether the affected person can **see the relevant fact, reach an authorized editor, and confirm the changed version**. These are journalistic accounts in different settings, not a validated universal protocol. ^[raw/articles/wired-muse-relationship-profiles-2026-10-03.md] ^[raw/articles/wired-nurse-scheduling-appeals-2026-10-02.md] ^[raw/articles/wired-amazon-data-center-ndas-2026-10-02.md]
+
+Add a small correction receipt when a consequential result is disputed: `AFFECTED ROLE / ERROR REPORTED / OWNER + DEADLINE / EXACT CHANGE / INDEPENDENT READ-BACK`. Try it with a throwaway, public-information draft and a planted error; never use live student, patient or personnel records for the exercise. [[The Absent Person Test]] identifies who needs the path; [[Procedural Standing]] asks whether it is usable.
 
 ## Related Pages
 
