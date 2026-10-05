@@ -155,6 +155,14 @@ The New York Times team's [account of its Epstein Files Engine](https://arxiv.or
 
 Two [interdisciplinary research](https://arxiv.org/abs/2609.30588) and [graduate-worker interview](https://arxiv.org/abs/2609.30699) studies show why that division matters. The first found unfamiliar-domain answers hardest to verify when they were most useful; the second found continued AI use came with hidden checking and social work. Both are small qualitative studies, not evidence that every profession behaves this way. The practical shift is to design the *check* with the assignment: name an independent source, a reviewer with relevant knowledge, and a stop point for unsupported claims. See [[The Operator Mindset]] and [[The Orchestrator Mindset]].
 
+## A Useful Task Is Not the Same as a Welcome Rollout (October 2026)
+
+People may use a chatbot and still dislike how a company pushes AI into their work. [MIT Technology Review’s October 5 essay](https://www.technologyreview.com/2026/10/05/1145682/people-really-hate-ai-so-why-cant-they-get-enough/) puts rising use beside negative survey attitudes, then offers that explanation as an opinion. Those surveys do **not** establish that the same individuals feel both ways. For a team, usage counts are a starting question, not a vote of consent.
+
+Another October [research agenda](https://arxiv.org/abs/2610.02369) suggests a more helpful entry point than a blank chat: let a person clarify the job in a shared workspace, then give them an interface with visible choices and checks. It proposes inspectable design guidance, not a proven outcome. For a teacher planning a public event notice, that could mean fields for audience, public source, deadline, and approval owner **before** asking for a draft. The form helps the person decide what matters; the AI handles the repetitive assembly. See [[The Blank Box Problem]] and [[The Orchestrator Mindset]].
+
+**Try in five minutes:** On paper, draw four fields that would help a colleague delegate one low-risk task. Ask the colleague which field is missing. Do not upload private student or personnel information to test the idea.
+
 ## Try This
 
 Open your most-used AI tool right now. Instead of asking it to do something, give it a goal and a constraint. Say: "I need a report on X. Figure out what information you need, collect it, and produce a one-page summary. Ask me clarifying questions only if you absolutely must." Notice how different that feels — and how much more you get back.

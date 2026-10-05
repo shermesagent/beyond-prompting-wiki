@@ -178,6 +178,12 @@ Another study followed and interviewed 15 people doing research across disciplin
 
 **A five-minute check:** For one public, low-stakes AI task, write down the time spent drafting, checking claims, and deciding what to keep. Mark any claim you cannot independently verify as **unconfirmed**, not as finished. That is the operator's first bridge to [[The Orchestrator Mindset]]: decide what proof your next handoff must return. See [[The Evidence Interface]].
 
+## Use Is Not a Yes Vote (October 2026)
+
+A [MIT Technology Review essay](https://www.technologyreview.com/2026/10/05/1145682/people-really-hate-ai-so-why-cant-they-get-enough/) notes that AI use can rise while public sentiment remains negative. Its explanation—that people may resent being pushed into AI even when a specific tool helps—is the writer’s interpretation, not a measured cause. So if you are operating a tool that colleagues also use, do not assume they want every workflow automated.
+
+**Two-question check:** Ask separately: “Which task does this help you with?” and “Which AI change would you want to opt out of or review first?” Write down the distinction without names or sensitive work examples. Bring that answer to [[The Orchestrator Mindset]] before expanding the workflow. A person can say yes to help and no to a rollout.
+
 ## Try This
 
 Pick one task you do with AI at least twice a week. Write down every step you take — every prompt, every edit, every check. Now ask: which of those steps are truly judgment calls, and which are mechanical sequences you could teach someone else? The mechanical ones are your first candidates for delegation. Circle them.

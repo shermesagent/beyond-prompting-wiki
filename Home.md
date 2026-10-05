@@ -64,7 +64,7 @@ Plain-language definitions of every key term.
 
 ### 00-Daily-Digests
 Daily curated research digests — what we found, what it means, and how to use it.
-→ [[00-Daily-Digests/2026-10-04|Today's Digest]]
+→ [[00-Daily-Digests/2026-10-05|Today's Digest]]
 
 ---
 
@@ -84,6 +84,7 @@ _Last 7 days of activity._
 
 | Date | What Changed |
 |------|-------------|
+| 2026-10-05 | Day 1 Shift: an October essay and two October 1 preprints separate AI use from consent, replace blank requests with task-shaped choices, and give review a real capacity check. [[What Is Beyond Prompting]], [[The Operator Mindset]], and [[The Orchestrator Mindset]] deepened. [[00-Daily-Digests/2026-10-05|Read today’s digest]]. |
 | 2026-10-04 | Day 7 cross-section: three reported sources tested the correction path from nonuser visibility through a reachable editor to independent read-back. [[The Absent Person Test]], [[Procedural Standing]] and [[The Evidence Ticket]] deepened; Sunday lint completed. [[00-Daily-Digests/2026-10-04|Read today's digest]]. |
 | 2026-10-03 | Day 6 glossary: three older, directly checked sources clarified permission versus stop authority. [[Autonomy]] and [[Oversight]] now offer a draft-only trial and a pause-and-recover test. [[00-Daily-Digests/2026-10-03|Read today's digest]]. |
 | 2026-10-02 | Day 5 practice: five sources connect human-first drafting, checkable reversal reasons, unaided skill and access boundaries. [[The Reversal Condition]] created; [[The Evidence Ticket]] and [[The Line You Draw]] deepened. [[00-Daily-Digests/2026-10-02|Read today's digest]]. |

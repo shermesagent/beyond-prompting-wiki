@@ -248,6 +248,12 @@ You are orchestrating when:
 - You feel like a manager reviewing work rather than a worker producing it
 - You think in terms of "what should happen" rather than "what should I type next"
 
+## Design the Reviewer's Place in the Workflow (October 2026)
+
+Two new [human–AI interface](https://arxiv.org/abs/2610.02369) and [cyber-oversight](https://arxiv.org/abs/2610.02384) preprints propose different pieces of the same design question: does the workflow give the human a usable place to think and a realistic chance to intervene? The first is a research agenda for task-shaped interfaces, not a tested product. The second is a maritime cyber reference architecture, not evidence about schools: it argues that risk alone should not decide what gets human review; the reviewer's available capacity matters too.
+
+Try a **review slot** on a draft-only, public-information task: write `DECISION / EVIDENCE LINK / REVIEWER / TIME AVAILABLE / BACKUP / STOP RULE`. Ask the reviewer to locate one deliberately incorrect public fact and correct it. If the reviewer is overloaded or cannot open the evidence, hold the output; do not count an unanswered review request as approval. This adds a human handle to [[The Control Surface]] without requiring the person to watch every keystroke.
+
 ## Try This
 
 Take the mechanical sequences you circled in [[The Operator Mindset]] exercise. Pick the simplest one and write it as a single instruction that starts with a goal, not a step. For example, instead of "First do X, then do Y, then do Z," write: "Produce Z. You have access to X and Y. Figure out the order." Run it. Compare the result to your manual process. Where did the AI make different choices than you would have? Were they wrong, or just different?
