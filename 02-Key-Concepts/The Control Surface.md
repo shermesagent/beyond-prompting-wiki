@@ -1,7 +1,7 @@
 ---
 title: The Control Surface
 created: 2026-09-21
-updated: 2026-09-29
+updated: 2026-10-06
 type: concept
 tags: [concept, workflow, orchestrator, architect]
 sources:
@@ -15,6 +15,8 @@ sources:
   - raw/articles/zvi-ambition-permission-2026-09-26.md
   - raw/articles/rand-freedom-of-action-2026-09-15.md
   - raw/articles/parallelpilot-supervision-2609.33113.md
+  - raw/articles/agency-judgement-computer-act-2610.03722.md
+  - raw/articles/dimsteer-writing-controls-2610.04174.md
 confidence: medium
 ---
 
@@ -95,6 +97,12 @@ Try it on a public-document summary: the agent can find and draft from public fi
 A small study of parallel AI coding introduced five supervisory habits: **plan** tasks, **isolate** work, **log** runs, **observe** status, and **triage** problems. In a 16-person short-task test, its tool increased ticket throughput by 63% and reduced tracking and context-switching effort. It did **not** significantly improve participants' reported ability to redirect agents or their sense of control. The finding belongs to this coding setting; it is not a promised productivity gain for other work. [Source](https://arxiv.org/abs/2609.33113). ^[raw/articles/parallelpilot-supervision-2609.33113.md]
 
 For one low-risk public-document workflow, sketch the five habits on paper. Then add the missing sixth question: **where do I actually pause or redirect this run?** If you can see a problem but cannot correct the next action, your dashboard is informative but your control surface is incomplete. See [[The Meaning Check]] for a pre-run interpretation check.
+
+## Control at the First Click Is Not Control of the Outcome (October 2026)
+
+Two experiments found a useful distinction: people felt agency over a computer's *initial* response to their instruction but not the final outcome in the same immediate way. When the outcome mattered and the command was specific, they could still judge afterward that they had caused it. The authors recommend encouraging deliberate reflection about responsibility; this does not establish how to run a school AI workflow. [Didion, Garaialde and Coyle](https://arxiv.org/abs/2610.03722). ^[raw/articles/agency-judgement-computer-act-2610.03722.md]
+
+Add an **outcome handle** to a draft-only handoff: `FIRST ACTION / FINAL ARTIFACT / WHO CHECKS CONSEQUENCES / APPROVE OR REVERSE`. Before any send or record change, the named person opens the final artifact, not just the initial plan. If they cannot see or reverse the final action, stop at draft. A small writing-interface study also suggests why previews, change comparisons and reset controls can make *style choices* easier to steer; it did not test consequential agent actions. [DimSteer](https://arxiv.org/abs/2610.04174). ^[raw/articles/dimsteer-writing-controls-2610.04174.md] See [[From Author to Editor]] and [[The Review-First Pattern]].
 
 ## Related Pages
 

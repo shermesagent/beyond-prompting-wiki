@@ -1,10 +1,10 @@
 ---
 title: The Review-First Pattern
 created: 2026-06-30
-updated: 2026-09-13
+updated: 2026-10-06
 type: concept
 tags: [concept, workflow, orchestrator]
-sources: [raw/articles/viktor-agents-cannot-do-2026.md, raw/articles/automation-boundaries-2026.md, raw/articles/hallucination-snowball-2608.14588.md, raw/articles/uncertainty-isnt-enough-self-correction-2608.14659.md, raw/articles/crossaudit-cross-vendor-audit-2608.28631.md, raw/articles/one-note-in-three-ai-scribes-2608.31017.md, raw/articles/emergent-cheating-whistleblowing-swarms-2609.04170.md, raw/articles/zvi-astra-hard-to-monitor-2026-09-08.md, raw/articles/openai-devin-tests-work-with-astra-2026-09-11.md]
+sources: [raw/articles/viktor-agents-cannot-do-2026.md, raw/articles/automation-boundaries-2026.md, raw/articles/hallucination-snowball-2608.14588.md, raw/articles/uncertainty-isnt-enough-self-correction-2608.14659.md, raw/articles/crossaudit-cross-vendor-audit-2608.28631.md, raw/articles/one-note-in-three-ai-scribes-2608.31017.md, raw/articles/emergent-cheating-whistleblowing-swarms-2609.04170.md, raw/articles/zvi-astra-hard-to-monitor-2026-09-08.md, raw/articles/openai-devin-tests-work-with-astra-2026-09-11.md, raw/articles/citation-verification-reviewers-2610.05355.md]
 confidence: high
 ---
 
@@ -148,6 +148,12 @@ The next extension of review-first is evidence-first. Zvi Mowshowitz's September
 The practical fix is [[The Evidence Interface]]: require artifacts outside the agent's self-report. A software agent should return test output, screenshots, logs, simulator recordings, and explicit untested areas. A research agent should return source links and claim-to-source mapping. A data agent should return definitions, permissions, lineage, and caveats. Review-first still matters, but the reviewer needs something real to review.
 
 **Your move:** before approving an AI output, ask one sentence: *what evidence would make this approval defensible tomorrow?* If the answer is only "the AI explained itself," keep the task in assistant mode.
+
+## Check the Claim, Not Just the Citation (October 2026)
+
+A citation beside a sentence is not proof the source supports it. An exploratory study of 12 reviewer interviews and a survey of 203 reviewers in research venues found that their verification habits and preferred AI role varied across citation types and people. The authors call for support tailored to the claim and shared responsibility, not a universal automatic checker. [Fang and colleagues](https://arxiv.org/abs/2610.05355). ^[raw/articles/citation-verification-reviewers-2610.05355.md]
+
+**Five-minute source check:** choose the most consequential claim in a draft made from public information. Open the cited source; find the passage that supports the *specific wording* and check its date and setting. If it supports only a narrower statement, rewrite the sentence or leave it unapproved. Record the human who checked it. This is a practical adaptation of reviewer concerns, not a tested school intervention. For a reusable handoff record, see [[The Evidence Ticket]]; for the ability to block release, see [[The Control Surface]].
 
 ## Related Pages
 

@@ -10,6 +10,8 @@ The concept pages below are the **core vocabulary** of moving beyond prompting. 
 
 You don't need to read them in order. Jump to whichever title grabs you. But if you want a recommended path:
 
+**October 6 field route:** [[From Author to Editor]] for visible revision choices → [[The Control Surface]] for the difference between first action and final outcome → [[The Review-First Pattern]] for a source check before approval. [[00-Daily-Digests/2026-10-06|Read the Day 2 digest]].
+
 1. **[[Task Decomposition]]** — the single most important skill. Start here.
 2. **[[Delegation Thinking]]** — the mental shift that makes everything else click.
 3. **[[Trust Calibration]]** — the practical judgment call you'll make every day.

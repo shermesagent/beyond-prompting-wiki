@@ -1,10 +1,10 @@
 ---
 title: From Author to Editor
 created: 2026-06-24
-updated: 2026-08-23
+updated: 2026-10-06
 type: concept
 tags: [concept, orchestrator, mindset, workflow]
-sources: [raw/articles/90-days-ai-agents-analytics-2026.md, raw/articles/getting-smart-workflow-schools-2026.md, raw/articles/agentic-browsers-accessibility-2026.md, raw/articles/mollick-against-brain-damage-2026.md]
+sources: [raw/articles/90-days-ai-agents-analytics-2026.md, raw/articles/getting-smart-workflow-schools-2026.md, raw/articles/agentic-browsers-accessibility-2026.md, raw/articles/mollick-against-brain-damage-2026.md, raw/articles/dimsteer-writing-controls-2610.04174.md]
 confidence: high
 ---
 
@@ -99,6 +99,12 @@ The standard from the section above survives, now with a check: *is this writing
 ## Related Pages
 
 [[The Validator Trap]] · [[The Absorption Pattern]] · [[Co-Construction Blindness]] · [[The Augmentation Trap]] · [[02-Key-Concepts/The Provenance Principle|The Provenance Principle]] · [[Trust Calibration]] · [[02-Key-Concepts/Interpretive Appearance|Interpretive Appearance]]
+
+## Make Changes Visible, Not Just Easier to Ask (October 2026)
+
+A small study of a research writing interface called DimSteer tested style controls with previews, side-by-side changes and a reset button against a prompt-only baseline. Sixteen participants reported less mental demand, effort and frustration with similar *perceived* success; 15 said they would not have thought to request those same changes in a prompt. This is about a prototype and a small writing task, not proof that revisions became more accurate. [Primary abstract](https://arxiv.org/abs/2610.04174). ^[raw/articles/dimsteer-writing-controls-2610.04174.md]
+
+**Try it without special software:** for a public-information notice you already drafted, ask for two alternative phrasings of *one* paragraph. Put original, A and B side by side; circle the change you actually want and keep the original available. If the task is writing to discover your own position, draft your position yourself first. A slider for tone is no substitute for deciding what is true. See [[The Control Surface]] for why a reset path matters.
 
 ## Tags
 
