@@ -4,9 +4,9 @@
 
 ## What It Is
 
-A case study of a small Texas school district — call it Farmersville ISD — that moved from individual teachers using ChatGPT for lesson plans to a district-wide system where orchestrated agents handle curriculum alignment, data analysis, parent communication, and more. The shift took eighteen months, cost less than a single textbook adoption, and changed how teachers spent their planning periods.
+A fictional scenario about a Texas school district moving from individual prompting to shared, reviewed workflows. It does not describe a Farmersville ISD implementation; its timeline and costs are invented.
 
-This story is fictionalized from real patterns observed across multiple districts. The names are invented. The progression is genuine.
+The opening story, including the district name used below, is invented. Read the separately cited research sections for observations from real settings.
 
 ---
 
@@ -449,6 +449,12 @@ A district pilot can respond without demanding that every teacher become an agen
 Two *related*, small classroom pilots from Zahra and colleagues sharpen the outcome check. In two graduate research-methods courses, a tool that asked learners to justify a position first showed a gain in **self-reported** AI literacy, but no change in measured critical thinking, awareness, or knowledge; records were incomplete. In a separate undergraduate methods/statistics pilot (14 students), statistics measures improved while standardized critical-thinking percentiles did not, and many students used AI to validate rather than debate. Neither pilot proves a K–12 teaching effect or a district-wide implementation. Ask for a before/after work sample **and** a short explanation of what the learner rejected, using approved materials and procedures. [Sources: arXiv:2609.37880](https://arxiv.org/abs/2609.37880); [arXiv:2609.38029](https://arxiv.org/abs/2609.38029). See [[Scaffold, Don't Substitute]].
 
 ---
+
+## Dialogue Is Not Automatically Learning
+
+A field study with **305 Kannada-speaking undergraduates** compared written responses with AI text and voice dialogue in English-only and bilingual settings. Students who completed dialogue participated more and reported greater interest, but fewer finished the dialogue activities overall. Knowledge increased in every condition, with **no reliable difference in learning gains** between formats or languages. Bilingual voice helped participation, while students also valued practicing English. This is higher education in India, not a K–12 Texas trial. [Dennison et al., 2026](https://arxiv.org/abs/2610.07483).
+
+**District planning move:** For any proposed student dialogue tool, ask separately: *Who finishes? Who can explain the idea afterward? Whose language and access needs are served?* Offer appropriate language and modality choices, but don't equate a longer conversation with learning. Trial only within district-approved privacy and accessibility rules; do not upload student speech, transcripts, accommodations or identifiable work to an unapproved service. See [[Scaffold, Don't Substitute]] and [[The Review-First Pattern]].
 
 ## Related Pages
 

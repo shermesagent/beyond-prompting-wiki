@@ -6,7 +6,7 @@
 
 A story about a two-person bakery in Austin, Texas, that turned its entire back office into a set of agent workflows: inventory tracking and ordering, customer follow-ups, scheduling, and bookkeeping prep. Total setup time: three afternoons. No custom software. No engineering background. Just a willingness to stop doing assembly-line work by hand.
 
-This is a fictionalized composite drawn from real patterns observed across multiple small businesses in 2025-2026. The names are invented. The numbers are honest.
+This is an illustrative scenario, not a documented business case. All figures and names in the bakery story are invented; do not present them as measured results.
 
 ---
 
@@ -305,6 +305,12 @@ ShowTellArena, a new benchmark of **50 narrated business workflows and 502 quest
 The agent's ability to reproduce last week's form is not the same as understanding what makes an order safe to place. See [[The Demonstration Check]] and [[The Review-First Pattern]].
 
 ---
+
+## The Translation Review: Whose Judgment Comes Along?
+
+Korean Wikipedia editors used a community-built AI translation tool, WikiVault. In a study combining ten interviews, platform analysis and matched comparisons, experienced editors produced more and longer articles and spent more time reviewing and importing. The authors also found that **English Wikipedia's editorial judgments traveled with the translated content**. This is a community-specific observational study, not a tested small-business rollout. [Song et al., 2026](https://arxiv.org/abs/2610.07660).
+
+For Em and Jules, the analogue is a customer email or menu translated for a new audience. Ask a bilingual reviewer to compare one public, real menu or published message with its source: does the translated text preserve a claim, or smuggle in an assumption about ingredients, delivery or tone? Approve the local wording before sending. Delegating translation changes who writes; it does not change who owns the promise. See [[From Author to Editor]] and [[The Review-First Pattern]].
 
 ## Related Pages
 

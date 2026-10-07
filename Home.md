@@ -64,7 +64,7 @@ Plain-language definitions of every key term.
 
 ### 00-Daily-Digests
 Daily curated research digests — what we found, what it means, and how to use it.
-→ [[00-Daily-Digests/2026-10-06|Today's Digest]]
+→ [[00-Daily-Digests/2026-10-07|Today's Digest]]
 
 ---
 
@@ -84,6 +84,7 @@ _Last 7 days of activity._
 
 | Date | What Changed |
 |------|-------------|
+| 2026-10-07 | Day 3 real-world: three field studies test the missing-input plan, translated assumptions, and the difference between student participation and learning. [[From Prompt to Pipeline]], [[The School District Shift]] and [[Small Business Automation]] deepened. [[00-Daily-Digests/2026-10-07|Read today's digest]]. |
 | 2026-10-06 | Day 2 concepts: three newly announced preprints distinguish first action from final outcome, make revisions visible and bring citations back to their source. [[From Author to Editor]], [[The Control Surface]] and [[The Review-First Pattern]] deepened. [[00-Daily-Digests/2026-10-06|Read today's digest]]. |
 | 2026-10-05 | Day 1 Shift: an October essay and two October 1 preprints separate AI use from consent, replace blank requests with task-shaped choices, and give review a real capacity check. [[What Is Beyond Prompting]], [[The Operator Mindset]], and [[The Orchestrator Mindset]] deepened. [[00-Daily-Digests/2026-10-05|Read today’s digest]]. |
 | 2026-10-04 | Day 7 cross-section: three reported sources tested the correction path from nonuser visibility through a reachable editor to independent read-back. [[The Absent Person Test]], [[Procedural Standing]] and [[The Evidence Ticket]] deepened; Sunday lint completed. [[00-Daily-Digests/2026-10-04|Read today's digest]]. |

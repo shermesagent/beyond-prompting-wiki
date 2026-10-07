@@ -6,7 +6,7 @@
 
 A story about someone who went from writing prompts one at a time — tweaking, re-running, copying, pasting — to building a single agent pipeline that does a week's worth of content drafts while she's asleep. No engineering background. No budget. Just a shift in how she thought about the work.
 
-This is a fictionalized composite of real people. The numbers are honest. The frustration before the shift is universal.
+This is an illustrative scenario, not a documented account. All figures in Mara's story are invented and must not be used as evidence of savings or quality.
 
 ---
 
@@ -414,6 +414,12 @@ Kim's interviews with first-generation, low-income college students suggest a us
 Related course pilots by Zahra and colleagues warn against celebrating confidence alone: one graduate-course design cycle found a change in reported AI literacy without a corresponding measured critical-thinking change, and an undergraduate pilot (14 students) found statistics gains without a shift in standardized critical-thinking percentiles. Both are educational contexts, **not content-marketing trials**. For Mara's next two runs, keep a simple review record: claim checked against original source, change accepted/rejected, and why. The record tests the team's review habit rather than inventing an efficiency number. [Sources: arXiv:2609.37880](https://arxiv.org/abs/2609.37880); [arXiv:2609.38029](https://arxiv.org/abs/2609.38029). See [[The Review-First Pattern]].
 
 ---
+
+## The Missing-Vine Test: Can the Plan Survive Tuesday?
+
+In a California vineyard study, an AI research agent built a useful scouting model quickly, but its first performance estimates were unreliable because the researchers' synthetic training examples had leaked into the test setup. For a separate field sampling plan, it forgot to say what to do when a target vine was missing; the researchers' plan also worked better in the field. This was one specific project, not a general agent failure rate. [Janke et al., 2026](https://arxiv.org/abs/2610.07669).
+
+Mara's content pipeline needs the same test **before** an unattended run: What happens if a source link is dead, a quoted claim cannot be verified, or the input topic lacks enough credible material? Add a rule: `If a required source is missing, mark the claim unverified and stop that draft; never fill it with a plausible citation.` Then test one missing-source case with public material. The workflow is only ready when the exception lands on Mara's review screen, not when the happy path looks polished. See [[The Demonstration Check]] and [[Failure-Path Preservation]].
 
 ## You Can Do This Too
 
