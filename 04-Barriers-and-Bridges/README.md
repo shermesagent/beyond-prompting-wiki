@@ -35,6 +35,8 @@ Each barrier page follows the same structure. We name what's happening, explain 
 
 ## How to Use This Section
 
+Thursday's route: begin with [[Fear of Losing Control]] to replace AI confidence with an independent check, then [[The Validator Trap]] to test whether the reviewer can explain one choice without AI, then [[The Certification Boundary]] to ask what a passing artifact actually proves. The three preprints and their limits are in [[00-Daily-Digests/2026-10-08|the October 8 digest]].
+
 Sunday's cross-section route: start with [[The Absent Person Test]] to find who is affected but not at the table, then [[Procedural Standing]] to test whether that person can reach an editor, then [[The Evidence Ticket]] to check the corrected version. The three October reporting sources and limits are in [[00-Daily-Digests/2026-10-04|the October 4 digest]].
 
 Start with whichever barrier stings the most when you read it. That's usually the one you're living in right now. Read it, try the 5-minute exercise, and let it breathe for a day. Then come back. The other barriers will make more sense once the first one has loosened its grip.

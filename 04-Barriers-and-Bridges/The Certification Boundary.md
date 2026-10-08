@@ -1,13 +1,15 @@
 ---
 title: The Certification Boundary
 created: 2026-07-23
-updated: 2026-08-27
+updated: 2026-10-08
 type: concept
 tags: [barrier, delegation, institution]
 sources:
   - raw/articles/cognitive-stewardship-credentials-2607.19988.md
   - raw/articles/student-bill-ai-rights-2608.05175.md
   - raw/articles/genait-literacy-test-2608.25815.md
+  - raw/articles/online-research-assisted-submissions-2610.09279.md
+  - raw/articles/comprehension-audits-2610.10064.md
 confidence: medium
 ---
 
@@ -85,6 +87,12 @@ Three implications for this page:
 **What this means for your context:** if you're responsible for a credential, a course, or a hiring bar, ask the instrument question: *which part of "knows AI" can we actually measure?* An objective, validated literacy check converts the softest part of the boundary into a hard number — and gives learners a target to study for instead of a wall to be anxious about.
 
 **Source:** arXiv:2608.25815 — "GenAIT: Development and Validation of an Objective Generative AI Literacy Test for High School Students"
+
+## A Passing Artifact Still Needs a Human Claim
+
+An October online-research study found that AI help was uncommon in observed submissions, concentrated among a small group, and usually approved even where study rules prohibited it. The platform's open-ended AI detector could not see half the assisted submissions, which involved bounded responses. That does **not** tell us the prevalence in schools. It shows why an approved product or detector result cannot, by itself, certify who did the thinking. ^[raw/articles/online-research-assisted-submissions-2610.09279.md]
+
+A separate AI-research preprint proposes a comprehension audit in which the accountable person explains an AI contribution to an independent reviewer before work proceeds. That is a proposed safeguard for research labs, not evidence of a successful classroom intervention. For a teacher designing a low-stakes, policy-approved task, the transferable question is: **what can this learner explain without the tool?** Ask for a short, unaided explanation of one decision and compare it with the submitted work; don't upload identifiable student work to an unapproved service. For professional review, [[The Validator Trap]] offers the same teach-back check before someone signs off. ^[raw/articles/comprehension-audits-2610.10064.md]
 
 ## The Bottom Line
 

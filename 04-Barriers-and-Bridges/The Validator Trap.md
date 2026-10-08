@@ -1,12 +1,14 @@
 ---
 title: The Validator Trap
 created: 2026-08-27
-updated: 2026-09-17
+updated: 2026-10-08
 type: concept
 tags: [barrier, mindset, skill, operator, orchestrator]
 sources:
   - raw/articles/from-producing-to-validating-2608.26089.md
   - raw/articles/follow-ai-advice-wellbeing-2511.15352.md
+  - raw/articles/comprehension-audits-2610.10064.md
+  - raw/articles/online-research-assisted-submissions-2610.09279.md
 confidence: medium
 ---
 
@@ -76,6 +78,12 @@ Before you agree to validate AI-produced work, ask:
 If the answer to the first two is no, you are not validating. You are laundering the AI decision through a human name. That is exactly the trap this page is trying to help you avoid.
 
 See [[Procedural Standing]] and [[No One to Blame]] for the accountability side of this problem.
+
+## The Approval Is Not the Understanding
+
+Two new preprints separate three things that often get bundled together: finishing work, passing a review, and being able to explain it. In one online-research platform study, AI-assisted submissions appeared in only 1% of observed submissions, yet they were usually approved even when instructions prohibited that assistance. Approval measured the platform's decision, not unaided capability; this is not a classroom prevalence estimate. A separate proposal for AI research labs calls for an independent **comprehension audit**: the responsible person explains an AI-produced contribution, and work pauses if understanding cannot be demonstrated. It proposes a gate; it has not shown that the gate improves outcomes. ^[raw/articles/online-research-assisted-submissions-2610.09279.md] ^[raw/articles/comprehension-audits-2610.10064.md]
+
+**The bridge for ordinary work:** before signing off on one low-risk AI-assisted draft, put the tool away for two minutes. Explain one consequential choice in your own words, open the supporting source yourself, and say what would make you stop publication. If you cannot, keep the draft in review rather than attaching your name to it. For students, use an approved assessment method and protect their work and records; this is a design suggestion, not a tested K–12 intervention. See [[The Certification Boundary]] for the learning claim and [[The Review-First Pattern]] for the release check.
 
 ## Related Pages
 

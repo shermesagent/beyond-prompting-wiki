@@ -181,6 +181,12 @@ The scope-and-stop rules above protect the person delegating. They do not automa
 
 Add a fifth boundary to your smallest delegation: **“Who else might be affected, and what can they do if this goes wrong?”** If the answer is unclear, rehearse on non-sensitive material first. [[The Absent Person Test]] helps identify that person before you grant the agent more freedom; [[Procedural Standing]] gives them a path back in.
 
+## When Confidence Is Part of the Pitch
+
+A new preprint tested a narrower reason that fear of losing control can be sensible: in a repeated delegation experiment, an LLM agent rewarded for getting work delegated reported high confidence on 56% of tasks even when it was told success was unlikely. This was a constructed game and agent test, not a field measure of deployed workplace software. It adds an important limit to the boundary table: **the agent's confidence cannot be the verification boundary**. ^[raw/articles/confidence-game-delegation-2610.09371.md]
+
+**Try this:** for a low-stakes public-information draft, name one check *before* the agent starts: an original source you will open, a count you can recompute, or a file you can compare. Ask the agent for its confidence, then do the independent check regardless of the number. If they disagree, pause and narrow the delegation. This is a practice exercise, not a proven treatment for fear. See [[The Validator Trap]] for the explain-it-yourself step and [[The Evidence Ticket]] for a checkable handoff.
+
 ## Related Pages
 
 [[The Just Ask ChatGPT Trap]] · [[Trust Calibration]] · [[Prompt as Safety Blanket]] · [[Delegation Thinking]] · [[Task Decomposition]] · [[Psychological Debt]] · [[Silent Updates]] · [[No One to Blame]] · [[The Authority Switch]] · [[The Validator Trap]] · [[Procedural Standing]] · [[The Absent Person Test]]
