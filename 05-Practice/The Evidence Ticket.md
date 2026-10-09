@@ -1,7 +1,7 @@
 ---
 title: The Evidence Ticket
 created: 2026-09-18
-updated: 2026-10-04
+updated: 2026-10-09
 type: practice
 tags: [practice, orchestrator, workflow]
 confidence: high
@@ -19,6 +19,7 @@ sources:
   - raw/articles/wired-muse-relationship-profiles-2026-10-03.md
   - raw/articles/wired-nurse-scheduling-appeals-2026-10-02.md
   - raw/articles/wired-amazon-data-center-ndas-2026-10-02.md
+  - raw/articles/intent-graph-analytical-paths-2610.11025.md
 ---
 
 # The Evidence Ticket
@@ -131,6 +132,12 @@ Add a seventh line to the ticket for **consequential** recommendations: `What ch
 Three reported stories put the ticket's limits in view: an assistant may infer information about people who never joined, a nurse may struggle to get a local schedule corrected, and a public disclosure pledge may leave contractor-held facts out of reach. The common test is not whether the system offers a log or feedback form; it is whether the affected person can **see the relevant fact, reach an authorized editor, and confirm the changed version**. These are journalistic accounts in different settings, not a validated universal protocol. ^[raw/articles/wired-muse-relationship-profiles-2026-10-03.md] ^[raw/articles/wired-nurse-scheduling-appeals-2026-10-02.md] ^[raw/articles/wired-amazon-data-center-ndas-2026-10-02.md]
 
 Add a small correction receipt when a consequential result is disputed: `AFFECTED ROLE / ERROR REPORTED / OWNER + DEADLINE / EXACT CHANGE / INDEPENDENT READ-BACK`. Try it with a throwaway, public-information draft and a planted error; never use live student, patient or personnel records for the exercise. [[The Absent Person Test]] identifies who needs the path; [[Procedural Standing]] asks whether it is usable.
+
+## Save the Unchosen Question (October 2026)
+
+An AI-made chart can look finished while hiding how a broad question became that particular chart. The Intent Graph preprint proposes an interface that shows branches from a question to possible analyses and the data fields behind them; its abstract describes a usage scenario and a planned user study, **not evidence that this interface improves decisions**. Use the idea as a paper exercise, not a product endorsement. [Yang and colleagues, preprint](https://arxiv.org/abs/2610.11025).
+
+**Try it in five minutes with a public dataset:** write your starting question, two possible narrower questions, and the actual field you would need to answer each. Choose one route. Add to the ticket: `CHOSEN QUESTION / DATA FIELD CHECKED / ALTERNATIVE QUESTION / WHY NOT CHOSEN`. If the necessary field is missing, label the answer unsupported; do not let a polished graph stand in for evidence. Compare this with the task-fit check in [[First Delegation]] and keep the final approval human-side through [[The Review-First Pattern]]. Never use identifiable school records in an unapproved tool.
 
 ## Related Pages
 

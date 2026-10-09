@@ -18,6 +18,8 @@ This is where the operator→orchestrator shift stops being something you read a
 | 5 | [[The Evidence Ticket]] | 3 min | Require one short proof trail before AI output leaves your scratch space |
 
 ## Ongoing Practice
+October 9's five-minute route: take a public draft and check both its fact and its fit with the intended reader; then save the question you *didn't* ask before accepting an AI-made chart. [[First Delegation]] has the two-lens and two-turn checks, and [[The Evidence Ticket]] keeps the alternative route visible. See [[00-Daily-Digests/2026-10-09|today's digest]] for the preprints and evidence limits. No identifiable student work in unapproved tools.
+
 Sunday's correction-path drill: use [[The Absent Person Test]] to name who needs a route, [[Procedural Standing]] to find the authorized editor, and [[The Evidence Ticket]] to record a read-back after the correction. Practice on a private draft from a public event notice, never on student or personnel records. See [[00-Daily-Digests/2026-10-04|October 4's digest]].
 
 Friday's five-minute drill: draw three lines around a public-data task — **your first thought, the fact that would reverse the AI's recommendation, and what the tool may access**. [[The Line You Draw]] has the think/change/connect exercise, [[The Reversal Condition]] has the flip test, and [[The Evidence Ticket]] captures the source and approval. See [[00-Daily-Digests/2026-10-02|October 2's digest]] for the studies and their limits. Never use unapproved systems for student or personnel data.

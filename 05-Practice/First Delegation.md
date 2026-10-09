@@ -1,7 +1,7 @@
 ---
 title: First Delegation
 created: 2026-06-26
-updated: 2026-09-25
+updated: 2026-10-09
 type: practice
 tags: [practice, operator, orchestrator]
 confidence: high
@@ -16,6 +16,8 @@ sources:
   - raw/articles/cares-regulation-grounded-safety-reporting-2609.19429.md
   - raw/articles/helpcoach-targeted-help-seeking-2609.28918.md
   - raw/articles/teacher-chatbot-intent-vs-behavior-2609.29993.md
+  - raw/articles/critical-ai-literacy-eight-lenses-2610.10743.md
+  - raw/articles/pedagogical-metric-tutor-repetition-2610.12125.md
 ---
 
 # First Delegation
@@ -412,6 +414,12 @@ Delegation need not mean “do the whole problem.” In a study with 40 college 
 An instruction can sound pedagogically right while the chatbot behaves differently. In workshops with 27 middle-school teachers, a configurable chatbot aligned more often with responsiveness (88.9%) and persona (81.5%) than with rules (70.4%) or stated instructional purpose (59.3%). These are logged alignment ratings in one authoring setting, **not** student learning gains.
 
 **Try this on an approved, non-sensitive test:** state the lesson purpose (“help the learner reason about the text”), one boundary (“ask a question before giving the answer”), then give the bot two practice prompts: a normal request and a request for the full answer. Record whether it followed *both* the purpose and the boundary. If not, adjust the configuration and retest before students use it. Never paste identifiable student work into an unapproved service. This is a practical version of [[The Demonstration Check]]. [Teacher chatbot study](https://arxiv.org/abs/2609.29993).
+
+## The Two-Lens and Sequence Check (October 2026)
+
+The usual SUCCESS CRITERIA line asks if a draft is correct. Students in one study also checked whether an AI response was complete, suited the task, practical, creative, personalized, ethical and fair. These were observed ways of evaluating responses, not a tested intervention. Pick **one** of these beyond accuracy that matters for *your* task, then write what would count as a miss. For a public event summary: `FACT: date agrees with the source / FIT: instructions make sense to a first-time visitor`. Verify the fact at the original source; read the instructions as the visitor would. [Lee and Yu, preprint](https://arxiv.org/abs/2610.10743).
+
+For developmental tasks, test the *sequence*, not a single impressive turn. A tutor study reported that improving a per-turn teaching metric led to repetitive replies and lower blind educator ratings in its corrected cases. That does not establish how a district tutor would behave. On an approved, fictional practice problem, ask for a hint, then say the hint did not help. Compare the two replies: did the second respond to the learner's new need, or repeat the first move? If it repeats, pause the pilot and change the brief before involving learners. [Domínguez Figaredo and Fernández De la Cruz, preprint](https://arxiv.org/abs/2610.12125). Keep identifiable student work out of unapproved tools. Log what you checked in [[The Evidence Ticket]].
 
 ## Related Pages
 

@@ -64,7 +64,7 @@ Plain-language definitions of every key term.
 
 ### 00-Daily-Digests
 Daily curated research digests — what we found, what it means, and how to use it.
-→ [[00-Daily-Digests/2026-10-08|Today's Digest]]
+→ [[00-Daily-Digests/2026-10-09|Today's Digest]]
 
 ---
 
@@ -84,6 +84,7 @@ _Last 7 days of activity._
 
 | Date | What Changed |
 |------|-------------|
+| 2026-10-09 | Day 5 practice: three newly announced preprints distinguish factual accuracy from task fit, per-turn tutor scores from a useful learning sequence, and a finished chart from the analysis route. [[First Delegation]] and [[The Evidence Ticket]] gained two-lens, two-turn and unchosen-question exercises. [[00-Daily-Digests/2026-10-09|Read today's digest]]. |
 | 2026-10-08 | Day 4 barriers: three primary preprints separate confidence, approval, and comprehension from proof of readiness. [[Fear of Losing Control]], [[The Validator Trap]] and [[The Certification Boundary]] gained independent-check and teach-back bridges. [[00-Daily-Digests/2026-10-08|Read today's digest]]. |
 | 2026-10-07 | Day 3 real-world: three field studies test the missing-input plan, translated assumptions, and the difference between student participation and learning. [[From Prompt to Pipeline]], [[The School District Shift]] and [[Small Business Automation]] deepened. [[00-Daily-Digests/2026-10-07|Read today's digest]]. |
 | 2026-10-06 | Day 2 concepts: three newly announced preprints distinguish first action from final outcome, make revisions visible and bring citations back to their source. [[From Author to Editor]], [[The Control Surface]] and [[The Review-First Pattern]] deepened. [[00-Daily-Digests/2026-10-06|Read today's digest]]. |
