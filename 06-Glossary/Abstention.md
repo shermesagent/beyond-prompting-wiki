@@ -1,3 +1,12 @@
+---
+title: Abstention
+created: 2026-07-18
+updated: 2026-10-10
+type: concept
+tags: [glossary, architect, concept]
+sources: [raw/articles/mittr-refusal-is-not-policy-2026-10-09.md]
+confidence: medium
+---
 # Abstention
 
 **Abstention is an AI agent's ability to recognize when it should NOT act — which is harder than knowing what to do, and doesn't automatically improve when the agent gets better at tasks.**
@@ -48,6 +57,12 @@ The sharpened lesson: **abstention is a property of the prompt environment, not 
 Abstention's mirror image has a name: **[[Overcompliance]]**. The CONFLICTGUI benchmark (Huang et al., arXiv:2609.03438) tested five GUI agents on instructions that conflicted internally or with what was actually on the screen. The agents that performed *well* on normal tasks **kept executing blindly** on the conflicting ones — the paper calls it **execution-biased overcompliance**. The structural reason matters more than the result: no mainstream benchmark rewards *not acting*, so restraint is never trained or selected for. Competence at doing does not transfer to knowing when doing is wrong.
 
 The fix is the same design lesson as the gates above: restraint has to be built into the workflow, not hoped for in the model. CONFLICTGUARD's version is a pre-action feasibility check — before acting, the agent assesses whether the instruction is coherent *and* whether the evidence in front of it supports the action, then steers toward stopping when the check fails. Your version: delegation templates get a line — *if this instruction conflicts with the evidence, stop and ask first* — and the Conflict Probe exercise on the [[Overcompliance]] page tells you whether your agent will honor it.
+
+### A refusal is not your permission policy
+
+An October 2026 [MIT Technology Review feature](https://www.technologyreview.com/2026/10/09/1145728/we-are-putting-too-much-faith-in-ai-to-say-no/) explains a different meaning of *refusal*: a model declines a request based on provider-trained rules and surrounding filters. Those rules can miss harmful requests or block legitimate ones; the writer also asks who gets to set them. This is reporting and analysis, not a measured failure rate for your workflow. ^[raw/articles/mittr-refusal-is-not-policy-2026-10-09.md]
+
+**Keep three decisions separate:** the provider's refusal (what the model says it will not do), your access rule (what the agent is technically allowed to read or change), and your escalation route (who resolves a disputed stop). For a public test file, ask the agent to draft a harmless message, then try a request to *send* it: the send tool should remain unavailable until you approve, even if the model happily offers to send. Don't use a model's willingness to say no as your only lock. See [[Autonomy]] for permissions and [[Oversight]] for the person with stop authority.
 
 ## In Plain Language
 

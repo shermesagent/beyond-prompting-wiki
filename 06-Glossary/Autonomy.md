@@ -1,10 +1,10 @@
 ---
 title: Autonomy
 created: 2026-06-21
-updated: 2026-10-03
+updated: 2026-10-10
 type: concept
 tags: [glossary, architect, concept]
-sources: [raw/articles/anthropic-agent-autonomy-in-practice-2026.md, raw/articles/nist-ai-rmf-playbook-2026.md]
+sources: [raw/articles/anthropic-agent-autonomy-in-practice-2026.md, raw/articles/nist-ai-rmf-playbook-2026.md, raw/articles/wired-tesla-assisted-driving-name-2026-10-09.md]
 confidence: medium
 ---
 # Autonomy
@@ -83,6 +83,12 @@ Add a fourth autonomy axis: **communication rights**. May the agent write to a s
 [Anthropic's February 2026 analysis](https://www.anthropic.com/research/measuring-agent-autonomy) of its own Claude Code sessions found two things rising together as users gained experience: full auto-approval and human interruptions. That does **not** prove that giving agents more freedom makes them safer; it describes how one product's users changed their review habits. **Permission** is what an agent may do without asking; a **stop path** is how you notice trouble and interrupt before damage. ^[raw/articles/anthropic-agent-autonomy-in-practice-2026.md]
 
 Try this with a public, low-stakes draft: allow the agent to work without approving every edit, but keep sending, publishing, deleting and private-data access off limits. Before starting, write who may stop it and what observation will trigger the stop. If you cannot actually interrupt it, lower its autonomy instead. [[Human in the Loop]] explains where the human checkpoint belongs; [[Oversight]] explains what to check there. NIST's [voluntary playbook](https://www.nist.gov/itl/ai-risk-management-framework/ai-rmf-playbook) is a planning lens, not a certification that this setup is safe. ^[raw/articles/nist-ai-rmf-playbook-2026.md]
+
+### Name the work the human must still do
+
+[WIRED reported on October 9](https://www.wired.com/story/tesla-full-self-driving-becomes-assisted-driving-in-europe/) that Tesla began using **Assisted Driving** in Europe instead of **Full Self-Driving** while seeking approval; the reported feature still requires a driver to stay alert and intervene. Driving automation and office agents are different systems. The transferable lesson is about labels: a name can suggest independence while leaving continuous attention with the human. This report is not evidence that a particular office agent is safe or that EU approval has been granted. ^[raw/articles/wired-tesla-assisted-driving-name-2026-10-09.md]
+
+Try a 5-minute label check on a *public, draft-only* task: write `The AI can: ___ / The human must still watch: ___ / The human can stop it by: ___`. If the second or third line is vague, call the arrangement **assisted**, not autonomous, and keep the agent in a smaller permission zone. Pair this with [[Oversight]] and [[Human in the Loop]] before adding tools or sending rights.
 
 ## Related Pages
 

@@ -1,3 +1,12 @@
+---
+title: Delegation
+created: 2026-06-21
+updated: 2026-10-10
+type: concept
+tags: [glossary, orchestrator, concept]
+sources: [raw/articles/wired-publishers-staff-ai-permission-2026-10-09.md]
+confidence: medium
+---
 # Delegation
 
 **Delegation is handing off a task or responsibility to an AI agent with clear instructions about what success looks like — different from prompting because you're describing outcomes, not scripting every step.**
@@ -48,6 +57,12 @@ The orchestrator's rule: **delegation is for execution, not for taste.** Before 
 Ethan Mollick's [September 2026 essay](https://www.oneusefulthing.org/p/the-overhang) describes impressive AI-built games, maps, and trailers — but he chose the projects, spotted mismatches using his subject knowledge, and rejected creative choices he disliked. His four advantages are **deep knowledge, wide knowledge, taste, and agency**. Those examples show what's possible for one expert; they don't prove every agent's output is reliable.
 
 Try this on an ordinary draft: ask for two versions, name one factual check you can perform, and write one sentence explaining why you kept one version. Delegate production; retain the decision. [[06-Glossary/Trust Calibration|Trust Calibration]] covers the factual check, while [[Oversight]] makes the decision reviewable.
+
+### Three permissions, not one
+
+[WIRED's October 9 reporting](https://www.wired.com/story/book-publishers-are-quietly-using-more-ai-staff-are-revolting/) describes publishers using AI for publicity copy and other tasks, while interviewed workers and agents raised concerns about unpublished manuscripts, disclosure and pressure to use tools. The accounts are interviews, not a survey of all publishers; the article also carries company responses about approved tools and boundaries. Its useful lesson is precise: **permission to open a tool is not permission to upload someone else's material or release its output.** ^[raw/articles/wired-publishers-staff-ai-permission-2026-10-09.md]
+
+Before delegating a public, low-stakes draft, fill three lines: `TOOL: approved for this task? / INPUT: whose material may enter it? / OUTPUT: who approves sharing?` If any line is unclear, keep the work off the tool or in a non-sensitive sample until the owner answers. For school work, do not upload identifiable student or personnel material to an unapproved service; district data rules and consent requirements still apply. This is a [[Delegation Regret]] boundary and an [[Oversight]] checkpoint, not a better-prompt trick.
 
 ## Related Pages
 
