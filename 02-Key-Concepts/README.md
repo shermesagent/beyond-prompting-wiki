@@ -12,6 +12,8 @@ You don't need to read them in order. Jump to whichever title grabs you. But if 
 
 **October 6 field route:** [[From Author to Editor]] for visible revision choices → [[The Control Surface]] for the difference between first action and final outcome → [[The Review-First Pattern]] for a source check before approval. [[00-Daily-Digests/2026-10-06|Read the Day 2 digest]].
 
+**October 11 changed-condition route:** [[The Demonstration Check]] asks what happens when a demo's conditions change → [[The Translation Layer]] makes the real review path usable → [[The Evidence Interface]] records who did the work and how it was checked. [[00-Daily-Digests/2026-10-11|Read the Sunday digest]].
+
 1. **[[Task Decomposition]]** — the single most important skill. Start here.
 2. **[[Delegation Thinking]]** — the mental shift that makes everything else click.
 3. **[[Trust Calibration]]** — the practical judgment call you'll make every day.

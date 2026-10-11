@@ -1,7 +1,7 @@
 ---
 title: The Evidence Interface
 created: 2026-09-13
-updated: 2026-09-13
+updated: 2026-10-11
 type: concept
 tags: [concept, workflow, orchestrator]
 sources:
@@ -10,6 +10,8 @@ sources:
   - raw/articles/openai-devin-tests-work-with-astra-2026-09-11.md
   - raw/articles/openai-data-agent-put-data-to-work-2026-09-10.md
   - raw/articles/wired-claude-misuse-everywhere-2026-09-12.md
+  - raw/articles/willison-voice-blog-feature-review-2026-10-09.md
+  - raw/articles/mittr-robotics-demo-vs-deployment-2026-10-08.md
 confidence: medium
 ---
 
@@ -61,6 +63,14 @@ Pick one AI task you used or approved this week.
 5. **Set the autonomy level.** Weak evidence = assistant mode. Strong, independent evidence = maybe more autonomy.
 
 The rule is simple: **no evidence, no autonomy.** Not because AI is bad. Because delegation without evidence is surrender with better branding.
+
+## Ask Who Did the Work Behind the Demo
+
+In Simon Willison's firsthand account, the voice-driven build looked nearly finished, but the pull-request review exposed an import that still needed a different approach for private data. The preview showed appearance and progress; the code review exposed the mechanism. Save **both** the visible result and the inspection point. [Willison](https://simonwillison.net/2026/Oct/9/built-using-my-voice/). ^[raw/articles/willison-voice-blog-feature-review-2026-10-09.md]
+
+MIT Technology Review's robotics feature describes demonstrations that may hide scripted steps or remote human control. This is a cross-domain warning, not a claim that desk-work agents are robots: a video of success does not tell you which steps were autonomous, which conditions were controlled, or what happened on failure. [MIT Technology Review](https://www.technologyreview.com/2026/10/08/1145923/ai-breakthroughs-in-robotics-wont-change-your-life-any-time-soon/). ^[raw/articles/mittr-robotics-demo-vs-deployment-2026-10-08.md]
+
+**Add three lines to your evidence ticket:** `Demonstrated step / Human or scripted assistance / What happened on a changed-condition rerun`. On a public, low-stakes task, if you cannot fill a line from an independent artifact or an observer, keep the workflow in a trial. See [[The Demonstration Check]] and [[The Evidence Ticket]].
 
 ## Related Pages
 

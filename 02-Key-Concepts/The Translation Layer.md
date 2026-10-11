@@ -1,7 +1,7 @@
 ---
 title: The Translation Layer
 created: 2026-09-20
-updated: 2026-09-20
+updated: 2026-10-11
 type: concept
 tags: [concept, workflow, orchestrator]
 sources:
@@ -10,6 +10,8 @@ sources:
   - raw/articles/google-flow-fashion-week-2026-09-18.md
   - raw/articles/willison-ptacek-how-to-write-with-llm-2026-09-17.md
   - raw/articles/stratechery-salesforce-agents-as-ui-2026-09-16.md
+  - raw/articles/willison-voice-blog-feature-review-2026-10-09.md
+  - raw/articles/wired-playground-test-2026-10-11.md
 confidence: medium
 ---
 
@@ -54,6 +56,14 @@ Pick one AI workflow you already use. Answer five questions:
 5. **Usability test:** Could a normal person use this without caring about AI?
 
 If #3 or #5 is blank, the workflow is still a demo. Make the source layer or the user path visible before you add more autonomy.
+
+## A Smooth Interface Can Move the Hard Work
+
+Simon Willison built most of a newsletter-archive feature by talking to a coding agent while a local preview showed progress. Before shipping, he switched to the pull request, changed how a private-repository import worked, and finished with typed corrections. **Voice helped him express the goal; the review surface let him inspect the implementation and protect the permission boundary.** This is a firsthand developer account, not a study showing that voice is faster for everyone. [Willison](https://simonwillison.net/2026/Oct/9/built-using-my-voice/). ^[raw/articles/willison-voice-blog-feature-review-2026-10-09.md]
+
+WIRED's game-building test supplies the reader-side check: it is easy to get a playable preview, but a person still has to test whether the controls make sense, the intended theme appears, and later edits break earlier behavior. One product test cannot establish prevalence. It does show why a smooth input box is only one part of a usable workflow. [WIRED](https://www.wired.com/story/i-made-terrible-games-with-googles-ai-playground/). ^[raw/articles/wired-playground-test-2026-10-11.md]
+
+**Try this on a public sample:** ask for a draft in whatever mode is easiest. Then change surfaces: inspect the actual file or preview, check one permission-sensitive step, and hand it to a second person for one real-use task. Record what passed, what failed, and who can make the correction. [[The Demonstration Check]] tests the exception; [[The Evidence Interface]] preserves the proof.
 
 ## Related Pages
 

@@ -64,7 +64,7 @@ Plain-language definitions of every key term.
 
 ### 00-Daily-Digests
 Daily curated research digests — what we found, what it means, and how to use it.
-→ [[00-Daily-Digests/2026-10-10|Today's Digest]]
+→ [[00-Daily-Digests/2026-10-11|Today's Digest]]
 
 ---
 
@@ -84,6 +84,7 @@ _Last 7 days of activity._
 
 | Date | What Changed |
 |------|-------------|
+| 2026-10-11 | Day 7 cross-section: a firsthand voice-built feature, a game-builder test, and reported robotics research distinguish the first demo from repeatable work. [[The Demonstration Check]], [[The Translation Layer]], and [[The Evidence Interface]] deepened; Sunday lint run. [[00-Daily-Digests/2026-10-11|Read today's digest]]. |
 | 2026-10-10 | Day 6 glossary: three directly read reported sources separate a model's refusal from a real permission gate, an autonomy label from the human's remaining duty, and tool approval from input/output rights. [[Abstention]], [[Autonomy]] and [[Delegation]] deepened. [[00-Daily-Digests/2026-10-10|Read today's digest]]. |
 | 2026-10-09 | Day 5 practice: three newly announced preprints distinguish factual accuracy from task fit, per-turn tutor scores from a useful learning sequence, and a finished chart from the analysis route. [[First Delegation]] and [[The Evidence Ticket]] gained two-lens, two-turn and unchosen-question exercises. [[00-Daily-Digests/2026-10-09|Read today's digest]]. |
 | 2026-10-08 | Day 4 barriers: three primary preprints separate confidence, approval, and comprehension from proof of readiness. [[Fear of Losing Control]], [[The Validator Trap]] and [[The Certification Boundary]] gained independent-check and teach-back bridges. [[00-Daily-Digests/2026-10-08|Read today's digest]]. |

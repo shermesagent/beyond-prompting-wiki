@@ -1,10 +1,10 @@
 ---
 title: The Demonstration Check
 created: 2026-09-23
-updated: 2026-09-23
+updated: 2026-10-11
 type: concept
 tags: [concept, workflow, orchestrator]
-sources: [raw/articles/showtellarena-demonstrations-2609.25467.md, raw/articles/delegation-boundaries-visual-storytelling-2609.25700.md, raw/articles/systematic-review-course-ai-2609.26057.md]
+sources: [raw/articles/showtellarena-demonstrations-2609.25467.md, raw/articles/delegation-boundaries-visual-storytelling-2609.25700.md, raw/articles/systematic-review-course-ai-2609.26057.md, raw/articles/wired-playground-test-2026-10-11.md, raw/articles/mittr-robotics-demo-vs-deployment-2026-10-08.md]
 confidence: medium
 ---
 
@@ -40,6 +40,14 @@ Use a **non-sensitive** sample task, never student records, personnel details, o
 4. Check its answers against your actual policy and source material. If it guesses or misses a boundary, do not give it more permissions; revise the task instructions and retest.
 
 **The sign-off is not “it copied my example.” It is “it knew where the example stopped.”**
+
+## The Changed-Condition Check
+
+A playable demo can still miss the brief. In WIRED's October 11 firsthand test, a generated dinner-party game did not carry through an intended theme and its controls confused the person trying to play. Another generated game improved after feedback but also picked up new defects. That is one writer's experience, not a measured failure rate. Add a second question after the teach-back: **can someone else complete the actual task, and does the last fix still work after the next change?** [WIRED](https://www.wired.com/story/i-made-terrible-games-with-googles-ai-playground/). ^[raw/articles/wired-playground-test-2026-10-11.md]
+
+The same demo-versus-deployment distinction appears in MIT Technology Review's robotics reporting: a robot can make progress on one filmed task without finishing it, and some public demonstrations involve remote human control or carefully scripted actions. This is an **analogy** for office AI, not evidence that office agents share a robot's failure rate. Before expanding an agent's permissions, ask who did the hard part, change one input or condition, and watch what happens when it cannot finish. [MIT Technology Review](https://www.technologyreview.com/2026/10/08/1145923/ai-breakthroughs-in-robotics-wont-change-your-life-any-time-soon/). ^[raw/articles/mittr-robotics-demo-vs-deployment-2026-10-08.md]
+
+**Five-minute trial:** use a public, harmless example. Let the AI complete it once. Change one important condition (missing input, different audience, or unavailable source), rerun, and compare both outputs against your brief. Keep it draft-only if the exception has no clear destination. See [[The Evidence Interface]] and [[The Translation Layer]].
 
 ## Related Pages
 
