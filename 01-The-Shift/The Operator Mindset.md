@@ -184,6 +184,9 @@ A [MIT Technology Review essay](https://www.technologyreview.com/2026/10/05/1145
 
 **Two-question check:** Ask separately: “Which task does this help you with?” and “Which AI change would you want to opt out of or review first?” Write down the distinction without names or sensitive work examples. Bring that answer to [[The Orchestrator Mindset]] before expanding the workflow. A person can say yes to help and no to a rollout.
 
+## Keep a Return Note (October 2026)
+An [academic-search study with 36 participants](https://arxiv.org/abs/2610.12755) compared two ways to pick up research a week later. People using editable AI summaries resumed faster and reported broader coverage; people writing their own notes made richer connections and reported greater certainty. Those are different outcomes in a small study, not proof that one method teaches better. The operator's move: after a public, low-stakes search, write **one connection in your own words** before saving the AI summary. Next week, can you explain why that connection matters without reopening the chat? See [[The Orchestrator Mindset]] and [[The Evidence Interface]].
+
 ## Try This
 
 Pick one task you do with AI at least twice a week. Write down every step you take — every prompt, every edit, every check. Now ask: which of those steps are truly judgment calls, and which are mechanical sequences you could teach someone else? The mechanical ones are your first candidates for delegation. Circle them.

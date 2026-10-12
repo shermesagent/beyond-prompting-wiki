@@ -14,6 +14,8 @@ None of this requires a computer science degree. It requires a different way of 
 - [[The Architect Mindset]] — where the real leverage lives
 - [[Why This Matters]] — the stakes, for your work and for everyone else's
 
+**Monday bridge (October 12):** [[The Operator Mindset]] pairs a quick AI summary with one human-written connection; [[The Orchestrator Mindset]] keeps a revisitable decision reason and lets teachers refine the goal during lesson review. [[00-Daily-Digests/2026-10-12|Read the three-source digest]].
+
 **Monday bridge:** [[What Is Beyond Prompting]] asks whether the workflow gives people a useful interface and a real choice; [[The Operator Mindset]] separates usage from consent; [[The Orchestrator Mindset]] checks whether the reviewer can actually take the handoff.
 
 **This week's bridge:** [[The Operator Mindset]] shows why checking and coordination count as work; [[What Is Beyond Prompting]] shows how an agent can find evidence without replacing the person who must verify it.

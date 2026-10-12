@@ -254,6 +254,11 @@ Two new [human–AI interface](https://arxiv.org/abs/2610.02369) and [cyber-over
 
 Try a **review slot** on a draft-only, public-information task: write `DECISION / EVIDENCE LINK / REVIEWER / TIME AVAILABLE / BACKUP / STOP RULE`. Ask the reviewer to locate one deliberately incorrect public fact and correct it. If the reviewer is overloaded or cannot open the evidence, hold the output; do not count an unanswered review request as approval. This adds a human handle to [[The Control Surface]] without requiring the person to watch every keystroke.
 
+## Let Decisions Teach the Workflow (October 2026)
+A [decision-support prototype](https://arxiv.org/abs/2610.12666) starts with an empty collection of prior human decisions. It proposes moving from watching a person's decisions to offering evidence-backed challenges and only then handling some cases itself, with a way to decline uncertain cases. Its tests used simulated changes, **not real users**; the authors say real-world usability has not been evaluated. The useful design question is still concrete: when your AI proposes a repeatable decision, can it show the *earlier decision and the reason* rather than silently treating yesterday's rule as permanent? See [[Memory as Infrastructure]] and [[The Reversal Condition]].
+
+A [qualitative study of eight secondary computing teachers](https://arxiv.org/abs/2610.12834) found that teachers clarified their goals while inspecting AI-generated materials, not only before the first prompt. For a classroom draft, leave space for that discovery: request a lesson outline, compare it with the learning goal and likely student understanding, then revise the goal or reject the draft yourself. This is not evidence that AI-authored lessons improve student outcomes. Keep identifiable student information out of unapproved tools; see [[The School District Shift]].
+
 ## Try This
 
 Take the mechanical sequences you circled in [[The Operator Mindset]] exercise. Pick the simplest one and write it as a single instruction that starts with a goal, not a step. For example, instead of "First do X, then do Y, then do Z," write: "Produce Z. You have access to X and Y. Figure out the order." Run it. Compare the result to your manual process. Where did the AI make different choices than you would have? Were they wrong, or just different?
