@@ -2,7 +2,7 @@
 
 > A living guide to the **operator → orchestrator shift**. If you've ever typed a prompt and thought "there has to be more than this" — start here.
 
-_127 pages across 6 sections. Updated daily. Git-backed, human-readable, cross-linked._
+_128 pages across 6 sections. Updated daily. Git-backed, human-readable, cross-linked._
 
 ---
 
@@ -42,7 +42,8 @@ The core idea. What it means, why it matters, and the three mindsets along the p
 Approachable distillations of research into learning concepts you can use today.
 → [[Task Decomposition]] · [[Delegation Thinking]] · [[Cognitive Surrender]] · [[02-Key-Concepts/Trust Calibration|Trust Calibration]] · [[Friction by Design]] · [[The Augmentation Trap]] · [[Co-Construction Blindness]] · [[From Author to Editor]] · [[The Coaching Stance]] · [[The Placement Rule]] · [[The Four Decision Labels]] · [[Memory as Infrastructure]] · [[The Review-First Pattern]] · [[The Sequencing Principle]] · [[Doom Researching]] · [[Reverse-Centaur]] · [[The Collapse Pattern]] · [[Cognitive Load]] · [[The Illusion of Mastery]] · [[The Scaffold Match]] · [[The Jagged Frontier]] · [[Abstention]] · [[Authorship Calibration]] · [[Autonomy]] · [[The Preservation Principle]] · [[The Absorption Pattern]] · [[The Overassistance Pattern]] · [[02-Key-Concepts/Delegation Regret|Delegation Regret]] · [[Instruction Bleed]] · [[02-Key-Concepts/The Blank Box Problem|The Blank Box Problem]] · [[AI Context Anxiety]] · [[Lexical Oscillation]] · [[02-Key-Concepts/Capacity Dissolution|Capacity Dissolution]] · [[02-Key-Concepts/Cognitive Fixed Cost|Cognitive Fixed Cost]] · [[02-Key-Concepts/Failure-Path Preservation|Failure-Path Preservation]] · [[Distributed Mastery]] · [[02-Key-Concepts/Accountability Asymmetry|Accountability Asymmetry]] · [[02-Key-Concepts/Cognitive Capability Gaps|Cognitive Capability Gaps]] · [[02-Key-Concepts/Intent Scaffolding|Intent Scaffolding]] · [[02-Key-Concepts/The Vibe Compiler|The Vibe Compiler]] · [[02-Key-Concepts/Repair Literacy|Repair Literacy]] · [[02-Key-Concepts/Silent Updates|Silent Updates]] · [[02-Key-Concepts/The Enactment Gap|The Enactment Gap]] · [[02-Key-Concepts/Distributed Counsel|Distributed Counsel]] · [[02-Key-Concepts/The Tool-to-Entity Threshold|The Tool-to-Entity Threshold]] · [[02-Key-Concepts/The Authority Switch|The Authority Switch]] · [[02-Key-Concepts/Scaffold, Don't Substitute|Scaffold, Don't Substitute]] · [[02-Key-Concepts/Procedural Collapse|Procedural Collapse]] · [[02-Key-Concepts/The Practice Style|The Practice Style]] · [[02-Key-Concepts/The Provenance Principle|The Provenance Principle]] · [[02-Key-Concepts/Delegated Exposure|Delegated Exposure]] · [[02-Key-Concepts/The Confidence Gap|The Confidence Gap]] · [[02-Key-Concepts/The Warm Expert|The Warm Expert]] · [[02-Key-Concepts/Run-to-Run Variance|Run-to-Run Variance]] · [[02-Key-Concepts/The SCAN Test|The SCAN Test]] · [[02-Key-Concepts/The Rule Capture Problem|The Rule Capture Problem]] · [[02-Key-Concepts/The Failure Review|The Failure Review]] · [[02-Key-Concepts/The Echo Check|The Echo Check]] · [[02-Key-Concepts/The Disclosure Clock|The Disclosure Clock]] · [[02-Key-Concepts/Accountable Translation|Accountable Translation]] · [[02-Key-Concepts/Interpretive Appearance|Interpretive Appearance]] · [[The Evidence Interface]] · [[The Workflow Lens]] · [[Sequenced Agency]] · [[The Task Scaffold]] · [[The Translation Layer]] · [[The Control Surface]] · [[Metacognitive Demand]] · [[The Meaning Check]]
 
-New this week: [[The Reversal Condition]] — name the fact that would change a recommendation and test it before the AI acts. Also explore [[The Meaning Check]], [[The Demonstration Check]], and [[The Observability Gap]] for deciding what to verify at each autonomy level.
+→ [[The Preference Check]] — confirm a person's choice before saving a new AI default.
+New this week: [[The Preference Check]] — ask before turning observed behavior into a standing AI default. Also explore [[The Reversal Condition]], [[The Meaning Check]], [[The Demonstration Check]], and [[The Observability Gap]] for deciding what to verify at each autonomy level.
 For the full autonomy map, see [[The Capability Ladder]].
 → [[The Reversal Condition]] · [[The Evidence Ticket]] — quick path from a decision to a checkable reason and approval.
 
@@ -64,7 +65,7 @@ Plain-language definitions of every key term.
 
 ### 00-Daily-Digests
 Daily curated research digests — what we found, what it means, and how to use it.
-→ [[00-Daily-Digests/2026-10-12|Today's Digest]]
+→ [[00-Daily-Digests/2026-10-13|Today's Digest]]
 
 ---
 
@@ -84,6 +85,7 @@ _Last 7 days of activity._
 
 | Date | What Changed |
 |------|-------------|
+| 2026-10-13 | Day 2 concepts: three newly found preprints distinguish observed behavior from a confirmed preference and a reusable rule. [[The Preference Check]] created; [[Intent Scaffolding]], [[The Rule Capture Problem]] and [[Co-Construction Blindness]] deepened. [[00-Daily-Digests/2026-10-13|Read today's digest]]. |
 | 2026-10-12 | Day 1 Shift: three newly found preprints distinguish quick resumption from personal connections, a fixed brief from teacher-refined intent, and old approvals from revisitable decisions. [[The Operator Mindset]] and [[The Orchestrator Mindset]] deepened. [[00-Daily-Digests/2026-10-12|Read today's digest]]. |
 | 2026-10-11 | Day 7 cross-section: a firsthand voice-built feature, a game-builder test, and reported robotics research distinguish the first demo from repeatable work. [[The Demonstration Check]], [[The Translation Layer]], and [[The Evidence Interface]] deepened; Sunday lint run. [[00-Daily-Digests/2026-10-11|Read today's digest]]. |
 | 2026-10-10 | Day 6 glossary: three directly read reported sources separate a model's refusal from a real permission gate, an autonomy label from the human's remaining duty, and tool approval from input/output rights. [[Abstention]], [[Autonomy]] and [[Delegation]] deepened. [[00-Daily-Digests/2026-10-10|Read today's digest]]. |

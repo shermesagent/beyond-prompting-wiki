@@ -1,7 +1,7 @@
 ---
 title: Co-Construction Blindness
 created: 2026-06-23
-updated: 2026-09-29
+updated: 2026-10-13
 type: concept
 tags: [concept, barrier, mindset, orchestrator]
 sources:
@@ -9,6 +9,7 @@ sources:
   - raw/articles/conditional-cognitive-biases-2608.05166.md
   - raw/articles/illusion-of-alignment-2608.08210.md
   - raw/articles/alignment-games-conceptual-repair-2609.35197.md
+  - raw/articles/agent-naming-user-behavior-2610.13156.md
 confidence: medium
 ---
 
@@ -84,6 +85,12 @@ Subramonyam, Agrawala, and Follmer's [Alignment Games framework](https://arxiv.o
 
 Before a consequential draft, ask for two interpretations of its key adjective, pick one, and name what must stay unchanged. This adds a concrete check to the divergence probe above: not just “do we agree?” but “what exactly do we each mean by *ready*?” See [[The Meaning Check]] for the five-minute version.
 
+## A Friendly Opener Is Not a New Permission
+
+In a [257-person desktop-assistant field study](https://arxiv.org/abs/2610.13156), users who renamed the agent tended to greet and confide more, and rated certain responsive replies differently from users who kept the default name. These are observed group differences and reply judgments, not proof that naming changes a person's actual goals. ^[raw/articles/agent-naming-user-behavior-2610.13156.md]
+
+Before a recurring assistant changes tone or takes more initiative, ask the person what they want for *this task*. A friendly conversation can invite a friendly answer; it does not authorize new data access or unsolicited action. Try writing `tone: ask / permissions: unchanged` in a low-stakes brief. See [[The Preference Check]] for when a pattern should become a default.
+
 ## How to Spot It in Your Day
 
 You might be experiencing co-construction blindness when:
@@ -113,7 +120,7 @@ The point isn't to distrust the AI. It's to stop pretending you're outside the s
 
 ## Related Pages
 
-[[Trust Calibration]] · [[Delegation Thinking]] · [[Cognitive Surrender]] · [[Friction by Design]] · [[Human in the Loop]] · [[Task Decomposition]] · [[Lexical Oscillation]] · [[The Meaning Check]]
+[[Trust Calibration]] · [[Delegation Thinking]] · [[Cognitive Surrender]] · [[Friction by Design]] · [[Human in the Loop]] · [[Task Decomposition]] · [[Lexical Oscillation]] · [[The Meaning Check]] · [[The Preference Check]]
 
 ## Tags
 

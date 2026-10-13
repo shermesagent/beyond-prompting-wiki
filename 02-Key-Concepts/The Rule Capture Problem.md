@@ -1,11 +1,11 @@
 ---
 title: The Rule Capture Problem
 created: 2026-09-01
-updated: 2026-09-01
+updated: 2026-10-13
 type: concept
 tags: [concept, mindset, workflow, orchestrator]
-sources: [raw/articles/organizational-rules-fail-ai-oibar-2608.29055.md]
-confidence: high
+sources: [raw/articles/organizational-rules-fail-ai-oibar-2608.29055.md, raw/articles/work2skill-human-demonstrations-2610.12984.md]
+confidence: medium
 ---
 
 # The Rule Capture Problem
@@ -57,9 +57,15 @@ And the **suspension** is the most important word in the whole framework: the st
 
 The gap never closes completely. That's not failure. That's the job: the boundary work is the work.
 
+## Show the Work, Then Ask Why
+
+In [Work2Skill](https://arxiv.org/abs/2610.12984), researchers paired 350 screened human desktop demonstrations with screen and input traces, then derived reusable procedures with step dependencies and completion checks. Their method improved scores over no-skill baselines on two computer-use benchmarks; that does **not** mean a screen recording can capture a professional's judgment by itself. The missing piece is the reason a person chose that step and what would have made them stop. ^[raw/articles/work2skill-human-demonstrations-2610.12984.md]
+
+Try it without recording anyone: on a public, non-sensitive sample task, ask a colleague to show three steps, then pause at one: “What would make you do something different here?” Add the answer and a final check to the written procedure. A copied click path is a demo; a scoped rule with a stop condition is a handoff. For real staff or student systems, obtain approval before capturing any screen, input event or record. Check [[The Preference Check]] before treating repeated behavior as a standing instruction.
+
 ## Related Pages
 
-[[The Review-First Pattern]] · [[Intent Scaffolding]] · [[06-Glossary/SOP|SOP]] · [[Knowledge Debt]] · [[Delegation Thinking]] · [[The Vibe Compiler]]
+[[The Review-First Pattern]] · [[Intent Scaffolding]] · [[06-Glossary/SOP|SOP]] · [[Knowledge Debt]] · [[Delegation Thinking]] · [[The Vibe Compiler]] · [[The Preference Check]]
 
 ## Tags
 

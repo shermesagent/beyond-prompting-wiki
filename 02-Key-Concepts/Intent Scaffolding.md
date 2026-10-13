@@ -1,12 +1,13 @@
 ---
 title: Intent Scaffolding
 created: 2026-08-06
-updated: 2026-08-11
+updated: 2026-10-13
 type: concept
-tags: [concept, delegation, orchestration, transparency, shared-understanding]
+tags: [concept, workflow, orchestrator]
 sources:
   - raw/articles/intentlint-intent-scaffolding-2608.04331.md
   - raw/articles/business-truth-queryproof-2608.09254.md
+  - raw/articles/latent-preference-observation-2610.13185.md
 confidence: high
 ---
 
@@ -53,9 +54,15 @@ Three reasons this concept matters:
 4. When the agent breaks a rule, **edit the rule, not the prompt**. The prompt is the conversation; the rule is the contract.
 5. Next week, add one rule and delete one that proved useless. Scaffolding is a habit, not a document.
 
+## Check the Inferred Rule Before Saving It
+
+An editable rule is useful only if it reflects what a person actually chose. A [theoretical preference-learning paper](https://arxiv.org/abs/2610.13185) shows that, within its model, the same observed actions can come from different underlying preferences. It is not a field test of intent-scaffolding tools. Treat inferred rules as **proposals**: show the person the rule, ask whether it is a preference or a temporary workaround, and record how to change it. See [[The Preference Check]] for a five-minute card. ^[raw/articles/latent-preference-observation-2610.13185.md]
+
+For a team workflow, try a draft-only rule review on public materials: `Inferred rule / Who confirmed it / Where it applies / When to ask again`. Do not infer student or staff preferences from private usage traces or deploy an inferred rule without approval.
+
 ## Related Pages
 
-[[From Prompt to Pipeline]] · [[Task Decomposition]] · [[Trust Calibration]] · [[The Just Ask ChatGPT Trap]] · [[Accountability Asymmetry]] · [[Memory as Infrastructure]] · [[The Review-First Pattern]] · [[The Observability Gap]] · [[The Rule Capture Problem]] · [[Accountable Translation]] · [[The Task Scaffold]]
+[[From Prompt to Pipeline]] · [[Task Decomposition]] · [[Trust Calibration]] · [[The Just Ask ChatGPT Trap]] · [[Accountability Asymmetry]] · [[Memory as Infrastructure]] · [[The Review-First Pattern]] · [[The Observability Gap]] · [[The Rule Capture Problem]] · [[Accountable Translation]] · [[The Task Scaffold]] · [[The Preference Check]]
 
 ## The Production Proof: Rules Beat Size (August 2026)
 
@@ -75,4 +82,4 @@ The honest caveats matter too: the result compares *systems* (the 32B baseline g
 
 ## Tags
 
-#concept #delegation #orchestration #transparency
+#concept #workflow #orchestrator

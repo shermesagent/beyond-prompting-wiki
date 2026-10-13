@@ -14,6 +14,8 @@ You don't need to read them in order. Jump to whichever title grabs you. But if 
 
 **October 11 changed-condition route:** [[The Demonstration Check]] asks what happens when a demo's conditions change → [[The Translation Layer]] makes the real review path usable → [[The Evidence Interface]] records who did the work and how it was checked. [[00-Daily-Digests/2026-10-11|Read the Sunday digest]].
 
+**October 13 preference route:** [[The Preference Check]] asks before saving a default → [[Intent Scaffolding]] keeps the rule editable → [[The Rule Capture Problem]] captures the human exception. [[00-Daily-Digests/2026-10-13|Read the Day 2 digest]].
+
 1. **[[Task Decomposition]]** — the single most important skill. Start here.
 2. **[[Delegation Thinking]]** — the mental shift that makes everything else click.
 3. **[[Trust Calibration]]** — the practical judgment call you'll make every day.
@@ -76,6 +78,7 @@ You don't need to read them in order. Jump to whichever title grabs you. But if 
 60. [[The Demonstration Check]] — after showing AI an approved example, test the rule, an exception, and the human approval boundary before trusting the next draft.
 61. [[The Meaning Check]] — before a handoff, compare two interpretations of one key word, choose the one you mean, and set a boundary.
 62. [[The Reversal Condition]] — name the fact that would change a recommendation and check it outside the AI before approving consequential work.
+63. [[The Preference Check]] — before turning behavior into an AI default, ask what the person actually wants, where it applies, and how to change it.
 
 ---
 
@@ -155,6 +158,7 @@ They came out of real research — papers on human-AI collaboration, case studie
 | [[The Demonstration Check]] | Did the AI learn the rules of the job or just copy the example? | Operator → Orchestrator |
 | [[The Meaning Check]] | Are you and the AI using the same meaning for the word that drives this task? | Operator → Orchestrator |
 | [[The Reversal Condition]] | What fact would make you choose differently, and can another person check it? | Operator → Orchestrator |
+| [[The Preference Check]] | Is this repeated action a real choice or a workaround, and who gets to decide? | Operator → Orchestrator |
 
 ---
 
