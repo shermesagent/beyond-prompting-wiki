@@ -312,6 +312,12 @@ Korean Wikipedia editors used a community-built AI translation tool, WikiVault. 
 
 For Em and Jules, the analogue is a customer email or menu translated for a new audience. Ask a bilingual reviewer to compare one public, real menu or published message with its source: does the translated text preserve a claim, or smuggle in an assumption about ingredients, delivery or tone? Approve the local wording before sending. Delegating translation changes who writes; it does not change who owns the promise. See [[From Author to Editor]] and [[The Review-First Pattern]].
 
+## Can the Owner Still Check the Work Next Week?
+
+A study of 20 professionals using an agent on a data-science hiring assessment found a tradeoff: greater delegation went with more completed work but also more invalid solutions. It does **not** test bakeries or purchase orders. For an approved, non-sensitive ordering trial, Jules can keep one original quantity and supplier rule beside the draft order, then explain why she approved or changed it without asking the agent. The check is not “does this look finished?” but “can I defend this choice?” [Ma et al., 2026](https://arxiv.org/abs/2610.14660). See [[The Review-First Pattern]].
+
+Review also has to remain doable. In a three-month study of eight tutors supervising an AI learning assistant, reviewers struggled with repetition, uncertain impact and distance from the people the system helped; interface fixes had mixed results. This is a **tutoring analogy**, not a bakery outcome. After two public-data, draft-only runs, Em or Jules can record `what I changed / whether next week's draft improved / minutes spent checking`. If nobody can see the effect or sustain the check, shrink the workflow rather than switching on automatic send or ordering. [Faas et al., 2026](https://arxiv.org/abs/2610.16410). See [[The Observability Gap]].
+
 ## Related Pages
 
 [[The School District Shift]] · [[From Prompt to Pipeline]] · [[The Review-First Pattern]] · [[Delegation Thinking]] · [[Task Decomposition]] · [[Doom Researching]] · [[03-Real-World/README|03 — Real World Stories]]

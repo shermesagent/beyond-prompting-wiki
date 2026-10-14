@@ -421,6 +421,14 @@ In a California vineyard study, an AI research agent built a useful scouting mod
 
 Mara's content pipeline needs the same test **before** an unattended run: What happens if a source link is dead, a quoted claim cannot be verified, or the input topic lacks enough credible material? Add a rule: `If a required source is missing, mark the claim unverified and stop that draft; never fill it with a plausible citation.` Then test one missing-source case with public material. The workflow is only ready when the exception lands on Mara's review screen, not when the happy path looks polished. See [[The Demonstration Check]] and [[Failure-Path Preservation]].
 
+## The Completion Gate: Can Someone Explain the Draft?
+
+In a think-aloud study of 20 professionals completing a data-science hiring assessment with the same agentic tool, more delegation went with more completed work **and more invalid solutions**. Experts more often broke the task apart and scrutinized the output. This is a small study on one assessment, not a failure rate for marketing pipelines. [Ma et al., 2026](https://arxiv.org/abs/2610.14660).
+
+For Mara's next **public-material, draft-only** run, put a short card beside each consequential claim: `Source / What the agent concluded / Why Mara accepts or changes it`. Have a colleague find one unsupported claim without asking the same agent. If the person cannot explain the choice, completion is not approval. [[The Evidence Interface]] gives the reviewer a way back to the work; [[The Review-First Pattern]] keeps publishing behind a real decision.
+
+A separate classroom study tested a useful interface principle: summaries of concurrent discussions were linked back to the relevant audio and transcript, and 20 participants identified collaboration cues more efficiently and accurately than in comparison conditions. It did **not** test a content-marketing pipeline. Borrow only the design move: give a reviewer the original passage beside a summary, not a green check without a source. Never copy identifiable conversations into an unapproved agent. [Keelawat et al., 2026](https://arxiv.org/abs/2610.15319).
+
 ## You Can Do This Too
 
 You don't need to be a developer. You don't need an expensive platform. You need three things:

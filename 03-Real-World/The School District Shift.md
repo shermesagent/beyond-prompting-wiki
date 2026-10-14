@@ -456,6 +456,12 @@ A field study with **305 Kannada-speaking undergraduates** compared written resp
 
 **District planning move:** For any proposed student dialogue tool, ask separately: *Who finishes? Who can explain the idea afterward? Whose language and access needs are served?* Offer appropriate language and modality choices, but don't equate a longer conversation with learning. Trial only within district-approved privacy and accessibility rules; do not upload student speech, transcripts, accommodations or identifiable work to an unapproved service. See [[Scaffold, Don't Substitute]] and [[The Review-First Pattern]].
 
+## The Evidence-and-Workload Check for a District Pilot
+
+ArguScale's classroom-conversation interface tied summary cues to the transcript and audio that produced them. In a 20-person comparison, participants found collaboration cues more efficiently and accurately than in the comparison conditions. This is a research prototype, **not** evidence that a district should record students or automate instructional judgments. A safe planning question: if a tool flags “one group is quiet,” can a teacher see the actual contribution and decide whether the cue is useful? Try the question with a public, non-student example; use real student speech only inside approved systems and policies. [Keelawat et al., 2026](https://arxiv.org/abs/2610.15319). See [[The Evidence Interface]].
+
+The human checkpoint also needs a working life. Across three months, eight tutors overseeing an AI-supported learning assistant described repetitive checks, unclear impact of their interventions, and weak connection to learners and peers. Interface adjustments helped unevenly; the paper does not establish a district-wide remedy. For a proposed **draft-only** pilot, ask the teacher: *Which flag changed your decision? Could you see the change in the next run? Would you have time to keep reviewing this every week?* If any answer is no, reduce the scope before expanding the workflow. [Faas et al., 2026](https://arxiv.org/abs/2610.16410). See [[The Review-First Pattern]] and [[The Observability Gap]].
+
 ## Related Pages
 
 [[From Prompt to Pipeline]] · [[Task Decomposition]] · [[Delegation Thinking]] · [[Trust Calibration]] · [[Human in the Loop]] · [[Doom Researching]] · [[The Capability Ladder]] · [[Scaffold, Don't Substitute]] · [[From Author to Editor]] · [[The Warm Expert]] · [[02-Key-Concepts/Accountable Translation|Accountable Translation]] · [[03-Real-World/README|03 — Real World Stories]]

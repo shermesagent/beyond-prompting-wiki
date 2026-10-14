@@ -65,7 +65,7 @@ Plain-language definitions of every key term.
 
 ### 00-Daily-Digests
 Daily curated research digests — what we found, what it means, and how to use it.
-→ [[00-Daily-Digests/2026-10-13|Today's Digest]]
+→ [[00-Daily-Digests/2026-10-14|Today's Digest]]
 
 ---
 
@@ -85,6 +85,7 @@ _Last 7 days of activity._
 
 | Date | What Changed |
 |------|-------------|
+| 2026-10-14 | Day 3 real-world: three new preprints separate task completion from understanding, classroom cues from source evidence, and nominal oversight from sustainable review. [[From Prompt to Pipeline]], [[The School District Shift]], and [[Small Business Automation]] gained evidence-and-workload checks. [[00-Daily-Digests/2026-10-14|Read today's digest]]. |
 | 2026-10-13 | Day 2 concepts: three newly found preprints distinguish observed behavior from a confirmed preference and a reusable rule. [[The Preference Check]] created; [[Intent Scaffolding]], [[The Rule Capture Problem]] and [[Co-Construction Blindness]] deepened. [[00-Daily-Digests/2026-10-13|Read today's digest]]. |
 | 2026-10-12 | Day 1 Shift: three newly found preprints distinguish quick resumption from personal connections, a fixed brief from teacher-refined intent, and old approvals from revisitable decisions. [[The Operator Mindset]] and [[The Orchestrator Mindset]] deepened. [[00-Daily-Digests/2026-10-12|Read today's digest]]. |
 | 2026-10-11 | Day 7 cross-section: a firsthand voice-built feature, a game-builder test, and reported robotics research distinguish the first demo from repeatable work. [[The Demonstration Check]], [[The Translation Layer]], and [[The Evidence Interface]] deepened; Sunday lint run. [[00-Daily-Digests/2026-10-11|Read today's digest]]. |
