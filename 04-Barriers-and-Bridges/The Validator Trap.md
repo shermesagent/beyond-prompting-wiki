@@ -1,7 +1,7 @@
 ---
 title: The Validator Trap
 created: 2026-08-27
-updated: 2026-10-08
+updated: 2026-10-15
 type: concept
 tags: [barrier, mindset, skill, operator, orchestrator]
 sources:
@@ -9,6 +9,7 @@ sources:
   - raw/articles/follow-ai-advice-wellbeing-2511.15352.md
   - raw/articles/comprehension-audits-2610.10064.md
   - raw/articles/online-research-assisted-submissions-2610.09279.md
+  - raw/articles/residual-human-states-2610.18765.md
 confidence: medium
 ---
 
@@ -84,6 +85,12 @@ See [[Procedural Standing]] and [[No One to Blame]] for the accountability side 
 Two new preprints separate three things that often get bundled together: finishing work, passing a review, and being able to explain it. In one online-research platform study, AI-assisted submissions appeared in only 1% of observed submissions, yet they were usually approved even when instructions prohibited that assistance. Approval measured the platform's decision, not unaided capability; this is not a classroom prevalence estimate. A separate proposal for AI research labs calls for an independent **comprehension audit**: the responsible person explains an AI-produced contribution, and work pauses if understanding cannot be demonstrated. It proposes a gate; it has not shown that the gate improves outcomes. ^[raw/articles/online-research-assisted-submissions-2610.09279.md] ^[raw/articles/comprehension-audits-2610.10064.md]
 
 **The bridge for ordinary work:** before signing off on one low-risk AI-assisted draft, put the tool away for two minutes. Explain one consequential choice in your own words, open the supporting source yourself, and say what would make you stop publication. If you cannot, keep the draft in review rather than attaching your name to it. For students, use an approved assessment method and protect their work and records; this is a design suggestion, not a tested K–12 intervention. See [[The Certification Boundary]] for the learning claim and [[The Review-First Pattern]] for the release check.
+
+## The Next-Day Test: What Can You Still Do?
+
+A new preprint compares what people produce *with* AI to what they can do afterward *without* it. Its four cases draw on previously published medical-training, diagnostic-learning, classroom and dialogue studies; it is a synthesis, not a new trial of one workplace tool. The cases do not point in just one direction: some later unaided performance improves, some biases travel forward, and stronger assisted practice need not become stronger unaided exam performance. A polished handoff cannot tell you which happened. ^[raw/articles/residual-human-states-2610.18765.md]
+
+**The bridge:** after a low-stakes draft-only trial, give yourself a *different* example the next day. Without AI, name the key decision, one reason for it, and one possible error. Compare that with your pre-AI attempt if you have one. This is a learning check, not a claim that one five-minute exercise proves skill loss. For students, use only approved classroom assessment methods; do not upload their work to an unapproved tool. [[The Certification Boundary]] asks what an artifact certifies; [[The Scaffold Match]] asks what kind of help leaves the learner able to act.
 
 ## Related Pages
 

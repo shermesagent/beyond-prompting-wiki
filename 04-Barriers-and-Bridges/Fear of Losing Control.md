@@ -187,6 +187,12 @@ A new preprint tested a narrower reason that fear of losing control can be sensi
 
 **Try this:** for a low-stakes public-information draft, name one check *before* the agent starts: an original source you will open, a count you can recompute, or a file you can compare. Ask the agent for its confidence, then do the independent check regardless of the number. If they disagree, pause and narrow the delegation. This is a practice exercise, not a proven treatment for fear. See [[The Validator Trap]] for the explain-it-yourself step and [[The Evidence Ticket]] for a checkable handoff.
 
+## The Uncertainty Label That Confused the Reviewer
+
+More detail on a dashboard is not automatically more control. In a new prototype study with nurse-scheduling experts, people frequently misread the AI forecast's uncertainty display and felt less confident making a decision. Explanations were generally liked, but did not significantly change confidence or acceptance of advice in that study. This was an expert evaluation of a prototype, not evidence that uncertainty labels are harmful in every setting or that the tool improved hospital scheduling. ^[raw/articles/nurse-scheduling-uncertainty-2610.18679.md]
+
+**The bridge:** for a *non-sensitive* planning example, point to the uncertainty display and ask a colleague: “What does this number mean, and what would you do if it changed?” If you get different answers, write the meaning in ordinary words next to the number before allowing action. In real staffing or school schedules, use approved systems and an accountable human decision-maker. [[The Observability Gap]] explains why showing a signal is not the same as making it usable; [[Trust Calibration]] helps set the review level.
+
 ## Related Pages
 
 [[The Just Ask ChatGPT Trap]] · [[Trust Calibration]] · [[Prompt as Safety Blanket]] · [[Delegation Thinking]] · [[Task Decomposition]] · [[Psychological Debt]] · [[Silent Updates]] · [[No One to Blame]] · [[The Authority Switch]] · [[The Validator Trap]] · [[Procedural Standing]] · [[The Absent Person Test]]

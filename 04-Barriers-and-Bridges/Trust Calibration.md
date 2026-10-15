@@ -1,7 +1,7 @@
 ---
 title: Trust Calibration
 created: 2026-07-16
-updated: 2026-09-17
+updated: 2026-10-15
 type: concept
 tags: [barrier, mindset, skill]
 sources:
@@ -15,6 +15,8 @@ sources:
   - raw/articles/ice-t-trust-calibration-education-2609.02453.md
   - raw/articles/zvi-astra-hard-to-monitor-2026-09-08.md
   - raw/articles/openai-data-agent-put-data-to-work-2026-09-10.md
+  - raw/articles/feedback-overrides-reflection-2610.19991.md
+  - raw/articles/nurse-scheduling-uncertainty-2610.18679.md
 confidence: high
 ---
 
@@ -281,6 +283,12 @@ Three practical moves:
 3. **Add contestability before autonomy.** Appeal, opt-out, human review, audit receipt, owner name. Pick one handle before you give the system more freedom.
 
 See [[Procedural Standing]] for the 5-minute Contestability Check.
+
+## Feedback Can Teach the Wrong Lesson
+
+In a new behavioral study of 244 people, feedback after participants overrode AI advice changed how they reflected later, but one-way feedback risked weakening reflection *during* the next decision. Opposing changes in reliance left overall human–AI team performance unchanged; balanced feedback did not show the same reflection risk in this study. The lesson is narrower than “feedback works”: a single praise-or-warning signal can redirect attention without improving the decision. ^[raw/articles/feedback-overrides-reflection-2610.19991.md]
+
+**Try this on a low-stakes, public-information task:** after an override, record both what you checked and what the AI got right or wrong. Before the next decision, name one fact that would change your mind. Do not grade a person as “good at AI” from one override. And make sure uncertainty displays are understandable: a nurse-scheduling prototype study found experts often misinterpreted forecast uncertainty, while explanations alone did not significantly change confidence or advice acceptance. ^[raw/articles/nurse-scheduling-uncertainty-2610.18679.md] See [[Fear of Losing Control]] for a plain-language uncertainty check and [[The Validator Trap]] for a next-day unaided check.
 
 ## The Bottom Line
 
