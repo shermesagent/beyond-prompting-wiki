@@ -1,7 +1,7 @@
 ---
 title: First Delegation
 created: 2026-06-26
-updated: 2026-10-09
+updated: 2026-10-16
 type: practice
 tags: [practice, operator, orchestrator]
 confidence: high
@@ -18,6 +18,8 @@ sources:
   - raw/articles/teacher-chatbot-intent-vs-behavior-2609.29993.md
   - raw/articles/critical-ai-literacy-eight-lenses-2610.10743.md
   - raw/articles/pedagogical-metric-tutor-repetition-2610.12125.md
+  - raw/articles/delegation-traces-oversight-2610.21948.md
+  - raw/articles/kolab-professional-collaboration-2610.21109.md
 ---
 
 # First Delegation
@@ -420,6 +422,12 @@ An instruction can sound pedagogically right while the chatbot behaves different
 The usual SUCCESS CRITERIA line asks if a draft is correct. Students in one study also checked whether an AI response was complete, suited the task, practical, creative, personalized, ethical and fair. These were observed ways of evaluating responses, not a tested intervention. Pick **one** of these beyond accuracy that matters for *your* task, then write what would count as a miss. For a public event summary: `FACT: date agrees with the source / FIT: instructions make sense to a first-time visitor`. Verify the fact at the original source; read the instructions as the visitor would. [Lee and Yu, preprint](https://arxiv.org/abs/2610.10743).
 
 For developmental tasks, test the *sequence*, not a single impressive turn. A tutor study reported that improving a per-turn teaching metric led to repetitive replies and lower blind educator ratings in its corrected cases. That does not establish how a district tutor would behave. On an approved, fictional practice problem, ask for a hint, then say the hint did not help. Compare the two replies: did the second respond to the learner's new need, or repeat the first move? If it repeats, pause the pilot and change the brief before involving learners. [Domínguez Figaredo and Fernández De la Cruz, preprint](https://arxiv.org/abs/2610.12125). Keep identifiable student work out of unapproved tools. Log what you checked in [[The Evidence Ticket]].
+
+## The Next-Time Choice (October 2026)
+
+After a test run, do not treat “I trust it” as a permission setting. In an online study with 56 AI-literate participants and 392 video-question trials, people often chose **use with verification** even when trust was high; intended full delegation also rose across tasks. This measured intentions in one study setting, not what a district agent actually did. [Chiatti and colleagues, preprint](https://arxiv.org/abs/2610.21948).
+
+**Try this (3 minutes):** on a public, low-stakes task, write your next-time choice before another run: `reject / use with verification / delegate fully`. Name the evidence that would move you one step toward or away from full delegation. Keep any sending, posting, or sensitive-data access out of the trial. Record whether you actually used, changed, or rejected the result: a separate benchmark built from 50 professionals' workflow recordings found that models struggled to judge collaboration quality from the workflow itself. That is a reason to ask the person, not to let the agent grade its own helpfulness. [Hayati and colleagues, Kolab preprint](https://arxiv.org/abs/2610.21109). Carry the result into [[The Daily Standup]] and require proof in [[The Evidence Ticket]].
 
 ## Related Pages
 

@@ -1,7 +1,7 @@
 ---
 title: The Evidence Ticket
 created: 2026-09-18
-updated: 2026-10-09
+updated: 2026-10-16
 type: practice
 tags: [practice, orchestrator, workflow]
 confidence: high
@@ -20,6 +20,7 @@ sources:
   - raw/articles/wired-nurse-scheduling-appeals-2026-10-02.md
   - raw/articles/wired-amazon-data-center-ndas-2026-10-02.md
   - raw/articles/intent-graph-analytical-paths-2610.11025.md
+  - raw/articles/child-ai-verification-styles-2610.21233.md
 ---
 
 # The Evidence Ticket
@@ -138,6 +139,12 @@ Add a small correction receipt when a consequential result is disputed: `AFFECTE
 An AI-made chart can look finished while hiding how a broad question became that particular chart. The Intent Graph preprint proposes an interface that shows branches from a question to possible analyses and the data fields behind them; its abstract describes a usage scenario and a planned user study, **not evidence that this interface improves decisions**. Use the idea as a paper exercise, not a product endorsement. [Yang and colleagues, preprint](https://arxiv.org/abs/2610.11025).
 
 **Try it in five minutes with a public dataset:** write your starting question, two possible narrower questions, and the actual field you would need to answer each. Choose one route. Add to the ticket: `CHOSEN QUESTION / DATA FIELD CHECKED / ALTERNATIVE QUESTION / WHY NOT CHOSEN`. If the necessary field is missing, label the answer unsupported; do not let a polished graph stand in for evidence. Compare this with the task-fit check in [[First Delegation]] and keep the final approval human-side through [[The Review-First Pattern]]. Never use identifiable school records in an unapproved tool.
+
+## Ask, Then Check Elsewhere (October 2026)
+
+In a preliminary game-based study with children aged 8–10, a partner-like AI tended to prompt direct questions while a tool-like presentation was more associated with looking for evidence. This is a small exploratory study, **not** a tested teaching strategy or proof that one interface is safer. The transferable practice is to distinguish asking the AI from checking a source independently. [Liu and colleagues, preprint](https://arxiv.org/abs/2610.21233).
+
+**Try this (3 minutes):** with a public, non-sensitive claim, first write one question you would ask the AI; then locate one independent source that could prove or disprove its answer. Put both in the ticket under `Question asked` and `Evidence checked outside the AI`. If the external source is unavailable, leave the claim unverified. For student-facing use, obtain district approval first and do not put identifiable student work into an unapproved service. The handoff choice belongs in [[First Delegation]]; a follow-up check belongs in [[The Daily Standup]].
 
 ## Related Pages
 
