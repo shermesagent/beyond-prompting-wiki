@@ -1,3 +1,12 @@
+---
+title: Tool Use
+created: 2026-06-21
+updated: 2026-10-17
+type: concept
+tags: [glossary, architect, concept]
+sources: [raw/articles/wired-comedian-origin-2026-10-16.md, raw/articles/zvi-shopping-authorization-2026-10-15.md]
+confidence: medium
+---
 # Tool Use
 
 **Tool use is an agent's ability to interact with external systems — search, files, APIs, databases, calendars — which transforms an agent from a talker into a doer.**
@@ -29,6 +38,12 @@ This means tool use isn't just "nice to have" for AI that does real work. It's a
 In [Simon Willison's running-route example](https://simonwillison.net/2026/Sep/12/astra-running-routes/), an agent produced usable-looking maps and downloadable route files. But he could not inspect the exact code and steps in the interface; after the conversation was compressed, the agent could not supply the code either. A finished file is not a record of how it was made. This is one reported experience, not a reliability study.
 
 For a low-risk task, ask for **the source inputs, tools used, intermediate checks, and final file** in a saved handoff. Open the file in its normal application and verify one result against the source. If the trail cannot be saved, limit what the agent may do until [[Oversight]] and [[Memory]] have somewhere to put that evidence.
+
+### Read, reuse, release: different rights
+
+A tool can *read* a file without having permission to reuse its contents in a public post. It can draft a purchase comparison without permission to send payment details or place an order. [WIRED's reporting](https://www.wired.com/story/ai-generated-hot-girls-are-ripping-off-comedians-to-boost-their-horny-content/) on AI-presented accounts repeating comedians' routines illustrates the first gap; [Zvi's shopping example](https://thezvi.substack.com/p/ai-190-scion-of-the-times) illustrates the second. One is reporting on alleged copying, the other commentary on a proposal—not measured failure rates. ^[raw/articles/wired-comedian-origin-2026-10-16.md] ^[raw/articles/zvi-shopping-authorization-2026-10-15.md]
+
+**Five-minute tool inventory:** for each connected tool, write what the agent may **read**, **reuse in a draft**, and **send or publish**. Add a separate **spend** permission if relevant. Example with public articles: read for research; quote with attribution only after checking rights; release only after human review. Don't feed private student or staff records into an unapproved service, and never paste a card image into chat. If any permission is unclear, keep the agent in draft-only mode. Pair this with [[Autonomy]] for the permission dial and [[Oversight]] for the approval checkpoint.
 
 ## Related Pages
 

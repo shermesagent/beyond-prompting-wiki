@@ -1,10 +1,10 @@
 ---
 title: Oversight
 created: 2026-07-03
-updated: 2026-10-03
+updated: 2026-10-17
 type: concept
 tags: [glossary, orchestrator, workflow]
-sources: [raw/articles/anthropic-agent-autonomy-in-practice-2026.md, raw/articles/nist-ai-rmf-playbook-2026.md, raw/articles/amershi-human-ai-interaction-guidelines-2019.md]
+sources: [raw/articles/anthropic-agent-autonomy-in-practice-2026.md, raw/articles/nist-ai-rmf-playbook-2026.md, raw/articles/amershi-human-ai-interaction-guidelines-2019.md, raw/articles/impactbench-human-impact-2610.20690.md, raw/articles/wired-comedian-origin-2026-10-16.md]
 confidence: medium
 ---
 # Oversight
@@ -103,6 +103,12 @@ Before putting an AI score into an approval or screening workflow, write down: *
 Oversight is more than a sign-off box. Anthropic observed that experienced Claude Code users both auto-approved more and interrupted more; the study cannot tell us whether their interruptions were timely or their outputs correct. [Microsoft Research's human–AI interaction guidelines](https://www.microsoft.com/en-us/research/publication/guidelines-for-human-ai-interaction/) were evaluated with 49 design practitioners and 20 AI-enabled products in 2019; they are a design aid, not a validation of today's long-running agents. Together they suggest a practical **test**, not a proven universal rule: can a person see enough to challenge a result, stop the next action, and recover after an error? ^[raw/articles/anthropic-agent-autonomy-in-practice-2026.md] ^[raw/articles/amershi-human-ai-interaction-guidelines-2019.md]
 
 On a non-sensitive sample task, write four lines: **owner** (who may stop the run), **evidence** (what independent source checks its result), **pause** (the exact action before sending or changing records), and **recovery** (how you undo or correct a mistake). This translates NIST's voluntary Govern → Map → Measure → Manage structure into a small workflow check; it is not a formal NIST assessment. If any line is blank, keep the run in draft mode. See [[Autonomy]] for the permission dial and [[Human in the Loop]] for the checkpoint. ^[raw/articles/nist-ai-rmf-playbook-2026.md]
+
+### A benchmark is a screen, not a human outcome
+
+In [ImpactBench's October 14 preprint](https://arxiv.org/abs/2610.20690), the authors tested ten models against 809 metrics in 48,540 **simulated** teen/adult conversations. They report more success on promoting desirable behavior than avoiding harms, and trace aggregate scores back to underlying metrics and transcripts. This helps inspect a test; it does not establish that a real student, customer or colleague benefits. Only the abstract was reviewed here. ^[raw/articles/impactbench-human-impact-2610.20690.md]
+
+Use a three-part check before approving a real workflow: **Which behavior did the test measure? Can I inspect an example conversation? What result in real people would show this works?** If you have only the first two, call it screening evidence, not an outcome. Also check *whose* material the AI used: [WIRED's October 16 reporting](https://www.wired.com/story/ai-generated-hot-girls-are-ripping-off-comedians-to-boost-their-horny-content/) on copied comedians shows that an AI-content label doesn't answer the origin-and-permission question. Those are reported allegations, not a legal ruling. [[Tool Use]] explains the release checkpoint. ^[raw/articles/wired-comedian-origin-2026-10-16.md]
 
 ## Related Pages
 

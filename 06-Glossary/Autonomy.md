@@ -1,10 +1,10 @@
 ---
 title: Autonomy
 created: 2026-06-21
-updated: 2026-10-10
+updated: 2026-10-17
 type: concept
 tags: [glossary, architect, concept]
-sources: [raw/articles/anthropic-agent-autonomy-in-practice-2026.md, raw/articles/nist-ai-rmf-playbook-2026.md, raw/articles/wired-tesla-assisted-driving-name-2026-10-09.md]
+sources: [raw/articles/anthropic-agent-autonomy-in-practice-2026.md, raw/articles/nist-ai-rmf-playbook-2026.md, raw/articles/wired-tesla-assisted-driving-name-2026-10-09.md, raw/articles/zvi-shopping-authorization-2026-10-15.md]
 confidence: medium
 ---
 # Autonomy
@@ -89,6 +89,12 @@ Try this with a public, low-stakes draft: allow the agent to work without approv
 [WIRED reported on October 9](https://www.wired.com/story/tesla-full-self-driving-becomes-assisted-driving-in-europe/) that Tesla began using **Assisted Driving** in Europe instead of **Full Self-Driving** while seeking approval; the reported feature still requires a driver to stay alert and intervene. Driving automation and office agents are different systems. The transferable lesson is about labels: a name can suggest independence while leaving continuous attention with the human. This report is not evidence that a particular office agent is safe or that EU approval has been granted. ^[raw/articles/wired-tesla-assisted-driving-name-2026-10-09.md]
 
 Try a 5-minute label check on a *public, draft-only* task: write `The AI can: ___ / The human must still watch: ___ / The human can stop it by: ___`. If the second or third line is vague, call the arrangement **assisted**, not autonomous, and keep the agent in a smaller permission zone. Pair this with [[Oversight]] and [[Human in the Loop]] before adding tools or sending rights.
+
+### Shopping is two permissions, not one
+
+An agent may **compare** public product listings without being allowed to **buy** anything. In [Zvi Mowshowitz's October 15 commentary](https://thezvi.substack.com/p/ai-190-scion-of-the-times), a quoted proposal to send a credit-card photo to a chat agent exposes that missing boundary. It is a proposed workflow, not a documented payment incident. ^[raw/articles/zvi-shopping-authorization-2026-10-15.md]
+
+Try this on a public, low-stakes shopping example: allow a draft shortlist only. Write the four details a human must see before any purchase: **item, merchant, total price, and payment method**. Keep credentials out of chat, and require a separate approved checkout and explicit final confirmation. If the agent can cross from comparison to purchase without that pause, the permission dial is set too high. See [[Tool Use]] and [[Oversight]].
 
 ## Related Pages
 
