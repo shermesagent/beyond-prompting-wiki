@@ -1,3 +1,14 @@
+---
+title: Human in the Loop
+created: 2026-06-21
+updated: 2026-10-18
+type: concept
+tags: [glossary, orchestrator, concept]
+sources:
+  - raw/articles/wired-turkle-human-loop-2026-10-16.md
+confidence: medium
+---
+
 # Human in the Loop
 
 **"Human in the loop" isn't just one thing — it's a spectrum of oversight that ranges from reviewing every action before it happens to checking in once a week to make sure nothing's on fire.**
@@ -58,6 +69,10 @@ The reframe: human-in-the-loop at the frontier isn't a chain of approval clicks.
 A human cannot be meaningfully "in the loop" if the loop has no communication surface. Approval buttons are not enough. The human needs to see the agent's work log, the unresolved questions, the reviewer challenges, and the point where a stop actually stops the run.
 
 This is the practical translation of the recent swarm findings: agents and reviewers need explicit [[Communication Primitives]] — visible places to ask, challenge, disclose, and halt. Without those primitives, the human is not in the loop. The human is near the loop, hoping the important part becomes visible.
+
+### The Reviewer's Right to Change Things
+
+In a [WIRED interview](https://www.wired.com/story/maybe-chatbots-shouldnt-get-to-say-i-or-me/), Sherry Turkle warns that a nominal human reviewer can be left cleaning up errors without the staffing or authority to improve the process. This is her critique, not a measured rate of failed oversight. The useful cross-section check: **time, stop, change**. Can the reviewer make time to inspect an example, halt its release, and change the workflow after finding a problem? If one answer is no, put the workflow back in draft-only mode until a person can exercise that right. This turns [[Oversight]] from a label into a tested capability. ^[raw/articles/wired-turkle-human-loop-2026-10-16.md]
 
 ## Related Pages
 

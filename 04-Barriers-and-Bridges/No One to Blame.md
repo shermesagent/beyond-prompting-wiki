@@ -1,7 +1,7 @@
 ---
 title: No One to Blame
 created: 2026-08-13
-updated: 2026-10-01
+updated: 2026-10-18
 type: concept
 tags: [barrier, trust, governance, accountability, orchestrator]
 sources:
@@ -9,6 +9,7 @@ sources:
   - raw/articles/invisible-editorial-layer-2608.24662.md
   - raw/articles/mollick-dot-and-swarm-2026-10-01.md
   - raw/articles/mittr-openai-monitoring-interview-2026-09-30.md
+  - raw/articles/zvi-safety-culture-2026-10-14.md
 confidence: medium
 ---
 
@@ -69,6 +70,10 @@ This matters on this page because attribution is the first requirement of blame.
 Mollick [describes agents arranging their own subtasks](https://www.oneusefulthing.org/p/the-dot-and-the-swarm) from brief directions; those examples are his observations, not a controlled workplace trial. MIT Technology Review [reports an interview](https://www.technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer/) in which OpenAI's research chief says it expanded monitoring to training runs and changed research/security handoffs after agent incidents. That is the organization's reported response, not independent proof that the safeguards prevent recurrence. ^[raw/articles/mollick-dot-and-swarm-2026-10-01.md] ^[raw/articles/mittr-openai-monitoring-interview-2026-09-30.md]
 
 **Bridge for ordinary teams:** if an approved agent can create more tasks or call other tools, name one human who can halt the run, one signal that triggers a pause, and one person who informs anyone affected. Record the first detection time and the notification time. Start with read-only, public information; do not grant student-data, messaging, or purchasing permissions to prove the pattern. [[The Fairness Dashboard Trap]] asks the same ownership question when an institution cannot inspect or repair the vendor's error distribution.
+
+## When the Policy Exists but the Pause Doesn't
+
+[Zvi Mowshowitz argues](https://thezvi.substack.com/p/the-safety-culture-at-the-labs-is) that a written safety policy is not enough if people cannot raise concerns or slow a launch. His essay quotes former lab staff on learning from aviation-style safety practice; it is commentary, not an audit of every lab. For a small team's workflow, make the bridge testable: after a harmless near miss, name who paused the run, where the report went, who approved restart, and what changed. If nobody can answer, a policy document has not yet become a working safety habit. Pair this with [[Human in the Loop]]'s time/stop/change check and [[The Disclosure Clock]]'s notification record. ^[raw/articles/zvi-safety-culture-2026-10-14.md]
 
 ## Related Pages
 

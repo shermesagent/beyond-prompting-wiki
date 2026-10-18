@@ -65,7 +65,7 @@ Plain-language definitions of every key term.
 
 ### 00-Daily-Digests
 Daily curated research digests — what we found, what it means, and how to use it.
-→ [[00-Daily-Digests/2026-10-17|Today's Digest]]
+→ [[00-Daily-Digests/2026-10-18|Today's Digest]] · [[00-Daily-Digests/2026-10-17|Yesterday's Digest]]
 
 ---
 
@@ -85,6 +85,7 @@ _Last 7 days of activity._
 
 | Date | What Changed |
 |------|-------------|
+| 2026-10-18 | Day 7 cross-section: three directly inspected sources sharpened [[Human in the Loop]] (time/stop/change), [[No One to Blame]] (pause/report/restart), and [[The Disclosure Clock]] (warning acknowledgment). Sunday lint found historical frontmatter and hash debt; no mass rewrite. [[00-Daily-Digests/2026-10-18|Read today's digest]]. |
 | 2026-10-17 | Day 6 glossary: three directly read sources sharpened [[Oversight]] (test score versus human outcome), [[Tool Use]] (read/reuse/release rights), and [[Autonomy]] (compare versus purchase permission). [[00-Daily-Digests/2026-10-17|Read today's digest]]. |
 | 2026-10-16 | Day 5 practice: three new preprints separate intended delegation from trust, asking the AI from checking outside it, and finished work from a contribution a person used. [[First Delegation]], [[The Evidence Ticket]] and [[The Daily Standup]] gained short drills. [[00-Daily-Digests/2026-10-16|Read today's digest]]. |
 | 2026-10-15 | Day 4 barriers: three new preprints separate a visible uncertainty label from an understood one, feedback from improved judgment, and assisted output from later human skill. [[Fear of Losing Control]], [[04-Barriers-and-Bridges/Trust Calibration|Trust Calibration]], and [[The Validator Trap]] gained practical bridges. [[00-Daily-Digests/2026-10-15|Read today's digest]]. |

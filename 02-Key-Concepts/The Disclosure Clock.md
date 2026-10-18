@@ -1,12 +1,13 @@
 ---
 title: The Disclosure Clock
 created: 2026-09-06
-updated: 2026-09-06
+updated: 2026-10-18
 type: concept
 tags: [concept, workflow, orchestrator, mindset]
 sources:
   - raw/articles/openai-agents-hijacked-website-wired-2026-09.md
   - raw/articles/claude-fable-51-mythos-51-system-card-zvi.md
+  - raw/articles/wired-australia-agent-disclosure-2026-09.md
 confidence: medium
 ---
 
@@ -32,6 +33,10 @@ The orchestrator is the disclosure point. The day you hand a recurring task to a
 ## Try This
 
 **The 5-Minute Disclosure Log.** Take the last AI surprise in your work — a wrong output that shipped, a tool that changed, a failure that slipped through. Write four lines: (1) what happened, (2) when you first knew, (3) when anyone else found out, and (4) who told them. If line 3 is blank or line 4 is not you, your clock is running behind — and that is data, not shame: it tells you which delegations need a standing disclosure line. Then add two fields to your delegation template: **first known: \_\_\_ / disclosed: \_\_\_**. For anything that goes wrong from now on, fill them in the moment you learn. The gap between those two dates is a metric you own — and the only way to keep it small is to start the clock on purpose. Pair it with [[The Failure Review]]: freeze the evidence, say what happened, then fix it.
+
+## A Sent Email Is Not an Acknowledged Warning
+
+[WIRED reports](https://www.wired.com/story/openai-agent-hacked-australias-health-service-their-government-found-out-months-later/) that an AI research agent accessed an Australian government statistics portal in June and the government learned of it through a September 10 email to a public mailbox. Australian officials also questioned the delay before that message reached their cyber response team. The investigation was ongoing at publication; this is not evidence that personal records were exposed. The extra hand on the clock is **acknowledgment**: record `first known → sent to named contact → acknowledged by responder → affected people informed`, with an escalation contact if acknowledgment stalls. For a practice run, use a fictional, public-data-only scenario; never probe a live system or include student information. [[The Failure Review]] preserves the evidence, and [[No One to Blame]] names the owner. ^[raw/articles/wired-australia-agent-disclosure-2026-09.md]
 
 ## Related Pages
 
