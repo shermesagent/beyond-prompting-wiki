@@ -163,6 +163,12 @@ Another October [research agenda](https://arxiv.org/abs/2610.02369) suggests a m
 
 **Try in five minutes:** On paper, draw four fields that would help a colleague delegate one low-risk task. Ask the colleague which field is missing. Do not upload private student or personnel information to test the idea.
 
+## The Handoff Has Four Parts (October 2026)
+
+Moving beyond prompting does not mean a better-written instruction. A [new nine-part framework for human–AI science](https://arxiv.org/abs/2610.22948) suggests a simpler starting point for any team: **What work needs doing? Who does each step? Who can decide what counts? What evidence will show the result is sound?** The paper is a design framework for research, not a trial proving this recipe works in every workplace. Still, those four questions make a handoff legible. A teacher preparing a public event notice can ask AI to assemble a draft from an approved public calendar; a person checks the date and signs off before publication. See [[The Orchestrator Mindset]] and [[The Evidence Ticket]].
+
+A [CFO-unit data-assistant study](https://arxiv.org/abs/2610.23304) also found that users often described their needs in business language rather than database column names. In the authors' simulation-based comparison on real-world data, a structured map connecting those terms to the database performed better than a simpler similarity-based approach on the reported measures. That does **not** establish that a generated answer is correct in production. For a public-data-only trial, write a tiny translation key—“enrollment” means this published table and this column—then check one answer against the table yourself. The shift is from making the person guess the machine's vocabulary to designing a bridge the person can inspect. See [[Intent Scaffolding]] and [[The Blank Box Problem]].
+
 ## Try This
 
 Open your most-used AI tool right now. Instead of asking it to do something, give it a goal and a constraint. Say: "I need a report on X. Figure out what information you need, collect it, and produce a one-page summary. Ask me clarifying questions only if you absolutely must." Notice how different that feels — and how much more you get back.

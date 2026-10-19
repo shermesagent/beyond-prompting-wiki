@@ -130,6 +130,12 @@ The same logic applies at human scale. A school AI tool that flags risk without 
 
 So the real promise of moving beyond prompting is not “AI does more.” It is **humans gain more usable agency because the system has handles.** Leverage without handles becomes enclosure. Leverage with handles becomes capability. See [[The Control Surface]].
 
+## What a Real Handoff Preserves (October 2026)
+
+A [conference audit of research results](https://arxiv.org/abs/2610.22465) gives a more grounded picture of leverage than “AI checks everything.” Authors first supplied a checklist describing what their code should reproduce and what its limits were. An agent checked the work; authors clarified or repaired it; human reviewers decided whether concerns were resolved. Across 36 papers and 133 reported tables and figures, reviewers raised 20 issues after review. Follow-up checks supported closing those issues, **but full reproduction was still unverified in some cases**. This is a conference deployment, not evidence that the same workflow has been tested in schools.
+
+The lesson for a team is not to add an approval signature at the end. Before an AI review, record **what success would look like and what is out of scope**; after the review, distinguish “the reported issue was addressed” from “the whole result was independently verified.” Try it on one public, low-stakes document: state the claim to check, give a source the reviewer can open, and let a person decide whether the claim stays. The result is useful even when the answer is “not yet verified.” See [[The Review-First Pattern]] and [[The Orchestrator Mindset]].
+
 ## Try This
 
 **The Leverage Ratio Check.** Calculate your "AI leverage ratio" for this week. Count how many minutes you spent directly interacting with AI versus how many minutes of work the AI actually produced. If you prompted for 90 minutes and got 90 minutes of output, your ratio is 1:1. If you prompted for 30 minutes and got 3 hours of output, your ratio is 1:6. Write that number down. Next week, try to double it — not by working harder, but by moving one task from operator mode to orchestrator mode.
