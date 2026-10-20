@@ -1,7 +1,7 @@
 ---
 title: The Control Surface
 created: 2026-09-21
-updated: 2026-10-06
+updated: 2026-10-20
 type: concept
 tags: [concept, workflow, orchestrator, architect]
 sources:
@@ -17,6 +17,7 @@ sources:
   - raw/articles/parallelpilot-supervision-2609.33113.md
   - raw/articles/agency-judgement-computer-act-2610.03722.md
   - raw/articles/dimsteer-writing-controls-2610.04174.md
+  - raw/articles/cling-small-step-coordination-2610.25879.md
 confidence: medium
 ---
 
@@ -103,6 +104,12 @@ For one low-risk public-document workflow, sketch the five habits on paper. Then
 Two experiments found a useful distinction: people felt agency over a computer's *initial* response to their instruction but not the final outcome in the same immediate way. When the outcome mattered and the command was specific, they could still judge afterward that they had caused it. The authors recommend encouraging deliberate reflection about responsibility; this does not establish how to run a school AI workflow. [Didion, Garaialde and Coyle](https://arxiv.org/abs/2610.03722). ^[raw/articles/agency-judgement-computer-act-2610.03722.md]
 
 Add an **outcome handle** to a draft-only handoff: `FIRST ACTION / FINAL ARTIFACT / WHO CHECKS CONSEQUENCES / APPROVE OR REVERSE`. Before any send or record change, the named person opens the final artifact, not just the initial plan. If they cannot see or reverse the final action, stop at draft. A small writing-interface study also suggests why previews, change comparisons and reset controls can make *style choices* easier to steer; it did not test consequential agent actions. [DimSteer](https://arxiv.org/abs/2610.04174). ^[raw/articles/dimsteer-writing-controls-2610.04174.md] See [[From Author to Editor]] and [[The Review-First Pattern]].
+
+## Let the Next Step Be Visible
+
+In a [12-person study of Cling](https://arxiv.org/abs/2610.25879), people selected and configured small cross-page automation steps as they browsed. On the tested tasks, they finished faster than with manual interaction or an end-to-end AI agent; the paper also reports fewer clicks and tab switches than manual work. The useful design idea is not “small steps always win.” It is that someone can **see, choose, check and redirect the next action** as their intent changes. A small study in web information work cannot establish gains for school or business deployments. ^[raw/articles/cling-small-step-coordination-2610.25879.md]
+
+**Try this:** On two public web pages, have AI *propose* one transfer of information between them. Before any action, inspect the source, destination and proposed change. Approve just that step, check the result, then decide whether a second step is warranted. Keep send, purchase, record-edit and private-data permissions off. See [[The Preference Check]] for the separate decision about whether a successful step should become a standing default.
 
 ## Related Pages
 

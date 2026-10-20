@@ -1,12 +1,13 @@
 ---
 title: The Preference Check
 created: 2026-10-13
-updated: 2026-10-13
+updated: 2026-10-20
 type: concept
 tags: [concept, mindset, workflow, orchestrator]
 sources:
   - raw/articles/latent-preference-observation-2610.13185.md
   - raw/articles/agent-naming-user-behavior-2610.13156.md
+  - raw/articles/promptile-strategy-reuse-2610.26485.md
 confidence: medium
 ---
 
@@ -33,6 +34,11 @@ An operator checks one answer. An orchestrator sets defaults for repeated work. 
 3. **Scope and change:** “Use this only for [task]; ask again before [higher-stakes step]. Change it by [simple route].”
 
 If you cannot ask the person, leave the behavior as a suggestion, not a permanent rule. For students or staff, use only district-approved tools and policies; do not infer preferences from private activity logs.
+
+## Save the Tactic, Not the Whole Conversation
+The [Promptile preprint](https://arxiv.org/abs/2610.26485) describes a system that identifies reusable prompting strategies in past AI conversations and reports better reuse and less repetitive prompting in its evaluation. A repeatable *tactic* might be “ask for a source check before a summary.” It is not automatically a permanent preference or permission to store the underlying conversation. The authors' results do not establish a safe retention policy. ^[raw/articles/promptile-strategy-reuse-2610.26485.md]
+
+**Try this on a public, low-stakes example:** Write one useful tactic in a sentence, then ask the person: “Should I save this for this task? When should it expire, and how would you remove it?” If the answer is unclear, offer the tactic next time without storing it. Never mine student or staff conversations for such patterns without approval.
 
 ## Evidence Boundary
 The preference-learning result is mathematical under specified assumptions and **does not** establish a validated real-world questioning method. The desktop study reports associations and reply judgments in one assistant setting; it does not show that renaming *caused* a need for a particular style. The card above is a cautious workflow proposal, not a tested intervention.

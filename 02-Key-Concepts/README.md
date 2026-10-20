@@ -16,6 +16,8 @@ You don't need to read them in order. Jump to whichever title grabs you. But if 
 
 **October 13 preference route:** [[The Preference Check]] asks before saving a default → [[Intent Scaffolding]] keeps the rule editable → [[The Rule Capture Problem]] captures the human exception. [[00-Daily-Digests/2026-10-13|Read the Day 2 digest]].
 
+**October 20 small-step route:** [[The Control Surface]] shows the next action → [[The Rule Capture Problem]] keeps the useful correction → [[The Preference Check]] asks before saving it as a default. [[00-Daily-Digests/2026-10-20|Read the Day 2 digest]].
+
 1. **[[Task Decomposition]]** — the single most important skill. Start here.
 2. **[[Delegation Thinking]]** — the mental shift that makes everything else click.
 3. **[[Trust Calibration]]** — the practical judgment call you'll make every day.

@@ -1,10 +1,10 @@
 ---
 title: The Rule Capture Problem
 created: 2026-09-01
-updated: 2026-10-13
+updated: 2026-10-20
 type: concept
 tags: [concept, mindset, workflow, orchestrator]
-sources: [raw/articles/organizational-rules-fail-ai-oibar-2608.29055.md, raw/articles/work2skill-human-demonstrations-2610.12984.md]
+sources: [raw/articles/organizational-rules-fail-ai-oibar-2608.29055.md, raw/articles/work2skill-human-demonstrations-2610.12984.md, raw/articles/human-turn-contributions-2610.26365.md]
 confidence: medium
 ---
 
@@ -62,6 +62,12 @@ The gap never closes completely. That's not failure. That's the job: the boundar
 In [Work2Skill](https://arxiv.org/abs/2610.12984), researchers paired 350 screened human desktop demonstrations with screen and input traces, then derived reusable procedures with step dependencies and completion checks. Their method improved scores over no-skill baselines on two computer-use benchmarks; that does **not** mean a screen recording can capture a professional's judgment by itself. The missing piece is the reason a person chose that step and what would have made them stop. ^[raw/articles/work2skill-human-demonstrations-2610.12984.md]
 
 Try it without recording anyone: on a public, non-sensitive sample task, ask a colleague to show three steps, then pause at one: “What would make you do something different here?” Add the answer and a final check to the written procedure. A copied click path is a demo; a scoped rule with a stop condition is a handoff. For real staff or student systems, obtain approval before capturing any screen, input event or record. Check [[The Preference Check]] before treating repeated behavior as a standing instruction.
+
+## Notice the Useful Correction
+
+The [From Tasks to Turns preprint](https://arxiv.org/abs/2610.26365) compares AI work after different human instructions in archived and simulated interactions. Its authors report that two paths can reach the same quality while leaving very different amounts of work for the AI. That does not tell us which advice to save automatically; it suggests a better question than “did the task finish?”: **Which human correction made the next step clearer?** This is a measurement framework, not a field-tested staff training intervention. ^[raw/articles/human-turn-contributions-2610.26365.md]
+
+**Five-minute move:** On a public sample task, keep one before/after pair of instructions. Mark the correction you made, the next action the AI took, and one checkable difference in the output or work remaining. If the correction is worth reusing, add it to your [[SOP]] as an exception or stop rule, not a transcript of a colleague's private work. See [[The Preference Check]] before making it anyone's default.
 
 ## Related Pages
 
