@@ -1,3 +1,12 @@
+---
+title: The School District Shift
+created: 2026-06-21
+updated: 2026-10-21
+type: story
+tags: [story, orchestrator, workflow]
+sources: [raw/articles/valiassist-feedback-validation-2610.27248.md, raw/articles/math-feedback-exam-performance-2610.27881.md]
+confidence: medium
+---
 # The School District Shift
 
 > **Illustrative scenario, not a Farmersville ISD case study.** The named district, rollout, quotations, outcomes and figures in the opening story are fictional and must not be cited as district results. The research sections below cite separate published sources. Do not enter student, accommodation, or personnel records into an unapproved AI tool.
@@ -461,6 +470,14 @@ A field study with **305 Kannada-speaking undergraduates** compared written resp
 ArguScale's classroom-conversation interface tied summary cues to the transcript and audio that produced them. In a 20-person comparison, participants found collaboration cues more efficiently and accurately than in the comparison conditions. This is a research prototype, **not** evidence that a district should record students or automate instructional judgments. A safe planning question: if a tool flags “one group is quiet,” can a teacher see the actual contribution and decide whether the cue is useful? Try the question with a public, non-student example; use real student speech only inside approved systems and policies. [Keelawat et al., 2026](https://arxiv.org/abs/2610.15319). See [[The Evidence Interface]].
 
 The human checkpoint also needs a working life. Across three months, eight tutors overseeing an AI-supported learning assistant described repetitive checks, unclear impact of their interventions, and weak connection to learners and peers. Interface adjustments helped unevenly; the paper does not establish a district-wide remedy. For a proposed **draft-only** pilot, ask the teacher: *Which flag changed your decision? Could you see the change in the next run? Would you have time to keep reviewing this every week?* If any answer is no, reduce the scope before expanding the workflow. [Faas et al., 2026](https://arxiv.org/abs/2610.16410). See [[The Review-First Pattern]] and [[The Observability Gap]].
+
+## Three Checks Before Calling AI Feedback a School Success
+
+A 16-instructor comparison of **programming feedback** found that teachers could revise a concrete AI comment, inspect the reusable validation rule inferred from their revisions, and refine where the rule applied. In that study, feedback aligned with instructor intent more often using the new tool (91% versus 57%), but it did not test K–12 learning. The useful district-planning move: with an approved, de-identified example already cleared for staff training, have a teacher revise one unhelpful draft comment; then ask whether the proposed rule still works on a different approved example. A teacher must be able to reject the rule. [Tang et al., ValiAssist, arXiv:2610.27248](https://arxiv.org/abs/2610.27248). See [[The Rule Capture Problem]].
+
+Next, ask whether the feedback is **specific enough for the learner who needs it most**. In two university mathematics cohorts, six reviewers assessed 157 AI feedback messages from selected tasks. Practice exercises earned strong ratings more often than diagnostic specificity or clarity and tone. Related exam-question comparisons showed no statistically significant differences after adjustment; exposure and attendance overlapped. This is not evidence that an AI feedback system improves K–12 mathematics scores. For a proposed pilot, check three different things: did a teacher approve the advice; could a learner use it to correct a mistake; and did later **independent** work show the intended learning? Record these separately, with no invented gains. [Vanhoyweghen et al., arXiv:2610.27881](https://arxiv.org/abs/2610.27881). See [[Scaffold, Don't Substitute]].
+
+**Five-minute safe rehearsal:** Use only public instructional materials or examples already approved for staff training, inside an approved workflow. Find a feedback comment with a specific flaw, ask a colleague to point to that flaw and repair the advice, then test the revised rule on another cleared example. Keep the teacher's sign-off separate from any claim about student outcomes. Do not upload real work, grades, accommodations or identifying details to an unapproved tool.
 
 ## Related Pages
 

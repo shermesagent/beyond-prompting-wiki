@@ -20,7 +20,9 @@ Read them for the **decision points**, not the tools. The tools change every six
 
 This week's lens: [[The Demonstration Check]]. Showing an agent the last successful example is not the same as testing whether it recognizes an exception or asks for approval. Try the teach-back before extending any of these workflows; use non-sensitive examples first.
 
-New in [[00-Daily-Digests/2026-10-14|the October 14 digest]]: all three stories now ask whether the human can **reach the original evidence, explain a decision and sustain the review**. The professional, classroom and tutor studies behind that question are small preprints, not measured outcomes for these fictional stories. See [[The Evidence Interface]] and [[The Review-First Pattern]].
+New in [[00-Daily-Digests/2026-10-21|the October 21 digest]]: test whether the expert can revise the rule, the reviewer can catch a quiet error, and later work shows the intended outcome. The new sources studied programming and university mathematics, not the fictional district or marketing scenarios. See [[The School District Shift]] and [[From Prompt to Pipeline]].
+
+In [[00-Daily-Digests/2026-10-14|the October 14 digest]], all three stories ask whether the human can **reach the original evidence, explain a decision and sustain the review**. The professional, classroom and tutor studies behind that question are small preprints, not measured outcomes for these fictional stories. See [[The Evidence Interface]] and [[The Review-First Pattern]].
 
 Earlier lens: [[00-Daily-Digests/2026-10-07|What happens when the real world disagrees?]] Test a missing input, inspect what carries over in a translation, and count completion separately from engagement. No student, accommodation, personnel or customer records in an unapproved tool.
 

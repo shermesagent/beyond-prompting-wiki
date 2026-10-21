@@ -65,7 +65,7 @@ Plain-language definitions of every key term.
 
 ### 00-Daily-Digests
 Daily curated research digests — what we found, what it means, and how to use it.
-→ [[00-Daily-Digests/2026-10-20|Today's Digest]] · [[00-Daily-Digests/2026-10-19|Yesterday's Digest]]
+→ [[00-Daily-Digests/2026-10-21|Today's Digest]] · [[00-Daily-Digests/2026-10-20|Yesterday's Digest]]
 
 ---
 
@@ -85,6 +85,7 @@ _Last 7 days of activity._
 
 | Date | What Changed |
 |------|-------------|
+| 2026-10-21 | Day 3 real-world lens: three primary preprints separate revising a teacher's feedback rule, testing whether the reviewer catches an error, and measuring later learning. [[The School District Shift]] and [[From Prompt to Pipeline]] gained evidence-limited rehearsal steps. [[00-Daily-Digests/2026-10-21|Read today's digest]]. |
 | 2026-10-20 | Day 2 concepts: three new primary preprints distinguish visible small-step actions, human corrections that change remaining work, and confirmed reuse of an AI tactic. [[The Control Surface]], [[The Rule Capture Problem]] and [[The Preference Check]] deepened. [[00-Daily-Digests/2026-10-20|Read today's digest]]. |
 | 2026-10-19 | Day 1 Shift: three new publisher-checked preprints separate understandable requests, decision authority and verified evidence. [[What Is Beyond Prompting]] and [[Why This Matters]] gained public-data handoff exercises. [[00-Daily-Digests/2026-10-19|Read today's digest]]. |
 | 2026-10-18 | Day 7 cross-section: three directly inspected sources sharpened [[Human in the Loop]] (time/stop/change), [[No One to Blame]] (pause/report/restart), and [[The Disclosure Clock]] (warning acknowledgment). Sunday lint found historical frontmatter and hash debt; no mass rewrite. [[00-Daily-Digests/2026-10-18|Read today's digest]]. |

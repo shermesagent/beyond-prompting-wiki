@@ -1,3 +1,12 @@
+---
+title: From Prompt to Pipeline
+created: 2026-06-21
+updated: 2026-10-21
+type: story
+tags: [story, orchestrator, workflow]
+sources: [raw/articles/looks-fine-oversight-2610.27801.md]
+confidence: medium
+---
 # From Prompt to Pipeline
 
 > **Illustrative composite, not measured outcomes.** Mara, her dialogue and the hours/results in the story are invented examples, not a verified customer case or trial. The sourced research sections below must be read separately from this scenario.
@@ -428,6 +437,12 @@ In a think-aloud study of 20 professionals completing a data-science hiring asse
 For Mara's next **public-material, draft-only** run, put a short card beside each consequential claim: `Source / What the agent concluded / Why Mara accepts or changes it`. Have a colleague find one unsupported claim without asking the same agent. If the person cannot explain the choice, completion is not approval. [[The Evidence Interface]] gives the reviewer a way back to the work; [[The Review-First Pattern]] keeps publishing behind a real decision.
 
 A separate classroom study tested a useful interface principle: summaries of concurrent discussions were linked back to the relevant audio and transcript, and 20 participants identified collaboration cues more efficiently and accurately than in comparison conditions. It did **not** test a content-marketing pipeline. Borrow only the design move: give a reviewer the original passage beside a summary, not a green check without a source. Never copy identifiable conversations into an unapproved agent. [Keelawat et al., 2026](https://arxiv.org/abs/2610.15319).
+
+## The Quiet-Error Test: Can the Review Catch It?
+
+In a study of agent-assisted **programming** tasks, a 12-person formative phase found plausible output was often accepted without deep checking. In a controlled study with 36 participants, people sometimes felt confident while missing silent defects, running generic checks, or misreading evidence. That does not measure the error rate of a content-marketing pipeline; it challenges a design assumption in Mara's *illustrative* story: a review appointment by itself does not prove review worked. [Dissanayake et al., *Looks Fine to Me*, arXiv:2610.27801](https://arxiv.org/abs/2610.27801).
+
+**Five-minute rehearsal on public material:** Make a draft-only page with one deliberately wrong, harmless claim. Give a colleague both the draft and the original public source; ask for the exact sentence or test that shows the problem. If they approve it, change the review screen or checklist before allowing another run. Keep publication behind a real human decision. This is a suggested test, **not** an intervention evaluated by the paper. See [[The Review-First Pattern]] and [[The Evidence Interface]]. Do not use private customer records in a trial.
 
 ## You Can Do This Too
 
