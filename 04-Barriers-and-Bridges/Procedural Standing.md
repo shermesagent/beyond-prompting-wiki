@@ -1,7 +1,7 @@
 ---
 title: Procedural Standing
 created: 2026-09-17
-updated: 2026-10-04
+updated: 2026-10-22
 type: concept
 tags: [barrier, mindset, orchestrator]
 sources:
@@ -14,7 +14,9 @@ sources:
   - raw/articles/wired-att-automation-affected-people-2026-09-23.md
   - raw/articles/fairness-theatre-early-warning-2609.38552.md
   - raw/articles/wired-nurse-scheduling-appeals-2026-10-02.md
-confidence: high
+  - raw/articles/auto-purchase-permission-2610.29216.md
+  - raw/articles/agent-privacy-controls-2610.29929.md
+confidence: medium
 ---
 
 # Procedural Standing
@@ -90,6 +92,12 @@ Add a fifth question to the Contestability Check: **who can see and challenge a 
 WIRED interviewed nurses who say an AI-assisted scheduler assigns unwanted consecutive shifts and sends appeals to a centralized team that may not hear the local context. HCA says nursing leaders make final decisions and cites benefits. The reporting does **not** establish that the tool caused patient harm or that all schedules are worse. It does show why the existence of a human approver is a weak answer to a frontline worker who cannot get a timely correction. ^[raw/articles/wired-nurse-scheduling-appeals-2026-10-02.md]
 
 **Try this on a draft agenda built from a public event notice:** deliberately put the event at the wrong time in your private draft. Ask a colleague to find the error, reach the authorized editor, correct the draft before it is shared, and read back the final version. Record which handoff failed. A feedback inbox alone is not a correction path; [[The Control Surface]] needs a real editor and [[The Evidence Ticket]] needs a receipt.
+
+## The Approval That Was Never Given
+
+In an October shopping-agent benchmark, 15 people *role-played* purchasers and indicated whether an agent should decline, ask, or buy. Across 16 tested models, the paper's abstract reports over-commitment even when product fit was low or information was missing. It was a profile-based comparison, not a record of real purchases. A second preprint's audit and prototypes focus on making privacy preferences enforceable in agent workflows—not simply stated in a settings screen. ^[raw/articles/auto-purchase-permission-2610.29216.md] ^[raw/articles/agent-privacy-controls-2610.29929.md]
+
+**Add an authorization row** to the Contestability Check: what can the agent read, suggest, send, spend or retain *without* asking? Put a named approver at the first irreversible step. For a public-data, draft-only rehearsal, write three labels beside one action: **do not do it / ask first / allowed within this scope**. Have another person point to the exact approval that would let the action proceed. If neither can find it, stop. A remembered preference is not standing permission; see [[The Preference Check]] and [[The Absent Person Test]].
 
 ## Related Pages
 

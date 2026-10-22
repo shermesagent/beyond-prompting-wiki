@@ -1,11 +1,13 @@
 ---
 title: Prompt as Safety Blanket
 created: 2026-06-27
-updated: 2026-06-27
+updated: 2026-10-22
 type: barrier
 tags: [barrier, operator, mindset]
-confidence: high
-sources: []
+confidence: medium
+sources:
+  - raw/articles/privacy-under-uncertainty-2610.29756.md
+  - raw/articles/auto-purchase-permission-2610.29216.md
 ---
 
 # Prompt as Safety Blanket
@@ -67,6 +69,12 @@ The key insight: **the safety blanket isn't a character flaw — it's a habit.**
 4. Pick the simplest one. Tomorrow, instead of prompting, use the template. Walk away for 2 minutes. Come back and check.
 
 That's it. One template, one delegation, one win. The safety blanket loosens one thread at a time.
+
+## When Staying Close Is the Right Call
+
+The four-week path above is an invitation, **not a deadline to walk away from consequential work**. An October field-experiment preprint argues that people can make privacy choices under uncertainty about future data use; hesitation is not necessarily a bad habit. A separate profile-based shopping benchmark reports that tested agents sometimes crossed the line from choosing a fitting product to committing to buy it. Neither study tests this page's four-week exercise. ^[raw/articles/privacy-under-uncertainty-2610.29756.md] ^[raw/articles/auto-purchase-permission-2610.29216.md]
+
+**Better bridge:** delegate a *reversible, draft-only* step first. Keep purchase, external sending, personal-data access, and retention behind explicit human approval and authorized systems. On a public-material rehearsal, write: “AI may draft a comparison; it may not submit, buy, share or save a personal preference.” That is not clinging to the prompt box; it is choosing the right boundary. See [[Procedural Standing]] for the approval route and [[The Absent Person Test]] for people affected who never joined the chat.
 
 ---
 
