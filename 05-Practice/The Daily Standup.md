@@ -1,7 +1,7 @@
 ---
 title: The Daily Standup
 created: 2026-06-27
-updated: 2026-10-16
+updated: 2026-10-23
 type: practice
 tags: [practice, orchestrator, workflow, mindset]
 confidence: high
@@ -24,6 +24,9 @@ sources:
   - raw/articles/spatial-biologists-verifying-ai-2609.28723.md
   - raw/articles/kolab-professional-collaboration-2610.21109.md
   - raw/articles/delegation-traces-oversight-2610.21948.md
+  - raw/articles/reliance-behaviors-problem-solving-2610.30195.md
+  - raw/articles/productive-friction-writing-2610.30945.md
+  - raw/articles/proof-learning-offloading-2610.31481.md
 ---
 
 # The Daily Standup
@@ -438,6 +441,14 @@ The Kolab preprint collected more than 115 hours of recordings from 50 professio
 **Try this (2 minutes):** take yesterday's public-data or draft-only run. Write `AI produced ___ / I used, changed or rejected ___ / next run I will reject, verify or delegate ___`. Check whether your actual choice matches the permission you wrote in [[First Delegation]]. A separate 56-person study found intended verification was common even at high trust; do not infer your real behavior from a trust rating alone. [Chiatti and colleagues, preprint](https://arxiv.org/abs/2610.21948). If you cannot say what part entered the finished work, keep the workflow draft-only and request an [[The Evidence Ticket|evidence ticket]] before expanding it.
 
 ## Common Pitfalls
+
+### A two-day learning check, not another standing question
+
+When an AI session feels easy, ask what *you* could still do tomorrow. A randomized writing study of 297 workers (594 essays) found that AI-assisted goal-setting and task-breakdown supports improved writing quality, with short-lag carryover after the supports were removed; participants nevertheless rated the AI as less helpful and more demanding. The lesson to try is **don't grade the workflow only by comfort**. [Kewenig and colleagues, preprint](https://arxiv.org/abs/2610.30945).
+
+**Today (2 minutes):** before a public-data draft, jot down the goal and two steps *you* chose. Use AI for one step. In your standup, record `what I decided / what AI did / one thing I checked`. **Tomorrow (2 minutes):** on a different, low-stakes draft, set the goal and first step without looking back at the AI answer. This is your own rehearsal, not a validated test of learning.
+
+Why include an unaided turn? In an undergraduate proof course with 153 students, early AI access raised homework scores but did not produce a statistically detectable exam difference; heavier chatbot use was associated with lower later exam scores, while attempt-first feedback was not negatively associated. That does **not** establish that chat caused lower scores, nor does it establish K–12 effects. [Chen and colleagues, preprint](https://arxiv.org/abs/2610.31481). If you want to know *how* you relied rather than just how good the output looked, note whether you accepted, questioned or changed the suggestion; a separate undergraduate scale study measured those behaviors, not their learning impact. [Hou and colleagues, preprint](https://arxiv.org/abs/2610.30195). Pair with [[The Reliance Audit]] and [[The Practice Style]]. Use approved tools only; never paste identifiable student work into an unapproved service.
 
 **"I skipped a day and now I feel behind."**
 The standup isn't a streak to maintain. It's a tool. Skip a day, pick it up tomorrow. The value is in the pattern, not the perfect attendance record.

@@ -1,0 +1,16 @@
+---
+source_url: https://arxiv.org/abs/2610.30195
+ingested: 2026-10-23
+sha256: 67996adcbdd82707f605a0352d6f77ed6e7ba2374bc5f81503d7354bcd610bc0
+---
+# Measuring undergraduate students' reliance on generative AI during problem-solving: Scale development and validation
+
+Publisher: arXiv cs.HC RSS, version 1; accessed 2026-10-23
+Authors: Chenyu Hou, Gaoxia Zhu, Vidya Sudarshan, Fun Siong Lim, Yew Soon Ong
+URL: https://arxiv.org/abs/2610.30195
+
+## Publisher abstract (verbatim words, whitespace normalized)
+Reliance on AI describes the behavioral patterns of when and how individuals depend on AI suggestions, and appropriate reliance patterns are necessary to achieve effective human-AI collaboration. Traditional measures often link reliance to decision-making outcomes, which may not be suitable for complex problem-solving tasks where outcomes are not binary (i.e., correct or incorrect) or immediately clear. Therefore, this study aims to develop a scale to measure undergraduate students' behaviors of using Generative AI during problem-solving tasks without directly linking them to specific outcomes. We conducted an exploratory factor analysis on 800 responses collected after students finished one problem-solving activity, which revealed four distinct factors: reflective use, cautious use, thoughtless use, and collaborative use. The overall scale has reached sufficient internal reliability (Cronbach's alpha = .84). Two confirmatory factor analyses (CFAs) were conducted to validate the factors using the remaining 730 responses from this activity and 1,173 responses from another problem-solving activity. CFA indices showed adequate model fit for data from both problem-solving tasks, suggesting that the scale can be applied to various human-AI problem-solving tasks. This study offers a validated scale to measure students' reliance behaviors in different human-AI problem-solving activities and provides implications for educators to responsively integrate Generative AI in higher education.
+
+## Curator reading boundary
+Publisher RSS abstract inspected; full paper and methods not appraised. Findings concern specified undergraduate or writing-study settings, not district adoption; the practice suggestions are curator extrapolations, not tested exercises.

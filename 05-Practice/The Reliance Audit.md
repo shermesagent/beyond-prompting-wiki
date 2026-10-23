@@ -1,7 +1,7 @@
 ---
 title: The Reliance Audit
 created: 2026-08-08
-updated: 2026-08-21
+updated: 2026-10-23
 type: practice
 tags: [practice, operator, orchestrator, trust]
 confidence: high
@@ -11,6 +11,9 @@ sources:
   - raw/articles/chat-tjb-random-guy-wired-2026.md
   - ../../ai-agency-knowledgebase/06-Frameworks/Human Review Checkpoints.md
   - raw/articles/ai-overreliance-complex-adaptive-system-2608.19616.md
+  - raw/articles/reliance-behaviors-problem-solving-2610.30195.md
+  - raw/articles/productive-friction-writing-2610.30945.md
+  - raw/articles/proof-learning-offloading-2610.31481.md
 ---
 
 # The Reliance Audit
@@ -96,6 +99,14 @@ Three grades:
 The mechanism is the same one that runs the ChatTJB story above: people calibrate to what they see around them. The audit's Q2 (ACCESS) asks whether *you* can inspect the output. The visibility column asks whether your inspection is *contagious* — and that's what protects a team, not just a person. See [[The Daily Standup]]'s Eleventh Question for the habit that makes visibility routine.
 
 ## Where This Fits
+
+### Add a use-pattern note, not a personality label
+
+A new scale study of **undergraduate** problem solving grouped self-reported AI use into reflective, cautious, thoughtless and collaborative patterns across several activity samples. Its reliability and fit tests support a measure of *reported behavior*; they do not show which pattern improves learning, or diagnose a person from one chat. [Hou and colleagues, preprint](https://arxiv.org/abs/2610.30195).
+
+**Try this with one public, low-stakes task (3 minutes):** next to your three-question tally, write `My first thought / AI suggestion / What I accepted, changed or checked / Why`. If the answer is “I copied it,” don't mark yourself as a type. Pick one claim to verify next time. The point is to see *how* you relied, not to chase a good-looking score.
+
+Two companion studies suggest a useful boundary: a randomized writing study reported better writing and short-lag transfer with goal-and-step scaffolds even though participants found AI less helpful; an undergraduate proof course saw better AI-supported homework without a detectable exam difference, and more chatbot messages were **associated** with lower later exam scores. Neither tests this audit. For a task where you want to learn, write your own attempt before a hint and later try a new instance without AI. [Writing experiment](https://arxiv.org/abs/2610.30945) · [Proof-course study](https://arxiv.org/abs/2610.31481). See [[The Daily Standup]] for the next-day check.
 
 - Run it during Week 1 alongside [[Audit Your Prompts]] — the audit shows you *what* you do; this shows you *how warranted* it is.
 - Use the results to decide what enters your [[First Delegation]] pipeline — only tasks where the tool passes Q1–Q3 are safe to delegate.
