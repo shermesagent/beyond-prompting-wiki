@@ -65,7 +65,7 @@ Plain-language definitions of every key term.
 
 ### 00-Daily-Digests
 Daily curated research digests — what we found, what it means, and how to use it.
-→ [[00-Daily-Digests/2026-10-23|Today's Digest]] · [[00-Daily-Digests/2026-10-22|Yesterday's Digest]]
+→ [[00-Daily-Digests/2026-10-24|Today's Digest]] · [[00-Daily-Digests/2026-10-23|Yesterday's Digest]]
 
 ---
 
@@ -85,6 +85,7 @@ _Last 7 days of activity._
 
 | Date | What Changed |
 |------|-------------|
+| 2026-10-24 | Day 6 glossary: three directly checked sources distinguish a peer-led question from a tool demo, a checkable claim from a generic approval, and an AI score from independent evidence. [[Orchestration]], [[Oversight]] and [[06-Glossary/Trust Calibration|Trust Calibration]] deepened. [[00-Daily-Digests/2026-10-24|Read today's digest]]. |
 | 2026-10-23 | Day 5 practice: three new publisher abstracts distinguish easier AI-assisted work from what you can still do unaided. [[The Reliance Audit]] gained a use-pattern note; [[The Daily Standup]] gained a two-day learning check. [[00-Daily-Digests/2026-10-23|Read today's digest]]. |
 | 2026-10-22 | Day 4 barriers: three new primary preprints separate product fit from approval, expressed privacy preferences from enforceable controls, and data sharing from indifference. [[Prompt as Safety Blanket]], [[Procedural Standing]], and [[The Absent Person Test]] gained draft-only and affected-person checks. [[00-Daily-Digests/2026-10-22|Read today's digest]]. |
 | 2026-10-21 | Day 3 real-world lens: three primary preprints separate revising a teacher's feedback rule, testing whether the reviewer catches an error, and measuring later learning. [[The School District Shift]] and [[From Prompt to Pipeline]] gained evidence-limited rehearsal steps. [[00-Daily-Digests/2026-10-21|Read today's digest]]. |

@@ -22,6 +22,8 @@ This section grows as new concepts crystallize. The newest entries — **[[06-Gl
 
 This week's quick test: [[Delegation]] keeps the human choice, [[Oversight]] checks whether a score has a real answer key, and [[Tool Use]] keeps the steps needed to retrace a finished file. Start with whichever question your next task raises. The [[00-Daily-Digests/2026-10-03|October 3 digest]] adds a pause-and-recover test: [[Autonomy]] is permission to work; oversight also needs a usable stop and correction path. The [[00-Daily-Digests/2026-10-10|October 10 digest]] sharpens three words: [[Abstention]] is not a technical lock, autonomy has a continuing human duty, and delegation needs separate tool, input and release permissions. The [[00-Daily-Digests/2026-10-17|October 17 digest]] adds three more distinctions: a simulated score is not a human outcome; reading work is not permission to publish it; comparing products is not permission to buy.
 
+The [[00-Daily-Digests/2026-10-24|October 24 digest]] connects [[Orchestration]], [[Oversight]] and [[06-Glossary/Trust Calibration|Trust Calibration]]: start with the person's question, attach a source passage and date to the important claim, and let a person check it before seeing the AI's grade. Use public material for the five-minute rehearsal.
+
 ## Glossary Entries
 
 | Term | What It Answers | For |

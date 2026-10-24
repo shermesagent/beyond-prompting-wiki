@@ -1,10 +1,10 @@
 ---
 title: Oversight
 created: 2026-07-03
-updated: 2026-10-17
+updated: 2026-10-24
 type: concept
 tags: [glossary, orchestrator, workflow]
-sources: [raw/articles/anthropic-agent-autonomy-in-practice-2026.md, raw/articles/nist-ai-rmf-playbook-2026.md, raw/articles/amershi-human-ai-interaction-guidelines-2019.md, raw/articles/impactbench-human-impact-2610.20690.md, raw/articles/wired-comedian-origin-2026-10-16.md]
+sources: [raw/articles/anthropic-agent-autonomy-in-practice-2026.md, raw/articles/nist-ai-rmf-playbook-2026.md, raw/articles/amershi-human-ai-interaction-guidelines-2019.md, raw/articles/impactbench-human-impact-2610.20690.md, raw/articles/wired-comedian-origin-2026-10-16.md, raw/articles/scientific-ideas-revision-2610.30568.md, raw/articles/community-verification-layer-2610.30549.md]
 confidence: medium
 ---
 # Oversight
@@ -109,6 +109,12 @@ On a non-sensitive sample task, write four lines: **owner** (who may stop the ru
 In [ImpactBench's October 14 preprint](https://arxiv.org/abs/2610.20690), the authors tested ten models against 809 metrics in 48,540 **simulated** teen/adult conversations. They report more success on promoting desirable behavior than avoiding harms, and trace aggregate scores back to underlying metrics and transcripts. This helps inspect a test; it does not establish that a real student, customer or colleague benefits. Only the abstract was reviewed here. ^[raw/articles/impactbench-human-impact-2610.20690.md]
 
 Use a three-part check before approving a real workflow: **Which behavior did the test measure? Can I inspect an example conversation? What result in real people would show this works?** If you have only the first two, call it screening evidence, not an outcome. Also check *whose* material the AI used: [WIRED's October 16 reporting](https://www.wired.com/story/ai-generated-hot-girls-are-ripping-off-comedians-to-boost-their-horny-content/) on copied comedians shows that an AI-content label doesn't answer the origin-and-permission question. Those are reported allegations, not a legal ruling. [[Tool Use]] explains the release checkpoint. ^[raw/articles/wired-comedian-origin-2026-10-16.md]
+
+### A review needs a claim and a version
+
+In an October 2026 scientific-ideation preprint, human raters found no significant quality advantage for AI-assisted ideas, although revision improved quality. An AI judge favored AI-assisted proposals without the corresponding human-rated advantage. This is one experimental setting, not proof that all AI scoring is biased. **Oversight** here means checking the claim against an independent standard, not asking the producer's model to award itself a score. ^[raw/articles/scientific-ideas-revision-2610.30568.md]
+
+A separate proposal for scientific publishing suggests keeping checks tied to the exact claim and version, and asking for independent judgments before people see one another's ratings. It is a design proposal, not a demonstrated error-reduction program. For a five-minute public-document drill: copy one claim, paste its exact supporting passage, mark the document version or date, and ask a colleague to decide whether the passage supports the claim *before* showing the AI's verdict. [[06-Glossary/Trust Calibration|Trust Calibration]] asks how much to rely on the result; [[Orchestration]] places this check before release. ^[raw/articles/community-verification-layer-2610.30549.md]
 
 ## Related Pages
 

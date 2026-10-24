@@ -49,6 +49,12 @@ A 2026 study of shared-workspace collaboration (Kotalwar, Das & Rosé, arXiv:260
 
 The orchestrator translation: **team size is not a capability multiplier.** A second agent is only an asset if there is a coordination substrate — who sees what, who approves what, what's remembered across turns. No shared memory, no gates → the added agent adds noise, not leverage. When you're planning your next pipeline, the question isn't "how many agents can I throw at this?" It's "what structure will make the *n*-th agent pay for itself?"
 
+### The handoff includes the person who checks
+
+The founders of a small peer-led AI group described 15-minute sessions built around each attendee's own problem, with guides helping them try and revise. That's an interview about their approach, not evidence that the sessions improve outcomes. The useful workflow pattern is simple: one person states the task, another helps explore options, and a third checks a consequential claim against a source before anyone acts. No need to add another agent merely to have a workflow. ^[raw/articles/wired-aged-intelligence-society-2026-10-22.md]
+
+For a five-minute rehearsal with a public notice, write: **question → draft answer → source check → human decision**. Record the notice's date or version so a later edit does not silently invalidate the check. A research proposal for version-linked verification motivates this record but has not proved that this four-step exercise works in organizations. Do not use real health, employee, student or financial records in a casual tool clinic. [[Oversight]] explains the check; [[06-Glossary/Trust Calibration|Trust Calibration]] explains when to demand more of it. ^[raw/articles/community-verification-layer-2610.30549.md]
+
 ## Related Pages
 
 [[Delegation]] · [[Decomposition]] · [[Agent]] · [[Human in the Loop]] · [[Oversight]] · [[Task Decomposition]] · [[SOP]]

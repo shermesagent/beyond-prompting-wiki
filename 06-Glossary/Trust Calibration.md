@@ -57,6 +57,12 @@ The study's fix is a calibration target you can adopt today: **evidence over lab
 
 The calibrator's version: don't ask "was this AI-made?" — ask "what supports this claim, and does it survive a second probe?" Labels tell you where text came from; evidence tells you what it's worth. This is the reader-side twin of [[The Echo Check]]'s root count and [[The Retrievability Gap]]'s evidence-adjacent rule: in every direction, calibration improves when you can see the roots under the claims.
 
+### When the AI grader likes AI work
+
+An October 2026 scientific-ideation preprint reports that an AI judge favored AI-assisted proposals even though human ratings showed no significant quality advantage for them. This does **not** tell us a universal bias rate. It does show why an AI-generated score and an independent quality check answer different questions. In a public-data draft review, hide whether AI helped, ask a person to check two claims against the source, then compare that check with the AI's score. ^[raw/articles/scientific-ideas-revision-2610.30568.md]
+
+If a colleague is new to the workflow, a reported peer-led AI clinic offers another lesson: start with *their* question, not a tool demonstration. The founders' anecdotes are not evidence of broader success, and their reported upload of care-insurance paperwork is **not** safe practice guidance. Try this with a public document only; let the person choose whether to use AI at all. That is calibration of the *task and permission*, not just the answer. See [[Orchestration]] for the handoff and [[Oversight]] for the independent check. ^[raw/articles/wired-aged-intelligence-society-2026-10-22.md]
+
 ## Related Pages
 
 [[02-Key-Concepts/Trust Calibration|Full concept page]] · [[04-Barriers-and-Bridges/Trust Calibration|Barriers & Bridges version]] · [[Agent]] · [[Delegation]] · [[Oversight]] · [[Autonomy]] · [[Cognitive Surrender]] · [[Co-Construction Blindness]] · [[Delegation Regret]]
