@@ -1,10 +1,10 @@
 ---
 title: The Failure Review
 created: 2026-09-02
-updated: 2026-09-02
+updated: 2026-10-25
 type: concept
 tags: [concept, workflow, orchestrator, research]
-sources: [raw/articles/ai-morbidity-mortality-framework-2609.00076.md]
+sources: [raw/articles/ai-morbidity-mortality-framework-2609.00076.md, raw/articles/wired-php-meltdown-2026-10-24.md, raw/articles/zvi-hackening-2026-10-23.md]
 confidence: medium
 ---
 
@@ -51,9 +51,15 @@ It pairs with [[The Review-First Pattern]] (check work *before* it ships) and [[
 
 You've just turned an embarrassing incident into the fourth leg of your delegation system. Do this three times and you'll start noticing the same triggers recurring — that's the point: the fourth failure gets prevented instead of reviewed.
 
+## A Near Miss Is Still Worth Keeping
+
+WIRED reported millions of attempts against newly public PHP flaws but said the PHP Foundation had seen no successful exploitation at publication. Attempts, confirmed breaches and successful repairs are **different records**; collapsing them into one dramatic story makes the next review less useful. Zvi separately quotes an Internet Archive operator describing a brief shutdown and AI-assisted human repair; treat that as an attributed account, not a tested repair method. [WIRED](https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable/) · [Zvi](https://thezvi.substack.com/p/the-hackening). ^[raw/articles/wired-php-meltdown-2026-10-24.md] ^[raw/articles/zvi-hackening-2026-10-23.md]
+
+**Five-minute rehearsal:** With a public account of an incident, write separate lines for `warning observed / impact confirmed / fix proposed / fix tested / who can reverse it`. Mark anything not independently established **unverified**. In a real incident, follow your organization's response process; do not paste logs, secrets or student information into an unapproved AI tool. See [[The Control Surface]] for the owner and restore handles, and [[The Disclosure Clock]] for who needs to know when.
+
 ## Related Pages
 
-[[From Prompt to Pipeline]] · [[The Review-First Pattern]] · [[No One to Blame]] · [[Failure-Path Preservation]] · [[Trust Calibration]]
+[[From Prompt to Pipeline]] · [[The Review-First Pattern]] · [[No One to Blame]] · [[Failure-Path Preservation]] · [[Trust Calibration]] · [[The Control Surface]] · [[The Disclosure Clock]]
 
 ## Tags
 

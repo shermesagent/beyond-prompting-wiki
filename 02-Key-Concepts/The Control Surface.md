@@ -1,7 +1,7 @@
 ---
 title: The Control Surface
 created: 2026-09-21
-updated: 2026-10-20
+updated: 2026-10-25
 type: concept
 tags: [concept, workflow, orchestrator, architect]
 sources:
@@ -18,6 +18,9 @@ sources:
   - raw/articles/agency-judgement-computer-act-2610.03722.md
   - raw/articles/dimsteer-writing-controls-2610.04174.md
   - raw/articles/cling-small-step-coordination-2610.25879.md
+  - raw/articles/wired-php-meltdown-2026-10-24.md
+  - raw/articles/zvi-hackening-2026-10-23.md
+  - raw/articles/stratechery-presented-by-stripe-2026-10.md
 confidence: medium
 ---
 
@@ -110,6 +113,14 @@ Add an **outcome handle** to a draft-only handoff: `FIRST ACTION / FINAL ARTIFAC
 In a [12-person study of Cling](https://arxiv.org/abs/2610.25879), people selected and configured small cross-page automation steps as they browsed. On the tested tasks, they finished faster than with manual interaction or an end-to-end AI agent; the paper also reports fewer clicks and tab switches than manual work. The useful design idea is not “small steps always win.” It is that someone can **see, choose, check and redirect the next action** as their intent changes. A small study in web information work cannot establish gains for school or business deployments. ^[raw/articles/cling-small-step-coordination-2610.25879.md]
 
 **Try this:** On two public web pages, have AI *propose* one transfer of information between them. Before any action, inspect the source, destination and proposed change. Approve just that step, check the result, then decide whether a second step is warranted. Keep send, purchase, record-edit and private-data permissions off. See [[The Preference Check]] for the separate decision about whether a successful step should become a standing default.
+
+## The Owner Behind the Handle (October 2026)
+
+A security report separates three things that often blur together: a flaw was found with AI **and expert people**; many attempts followed its publication; the PHP Foundation had not seen successful exploitation at the time of reporting. A visible alert is not a completed defense. The question for an orchestrator is who can find the affected service, consult the official advisory, approve a staged change, test it and restore the prior state if the change breaks something. This is a workflow lesson from reporting, not an instruction to update a live service from a newsletter. [WIRED](https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable/). ^[raw/articles/wired-php-meltdown-2026-10-24.md]
+
+Zvi's [account](https://thezvi.substack.com/p/the-hackening) relays an Internet Archive operator's description of a brief shutdown and human-led AI-assisted repair; that account is not independently verified here. It nevertheless gives the control surface one more handle: **change ownership**—the person who authorizes a fix and knows the restore route. A separate [first-person sponsorship disclosure](https://stratechery.com/2026/presented-by-stripe/) names Stripe as both sponsor and critical billing/access infrastructure for Stratechery. That does not prove editorial dependence; it illustrates why a dependency and its possible conflict should be visible even when a contract promises independence. ^[raw/articles/zvi-hackening-2026-10-23.md] ^[raw/articles/stratechery-presented-by-stripe-2026-10.md]
+
+**Try this on a public-data, non-production workflow:** write `DEPENDENCY / CHANGE OWNER / OFFICIAL CHECK / TEST RESULT / RESTORE PATH / DISCLOSURE NEEDED?`. If the owner or restore path is blank, leave the AI at draft-only. This is our exercise, not an intervention tested by these sources. See [[The Failure Review]] for preserving what happened and [[The Line You Draw]] for keeping permissions explicit.
 
 ## Related Pages
 

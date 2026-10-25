@@ -1,7 +1,7 @@
 ---
 title: The Line You Draw
 created: 2026-07-02
-updated: 2026-10-02
+updated: 2026-10-25
 type: practice
 tags: [practice, operator, orchestrator, mindset]
 confidence: high
@@ -11,6 +11,7 @@ sources:
   - raw/articles/engage-to-unlock-writing-2610.01518.md
   - raw/articles/ai-leaves-tailorshop-2610.00163.md
   - raw/articles/wired-chatgpt-mac-permission-flaw-2026-10-02.md
+  - raw/articles/stratechery-presented-by-stripe-2026-10.md
 ---
 
 # The Line You Draw
@@ -171,6 +172,8 @@ Same logic applies to your boundary: a task you do five times a week for five mi
 Your line is not only *which task*. It is also **when help starts**, **whether you still change the advice**, and **what the tool can reach**. In a controlled writing study (N=398), requiring meaningful engagement before generative help shifted effort toward writing without lengthening the overall task; this is task-specific, not a universal classroom prescription. In two simulated factory studies (N=200 and N=198), people who altered AI recommendations more often also showed stronger unaided performance or knowledge *within the AI group*; that association does not establish cause. A WIRED report on a patched local ChatGPT Mac vulnerability shows why the access line matters even when a tool itself appears trustworthy. ^[raw/articles/engage-to-unlock-writing-2610.01518.md] ^[raw/articles/ai-leaves-tailorshop-2610.00163.md] ^[raw/articles/wired-chatgpt-mac-permission-flaw-2026-10-02.md]
 
 **Try this in five minutes on a public task:** (1) write your own first sentence before opening AI; (2) after its suggestion, write one change you made and why; (3) list the accounts, files or browser connections you would *not* grant it. For a school task, do not paste student or personnel records into an unapproved tool. The first two steps protect your thinking; the third limits what a compromised or misdirected agent could touch. Take the resulting choice to [[First Delegation]], and test its decisive reason with [[The Reversal Condition]].
+**Who holds the infrastructure?** In a [first-person disclosure](https://stratechery.com/2026/presented-by-stripe/), Ben Thompson says Stripe sponsors Stratechery and powers its billing/access software; he claims editorial independence while acknowledging the conflict. That is not an outside audit. ^[raw/articles/stratechery-presented-by-stripe-2026-10.md]
+**Two-minute check:** for one AI-assisted task using public material, name the provider, who can change the rules, where a conflict would be disclosed and who can continue the work if the provider fails. See [[The Control Surface]]'s stop/restore handle and [[The Failure Review]]'s incident record.
 
 ## Common Pitfalls
 
