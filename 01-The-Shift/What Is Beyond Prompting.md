@@ -1,3 +1,12 @@
+---
+title: What Is Beyond Prompting
+created: 2026-06-21
+updated: 2026-10-26
+type: concept
+tags: [concept, mindset, orchestrator]
+sources: [raw/articles/crm-agent-bench-2610.32004.md, raw/articles/factuality-indicators-2610.32883.md, raw/articles/novice-oversight-beyond-correctness-2610.32118.md]
+confidence: medium
+---
 # What Is Beyond Prompting
 
 ## What It Is
@@ -168,6 +177,14 @@ Another October [research agenda](https://arxiv.org/abs/2610.02369) suggests a m
 Moving beyond prompting does not mean a better-written instruction. A [new nine-part framework for human–AI science](https://arxiv.org/abs/2610.22948) suggests a simpler starting point for any team: **What work needs doing? Who does each step? Who can decide what counts? What evidence will show the result is sound?** The paper is a design framework for research, not a trial proving this recipe works in every workplace. Still, those four questions make a handoff legible. A teacher preparing a public event notice can ask AI to assemble a draft from an approved public calendar; a person checks the date and signs off before publication. See [[The Orchestrator Mindset]] and [[The Evidence Ticket]].
 
 A [CFO-unit data-assistant study](https://arxiv.org/abs/2610.23304) also found that users often described their needs in business language rather than database column names. In the authors' simulation-based comparison on real-world data, a structured map connecting those terms to the database performed better than a simpler similarity-based approach on the reported measures. That does **not** establish that a generated answer is correct in production. For a public-data-only trial, write a tiny translation key—“enrollment” means this published table and this column—then check one answer against the table yourself. The shift is from making the person guess the machine's vocabulary to designing a bridge the person can inspect. See [[Intent Scaffolding]] and [[The Blank Box Problem]].
+
+## The Handoff Includes the Route (October 2026)
+
+A [customer-management agent benchmark](https://arxiv.org/abs/2610.32004) tested 555 simulated, multi-turn tasks. Its checks cover the result **and** the actions, order, messages, and records that must remain untouched. Across sixteen systems, strict success ranged from 64.32% to 83.60%. This is a benchmark, not proof that an agent is ready for a real organization. The practical lesson: before delegating, name the outcome, the allowed route, and what cannot change. See [[The Control Surface]].
+
+That route needs a human check for *fit*, too. In [journals from 145 first-year software engineering students](https://arxiv.org/abs/2610.32118), students reported more interventions about whether an output suited the job than about explicit errors (74.4% versus 16.9% of 172 reported interventions). These are self-reported university interactions, not evidence about school deployment. A grammatically correct event notice with the wrong audience is still wrong for the task. See [[The Review-First Pattern]].
+
+**Try in five minutes:** On a public, low-stakes draft, write three lines before asking AI for help: `RESULT / MUST NOT CHANGE / FIT FOR WHOM`. After the draft, check each line yourself. Keep any unverified claim marked as unverified; use no student or personnel information in an unapproved tool.
 
 ## Try This
 

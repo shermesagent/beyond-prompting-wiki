@@ -1,3 +1,12 @@
+---
+title: Why This Matters
+created: 2026-06-21
+updated: 2026-10-26
+type: concept
+tags: [concept, mindset]
+sources: [raw/articles/crm-agent-bench-2610.32004.md, raw/articles/factuality-indicators-2610.32883.md, raw/articles/novice-oversight-beyond-correctness-2610.32118.md]
+confidence: medium
+---
 # Why This Matters
 
 ## What It Is
@@ -135,6 +144,12 @@ So the real promise of moving beyond prompting is not “AI does more.” It is 
 A [conference audit of research results](https://arxiv.org/abs/2610.22465) gives a more grounded picture of leverage than “AI checks everything.” Authors first supplied a checklist describing what their code should reproduce and what its limits were. An agent checked the work; authors clarified or repaired it; human reviewers decided whether concerns were resolved. Across 36 papers and 133 reported tables and figures, reviewers raised 20 issues after review. Follow-up checks supported closing those issues, **but full reproduction was still unverified in some cases**. This is a conference deployment, not evidence that the same workflow has been tested in schools.
 
 The lesson for a team is not to add an approval signature at the end. Before an AI review, record **what success would look like and what is out of scope**; after the review, distinguish “the reported issue was addressed” from “the whole result was independently verified.” Try it on one public, low-stakes document: state the claim to check, give a source the reviewer can open, and let a person decide whether the claim stays. The result is useful even when the answer is “not yet verified.” See [[The Review-First Pattern]] and [[The Orchestrator Mindset]].
+
+## More Work Is Not the Same as More Defensible Work (October 2026)
+
+A [large agent benchmark](https://arxiv.org/abs/2610.32004) checks not just whether a transaction finishes but whether its steps and protected records meet the task's written rules. A [student oversight study](https://arxiv.org/abs/2610.32118) found that reported corrections often concerned task fit, not an obvious mistake. Together they suggest a better leverage question: **could you explain why this result belongs here, and show what the AI did to get it?** Neither study demonstrates that this question improves workplace or K–12 outcomes. See [[What Is Beyond Prompting]] and [[The Evidence Interface]].
+
+Evidence must be usable, not decorative. A [study of AI answer cues](https://arxiv.org/abs/2610.32883) combined interviews, a survey and an experiment; confidence and source indicators influenced first impressions, but their effects disappeared once participants learned whether an answer was correct. The finding does not mean source links are useless. It means a badge or a link cannot replace opening the relevant passage. On one public, low-stakes claim, find its source paragraph and record whether it actually supports the claim. If you cannot check it, don't promote it to a decision. See [[Trust Calibration]].
 
 ## Try This
 

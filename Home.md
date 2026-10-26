@@ -65,7 +65,7 @@ Plain-language definitions of every key term.
 
 ### 00-Daily-Digests
 Daily curated research digests — what we found, what it means, and how to use it.
-→ [[00-Daily-Digests/2026-10-25|Today's Digest]] · [[00-Daily-Digests/2026-10-24|Yesterday's Digest]]
+→ [[00-Daily-Digests/2026-10-26|Today's Digest]] · [[00-Daily-Digests/2026-10-25|Yesterday's Digest]]
 
 ---
 
@@ -85,6 +85,7 @@ _Last 7 days of activity._
 
 | Date | What Changed |
 |------|-------------|
+| 2026-10-26 | Day 1 Shift: three publisher abstracts distinguish a correct-looking answer from a checkable route, job fit, and evidence you can open. [[What Is Beyond Prompting]] and [[Why This Matters]] deepened. [[00-Daily-Digests/2026-10-26|Read today's digest]]. |
 | 2026-10-25 | Day 7 cross-section: three directly read sources on alert-to-repair ownership and disclosed infrastructure dependencies; [[The Control Surface]], [[The Failure Review]] and [[The Line You Draw]] gained a reversible-change check. Sunday structural lint run. [[00-Daily-Digests/2026-10-25|Read today's digest]]. |
 | 2026-10-24 | Day 6 glossary: three directly checked sources distinguish a peer-led question from a tool demo, a checkable claim from a generic approval, and an AI score from independent evidence. [[Orchestration]], [[Oversight]] and [[06-Glossary/Trust Calibration|Trust Calibration]] deepened. [[00-Daily-Digests/2026-10-24|Read today's digest]]. |
 | 2026-10-23 | Day 5 practice: three new publisher abstracts distinguish easier AI-assisted work from what you can still do unaided. [[The Reliance Audit]] gained a use-pattern note; [[The Daily Standup]] gained a two-day learning check. [[00-Daily-Digests/2026-10-23|Read today's digest]]. |
