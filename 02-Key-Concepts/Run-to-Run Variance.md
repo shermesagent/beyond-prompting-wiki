@@ -1,12 +1,13 @@
 ---
 title: Run-to-Run Variance
 created: 2026-08-28
-updated: 2026-08-28
+updated: 2026-10-27
 type: concept
 tags: [concept, workflow, orchestrator, practice]
 sources:
   - raw/articles/human-llm-screening-workflows-2608.26885.md
   - raw/articles/mitigating-fabrication-hiring-pipelines-2608.26171.md
+  - raw/articles/flashscript-reusable-workflows-2610.33876.md
 confidence: high
 ---
 
@@ -16,7 +17,7 @@ confidence: high
 
 Run-to-run variance is the gap between what the same AI produces on two identical runs. Same prompt, same model, same day, same settings — and a different answer. It's not a bug report; it's a design fact about how these systems work, and it's measurable.
 
-The cleanest measurement comes from a preregistered study of literature screening (arXiv:2608.26885): 1,131 records screened by humans and by LLMs. Two **nominally identical** runs of the same model, same configuration, agreed on 91.7% of records — and disagreed on 94. Of those 94, **29 were verified-eligible records that only one of the two runs caught.** Run the same screening twice and you miss 29 relevant studies on the second pass — or catch them on the first and think the second run is the wrong one. Neither run is "wrong." They're just different.
+The cleanest measurement comes from a preregistered study of literature screening (arXiv:2608.26885): 1,131 records screened by humans and by LLMs. Two **nominally identical** runs of the same model, same configuration, agreed on 91.7% of records — and disagreed on 94. Of those 94, **29 were verified-eligible records that only one of the two runs caught.** That does not tell you which entire run to trust; compare the disputed records with the study's eligibility rules.
 
 ## Why It Matters for Moving Beyond Prompting
 
@@ -26,7 +27,7 @@ This matters more the more you move beyond prompting, for three reasons:
 
 1. **The cost of a miss goes up with autonomy.** An operator eyeballs each answer. An orchestrator spot-checks a pipeline that runs unattended. When the pipeline runs 20 times and each run has a few percent variance, the variance compounds into a steady drip of small misses you never see.
 2. **Review trains you on a moving target.** If you calibrate your trust on run #7 and run #8 comes back different, your calibration data is contaminated. You can't learn "this pipeline is reliable" from one good run — you learn it from the *distribution* of runs.
-3. **The fix is embarrassingly cheap.** You don't need better AI. You need one more run.
+3. **A second run is a warning light, not a verdict.** It can reveal instability; it cannot prove either answer is right. For repeatable steps, a tested procedure may be more useful than asking the AI to invent the same route again.
 
 ## How to Spot It in Your Day
 
@@ -42,15 +43,21 @@ This matters more the more you move beyond prompting, for three reasons:
 1. Put the two outputs side by side.
 2. Mark every difference: wording, structure, facts, omissions, additions.
 3. Classify each difference: cosmetic (fine), material (one run has info the other lacks), or contradictory (they can't both be right).
-4. If you found material or contradictory differences, that task needs a **built-in second run** before you ship — and a rule for what happens when the runs disagree (tiebreak: run a third time, or route to a human, or flag for review).
+4. If you found material or contradictory differences, hold the result for a check against an independent source or a human-approved answer key. A third run alone is not a tiebreaker.
 
-The point isn't that the AI is flaky and can't be trusted. The point is that **"checked once" is not "checked."** A second run is the cheapest verification instrument you own — cheaper than a review checklist, cheaper than a second model, cheaper than a human reviewer. Most people never use it because they assume identical inputs produce identical outputs. They don't.
+The point isn't that the AI is flaky and can't be trusted. The point is that a second run **detects differences, not truth**. Compare the differences with the original source or a known-good check before releasing anything consequential.
 
 ## Why "Checked Once" Is Not "Checked"
 
-The screening study's other finding sharpens this: LLM performance depended more on the *workflow* (file-batch vs. all-at-once) than on the model. And in the hiring-pipeline study (arXiv:2608.26171), a newer-generation model still fabricated at a 90.0% baseline rate — model progress alone didn't fix the problem. The same logic applies to variance: **don't assume a better model will make the re-run unnecessary.** The re-run is a workflow property, not a model property. Build it in.
+The screening study's other finding sharpens this: LLM performance depended more on the *workflow* (file-batch vs. all-at-once) than on the model. And in the hiring-pipeline study (arXiv:2608.26171), a newer-generation model still fabricated at a 90.0% baseline rate — model progress alone didn't fix the problem. **Don't assume a better model makes instability disappear.** For low-stakes trials, compare two runs to discover variation; for decisions that matter, check disputed claims against an independent source or a person-approved rule. Build that check into the workflow.
 
 **Same voice, two samples — not two minds.** The re-run checks variance *within* one voice. When you want a genuinely different voice — a second opinion, a cross-check — the re-run isn't enough: if both voices share a model family, a source document, or a drafter, their agreement can be an echo, not corroboration. Count the roots before you count the agreement ([[The Echo Check]]).
+
+## Repeat the Steps, Not the Guesswork (October 2026)
+
+In [FlashScript](https://arxiv.org/abs/2610.33876), researchers turned successful agent runs into reusable programs: fixed transformations became code, changing inputs became parameters, and decisions that still required judgment stayed with the language model. On 120 template-based analytics tasks, the resulting programs were correct and made identical tool calls across runs; the skill-guided agent they compared with varied. In a harder combined-task test, that agent's accuracy fell to 23%, while the programs stayed correct in the reported tests. These are benchmark results, **not** proof that any existing office process can safely run unattended. ^[raw/articles/flashscript-reusable-workflows-2610.33876.md]
+
+**Try this on a public-data task:** mark each step `ALWAYS THE SAME / CHANGES WITH INPUT / NEEDS A PERSON'S JUDGMENT`. Turn only the first group into a checklist for now; keep the last group visible in the review. A repeatable action still needs a correct rule, a test when inputs change, and a way to stop. See [[The Evidence Interface]] for the proof you should keep with the run.
 
 ## Related Pages
 

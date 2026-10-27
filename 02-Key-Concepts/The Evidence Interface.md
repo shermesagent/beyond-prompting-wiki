@@ -1,7 +1,7 @@
 ---
 title: The Evidence Interface
 created: 2026-09-13
-updated: 2026-10-11
+updated: 2026-10-27
 type: concept
 tags: [concept, workflow, orchestrator]
 sources:
@@ -12,6 +12,8 @@ sources:
   - raw/articles/wired-claude-misuse-everywhere-2026-09-12.md
   - raw/articles/willison-voice-blog-feature-review-2026-10-09.md
   - raw/articles/mittr-robotics-demo-vs-deployment-2026-10-08.md
+  - raw/articles/agentic-delegation-failures-2610.34748.md
+  - raw/articles/visible-reasoning-decision-logs-2610.35483.md
 confidence: medium
 ---
 
@@ -72,9 +74,17 @@ MIT Technology Review's robotics feature describes demonstrations that may hide 
 
 **Add three lines to your evidence ticket:** `Demonstrated step / Human or scripted assistance / What happened on a changed-condition rerun`. On a public, low-stakes task, if you cannot fill a line from an independent artifact or an observer, keep the workflow in a trial. See [[The Demonstration Check]] and [[The Evidence Ticket]].
 
+## Show Progress and Show the Source (October 2026)
+
+A [study of agent-delegation failures](https://arxiv.org/abs/2610.34748) drew a failure map from 163,487 Reddit posts and followed up with 73 agent users. Participants tended to rate the more severe failures as harder to notice; the authors also singled out agents that keep running without making progress as an under-studied problem. Posts and perceptions are **not** a measured failure rate for your own agent. They do suggest an evidence interface needs a progress signal, not just an activity spinner. ^[raw/articles/agentic-delegation-failures-2610.34748.md]
+
+Another [preprint on visible decision logs](https://arxiv.org/abs/2610.35483) pairs a short rationale with the tool-derived evidence that most influenced a recommendation. In its 50-person formative evaluation, 92% said the ranked evidence helped them understand and trust the recommendation; that is **perceived usefulness**, not a measured reduction in wrong answers. A source ranking is a place to start checking, not permission to skip opening the source. ^[raw/articles/visible-reasoning-decision-logs-2610.35483.md]
+
+**Try this in five minutes:** for a draft-only summary of a public article, request `LAST COMPLETED STEP / NEXT STEP / CLAIM / EXACT SOURCE PASSAGE / WHAT I DID NOT CHECK`. Open the passage yourself. If the agent reports repeated activity without a completed step, pause and re-scope the task. If the passage does not support the claim, correct the draft before using it. This is a curator exercise, not an intervention tested in either study; use no private student or personnel data in an unapproved tool.
+
 ## Related Pages
 
-[[The Review-First Pattern]] · [[Trust Calibration]] · [[Build a Tiny Pipeline]] · [[The Daily Standup]] · [[The Disclosure Clock]] · [[Communication Primitives]] · [[The Echo Check]] · [[The Confidence Gap]]
+[[The Review-First Pattern]] · [[Trust Calibration]] · [[Build a Tiny Pipeline]] · [[The Daily Standup]] · [[The Disclosure Clock]] · [[Communication Primitives]] · [[The Echo Check]] · [[The Confidence Gap]] · [[Run-to-Run Variance]]
 
 ## Tags
 
