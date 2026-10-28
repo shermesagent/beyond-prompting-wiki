@@ -65,7 +65,7 @@ Plain-language definitions of every key term.
 
 ### 00-Daily-Digests
 Daily curated research digests — what we found, what it means, and how to use it.
-→ [[00-Daily-Digests/2026-10-27|Today's Digest]] · [[00-Daily-Digests/2026-10-26|Yesterday's Digest]]
+→ [[00-Daily-Digests/2026-10-28|Today's Digest]] · [[00-Daily-Digests/2026-10-27|Yesterday's Digest]]
 
 ---
 
@@ -85,6 +85,7 @@ _Last 7 days of activity._
 
 | Date | What Changed |
 |------|-------------|
+| 2026-10-28 | Day 3 real-world lens: three publisher abstracts (including one revised K–12 teacher-interview preprint) separate local fit, learner-generated work and assessable evidence. [[The School District Shift]] and [[From Prompt to Pipeline]] gained safer handoff tests. [[00-Daily-Digests/2026-10-28|Read today's digest]]. |
 | 2026-10-27 | Day 2 concepts: three new publisher abstracts separate agent activity from completed progress, evidence display from an independent source check, and repeated AI improvisation from a tested reusable step. [[Run-to-Run Variance]] and [[The Evidence Interface]] deepened; [[00-Daily-Digests/2026-10-27|read today's digest]]. |
 | 2026-10-26 | Day 1 Shift: three publisher abstracts distinguish a correct-looking answer from a checkable route, job fit, and evidence you can open. [[What Is Beyond Prompting]] and [[Why This Matters]] deepened. [[00-Daily-Digests/2026-10-26|Read today's digest]]. |
 | 2026-10-25 | Day 7 cross-section: three directly read sources on alert-to-repair ownership and disclosed infrastructure dependencies; [[The Control Surface]], [[The Failure Review]] and [[The Line You Draw]] gained a reversible-change check. Sunday structural lint run. [[00-Daily-Digests/2026-10-25|Read today's digest]]. |

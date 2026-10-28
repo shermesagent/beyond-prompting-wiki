@@ -22,6 +22,8 @@ This week's lens: [[The Demonstration Check]]. Showing an agent the last success
 
 New in [[00-Daily-Digests/2026-10-21|the October 21 digest]]: test whether the expert can revise the rule, the reviewer can catch a quiet error, and later work shows the intended outcome. The new sources studied programming and university mathematics, not the fictional district or marketing scenarios. See [[The School District Shift]] and [[From Prompt to Pipeline]].
 
+New in [[00-Daily-Digests/2026-10-28|the October 28 digest]]: use teachers' local-fit test, ask learners to show their own thinking, and cross-check a finished artifact against an explanation. The teacher interviews and small child study are not district deployment results; the engineering assessment comes from a university course. See [[The School District Shift]] and [[From Prompt to Pipeline]].
+
 In [[00-Daily-Digests/2026-10-14|the October 14 digest]], all three stories ask whether the human can **reach the original evidence, explain a decision and sustain the review**. The professional, classroom and tutor studies behind that question are small preprints, not measured outcomes for these fictional stories. See [[The Evidence Interface]] and [[The Review-First Pattern]].
 
 Earlier lens: [[00-Daily-Digests/2026-10-07|What happens when the real world disagrees?]] Test a missing input, inspect what carries over in a translation, and count completion separately from engagement. No student, accommodation, personnel or customer records in an unapproved tool.

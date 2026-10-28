@@ -1,10 +1,10 @@
 ---
 title: The School District Shift
 created: 2026-06-21
-updated: 2026-10-21
+updated: 2026-10-28
 type: story
 tags: [story, orchestrator, workflow]
-sources: [raw/articles/valiassist-feedback-validation-2610.27248.md, raw/articles/math-feedback-exam-performance-2610.27881.md]
+sources: [raw/articles/valiassist-feedback-validation-2610.27248.md, raw/articles/math-feedback-exam-performance-2610.27881.md, raw/articles/teacher-cultural-distance-2509.10780-v2.md, raw/articles/peers4u-math-2610.37238.md, raw/articles/engineering-assessment-evidence-2610.36413.md]
 confidence: medium
 ---
 # The School District Shift
@@ -478,6 +478,20 @@ A 16-instructor comparison of **programming feedback** found that teachers could
 Next, ask whether the feedback is **specific enough for the learner who needs it most**. In two university mathematics cohorts, six reviewers assessed 157 AI feedback messages from selected tasks. Practice exercises earned strong ratings more often than diagnostic specificity or clarity and tone. Related exam-question comparisons showed no statistically significant differences after adjustment; exposure and attendance overlapped. This is not evidence that an AI feedback system improves K–12 mathematics scores. For a proposed pilot, check three different things: did a teacher approve the advice; could a learner use it to correct a mistake; and did later **independent** work show the intended learning? Record these separately, with no invented gains. [Vanhoyweghen et al., arXiv:2610.27881](https://arxiv.org/abs/2610.27881). See [[Scaffold, Don't Substitute]].
 
 **Five-minute safe rehearsal:** Use only public instructional materials or examples already approved for staff training, inside an approved workflow. Find a feedback comment with a specific flaw, ask a colleague to point to that flaw and repair the advice, then test the revised rule on another cleared example. Keep the teacher's sign-off separate from any claim about student outcomes. Do not upload real work, grades, accommodations or identifying details to an unapproved tool.
+
+## The Local-Fit Check: When Editing Is Not Enough
+
+In interviews with **30 frequent AI-using K–12 teachers** (ten each in South Africa, Taiwan, and the United States), researchers distinguished three kinds of mismatch between an AI draft and the real classroom: a small fix, a draft that takes sustained teacher revision, and a structural gap that more prompting cannot close—such as missing language support or knowledge that was never digitized. This is an exploratory interview study, **not** a trial of any district's workflow. [Xiao et al., revised preprint v2, October 27, 2026](https://arxiv.org/abs/2509.10780v2).
+
+Before sharing a **public-material, draft-only** lesson workflow, ask a teacher to label one output `SMALL EDIT / HEAVY REWORK / CANNOT USE`. Record *why*. If it needs heavy rework, adjust the workflow with the teacher; if essential language, local knowledge or access is missing, stop promising that a better prompt will solve it. The teacher's edit is evidence about **fit**, not proof of improved learning. This sharpens [[The Task Scaffold]] and [[The Review-First Pattern]].
+
+## The Student-Work Check: Did the Child Show Their Thinking?
+
+In a small study of **22 children and two experts**, the Peers4U research prototype used virtual math peers with visible strategies and learner-centered discussion. Its abstract reports more child-generated solutions in some peer groupings and a favorable comparison with a persona-centered baseline. It does **not** establish long-term learning gains, generalize to a district, or justify putting real student work in an unapproved AI system. [Zheng et al., arXiv v1, October 27, 2026](https://arxiv.org/abs/2610.37238).
+
+Try the idea **without a bot or student data**: give colleagues two public sample solutions to a math problem; have them ask what question would prompt a student to draw, explain or challenge a strategy rather than copy an answer. For a real pilot, use approved systems and teacher review, and measure what the learner can explain independently later. See [[Scaffold, Don't Substitute]].
+
+A university engineering-course deployment offers a related assessment caution: **87 students in 17 teams** could use AI to build artifacts, so the course collected evidence from the finished product, the work trail, checks, explanation, reflection and individual assurance. The authors warn that collecting more evidence is easier than interpreting it well. This is a **university design report**, not a validated K–12 rubric or evidence of higher achievement. [Shakiba, arXiv v1, October 26, 2026](https://arxiv.org/abs/2610.36413). For one public or approved practice task, compare an AI-assisted final answer with the person's own short explanation and one independent check; if they disagree, ask before scoring the artifact as mastery. See [[The Evidence Interface]].
 
 ## Related Pages
 

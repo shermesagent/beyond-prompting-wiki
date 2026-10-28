@@ -1,10 +1,10 @@
 ---
 title: From Prompt to Pipeline
 created: 2026-06-21
-updated: 2026-10-21
+updated: 2026-10-28
 type: story
 tags: [story, orchestrator, workflow]
-sources: [raw/articles/looks-fine-oversight-2610.27801.md]
+sources: [raw/articles/looks-fine-oversight-2610.27801.md, raw/articles/teacher-cultural-distance-2509.10780-v2.md, raw/articles/engineering-assessment-evidence-2610.36413.md]
 confidence: medium
 ---
 # From Prompt to Pipeline
@@ -443,6 +443,12 @@ A separate classroom study tested a useful interface principle: summaries of con
 In a study of agent-assisted **programming** tasks, a 12-person formative phase found plausible output was often accepted without deep checking. In a controlled study with 36 participants, people sometimes felt confident while missing silent defects, running generic checks, or misreading evidence. That does not measure the error rate of a content-marketing pipeline; it challenges a design assumption in Mara's *illustrative* story: a review appointment by itself does not prove review worked. [Dissanayake et al., *Looks Fine to Me*, arXiv:2610.27801](https://arxiv.org/abs/2610.27801).
 
 **Five-minute rehearsal on public material:** Make a draft-only page with one deliberately wrong, harmless claim. Give a colleague both the draft and the original public source; ask for the exact sentence or test that shows the problem. If they approve it, change the review screen or checklist before allowing another run. Keep publication behind a real human decision. This is a suggested test, **not** an intervention evaluated by the paper. See [[The Review-First Pattern]] and [[The Evidence Interface]]. Do not use private customer records in a trial.
+
+## When the Draft Is Good but the Handoff Isn't
+
+An AI draft can look ready while missing the local rule that makes it usable. In interviews across three countries, 30 K–12 teachers described outputs requiring either minor edits, sustained revision, or a change that their own prompting could not produce (for example, missing language or local knowledge). This is **teacher interview evidence**, not evidence about Mara's fictional marketing workflow. Borrow the question: for a public-data, draft-only run, mark each output `READY TO REVIEW / HEAVY REWORK / CANNOT USE`, and write the missing requirement next to it before automating another step. If the job cannot supply that requirement, pause rather than generate more drafts. [Xiao et al., v2, 2026](https://arxiv.org/abs/2509.10780v2). See [[The Task Scaffold]].
+
+A separate university engineering-course deployment makes the next handoff visible: the polished product was only **one** source of evidence. In a 13-week AI-permissive course with 87 students by week 11, the assessment design also collected work origins, verification, explanation, reflection and individual assurance, then cross-checked them rather than treating any single trace as proof. That is a **course design and deployment report**, not a measured result for content teams. Mara can borrow a smaller version: `DRAFT / ORIGINAL SOURCE / WHAT I CHANGED / WHY I APPROVED IT`. Open one original source before release and keep her sign-off human. The work trail is not a substitute for checking the claim. [Shakiba, 2026](https://arxiv.org/abs/2610.36413). See [[The Evidence Interface]] and [[The Review-First Pattern]].
 
 ## You Can Do This Too
 
