@@ -35,6 +35,8 @@ Each barrier page follows the same structure. We name what's happening, explain 
 
 ## How to Use This Section
 
+October 29 route: [[The Engagement Gap]] asks whether workers found a useful job for an assistant; [[The Absent Person Test]] asks who did not choose a bot but whose data it may see; [[Procedural Standing]] asks who checks and sends a consequential message. Sources and evidence limits are in [[00-Daily-Digests/2026-10-29|the October 29 digest]].
+
 Today's route: start with [[Prompt as Safety Blanket]] to distinguish a safe draft from an action that needs approval; use [[Procedural Standing]] to name that approval; then use [[The Absent Person Test]] to check whether someone outside the conversation has a correction route. Three Oct 22 preprint abstracts and their limits are in [[00-Daily-Digests/2026-10-22|today's digest]].
 
 Thursday's new route: read [[Fear of Losing Control]] for the explain-the-uncertainty check, [[04-Barriers-and-Bridges/Trust Calibration|Trust Calibration]] for a two-sided feedback card, and [[The Validator Trap]] for the next-day unaided test. The three new preprints and their limits are in [[00-Daily-Digests/2026-10-15|the October 15 digest]].

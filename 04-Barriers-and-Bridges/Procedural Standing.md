@@ -1,7 +1,7 @@
 ---
 title: Procedural Standing
 created: 2026-09-17
-updated: 2026-10-22
+updated: 2026-10-29
 type: concept
 tags: [barrier, mindset, orchestrator]
 sources:
@@ -16,6 +16,7 @@ sources:
   - raw/articles/wired-nurse-scheduling-appeals-2026-10-02.md
   - raw/articles/auto-purchase-permission-2610.29216.md
   - raw/articles/agent-privacy-controls-2610.29929.md
+  - raw/articles/grist-wired-ai-emergency-alerts-2026-10-28.md
 confidence: medium
 ---
 
@@ -98,6 +99,12 @@ WIRED interviewed nurses who say an AI-assisted scheduler assigns unwanted conse
 In an October shopping-agent benchmark, 15 people *role-played* purchasers and indicated whether an agent should decline, ask, or buy. Across 16 tested models, the paper's abstract reports over-commitment even when product fit was low or information was missing. It was a profile-based comparison, not a record of real purchases. A second preprint's audit and prototypes focus on making privacy preferences enforceable in agent workflows—not simply stated in a settings screen. ^[raw/articles/auto-purchase-permission-2610.29216.md] ^[raw/articles/agent-privacy-controls-2610.29929.md]
 
 **Add an authorization row** to the Contestability Check: what can the agent read, suggest, send, spend or retain *without* asking? Put a named approver at the first irreversible step. For a public-data, draft-only rehearsal, write three labels beside one action: **do not do it / ask first / allowed within this scope**. Have another person point to the exact approval that would let the action proceed. If neither can find it, stop. A remembered preference is not standing permission; see [[The Preference Check]] and [[The Absent Person Test]].
+
+## The Draft That Must Not Send Itself
+
+Grist's reporting, copublished by WIRED, describes an inaccurate AI-made weather graphic and a revised flood alert whose location and update-source fields still needed filling. One emergency manager told the reporter he had tried AI on practice alerts but would keep control of sending them. The report says a vendor has government and school-district customers, **not** that those customers automate extreme-weather alerts. It is a reminder that an easier-to-read draft can still be geographically wrong or incomplete. ^[raw/articles/grist-wired-ai-emergency-alerts-2026-10-28.md]
+
+**Five-minute rehearsal using a clearly fictional notice:** underline every place, time, action and update source; mark any placeholder `UNVERIFIED`. Write the named official source for each factual claim and the human who may approve sending. If either is missing, leave the notice unsent. In a real emergency, use the organization's approved alert process and qualified decision-maker—never publish an AI rehearsal. [[The Absent Person Test]] asks who receives the warning; [[The Evidence Ticket]] records the verification.
 
 ## Related Pages
 

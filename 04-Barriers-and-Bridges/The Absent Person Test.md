@@ -1,7 +1,7 @@
 ---
 title: The Absent Person Test
 created: 2026-09-24
-updated: 2026-10-22
+updated: 2026-10-29
 type: concept
 tags: [barrier, mindset, orchestrator]
 sources:
@@ -13,6 +13,7 @@ sources:
   - raw/articles/wired-amazon-data-center-ndas-2026-10-02.md
   - raw/articles/agent-privacy-controls-2610.29929.md
   - raw/articles/privacy-under-uncertainty-2610.29756.md
+  - raw/articles/discord-community-bot-privacy-2610.36626.md
 confidence: medium
 ---
 
@@ -68,6 +69,12 @@ The same question applies when decisions are public. Amazon says it has stopped 
 An October preprint examined how privacy choices can look inconsistent when people cannot see what later use of their information might mean. A separate agent-controls preprint audited 30 assistants and platforms and built eight prototypes for enforceable privacy preferences. Neither abstract proves that current products protect nonusers. Together they suggest a question for the absent-person row: **whose information might the agent encounter, and who can change or withdraw the rule for using it?** ^[raw/articles/privacy-under-uncertainty-2610.29756.md] ^[raw/articles/agent-privacy-controls-2610.29929.md]
 
 **Try this with a public, non-identifying workflow:** list the requester, an affected role and the person who can approve data use. For each, write what they can see, what they can stop, and whom they can contact. If the affected person's route is blank, keep the agent in draft-only mode and ask an authorized privacy lead about the actual rules. This exercise does not establish legal consent; never test with student or personnel data in an unapproved tool. [[Procedural Standing]] gives the affected person a correction route.
+
+## A Bot Can Join a Room Without Every Member Choosing It
+
+An October preprint analyzed reviews of third-party Discord bots. Its publisher abstract reports 8,832 security/privacy-related reviews found through a classifier and manual validation among 183,142 reviews; this **4.82% pipeline yield is not a harm rate**. Installation is an administrator's choice, but the bot may access messages and profiles belonging to other members. The study does not establish what any one bot collected. ^[raw/articles/discord-community-bot-privacy-2610.36626.md]
+
+**Try this on paper, not in a live group:** draw three columns—installer, member, bot. Under each, write what they can see and who can remove the bot. If the member has no notice or contact route, ask the system owner before adding the bot. For a school group, use only district-approved tools and data practices; this exercise is not consent or a compliance ruling. [[Procedural Standing]] covers the route back in.
 
 ## Related Pages
 

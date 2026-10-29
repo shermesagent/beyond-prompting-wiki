@@ -1,15 +1,17 @@
 ---
 title: The Engagement Gap
 created: 2026-07-04
-updated: 2026-08-27
+updated: 2026-10-29
 type: concept
-tags: [barrier, orchestrator, adoption, workflow]
+tags: [barrier, orchestrator, workflow]
 confidence: high
 sources:
   - https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization
   - https://www.weforum.org/stories/2026/06/ai-workplace-adoption-readiness/
   - https://executiveeducation.wharton.upenn.edu/thought-leadership/wharton-at-work/2026/04/a-solution-to-ai-adoption/
   - raw/articles/ai-adaptation-gap-higher-ed-2608.25063.md
+  - raw/articles/wired-macmillan-noa-rollout-2026-10-28.md
+  - raw/articles/words-deeds-dialogue-prediction-2610.36813.md
 ---
 
 # The Engagement Gap
@@ -26,7 +28,7 @@ Every framework in this wiki — the Four Decision Labels, Delegation Thinking, 
 
 Stanford's SCALE research found that students given access to AI tutors used them for just 2-5 minutes per week. Microsoft's 2026 Work Trend Index identified what they call the "Transformation Paradox": employees are ready to reinvent how they work, but the metrics, incentives, and norms around them reinforce the old way. The World Economic Forum's "5 faces of human readiness" (June 2026) found that top-down AI messaging is colliding with employee reality, producing inconsistent or outright resistant AI use.
 
-For the orchestrator, the Engagement Gap is a design problem. It means you can't just hand people a tool and a label. You have to redesign the work so AI becomes the path of least resistance — not an extra step someone has to remember to take.
+For the orchestrator, the Engagement Gap is a design problem. You can't just hand people a tool and a label. Offer an approved, useful place to try it inside the real workflow, keep the task's human route available, and learn from the people who choose not to use it.
 
 ## The Three Drivers
 
@@ -55,7 +57,7 @@ You're facing the Engagement Gap when:
 - Your team's AI adoption looks good in pilots but flatlines in production
 - You hear "I keep meaning to try that" more than "I used it today"
 
-The litmus test: if you have to remind someone to use the AI, the workflow isn't designed right. AI should be the default, not the opt-in.
+A useful test: if people need constant reminders, ask whether the tool saves *them* work and whether their material is approved for it. Non-use may be a reasonable choice, not a problem to route around.
 
 ## The Enterprise View: Adoption at Scale
 
@@ -101,10 +103,22 @@ And here's the number that matters most for closing the gap: in the pooled trust
 
 **Source:** arXiv:2608.25063 — "The AI Adaptation Gap in Higher Education: Students, Faculty, and Administrative Staff"
 
+## When a Rollout Gets a Party but Not a Job
+
+WIRED's Macmillan reporting describes a workplace chatbot that staff say was introduced with a celebration, then sunset in 2025 after some employees found it unreliable or ill-suited to their work. Macmillan's spokesperson disputes how the rollout was described but did not identify specific inaccuracies in the article. This is a contested account, not proof that all publisher AI pilots fail. The useful question is smaller: **what work did staff actually choose to return to the tool for, and could they say no?** ^[raw/articles/wired-macmillan-noa-rollout-2026-10-28.md]
+
+**Try this before a launch:** on a public, non-confidential sample, ask one worker to pick a repetitive task, define a useful result and try a draft-only version. Write down what they would keep, what they would redo and whether the input is approved for that tool. A usage target is not a substitute for their answer. Do not upload manuscripts, student information or performance-review material to an unapproved system. [[The Absent Person Test]] catches people whose material could be included without their say; [[Procedural Standing]] gives them a route to stop or correct it.
+
+## A Promise to Try Is Not a Trial
+
+In a small repeated-game preprint, models that added participants' statements to their past decisions did not improve overall prediction; they leaned too heavily on promises that some participants did not keep. This is an artificial game with 42 users, **not a finding that staff misreport AI use**. Its narrow workplace analogy is useful: stated enthusiasm at a kickoff is not the same as an optional tool solving a real task. ^[raw/articles/words-deeds-dialogue-prediction-2610.36813.md]
+
+**Try this:** invite a voluntary, public-material draft trial. Ask whether the worker kept, changed or discarded the result and why. Do not score an employee's attitude or monitor private tool use as a substitute for asking; retain a human path that works without the AI. [[Human Readiness Archetypes]] helps you meet different starting points without making adoption mandatory.
+
 ## Related Pages
 
 [[The Four Decision Labels]] · [[Delegation Thinking]] · [[Why This Matters]] · [[The Orchestrator Mindset]] · [[Human Readiness Archetypes]] · [[Knowledge Debt]]
 
 ## Tags
 
-#barrier #orchestrator #adoption #workflow
+#barrier #orchestrator #workflow
