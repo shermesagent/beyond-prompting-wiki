@@ -1,7 +1,7 @@
 ---
 title: The Daily Standup
 created: 2026-06-27
-updated: 2026-10-23
+updated: 2026-10-30
 type: practice
 tags: [practice, orchestrator, workflow, mindset]
 confidence: high
@@ -27,6 +27,8 @@ sources:
   - raw/articles/reliance-behaviors-problem-solving-2610.30195.md
   - raw/articles/productive-friction-writing-2610.30945.md
   - raw/articles/proof-learning-offloading-2610.31481.md
+  - raw/articles/group-deliberation-reflection-2610.37862.md
+  - raw/articles/critical-thinking-coordination-2610.38910.md
 ---
 
 # The Daily Standup
@@ -439,6 +441,12 @@ False alarms are not free: they burn the time needed to find real problems. Magi
 The Kolab preprint collected more than 115 hours of recordings from 50 professionals across 40 occupations working with agents. The authors found that tested models overestimated how well collaboration was going and struggled to tell good from poor collaboration. This is a benchmark finding, not a measured benefit from a standup ritual. [Hayati and colleagues, preprint](https://arxiv.org/abs/2610.21109).
 
 **Try this (2 minutes):** take yesterday's public-data or draft-only run. Write `AI produced ___ / I used, changed or rejected ___ / next run I will reject, verify or delegate ___`. Check whether your actual choice matches the permission you wrote in [[First Delegation]]. A separate 56-person study found intended verification was common even at high trust; do not infer your real behavior from a trust rating alone. [Chiatti and colleagues, preprint](https://arxiv.org/abs/2610.21948). If you cannot say what part entered the finished work, keep the workflow draft-only and request an [[The Evidence Ticket|evidence ticket]] before expanding it.
+
+## A Question Before the Meeting (October 2026)
+
+Before a discussion where people disagree, the useful AI step may be **helping each person prepare a better question**, not picking a winner. A randomized study of 1,173 U.S. participants across 391 small-group deliberations reported better measured discussion quality after non-directive, AI-guided private reflection than after no reflection or unassisted reflection. It was not a workplace meeting or a K–12 trial; the short exercise below is our translation, not the study's validated procedure. [Li and colleagues, publisher abstract](https://arxiv.org/abs/2610.37862v1).
+
+**Try it on a public, low-stakes topic (3 minutes):** before the meeting, write your view in one sentence, one reason a reasonable person could disagree, and one question you will ask rather than a rebuttal you will deliver. If you use an approved AI tool, ask it *only* for reflection questions using the public topic—not for a colleague's private views or a verdict. Afterward, your standup note is `question I asked / what I learned / what I will change`. Compare that with your [[The Reliance Audit|Plan–Draft–Change note]]; neither a smoother discussion nor a polished summary alone proves that someone learned or agreed. Don't upload private meeting notes, student work or personnel information to an unapproved service.
 
 ## Common Pitfalls
 

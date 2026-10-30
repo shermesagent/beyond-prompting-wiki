@@ -65,7 +65,7 @@ Plain-language definitions of every key term.
 
 ### 00-Daily-Digests
 Daily curated research digests — what we found, what it means, and how to use it.
-→ [[00-Daily-Digests/2026-10-29|Today's Digest]] · [[00-Daily-Digests/2026-10-28|Yesterday's Digest]]
+→ [[00-Daily-Digests/2026-10-30|Today's Digest]] · [[00-Daily-Digests/2026-10-29|Yesterday's Digest]]
 
 ---
 
@@ -85,6 +85,7 @@ _Last 7 days of activity._
 
 | Date | What Changed |
 |------|-------------|
+| 2026-10-30 | Day 5 practice: three arXiv publisher abstracts on human planning in writing, actively reworking AI output and private reflection before disagreement. [[The Reliance Audit]] and [[The Daily Standup]] gained short exercises; [[00-Daily-Digests/2026-10-30|read today's digest]]. |
 | 2026-10-29 | Day 4 barriers: workplace rollout reporting, a community-bot privacy preprint abstract, and emergency-alert reporting clarify worker choice, nonuser data exposure and human send authority. [[The Engagement Gap]], [[The Absent Person Test]] and [[Procedural Standing]] deepened. [[00-Daily-Digests/2026-10-29|Read today's digest]]. |
 | 2026-10-28 | Day 3 real-world lens: three publisher abstracts (including one revised K–12 teacher-interview preprint) separate local fit, learner-generated work and assessable evidence. [[The School District Shift]] and [[From Prompt to Pipeline]] gained safer handoff tests. [[00-Daily-Digests/2026-10-28|Read today's digest]]. |
 | 2026-10-27 | Day 2 concepts: three new publisher abstracts separate agent activity from completed progress, evidence display from an independent source check, and repeated AI improvisation from a tested reusable step. [[Run-to-Run Variance]] and [[The Evidence Interface]] deepened; [[00-Daily-Digests/2026-10-27|read today's digest]]. |

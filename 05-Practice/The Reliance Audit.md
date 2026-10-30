@@ -1,7 +1,7 @@
 ---
 title: The Reliance Audit
 created: 2026-08-08
-updated: 2026-10-23
+updated: 2026-10-30
 type: practice
 tags: [practice, operator, orchestrator, trust]
 confidence: high
@@ -14,6 +14,8 @@ sources:
   - raw/articles/reliance-behaviors-problem-solving-2610.30195.md
   - raw/articles/productive-friction-writing-2610.30945.md
   - raw/articles/proof-learning-offloading-2610.31481.md
+  - raw/articles/critical-thinking-coordination-2610.38910.md
+  - raw/articles/human-planning-creative-writing-2610.37916.md
 ---
 
 # The Reliance Audit
@@ -111,6 +113,12 @@ Two companion studies suggest a useful boundary: a randomized writing study repo
 - Run it during Week 1 alongside [[Audit Your Prompts]] — the audit shows you *what* you do; this shows you *how warranted* it is.
 - Use the results to decide what enters your [[First Delegation]] pipeline — only tasks where the tool passes Q1–Q3 are safe to delegate.
 - Re-run for one week every quarter. Reliance drifts; the audit recalibrates.
+
+### The Plan–Draft–Change note (October 2026)
+
+Two new preprint abstracts offer a useful way to describe a single *interaction*, rather than label the person using AI. In a writing-chain study with 333 participants and 427 stories, putting a human at the planning stage best balanced creativity and story diversity in that experimental setup. A separate structural study of 891 college students linked critical-thinking measures to how participants divided work with AI and actively reworked its output. Neither paper tests this audit, and the latter is not a causal training trial. [Writing study](https://arxiv.org/abs/2610.37916v1) · [Critical-thinking study](https://arxiv.org/abs/2610.38910v1).
+
+**Try this with a public or fictional draft (3 minutes):** jot `MY PLAN: audience and purpose / AI'S PART: one draft step / MY CHANGE: one decision I revised and why`. Compare it to the output. If you made no change, that is information about this run—not a diagnosis. A human plan is not a substitute for checking facts against a source. Take the note to [[The Daily Standup]] for tomorrow's review.
 
 ## Related Pages
 
