@@ -1,10 +1,10 @@
 ---
 title: Oversight
 created: 2026-07-03
-updated: 2026-10-24
+updated: 2026-10-31
 type: concept
 tags: [glossary, orchestrator, workflow]
-sources: [raw/articles/anthropic-agent-autonomy-in-practice-2026.md, raw/articles/nist-ai-rmf-playbook-2026.md, raw/articles/amershi-human-ai-interaction-guidelines-2019.md, raw/articles/impactbench-human-impact-2610.20690.md, raw/articles/wired-comedian-origin-2026-10-16.md, raw/articles/scientific-ideas-revision-2610.30568.md, raw/articles/community-verification-layer-2610.30549.md]
+sources: [raw/articles/anthropic-agent-autonomy-in-practice-2026.md, raw/articles/nist-ai-rmf-playbook-2026.md, raw/articles/amershi-human-ai-interaction-guidelines-2019.md, raw/articles/impactbench-human-impact-2610.20690.md, raw/articles/wired-comedian-origin-2026-10-16.md, raw/articles/scientific-ideas-revision-2610.30568.md, raw/articles/community-verification-layer-2610.30549.md, raw/articles/wired-mouse-injection-agent-2026-10-31.md, raw/articles/mollick-exponential-charts-2026-10-20.md]
 confidence: medium
 ---
 # Oversight
@@ -115,6 +115,14 @@ Use a three-part check before approving a real workflow: **Which behavior did th
 In an October 2026 scientific-ideation preprint, human raters found no significant quality advantage for AI-assisted ideas, although revision improved quality. An AI judge favored AI-assisted proposals without the corresponding human-rated advantage. This is one experimental setting, not proof that all AI scoring is biased. **Oversight** here means checking the claim against an independent standard, not asking the producer's model to award itself a score. ^[raw/articles/scientific-ideas-revision-2610.30568.md]
 
 A separate proposal for scientific publishing suggests keeping checks tied to the exact claim and version, and asking for independent judgments before people see one another's ratings. It is a design proposal, not a demonstrated error-reduction program. For a five-minute public-document drill: copy one claim, paste its exact supporting passage, mark the document version or date, and ask a colleague to decide whether the passage supports the claim *before* showing the AI's verdict. [[06-Glossary/Trust Calibration|Trust Calibration]] asks how much to rely on the result; [[Orchestration]] places this check before release. ^[raw/articles/community-verification-layer-2610.30549.md]
+
+### The stop button and the repair brief
+
+[WIRED's October 31 account](https://www.wired.com/story/an-ai-agent-did-brain-surgery-on-live-mouse/) describes a live mouse experiment where a surgeon did the opening procedure, a person had to approve the agent's injection plan, and a person could disconnect the robotic motors. When a coordinate fault appeared, a separate AI agent helped change the code without being told a live procedure was in progress. The company reported the mouse recovering; the therapy's effect had **not** been assessed. This is one reported experiment, not a demonstrated safety protocol. ^[raw/articles/wired-mouse-injection-agent-2026-10-31.md]
+
+The everyday-work translation is not to copy the surgery: on a **public, draft-only** task, write `approval before action / stop owner / no-change boundary / repairer told whether the run is live`. If a repairer cannot see that the workflow is active, pause and hand the change back to a person. [[Human in the Loop]] is the real pause, not a signature after the fact; [[Autonomy]] is the limited permission granted before the run.
+
+In [Mollick's October 20 firsthand example](https://www.oneusefulthing.org/p/30-months-on-the-exponential-in-charts), an agent made several chart options and even corrected his mistaken title. He still chose the output and warned that delegating more of the work can hide how results were made. For a public chart, keep the source URL and one reproducible number beside the draft; reopening them is more useful than trusting either a polished chart or the agent's claim that it checked. This is a practitioner account, not an audit of the charts' underlying benchmark claims. ^[raw/articles/mollick-exponential-charts-2026-10-20.md]
 
 ## Related Pages
 

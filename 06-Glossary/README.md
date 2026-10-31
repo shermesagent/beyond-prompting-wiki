@@ -24,6 +24,8 @@ This week's quick test: [[Delegation]] keeps the human choice, [[Oversight]] che
 
 The [[00-Daily-Digests/2026-10-24|October 24 digest]] connects [[Orchestration]], [[Oversight]] and [[06-Glossary/Trust Calibration|Trust Calibration]]: start with the person's question, attach a source passage and date to the important claim, and let a person check it before seeing the AI's grade. Use public material for the five-minute rehearsal.
 
+The [[00-Daily-Digests/2026-10-31|October 31 digest]] sharpens two more terms: [[Autonomy]] is permission for a specific action, not a count of people trying an agent; [[Oversight]] needs a real stop owner, a live-repair brief, and one independently checked result. Try the public-task permission split before giving any agent access.
+
 ## Glossary Entries
 
 | Term | What It Answers | For |

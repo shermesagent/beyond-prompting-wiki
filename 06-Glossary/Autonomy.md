@@ -1,10 +1,10 @@
 ---
 title: Autonomy
 created: 2026-06-21
-updated: 2026-10-17
+updated: 2026-10-31
 type: concept
 tags: [glossary, architect, concept]
-sources: [raw/articles/anthropic-agent-autonomy-in-practice-2026.md, raw/articles/nist-ai-rmf-playbook-2026.md, raw/articles/wired-tesla-assisted-driving-name-2026-10-09.md, raw/articles/zvi-shopping-authorization-2026-10-15.md]
+sources: [raw/articles/anthropic-agent-autonomy-in-practice-2026.md, raw/articles/nist-ai-rmf-playbook-2026.md, raw/articles/wired-tesla-assisted-driving-name-2026-10-09.md, raw/articles/zvi-shopping-authorization-2026-10-15.md, raw/articles/wired-muse-agent-commerce-2026-10-31.md]
 confidence: medium
 ---
 # Autonomy
@@ -95,6 +95,12 @@ Try a 5-minute label check on a *public, draft-only* task: write `The AI can: __
 An agent may **compare** public product listings without being allowed to **buy** anything. In [Zvi Mowshowitz's October 15 commentary](https://thezvi.substack.com/p/ai-190-scion-of-the-times), a quoted proposal to send a credit-card photo to a chat agent exposes that missing boundary. It is a proposed workflow, not a documented payment incident. ^[raw/articles/zvi-shopping-authorization-2026-10-15.md]
 
 Try this on a public, low-stakes shopping example: allow a draft shortlist only. Write the four details a human must see before any purchase: **item, merchant, total price, and payment method**. Keep credentials out of chat, and require a separate approved checkout and explicit final confirmation. If the agent can cross from comparison to purchase without that pause, the permission dial is set too high. See [[Tool Use]] and [[Oversight]].
+
+### Activation is not authorization
+
+[WIRED's October 31 report on Meta's Muse](https://www.wired.com/story/metas-muse-could-upend-all-kinds-of-businesses-it-hasnt-yet/) contrasts Meta's activation and shopping-use figures with several merchants reporting little agent-originated purchasing. These are different measures: trying a shopping agent does not mean a transaction completed, and a completed transaction does not show that sharing credentials was wise. The report includes a bank warning against giving login details to AI assistants. ^[raw/articles/wired-muse-agent-commerce-2026-10-31.md]
+
+Try a five-minute **permission split** on a public shopping example: `may compare public listings: yes; may sign in: no; may place order: no; human confirms item, merchant, total and payment method: yes`. A rehearsal should stop at a shortlist. [[Tool Use]] covers what the agent can access; [[Oversight]] covers the proof of a completed, authorized action.
 
 ## Related Pages
 
