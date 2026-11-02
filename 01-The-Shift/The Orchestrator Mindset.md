@@ -259,6 +259,14 @@ A [decision-support prototype](https://arxiv.org/abs/2610.12666) starts with an 
 
 A [qualitative study of eight secondary computing teachers](https://arxiv.org/abs/2610.12834) found that teachers clarified their goals while inspecting AI-generated materials, not only before the first prompt. For a classroom draft, leave space for that discovery: request a lesson outline, compare it with the learning goal and likely student understanding, then revise the goal or reject the draft yourself. This is not evidence that AI-authored lessons improve student outcomes. Keep identifiable student information out of unapproved tools; see [[The School District Shift]].
 
+## Two Questions Before You Add More Agents (November 2026)
+
+**Who gets the next question?** A [new modeling preprint](https://arxiv.org/abs/2610.41129v1) studies several agents sharing one person's limited attention. In its synthetic cases, an agent can ask, look for missing information itself, or continue independent work. Its proposed scheduling rule reduced modeled costs versus three comparison rules; that is not a measured workplace time saving. For your next public-material trial, ask each agent to label a blocker `needs human choice`, `can find a source`, or `can keep working`. Answer only the human-choice blockers first. Never let an agent search private records just to avoid asking.
+
+**Better than which alternative?** A [self-updating research synthesis](https://arxiv.org/abs/2610.42001v1) reports that human–AI teams beat humans alone on average across its collected studies but lagged the *better* of human or AI working alone. That comparison is a useful design question, not proof a particular office workflow will behave the same way. Test one low-stakes task three ways—your usual method, AI draft alone, and a human-reviewed AI draft—using the same accuracy and time checks. If the team adds no value, don't add a handoff for its own sake. See [[The Workflow Lens]] and [[The Operator Mindset]].
+
+Together these checks turn the shift into a choice: reserve human attention for decisions that need it, and measure whether the workflow improves the work rather than merely increasing activity.
+
 ## Try This
 
 Take the mechanical sequences you circled in [[The Operator Mindset]] exercise. Pick the simplest one and write it as a single instruction that starts with a goal, not a step. For example, instead of "First do X, then do Y, then do Z," write: "Produce Z. You have access to X and Y. Figure out the order." Run it. Compare the result to your manual process. Where did the AI make different choices than you would have? Were they wrong, or just different?

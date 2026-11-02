@@ -65,7 +65,7 @@ Plain-language definitions of every key term.
 
 ### 00-Daily-Digests
 Daily curated research digests — what we found, what it means, and how to use it.
-→ [[00-Daily-Digests/2026-10-31|Today's Digest]] · [[00-Daily-Digests/2026-10-30|Yesterday's Digest]]
+→ [[00-Daily-Digests/2026-11-02|Today's Digest]] · [[00-Daily-Digests/2026-10-31|Previous Digest]]
 
 ---
 
@@ -85,6 +85,7 @@ _Last 7 days of activity._
 
 | Date | What Changed |
 |------|-------------|
+| 2026-11-02 | Day 1 Shift: a directly read search guide and two publisher abstracts ask which decisions need a person, which search claims need an original source, and whether a human–AI handoff beats a simpler alternative. [[The Operator Mindset]] and [[The Orchestrator Mindset]] gained short tests; [[00-Daily-Digests/2026-11-02|read today's digest]]. |
 | 2026-10-31 | Day 6 glossary: two directly read WIRED reports and a practitioner essay distinguish approval, stopping and live-repair context from activation and finished outcomes. [[Autonomy]] and [[Oversight]] gained public-task permission checks; [[00-Daily-Digests/2026-10-31|read today's digest]]. |
 | 2026-10-30 | Day 5 practice: three arXiv publisher abstracts on human planning in writing, actively reworking AI output and private reflection before disagreement. [[The Reliance Audit]] and [[The Daily Standup]] gained short exercises; [[00-Daily-Digests/2026-10-30|read today's digest]]. |
 | 2026-10-29 | Day 4 barriers: workplace rollout reporting, a community-bot privacy preprint abstract, and emergency-alert reporting clarify worker choice, nonuser data exposure and human send authority. [[The Engagement Gap]], [[The Absent Person Test]] and [[Procedural Standing]] deepened. [[00-Daily-Digests/2026-10-29|Read today's digest]]. |

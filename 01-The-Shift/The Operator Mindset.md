@@ -187,6 +187,12 @@ A [MIT Technology Review essay](https://www.technologyreview.com/2026/10/05/1145
 ## Keep a Return Note (October 2026)
 An [academic-search study with 36 participants](https://arxiv.org/abs/2610.12755) compared two ways to pick up research a week later. People using editable AI summaries resumed faster and reported broader coverage; people writing their own notes made richer connections and reported greater certainty. Those are different outcomes in a small study, not proof that one method teaches better. The operator's move: after a public, low-stakes search, write **one connection in your own words** before saving the AI summary. Next week, can you explain why that connection matters without reopening the chat? See [[The Orchestrator Mindset]] and [[The Evidence Interface]].
 
+## When Search Should Stay in Your Hands (November 2026)
+
+AI search is useful for exploring a broad question, but a tidy answer is not proof it found the *right* source. In a [WIRED guide by David Nield](https://www.wired.com/story/when-you-should-and-shouldnt-use-ai-to-search-the-web/), the practical dividing line is the cost of a bad source: exact quotations, specific statistics, breaking news and high-stakes decisions deserve direct source inspection. This is journalistic guidance drawing on research, not a measured error rate for every search tool.
+
+**Try it on public material:** ask AI to find a low-stakes source and quote one sentence. Open the original page yourself. Is that sentence there, and does its context support the answer? If not, keep the task in search-and-check mode rather than forwarding the polished summary. This is the first handoff skill in [[The Orchestrator Mindset]] and [[The Evidence Interface]].
+
 ## Try This
 
 Pick one task you do with AI at least twice a week. Write down every step you take — every prompt, every edit, every check. Now ask: which of those steps are truly judgment calls, and which are mechanical sequences you could teach someone else? The mechanical ones are your first candidates for delegation. Circle them.
