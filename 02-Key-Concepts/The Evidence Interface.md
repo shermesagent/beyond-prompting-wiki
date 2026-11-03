@@ -1,7 +1,7 @@
 ---
 title: The Evidence Interface
 created: 2026-09-13
-updated: 2026-10-27
+updated: 2026-11-03
 type: concept
 tags: [concept, workflow, orchestrator]
 sources:
@@ -14,6 +14,8 @@ sources:
   - raw/articles/mittr-robotics-demo-vs-deployment-2026-10-08.md
   - raw/articles/agentic-delegation-failures-2610.34748.md
   - raw/articles/visible-reasoning-decision-logs-2610.35483.md
+  - raw/articles/census-btos-ai-wording-2025-12-03.md
+  - raw/articles/willison-census-question-change-2026-11-02.md
 confidence: medium
 ---
 
@@ -81,6 +83,12 @@ A [study of agent-delegation failures](https://arxiv.org/abs/2610.34748) drew a 
 Another [preprint on visible decision logs](https://arxiv.org/abs/2610.35483) pairs a short rationale with the tool-derived evidence that most influenced a recommendation. In its 50-person formative evaluation, 92% said the ranked evidence helped them understand and trust the recommendation; that is **perceived usefulness**, not a measured reduction in wrong answers. A source ranking is a place to start checking, not permission to skip opening the source. ^[raw/articles/visible-reasoning-decision-logs-2610.35483.md]
 
 **Try this in five minutes:** for a draft-only summary of a public article, request `LAST COMPLETED STEP / NEXT STEP / CLAIM / EXACT SOURCE PASSAGE / WHAT I DID NOT CHECK`. Open the passage yourself. If the agent reports repeated activity without a completed step, pause and re-scope the task. If the passage does not support the claim, correct the draft before using it. This is a curator exercise, not an intervention tested in either study; use no private student or personnel data in an unapproved tool.
+
+## Keep the question with the result
+
+An AI-generated trend chart needs the exact survey question alongside its source and date. The Census Bureau says its broader AI-use wording required a new series; without that note, a line could look like adoption changed when the *measurement* changed. Simon Willison's November 2 walkthrough shows the check in practice. [Census wording note](https://www.census.gov/hfp/btos/downloads/AI%20Question%20Wording%20Updates.pdf) · [Willison's walkthrough](https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/). ^[raw/articles/census-btos-ai-wording-2025-12-03.md] ^[raw/articles/willison-census-question-change-2026-11-02.md]
+
+In five minutes, use a public chart: copy its question, population, and dates onto a note. If any changed mid-line, label the break instead of claiming a clean trend. This pairs with [[Trust Calibration]] and [[The Review-First Pattern]].
 
 ## Related Pages
 

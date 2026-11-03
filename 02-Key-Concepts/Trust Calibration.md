@@ -1,10 +1,10 @@
 ---
 title: Trust Calibration
 created: 2026-06-21
-updated: 2026-09-22
+updated: 2026-11-03
 type: concept
 tags: [concept, barrier, orchestrator]
-sources: [raw/articles/accurate-but-not-confident-acm-2026.md, raw/articles/automation-boundaries-2026.md, raw/articles/perceived-system-predictability-2607.05674.md, raw/articles/faster-ai-uneven-frontier-2607.12125.md, raw/articles/how-agentic-is-agentic-commerce-2607.12575.md, raw/articles/calibrating-trustworthiness-education-2608.04006.md, raw/articles/transparency-trap-disclaimers-2608.07493.md, raw/articles/wearing-trust-wearables-2608.08856.md, raw/articles/rating-the-pitch-expectations-2607.05113.md, raw/articles/govtech-utah-edtech-privacy-audit-2026-09-04.md, raw/articles/explanation-navigator-leaky-explanations-2609.22707.md]
+sources: [raw/articles/accurate-but-not-confident-acm-2026.md, raw/articles/automation-boundaries-2026.md, raw/articles/perceived-system-predictability-2607.05674.md, raw/articles/faster-ai-uneven-frontier-2607.12125.md, raw/articles/how-agentic-is-agentic-commerce-2607.12575.md, raw/articles/calibrating-trustworthiness-education-2608.04006.md, raw/articles/transparency-trap-disclaimers-2608.07493.md, raw/articles/wearing-trust-wearables-2608.08856.md, raw/articles/rating-the-pitch-expectations-2607.05113.md, raw/articles/govtech-utah-edtech-privacy-audit-2026-09-04.md, raw/articles/explanation-navigator-leaky-explanations-2609.22707.md, raw/articles/clarifying-questions-reliance-2611.01087.md, raw/articles/census-btos-ai-wording-2025-12-03.md, raw/articles/willison-census-question-change-2026-11-02.md]
 confidence: high
 ---
 
@@ -264,6 +264,14 @@ The orchestrator habit: whenever an AI explains something, ask one extra questio
 See also: [[Metacognitive Demand]] · [[The Evidence Interface]]
 
 ## Try This
+
+### A good question is not a quality check (November 2026)
+
+In a controlled study of 180 people across six everyday decision scenarios, an assistant that asked clarifying questions felt more understanding and satisfying. But participants then spent *less* time reviewing its recommendations and accepted more unchanged, including answers that violated stated constraints. Violations near the topic of the clarifying question were especially likely to be accepted. These are experimental decisions, not evidence that every workplace agent behaves this way. [Zheng and colleagues, preprint abstract](https://arxiv.org/abs/2611.01087v1). ^[raw/articles/clarifying-questions-reliance-2611.01087.md]
+
+**Five-minute check:** On a public, low-stakes recommendation, write one non-negotiable rule before the AI asks questions. Answer its clarification, then check its final answer against that *original* rule. Mark `met / broken / cannot tell`. Feeling heard is useful; it is not the same as having your rule followed. See [[The Preference Check]] and [[The Evidence Interface]].
+
+The same caution applies to questions behind a chart. The [U.S. Census Bureau's wording note](https://www.census.gov/hfp/btos/downloads/AI%20Question%20Wording%20Updates.pdf) says its business AI-use question changed from use in “producing goods or services” to use in “any of its business functions,” and it started a new time series because of a level shift. [Simon Willison's walkthrough](https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/) traces the change on a chart. This is not evidence that adoption jumped overnight: **before comparing two points, check whether the question stayed the same**. ^[raw/articles/census-btos-ai-wording-2025-12-03.md] ^[raw/articles/willison-census-question-change-2026-11-02.md]
 
 **5-Minute Exercise: Build a Trust Map**
 

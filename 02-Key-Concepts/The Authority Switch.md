@@ -1,12 +1,13 @@
 ---
 title: The Authority Switch
 created: 2026-08-18
-updated: 2026-08-18
+updated: 2026-11-03
 type: concept
-tags: [concept, delegation, orchestrator, architect]
+tags: [concept, workflow, orchestrator, architect]
 sources:
   - raw/articles/principled-authority-switching-2608.16293.md
   - raw/articles/hallucination-snowball-2608.14588.md
+  - raw/articles/agent-interaction-failure-2611.00291.md
 confidence: high
 ---
 
@@ -60,6 +61,13 @@ You're running on designed switches when you can name three things for any deleg
 
 ## Try This
 
+### The space between checkpoints matters
+
+A new preprint classified 695 **documented incidents from two public repositories** into 12 human–agent interaction failure modes. Every mode appeared at both low and high autonomy, but the way it appeared changed as agents did more between human check-ins. This is a map of reported incidents, **not** an incidence rate for your workplace or evidence that an intervention works. [Wang and colleagues, publisher abstract](https://arxiv.org/abs/2611.00291v1). ^[raw/articles/agent-interaction-failure-2611.00291.md]
+
+For one *public, draft-only* task, mark the first point where the agent could act without showing you its work. Add a return point **before** any external send or change: `show the next action / show the evidence / wait for approval`. If you cannot pause there, keep the agent at a lower independence level. See [[The Evidence Interface]] and [[The Review-First Pattern]].
+
+
 **The take-back clause.** Add one sentence to your next delegation brief: *"Report back when X, or if Y, or if you're unsure about Z."* That's a handback condition with a trigger. Then exercise the override on purpose: interrupt the agent at a boundary (or mid-run, on a cheap task) and watch what happens. Does the workflow absorb the interruption — checkpoint, report, resume — or does it crash, restart, or lose state? That behavior *is* your current authority-switch policy. Now you know what it is, and whether it's the one you wanted.
 
 ## Related Pages
@@ -68,4 +76,4 @@ You're running on designed switches when you can name three things for any deleg
 
 ## Tags
 
-#concept #delegation #orchestrator #architect
+#concept #workflow #orchestrator #architect
