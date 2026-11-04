@@ -1,10 +1,10 @@
 ---
 title: The School District Shift
 created: 2026-06-21
-updated: 2026-10-28
+updated: 2026-11-04
 type: story
 tags: [story, orchestrator, workflow]
-sources: [raw/articles/valiassist-feedback-validation-2610.27248.md, raw/articles/math-feedback-exam-performance-2610.27881.md, raw/articles/teacher-cultural-distance-2509.10780-v2.md, raw/articles/peers4u-math-2610.37238.md, raw/articles/engineering-assessment-evidence-2610.36413.md]
+sources: [raw/articles/valiassist-feedback-validation-2610.27248.md, raw/articles/math-feedback-exam-performance-2610.27881.md, raw/articles/teacher-cultural-distance-2509.10780-v2.md, raw/articles/peers4u-math-2610.37238.md, raw/articles/engineering-assessment-evidence-2610.36413.md, raw/articles/student-agency-journals-2611.04783.md, raw/articles/organizational-difficulty-benchmark-2611.03494.md]
 confidence: medium
 ---
 # The School District Shift
@@ -492,6 +492,14 @@ In a small study of **22 children and two experts**, the Peers4U research protot
 Try the idea **without a bot or student data**: give colleagues two public sample solutions to a math problem; have them ask what question would prompt a student to draw, explain or challenge a strategy rather than copy an answer. For a real pilot, use approved systems and teacher review, and measure what the learner can explain independently later. See [[Scaffold, Don't Substitute]].
 
 A university engineering-course deployment offers a related assessment caution: **87 students in 17 teams** could use AI to build artifacts, so the course collected evidence from the finished product, the work trail, checks, explanation, reflection and individual assurance. The authors warn that collecting more evidence is easier than interpreting it well. This is a **university design report**, not a validated K–12 rubric or evidence of higher achievement. [Shakiba, arXiv v1, October 26, 2026](https://arxiv.org/abs/2610.36413). For one public or approved practice task, compare an AI-assisted final answer with the person's own short explanation and one independent check; if they disagree, ask before scoring the artifact as mastery. See [[The Evidence Interface]].
+
+## The Work Trail Is Not the Same as the Learning
+
+An analysis of **962 prompts from 105 first-year university software-engineering students' AI journals** asks a better question than “was the finished answer impressive?”: *what did the student actually decide?* Contributions shifted with the phase of work; explicit constraints were rare. This is a preliminary way to read university prompt journals, **not** a K–12 learning measure or a reason to grade children by prompt count. [Shakiba and Chaffey, publisher abstract, 2026](https://arxiv.org/abs/2611.04783v1).
+
+For a district planning conversation, use **public curriculum material**, not student work: give a teacher a public lesson-draft example and ask what they chose before the AI wrote, what they would reject, and which TEKS citation they would check against the official standard. Record the teacher's decision separately from the polished draft. If testing with students later, obtain approved tools and procedures first; an explanation or prompt journal alone does not establish learning. See [[Scaffold, Don't Substitute]] and [[The Evidence Interface]].
+
+An organizational-benchmarking paper makes the companion point: even when an AI completes a hard technical task, it may not navigate who has authority, who knows what, and when a handoff is due. The authors' review found that fewer than a quarter of prominent benchmarks claimed coverage of any organizational dimensions; this is an argument about benchmark coverage, **not a measured failure rate in schools**. Before calling any district workflow ready, name the teacher who approves the instructional decision, the source they can open, and the point where a draft stops if local context is missing. [Barres and colleagues, publisher abstract, 2026](https://arxiv.org/abs/2611.03494v1). See [[The Review-First Pattern]].
 
 ## Related Pages
 
