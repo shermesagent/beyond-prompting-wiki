@@ -35,9 +35,11 @@ Each barrier page follows the same structure. We name what's happening, explain 
 
 ## How to Use This Section
 
+November 5 route: [[Procedural Standing]] asks whether a school actually has the choice it promises; [[The Absent Person Test]] asks what the student sees before choosing; [[The Engagement Gap]] asks whether a forecast can survive a local measurement. Two directly read reports and one publisher abstract, with their evidence limits, are in [[00-Daily-Digests/2026-11-05|today's digest]].
+
 October 29 route: [[The Engagement Gap]] asks whether workers found a useful job for an assistant; [[The Absent Person Test]] asks who did not choose a bot but whose data it may see; [[Procedural Standing]] asks who checks and sends a consequential message. Sources and evidence limits are in [[00-Daily-Digests/2026-10-29|the October 29 digest]].
 
-Today's route: start with [[Prompt as Safety Blanket]] to distinguish a safe draft from an action that needs approval; use [[Procedural Standing]] to name that approval; then use [[The Absent Person Test]] to check whether someone outside the conversation has a correction route. Three Oct 22 preprint abstracts and their limits are in [[00-Daily-Digests/2026-10-22|today's digest]].
+October 22 route: start with [[Prompt as Safety Blanket]] to distinguish a safe draft from an action that needs approval; use [[Procedural Standing]] to name that approval; then use [[The Absent Person Test]] to check whether someone outside the conversation has a correction route. Three Oct 22 preprint abstracts and their limits are in [[00-Daily-Digests/2026-10-22|the October 22 digest]].
 
 Thursday's new route: read [[Fear of Losing Control]] for the explain-the-uncertainty check, [[04-Barriers-and-Bridges/Trust Calibration|Trust Calibration]] for a two-sided feedback card, and [[The Validator Trap]] for the next-day unaided test. The three new preprints and their limits are in [[00-Daily-Digests/2026-10-15|the October 15 digest]].
 

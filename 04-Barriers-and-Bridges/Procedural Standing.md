@@ -1,7 +1,7 @@
 ---
 title: Procedural Standing
 created: 2026-09-17
-updated: 2026-10-29
+updated: 2026-11-05
 type: concept
 tags: [barrier, mindset, orchestrator]
 sources:
@@ -17,6 +17,8 @@ sources:
   - raw/articles/auto-purchase-permission-2610.29216.md
   - raw/articles/agent-privacy-controls-2610.29929.md
   - raw/articles/grist-wired-ai-emergency-alerts-2026-10-28.md
+  - raw/articles/wired-school-search-ai-overviews-2026-11-04.md
+  - raw/articles/whose-transparency-needs-2611.05549.md
 confidence: medium
 ---
 
@@ -105,6 +107,14 @@ In an October shopping-agent benchmark, 15 people *role-played* purchasers and i
 Grist's reporting, copublished by WIRED, describes an inaccurate AI-made weather graphic and a revised flood alert whose location and update-source fields still needed filling. One emergency manager told the reporter he had tried AI on practice alerts but would keep control of sending them. The report says a vendor has government and school-district customers, **not** that those customers automate extreme-weather alerts. It is a reminder that an easier-to-read draft can still be geographically wrong or incomplete. ^[raw/articles/grist-wired-ai-emergency-alerts-2026-10-28.md]
 
 **Five-minute rehearsal using a clearly fictional notice:** underline every place, time, action and update source; mark any placeholder `UNVERIFIED`. Write the named official source for each factual claim and the human who may approve sending. If either is missing, leave the notice unsent. In a real emergency, use the organization's approved alert process and qualified decision-maker—never publish an AI rehearsal. [[The Absent Person Test]] asks who receives the warning; [[The Evidence Ticket]] records the verification.
+
+## When the Choice Is Bundled
+
+WIRED reports that Google plans to let schools choose Search, Gemini and Notebook separately next year, but not turn off AI Overviews while keeping Search. Some schools use browser workarounds; those are not supported administrator controls and could break. This is a reported platform policy, not a finding about any particular district's present settings. ^[raw/articles/wired-school-search-ai-overviews-2026-11-04.md]
+
+A survey of 400 end-users, builders and policymakers found a gap between what users want to see and what builders believe is available; only 28% of surveyed end-users said transparency practices met their needs very well. That is a respondent figure, not a universal adoption rate. ^[raw/articles/whose-transparency-needs-2611.05549.md]
+
+**The bridge:** ask the person who uses Search what they need to do *before* an AI answer appears: inspect originals, bypass a summary, or correct a mistaken claim. Then have an administrator verify the actual controls in the approved environment. If a separate off switch is unavailable, say so plainly and offer an approved alternative or a human-led source-check lesson; do not promise a setting you have not tested. [[The Absent Person Test]] covers the students and families missing from that decision.
 
 ## Related Pages
 

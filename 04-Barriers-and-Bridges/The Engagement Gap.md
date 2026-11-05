@@ -1,7 +1,7 @@
 ---
 title: The Engagement Gap
 created: 2026-07-04
-updated: 2026-10-29
+updated: 2026-11-05
 type: concept
 tags: [barrier, orchestrator, workflow]
 confidence: high
@@ -12,6 +12,7 @@ sources:
   - raw/articles/ai-adaptation-gap-higher-ed-2608.25063.md
   - raw/articles/wired-macmillan-noa-rollout-2026-10-28.md
   - raw/articles/words-deeds-dialogue-prediction-2610.36813.md
+  - raw/articles/wired-uk-ai-forecast-sponsor-2026-11-04.md
 ---
 
 # The Engagement Gap
@@ -114,6 +115,12 @@ WIRED's Macmillan reporting describes a workplace chatbot that staff say was int
 In a small repeated-game preprint, models that added participants' statements to their past decisions did not improve overall prediction; they leaned too heavily on promises that some participants did not keep. This is an artificial game with 42 users, **not a finding that staff misreport AI use**. Its narrow workplace analogy is useful: stated enthusiasm at a kickoff is not the same as an optional tool solving a real task. ^[raw/articles/words-deeds-dialogue-prediction-2610.36813.md]
 
 **Try this:** invite a voluntary, public-material draft trial. Ask whether the worker kept, changed or discarded the result and why. Do not score an employee's attitude or monitor private tool use as a substitute for asking; retain a human path that works without the AI. [[Human Readiness Archetypes]] helps you meet different starting points without making adoption mandatory.
+
+## A Big Forecast Is Not an Adoption Plan
+
+WIRED reports that UK officials repeatedly cited a £400 billion potential AI benefit from a Google-commissioned 2023 report, while a later government estimate gave a £120 billion central figure by 2030 and a £55 billion–£140 billion range. The report's producer says differing adoption assumptions partly explain the change. These are uncertain forecasts, **not** measured savings or evidence about any school system's return. ^[raw/articles/wired-uk-ai-forecast-sponsor-2026-11-04.md]
+
+**The bridge:** before a team hears a headline productivity promise, put four questions beside it: Who funded this number? What year and adoption assumptions produced it? What would a successful *local* pilot measure? What would make us stop or revise? On a public-material draft, record the actual time saved *and* the time spent checking; never treat tool activation as proof of a benefit. [[The Evidence Ticket]] makes the claim checkable; [[Procedural Standing]] gives workers a route to challenge the plan.
 
 ## Related Pages
 

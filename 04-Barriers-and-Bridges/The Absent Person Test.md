@@ -1,7 +1,7 @@
 ---
 title: The Absent Person Test
 created: 2026-09-24
-updated: 2026-10-29
+updated: 2026-11-05
 type: concept
 tags: [barrier, mindset, orchestrator]
 sources:
@@ -14,6 +14,8 @@ sources:
   - raw/articles/agent-privacy-controls-2610.29929.md
   - raw/articles/privacy-under-uncertainty-2610.29756.md
   - raw/articles/discord-community-bot-privacy-2610.36626.md
+  - raw/articles/wired-school-search-ai-overviews-2026-11-04.md
+  - raw/articles/whose-transparency-needs-2611.05549.md
 confidence: medium
 ---
 
@@ -75,6 +77,12 @@ An October preprint examined how privacy choices can look inconsistent when peop
 An October preprint analyzed reviews of third-party Discord bots. Its publisher abstract reports 8,832 security/privacy-related reviews found through a classifier and manual validation among 183,142 reviews; this **4.82% pipeline yield is not a harm rate**. Installation is an administrator's choice, but the bot may access messages and profiles belonging to other members. The study does not establish what any one bot collected. ^[raw/articles/discord-community-bot-privacy-2610.36626.md]
 
 **Try this on paper, not in a live group:** draw three columns—installer, member, bot. Under each, write what they can see and who can remove the bot. If the member has no notice or contact route, ask the system owner before adding the bot. For a school group, use only district-approved tools and data practices; this exercise is not consent or a compliance ruling. [[Procedural Standing]] covers the route back in.
+
+## The Student Who Did Not Choose the Search Result
+
+WIRED reports that Google's planned school Search settings will bundle AI Overviews with Search rather than offer a separate off switch. That is a platform choice, not evidence of harm to a particular student or proof of any district's current configuration. A separate survey of 400 stakeholders found that end-users reported a larger gap in usable transparency than builders did. Together, these sources suggest an absent-person question: **what can a student do if the AI summary appears before they have practiced reading the original sources?** ^[raw/articles/wired-school-search-ai-overviews-2026-11-04.md] ^[raw/articles/whose-transparency-needs-2611.05549.md]
+
+**Try this without student data:** on a public topic, have an adult compare the overview against two original sources. Write down whether a student could reach those sources and whether an educator could choose an approved search route that does not place a generated answer first. Ask the district technology lead about actual settings before promising an opt-out. [[Procedural Standing]] provides the usable alternative and correction route; [[The Evidence Interface]] provides the original-source check.
 
 ## Related Pages
 
