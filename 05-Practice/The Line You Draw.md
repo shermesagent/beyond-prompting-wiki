@@ -1,7 +1,7 @@
 ---
 title: The Line You Draw
 created: 2026-07-02
-updated: 2026-10-25
+updated: 2026-11-06
 type: practice
 tags: [practice, operator, orchestrator, mindset]
 confidence: high
@@ -12,6 +12,8 @@ sources:
   - raw/articles/ai-leaves-tailorshop-2610.00163.md
   - raw/articles/wired-chatgpt-mac-permission-flaw-2026-10-02.md
   - raw/articles/stratechery-presented-by-stripe-2026-10.md
+  - raw/articles/wired-aina-approval-ring-2026-11-05.md
+  - raw/articles/thinking-is-not-writing-2611.07792.md
 ---
 
 # The Line You Draw
@@ -174,6 +176,12 @@ Your line is not only *which task*. It is also **when help starts**, **whether y
 **Try this in five minutes on a public task:** (1) write your own first sentence before opening AI; (2) after its suggestion, write one change you made and why; (3) list the accounts, files or browser connections you would *not* grant it. For a school task, do not paste student or personnel records into an unapproved tool. The first two steps protect your thinking; the third limits what a compromised or misdirected agent could touch. Take the resulting choice to [[First Delegation]], and test its decisive reason with [[The Reversal Condition]].
 **Who holds the infrastructure?** In a [first-person disclosure](https://stratechery.com/2026/presented-by-stripe/), Ben Thompson says Stripe sponsors Stratechery and powers its billing/access software; he claims editorial independence while acknowledging the conflict. That is not an outside audit. ^[raw/articles/stratechery-presented-by-stripe-2026-10.md]
 **Two-minute check:** for one AI-assisted task using public material, name the provider, who can change the rules, where a conflict would be disclosed and who can continue the work if the provider fails. See [[The Control Surface]]'s stop/restore handle and [[The Failure Review]]'s incident record.
+
+## The Slow-Yes Rehearsal (November 2026)
+
+A newly announced ring offers a small screen and a quick yes/no for agent actions, including a proposed ride or lateness email. That is a product design claim, not evidence that quick approvals protect good decisions. [Chokkattu, WIRED](https://www.wired.com/story/aina-smart-ring/). A separate 65-student classroom preprint suggests a different kind of pause in writing: idea-level discussion was more common with a questioning chatbot, and moving from an idea to a revision was *associated* with score gains. This does not validate the rehearsal below or establish an effect in your school. [Favero and colleagues, publisher abstract](https://arxiv.org/abs/2611.07792v1).
+
+**Try this in five minutes, on paper and with a public or fictional task:** write `ACTION: exactly what happens if I say yes / ACCESS: which accounts or data it needs / PROOF: what I would see afterward / UNDO: how I would stop or reverse it`. For a draft, replace ACTION with `MY REASON / QUESTION I ASKED / SENTENCE I REVISED MYSELF`. If you cannot fill a line, keep the action or draft on hold. Add the source and exact approved version to [[The Evidence Ticket]]; carry the permission boundary into [[First Delegation]]. Do not connect live student or staff accounts for this test.
 
 ## Common Pitfalls
 

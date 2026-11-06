@@ -18,6 +18,8 @@ This is where the operator→orchestrator shift stops being something you read a
 | 5 | [[The Evidence Ticket]] | 3 min | Require one short proof trail before AI output leaves your scratch space |
 
 ## Ongoing Practice
+November 6's five-minute slow-yes route: rehearse an agent approval on paper with [[The Line You Draw]], then use [[The Evidence Ticket]] to check a recommendation's sponsor, original source and possible conversation-data path. For writing, ask a question about your reason and make one revision yourself. [[00-Daily-Digests/2026-11-06|Read today's digest]] for two directly read reports, one classroom publisher abstract and their limits. Use public or fictional material; do not connect real student or staff accounts.
+
 October 30's three-minute route: write your plan before a public-material draft, note the part AI did, and name one decision you changed. For a low-stakes group discussion, prepare one genuine question before you meet. [[The Reliance Audit]] has the Plan–Draft–Change note; [[The Daily Standup]] has the before-meeting rehearsal. [[00-Daily-Digests/2026-10-30|Read the October 30 digest]] for three publisher abstracts and their limits. No identifiable student or staff records in unapproved tools.
 
 October 23's two-day route: write your own goal and first step before using AI on a public or fictional task. Log what you accepted or changed in [[The Reliance Audit]], then use [[The Daily Standup]] tomorrow to try a fresh step unaided. [[00-Daily-Digests/2026-10-23|Read today's digest]] for three new preprint abstracts and their limits. This is a rehearsal, not a validated learning test; keep identifiable student and staff information out of unapproved tools.

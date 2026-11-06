@@ -1,7 +1,7 @@
 ---
 title: The Evidence Ticket
 created: 2026-09-18
-updated: 2026-10-16
+updated: 2026-11-06
 type: practice
 tags: [practice, orchestrator, workflow]
 confidence: high
@@ -21,6 +21,8 @@ sources:
   - raw/articles/wired-amazon-data-center-ndas-2026-10-02.md
   - raw/articles/intent-graph-analytical-paths-2610.11025.md
   - raw/articles/child-ai-verification-styles-2610.21233.md
+  - raw/articles/wired-chatbot-ads-context-2026-11-05.md
+  - raw/articles/wired-aina-approval-ring-2026-11-05.md
 ---
 
 # The Evidence Ticket
@@ -145,6 +147,12 @@ An AI-made chart can look finished while hiding how a broad question became that
 In a preliminary game-based study with children aged 8–10, a partner-like AI tended to prompt direct questions while a tool-like presentation was more associated with looking for evidence. This is a small exploratory study, **not** a tested teaching strategy or proof that one interface is safer. The transferable practice is to distinguish asking the AI from checking a source independently. [Liu and colleagues, preprint](https://arxiv.org/abs/2610.21233).
 
 **Try this (3 minutes):** with a public, non-sensitive claim, first write one question you would ask the AI; then locate one independent source that could prove or disprove its answer. Put both in the ticket under `Question asked` and `Evidence checked outside the AI`. If the external source is unavailable, leave the claim unverified. For student-facing use, obtain district approval first and do not put identifiable student work into an unapproved service. The handoff choice belongs in [[First Delegation]]; a follow-up check belongs in [[The Daily Standup]].
+
+## When a Suggestion Looks Like Help (November 2026)
+
+AI recommendations can arrive as ads shaped by a conversation. WIRED reports that one ad provider typically receives the conversation up to the ad request; its statements about de-identification and click performance were not independently audited in the article. The same report says it does **not** yet serve ads in apps with autonomous shopping agents; future agent-targeted ads are a possibility, not a measured current outcome. A separate WIRED report describes a ring designed to make agent approvals quick and show a confirmation afterward; that confirmation is a proposed interface feature, not independent proof of a good decision. [Dave on chatbot ads](https://www.wired.com/story/ads-in-chatbots-have-arrived-heres-whats-working-and-whats-not/) · [Chokkattu on the ring](https://www.wired.com/story/aina-smart-ring/).
+
+**Try this with a public product comparison (3 minutes):** add `SPONSOR: who paid for the suggestion? / CONTEXT: what part of my conversation could have been shared? / INDEPENDENT CHECK: what original source supports the claim?` to your ticket. For any suggested action, also fill `exact action / human approval / confirmation / undo route` before saying yes. If you cannot tell what was shared or who sponsored the recommendation, do not treat it as neutral advice. Use [[The Line You Draw]] for the slow-yes rehearsal and [[The Absent Person Test]] for people affected by a fast approval. No private chats or student records in an unapproved service.
 
 ## Related Pages
 

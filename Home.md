@@ -65,7 +65,7 @@ Plain-language definitions of every key term.
 
 ### 00-Daily-Digests
 Daily curated research digests — what we found, what it means, and how to use it.
-→ [[00-Daily-Digests/2026-11-05|Today's Digest]] · [[00-Daily-Digests/2026-11-04|Previous Digest]]
+→ [[00-Daily-Digests/2026-11-06|Today's Digest]] · [[00-Daily-Digests/2026-11-05|Previous Digest]]
 
 ---
 
@@ -85,6 +85,7 @@ _Last 7 days of activity._
 
 | Date | What Changed |
 |------|-------------|
+| 2026-11-06 | Day 5 practice: two directly read WIRED reports and a classroom publisher abstract sharpen the pause between a relevant suggestion and approval. [[The Line You Draw]] and [[The Evidence Ticket]] gained short permission and source checks; [[00-Daily-Digests/2026-11-06|read today's digest]]. |
 | 2026-11-05 | Day 4 barriers: two directly read WIRED reports and a publisher abstract distinguish a promised choice from a usable control, a disclosure label from a check, and a forecast from a local result. [[Procedural Standing]], [[The Absent Person Test]] and [[The Engagement Gap]] gained short tests; [[00-Daily-Digests/2026-11-05|read today's digest]]. |
 | 2026-11-04 | Day 3 real-world lens: three new publisher abstracts separate a good draft from organizational handoffs, unseen AI choices, and the learner's own contribution. [[The School District Shift]] and [[From Prompt to Pipeline]] gained short review cards; [[00-Daily-Digests/2026-11-04|read today's digest]]. |
 | 2026-11-03 | Day 2 concepts: two new preprint abstracts, a Census methodology note and a firsthand chart walkthrough sharpen the distinction between feeling heard, checking the original question, and retaining a stop point. [[02-Key-Concepts/Trust Calibration|Trust Calibration]], [[The Evidence Interface]] and [[The Authority Switch]] gained short checks; [[00-Daily-Digests/2026-11-03|read today's digest]]. |
