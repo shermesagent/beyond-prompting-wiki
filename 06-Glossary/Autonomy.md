@@ -1,10 +1,10 @@
 ---
 title: Autonomy
 created: 2026-06-21
-updated: 2026-10-31
+updated: 2026-11-07
 type: concept
 tags: [glossary, architect, concept]
-sources: [raw/articles/anthropic-agent-autonomy-in-practice-2026.md, raw/articles/nist-ai-rmf-playbook-2026.md, raw/articles/wired-tesla-assisted-driving-name-2026-10-09.md, raw/articles/zvi-shopping-authorization-2026-10-15.md, raw/articles/wired-muse-agent-commerce-2026-10-31.md]
+sources: [raw/articles/anthropic-agent-autonomy-in-practice-2026.md, raw/articles/nist-ai-rmf-playbook-2026.md, raw/articles/wired-tesla-assisted-driving-name-2026-10-09.md, raw/articles/zvi-shopping-authorization-2026-10-15.md, raw/articles/wired-muse-agent-commerce-2026-10-31.md, raw/articles/mittr-teleoperated-cleaning-robot-2026-11-06.md]
 confidence: medium
 ---
 # Autonomy
@@ -101,6 +101,12 @@ Try this on a public, low-stakes shopping example: allow a draft shortlist only.
 [WIRED's October 31 report on Meta's Muse](https://www.wired.com/story/metas-muse-could-upend-all-kinds-of-businesses-it-hasnt-yet/) contrasts Meta's activation and shopping-use figures with several merchants reporting little agent-originated purchasing. These are different measures: trying a shopping agent does not mean a transaction completed, and a completed transaction does not show that sharing credentials was wise. The report includes a bank warning against giving login details to AI assistants. ^[raw/articles/wired-muse-agent-commerce-2026-10-31.md]
 
 Try a five-minute **permission split** on a public shopping example: `may compare public listings: yes; may sign in: no; may place order: no; human confirms item, merchant, total and payment method: yes`. A rehearsal should stop at a shortlist. [[Tool Use]] covers what the agent can access; [[Oversight]] covers the proof of a completed, authorized action.
+
+### Who is actually doing the work?
+
+In [Grace Huckins's November 6 firsthand test](https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/), a cleaning robot depended heavily on remote human pilots. During one visit, equipment used by its operator to watch the job overheated and the service stopped early; a later visit went better. The company says some tasks can be done without human help, but this two-visit account does not establish general autonomy. Cameras in a private home also make the operator's access part of the story. ^[raw/articles/mittr-teleoperated-cleaning-robot-2026-11-06.md]
+
+Before calling a tool autonomous, try a five-minute **hidden-human check** on a public or fictional workflow: `who is watching / who makes the hard move / what can they see / what happens if they disconnect`. If a remote person is doing the task, describe it as assisted work rather than independent AI. If you cannot answer the visibility question, narrow access. [[Human in the Loop]] covers that person's real duties; [[Tool Use]] covers what they can reach.
 
 ## Related Pages
 

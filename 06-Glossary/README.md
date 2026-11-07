@@ -26,6 +26,8 @@ The [[00-Daily-Digests/2026-10-24|October 24 digest]] connects [[Orchestration]]
 
 The [[00-Daily-Digests/2026-10-31|October 31 digest]] sharpens two more terms: [[Autonomy]] is permission for a specific action, not a count of people trying an agent; [[Oversight]] needs a real stop owner, a live-repair brief, and one independently checked result. Try the public-task permission split before giving any agent access.
 
+The [[00-Daily-Digests/2026-11-07|November 7 digest]] adds a hidden-human check: [[Human in the Loop]] needs a record maintainer, [[Autonomy]] asks who is actually operating the service, and [[Tool Use]] separates reading a file from exporting or training on it. Try the paper-only handoff card before adding access.
+
 ## Glossary Entries
 
 | Term | What It Answers | For |

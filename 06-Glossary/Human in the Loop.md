@@ -1,11 +1,12 @@
 ---
 title: Human in the Loop
 created: 2026-06-21
-updated: 2026-10-18
+updated: 2026-11-07
 type: concept
 tags: [glossary, orchestrator, concept]
 sources:
   - raw/articles/wired-turkle-human-loop-2026-10-16.md
+  - raw/articles/wired-caregiver-apps-ai-2026-11-07.md
 confidence: medium
 ---
 
@@ -73,6 +74,12 @@ This is the practical translation of the recent swarm findings: agents and revie
 ### The Reviewer's Right to Change Things
 
 In a [WIRED interview](https://www.wired.com/story/maybe-chatbots-shouldnt-get-to-say-i-or-me/), Sherry Turkle warns that a nominal human reviewer can be left cleaning up errors without the staffing or authority to improve the process. This is her critique, not a measured rate of failed oversight. The useful cross-section check: **time, stop, change**. Can the reviewer make time to inspect an example, halt its release, and change the workflow after finding a problem? If one answer is no, put the workflow back in draft-only mode until a person can exercise that right. This turns [[Oversight]] from a label into a tested capability. ^[raw/articles/wired-turkle-human-loop-2026-10-16.md]
+
+### A human handoff needs a maintainer
+
+[Jaclyn Greenberg's November 7 caregiver report](https://www.wired.com/story/apps-for-caregivers-get-a-dose-of-ai-but-that-might-not-be-enough/) shows the appeal of a shared care record: someone covering the next shift can see appointments and questions. But a caregiver trainer says the work of updating those records often falls back on families when professionals do not enter changes. A bioethicist warns that consumer-app data may not carry the protections a user assumes. This is reporting and a firsthand experience, not evidence that one app improves care. ^[raw/articles/wired-caregiver-apps-ai-2026-11-07.md]
+
+The loop has an **update owner**, not just an approver. On paper with fictional details, rehearse a shift handoff: `what changed / who enters it / who checks that the summary is current / who may see it`. If nobody owns the update, don't present an AI-generated summary as the current care plan. The same test works for a public project brief; never trial a casual tool with patient, student or personnel records. [[Memory]] is useful only if its source can be corrected, and [[Oversight]] needs to know which version it checked.
 
 ## Related Pages
 

@@ -1,10 +1,10 @@
 ---
 title: Tool Use
 created: 2026-06-21
-updated: 2026-10-17
+updated: 2026-11-07
 type: concept
 tags: [glossary, architect, concept]
-sources: [raw/articles/wired-comedian-origin-2026-10-16.md, raw/articles/zvi-shopping-authorization-2026-10-15.md]
+sources: [raw/articles/wired-comedian-origin-2026-10-16.md, raw/articles/zvi-shopping-authorization-2026-10-15.md, raw/articles/wired-workflow-data-sales-2026-11-06.md]
 confidence: medium
 ---
 # Tool Use
@@ -44,6 +44,12 @@ For a low-risk task, ask for **the source inputs, tools used, intermediate check
 A tool can *read* a file without having permission to reuse its contents in a public post. It can draft a purchase comparison without permission to send payment details or place an order. [WIRED's reporting](https://www.wired.com/story/ai-generated-hot-girls-are-ripping-off-comedians-to-boost-their-horny-content/) on AI-presented accounts repeating comedians' routines illustrates the first gap; [Zvi's shopping example](https://thezvi.substack.com/p/ai-190-scion-of-the-times) illustrates the second. One is reporting on alleged copying, the other commentary on a proposal—not measured failure rates. ^[raw/articles/wired-comedian-origin-2026-10-16.md] ^[raw/articles/zvi-shopping-authorization-2026-10-15.md]
 
 **Five-minute tool inventory:** for each connected tool, write what the agent may **read**, **reuse in a draft**, and **send or publish**. Add a separate **spend** permission if relevant. Example with public articles: read for research; quote with attribution only after checking rights; release only after human review. Don't feed private student or staff records into an unapproved service, and never paste a card image into chat. If any permission is unclear, keep the agent in draft-only mode. Pair this with [[Autonomy]] for the permission dial and [[Oversight]] for the approval checkpoint.
+
+### Reading a file is not permission to sell its history
+
+[Steven Levy's November 6 reporting](https://www.wired.com/story/ai-companies-really-really-want-to-buy-your-work-files-and-emails/) describes pitches to license workplace email, documents and messages as AI training data. Vendors say they remove identifying details; a privacy advocate warns that unstructured messages can still reveal health and family information. The reported Spirit Airlines data sale was on hold amid a union objection. Neither vendor privacy claims nor the size of this market were independently verified in the article. ^[raw/articles/wired-workflow-data-sales-2026-11-06.md]
+
+Add a fourth line to the tool inventory: **retain, export or train on these files: who explicitly authorized that?** The right to read a record for today's draft is not the right to transfer its history to another company. On a fictional team-folder example, mark the owner for read, share, retain and training rights separately. If the folder contains messages about people who did not agree to the transfer, do not test it in a third-party tool; ask your privacy or records lead first. [[Oversight]] checks the handoff, and [[Human in the Loop]] names the person who can stop it.
 
 ## Related Pages
 
