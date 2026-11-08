@@ -1,7 +1,7 @@
 ---
 title: The Control Surface
 created: 2026-09-21
-updated: 2026-10-25
+updated: 2026-11-08
 type: concept
 tags: [concept, workflow, orchestrator, architect]
 sources:
@@ -21,6 +21,8 @@ sources:
   - raw/articles/wired-php-meltdown-2026-10-24.md
   - raw/articles/zvi-hackening-2026-10-23.md
   - raw/articles/stratechery-presented-by-stripe-2026-10.md
+  - raw/articles/wired-nyt-recipe-modifier-2026-11-08.md
+  - raw/articles/wired-refrigeration-fail-safe-2026-11-08.md
 confidence: medium
 ---
 
@@ -121,6 +123,14 @@ A security report separates three things that often blur together: a flaw was fo
 Zvi's [account](https://thezvi.substack.com/p/the-hackening) relays an Internet Archive operator's description of a brief shutdown and human-led AI-assisted repair; that account is not independently verified here. It nevertheless gives the control surface one more handle: **change ownership**—the person who authorizes a fix and knows the restore route. A separate [first-person sponsorship disclosure](https://stratechery.com/2026/presented-by-stripe/) names Stripe as both sponsor and critical billing/access infrastructure for Stratechery. That does not prove editorial dependence; it illustrates why a dependency and its possible conflict should be visible even when a contract promises independence. ^[raw/articles/zvi-hackening-2026-10-23.md] ^[raw/articles/stratechery-presented-by-stripe-2026-10.md]
 
 **Try this on a public-data, non-production workflow:** write `DEPENDENCY / CHANGE OWNER / OFFICIAL CHECK / TEST RESULT / RESTORE PATH / DISCLOSURE NEEDED?`. If the owner or restore path is blank, leave the AI at draft-only. This is our exercise, not an intervention tested by these sources. See [[The Failure Review]] for preserving what happened and [[The Line You Draw]] for keeping permissions explicit.
+
+## Keep the Original and the Fallback Visible (November 2026)
+
+In a [hands-on review of NYT Cooking's iOS beta](https://www.wired.com/story/nyt-cooking-new-ai-powered-recipe-modifier-is-pretty-good/), Joe Ray could see every AI recipe change, switch back to the tested original, and read a label saying his version was not tested by the original creator. He still caught a cooking step he judged would leave chicken less succulent. One reporter's test does not establish safety, especially for allergies or dietary restrictions; it shows useful *handles*: a visible change, an unchanged baseline, and permission to say no. ^[raw/articles/wired-nyt-recipe-modifier-2026-11-08.md]
+
+A [WIRED report on connected refrigeration attacks](https://www.wired.com/story/kernel-panic-refrigeration-hacks-internet-of-things/) describes alarms and staff intervening at French blood-handling sites; the blood service said samples were not damaged. That is **not** an AI-agent case. It is a useful analogy: an alert is only part of a fallback when a named person can respond and confirm conditions are safe. Root cause and attribution across the wider attacks were still uncertain. ^[raw/articles/wired-refrigeration-fail-safe-2026-11-08.md]
+
+**Five-minute paper check:** for one *public, draft-only* AI adaptation, write `ORIGINAL / PROPOSED CHANGE / UNTESTED PART / HUMAN CHECK / REVERT ROUTE`. If you cannot reopen the original or name who checks the changed step, do not let the draft silently replace the trusted version. Never rehearse on live infrastructure or identifiable records. [[The Failure Review]] records what happens when the fallback is needed; [[The Evidence Ticket]] holds the version someone approved.
 
 ## Related Pages
 

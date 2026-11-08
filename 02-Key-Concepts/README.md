@@ -22,6 +22,8 @@ You don't need to read them in order. Jump to whichever title grabs you. But if 
 
 **November 3 question-check route:** [[02-Key-Concepts/Trust Calibration|Trust Calibration]] checks the original constraint after a friendly AI question → [[The Evidence Interface]] keeps the source question beside a chart → [[The Authority Switch]] sets the stop point before an external action. [[00-Daily-Digests/2026-11-03|Read today's digest]].
 
+**November 8 compare-and-fallback route:** [[The Control Surface]] keeps the original and the change visible → [[The Failure Review]] checks a claimed blocker or omitted step against the brief → [[The Evidence Ticket]] records the approved version. [[00-Daily-Digests/2026-11-08|Read the Sunday digest]].
+
 1. **[[Task Decomposition]]** — the single most important skill. Start here.
 2. **[[Delegation Thinking]]** — the mental shift that makes everything else click.
 3. **[[Trust Calibration]]** — the practical judgment call you'll make every day.

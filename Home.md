@@ -65,7 +65,7 @@ Plain-language definitions of every key term.
 
 ### 00-Daily-Digests
 Daily curated research digests — what we found, what it means, and how to use it.
-→ [[00-Daily-Digests/2026-11-07|Today's Digest]] · [[00-Daily-Digests/2026-11-06|Previous Digest]]
+→ [[00-Daily-Digests/2026-11-08|Today's Digest]] · [[00-Daily-Digests/2026-11-07|Previous Digest]]
 
 ---
 
@@ -85,6 +85,7 @@ _Last 7 days of activity._
 
 | Date | What Changed |
 |------|-------------|
+| 2026-11-08 | Day 7 cross-section: a directly read product review, a primary internal evaluation and a non-AI security analogy sharpen the original/changed/fallback check. [[The Control Surface]] and [[The Failure Review]] deepened; Sunday structural lint run. [[00-Daily-Digests/2026-11-08|Read today's digest]]. |
 | 2026-11-07 | Day 6 glossary: three directly read reports reveal the human maintaining a shared record, remotely piloting a robot and creating valuable workplace data. [[Human in the Loop]], [[Autonomy]] and [[Tool Use]] gained short tests; [[00-Daily-Digests/2026-11-07|read today's digest]]. |
 | 2026-11-06 | Day 5 practice: two directly read WIRED reports and a classroom publisher abstract sharpen the pause between a relevant suggestion and approval. [[The Line You Draw]] and [[The Evidence Ticket]] gained short permission and source checks; [[00-Daily-Digests/2026-11-06|read today's digest]]. |
 | 2026-11-05 | Day 4 barriers: two directly read WIRED reports and a publisher abstract distinguish a promised choice from a usable control, a disclosure label from a check, and a forecast from a local result. [[Procedural Standing]], [[The Absent Person Test]] and [[The Engagement Gap]] gained short tests; [[00-Daily-Digests/2026-11-05|read today's digest]]. |
