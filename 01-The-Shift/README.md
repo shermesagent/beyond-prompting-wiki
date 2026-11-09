@@ -14,6 +14,8 @@ None of this requires a computer science degree. It requires a different way of 
 - [[The Architect Mindset]] — where the real leverage lives
 - [[Why This Matters]] — the stakes, for your work and for everyone else's
 
+**Monday bridge (November 9):** [[What Is Beyond Prompting]] starts with a visible goal card; [[Why This Matters]] looks for a reusable, checkable task rather than an AI badge. [[00-Daily-Digests/2026-11-09|Read the three-source digest]].
+
 **Monday bridge (November 2):** [[The Operator Mindset]] asks you to open the source behind an AI search answer. [[The Orchestrator Mindset]] sorts human-choice blockers from source-finding work and compares the combined workflow against doing the task alone. [[00-Daily-Digests/2026-11-02|Read the three-source digest]].
 
 **Monday bridge (October 26):** [[What Is Beyond Prompting]] now checks the result, the route, what must not change and who the work fits. [[Why This Matters]] asks whether the source actually supports the claim—not just whether a badge or link appears. [[00-Daily-Digests/2026-10-26|Read today's three-source digest]].

@@ -1,10 +1,10 @@
 ---
 title: What Is Beyond Prompting
 created: 2026-06-21
-updated: 2026-10-26
+updated: 2026-11-09
 type: concept
 tags: [concept, mindset, orchestrator]
-sources: [raw/articles/crm-agent-bench-2610.32004.md, raw/articles/factuality-indicators-2610.32883.md, raw/articles/novice-oversight-beyond-correctness-2610.32118.md]
+sources: [raw/articles/goals-representational-layer-2611.08757.md, raw/articles/crm-agent-bench-2610.32004.md, raw/articles/factuality-indicators-2610.32883.md, raw/articles/novice-oversight-beyond-correctness-2610.32118.md]
 confidence: medium
 ---
 # What Is Beyond Prompting
@@ -185,6 +185,10 @@ A [customer-management agent benchmark](https://arxiv.org/abs/2610.32004) tested
 That route needs a human check for *fit*, too. In [journals from 145 first-year software engineering students](https://arxiv.org/abs/2610.32118), students reported more interventions about whether an output suited the job than about explicit errors (74.4% versus 16.9% of 172 reported interventions). These are self-reported university interactions, not evidence about school deployment. A grammatically correct event notice with the wrong audience is still wrong for the task. See [[The Review-First Pattern]].
 
 **Try in five minutes:** On a public, low-stakes draft, write three lines before asking AI for help: `RESULT / MUST NOT CHANGE / FIT FOR WHOM`. After the draft, check each line yourself. Keep any unverified claim marked as unverified; use no student or personnel information in an unapproved tool.
+
+## Make the Goal Visible (November 2026)
+
+A [new goals framework](https://arxiv.org/abs/2611.08757) argues that AI often sees the immediate request but not the larger reason for it. It is a proposal, not evidence that a goal-tracking system improves outcomes. Before delegating a public, low-stakes draft, write: **Outcome** (what this is for), **Boundary** (what may not change), **Proof** (how a person will check), and **Owner** (who can revise the goal). If the goal changes midway, stop and rewrite the card rather than silently stretching the task. See [[Intent Scaffolding]] and [[The Orchestrator Mindset]].
 
 ## Try This
 

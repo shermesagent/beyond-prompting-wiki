@@ -1,10 +1,10 @@
 ---
 title: Why This Matters
 created: 2026-06-21
-updated: 2026-10-26
+updated: 2026-11-09
 type: concept
 tags: [concept, mindset]
-sources: [raw/articles/crm-agent-bench-2610.32004.md, raw/articles/factuality-indicators-2610.32883.md, raw/articles/novice-oversight-beyond-correctness-2610.32118.md]
+sources: [raw/articles/scout-ehr-adoption-2611.08672.md, raw/articles/ai-job-responsibilities-2611.09870.md, raw/articles/crm-agent-bench-2610.32004.md, raw/articles/factuality-indicators-2610.32883.md, raw/articles/novice-oversight-beyond-correctness-2610.32118.md]
 confidence: medium
 ---
 # Why This Matters
@@ -150,6 +150,12 @@ The lesson for a team is not to add an approval signature at the end. Before an 
 A [large agent benchmark](https://arxiv.org/abs/2610.32004) checks not just whether a transaction finishes but whether its steps and protected records meet the task's written rules. A [student oversight study](https://arxiv.org/abs/2610.32118) found that reported corrections often concerned task fit, not an obvious mistake. Together they suggest a better leverage question: **could you explain why this result belongs here, and show what the AI did to get it?** Neither study demonstrates that this question improves workplace or K–12 outcomes. See [[What Is Beyond Prompting]] and [[The Evidence Interface]].
 
 Evidence must be usable, not decorative. A [study of AI answer cues](https://arxiv.org/abs/2610.32883) combined interviews, a survey and an experiment; confidence and source indicators influenced first impressions, but their effects disappeared once participants learned whether an answer was correct. The finding does not mean source links are useless. It means a badge or a link cannot replace opening the relevant passage. On one public, low-stakes claim, find its source paragraph and record whether it actually supports the claim. If you cannot check it, don't promote it to a decision. See [[Trust Calibration]].
+
+## Adoption Is a Workflow, Not a Badge (November 2026)
+
+A [health-system preprint](https://arxiv.org/abs/2611.08672) reports 2,635 users completing 80,465 tasks over 11 months on a cited patient-record search tool. Training was tied to access, and 752 tasks were saved for reuse. These are descriptive figures from one clinical deployment—not evidence that training alone caused adoption, or a model for uploading patient records elsewhere. The transferable question: **Which approved task gets easier, and can the user inspect the source and reuse the safe steps?**
+
+A separate [job-posting analysis](https://arxiv.org/abs/2611.09870) of 50,000 ads from 33 firms found that explicit AI mentions rose while highly AI-exposed responsibilities declined only mildly as a share of all listed duties. Job advertisements are not proof of what employees actually do or of layoffs. For a public, low-stakes team exercise, mark one recurring task **draft / verify / decide**; keep a person on the last two where stakes demand it. Measure the work, not the AI label. See [[What Is Beyond Prompting]], [[The Orchestrator Mindset]] and [[Task Decomposition]].
 
 ## Try This
 
