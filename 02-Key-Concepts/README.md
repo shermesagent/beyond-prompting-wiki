@@ -24,6 +24,8 @@ You don't need to read them in order. Jump to whichever title grabs you. But if 
 
 **November 8 compare-and-fallback route:** [[The Control Surface]] keeps the original and the change visible → [[The Failure Review]] checks a claimed blocker or omitted step against the brief → [[The Evidence Ticket]] records the approved version. [[00-Daily-Digests/2026-11-08|Read the Sunday digest]].
 
+**November 10 after-chat route:** [[The Task Scaffold]] checks the finished work → [[The Known-Case Check]] tests a safe changed condition → [[The Evidence Interface]] asks whether the correction reached the final result. [[00-Daily-Digests/2026-11-10|Read the Day 2 digest]].
+
 1. **[[Task Decomposition]]** — the single most important skill. Start here.
 2. **[[Delegation Thinking]]** — the mental shift that makes everything else click.
 3. **[[Trust Calibration]]** — the practical judgment call you'll make every day.
@@ -87,6 +89,7 @@ You don't need to read them in order. Jump to whichever title grabs you. But if 
 61. [[The Meaning Check]] — before a handoff, compare two interpretations of one key word, choose the one you mean, and set a boundary.
 62. [[The Reversal Condition]] — name the fact that would change a recommendation and check it outside the AI before approving consequential work.
 63. [[The Preference Check]] — before turning behavior into an AI default, ask what the person actually wants, where it applies, and how to change it.
+64. [[The Known-Case Check]] — test a verified case and a safely changed copy; score both spotting the change and repairing the final result.
 
 ---
 
@@ -167,6 +170,7 @@ They came out of real research — papers on human-AI collaboration, case studie
 | [[The Meaning Check]] | Are you and the AI using the same meaning for the word that drives this task? | Operator → Orchestrator |
 | [[The Reversal Condition]] | What fact would make you choose differently, and can another person check it? | Operator → Orchestrator |
 | [[The Preference Check]] | Is this repeated action a real choice or a workaround, and who gets to decide? | Operator → Orchestrator |
+| [[The Known-Case Check]] | Did the AI merely spot the changed condition, or did it actually fix the final work? | Operator → Orchestrator |
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: The Evidence Interface
 created: 2026-09-13
-updated: 2026-11-03
+updated: 2026-11-10
 type: concept
 tags: [concept, workflow, orchestrator]
 sources:
@@ -16,6 +16,8 @@ sources:
   - raw/articles/visible-reasoning-decision-logs-2610.35483.md
   - raw/articles/census-btos-ai-wording-2025-12-03.md
   - raw/articles/willison-census-question-change-2026-11-02.md
+  - raw/articles/known-good-known-bad-2611.11673.md
+  - raw/articles/wording-matters-ai-policy-2611.11072.md
 confidence: medium
 ---
 
@@ -90,9 +92,17 @@ An AI-generated trend chart needs the exact survey question alongside its source
 
 In five minutes, use a public chart: copy its question, population, and dates onto a note. If any changed mid-line, label the break instead of claiming a clean trend. This pairs with [[Trust Calibration]] and [[The Review-First Pattern]].
 
+## Separate Detection From Repair
+
+An instructor's small chemistry demonstration tested one verified case and five altered cases. The AI eventually flagged all intended changes, but in one case it retained a wrong downstream calculation after spotting the bad unit. This is a single-case demonstration, not a measured failure rate across agents. [Lavinda, preprint](https://arxiv.org/abs/2611.11673). ^[raw/articles/known-good-known-bad-2611.11673.md]
+
+When an AI flags a problem, ask for **two artifacts**: the specific source-backed correction and the *recomputed final result*. Check the latter independently. [[The Known-Case Check]] turns this into a five-minute public-information trial; never use private student or staff records as test cases.
+
+The same evidence principle applies to rules: a policy that says what is forbidden but lacks an approved-use example or a clear review route is hard to follow in practice. University policy interviews describe uncertainty and faculty approval workload, not causal effects of one wording choice. On a team policy card, name the local policy owner and the route for questions before changing the rule. [Mehreen and colleagues, preprint](https://arxiv.org/abs/2611.11072). ^[raw/articles/wording-matters-ai-policy-2611.11072.md]
+
 ## Related Pages
 
-[[The Review-First Pattern]] · [[Trust Calibration]] · [[Build a Tiny Pipeline]] · [[The Daily Standup]] · [[The Disclosure Clock]] · [[Communication Primitives]] · [[The Echo Check]] · [[The Confidence Gap]] · [[Run-to-Run Variance]]
+[[The Review-First Pattern]] · [[Trust Calibration]] · [[Build a Tiny Pipeline]] · [[The Daily Standup]] · [[The Disclosure Clock]] · [[Communication Primitives]] · [[The Echo Check]] · [[The Confidence Gap]] · [[Run-to-Run Variance]] · [[The Known-Case Check]]
 
 ## Tags
 

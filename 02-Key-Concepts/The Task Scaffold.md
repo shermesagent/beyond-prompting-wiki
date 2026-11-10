@@ -1,7 +1,7 @@
 ---
 title: The Task Scaffold
 created: 2026-09-16
-updated: 2026-09-16
+updated: 2026-11-10
 type: concept
 tags: [concept, workflow, orchestrator]
 sources:
@@ -9,6 +9,8 @@ sources:
   - raw/articles/ai-literacy-over-tool-design-2609.16784.md
   - raw/articles/available-but-unclaimed-human-ai-synergy-2609.16793.md
   - raw/articles/decision-assurance-layer-flight-planning-2609.13552.md
+  - raw/articles/from-dialogue-to-task-2611.11435.md
+  - raw/articles/wording-matters-ai-policy-2611.11072.md
 confidence: high
 ---
 
@@ -62,9 +64,17 @@ Pick one recurring AI-assisted task and write four lines before you ask for outp
 
 Now run the task with those four lines at the top. The point is not a longer prompt. The point is a visible structure that helps you judge the answer.
 
+## Check the Work After the Chat
+
+In a study of 1,681 university students across 40 courses, researchers examined both AI dialogue and what students did afterward. Deeper engagement in resource creation was associated with better final artifacts, independent of return frequency; conversation counts alone missed that distinction. This is observational higher-education research, not a proven classroom or workplace intervention. [Zhuang and colleagues, preprint](https://arxiv.org/abs/2611.11435). ^[raw/articles/from-dialogue-to-task-2611.11435.md]
+
+**Add two boxes to the scaffold:** `What did we do in chat?` and `What finished work passed the task's checks?` On a public draft, compare the final artifact with the original source or rubric. If it fails, revise the workflow rather than praising the chat. Pair this with [[The Known-Case Check]] to test a changed condition before trusting the workflow.
+
+The scaffold also applies to AI-use guidance. An analysis of 101 university policies plus interviews with students and faculty describes uncertainty and approval burden where acceptable help is hard to interpret. For an approved local workflow, write a permitted-use example, an accountability check and a route for questions or disclosure; **do not substitute this preprint for your own district's policy**. [Mehreen and colleagues, preprint](https://arxiv.org/abs/2611.11072). ^[raw/articles/wording-matters-ai-policy-2611.11072.md]
+
 ## Related Pages
 
-[[Intent Scaffolding]] · [[The Workflow Lens]] · [[The Evidence Interface]] · [[The Review-First Pattern]] · [[Scaffold, Don't Substitute]] · [[From Prompt to Pipeline]]
+[[Intent Scaffolding]] · [[The Workflow Lens]] · [[The Evidence Interface]] · [[The Review-First Pattern]] · [[Scaffold, Don't Substitute]] · [[From Prompt to Pipeline]] · [[The Known-Case Check]]
 
 ## Tags
 

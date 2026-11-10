@@ -1660,3 +1660,9 @@ Theme: **Delegation is a redistribution of consequences — and reliability fail
 ## 2026-11-09 | Day 1 rotation — Give the work a reason, not just an AI label
 - Ingested three directly read publisher abstracts (530 → 533) as immutable body-hashed raw notes and source records: goals-representational-layer-2611.08757, scout-ehr-adoption-2611.08672, ai-job-responsibilities-2611.09870. These are a proposed framework, one descriptive health deployment and an observational job-ad study; no causal or school-district claims.
 - Created 00-Daily-Digests/2026-11-09.md; deepened 01-The-Shift/What Is Beyond Prompting.md and 01-The-Shift/Why This Matters.md; updated 01-The-Shift/README.md and Home.md. No new concept: existing Intent Scaffolding and Shift pages accommodate the findings. Public, harmless or paper-only exercises; no private data.
+
+## 2026-11-10 — Day 2 Key Concepts
+- Three arXiv preprints (abstracts/pages, not independent replication) added to sources/sources.jsonl and captured as new raw notes: 2611.11435, 2611.11072, 2611.11673. Initial raw-note hash metadata was corrected during creation and now matches bodies; do not subsequently edit raw material.
+- Created: 00-Daily-Digests/2026-11-10.md; 02-Key-Concepts/The Known-Case Check.md.
+- Updated: 02-Key-Concepts/The Task Scaffold.md; 02-Key-Concepts/The Evidence Interface.md; 02-Key-Concepts/README.md; Home.md; sources/sources.jsonl.
+- Distinction: noticing a changed premise is not the same as repairing the final result; no K–12 efficacy claim drawn from higher-ed studies.
