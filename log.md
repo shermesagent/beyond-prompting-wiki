@@ -1666,3 +1666,9 @@ Theme: **Delegation is a redistribution of consequences — and reliability fail
 - Created: 00-Daily-Digests/2026-11-10.md; 02-Key-Concepts/The Known-Case Check.md.
 - Updated: 02-Key-Concepts/The Task Scaffold.md; 02-Key-Concepts/The Evidence Interface.md; 02-Key-Concepts/README.md; Home.md; sources/sources.jsonl.
 - Distinction: noticing a changed premise is not the same as repairing the final result; no K–12 efficacy claim drawn from higher-ed studies.
+
+## [2026-11-11] ingest | Check the Claim, Not Just the Output
+- Day 3, 03-Real-World. Accepted three arXiv preprints: 2611.14154 (self-reported use across software teams), 2611.13549 (instructional designer prototype) and 2611.13042 (human-in-the-loop claim audit). Source records appended to `sources/sources.jsonl`; immutable, clearly labeled abstract excerpts captured under `raw/articles/`.
+- Created `00-Daily-Digests/2026-11-11.md`.
+- Updated `03-Real-World/The School District Shift.md`, `03-Real-World/From Prompt to Pipeline.md`, and `Home.md`. No new concept page: [[The Evidence Interface]] already covers the claim/source distinction.
+- The studies do not establish district learning gains or generalizable adoption; suggested district checks are explicitly labeled as pilot exercises on public material.

@@ -1,10 +1,10 @@
 ---
 title: The School District Shift
 created: 2026-06-21
-updated: 2026-11-04
+updated: 2026-11-11
 type: story
 tags: [story, orchestrator, workflow]
-sources: [raw/articles/valiassist-feedback-validation-2610.27248.md, raw/articles/math-feedback-exam-performance-2610.27881.md, raw/articles/teacher-cultural-distance-2509.10780-v2.md, raw/articles/peers4u-math-2610.37238.md, raw/articles/engineering-assessment-evidence-2610.36413.md, raw/articles/student-agency-journals-2611.04783.md, raw/articles/organizational-difficulty-benchmark-2611.03494.md]
+sources: [raw/articles/valiassist-feedback-validation-2610.27248.md, raw/articles/math-feedback-exam-performance-2610.27881.md, raw/articles/teacher-cultural-distance-2509.10780-v2.md, raw/articles/peers4u-math-2610.37238.md, raw/articles/engineering-assessment-evidence-2610.36413.md, raw/articles/student-agency-journals-2611.04783.md, raw/articles/organizational-difficulty-benchmark-2611.03494.md, raw/articles/perspicacious-instructional-design-2611.13549.md, raw/articles/trust-verify-audit-attribute-2611.13042.md]
 confidence: medium
 ---
 # The School District Shift
@@ -500,6 +500,14 @@ An analysis of **962 prompts from 105 first-year university software-engineering
 For a district planning conversation, use **public curriculum material**, not student work: give a teacher a public lesson-draft example and ask what they chose before the AI wrote, what they would reject, and which TEKS citation they would check against the official standard. Record the teacher's decision separately from the polished draft. If testing with students later, obtain approved tools and procedures first; an explanation or prompt journal alone does not establish learning. See [[Scaffold, Don't Substitute]] and [[The Evidence Interface]].
 
 An organizational-benchmarking paper makes the companion point: even when an AI completes a hard technical task, it may not navigate who has authority, who knows what, and when a handoff is due. The authors' review found that fewer than a quarter of prominent benchmarks claimed coverage of any organizational dimensions; this is an argument about benchmark coverage, **not a measured failure rate in schools**. Before calling any district workflow ready, name the teacher who approves the instructional decision, the source they can open, and the point where a draft stops if local context is missing. [Barres and colleagues, publisher abstract, 2026](https://arxiv.org/abs/2611.03494v1). See [[The Review-First Pattern]].
+
+## A District Pilot Needs Two Different Checks (November 11, 2026)
+
+**Does the tool help a designer work?** An educational platform that groups assessment questions by the skills they assess and helps draft new ones was tested with eight instructional designers in a formative, partly researcher-assisted study. The designers rated usability positively, but that is not evidence that students learned more or that a district rollout succeeded. Its cost estimate came from 17 production runs; neither figure is a district budget. [Source: Wei, Sutton & Carvalho, *Perspicacious* (2026), arXiv:2611.13549](https://arxiv.org/abs/2611.13549).
+
+**Does the output actually support the claim?** A separate research framework says a passing software check proves something about the *artifact checked*, not necessarily the original claim. Translate this to curriculum review: a standards tag on a generated item is not proof that the question assesses the intended skill. A teacher should compare the original standard, the student-facing item and the proposed answer before approval. This is an analogy, not a tested district procedure. [Source: Eigner, Süli & Hollós, *Trust, but verify, audit and attribute* (2026), arXiv:2611.13042](https://arxiv.org/abs/2611.13042).
+
+**Try this with public or invented, non-student material:** Pick one released question and its published standard. Ask an approved tool to classify the skill. Then independently check what a student must *do* to answer, record any mismatch and keep the teacher as approver. Do not upload student work, accommodation or personnel records to an unapproved service. See [[The Evidence Interface]] for the claim-to-evidence check and [[From Prompt to Pipeline]] for the handoff.
 
 ## Related Pages
 

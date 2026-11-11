@@ -66,7 +66,7 @@ Plain-language definitions of every key term.
 
 ### 00-Daily-Digests
 Daily curated research digests — what we found, what it means, and how to use it.
-→ [[00-Daily-Digests/2026-11-10|Today's Digest]] · [[00-Daily-Digests/2026-11-09|Previous Digest]]
+→ [[00-Daily-Digests/2026-11-11|Today's Digest]] · [[00-Daily-Digests/2026-11-10|Previous Digest]]
 
 ---
 
@@ -86,6 +86,7 @@ _Last 7 days of activity._
 
 | Date | What Changed |
 |------|-------------|
+| 2026-11-11 | Day 3 Real World: three preprints separate usage, usability and faithful claim-checking. [[The School District Shift]] and [[From Prompt to Pipeline]] gained a public-material pilot and review checkpoint. [[00-Daily-Digests/2026-11-11|Read the digest]]. |
 | 2026-11-10 | Day 2 concepts: three preprints distinguish chat activity from finished work, noticing a changed condition from repairing the result, and policy wording from usable guidance. [[The Known-Case Check]] created; [[The Task Scaffold]] and [[The Evidence Interface]] deepened. [[00-Daily-Digests/2026-11-10|Read the digest]]. |
 | 2026-11-09 | Day 1 Shift: three publisher abstracts connect a visible goal, supported reuse and changing task responsibilities. [[What Is Beyond Prompting]] and [[Why This Matters]] gained goal and adoption checks; [[00-Daily-Digests/2026-11-09|read the digest]]. |
 | 2026-11-08 | Day 7 cross-section: a directly read product review, a primary internal evaluation and a non-AI security analogy sharpen the original/changed/fallback check. [[The Control Surface]] and [[The Failure Review]] deepened; Sunday structural lint run. [[00-Daily-Digests/2026-11-08|Read today's digest]]. |

@@ -1,10 +1,10 @@
 ---
 title: From Prompt to Pipeline
 created: 2026-06-21
-updated: 2026-11-04
+updated: 2026-11-11
 type: story
 tags: [story, orchestrator, workflow]
-sources: [raw/articles/looks-fine-oversight-2610.27801.md, raw/articles/teacher-cultural-distance-2509.10780-v2.md, raw/articles/engineering-assessment-evidence-2610.36413.md, raw/articles/agentic-path-maps-2611.04183.md, raw/articles/organizational-difficulty-benchmark-2611.03494.md]
+sources: [raw/articles/looks-fine-oversight-2610.27801.md, raw/articles/teacher-cultural-distance-2509.10780-v2.md, raw/articles/engineering-assessment-evidence-2610.36413.md, raw/articles/agentic-path-maps-2611.04183.md, raw/articles/organizational-difficulty-benchmark-2611.03494.md, raw/articles/uneven-ai-use-teams-2611.14154.md, raw/articles/trust-verify-audit-attribute-2611.13042.md]
 confidence: medium
 ---
 # From Prompt to Pipeline
@@ -457,6 +457,12 @@ When a request leaves out details, an agent chooses a path anyway. A data-analys
 For a **public-source, draft-only** content workflow, add a small review card: `Chosen angle / Other plausible angle / Why this one / Original source to check`. Ask a human editor whether the unchosen angle would change the claim. Do not let the agent choose and publish its own conclusion. See [[The Evidence Interface]] and [[The Authority Switch]].
 
 The organizational-difficulty paper adds a final test: a strong draft is not the whole job. Ask who owns the claim, when another team needs the draft, and which person can hold release if the source is missing. A benchmark score cannot tell you those handoffs are working. [Barres and colleagues, publisher abstract, 2026](https://arxiv.org/abs/2611.03494v1). This is a proposed workflow check, not a measured performance gain.
+
+## The Use-Rate Trap and the Claim-Check (November 11, 2026)
+
+A real software-organization interview study found that reported AI use varied by team. It included 98 interview records across eleven teams, but one team had a different questionnaire: the authors warn against treating the combined use rate as a clean measure of adoption, value or policy compliance. Frequent use did not establish that people understood the policy. [Source: Verì, *Uneven Self-Reported AI Use* (2026), arXiv:2611.14154](https://arxiv.org/abs/2611.14154).
+
+So when Mara's fictional pipeline appears busy, ask two separate questions: **Was it used? Did it produce a reviewed, usable deliverable?** Count completed outputs with a named approver and a link to the original input, not prompts or logins alone. For a single safe trial, run the workflow on a public document, record one claim in the draft, open the original, check whether it supports that exact claim, and note who accepted or rejected the result. A verification tool can check an artifact without checking whether the artifact matches the claim; this distinction comes from a proposed research-audit framework, not a proven content-workflow trial. [Source: Eigner, Süli & Hollós (2026), arXiv:2611.13042](https://arxiv.org/abs/2611.13042). See [[The School District Shift]] and [[The Evidence Interface]].
 
 ## You Can Do This Too
 
