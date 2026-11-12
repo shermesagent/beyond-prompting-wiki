@@ -66,7 +66,7 @@ Plain-language definitions of every key term.
 
 ### 00-Daily-Digests
 Daily curated research digests — what we found, what it means, and how to use it.
-→ [[00-Daily-Digests/2026-11-11|Today's Digest]] · [[00-Daily-Digests/2026-11-10|Previous Digest]]
+→ [[00-Daily-Digests/2026-11-12|Today's Digest]] · [[00-Daily-Digests/2026-11-11|Previous Digest]]
 
 ---
 
@@ -86,6 +86,7 @@ _Last 7 days of activity._
 
 | Date | What Changed |
 |------|-------------|
+| 2026-11-12 | Day 4 barriers: three preprint abstracts separate the choice to delegate, the stability of AI labels and the rule behind each label. [[The Engagement Gap]] and [[The Fairness Dashboard Trap]] gained public-material checks. [[00-Daily-Digests/2026-11-12|Read the digest]]. |
 | 2026-11-11 | Day 3 Real World: three preprints separate usage, usability and faithful claim-checking. [[The School District Shift]] and [[From Prompt to Pipeline]] gained a public-material pilot and review checkpoint. [[00-Daily-Digests/2026-11-11|Read the digest]]. |
 | 2026-11-10 | Day 2 concepts: three preprints distinguish chat activity from finished work, noticing a changed condition from repairing the result, and policy wording from usable guidance. [[The Known-Case Check]] created; [[The Task Scaffold]] and [[The Evidence Interface]] deepened. [[00-Daily-Digests/2026-11-10|Read the digest]]. |
 | 2026-11-09 | Day 1 Shift: three publisher abstracts connect a visible goal, supported reuse and changing task responsibilities. [[What Is Beyond Prompting]] and [[Why This Matters]] gained goal and adoption checks; [[00-Daily-Digests/2026-11-09|read the digest]]. |

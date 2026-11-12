@@ -1672,3 +1672,9 @@ Theme: **Delegation is a redistribution of consequences — and reliability fail
 - Created `00-Daily-Digests/2026-11-11.md`.
 - Updated `03-Real-World/The School District Shift.md`, `03-Real-World/From Prompt to Pipeline.md`, and `Home.md`. No new concept page: [[The Evidence Interface]] already covers the claim/source distinction.
 - The studies do not establish district learning gains or generalizable adoption; suggested district checks are explicitly labeled as pilot exercises on public material.
+
+## [2026-11-12] ingest | Keep the Choice, Test the Label
+- Accepted three arXiv preprint abstracts: Wheeler et al. (2611.09730), Yorke (2611.06655), Mamaev et al. (2611.13339). Read publisher abstracts only; findings are not district validations.
+- Created `raw/articles/delegation-preferences-2611.09730.md`, `raw/articles/public-service-ai-assurance-2611.06655.md`, `raw/articles/definition-sensitivity-2611.13339.md`, and `00-Daily-Digests/2026-11-12.md`.
+- Updated `04-Barriers-and-Bridges/The Engagement Gap.md`, `04-Barriers-and-Bridges/The Fairness Dashboard Trap.md`, `04-Barriers-and-Bridges/README.md`, `Home.md`; appended three entries to `sources/sources.jsonl`.
+- Day 4 focus: user choice in delegation, repeatable labels, and the rule attached to each classification. No new concept page: related concepts already exist.

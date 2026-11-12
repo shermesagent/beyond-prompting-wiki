@@ -1,7 +1,7 @@
 ---
 title: The Engagement Gap
 created: 2026-07-04
-updated: 2026-11-05
+updated: 2026-11-12
 type: concept
 tags: [barrier, orchestrator, workflow]
 confidence: high
@@ -13,6 +13,7 @@ sources:
   - raw/articles/wired-macmillan-noa-rollout-2026-10-28.md
   - raw/articles/words-deeds-dialogue-prediction-2610.36813.md
   - raw/articles/wired-uk-ai-forecast-sponsor-2026-11-04.md
+  - raw/articles/delegation-preferences-2611.09730.md
 ---
 
 # The Engagement Gap
@@ -121,6 +122,12 @@ In a small repeated-game preprint, models that added participants' statements to
 WIRED reports that UK officials repeatedly cited a £400 billion potential AI benefit from a Google-commissioned 2023 report, while a later government estimate gave a £120 billion central figure by 2030 and a £55 billion–£140 billion range. The report's producer says differing adoption assumptions partly explain the change. These are uncertain forecasts, **not** measured savings or evidence about any school system's return. ^[raw/articles/wired-uk-ai-forecast-sponsor-2026-11-04.md]
 
 **The bridge:** before a team hears a headline productivity promise, put four questions beside it: Who funded this number? What year and adoption assumptions produced it? What would a successful *local* pilot measure? What would make us stop or revise? On a public-material draft, record the actual time saved *and* the time spent checking; never treat tool activation as proof of a benefit. [[The Evidence Ticket]] makes the claim checkable; [[Procedural Standing]] gives workers a route to challenge the plan.
+
+## Ask What People Want to Keep
+
+Non-use is not always reluctance to learn. In a scenario survey of 289 U.S. adults who had previously used AI, preferences for automation varied across 45 everyday and work situations. People who expected a task to feel less fulfilling when automated tended to prefer less automation; open responses often favored AI doing substantial work **while a person kept a say or the final decision**. These are stated preferences in hypothetical scenarios, not proof of what a particular team will do at work. ^[raw/articles/delegation-preferences-2611.09730.md]
+
+**Try this before asking for adoption:** describe one *public, low-stakes* task and ask a colleague which part they would gladly hand off, which part they want to do together and which decision they want to keep. Offer a manual path. If the proposed workflow takes away the part they value, change the workflow before calling the gap an attitude problem. If the resulting label could affect someone else, use [[The Fairness Dashboard Trap]] to test it and [[The Absent Person Test]] to identify the person who was not asked.
 
 ## Related Pages
 

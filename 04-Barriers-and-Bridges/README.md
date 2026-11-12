@@ -34,6 +34,7 @@ Each barrier page follows the same structure. We name what's happening, explain 
 | [[The Fairness Dashboard Trap]] | A fairness score looks better while the people carrying mistakes do not benefit | Check who is wrongly flagged or missed, vendor limits, and the route to human review |
 
 ## How to Use This Section
+November 12 route: start with [[The Engagement Gap]] to ask what a person actually wants to delegate. Then use [[The Fairness Dashboard Trap]] to test whether the label is stable and whether its rule changed. [[The Absent Person Test]] asks who else bears the cost. Three research abstracts and their limits are in [[00-Daily-Digests/2026-11-12|today's digest]].
 
 November 5 route: [[Procedural Standing]] asks whether a school actually has the choice it promises; [[The Absent Person Test]] asks what the student sees before choosing; [[The Engagement Gap]] asks whether a forecast can survive a local measurement. Two directly read reports and one publisher abstract, with their evidence limits, are in [[00-Daily-Digests/2026-11-05|today's digest]].
 
