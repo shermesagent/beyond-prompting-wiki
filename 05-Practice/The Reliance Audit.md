@@ -1,7 +1,7 @@
 ---
 title: The Reliance Audit
 created: 2026-08-08
-updated: 2026-10-30
+updated: 2026-11-13
 type: practice
 tags: [practice, operator, orchestrator, trust]
 confidence: high
@@ -16,6 +16,8 @@ sources:
   - raw/articles/proof-learning-offloading-2610.31481.md
   - raw/articles/critical-thinking-coordination-2610.38910.md
   - raw/articles/human-planning-creative-writing-2610.37916.md
+  - raw/articles/feedback-and-ai-reliance-2611.14833.md
+  - raw/articles/right-advice-wrong-reasons-2611.15732.md
 ---
 
 # The Reliance Audit
@@ -119,6 +121,12 @@ Two companion studies suggest a useful boundary: a randomized writing study repo
 Two new preprint abstracts offer a useful way to describe a single *interaction*, rather than label the person using AI. In a writing-chain study with 333 participants and 427 stories, putting a human at the planning stage best balanced creativity and story diversity in that experimental setup. A separate structural study of 891 college students linked critical-thinking measures to how participants divided work with AI and actively reworked its output. Neither paper tests this audit, and the latter is not a causal training trial. [Writing study](https://arxiv.org/abs/2610.37916v1) · [Critical-thinking study](https://arxiv.org/abs/2610.38910v1).
 
 **Try this with a public or fictional draft (3 minutes):** jot `MY PLAN: audience and purpose / AI'S PART: one draft step / MY CHANGE: one decision I revised and why`. Compare it to the output. If you made no change, that is information about this run—not a diagnosis. A human plan is not a substitute for checking facts against a source. Take the note to [[The Daily Standup]] for tomorrow's review.
+
+### The Outside-Feedback Check (November 2026)
+
+In four experimental advice studies, people distinguished helpful from unhelpful AI advisers when they received feedback on accuracy. Without feedback, participants still followed a consistently unhelpful model's advice 48% of the time in a reported condition. This is a preprint finding in controlled tasks, not a workplace trust rate. [Jones and colleagues, publisher abstract](https://arxiv.org/abs/2611.14833).
+
+**Try this on a public, low-stakes question (3 minutes):** before acting, write `AI suggestion / source outside the chat / did that source confirm or challenge it?`. If there is no outside check, mark the reliance **unverified**, even if the explanation sounds good. A separate study of 121 participants found that preferences for AI advice varied with both the recommended choice and its stated reasons; those stated reasons are worth reviewing but do not prove how a model arrived at its answer. [Park and colleagues, publisher abstract](https://arxiv.org/abs/2611.15732). Add `my reason / AI's stated reason` to your note, then take any consequential claim to [[The Evidence Ticket]]. Do not use identifiable student or staff information in an unapproved tool.
 
 ## Related Pages
 

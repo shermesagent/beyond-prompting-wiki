@@ -1,7 +1,7 @@
 ---
 title: The Line You Draw
 created: 2026-07-02
-updated: 2026-11-06
+updated: 2026-11-13
 type: practice
 tags: [practice, operator, orchestrator, mindset]
 confidence: high
@@ -14,6 +14,8 @@ sources:
   - raw/articles/stratechery-presented-by-stripe-2026-10.md
   - raw/articles/wired-aina-approval-ring-2026-11-05.md
   - raw/articles/thinking-is-not-writing-2611.07792.md
+  - raw/articles/right-advice-wrong-reasons-2611.15732.md
+  - raw/articles/agent-skill-authorization-2611.15170.md
 ---
 
 # The Line You Draw
@@ -182,6 +184,12 @@ Your line is not only *which task*. It is also **when help starts**, **whether y
 A newly announced ring offers a small screen and a quick yes/no for agent actions, including a proposed ride or lateness email. That is a product design claim, not evidence that quick approvals protect good decisions. [Chokkattu, WIRED](https://www.wired.com/story/aina-smart-ring/). A separate 65-student classroom preprint suggests a different kind of pause in writing: idea-level discussion was more common with a questioning chatbot, and moving from an idea to a revision was *associated* with score gains. This does not validate the rehearsal below or establish an effect in your school. [Favero and colleagues, publisher abstract](https://arxiv.org/abs/2611.07792v1).
 
 **Try this in five minutes, on paper and with a public or fictional task:** write `ACTION: exactly what happens if I say yes / ACCESS: which accounts or data it needs / PROOF: what I would see afterward / UNDO: how I would stop or reverse it`. For a draft, replace ACTION with `MY REASON / QUESTION I ASKED / SENTENCE I REVISED MYSELF`. If you cannot fill a line, keep the action or draft on hold. Add the source and exact approved version to [[The Evidence Ticket]]; carry the permission boundary into [[First Delegation]]. Do not connect live student or staff accounts for this test.
+
+## The Consult, Draft, Act Boundary (November 2026)
+
+An adviser can recommend the choice you want for a reason you reject. In a 121-person study of everyday moral dilemmas, participants considered both the proposed decision and the stated reasons, and were more likely to opt out of AI help as the proposed role moved from consulting to acting (12% versus 38% in the reported choices). This is not a measurement of your team or a school-district approval rate. [Park and colleagues, publisher abstract](https://arxiv.org/abs/2611.15732).
+
+**Try this on paper (5 minutes):** for one public, harmless task, write `CONSULT: what may it suggest? / DRAFT: what may it prepare for my review? / ACT: what must it never send or change without my permission?`. Write your own reason before comparing it with the AI's stated reason. If an add-on or skill is involved, list which files, accounts, messages and no-approval actions it could reach. A small higher-ed classroom experience suggests students needed help examining a skill's granted authority, not just its code; its 11 volunteer surveys do not demonstrate that this checklist prevents harm. [Wen and colleagues, publisher abstract](https://arxiv.org/abs/2611.15170). Save the proposed permission and exact draft with [[The Evidence Ticket]]. Do not connect real student or staff records to unapproved tools.
 
 ## Common Pitfalls
 

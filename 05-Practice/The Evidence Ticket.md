@@ -1,7 +1,7 @@
 ---
 title: The Evidence Ticket
 created: 2026-09-18
-updated: 2026-11-06
+updated: 2026-11-13
 type: practice
 tags: [practice, orchestrator, workflow]
 confidence: high
@@ -23,6 +23,8 @@ sources:
   - raw/articles/child-ai-verification-styles-2610.21233.md
   - raw/articles/wired-chatbot-ads-context-2026-11-05.md
   - raw/articles/wired-aina-approval-ring-2026-11-05.md
+  - raw/articles/feedback-and-ai-reliance-2611.14833.md
+  - raw/articles/agent-skill-authorization-2611.15170.md
 ---
 
 # The Evidence Ticket
@@ -153,6 +155,12 @@ In a preliminary game-based study with children aged 8–10, a partner-like AI t
 AI recommendations can arrive as ads shaped by a conversation. WIRED reports that one ad provider typically receives the conversation up to the ad request; its statements about de-identification and click performance were not independently audited in the article. The same report says it does **not** yet serve ads in apps with autonomous shopping agents; future agent-targeted ads are a possibility, not a measured current outcome. A separate WIRED report describes a ring designed to make agent approvals quick and show a confirmation afterward; that confirmation is a proposed interface feature, not independent proof of a good decision. [Dave on chatbot ads](https://www.wired.com/story/ads-in-chatbots-have-arrived-heres-whats-working-and-whats-not/) · [Chokkattu on the ring](https://www.wired.com/story/aina-smart-ring/).
 
 **Try this with a public product comparison (3 minutes):** add `SPONSOR: who paid for the suggestion? / CONTEXT: what part of my conversation could have been shared? / INDEPENDENT CHECK: what original source supports the claim?` to your ticket. For any suggested action, also fill `exact action / human approval / confirmation / undo route` before saying yes. If you cannot tell what was shared or who sponsored the recommendation, do not treat it as neutral advice. Use [[The Line You Draw]] for the slow-yes rehearsal and [[The Absent Person Test]] for people affected by a fast approval. No private chats or student records in an unapproved service.
+
+## Two More Checks Before Approval (November 2026)
+
+An AI explanation is not the same as feedback from the world. In experimental advice tasks, outside accuracy feedback helped participants separate helpful from unhelpful AI advisers; without feedback, an unhelpful adviser could still persuade. [Jones and colleagues, publisher abstract](https://arxiv.org/abs/2611.14833). Add one line to your ticket: `OUTSIDE CHECK: source or test independent of the AI response / result / not checked`. If none exists, keep the claim unverified rather than inventing one.
+
+If the workflow uses an agent add-on, add `PERMISSION: what it can read, change or send / whether it can act without asking / who can turn it off`. A small higher-ed classroom report highlights why inspecting code alone misses authority conveyed by natural-language instructions; its 11-person voluntary survey does not establish a general security improvement. [Wen and colleagues, publisher abstract](https://arxiv.org/abs/2611.15170). Practice on public or fictional material; no identifiable student or staff information in unapproved services. Compare the consult/draft/act line in [[The Line You Draw]].
 
 ## Related Pages
 

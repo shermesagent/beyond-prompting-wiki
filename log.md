@@ -1678,3 +1678,8 @@ Theme: **Delegation is a redistribution of consequences — and reliability fail
 - Created `raw/articles/delegation-preferences-2611.09730.md`, `raw/articles/public-service-ai-assurance-2611.06655.md`, `raw/articles/definition-sensitivity-2611.13339.md`, and `00-Daily-Digests/2026-11-12.md`.
 - Updated `04-Barriers-and-Bridges/The Engagement Gap.md`, `04-Barriers-and-Bridges/The Fairness Dashboard Trap.md`, `04-Barriers-and-Bridges/README.md`, `Home.md`; appended three entries to `sources/sources.jsonl`.
 - Day 4 focus: user choice in delegation, repeatable labels, and the rule attached to each classification. No new concept page: related concepts already exist.
+
+## [2026-11-13] ingest | Check the Reason, Then Grant the Reach
+- Added three publisher-abstract captures under `raw/articles/`: `feedback-and-ai-reliance-2611.14833.md`, `right-advice-wrong-reasons-2611.15732.md`, `agent-skill-authorization-2611.15170.md`. Registered all three in `sources/sources.jsonl` (preprints; one small classroom pilot; no district impact claim).
+- Created `00-Daily-Digests/2026-11-13.md` and updated `05-Practice/The Reliance Audit.md`, `05-Practice/The Line You Draw.md`, `05-Practice/The Evidence Ticket.md`, `05-Practice/README.md`, and `Home.md`.
+- Decision: no new concept page; these findings deepen existing practice and trust/authorization concepts. All suggested trials use public or fictional material, with outside checks and explicit approval before action.
