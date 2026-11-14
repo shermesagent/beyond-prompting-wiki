@@ -1683,3 +1683,9 @@ Theme: **Delegation is a redistribution of consequences — and reliability fail
 - Added three publisher-abstract captures under `raw/articles/`: `feedback-and-ai-reliance-2611.14833.md`, `right-advice-wrong-reasons-2611.15732.md`, `agent-skill-authorization-2611.15170.md`. Registered all three in `sources/sources.jsonl` (preprints; one small classroom pilot; no district impact claim).
 - Created `00-Daily-Digests/2026-11-13.md` and updated `05-Practice/The Reliance Audit.md`, `05-Practice/The Line You Draw.md`, `05-Practice/The Evidence Ticket.md`, `05-Practice/README.md`, and `Home.md`.
 - Decision: no new concept page; these findings deepen existing practice and trust/authorization concepts. All suggested trials use public or fictional material, with outside checks and explicit approval before action.
+
+
+## [2026-11-14] ingest | A Second Opinion Needs a Person
+- Day 6, 06-Glossary. Accepted three arXiv preprints (2611.16287, 2611.14901, 2611.13456) from publisher abstracts; captured immutable raw abstracts and registered source records in sources/sources.jsonl.
+- Created 00-Daily-Digests/2026-11-14.md. Updated 06-Glossary/Oversight.md, 06-Glossary/Human in the Loop.md, 06-Glossary/Trust Calibration.md, 06-Glossary/README.md and Home.md.
+- No new concept page: the findings sharpen three existing glossary entries; practices use public or fictional material and do not claim school-district efficacy.

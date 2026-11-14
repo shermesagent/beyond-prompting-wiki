@@ -86,6 +86,7 @@ _Last 7 days of activity._
 
 | Date | What Changed |
 |------|-------------|
+| 2026-11-14 | Day 6 glossary: three preprints distinguish missed-failure oversight, participating human review and explanation from evidence. [[Oversight]], [[Human in the Loop]] and [[06-Glossary/Trust Calibration|Trust Calibration]] gained public-document checks. [[00-Daily-Digests/2026-11-14|Read the digest]]. |
 | 2026-11-13 | Day 5 practice: three preprint abstracts distinguish outside accuracy feedback, reason versus decision, and add-on authorization. [[The Reliance Audit]], [[The Line You Draw]] and [[The Evidence Ticket]] gained public-task checks. [[00-Daily-Digests/2026-11-13|Read the digest]]. |
 | 2026-11-12 | Day 4 barriers: three preprint abstracts separate the choice to delegate, the stability of AI labels and the rule behind each label. [[The Engagement Gap]] and [[The Fairness Dashboard Trap]] gained public-material checks. [[00-Daily-Digests/2026-11-12|Read the digest]]. |
 | 2026-11-11 | Day 3 Real World: three preprints separate usage, usability and faithful claim-checking. [[The School District Shift]] and [[From Prompt to Pipeline]] gained a public-material pilot and review checkpoint. [[00-Daily-Digests/2026-11-11|Read the digest]]. |

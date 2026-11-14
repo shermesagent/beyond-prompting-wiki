@@ -1,10 +1,10 @@
 ---
 title: Oversight
 created: 2026-07-03
-updated: 2026-10-31
+updated: 2026-11-14
 type: concept
 tags: [glossary, orchestrator, workflow]
-sources: [raw/articles/anthropic-agent-autonomy-in-practice-2026.md, raw/articles/nist-ai-rmf-playbook-2026.md, raw/articles/amershi-human-ai-interaction-guidelines-2019.md, raw/articles/impactbench-human-impact-2610.20690.md, raw/articles/wired-comedian-origin-2026-10-16.md, raw/articles/scientific-ideas-revision-2610.30568.md, raw/articles/community-verification-layer-2610.30549.md, raw/articles/wired-mouse-injection-agent-2026-10-31.md, raw/articles/mollick-exponential-charts-2026-10-20.md]
+sources: [raw/articles/anthropic-agent-autonomy-in-practice-2026.md, raw/articles/nist-ai-rmf-playbook-2026.md, raw/articles/amershi-human-ai-interaction-guidelines-2019.md, raw/articles/impactbench-human-impact-2610.20690.md, raw/articles/wired-comedian-origin-2026-10-16.md, raw/articles/scientific-ideas-revision-2610.30568.md, raw/articles/community-verification-layer-2610.30549.md, raw/articles/wired-mouse-injection-agent-2026-10-31.md, raw/articles/mollick-exponential-charts-2026-10-20.md, raw/articles/risklens-human-informed-incident-transfer-2611.16287.md]
 confidence: medium
 ---
 # Oversight
@@ -123,6 +123,12 @@ A separate proposal for scientific publishing suggests keeping checks tied to th
 The everyday-work translation is not to copy the surgery: on a **public, draft-only** task, write `approval before action / stop owner / no-change boundary / repairer told whether the run is live`. If a repairer cannot see that the workflow is active, pause and hand the change back to a person. [[Human in the Loop]] is the real pause, not a signature after the fact; [[Autonomy]] is the limited permission granted before the run.
 
 In [Mollick's October 20 firsthand example](https://www.oneusefulthing.org/p/30-months-on-the-exponential-in-charts), an agent made several chart options and even corrected his mistaken title. He still chose the output and warned that delegating more of the work can hide how results were made. For a public chart, keep the source URL and one reproducible number beside the draft; reopening them is more useful than trusting either a polished chart or the agent's claim that it checked. This is a practitioner account, not an audit of the charts' underlying benchmark claims. ^[raw/articles/mollick-exponential-charts-2026-10-20.md]
+
+### Look for the missing failure, not just the familiar one
+
+RiskLens is a research prototype that ranks past AI incidents against a proposed new product. Its authors analyzed incident and product descriptions and tested how adding criteria supplied by 21 AI-familiar people changed the ranking. That is evidence about the prototype's comparisons, **not** proof that it prevents harm in workplaces or schools. The useful idea is simple: a review should ask which past failure resembles *this* workflow, who could be hurt, and what the tool's ranking missed. ^[raw/articles/risklens-human-informed-incident-transfer-2611.16287.md]
+
+Try a five-minute review with a fictional, public-only task: write `one plausible past failure / one person affected / one check before release / one reason this example may not transfer`. If the checklist cannot name a failure outside the AI's own suggestions, ask a person who knows the work. [[Human in the Loop]] names that person's authority; [[Trust Calibration]] asks how much weight to give the AI's confident explanation.
 
 ## Related Pages
 

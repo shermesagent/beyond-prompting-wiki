@@ -1,3 +1,12 @@
+---
+title: Trust Calibration
+created: 2026-07-25
+updated: 2026-11-14
+type: concept
+tags: [glossary, orchestrator, concept]
+sources: [raw/articles/reasoning-and-cognitive-deference-2611.13456.md, raw/articles/scientific-ideas-revision-2610.30568.md, raw/articles/wired-aged-intelligence-society-2026-10-22.md]
+confidence: medium
+---
 # Trust Calibration
 
 **Trust calibration is the skill of knowing — specifically, not vaguely — when to trust an AI agent's output and when to verify. It's not a yes/no switch; it's a sliding scale you adjust based on the task, the stakes, and the agent's track record.**
@@ -62,6 +71,12 @@ The calibrator's version: don't ask "was this AI-made?" — ask "what supports t
 An October 2026 scientific-ideation preprint reports that an AI judge favored AI-assisted proposals even though human ratings showed no significant quality advantage for them. This does **not** tell us a universal bias rate. It does show why an AI-generated score and an independent quality check answer different questions. In a public-data draft review, hide whether AI helped, ask a person to check two claims against the source, then compare that check with the AI's score. ^[raw/articles/scientific-ideas-revision-2610.30568.md]
 
 If a colleague is new to the workflow, a reported peer-led AI clinic offers another lesson: start with *their* question, not a tool demonstration. The founders' anecdotes are not evidence of broader success, and their reported upload of care-insurance paperwork is **not** safe practice guidance. Try this with a public document only; let the person choose whether to use AI at all. That is calibration of the *task and permission*, not just the answer. See [[Orchestration]] for the handoff and [[Oversight]] for the independent check. ^[raw/articles/wired-aged-intelligence-society-2026-10-22.md]
+
+### A story about its reasoning is not the evidence
+
+Lack and colleagues argue in a November 2026 preprint that a model's fluent, step-by-step explanation can make readers attribute more understanding and authority to it than its actual performance warrants. This is a conceptual argument, **not** an experiment measuring how often people defer to AI. A readable explanation may help you spot a claim worth checking; it does not show the model's actual internal process or establish that the final answer is right. ^[raw/articles/reasoning-and-cognitive-deference-2611.13456.md]
+
+On a public, harmless question, underline one decisive statement in the explanation and check it against a document outside the chat. Write `explanation says / independent source says / what I will do`. If you cannot independently check the deciding claim, keep the AI in a draft or brainstorming role. [[Oversight]] supplies the outside check; [[Human in the Loop]] keeps a person responsible for the decision.
 
 ## Related Pages
 

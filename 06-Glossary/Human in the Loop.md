@@ -1,12 +1,13 @@
 ---
 title: Human in the Loop
 created: 2026-06-21
-updated: 2026-11-07
+updated: 2026-11-14
 type: concept
 tags: [glossary, orchestrator, concept]
 sources:
   - raw/articles/wired-turkle-human-loop-2026-10-16.md
   - raw/articles/wired-caregiver-apps-ai-2026-11-07.md
+  - raw/articles/multi-agent-deliberation-human-decisions-2611.14901.md
 confidence: medium
 ---
 
@@ -80,6 +81,12 @@ In a [WIRED interview](https://www.wired.com/story/maybe-chatbots-shouldnt-get-t
 [Jaclyn Greenberg's November 7 caregiver report](https://www.wired.com/story/apps-for-caregivers-get-a-dose-of-ai-but-that-might-not-be-enough/) shows the appeal of a shared care record: someone covering the next shift can see appointments and questions. But a caregiver trainer says the work of updating those records often falls back on families when professionals do not enter changes. A bioethicist warns that consumer-app data may not carry the protections a user assumes. This is reporting and a firsthand experience, not evidence that one app improves care. ^[raw/articles/wired-caregiver-apps-ai-2026-11-07.md]
 
 The loop has an **update owner**, not just an approver. On paper with fictional details, rehearse a shift handoff: `what changed / who enters it / who checks that the summary is current / who may see it`. If nobody owns the update, don't present an AI-generated summary as the current care plan. The same test works for a public project brief; never trial a casual tool with patient, student or personnel records. [[Memory]] is useful only if its source can be corrected, and [[Oversight]] needs to know which version it checked.
+
+### More agents do not replace a participating person
+
+Two user studies of AI-assisted fact-checking and answer verification found that structured back-and-forth helped more than a single round of advice. Adding a second AI helped in some circumstances, but the authors found multi-round exchange was the main driver; a "devil's advocate" persona reduced accuracy and user experience in their tests. Active human participation improved accuracy in one task but also increased frustration. Those findings are specific to the studied tasks, not a reason to add extra agents to every workflow. ^[raw/articles/multi-agent-deliberation-human-decisions-2611.14901.md]
+
+Try a public-document rehearsal: have one AI draft an answer, then ask a follow-up question about a single checkable claim; *you* compare it with the source. Log `question / source / correction / who decides`. If the extra round adds noise without improving the check, stop there. The human's job is to ask and decide, not merely witness a conversation among tools. See [[Oversight]] and [[Trust Calibration]].
 
 ## Related Pages
 
