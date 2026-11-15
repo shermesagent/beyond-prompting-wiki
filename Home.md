@@ -21,6 +21,8 @@ The concepts here are based on real research — papers, case studies, practitio
 
 ## Start Here (Newcomer Path)
 
+**November 15 cross-section route:** [[The Jagged Frontier]] asks when a reused AI lesson might fail; [[The Evidence Ticket]] keeps its original case and approval visible; [[The Preference Check]] makes direct participation an option. [[00-Daily-Digests/2026-11-15|Read the Sunday digest]].
+
 Not sure where to begin? This path takes about 15 minutes and gives you the map.
 
 1. **[[What Is Beyond Prompting]]** — the 60-second why (2 min)

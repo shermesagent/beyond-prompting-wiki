@@ -1689,3 +1689,9 @@ Theme: **Delegation is a redistribution of consequences — and reliability fail
 - Day 6, 06-Glossary. Accepted three arXiv preprints (2611.16287, 2611.14901, 2611.13456) from publisher abstracts; captured immutable raw abstracts and registered source records in sources/sources.jsonl.
 - Created 00-Daily-Digests/2026-11-14.md. Updated 06-Glossary/Oversight.md, 06-Glossary/Human in the Loop.md, 06-Glossary/Trust Calibration.md, 06-Glossary/README.md and Home.md.
 - No new concept page: the findings sharpen three existing glossary entries; practices use public or fictional material and do not claim school-district efficacy.
+
+
+## [2026-11-15] ingest | Keep the Receipt, Keep the Choice
+- Day 7 cross-section focus. Captured three arXiv publisher-abstract excerpts under raw/articles/ with body hashes and registered three sources in sources/sources.jsonl.
+- Created 00-Daily-Digests/2026-11-15.md; updated 02-Key-Concepts/The Jagged Frontier.md, 05-Practice/The Evidence Ticket.md, and Home.md.
+- No new concept: evidence-linked rules and direct participation deepen existing pages. Claims remain bounded to preprints and reported samples; exercises use public or fictional material.

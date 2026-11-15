@@ -1,7 +1,7 @@
 ---
 title: The Evidence Ticket
 created: 2026-09-18
-updated: 2026-11-13
+updated: 2026-11-15
 type: practice
 tags: [practice, orchestrator, workflow]
 confidence: high
@@ -25,6 +25,8 @@ sources:
   - raw/articles/wired-aina-approval-ring-2026-11-05.md
   - raw/articles/feedback-and-ai-reliance-2611.14833.md
   - raw/articles/agent-skill-authorization-2611.15170.md
+  - raw/articles/evidence-linked-memory-2611.14320.md
+  - raw/articles/pluralistic-agents-public-input-2611.16028.md
 ---
 
 # The Evidence Ticket
@@ -161,6 +163,12 @@ AI recommendations can arrive as ads shaped by a conversation. WIRED reports tha
 An AI explanation is not the same as feedback from the world. In experimental advice tasks, outside accuracy feedback helped participants separate helpful from unhelpful AI advisers; without feedback, an unhelpful adviser could still persuade. [Jones and colleagues, publisher abstract](https://arxiv.org/abs/2611.14833). Add one line to your ticket: `OUTSIDE CHECK: source or test independent of the AI response / result / not checked`. If none exists, keep the claim unverified rather than inventing one.
 
 If the workflow uses an agent add-on, add `PERMISSION: what it can read, change or send / whether it can act without asking / who can turn it off`. A small higher-ed classroom report highlights why inspecting code alone misses authority conveyed by natural-language instructions; its 11-person voluntary survey does not establish a general security improvement. [Wen and colleagues, publisher abstract](https://arxiv.org/abs/2611.15170). Practice on public or fictional material; no identifiable student or staff information in unapproved services. Compare the consult/draft/act line in [[The Line You Draw]].
+
+## The Reusable-Rule Receipt (November 2026)
+
+When a useful correction becomes a standing AI instruction, add `ORIGINAL CASE:`, `WHY IT WORKED:`, `EXCEPTION:`, and `RECHECKED ON:` to your evidence ticket. The WikiTrace preprint reports that linking AI memory to the original task record reduced failures caused by misleading old lessons in five agent benchmarks; your local rule still needs its own test. [Lee et al., publisher abstract](https://arxiv.org/abs/2611.14320). Try a safely changed fictional case before reusing the rule; see [[The Jagged Frontier]].
+
+If an AI is summarizing a person's views, add `PARTICIPATION CHOICE: direct / represented / decline` and `PERSON APPROVED THE SUMMARY: yes / no`. A preregistered 746-person policy study found that most participants still preferred to participate directly even when agent representatives were available; it did not test your workplace or school. [Anthis et al., publisher abstract](https://arxiv.org/abs/2611.16028). Offer the direct option and keep the refusal path visible with [[The Preference Check]]. Never paste private student or staff input into an unapproved AI service.
 
 ## Related Pages
 

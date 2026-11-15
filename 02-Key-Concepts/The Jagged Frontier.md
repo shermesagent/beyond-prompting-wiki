@@ -1,10 +1,10 @@
 ---
 title: The Jagged Frontier
 created: 2026-07-15
-updated: 2026-07-15
+updated: 2026-11-15
 type: concept
 tags: [concept, orchestrator, capability]
-sources: [raw/articles/faster-ai-uneven-frontier-2607.12125.md]
+sources: [raw/articles/faster-ai-uneven-frontier-2607.12125.md, raw/articles/evidence-linked-memory-2611.14320.md]
 confidence: high
 ---
 
@@ -73,6 +73,12 @@ The paper notes that this shift is "visible in experiments but, so far, barely v
 | **Architect** | You design systems where the AI handles what's inside the frontier and routes what's outside to humans — automatically. The system itself embodies your map of the frontier. |
 
 The jagged frontier isn't a barrier to overcome. It's a landscape to navigate. The people who navigate it well don't need to know what AI can do in general. They need to know what AI can do *for their specific work* — and that knowledge comes from running the experiment, not from reading about it.
+
+### When even a good memory crosses the wrong boundary
+
+An agent can fail a task it would have solved *without* memory if it applies an old lesson to the wrong case. In five agent benchmarks, the WikiTrace authors report better results when a short lesson links back to why the original task succeeded or failed and the original task record. That is a research result about agents, not a guarantee for your workflow. [Lee et al., arXiv preprint](https://arxiv.org/abs/2611.14320).
+
+**Try this:** give AI a public or invented example and save a one-line rule with its source. Change one important condition. If it still applies the old rule, require it to reopen the evidence and ask you before acting. Record the check in [[The Evidence Ticket]] and set the handback point with [[The Authority Switch]].
 
 ## Related Pages
 
