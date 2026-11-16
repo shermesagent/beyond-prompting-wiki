@@ -190,6 +190,14 @@ That route needs a human check for *fit*, too. In [journals from 145 first-year 
 
 A [new goals framework](https://arxiv.org/abs/2611.08757) argues that AI often sees the immediate request but not the larger reason for it. It is a proposal, not evidence that a goal-tracking system improves outcomes. Before delegating a public, low-stakes draft, write: **Outcome** (what this is for), **Boundary** (what may not change), **Proof** (how a person will check), and **Owner** (who can revise the goal). If the goal changes midway, stop and rewrite the card rather than silently stretching the task. See [[Intent Scaffolding]] and [[The Orchestrator Mindset]].
 
+## A Handoff Needs a Permission Test (November 2026)
+
+A [study of translating AI rules into technical checks](https://arxiv.org/abs/2611.18439) found recurring tensions around what to measure, who actually oversees the system, and whether yesterday's evidence still fits today's use. It was a 32-person workshop about European AI regulation, **not** a test of this wiki's workplace recipe. Still, it offers a helpful question for a simple public-material task: **What would show that the person really had a chance to stop or correct the AI?** Name the reviewer, evidence to open, and stop point before requesting a draft. See [[The Orchestrator Mindset]] and [[The Evidence Ticket]].
+
+A separate [memory-permissions preprint](https://arxiv.org/abs/2611.17874) shows why one reassuring example of what an AI will remember or reuse is not enough to establish the rule it follows. Its examples are mostly fictional and its small pilot does not prove a better interface. Before saving a reusable instruction, check a case where reuse is allowed **and** a changed case where it must ask again; leave the default off if the boundary is unclear. See [[The Preference Check]] and [[The Control Surface]].
+
+**Try in five minutes:** With a fictional event notice, write `ALLOWED TO DRAFT / MUST ASK AGAIN / HUMAN APPROVER`. Test both cases. Do not upload student or personnel records to an unapproved tool.
+
 ## Try This
 
 Open your most-used AI tool right now. Instead of asking it to do something, give it a goal and a constraint. Say: "I need a report on X. Figure out what information you need, collect it, and produce a one-page summary. Ask me clarifying questions only if you absolutely must." Notice how different that feels — and how much more you get back.

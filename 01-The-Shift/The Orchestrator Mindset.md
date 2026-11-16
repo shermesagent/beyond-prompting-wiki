@@ -267,6 +267,14 @@ A [qualitative study of eight secondary computing teachers](https://arxiv.org/ab
 
 Together these checks turn the shift into a choice: reserve human attention for decisions that need it, and measure whether the workflow improves the work rather than merely increasing activity.
 
+## Check the Silent Failure, Not Just the Visible Draft (November 2026)
+
+A [browser pizza-order demo preprint](https://arxiv.org/abs/2611.18284) shows a small model can produce a neatly formatted ticket that omits something the customer ordered. The authors' in-browser PIZZA benchmark matcher compares the requested order against the ticket; its reported exact-match rate is 0.882 on 1,357 test orders. That is a specific demo, **not** a validator for business apps. For one fictional or public-data workflow, retain the original request and compare it yourself with the resulting output before any consequential action. A clean format is not evidence of correctness. See [[The Evidence Ticket]] and [[The Control Surface]].
+
+A [participatory study of AI rule-making](https://arxiv.org/abs/2611.18439) also reminds us that an oversight promise only works if someone knows what to inspect and can intervene when conditions change. Keep a named reviewer and stop point beside your checks, not just a green status badge. See [[What Is Beyond Prompting]] and [[The Review-First Pattern]].
+
+**Try in five minutes:** On a fictional pizza order, deliberately omit one item from a practice ticket. Can the reviewer catch the mismatch using only the request and the ticket? If not, improve the comparison before increasing autonomy. Never submit the practice order.
+
 ## Try This
 
 Take the mechanical sequences you circled in [[The Operator Mindset]] exercise. Pick the simplest one and write it as a single instruction that starts with a goal, not a step. For example, instead of "First do X, then do Y, then do Z," write: "Produce Z. You have access to X and Y. Figure out the order." Run it. Compare the result to your manual process. Where did the AI make different choices than you would have? Were they wrong, or just different?

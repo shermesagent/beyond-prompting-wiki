@@ -1695,3 +1695,8 @@ Theme: **Delegation is a redistribution of consequences — and reliability fail
 - Day 7 cross-section focus. Captured three arXiv publisher-abstract excerpts under raw/articles/ with body hashes and registered three sources in sources/sources.jsonl.
 - Created 00-Daily-Digests/2026-11-15.md; updated 02-Key-Concepts/The Jagged Frontier.md, 05-Practice/The Evidence Ticket.md, and Home.md.
 - No new concept: evidence-linked rules and direct participation deepen existing pages. Claims remain bounded to preprints and reported samples; exercises use public or fictional material.
+
+## [2026-11-16] ingest | Give the Handoff a Stop Point
+- Day 1 focus: 01-The-Shift. Accepted three November 13 arXiv preprints (2611.18439, 2611.17874, 2611.18284); captured publisher-abstract excerpts with body hashes in `raw/articles/` and appended three metadata records to `sources/sources.jsonl`.
+- Created `00-Daily-Digests/2026-11-16.md`; updated `01-The-Shift/What Is Beyond Prompting.md`, `01-The-Shift/The Orchestrator Mindset.md`, `01-The-Shift/README.md`, and `Home.md`. Corrected the 2611.18284 capture and metadata against the publisher abstract during pre-commit verification: it is a browser pizza-order demo, not a general browser-action verifier.
+- No new concept: permission scope, evidence of action, and human intervention deepen existing pages. Workshop, fictional rule tests, and a browser pizza-order demo do not establish district or workplace effectiveness. All exercises use fictional or public material.

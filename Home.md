@@ -21,6 +21,8 @@ The concepts here are based on real research — papers, case studies, practitio
 
 ## Start Here (Newcomer Path)
 
+**November 16 Shift route:** [[What Is Beyond Prompting]] tests when an AI rule may be reused; [[The Orchestrator Mindset]] checks a silent error and names a person who can stop release. [[00-Daily-Digests/2026-11-16|Read Monday's digest]].
+
 **November 15 cross-section route:** [[The Jagged Frontier]] asks when a reused AI lesson might fail; [[The Evidence Ticket]] keeps its original case and approval visible; [[The Preference Check]] makes direct participation an option. [[00-Daily-Digests/2026-11-15|Read the Sunday digest]].
 
 Not sure where to begin? This path takes about 15 minutes and gives you the map.
@@ -68,7 +70,7 @@ Plain-language definitions of every key term.
 
 ### 00-Daily-Digests
 Daily curated research digests — what we found, what it means, and how to use it.
-→ [[00-Daily-Digests/2026-11-12|Today's Digest]] · [[00-Daily-Digests/2026-11-11|Previous Digest]]
+→ [[00-Daily-Digests/2026-11-16|Today's Digest]] · [[00-Daily-Digests/2026-11-15|Previous Digest]]
 
 ---
 
@@ -88,6 +90,7 @@ _Last 7 days of activity._
 
 | Date | What Changed |
 |------|-------------|
+| 2026-11-16 | Day 1 Shift: three arXiv preprints sharpen permission for saved rules, visible evidence of actions, and a real human stop point. [[What Is Beyond Prompting]] and [[The Orchestrator Mindset]] gained safe, fictional-task checks. [[00-Daily-Digests/2026-11-16|Read the digest]]. |
 | 2026-11-14 | Day 6 glossary: three preprints distinguish missed-failure oversight, participating human review and explanation from evidence. [[Oversight]], [[Human in the Loop]] and [[06-Glossary/Trust Calibration|Trust Calibration]] gained public-document checks. [[00-Daily-Digests/2026-11-14|Read the digest]]. |
 | 2026-11-13 | Day 5 practice: three preprint abstracts distinguish outside accuracy feedback, reason versus decision, and add-on authorization. [[The Reliance Audit]], [[The Line You Draw]] and [[The Evidence Ticket]] gained public-task checks. [[00-Daily-Digests/2026-11-13|Read the digest]]. |
 | 2026-11-12 | Day 4 barriers: three preprint abstracts separate the choice to delegate, the stability of AI labels and the rule behind each label. [[The Engagement Gap]] and [[The Fairness Dashboard Trap]] gained public-material checks. [[00-Daily-Digests/2026-11-12|Read the digest]]. |
