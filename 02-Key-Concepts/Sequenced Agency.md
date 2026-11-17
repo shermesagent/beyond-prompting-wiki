@@ -1,7 +1,7 @@
 ---
 title: Sequenced Agency
 created: 2026-09-15
-updated: 2026-09-15
+updated: 2026-11-17
 type: concept
 tags: [concept, workflow, orchestrator, architect]
 sources:
@@ -10,6 +10,7 @@ sources:
   - raw/articles/govtech-utah-edtech-privacy-audit-2026-09-04.md
   - raw/articles/arxiv-2609.12273-synthetic-tlx-workload-forecasting.md
   - raw/articles/arxiv-2609.12314-socioemotional-llm-support.md
+  - raw/articles/arxiv-2611.19474-function-level-autonomy.md
 confidence: high
 ---
 
@@ -45,6 +46,12 @@ The clue is reversibility. If you cannot explain what would move the workflow fo
 
 ## Try This
 
+### Permission is per function, not per product
+
+In one study of **vehicle assistants**, 126 participants rated autonomy preferences for 14 functions; the researchers found function characteristics useful for ranking appropriate independence. It is not a school or office deployment study. Still, it offers a practical question: *would you give the same freedom to a tool that summarizes an agenda and one that sends a message?* [Zepf and colleagues, preprint](https://arxiv.org/abs/2611.19474). ^[raw/articles/arxiv-2611.19474-function-level-autonomy.md]
+
+In a five-minute rehearsal with public or fictional material, pick one workflow and list its three actions: **organize**, **draft**, **send/change**. Give each its own rung from the ladder below. Name one test that would justify more freedom and one failure that would pull it back. See [[The Facilitation Boundary]] for a meeting example where helping people share information need not mean making their decision.
+
 **The 5-Minute Autonomy Ladder**
 
 Pick one AI use case you already have: drafting emails, grading practice responses, summarizing meetings, researching vendors, building dashboards, anything.
@@ -66,7 +73,7 @@ That last question is the difference between governance and wishful thinking.
 
 ## Related Pages
 
-[[Delegation Thinking]] · [[The Workflow Lens]] · [[Trust Calibration]] · [[The Evidence Interface]] · [[The Authority Switch]] · [[The Preservation Principle]]
+[[Delegation Thinking]] · [[The Workflow Lens]] · [[Trust Calibration]] · [[The Evidence Interface]] · [[The Authority Switch]] · [[The Preservation Principle]] · [[The Facilitation Boundary]]
 
 ## Tags
 

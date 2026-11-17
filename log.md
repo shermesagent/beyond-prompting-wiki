@@ -1700,3 +1700,9 @@ Theme: **Delegation is a redistribution of consequences — and reliability fail
 - Day 1 focus: 01-The-Shift. Accepted three November 13 arXiv preprints (2611.18439, 2611.17874, 2611.18284); captured publisher-abstract excerpts with body hashes in `raw/articles/` and appended three metadata records to `sources/sources.jsonl`.
 - Created `00-Daily-Digests/2026-11-16.md`; updated `01-The-Shift/What Is Beyond Prompting.md`, `01-The-Shift/The Orchestrator Mindset.md`, `01-The-Shift/README.md`, and `Home.md`. Corrected the 2611.18284 capture and metadata against the publisher abstract during pre-commit verification: it is a browser pizza-order demo, not a general browser-action verifier.
 - No new concept: permission scope, evidence of action, and human intervention deepen existing pages. Workshop, fictional rule tests, and a browser pizza-order demo do not establish district or workplace effectiveness. All exercises use fictional or public material.
+
+## [2026-11-17] ingest | Facilitation, function-level autonomy, and release-versus-repair
+- Accepted three arXiv preprints: 2611.19474, 2611.19652, 2611.19777. Saved abstract-based source captures to raw/articles/ and registered them in sources/sources.jsonl; preprints are not validated production deployments.
+- Created 00-Daily-Digests/2026-11-17.md and 02-Key-Concepts/The Facilitation Boundary.md.
+- Updated 02-Key-Concepts/Sequenced Agency.md and 02-Key-Concepts/The Authority Switch.md with concrete checks; updated 02-Key-Concepts/README.md and Home.md navigation.
+- Practical boundary: AI can improve discussion clarity without gaining authority to decide or publish; release approval and repair ownership are separate.

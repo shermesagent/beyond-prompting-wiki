@@ -160,6 +160,7 @@ They came out of real research — papers on human-AI collaboration, case studie
 | [[Accountable Translation]] | When you build with natural language, how do you know the result is still what you asked for? | Orchestrator → Architect |
 | [[02-Key-Concepts/Interpretive Appearance|Interpretive Appearance]] | Does this polished AI interpretation have real evidence under it, or only the appearance of being settled? | Orchestrator |
 | [[The Evidence Interface]] | What proof should an AI leave behind before I trust or expand its autonomy? | Orchestrator → Architect |
+| [[The Facilitation Boundary]] | Can AI help a group share missing information without taking the decision or release authority? | Operator → Orchestrator |
 | [[The Workflow Lens]] | Is this AI improving the whole workflow — control, recovery, learning, and purpose — or just speeding up one step? | Orchestrator → Architect |
 | [[Sequenced Agency]] | What evidence earns the next level of AI autonomy — and what failure moves it back down? | Orchestrator → Architect |
 | [[The Task Scaffold]] | What structure does this task need before AI touches it? | Operator → Orchestrator |

@@ -1,13 +1,14 @@
 ---
 title: The Authority Switch
 created: 2026-08-18
-updated: 2026-11-03
+updated: 2026-11-17
 type: concept
 tags: [concept, workflow, orchestrator, architect]
 sources:
   - raw/articles/principled-authority-switching-2608.16293.md
   - raw/articles/hallucination-snowball-2608.14588.md
   - raw/articles/agent-interaction-failure-2611.00291.md
+  - raw/articles/arxiv-2611.19777-release-and-repair.md
 confidence: high
 ---
 
@@ -61,6 +62,12 @@ You're running on designed switches when you can name three things for any deleg
 
 ## Try This
 
+### Two handbacks, not one
+
+An interface design study separates **permission to release** a result from **responsibility to repair** an incomplete report. Its tests used scripted histories and generated cases, so do not treat it as a proven rule for your organization. The transferable idea: a green light to share something must not erase a known omission or its owner. [Xu and Tan, preprint](https://arxiv.org/abs/2611.19777). ^[raw/articles/arxiv-2611.19777-release-and-repair.md]
+
+For a *public, draft-only* task, write down: `Who approves sharing? What is missing? Who fixes it? Who verifies the fix?` If the missing piece is material or policy requires it, **do not release** until corrected. Revisit the list even if the approval rule later changes. [[The Facilitation Boundary]] shows why helping a group discuss a decision need not confer authority to make or publish it.
+
 ### The space between checkpoints matters
 
 A new preprint classified 695 **documented incidents from two public repositories** into 12 human–agent interaction failure modes. Every mode appeared at both low and high autonomy, but the way it appeared changed as agents did more between human check-ins. This is a map of reported incidents, **not** an incidence rate for your workplace or evidence that an intervention works. [Wang and colleagues, publisher abstract](https://arxiv.org/abs/2611.00291v1). ^[raw/articles/agent-interaction-failure-2611.00291.md]
@@ -72,7 +79,7 @@ For one *public, draft-only* task, mark the first point where the agent could ac
 
 ## Related Pages
 
-[[Delegation Thinking]] · [[The Review-First Pattern]] · [[The Observability Gap]] · [[Trust Calibration]] · [[The Capability Ladder]] · [[Human in the Loop]] · [[Abstention]] · [[02-Key-Concepts/README|02 — Key Concepts]]
+[[Delegation Thinking]] · [[The Review-First Pattern]] · [[The Observability Gap]] · [[Trust Calibration]] · [[The Capability Ladder]] · [[Human in the Loop]] · [[Abstention]] · [[The Facilitation Boundary]] · [[02-Key-Concepts/README|02 — Key Concepts]]
 
 ## Tags
 

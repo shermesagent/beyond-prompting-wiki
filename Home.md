@@ -2,7 +2,7 @@
 
 > A living guide to the **operator → orchestrator shift**. If you've ever typed a prompt and thought "there has to be more than this" — start here.
 
-_128 pages across 6 sections. Updated daily. Git-backed, human-readable, cross-linked._
+_130 pages across 6 sections. Updated daily. Git-backed, human-readable, cross-linked._
 
 ---
 
@@ -20,6 +20,8 @@ The concepts here are based on real research — papers, case studies, practitio
 ---
 
 ## Start Here (Newcomer Path)
+
+**November 17 concept route:** [[The Facilitation Boundary]] separates helping a group from deciding for it; [[Sequenced Agency]] gives each action its own permission level; [[The Authority Switch]] names who approves release and who repairs omissions. [[00-Daily-Digests/2026-11-17|Read Tuesday's digest]].
 
 **November 16 Shift route:** [[What Is Beyond Prompting]] tests when an AI rule may be reused; [[The Orchestrator Mindset]] checks a silent error and names a person who can stop release. [[00-Daily-Digests/2026-11-16|Read Monday's digest]].
 
@@ -47,6 +49,7 @@ Approachable distillations of research into learning concepts you can use today.
 → [[Task Decomposition]] · [[Delegation Thinking]] · [[Cognitive Surrender]] · [[02-Key-Concepts/Trust Calibration|Trust Calibration]] · [[Friction by Design]] · [[The Augmentation Trap]] · [[Co-Construction Blindness]] · [[From Author to Editor]] · [[The Coaching Stance]] · [[The Placement Rule]] · [[The Four Decision Labels]] · [[Memory as Infrastructure]] · [[The Review-First Pattern]] · [[The Sequencing Principle]] · [[Doom Researching]] · [[Reverse-Centaur]] · [[The Collapse Pattern]] · [[Cognitive Load]] · [[The Illusion of Mastery]] · [[The Scaffold Match]] · [[The Jagged Frontier]] · [[Abstention]] · [[Authorship Calibration]] · [[Autonomy]] · [[The Preservation Principle]] · [[The Absorption Pattern]] · [[The Overassistance Pattern]] · [[02-Key-Concepts/Delegation Regret|Delegation Regret]] · [[Instruction Bleed]] · [[02-Key-Concepts/The Blank Box Problem|The Blank Box Problem]] · [[AI Context Anxiety]] · [[Lexical Oscillation]] · [[02-Key-Concepts/Capacity Dissolution|Capacity Dissolution]] · [[02-Key-Concepts/Cognitive Fixed Cost|Cognitive Fixed Cost]] · [[02-Key-Concepts/Failure-Path Preservation|Failure-Path Preservation]] · [[Distributed Mastery]] · [[02-Key-Concepts/Accountability Asymmetry|Accountability Asymmetry]] · [[02-Key-Concepts/Cognitive Capability Gaps|Cognitive Capability Gaps]] · [[02-Key-Concepts/Intent Scaffolding|Intent Scaffolding]] · [[02-Key-Concepts/The Vibe Compiler|The Vibe Compiler]] · [[02-Key-Concepts/Repair Literacy|Repair Literacy]] · [[02-Key-Concepts/Silent Updates|Silent Updates]] · [[02-Key-Concepts/The Enactment Gap|The Enactment Gap]] · [[02-Key-Concepts/Distributed Counsel|Distributed Counsel]] · [[02-Key-Concepts/The Tool-to-Entity Threshold|The Tool-to-Entity Threshold]] · [[02-Key-Concepts/The Authority Switch|The Authority Switch]] · [[02-Key-Concepts/Scaffold, Don't Substitute|Scaffold, Don't Substitute]] · [[02-Key-Concepts/Procedural Collapse|Procedural Collapse]] · [[02-Key-Concepts/The Practice Style|The Practice Style]] · [[02-Key-Concepts/The Provenance Principle|The Provenance Principle]] · [[02-Key-Concepts/Delegated Exposure|Delegated Exposure]] · [[02-Key-Concepts/The Confidence Gap|The Confidence Gap]] · [[02-Key-Concepts/The Warm Expert|The Warm Expert]] · [[02-Key-Concepts/Run-to-Run Variance|Run-to-Run Variance]] · [[02-Key-Concepts/The SCAN Test|The SCAN Test]] · [[02-Key-Concepts/The Rule Capture Problem|The Rule Capture Problem]] · [[02-Key-Concepts/The Failure Review|The Failure Review]] · [[02-Key-Concepts/The Echo Check|The Echo Check]] · [[02-Key-Concepts/The Disclosure Clock|The Disclosure Clock]] · [[02-Key-Concepts/Accountable Translation|Accountable Translation]] · [[02-Key-Concepts/Interpretive Appearance|Interpretive Appearance]] · [[The Evidence Interface]] · [[The Workflow Lens]] · [[Sequenced Agency]] · [[The Task Scaffold]] · [[The Translation Layer]] · [[The Control Surface]] · [[Metacognitive Demand]] · [[The Meaning Check]]
 
 → [[The Preference Check]] — confirm a person's choice before saving a new AI default.
+→ [[The Facilitation Boundary]] — let AI draw out missing viewpoints without handing it the decision.
 → [[The Known-Case Check]] — test a verified example and a safely changed copy; check both detection and final repair.
 New this week: [[The Preference Check]] — ask before turning observed behavior into a standing AI default. Also explore [[The Reversal Condition]], [[The Meaning Check]], [[The Demonstration Check]], and [[The Observability Gap]] for deciding what to verify at each autonomy level.
 For the full autonomy map, see [[The Capability Ladder]].
@@ -70,7 +73,7 @@ Plain-language definitions of every key term.
 
 ### 00-Daily-Digests
 Daily curated research digests — what we found, what it means, and how to use it.
-→ [[00-Daily-Digests/2026-11-16|Today's Digest]] · [[00-Daily-Digests/2026-11-15|Previous Digest]]
+→ [[00-Daily-Digests/2026-11-17|Today's Digest]] · [[00-Daily-Digests/2026-11-16|Previous Digest]]
 
 ---
 
@@ -90,6 +93,7 @@ _Last 7 days of activity._
 
 | Date | What Changed |
 |------|-------------|
+| 2026-11-17 | Day 2 concepts: three preprints separate meeting facilitation from decision authority, task-level autonomy from blanket access, and approval to release from responsibility to repair. [[The Facilitation Boundary]] created; [[Sequenced Agency]] and [[The Authority Switch]] updated. [[00-Daily-Digests/2026-11-17|Read the digest]]. |
 | 2026-11-16 | Day 1 Shift: three arXiv preprints sharpen permission for saved rules, visible evidence of actions, and a real human stop point. [[What Is Beyond Prompting]] and [[The Orchestrator Mindset]] gained safe, fictional-task checks. [[00-Daily-Digests/2026-11-16|Read the digest]]. |
 | 2026-11-14 | Day 6 glossary: three preprints distinguish missed-failure oversight, participating human review and explanation from evidence. [[Oversight]], [[Human in the Loop]] and [[06-Glossary/Trust Calibration|Trust Calibration]] gained public-document checks. [[00-Daily-Digests/2026-11-14|Read the digest]]. |
 | 2026-11-13 | Day 5 practice: three preprint abstracts distinguish outside accuracy feedback, reason versus decision, and add-on authorization. [[The Reliance Audit]], [[The Line You Draw]] and [[The Evidence Ticket]] gained public-task checks. [[00-Daily-Digests/2026-11-13|Read the digest]]. |
