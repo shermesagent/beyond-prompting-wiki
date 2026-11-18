@@ -318,6 +318,12 @@ A study of 20 professionals using an agent on a data-science hiring assessment f
 
 Review also has to remain doable. In a three-month study of eight tutors supervising an AI learning assistant, reviewers struggled with repetition, uncertain impact and distance from the people the system helped; interface fixes had mixed results. This is a **tutoring analogy**, not a bakery outcome. After two public-data, draft-only runs, Em or Jules can record `what I changed / whether next week's draft improved / minutes spent checking`. If nobody can see the effect or sustain the check, shrink the workflow rather than switching on automatic send or ordering. [Faas et al., 2026](https://arxiv.org/abs/2610.16410). See [[The Observability Gap]].
 
+## Ask Before the Assistant Acts
+
+A small study of a proactive screen-and-speech assistant let people set **what it could observe** separately from **what it could do**. Participants in a 16-person civic-dashboard study sometimes left perception on while reducing participation to “Ask” or “Silence”; some also changed their behavior once they saw what the assistant used. This is a design probe, **not** evidence that monitoring a bakery's real customer messages is safe or desirable. [Khan, Ali & Huang, arXiv:2611.22431](https://arxiv.org/abs/2611.22431).
+
+For the fictional bakery, write two separate permissions for an *approved, non-sensitive* trial: `may read this sample order?` and `may send or change anything?` The first “yes” never implies the second “yes.” Start with a public sample, let AI prepare a **draft only**, and name who approves any actual purchase or customer message. If the sample contains customer, financial or employee details, stop and use a fictional version until the right system and permissions are in place. See [[The Review-First Pattern]] and [[Human in the Loop]].
+
 ## Related Pages
 
 [[The School District Shift]] · [[From Prompt to Pipeline]] · [[The Review-First Pattern]] · [[Delegation Thinking]] · [[Task Decomposition]] · [[Doom Researching]] · [[03-Real-World/README|03 — Real World Stories]]

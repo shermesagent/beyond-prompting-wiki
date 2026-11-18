@@ -21,6 +21,8 @@ The concepts here are based on real research — papers, case studies, practitio
 
 ## Start Here (Newcomer Path)
 
+**November 18 real-world route:** [[The School District Shift]] separates real teacher input from simulated voices; [[Small Business Automation]] separates what an assistant may read from what it may do. [[00-Daily-Digests/2026-11-18|Read Wednesday's digest]]. The stories are illustrative, not measured district or bakery deployments.
+
 **November 17 concept route:** [[The Facilitation Boundary]] separates helping a group from deciding for it; [[Sequenced Agency]] gives each action its own permission level; [[The Authority Switch]] names who approves release and who repairs omissions. [[00-Daily-Digests/2026-11-17|Read Tuesday's digest]].
 
 **November 16 Shift route:** [[What Is Beyond Prompting]] tests when an AI rule may be reused; [[The Orchestrator Mindset]] checks a silent error and names a person who can stop release. [[00-Daily-Digests/2026-11-16|Read Monday's digest]].

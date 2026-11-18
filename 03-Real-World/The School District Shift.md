@@ -1,10 +1,10 @@
 ---
 title: The School District Shift
 created: 2026-06-21
-updated: 2026-11-11
+updated: 2026-11-18
 type: story
 tags: [story, orchestrator, workflow]
-sources: [raw/articles/valiassist-feedback-validation-2610.27248.md, raw/articles/math-feedback-exam-performance-2610.27881.md, raw/articles/teacher-cultural-distance-2509.10780-v2.md, raw/articles/peers4u-math-2610.37238.md, raw/articles/engineering-assessment-evidence-2610.36413.md, raw/articles/student-agency-journals-2611.04783.md, raw/articles/organizational-difficulty-benchmark-2611.03494.md, raw/articles/perspicacious-instructional-design-2611.13549.md, raw/articles/trust-verify-audit-attribute-2611.13042.md]
+sources: [raw/articles/valiassist-feedback-validation-2610.27248.md, raw/articles/math-feedback-exam-performance-2610.27881.md, raw/articles/teacher-cultural-distance-2509.10780-v2.md, raw/articles/peers4u-math-2610.37238.md, raw/articles/engineering-assessment-evidence-2610.36413.md, raw/articles/student-agency-journals-2611.04783.md, raw/articles/organizational-difficulty-benchmark-2611.03494.md, raw/articles/perspicacious-instructional-design-2611.13549.md, raw/articles/trust-verify-audit-attribute-2611.13042.md, raw/articles/ai-as-anchor-stakeholder-sequencing-2611.22740.md, raw/articles/ai4osn-researcher-control-2611.22006.md]
 confidence: medium
 ---
 # The School District Shift
@@ -508,6 +508,14 @@ An organizational-benchmarking paper makes the companion point: even when an AI 
 **Does the output actually support the claim?** A separate research framework says a passing software check proves something about the *artifact checked*, not necessarily the original claim. Translate this to curriculum review: a standards tag on a generated item is not proof that the question assesses the intended skill. A teacher should compare the original standard, the student-facing item and the proposed answer before approval. This is an analogy, not a tested district procedure. [Source: Eigner, Süli & Hollós, *Trust, but verify, audit and attribute* (2026), arXiv:2611.13042](https://arxiv.org/abs/2611.13042).
 
 **Try this with public or invented, non-student material:** Pick one released question and its published standard. Ask an approved tool to classify the skill. Then independently check what a student must *do* to answer, record any mismatch and keep the teacher as approver. Do not upload student work, accommodation or personnel records to an unapproved service. See [[The Evidence Interface]] for the claim-to-evidence check and [[From Prompt to Pipeline]] for the handoff.
+
+## Hear the Teacher Before Asking AI to Stand In (November 18, 2026)
+
+In a **single design course**, eight teams (21 students) interviewed both AI-simulated and real stakeholders. When AI came first, it offered a broad frame that people later revised; when people came first, AI more often helped revisit their insights. The study is exploratory and does **not** test a school district or prove a best interview order. The practical boundary for district planning is simpler: a synthetic teacher or family voice is a way to rehearse questions, not evidence of what teachers or families actually need. [Mokryn et al., arXiv:2611.22740](https://arxiv.org/abs/2611.22740).
+
+For a proposed **public-material, draft-only** lesson workflow, ask an actual authorized educator to name one constraint before inviting AI to suggest options. Keep the educator's words and the AI suggestion in different columns; do not label the latter “stakeholder feedback.” Another small study of 18 researchers using an AI-assisted social-data tool found that novices showed descriptively greater agreement with AI than experienced users. This is not a measured teacher effect, but it is a useful prompt to have the reviewer check the original standard or published source independently, not just approve a fluent summary. [Wang et al., arXiv:2611.22006](https://arxiv.org/abs/2611.22006). See [[The Review-First Pattern]] and [[The Evidence Interface]].
+
+**Five-minute rehearsal:** Use a publicly released instructional example and an official TEKS text. Write down the teacher's intended skill and one likely student misunderstanding *before* requesting a draft item. Compare the draft against that original intent; a standards label is not verification. Do not upload identifiable student work, accommodations, family input or staff records into an unapproved tool.
 
 ## Related Pages
 

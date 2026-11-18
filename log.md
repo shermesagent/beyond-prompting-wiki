@@ -1706,3 +1706,8 @@ Theme: **Delegation is a redistribution of consequences — and reliability fail
 - Created 00-Daily-Digests/2026-11-17.md and 02-Key-Concepts/The Facilitation Boundary.md.
 - Updated 02-Key-Concepts/Sequenced Agency.md and 02-Key-Concepts/The Authority Switch.md with concrete checks; updated 02-Key-Concepts/README.md and Home.md navigation.
 - Practical boundary: AI can improve discussion clarity without gaining authority to decide or publish; release approval and repair ownership are separate.
+
+## [2026-11-18] ingest | Real voices, visible evidence, bounded action
+- Day 3 focus: 03-Real-World. Accepted three November 18 arXiv preprints (2611.22740, 2611.22006, 2611.22431); saved publisher-abstract-based captures with body hashes to `raw/articles/` and appended metadata to `sources/sources.jsonl`.
+- Created `00-Daily-Digests/2026-11-18.md`; updated `03-Real-World/The School District Shift.md`, `03-Real-World/Small Business Automation.md`, `03-Real-World/README.md`, and `Home.md`.
+- No new concept page: stakeholder sequence, evidence-visible judgment and separate read/act permissions sharpen existing review and oversight concepts. The studies do not verify the illustrative district or bakery stories. Public or fictional practice materials only; no identifiable student or customer records in an unapproved system.

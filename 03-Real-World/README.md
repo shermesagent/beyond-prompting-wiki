@@ -14,6 +14,8 @@ The stories aren't success porn. Some of them include wrong turns, abandoned app
 
 ---
 
+New in [[00-Daily-Digests/2026-11-18|the November 18 digest]]: hear the real person before using AI as a stand-in; keep source evidence next to the proposed judgment; and separate permission to observe from permission to act. These findings come from small preprint studies in design education, research and a civic-dashboard prototype—not from the fictional district or bakery. See [[The School District Shift]] and [[Small Business Automation]].
+
 ## How to Read These Stories
 
 Read them for the **decision points**, not the tools. The tools change every six months. What matters is the moment someone asked: *Can I hand this off entirely?* or *What if the AI figured out the order instead of me?* or *What would I need in place before I'd trust this?* Those questions are universal. The rest is implementation detail.
