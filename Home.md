@@ -21,6 +21,8 @@ The concepts here are based on real research — papers, case studies, practitio
 
 ## Start Here (Newcomer Path)
 
+**November 19 barriers route:** [[04-Barriers-and-Bridges/Trust Calibration|Trust Calibration]] asks what a review actually catches; [[No One to Blame]] checks whether the person accountable can stop or correct a release. [[00-Daily-Digests/2026-11-19|Read Thursday's digest]]. Use non-sensitive practice drafts, not student or personnel records.
+
 **November 18 real-world route:** [[The School District Shift]] separates real teacher input from simulated voices; [[Small Business Automation]] separates what an assistant may read from what it may do. [[00-Daily-Digests/2026-11-18|Read Wednesday's digest]]. The stories are illustrative, not measured district or bakery deployments.
 
 **November 17 concept route:** [[The Facilitation Boundary]] separates helping a group from deciding for it; [[Sequenced Agency]] gives each action its own permission level; [[The Authority Switch]] names who approves release and who repairs omissions. [[00-Daily-Digests/2026-11-17|Read Tuesday's digest]].
@@ -95,6 +97,8 @@ _Last 7 days of activity._
 
 | Date | What Changed |
 |------|-------------|
+| 2026-11-19 | Day 4 barriers: three research abstracts separate AI confidence from human learning, review speed from review quality, and responsibility from actual control. [[04-Barriers-and-Bridges/Trust Calibration|Trust Calibration]] and [[No One to Blame]] gained practice checks. [[00-Daily-Digests/2026-11-19|Read the digest]]. |
+| 2026-11-18 | Day 3 real-world route: [[The School District Shift]] and [[Small Business Automation]] gained boundaries for participation and permission. [[00-Daily-Digests/2026-11-18|Read the digest]]. |
 | 2026-11-17 | Day 2 concepts: three preprints separate meeting facilitation from decision authority, task-level autonomy from blanket access, and approval to release from responsibility to repair. [[The Facilitation Boundary]] created; [[Sequenced Agency]] and [[The Authority Switch]] updated. [[00-Daily-Digests/2026-11-17|Read the digest]]. |
 | 2026-11-16 | Day 1 Shift: three arXiv preprints sharpen permission for saved rules, visible evidence of actions, and a real human stop point. [[What Is Beyond Prompting]] and [[The Orchestrator Mindset]] gained safe, fictional-task checks. [[00-Daily-Digests/2026-11-16|Read the digest]]. |
 | 2026-11-14 | Day 6 glossary: three preprints distinguish missed-failure oversight, participating human review and explanation from evidence. [[Oversight]], [[Human in the Loop]] and [[06-Glossary/Trust Calibration|Trust Calibration]] gained public-document checks. [[00-Daily-Digests/2026-11-14|Read the digest]]. |

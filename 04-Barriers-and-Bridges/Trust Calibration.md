@@ -1,10 +1,12 @@
 ---
 title: Trust Calibration
 created: 2026-07-16
-updated: 2026-10-15
+updated: 2026-11-19
 type: concept
 tags: [barrier, mindset, skill]
 sources:
+  - raw/articles/miscalibrated-ai-human-calibration-2611.23618.md
+  - raw/articles/reviewer-value-calibration-2611.24932.md
   - raw/articles/ai-suppresses-i-dont-know-2607.13562.md
   - raw/articles/llm-rationales-user-facing-trust-2026.md
   - raw/articles/epistemic-trustworthiness-2608.05602.md
@@ -293,6 +295,12 @@ In a new behavioral study of 244 people, feedback after participants overrode AI
 ## The Bottom Line
 
 > AI is getting better at sounding right. Your most important counter-skill is getting better at saying "I don't know." Practice it. The research shows you'll need the practice — because AI fluency makes those three words feel unnecessary right up until they're essential. And remember the third layer: calibration is personal, but *worthiness* is structural. A flawless thermostat attached to a system that hides its limits, blocks inspection, or dismisses your knowledge is still measuring a broken room.
+
+## The Bridge: Practice the Review, Not the Confidence Display (November 19)
+
+In a small experiment with 300 novices judging white-blood-cell images, only one *conservative* AI probability display improved people's later unaided confidence judgments. This does **not** mean deliberately inaccurate probabilities are safe to show in real decisions. It means a model's confidence and a person's learning from that display are separate questions. If an AI draft sounds sure, ask what you can check against the original evidence before passing it along. [Hegeman et al., 2026](https://arxiv.org/abs/2611.23618). ^[raw/articles/miscalibrated-ai-human-calibration-2611.23618.md]
+
+In one AI-assisted accounting system, an analysis of reviewer events found that fast, low-edit reviewers could be either genuinely effective or overconfident; outcomes were needed to tell the difference. This is not a scorecard for teachers, staff, or other professions. **Try this on a non-sensitive practice draft:** put one checkable error in it, let a colleague review it, and discuss what evidence helped them catch it. Count a review as useful when it catches something important, not merely when it finishes quickly. [Sinha & Pandey, 2026](https://arxiv.org/abs/2611.24932). ^[raw/articles/reviewer-value-calibration-2611.24932.md]
 
 ## Related Pages
 

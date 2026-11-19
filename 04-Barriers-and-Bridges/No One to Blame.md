@@ -1,7 +1,7 @@
 ---
 title: No One to Blame
 created: 2026-08-13
-updated: 2026-10-18
+updated: 2026-11-19
 type: concept
 tags: [barrier, trust, governance, accountability, orchestrator]
 sources:
@@ -10,6 +10,8 @@ sources:
   - raw/articles/mollick-dot-and-swarm-2026-10-01.md
   - raw/articles/mittr-openai-monitoring-interview-2026-09-30.md
   - raw/articles/zvi-safety-culture-2026-10-14.md
+  - raw/articles/align-control-accountability-2611.24609.md
+  - raw/articles/reviewer-value-calibration-2611.24932.md
 confidence: medium
 ---
 
@@ -74,6 +76,12 @@ Mollick [describes agents arranging their own subtasks](https://www.oneusefulthi
 ## When the Policy Exists but the Pause Doesn't
 
 [Zvi Mowshowitz argues](https://thezvi.substack.com/p/the-safety-culture-at-the-labs-is) that a written safety policy is not enough if people cannot raise concerns or slow a launch. His essay quotes former lab staff on learning from aviation-style safety practice; it is commentary, not an audit of every lab. For a small team's workflow, make the bridge testable: after a harmless near miss, name who paused the run, where the report went, who approved restart, and what changed. If nobody can answer, a policy document has not yet become a working safety habit. Pair this with [[Human in the Loop]]'s time/stop/change check and [[The Disclosure Clock]]'s notification record. ^[raw/articles/zvi-safety-culture-2026-10-14.md]
+
+## The Bridge: Match Responsibility to Actual Control (November 19)
+
+Being told to “own” an AI decision is not enough if you cannot see the evidence, stop release, or correct a mistake. Schneider and colleagues' ALIGN method uses scenarios to expose this mismatch in a high-risk railway setting; it is **not** evidence that the same process has been tested in a school. Try its central question in your own low-stakes workflow: *Who is responsible, and what can that person actually change before the result goes out?* If the answer is “nothing,” move the approval point earlier or give them a real stop button. [Source: Schneider et al., 2026](https://arxiv.org/abs/2611.24609). ^[raw/articles/align-control-accountability-2611.24609.md]
+
+**Five-minute practice:** Write one line for each of *drafts*, *checks*, *approves*, and *fixes after release* on a non-sensitive sample communication. Ask the named approver to catch one deliberately inserted mistake. If they cannot find and fix it, the handoff isn't ready. Sinha and Pandey's accounting-system analysis offers a related warning: quick reviews and few edits can look like expertise even when outcome checks reveal otherwise. Do not infer an individual's competence from speed or clicks alone. [Source: Sinha & Pandey, 2026](https://arxiv.org/abs/2611.24932). ^[raw/articles/reviewer-value-calibration-2611.24932.md]
 
 ## Related Pages
 
