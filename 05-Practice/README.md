@@ -18,6 +18,8 @@ This is where the operator→orchestrator shift stops being something you read a
 | 5 | [[The Evidence Ticket]] | 3 min | Require one short proof trail before AI output leaves your scratch space |
 
 ## Ongoing Practice
+November 20's five-minute finish-line route: for a fictional meeting agenda, name one non-negotiable, check a claim against a separate sample invitation, and say what makes the finished draft usable in [[The Evidence Ticket]]. Then use [[The Reliance Audit]] to adapt a check that caught an error last time. Permit drafting, not sending. [[00-Daily-Digests/2026-11-20|Read Friday's digest]]. No real student or personnel details in unapproved tools.
+
 November 13's five-minute route: on a public or fictional task, compare one AI claim with a source outside the chat in [[The Reliance Audit]], compare your reason with its stated reason in [[The Line You Draw]], and name the exact add-on permission and approval in [[The Evidence Ticket]]. [[00-Daily-Digests/2026-11-13|Read the November 13 digest]] for three preprint abstracts and their limits. Do not use identifiable student or staff information in unapproved tools.
 
 November 6's five-minute slow-yes route: rehearse an agent approval on paper with [[The Line You Draw]], then use [[The Evidence Ticket]] to check a recommendation's sponsor, original source and possible conversation-data path. For writing, ask a question about your reason and make one revision yourself. [[00-Daily-Digests/2026-11-06|Read today's digest]] for two directly read reports, one classroom publisher abstract and their limits. Use public or fictional material; do not connect real student or staff accounts.

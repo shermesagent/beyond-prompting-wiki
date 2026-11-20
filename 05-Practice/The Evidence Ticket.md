@@ -1,7 +1,7 @@
 ---
 title: The Evidence Ticket
 created: 2026-09-18
-updated: 2026-11-15
+updated: 2026-11-20
 type: practice
 tags: [practice, orchestrator, workflow]
 confidence: high
@@ -27,6 +27,8 @@ sources:
   - raw/articles/agent-skill-authorization-2611.15170.md
   - raw/articles/evidence-linked-memory-2611.14320.md
   - raw/articles/pluralistic-agents-public-input-2611.16028.md
+  - raw/articles/everydaybench-outcome-checks-2611.25146.md
+  - raw/articles/authorization-bounded-lab-agent-2611.25043.md
 ---
 
 # The Evidence Ticket
@@ -169,6 +171,12 @@ If the workflow uses an agent add-on, add `PERMISSION: what it can read, change 
 When a useful correction becomes a standing AI instruction, add `ORIGINAL CASE:`, `WHY IT WORKED:`, `EXCEPTION:`, and `RECHECKED ON:` to your evidence ticket. The WikiTrace preprint reports that linking AI memory to the original task record reduced failures caused by misleading old lessons in five agent benchmarks; your local rule still needs its own test. [Lee et al., publisher abstract](https://arxiv.org/abs/2611.14320). Try a safely changed fictional case before reusing the rule; see [[The Jagged Frontier]].
 
 If an AI is summarizing a person's views, add `PARTICIPATION CHOICE: direct / represented / decline` and `PERSON APPROVED THE SUMMARY: yes / no`. A preregistered 746-person policy study found that most participants still preferred to participate directly even when agent representatives were available; it did not test your workplace or school. [Anthis et al., publisher abstract](https://arxiv.org/abs/2611.16028). Offer the direct option and keep the refusal path visible with [[The Preference Check]]. Never paste private student or staff input into an unapproved AI service.
+
+## The Finish-Line Check (November 20)
+
+Before approving a public-material AI draft, write three lines on the ticket: `MUST INCLUDE: [one non-negotiable] / CHECK AGAINST: [an independent source or test] / READY FOR A READER WHEN: [one quality sign]`. Then inspect the *finished artifact* against all three. EverydayBench tested digital tasks using preset constraints, live-source checks, and quality criteria; it is a preprint benchmark, not proof this ticket improves your workplace outcomes. [Huang and colleagues, publisher abstract](https://arxiv.org/abs/2611.25146).
+
+Add `ALLOWED ACTION: inspect / draft / submit` and `WHO CAN STOP IT:` before an automated next step. A laboratory-agent demonstration used human-defined campaign limits and auditable, authorized state changes; that specific result does not establish that an AI can safely send school messages or change records without approval. [Liu and colleagues, publisher abstract](https://arxiv.org/abs/2611.25043). Try this on a fictional meeting agenda: allow drafting, but require a person to approve sending. Compare [[The Line You Draw]] and [[The Reliance Audit]].
 
 ## Related Pages
 

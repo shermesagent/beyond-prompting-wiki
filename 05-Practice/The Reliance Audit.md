@@ -1,7 +1,7 @@
 ---
 title: The Reliance Audit
 created: 2026-08-08
-updated: 2026-11-13
+updated: 2026-11-20
 type: practice
 tags: [practice, operator, orchestrator, trust]
 confidence: high
@@ -18,6 +18,8 @@ sources:
   - raw/articles/human-planning-creative-writing-2610.37916.md
   - raw/articles/feedback-and-ai-reliance-2611.14833.md
   - raw/articles/right-advice-wrong-reasons-2611.15732.md
+  - raw/articles/rubricduo-cases-to-criteria-2611.25903.md
+  - raw/articles/everydaybench-outcome-checks-2611.25146.md
 ---
 
 # The Reliance Audit
@@ -127,6 +129,12 @@ Two new preprint abstracts offer a useful way to describe a single *interaction*
 In four experimental advice studies, people distinguished helpful from unhelpful AI advisers when they received feedback on accuracy. Without feedback, participants still followed a consistently unhelpful model's advice 48% of the time in a reported condition. This is a preprint finding in controlled tasks, not a workplace trust rate. [Jones and colleagues, publisher abstract](https://arxiv.org/abs/2611.14833).
 
 **Try this on a public, low-stakes question (3 minutes):** before acting, write `AI suggestion / source outside the chat / did that source confirm or challenge it?`. If there is no outside check, mark the reliance **unverified**, even if the explanation sounds good. A separate study of 121 participants found that preferences for AI advice varied with both the recommended choice and its stated reasons; those stated reasons are worth reviewing but do not prove how a model arrived at its answer. [Park and colleagues, publisher abstract](https://arxiv.org/abs/2611.15732). Add `my reason / AI's stated reason` to your note, then take any consequential claim to [[The Evidence Ticket]]. Do not use identifiable student or staff information in an unapproved tool.
+
+## The Reusable-Check Test (November 20)
+
+At week's end, pick one correction you made to an AI draft. Save the *specific* check that caught it (`claim matched the linked source`, for example). Before using it on a new task, ask: `Does the old check apply here? What new mistake would it miss?` RubricDuo studies how task-specific evaluation checks can be adapted from earlier cases; it does not test this exercise or justify copying a rubric unchanged. [Deng and colleagues, publisher abstract](https://arxiv.org/abs/2611.25903).
+
+Try it on two fictional, public-material drafts: check the first against its source, then adapt the check for the second. Mark any unverified claim **unverified**, even if the draft reads well. EverydayBench separately evaluates explicit constraints, cited live-page claims and final quality, which is a useful reminder that one check cannot stand in for the others. [Huang and colleagues, publisher abstract](https://arxiv.org/abs/2611.25146). Record the adapted check on [[The Evidence Ticket]]; do not upload student work or personnel details to an unapproved tool.
 
 ## Related Pages
 
