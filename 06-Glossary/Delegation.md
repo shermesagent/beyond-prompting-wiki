@@ -1,10 +1,10 @@
 ---
 title: Delegation
 created: 2026-06-21
-updated: 2026-10-10
+updated: 2026-11-21
 type: concept
 tags: [glossary, orchestrator, concept]
-sources: [raw/articles/wired-publishers-staff-ai-permission-2026-10-09.md]
+sources: [raw/articles/wired-publishers-staff-ai-permission-2026-10-09.md, raw/articles/ai-induced-social-erosion-2611.25269.md, raw/articles/ai-deactivation-social-interaction-2611.25263.md]
 confidence: medium
 ---
 # Delegation
@@ -63,6 +63,14 @@ Try this on an ordinary draft: ask for two versions, name one factual check you 
 [WIRED's October 9 reporting](https://www.wired.com/story/book-publishers-are-quietly-using-more-ai-staff-are-revolting/) describes publishers using AI for publicity copy and other tasks, while interviewed workers and agents raised concerns about unpublished manuscripts, disclosure and pressure to use tools. The accounts are interviews, not a survey of all publishers; the article also carries company responses about approved tools and boundaries. Its useful lesson is precise: **permission to open a tool is not permission to upload someone else's material or release its output.** ^[raw/articles/wired-publishers-staff-ai-permission-2026-10-09.md]
 
 Before delegating a public, low-stakes draft, fill three lines: `TOOL: approved for this task? / INPUT: whose material may enter it? / OUTPUT: who approves sharing?` If any line is unclear, keep the work off the tool or in a non-sensitive sample until the owner answers. For school work, do not upload identifiable student or personnel material to an unapproved service; district data rules and consent requirements still apply. This is a [[Delegation Regret]] boundary and an [[Oversight]] checkpoint, not a better-prompt trick.
+
+### Delegate the draft, not every conversation
+
+Delegation can save time without replacing the people who help you think. In an online study, 248 knowledge workers considered imaginary work scenarios. They reported less intention to ask colleagues for help when AI was available, especially for brainstorming; visible AI use was linked with more intended help-seeking. These are reported intentions, **not observed changes in real teams**. ^[raw/articles/ai-induced-social-erosion-2611.25269.md]
+
+A separate experiment assigned active ChatGPT users either fourteen days without AI or a one-day comparison period. The two-week group reported less loneliness and more in-person interaction during the intervention. That does not show that every workplace should turn off AI, but it is a reason to notice which human conversations a convenient tool may quietly displace. ^[raw/articles/ai-deactivation-social-interaction-2611.25263.md]
+
+**Try this:** with a public or fictional planning task, let AI draft two options; then ask one colleague which option misses something important. Record `AI helped with / a person helped with / decision I kept`. If nobody is available, schedule a later check rather than treating the draft as a team's judgment. [[Human in the Loop]] names the real person; [[Orchestration]] makes the check part of the workflow. Never put identifiable student or personnel details into an unapproved service.
 
 ## Related Pages
 

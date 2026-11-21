@@ -21,6 +21,8 @@ The concepts here are based on real research — papers, case studies, practitio
 
 ## Start Here (Newcomer Path)
 
+**November 21 glossary route:** [[Delegation]] keeps a colleague question in the handoff; [[Human in the Loop]] makes space for human challenge; [[06-Glossary/Trust Calibration|Trust Calibration]] distinguishes AI assistance from personal support. [[00-Daily-Digests/2026-11-21|Read Saturday's digest]]. Practice with fictional or public material only.
+
 **November 20 practice route:** [[The Evidence Ticket]] checks the finished result and names the action AI cannot take; [[The Reliance Audit]] tests whether a past review check fits a new task. [[00-Daily-Digests/2026-11-20|Read Friday's digest]]. Practice on fictional or public materials only.
 
 **November 19 barriers route:** [[04-Barriers-and-Bridges/Trust Calibration|Trust Calibration]] asks what a review actually catches; [[No One to Blame]] checks whether the person accountable can stop or correct a release. [[00-Daily-Digests/2026-11-19|Read Thursday's digest]]. Use non-sensitive practice drafts, not student or personnel records.
@@ -79,7 +81,7 @@ Plain-language definitions of every key term.
 
 ### 00-Daily-Digests
 Daily curated research digests — what we found, what it means, and how to use it.
-→ [[00-Daily-Digests/2026-11-17|Today's Digest]] · [[00-Daily-Digests/2026-11-16|Previous Digest]]
+→ [[00-Daily-Digests/2026-11-21|Today's Digest]] · [[00-Daily-Digests/2026-11-20|Previous Digest]]
 
 ---
 
@@ -99,6 +101,7 @@ _Last 7 days of activity._
 
 | Date | What Changed |
 |------|-------------|
+| 2026-11-21 | Day 6 glossary: three preprint abstracts examine help-seeking, social interaction and simulated chatbot attachment. [[Delegation]], [[Human in the Loop]] and [[06-Glossary/Trust Calibration|Trust Calibration]] gained human-connection checks. [[00-Daily-Digests/2026-11-21|Read the digest]]. |
 | 2026-11-20 | Day 5 practice: three preprint abstracts inform a finish-line check, reusable review criterion and explicit approval boundary. [[The Evidence Ticket]] and [[The Reliance Audit]] updated. [[00-Daily-Digests/2026-11-20|Read the digest]]. |
 | 2026-11-19 | Day 4 barriers: three research abstracts separate AI confidence from human learning, review speed from review quality, and responsibility from actual control. [[04-Barriers-and-Bridges/Trust Calibration|Trust Calibration]] and [[No One to Blame]] gained practice checks. [[00-Daily-Digests/2026-11-19|Read the digest]]. |
 | 2026-11-18 | Day 3 real-world route: [[The School District Shift]] and [[Small Business Automation]] gained boundaries for participation and permission. [[00-Daily-Digests/2026-11-18|Read the digest]]. |

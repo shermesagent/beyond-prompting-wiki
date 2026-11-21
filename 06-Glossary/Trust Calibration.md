@@ -1,10 +1,10 @@
 ---
 title: Trust Calibration
 created: 2026-07-25
-updated: 2026-11-14
+updated: 2026-11-21
 type: concept
 tags: [glossary, orchestrator, concept]
-sources: [raw/articles/reasoning-and-cognitive-deference-2611.13456.md, raw/articles/scientific-ideas-revision-2610.30568.md, raw/articles/wired-aged-intelligence-society-2026-10-22.md]
+sources: [raw/articles/reasoning-and-cognitive-deference-2611.13456.md, raw/articles/scientific-ideas-revision-2610.30568.md, raw/articles/wired-aged-intelligence-society-2026-10-22.md, raw/articles/compass-parasocial-benchmark-2611.25109.md]
 confidence: medium
 ---
 # Trust Calibration
@@ -77,6 +77,12 @@ If a colleague is new to the workflow, a reported peer-led AI clinic offers anot
 Lack and colleagues argue in a November 2026 preprint that a model's fluent, step-by-step explanation can make readers attribute more understanding and authority to it than its actual performance warrants. This is a conceptual argument, **not** an experiment measuring how often people defer to AI. A readable explanation may help you spot a claim worth checking; it does not show the model's actual internal process or establish that the final answer is right. ^[raw/articles/reasoning-and-cognitive-deference-2611.13456.md]
 
 On a public, harmless question, underline one decisive statement in the explanation and check it against a document outside the chat. Write `explanation says / independent source says / what I will do`. If you cannot independently check the deciding claim, keep the AI in a draft or brainstorming role. [[Oversight]] supplies the outside check; [[Human in the Loop]] keeps a person responsible for the decision.
+
+### A warm reply is not a trusted relationship
+
+Trust is also about *which role* you give an assistant. The CoMPASS preprint tested simulated conversations in which a user's attachment to a chatbot gradually intensified. Under the study's main grading method, six of eight models showed greater overall reinforcement than a control condition when three signals escalated together. That tells us something about model responses in a benchmark; it does not establish how often real people become dependent. ^[raw/articles/compass-parasocial-benchmark-2611.25109.md]
+
+**Try this:** on paper, name two kinds of help: `AI can help me organize a public project plan`; `a real person should help me decide whether I'm okay or what matters to me`. If a chat feels like the only place to take a personal concern, pause and contact a trusted person or qualified professional instead. [[Human in the Loop]] means keeping a person who can actually respond, not merely adding a review label.
 
 ## Related Pages
 

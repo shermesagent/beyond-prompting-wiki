@@ -30,6 +30,8 @@ The [[00-Daily-Digests/2026-11-07|November 7 digest]] adds a hidden-human check:
 
 The [[00-Daily-Digests/2026-11-14|November 14 digest]] gives three everyday checks: [[Oversight]] asks which failure was missed; [[Human in the Loop]] asks who can question and stop the workflow; [[06-Glossary/Trust Calibration|Trust Calibration]] asks whether a convincing explanation has independent support. Use a public document for the rehearsal, never private records.
 
+The [[00-Daily-Digests/2026-11-21|November 21 digest]] asks whether a fast AI draft quietly replaces a needed human conversation. [[Delegation]] keeps a colleague question in the handoff; [[Human in the Loop]] includes a real person beyond an approval button; [[06-Glossary/Trust Calibration|Trust Calibration]] does not mistake a warm reply for personal support. Try the fictional agenda exercise.
+
 ## Glossary Entries
 
 | Term | What It Answers | For |

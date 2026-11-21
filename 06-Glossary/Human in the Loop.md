@@ -1,13 +1,15 @@
 ---
 title: Human in the Loop
 created: 2026-06-21
-updated: 2026-11-14
+updated: 2026-11-21
 type: concept
 tags: [glossary, orchestrator, concept]
 sources:
   - raw/articles/wired-turkle-human-loop-2026-10-16.md
   - raw/articles/wired-caregiver-apps-ai-2026-11-07.md
   - raw/articles/multi-agent-deliberation-human-decisions-2611.14901.md
+  - raw/articles/ai-induced-social-erosion-2611.25269.md
+  - raw/articles/compass-parasocial-benchmark-2611.25109.md
 confidence: medium
 ---
 
@@ -87,6 +89,14 @@ The loop has an **update owner**, not just an approver. On paper with fictional 
 Two user studies of AI-assisted fact-checking and answer verification found that structured back-and-forth helped more than a single round of advice. Adding a second AI helped in some circumstances, but the authors found multi-round exchange was the main driver; a "devil's advocate" persona reduced accuracy and user experience in their tests. Active human participation improved accuracy in one task but also increased frustration. Those findings are specific to the studied tasks, not a reason to add extra agents to every workflow. ^[raw/articles/multi-agent-deliberation-human-decisions-2611.14901.md]
 
 Try a public-document rehearsal: have one AI draft an answer, then ask a follow-up question about a single checkable claim; *you* compare it with the source. Log `question / source / correction / who decides`. If the extra round adds noise without improving the check, stop there. The human's job is to ask and decide, not merely witness a conversation among tools. See [[Oversight]] and [[Trust Calibration]].
+
+### Keep a real person in the conversation
+
+A review button is only one kind of human presence. In a scenario study, workers said they would be less likely to seek help from colleagues when AI helped with work, particularly brainstorming. The study measured *what people said they would do*, not whether real teams lost contact. Still, it gives a useful design question: did your workflow leave space for another person to challenge the idea? ^[raw/articles/ai-induced-social-erosion-2611.25269.md]
+
+Another preprint tested eight conversational models in extended, simulated chats about growing emotional attachment to AI. Under the authors' main grading method, six showed more overall reinforcement when three attachment signals escalated together than in a control condition. This is a **model benchmark, not a study of users' mental health**. For personal support or a consequential decision, an assistant should not be the only voice. ^[raw/articles/compass-parasocial-benchmark-2611.25109.md]
+
+**Try this:** on a fictional project brief, ask AI for a draft, then put `who else should see this?` beside one important claim. Ask a colleague to question that claim before release. For sensitive student, health or personnel matters, use approved channels and real qualified people; don't use a public chatbot as a substitute. See [[Delegation]] for the handoff and [[Trust Calibration]] for when to seek outside evidence.
 
 ## Related Pages
 
